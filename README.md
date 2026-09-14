@@ -81,9 +81,14 @@ Knjiga se razvija iz izlaganja **„Elements of Cognition in Complex Language"**
 
 ## Licenca i citiranje
 
-Licenca: **❓ nije odabrana** (razmatra se open access kroz FFRI Biblioteku; do odluke sva prava pridržana).
-Predloženi način citiranja (radna verzija):
+**Licenca: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)** — *Attribution-NonCommercial 4.0 International* (puni tekst: [`LICENSE`](LICENSE)).
 
-> Perak, B. (2026). *Razine i entiteti — ontologija komunikacije u doba umjetne inteligencije* (radni rukopis v0.1). Filozofski fakultet u Rijeci. https://github.com/bperak/OntologijaKomunikacijeUDobaAI
+Ukratko: knjiga se može **slobodno čitati, preuzimati, dijeliti i prerađivati u nekomercijalne svrhe — ali je navođenje autorstva obvezno**, a komercijalna uporaba (prodaja, naplaćena izdanja) zahtijeva pisanu suglasnost autora. Objava pod vlastitim imenom ili bez reference nije dopuštena.
+
+**Citiranje (APA 7):**
+> Perak, B. (2026). *Razine i entiteti: ontologija komunikacije u doba umjetne inteligencije* (radni rukopis v0.1). Filozofski fakultet u Rijeci. https://github.com/bperak/OntologijaKomunikacijeUDobaAI
+
+**Svi formati citiranja** — APA 7 · Chicago · MLA · BibTeX · pojedinačno poglavlje · englesko izdanje, te **kako citirati ostale knjige autora** (2025, *Data Science u kulturi*) i figure/podatke/kod: **[`docs/CITIRANJE.md`](docs/CITIRANJE.md)**.
+Strojno čitljiv zapis za alate: [`CITATION.cff`](CITATION.cff).
 
 Kontakt: **bperak@uniri.hr**

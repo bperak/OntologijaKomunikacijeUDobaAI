@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "Ako koristite ovaj rad (tekst, figure, podatke ili kod), citirajte ga kako slijedi. Licenca zahtijeva navođenje autorstva."
+title: "Razine i entiteti: ontologija komunikacije u doba umjetne inteligencije"
+abstract: >-
+  Knjiga postavlja pitanje gdje u ontološkom smislu stoje jezik, komunikacija i veliki jezični modeli.
+  Brani tri tvrdnje: (1) ontološke razine (OMLCC: tri domene, šesnaest razina) su operativan okvir
+  definiran relacijskim shemama i mogu se čitati iz podataka; (2) komunikacija je jedna od tih razina
+  (razina 14) i ujedno metoda mjerenja; (3) umjetna inteligencija nije nova razina, nego novi entitet
+  koji ulazi u postojeće razine i time mijenja uvjete komunikacije.
+type: book
+authors:
+  - family-names: "Perak"
+    given-names: "Benedikt"
+    orcid: "https://orcid.org/0000-0003-4177-5307"
+    affiliation: "Filozofski fakultet, Sveučilište u Rijeci"
+    email: "bperak@uniri.hr"
+year: 2026
+version: "0.1"
+language: "hrv"
+license: CC-BY-NC-4.0
+license-url: "https://creativecommons.org/licenses/by-nc/4.0/"
+repository-code: "https://github.com/bperak/OntologijaKomunikacijeUDobaAI"
+url: "https://github.com/bperak/OntologijaKomunikacijeUDobaAI"
+keywords:
+  - ontološke razine
+  - emergencija
+  - OMLCC
+  - komunikacija
+  - veliki jezični modeli
+  - umjetna inteligencija
+  - semantičke mreže
+  - kulturalna složenost
+preferred-citation:
+  type: book
+  title: "Razine i entiteti: ontologija komunikacije u doba umjetne inteligencije"
+  year: 2026
+  authors:
+    - family-names: "Perak"
+      given-names: "Benedikt"
+      orcid: "https://orcid.org/0000-0003-4177-5307"
+  publisher:
+    name: "Filozofski fakultet u Rijeci"
+    city: "Rijeka"
+  version: "0.1 (radni rukopis)"
+  url: "https://github.com/bperak/OntologijaKomunikacijeUDobaAI"
