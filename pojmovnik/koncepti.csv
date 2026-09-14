@@ -1,0 +1,79 @@
+id,pojam,knjiga,poglavlje,uloga
+sustav,sustav,razine,1,kanonski
+sustav,sustav,kom2025,2,pojavljuje se
+sustav,sustav,dsk,1,pojavljuje se
+organizacija,organizacija,razine,1,kanonski
+organizacija,organizacija,razine,3,pojavljuje se
+organizacija,organizacija,dsk,1,pojavljuje se
+mreza,mreža,razine,3,kanonski
+mreza,mreža,razine,6,pojavljuje se
+mreza,mreža,dsk,9,pojavljuje se
+nova-cjelina,nova cjelina,razine,3,kanonski
+nova-cjelina,nova cjelina,razine,12,pojavljuje se
+nova-cjelina,nova cjelina,razine,15,pojavljuje se
+holon,holon,razine,1,kanonski
+holon,holon,razine,2,pojavljuje se
+razina,razina,razine,1,kanonski
+razina,razina,razine,2,pojavljuje se
+razina,razina,razine,3,pojavljuje se
+razina,razina,kom2025,3,pojavljuje se
+slaba-emergencija,slaba emergencija,razine,1,kanonski
+slaba-emergencija,slaba emergencija,razine,3,pojavljuje se
+jaka-emergencija,jaka emergencija,razine,1,kanonski
+jaka-emergencija,jaka emergencija,razine,16,pojavljuje se
+integrativna-razina,integrativna razina,razine,1,kanonski
+integrativna-razina,integrativna razina,razine,2,pojavljuje se
+relacijska-shema,relacijska shema,razine,2,kanonski
+relacijska-shema,relacijska shema,razine,3,pojavljuje se
+relacijska-shema,relacijska shema,razine,7,pojavljuje se
+omlcc,OMLCC (ontološki model razina kulturne složenosti),razine,2,kanonski
+omlcc,OMLCC (ontološki model razina kulturne složenosti),razine,3,pojavljuje se
+omlcc,OMLCC (ontološki model razina kulturne složenosti),kom2025,3,pojavljuje se
+drustvena-domena,društvena domena,razine,2,kanonski
+drustvena-domena,društvena domena,razine,8,pojavljuje se
+drustvena-domena,društvena domena,razine,14,pojavljuje se
+konceptualna-mreza,konceptualna mreža,razine,6,kanonski
+konceptualna-mreza,konceptualna mreža,dsk,9,pojavljuje se
+konceptualna-mreza,konceptualna mreža,razine,3,pojavljuje se
+vektorski-prostor,vektorski prostor,razine,9,kanonski
+vektorski-prostor,vektorski prostor,dsk,9,pojavljuje se
+vektorski-prostor,vektorski prostor,kom2025,4,pojavljuje se
+ugradivanje,ugrađivanje (embedding),razine,9,kanonski
+ugradivanje,ugrađivanje (embedding),dsk,9,pojavljuje se
+ugradivanje,ugrađivanje (embedding),kom2025,4,pojavljuje se
+kontekstni-prozor,kontekstni prozor,razine,10,kanonski
+kontekstni-prozor,kontekstni prozor,kom2025,6,pojavljuje se
+kontekstni-prozor,kontekstni prozor,dsk,8,pojavljuje se
+procesiranje,mišljenje kao procesiranje,razine,11,kanonski
+procesiranje,mišljenje kao procesiranje,kom2025,6,pojavljuje se
+komunikacijski-cin,komunikacijski čin,razine,7,kanonski
+komunikacijski-cin,komunikacijski čin,kom2025,1,pojavljuje se
+komunikacijski-cin,komunikacijski čin,kom2025,8,pojavljuje se
+statusna-funkcija,statusna funkcija,razine,8,kanonski
+statusna-funkcija,statusna funkcija,razine,7,pojavljuje se
+statusna-funkcija,statusna funkcija,kom2025,8,pojavljuje se
+kolektivna-intencionalnost,kolektivna intencionalnost,razine,7,kanonski
+kolektivna-intencionalnost,kolektivna intencionalnost,razine,8,pojavljuje se
+kolektivna-intencionalnost,kolektivna intencionalnost,razine,15,pojavljuje se
+zajednicki-artefakt,zajednički artefakt,razine,7,kanonski
+zajednicki-artefakt,zajednički artefakt,razine,13,pojavljuje se
+konvencija,konvencija,razine,7,kanonski
+konvencija,konvencija,razine,13,pojavljuje se
+konvencija,konvencija,razine,14,pojavljuje se
+entitet,entitet,razine,12,kanonski
+entitet,entitet,razine,2,pojavljuje se
+entitet,entitet,razine,3,pojavljuje se
+agent,agent,razine,12,kanonski
+agent,agent,razine,13,pojavljuje se
+agent,agent,razine,14,pojavljuje se
+protokol,"protokol (MCP, A2A, AP2)",razine,12,kanonski
+protokol,"protokol (MCP, A2A, AP2)",kom2025,7,pojavljuje se
+kulturni-model,kulturni model,razine,8,kanonski
+kulturni-model,kulturni model,razine,15,pojavljuje se
+kulturni-model,kulturni model,kom2025,8,pojavljuje se
+artefakt-mjere,artefakt mjere,razine,1,kanonski
+artefakt-mjere,artefakt mjere,razine,4,pojavljuje se
+artefakt-mjere,artefakt mjere,dsk,5,pojavljuje se
+falsifikacijski-okvir,falsifikacijski okvir,razine,16,kanonski
+falsifikacijski-okvir,falsifikacijski okvir,razine,1,pojavljuje se
+falsifikacijski-okvir,falsifikacijski okvir,razine,4,pojavljuje se

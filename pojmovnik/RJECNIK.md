@@ -1,0 +1,42 @@
+<!-- GENERIRANO skriptom kod/pojmovnik_build.py iz pojmovnik/koncepti.yaml — ne uređivati ručno. -->
+
+# Rječnik pojmova (zajednički za tri knjige)
+
+Verzija registra: **1.0** · datum: 2026-09-14 · pojmova: **28**
+
+Pojmovi su poredani abecedno. *Kanonski izvor* označava mjesto na kojem je pojam izložen najpotpunije; ostale knjige upućuju na njega umjesto da ga objašnjavaju iznova.
+
+| pojam (HR) | pojam (EN) | definicija | kanonski izvor | pojavljuje se još u |
+|---|---|---|---|---|
+| **agent** | agent | Entitet u sistemskoj ulozi — odgovara na pitanje ŠTO radi (djeluje, pamti, dohvaća, orkestrira). | Razine i entiteti (ova knjiga), pogl. 12 | Razine i entiteti (ova knjiga), pogl. 13, Razine i entiteti (ova knjiga), pogl. 14 |
+| **artefakt mjere** | measurement artefact | Pojava koja se u podacima čini kao skok, a nastaje zbog nelinearnog praga mjere; mjera je dio tvrdnje, ne dodatak. | Razine i entiteti (ova knjiga), pogl. 1 | Razine i entiteti (ova knjiga), pogl. 4, Data Science u kulturi (u izradi), pogl. 5 |
+| **društvena domena** | social domain | Područje institucionalnih činjenica (Searle): razine 12–16 od identiteta do kulturnog modela. | Razine i entiteti (ova knjiga), pogl. 2 | Razine i entiteti (ova knjiga), pogl. 8, Razine i entiteti (ova knjiga), pogl. 14 |
+| **entitet** | entity | Cjelina s vlastitim svojstvima koja zauzima poziciju u sustavu — odgovara na pitanje GDJE je. | Razine i entiteti (ova knjiga), pogl. 12 | Razine i entiteti (ova knjiga), pogl. 2, Razine i entiteti (ova knjiga), pogl. 3 |
+| **falsifikacijski okvir** | falsification framework | Odjeljak na kraju svakog poglavlja koji navodi koje bi tvrdnje i koji rezultat oborili; teorija koja ne može pasti nije teorija. | Razine i entiteti (ova knjiga), pogl. 16 | Razine i entiteti (ova knjiga), pogl. 1, Razine i entiteti (ova knjiga), pogl. 4 |
+| **holon** | holon | Biće koje je istovremeno cjelina i dio (Koestler 1967). | Razine i entiteti (ova knjiga), pogl. 1 | Razine i entiteti (ova knjiga), pogl. 2 |
+| **integrativna razina** | integrative level | Razina na kojoj niže jedinice postaju dijelovi više cjeline i time stječu nove relacije (Novikoff 1945; Feibleman 1954). | Razine i entiteti (ova knjiga), pogl. 1 | Razine i entiteti (ova knjiga), pogl. 2 |
+| **jaka emergencija** | strong emergence | Makrosvojstvo nije deducibilno ni u načelu iz istina niže domene (Chalmers 2006); ova mreža knjiga to ne tvrdi. | Razine i entiteti (ova knjiga), pogl. 1 | Razine i entiteti (ova knjiga), pogl. 16 |
+| **kolektivna intencionalnost** | collective intentionality | Zajedničko prihvaćanje koje nosi institucionalne činjenice; obveza traži priznanje, ne samo ponašanje. | Razine i entiteti (ova knjiga), pogl. 7 | Razine i entiteti (ova knjiga), pogl. 8, Razine i entiteti (ova knjiga), pogl. 15 |
+| **komunikacijski čin** | communicative act | Društveni čin koji zahtijeva prepoznatu namjeru, zajednički artefakt, konvenciju i obvezu; time pripada razini 14, a ne razini prijenosa informacije. | Razine i entiteti (ova knjiga), pogl. 7 | Komunikacija u doba umjetne inteligencije (2025), pogl. 1, Komunikacija u doba umjetne inteligencije (2025), pogl. 8 |
+| **konceptualna mreža** | conceptual network | Graf u kojem su čvorovi jezične jedinice (riječi, konstrukcije), a veze mjere asocijaciju iz uporabe; mreža prikazuje strukturu uporabe, ne 'spremnik' značenja. | Razine i entiteti (ova knjiga), pogl. 6 | Data Science u kulturi (u izradi), pogl. 9, Razine i entiteti (ova knjiga), pogl. 3 |
+| **kontekstni prozor** | context window | Količina teksta koju model istovremeno uzima u obzir; mjeri se u tokenima i nije isto što i sposobnost uporabe tog teksta. | Razine i entiteti (ova knjiga), pogl. 10 | Komunikacija u doba umjetne inteligencije (2025), pogl. 6, Data Science u kulturi (u izradi), pogl. 8 |
+| **konvencija** | convention | Stabilizirani obrazac uporabe koji sudionici priznaju kao obvezujući; razlikuje se od pukog ponavljanja. | Razine i entiteti (ova knjiga), pogl. 7 | Razine i entiteti (ova knjiga), pogl. 13, Razine i entiteti (ova knjiga), pogl. 14 |
+| **kulturni model** | cultural model | Naslijeđeni obrasci tumačenja koji se predaju u zajednici; razina 16. | Razine i entiteti (ova knjiga), pogl. 8 | Razine i entiteti (ova knjiga), pogl. 15, Komunikacija u doba umjetne inteligencije (2025), pogl. 8 |
+| **mišljenje kao procesiranje** | thinking as processing | Kontinuirano unaprjeđenje konteksta kroz lance koraka; opisuje rezoniranje bez tvrdnje o fenomenalnom iskustvu. | Razine i entiteti (ova knjiga), pogl. 11 | Komunikacija u doba umjetne inteligencije (2025), pogl. 6 |
+| **mreža** | network | Skup relacija među dijelovima; nositelj novih svojstava koja pojedini dio ne posjeduje. U jeziku: graf jedinica povezanih mjerom asocijacije. | Razine i entiteti (ova knjiga), pogl. 3 | Razine i entiteti (ova knjiga), pogl. 6, Data Science u kulturi (u izradi), pogl. 9 |
+| **nova cjelina** | new whole (emergent entity) | Trenutak kad skup relacija postaje jedan nositelj svojstva; nova cjelina je novi entitet u sustavu, a ne nova razina. | Razine i entiteti (ova knjiga), pogl. 3 | Razine i entiteti (ova knjiga), pogl. 12, Razine i entiteti (ova knjiga), pogl. 15 |
+| **OMLCC (ontološki model razina kulturne složenosti)** | OMLCC (Ontological Model of Levels of Cultural Complexity) | Okvir od tri domene i šesnaest razina ontološke složenosti; domene prema Searleu (1995; 2010), razrada razina autorska (Perak 2018; 2019). | Razine i entiteti (ova knjiga), pogl. 2 | Razine i entiteti (ova knjiga), pogl. 3, Komunikacija u doba umjetne inteligencije (2025), pogl. 3 |
+| **organizacija** | organisation | Uzorak relacija među dijelovima, neovisan o tome koji ga dijelovi trenutačno nose. | Razine i entiteti (ova knjiga), pogl. 1 | Razine i entiteti (ova knjiga), pogl. 3, Data Science u kulturi (u izradi), pogl. 1 |
+| **protokol (MCP, A2A, AP2)** | protocol (MCP, A2A, AP2) | Dogovoreni način razmjene između agenata i alata; komunikacijska infrastruktura agentskih sustava. | Razine i entiteti (ova knjiga), pogl. 12 | Komunikacija u doba umjetne inteligencije (2025), pogl. 7 |
+| **razina** | level | Skup entiteta i relacija kod kojih vrijedi isti tip svojstava i isti tip zakona sastavljanja; svojstvo je uvijek relativno prema razini organizacije. | Razine i entiteti (ova knjiga), pogl. 1 | Razine i entiteti (ova knjiga), pogl. 2, Razine i entiteti (ova knjiga), pogl. 3, Komunikacija u doba umjetne inteligencije (2025), pogl. 3 |
+| **relacijska shema** | relational schema | Zapis razine kao tipa entiteta, tipa relacije i tipa svojstva; ono što razinu čini provjerljivom. | Razine i entiteti (ova knjiga), pogl. 2 | Razine i entiteti (ova knjiga), pogl. 3, Razine i entiteti (ova knjiga), pogl. 7 |
+| **slaba emergencija** | weak emergence | Makrostanje je izvedivo iz mikrodinamike, ali samo simulacijom (Bedau 1997). | Razine i entiteti (ova knjiga), pogl. 1 | Razine i entiteti (ova knjiga), pogl. 3 |
+| **statusna funkcija** | status function | X broji kao Y u kontekstu C (Searle 1995); mehanizam kojim informacija postaje obveza. | Razine i entiteti (ova knjiga), pogl. 8 | Razine i entiteti (ova knjiga), pogl. 7, Komunikacija u doba umjetne inteligencije (2025), pogl. 8 |
+| **sustav** | system | Skup elemenata u interakciji; cjelina čije ponašanje nije zbroj ponašanja dijelova. | Razine i entiteti (ova knjiga), pogl. 1 | Komunikacija u doba umjetne inteligencije (2025), pogl. 2, Data Science u kulturi (u izradi), pogl. 1 |
+| **ugrađivanje (embedding)** | embedding | Preslikavanje jezične jedinice u vektor; kontekstualno ugrađivanje daje različit vektor u različitom kontekstu. | Razine i entiteti (ova knjiga), pogl. 9 | Data Science u kulturi (u izradi), pogl. 9, Komunikacija u doba umjetne inteligencije (2025), pogl. 4 |
+| **vektorski prostor** | vector space | Prostor u kojem su jezične jedinice točke, a blizina odražava sličnost uporabe. | Razine i entiteti (ova knjiga), pogl. 9 | Data Science u kulturi (u izradi), pogl. 9, Komunikacija u doba umjetne inteligencije (2025), pogl. 4 |
+| **zajednički artefakt** | shared artefact | Materijalni nositelj koji sudionici dijele i na koji se zajedno referiraju (Clark & Chalmers 1998; Hutchins 1995). | Razine i entiteti (ova knjiga), pogl. 7 | Razine i entiteti (ova knjiga), pogl. 13 |
+
+## Pojmovi koji se u ovoj knjizi ne smiju upotrebljavati izvan dogovorenog značenja
+
+- **razina** — Riječ 'razina' u ovoj mreži nikad ne označava model.

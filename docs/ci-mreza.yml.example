@@ -1,0 +1,24 @@
+name: Mreža knjiga (provjera uputa i pojmova)
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  mreza:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Instaliraj ovisnosti
+        run: pip install pyyaml
+      - name: Registar pojmova je ispravan
+        run: python kod/pojmovnik_build.py --check
+      - name: Rječnik se može generirati
+        run: python kod/pojmovnik_build.py
+      - name: Provjera uputa (lokalno + http)
+        run: python kod/check_links.py --http

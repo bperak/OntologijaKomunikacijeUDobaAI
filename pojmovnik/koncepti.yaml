@@ -1,0 +1,210 @@
+# Registar pojmova — tri knjige, jedan izvor istine
+# Kanonski izvor: knjiga + poglavlje. Ako se definicija promijeni, mijenja se OVDJE.
+# Skripta: kod/pojmovnik_build.py  →  pojmovnik/RJECNIK.md + pojmovnik/koncepti.csv
+# books: kom2025 = Komunikacija u doba umjetne inteligencije (2025)
+#        dsk      = Data Science u kulturi (u izradi)
+#        razine   = Razine i entiteti (ova knjiga)
+
+meta:
+  verzija: "1.0"
+  datum: "2026-09-14"
+  napomena: "Ne uređivati generirane datoteke (RJECNIK.md, koncepti.csv) — uređuje se ovaj registar."
+
+koncepti:
+  - id: sustav
+    hr: sustav
+    en: system
+    definicija: "Skup elemenata u interakciji; cjelina čije ponašanje nije zbroj ponašanja dijelova."
+    kanonski: razine/1
+    srodni: [organizacija, holon, razina]
+    pojavljuje: [kom2025/2, dsk/1]
+  - id: organizacija
+    hr: organizacija
+    en: organisation
+    definicija: "Uzorak relacija među dijelovima, neovisan o tome koji ga dijelovi trenutačno nose."
+    kanonski: razine/1
+    srodni: [sustav, mreza, nova-cjelina]
+    pojavljuje: [razine/3, dsk/1]
+  - id: mreza
+    hr: mreža
+    en: network
+    definicija: "Skup relacija među dijelovima; nositelj novih svojstava koja pojedini dio ne posjeduje. U jeziku: graf jedinica povezanih mjerom asocijacije."
+    kanonski: razine/3
+    srodni: [organizacija, konceptualna-mreza, nova-cjelina]
+    pojavljuje: [razine/6, dsk/9]
+  - id: nova-cjelina
+    hr: nova cjelina
+    en: new whole (emergent entity)
+    definicija: "Trenutak kad skup relacija postaje jedan nositelj svojstva; nova cjelina je novi entitet u sustavu, a ne nova razina."
+    kanonski: razine/3
+    srodni: [mreza, organizacija, entitet, slaba-emergencija]
+    pojavljuje: [razine/12, razine/15]
+  - id: holon
+    hr: holon
+    en: holon
+    definicija: "Biće koje je istovremeno cjelina i dio (Koestler 1967)."
+    kanonski: razine/1
+    srodni: [sustav, integrativna-razina]
+    pojavljuje: [razine/2]
+  - id: razina
+    hr: razina
+    en: level
+    definicija: "Skup entiteta i relacija kod kojih vrijedi isti tip svojstava i isti tip zakona sastavljanja; svojstvo je uvijek relativno prema razini organizacije."
+    kanonski: razine/1
+    srodni: [relacijska-shema, omlcc, slaba-emergencija]
+    pojavljuje: [razine/2, razine/3, kom2025/3]
+    napomena: "Riječ 'razina' u ovoj mreži nikad ne označava model."
+  - id: slaba-emergencija
+    hr: slaba emergencija
+    en: weak emergence
+    definicija: "Makrostanje je izvedivo iz mikrodinamike, ali samo simulacijom (Bedau 1997)."
+    kanonski: razine/1
+    srodni: [jaka-emergencija, nova-cjelina]
+    pojavljuje: [razine/3]
+  - id: jaka-emergencija
+    hr: jaka emergencija
+    en: strong emergence
+    definicija: "Makrosvojstvo nije deducibilno ni u načelu iz istina niže domene (Chalmers 2006); ova mreža knjiga to ne tvrdi."
+    kanonski: razine/1
+    srodni: [slaba-emergencija]
+    pojavljuje: [razine/16]
+  - id: integrativna-razina
+    hr: integrativna razina
+    en: integrative level
+    definicija: "Razina na kojoj niže jedinice postaju dijelovi više cjeline i time stječu nove relacije (Novikoff 1945; Feibleman 1954)."
+    kanonski: razine/1
+    srodni: [holon, razina]
+    pojavljuje: [razine/2]
+  - id: relacijska-shema
+    hr: relacijska shema
+    en: relational schema
+    definicija: "Zapis razine kao tipa entiteta, tipa relacije i tipa svojstva; ono što razinu čini provjerljivom."
+    kanonski: razine/2
+    srodni: [razina, omlcc]
+    pojavljuje: [razine/3, razine/7]
+  - id: omlcc
+    hr: OMLCC (ontološki model razina kulturne složenosti)
+    en: OMLCC (Ontological Model of Levels of Cultural Complexity)
+    definicija: "Okvir od tri domene i šesnaest razina ontološke složenosti; domene prema Searleu (1995; 2010), razrada razina autorska (Perak 2018; 2019)."
+    kanonski: razine/2
+    srodni: [razina, relacijska-shema, drustvena-domena]
+    pojavljuje: [razine/3, kom2025/3]
+  - id: drustvena-domena
+    hr: društvena domena
+    en: social domain
+    definicija: "Područje institucionalnih činjenica (Searle): razine 12–16 od identiteta do kulturnog modela."
+    kanonski: razine/2
+    srodni: [omlcc, statusna-funkcija, kulturni-model]
+    pojavljuje: [razine/8, razine/14]
+  - id: konceptualna-mreza
+    hr: konceptualna mreža
+    en: conceptual network
+    definicija: "Graf u kojem su čvorovi jezične jedinice (riječi, konstrukcije), a veze mjere asocijaciju iz uporabe; mreža prikazuje strukturu uporabe, ne 'spremnik' značenja."
+    kanonski: razine/6
+    srodni: [vektorski-prostor, ugradivanje]
+    pojavljuje: [dsk/9, razine/3]
+  - id: vektorski-prostor
+    hr: vektorski prostor
+    en: vector space
+    definicija: "Prostor u kojem su jezične jedinice točke, a blizina odražava sličnost uporabe."
+    kanonski: razine/9
+    srodni: [ugradivanje, konceptualna-mreza]
+    pojavljuje: [dsk/9, kom2025/4]
+  - id: ugradivanje
+    hr: ugrađivanje (embedding)
+    en: embedding
+    definicija: "Preslikavanje jezične jedinice u vektor; kontekstualno ugrađivanje daje različit vektor u različitom kontekstu."
+    kanonski: razine/9
+    srodni: [vektorski-prostor, kontekstni-prozor]
+    pojavljuje: [dsk/9, kom2025/4]
+  - id: kontekstni-prozor
+    hr: kontekstni prozor
+    en: context window
+    definicija: "Količina teksta koju model istovremeno uzima u obzir; mjeri se u tokenima i nije isto što i sposobnost uporabe tog teksta."
+    kanonski: razine/10
+    srodni: [ugradivanje, procesiranje]
+    pojavljuje: [kom2025/6, dsk/8]
+  - id: procesiranje
+    hr: mišljenje kao procesiranje
+    en: thinking as processing
+    definicija: "Kontinuirano unaprjeđenje konteksta kroz lance koraka; opisuje rezoniranje bez tvrdnje o fenomenalnom iskustvu."
+    kanonski: razine/11
+    srodni: [kontekstni-prozor, entitet]
+    pojavljuje: [kom2025/6]
+  - id: komunikacijski-cin
+    hr: komunikacijski čin
+    en: communicative act
+    definicija: "Društveni čin koji zahtijeva prepoznatu namjeru, zajednički artefakt, konvenciju i obvezu; time pripada razini 14, a ne razini prijenosa informacije."
+    kanonski: razine/7
+    srodni: [statusna-funkcija, kolektivna-intencionalnost, zajednicki-artefakt, konvencija]
+    pojavljuje: [kom2025/1, kom2025/8]
+  - id: statusna-funkcija
+    hr: statusna funkcija
+    en: status function
+    definicija: "X broji kao Y u kontekstu C (Searle 1995); mehanizam kojim informacija postaje obveza."
+    kanonski: razine/8
+    srodni: [komunikacijski-cin, kolektivna-intencionalnost, kulturni-model]
+    pojavljuje: [razine/7, kom2025/8]
+  - id: kolektivna-intencionalnost
+    hr: kolektivna intencionalnost
+    en: collective intentionality
+    definicija: "Zajedničko prihvaćanje koje nosi institucionalne činjenice; obveza traži priznanje, ne samo ponašanje."
+    kanonski: razine/7
+    srodni: [statusna-funkcija, konvencija]
+    pojavljuje: [razine/8, razine/15]
+  - id: zajednicki-artefakt
+    hr: zajednički artefakt
+    en: shared artefact
+    definicija: "Materijalni nositelj koji sudionici dijele i na koji se zajedno referiraju (Clark & Chalmers 1998; Hutchins 1995)."
+    kanonski: razine/7
+    srodni: [komunikacijski-cin, konvencija]
+    pojavljuje: [razine/13]
+  - id: konvencija
+    hr: konvencija
+    en: convention
+    definicija: "Stabilizirani obrazac uporabe koji sudionici priznaju kao obvezujući; razlikuje se od pukog ponavljanja."
+    kanonski: razine/7
+    srodni: [kolektivna-intencionalnost, statusna-funkcija]
+    pojavljuje: [razine/13, razine/14]
+  - id: entitet
+    hr: entitet
+    en: entity
+    definicija: "Cjelina s vlastitim svojstvima koja zauzima poziciju u sustavu — odgovara na pitanje GDJE je."
+    kanonski: razine/12
+    srodni: [agent, nova-cjelina, omlcc]
+    pojavljuje: [razine/2, razine/3]
+  - id: agent
+    hr: agent
+    en: agent
+    definicija: "Entitet u sistemskoj ulozi — odgovara na pitanje ŠTO radi (djeluje, pamti, dohvaća, orkestrira)."
+    kanonski: razine/12
+    srodni: [entitet, protokol]
+    pojavljuje: [razine/13, razine/14]
+  - id: protokol
+    hr: protokol (MCP, A2A, AP2)
+    en: protocol (MCP, A2A, AP2)
+    definicija: "Dogovoreni način razmjene između agenata i alata; komunikacijska infrastruktura agentskih sustava."
+    kanonski: razine/12
+    srodni: [agent, konvencija]
+    pojavljuje: [kom2025/7]
+  - id: kulturni-model
+    hr: kulturni model
+    en: cultural model
+    definicija: "Naslijeđeni obrasci tumačenja koji se predaju u zajednici; razina 16."
+    kanonski: razine/8
+    srodni: [statusna-funkcija, omlcc]
+    pojavljuje: [razine/15, kom2025/8]
+  - id: artefakt-mjere
+    hr: artefakt mjere
+    en: measurement artefact
+    definicija: "Pojava koja se u podacima čini kao skok, a nastaje zbog nelinearnog praga mjere; mjera je dio tvrdnje, ne dodatak."
+    kanonski: razine/1
+    srodni: [razina, slaba-emergencija]
+    pojavljuje: [razine/4, dsk/5]
+  - id: falsifikacijski-okvir
+    hr: falsifikacijski okvir
+    en: falsification framework
+    definicija: "Odjeljak na kraju svakog poglavlja koji navodi koje bi tvrdnje i koji rezultat oborili; teorija koja ne može pasti nije teorija."
+    kanonski: razine/16
+    srodni: [artefakt-mjere]
+    pojavljuje: [razine/1, razine/4]
