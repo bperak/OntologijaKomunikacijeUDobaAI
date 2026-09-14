@@ -53,7 +53,7 @@ Poredak 12 → 13 → 14 → 15 → 16 jest tvrdnja o zavisnosti: identitet prij
 
 Ovdje treba dodati napomenu o terminologiji koja vrijedi do kraja knjige. **Entitet imenuje *gdje* je nešto u sustavu — njegovu poziciju; agent imenuje *što* to nešto radi — njegovu sistemsku ulogu.** To su dva pitanja i dva odgovora. Isto tako, riječ *razina* u ovoj knjizi nikada ne označava model: razina je tip svojstva i relacije, a model je organizacija koja se na tim razinama čita. Zato se u dvanaestom poglavlju neće tvrditi da model čini sedamnaestu razinu, nego da je riječ o novom **entitetu** u postojećem sustavu.
 
-**Slika 2.1** — Ljestvica šesnaest razina kroz tri domene (autorov prikaz, `fig_omlcc_s1`–`fig_omlcc_s3`); iznad nje isprekidana traka: *novi entitet u sustavu — ne nova razina* (Perak 2026).
+**Slika 2.1** — Ljestvica šesnaest razina kroz tri domene (autorov prikaz, `fig_omlcc_s1`–`fig_omlcc_s3`; Perak 2018; 2019). Svaka je razina zapisana relacijskom shemom (tip entiteta + tip relacije), a podnožje figure nosi tvrdnju koja povezuje razine: svaka je razina mreža koja daje emergentni entitet sa svojstvom, a taj entitet ulazi u mrežu sljedeće razine (Emmeche, Køppe & Stjernfelt 1997). Novi entitet iz dvanaestog poglavlja **nije** na ovoj ljestvici — on je iznad nje, i to imenuje tekst, a ne slika.
 
 ## 2.3 Relacijske sheme: kako se razina operacionalizira
 
