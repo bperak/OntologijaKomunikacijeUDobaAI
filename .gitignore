@@ -1,0 +1,31 @@
+# .gitignore — knjiga „Razine i entiteti"
+
+# tajne i okruženje
+.env
+.env.*
+*.key
+*.pem
+
+# python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# veliki podaci (verzioniraju se samo mali, kurirani skupovi)
+data/raw/
+data/*.zip
+data/*.tar.gz
+*.h5
+*.parquet
+
+# izvoz i privremeno
+*.log
+*.tmp
+.DS_Store
+~$*
+
+# radni scratch (ne commitati)
+pilot/
