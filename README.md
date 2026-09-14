@@ -66,9 +66,10 @@ data/           podaci (korpusi, leksikoni) — veliki skupovi se ne verzioniraj
 | `plan/NACRT_B_DETALJNO.md` | ✅ detaljni nacrt (16 poglavlja do razine sekcija) |
 | `plan/KNJIGA_PLAN.md` | ✅ plan v0.2 (varijante A i B) |
 | `referencije/REFERENCE_BASE.md` | ✅ v1.0 — provjerene reference (kanonske 1843–1977 + recentne 2024–2026) |
-| `rukopis/poglavlje-01.md` | 🟡 prva radna verzija (3.786 riječi) |
-| `rukopis/poglavlje-02.md` | 🟡 u izradi (OMLCC) |
-| `rukopis/poglavlje-03.md` | 🟡 u izradi (tri koraka) |
+| `rukopis/poglavlje-01.md` | ✅ prva radna verzija (3.786 riječi) |
+| `rukopis/poglavlje-02.md` | ✅ prva radna verzija (4.486 riječi, OMLCC) |
+| `rukopis/poglavlje-03.md` | ✅ prva radna verzija (4.494 riječi, tri koraka) |
+| `figure/` | ✅ 20 autorskih figura iz predavanja + popis s mapiranjem na poglavlja |
 
 ---
 
