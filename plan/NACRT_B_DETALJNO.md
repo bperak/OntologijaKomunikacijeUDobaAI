@@ -50,7 +50,7 @@
 1. **Teza** — jedan odlomak u kurzivu, tvrdnja koja se u poglavlju dokazuje
 2. **Teorijski okvir** — pojmovi, povijest, izričita atribucija tuđih doprinosa
 3. **Metode i podaci** — što se mjeri, na kojim podacima, kojim postupkom
-4. **Praktikum** — kod korak po korak + odjeljak **„Ako ne radi"** (tri najčešće greške)
+4. **Praktikum** — kod korak po korak + odjeljak **„Ako ne radi"** (tri najčešće greške). *Obavezan u poglavljima koja mjere (4, 6, 10, 11, 14); u teorijskim poglavljima (1, 2, 3, 5, 7, 8) na njegovu mjestu stoji **radni primjer** s istim zahtjevom: postupak koji čitatelj može ponoviti.*
 5. **Vježbe** — 🟢 provjeri razumijevanje · 🟡 primijeni na vlastite podatke · 🏆 istraživački zadatak
 6. **Sažetak i ključni pojmovi** — 10 natuknica koje ulaze u rječnik
 7. **Kako bismo znali da griješimo** — falsifikacijski okvir: koji bi rezultat oborio tvrdnju poglavlja

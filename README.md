@@ -84,6 +84,10 @@ python kod/check_links.py --http     # sidra, upute na druge knjige, mrežne pro
 | `rukopis/poglavlje-01.md` | ✅ prva radna verzija (3.786 riječi) |
 | `rukopis/poglavlje-02.md` | ✅ prva radna verzija (4.486 riječi, OMLCC) |
 | `rukopis/poglavlje-03.md` | ✅ prva radna verzija (4.494 riječi, tri koraka) |
+| `rukopis/predgovor.md` | ✅ predgovor + „kako čitati uz druge dvije knjige" (804 riječi) |
+| `rukopis/poglavlje-05.md` | ✅ prva radna verzija (4.392 riječi, jezik kao emergentna pojava) |
+| `rukopis/poglavlje-06.md` | ✅ prva radna verzija (4.497 riječi, mreže značenja + praktikum s kodom) |
+| `data/fakti.csv` | ✅ evidencija brojki (17 zapisa) + `kod/check_fakti.py` |
 | `figure/` | ✅ 20 autorskih figura iz predavanja + popis s mapiranjem na poglavlja |
 
 ---
