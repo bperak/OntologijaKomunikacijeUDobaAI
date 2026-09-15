@@ -8,7 +8,7 @@ Figure su **autorske** (Benedikt Perak), izrađene za predavanje *Elements of Co
 |---|---|---|
 | `fig_omlcc_s1.png`, `fig_omlcc_s2.png`, `fig_omlcc_s3.png` | ljestvica šesnaest razina kroz tri domene (materijalna 1–8 / psihološka 9–11 / društvena 12–16), svaka razina s relacijskom shemom; podnožje nosi tvrdnju *mreža → emergentni entitet → mreža sljedeće razine* (Emmeche, Køppe & Stjernfelt 1997) i atribuciju domena Searleu (1995; 2010) | **2**, 3 |
 | `fig_omlcc16.png` | cjelovita ljestvica šesnaest razina (jedna slika) | 2 |
-| `fig_emotion_network.png` | mreža 125 hrvatskih emocionalnih leksema sa *strah* u središtu (vlastita figura, izrezana) | **6** |
+| `fig_emotion_network.png` | mreža 125 hrvatskih emocionalnih leksema sa *strah* u središtu (objavljeno u: Ban Kirigin & Perak 2020, *Rasprave IHJJ* 46(2): 957–996; ovdje izrezana) | **6** |
 | `fig_strah_usporedba.png`, `fig_strah_vektori.png` | usporedba mrežnog i vektorskog prikaza leksema *strah* | 6, 10 |
 | `fig_scale.png` | parametri, FLOP, Chinchilla, sparsnost | 9, 10 |
 | `fig_trillion_club.png` | „klub 10¹² parametara" (Thompson 2026 — **procjene**) | 10 |

@@ -179,4 +179,4 @@ Time je DIO II dovršen u svojoj tvrdnji: **komunikacija je razina**, ima svoju 
 
 ### Literatura poglavlja
 
-Bender & Koller 2020 · Clark 1996 · Clark & Chalmers 1998 · Emmeche, Køppe & Stjernfelt 1997 · Firth 1957 · Gilbert 1990 · Goldberg 2006 · Grice 1957 · Grice 1975 · Harris, R. 1981 · Harris, Z. 1954 · Hopper 1987 · Hutchins 1995 · Mahowald et al. 2024 · Mitchell & Krakauer 2023 · Perak 2018 (❓ nepotvrđeni bibliografski podaci) · Perak 2019 (❓ nepotvrđeni bibliografski podaci) · Schaeffer et al. 2023 · Searle 1995 · Searle 2010 · Sperber & Wilson 1986 · Tomasello 2008 · Tuomela 2007
+Bender & Koller 2020 · Clark 1996 · Clark & Chalmers 1998 · Emmeche, Køppe & Stjernfelt 1997 · Firth 1957 · Gilbert 1990 · Goldberg 2006 · Grice 1957 · Grice 1975 · Harris, R. 1981 · Harris, Z. 1954 · Hopper 1987 · Hutchins 1995 · Mahowald et al. 2024 · Mitchell & Krakauer 2023 · Perak 2017a · Perak 2017b · Schaeffer et al. 2023 · Searle 1995 · Searle 2010 · Sperber & Wilson 1986 · Tomasello 2008 · Tuomela 2007

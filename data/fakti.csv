@@ -7,9 +7,9 @@ flywire_neurons,139255,neurona,Dorkenwald et al. 2024 (Nature),2024,mjereno,razi
 flywire_synapses,50000000,sinapsi,Dorkenwald et al. 2024 (Nature),2024,mjereno (zaokruženo),razine/10;razine/12,~50 milijuna
 flywire_params,734,parametara,Lappalainen et al. 2024 (Nature 634:1132–1140),2024,mjereno,razine/10;razine/12,model aktivnosti 64 tipa neurona iz konektoma
 flywire_types,64,tipova neurona,Lappalainen et al. 2024 (Nature),2024,mjereno,razine/10;razine/12,
-omlcc_levels,16,razina,Perak 2018 (OMLCC),2018,izvedeno,razine/2;razine/3;kom2025/3,autorov okvir; domene prema Searleu
+omlcc_levels,16,razina,Perak OMLCC (izlaganja 2017a; 2017b; integralno neobjavljen),2017,izvedeno,razine/2;razine/3;kom2025/3,autorov okvir; domene prema Searleu
 omlcc_domains,3,domene,Searle 1995;2010,1995,mjereno,razine/2;razine/3,materijalna / psihološka / društvena
-emotion_lexemes,125,leksema,Perak 2014; EmoCNet 2019–21,2014,mjereno,razine/6,mreža hrvatskih emocionalnih leksema sa 'strah' u središtu
+emotion_lexemes,125,leksema,Ban Kirigin & Perak 2020 (Rasprave IHJJ 46(2): 957-996); Perak 2014; EmoCNet 2019-21,2020,mjereno,razine/6,mreža hrvatskih emocionalnih leksema sa 'strah' u središtu
 qwen3_embed_dim,4096,dimenzija,Qwen Team 2025 (arXiv:2506.05176),2025,mjereno,razine/4;razine/10,vlastiti mjerni postav (spark-embed)
 context_window_small,512,tokena,provider documentation 2026,2020,mjereno,razine/10,povijesna vrijednost ranih modela
 context_window_large,10000000,tokena,provider documentation 2026,2026,mjereno,razine/10,kontekstni prozori 2026

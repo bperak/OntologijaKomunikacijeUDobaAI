@@ -107,14 +107,67 @@ Knjiga je u pripremi; do objave citiraj kolegijske materijale, a nakon objave do
 
 ## 4. Ostali radovi, članci i poglavlja
 
-Za članke, poglavlja u zbornicima i disertaciju koristi punu referencu s **CroRIS-a** (moguć izvoz u BibTeX i APA):
+Za članke i poglavlja u zbornicima koristi punu referencu s **CroRIS-a** (moguć izvoz u BibTeX i APA):
 
 - CroRIS profil: https://www.croris.hr/osobe/profil/29998
 - ORCID: https://orcid.org/0000-0003-4177-5307
 - Google Scholar: https://scholar.google.com/citations?user=8kW9x1MAAAAJ
 
-**Doktorska disertacija (mreža emocija; izvor za poglavlje 6):**
-> Perak, B. (2014). *Opojmljivanje leksema „strah" u hrvatskome: sintaktičko-semantička analiza* (doktorski rad). Filozofski fakultet u Zagrebu. ❓ URN/URL
+### Doktorski rad (2014; mreža emocija — izvor za poglavlje 6)
+> Perak, B. (2014). *Opojmljivanje leksema strah u hrvatskome: sintaktičko-semantička analiza* (doktorski rad). Sveučilište u Zagrebu. https://www.croris.hr/crosbi/publikacija/ocjenski-rad/386434
+
+```bibtex
+@phdthesis{perak2014strah,
+  author = {Perak, Benedikt},
+  title  = {Opojmljivanje leksema strah u hrvatskome: sintaktičko-semantička analiza},
+  school = {Sveučilište u Zagrebu},
+  year   = {2014},
+  note   = {Nije objavljen; CroRIS: 386434},
+  url    = {https://www.croris.hr/crosbi/publikacija/ocjenski-rad/386434}
+}
+```
+
+### Mreža emocija (izvor figure u poglavlju 6)
+> Ban Kirigin, T., & Perak, B. (2020). Corpus-Based Syntactic-Semantic Graph Analysis: Semantic Domains of the Concept *Feeling*. *Rasprave: Časopis Instituta za hrvatski jezik i jezikoslovlje*, 46(2), 957–996. https://hrcak.srce.hr/en/245479
+
+```bibtex
+@article{bankirigin2020feeling,
+  author  = {Ban Kirigin, Tajana and Perak, Benedikt},
+  title   = {Corpus-Based Syntactic-Semantic Graph Analysis: Semantic Domains of the Concept Feeling},
+  journal = {Rasprave: Časopis Instituta za hrvatski jezik i jezikoslovlje},
+  volume  = {46}, number = {2}, pages = {957--996}, year = {2020},
+  url     = {https://hrcak.srce.hr/en/245479}
+}
+```
+
+### Konceptualna mreža i graf-metode
+> Perak, B. (2020). Emocije u korpusima: konstrukcijska gramatika i graf-metode analize izražavanja emotivnih kategorija. U L. Molvarec & T. Pišković (ur.), *Emocije u hrvatskome jeziku, književnosti i kulturi. Zbornik radova 48. seminara Zagrebačke slavističke škole*. Filozofski fakultet Sveučilišta u Zagrebu.
+
+> Brdar, M., Brdar-Szabó, R., & Perak, B. (2020). Separating (non-)figurative weeds from wheat. U A. Baicchi (ur.), *Figurative Meaning Construction in Thought and Language* (str. 46–70). John Benjamins.
+
+> Ban Kirigin, T., Bujačić Babić, S., & Perak, B. (2022). Graph-Based Taxonomic Semantic Class Labeling. *Future Internet*, 14(12), 383. https://doi.org/10.3390/fi14120383
+
+> Ban Kirigin, T., Bujačić Babić, S., & Perak, B. (2022). Semi-Local Integration Measure of Node Importance. *Mathematics*, 10(3), 405. https://doi.org/10.3390/math10030405
+
+### Vlastiti okvir (OMLCC — ontološki model razina kulturne složenosti)
+
+**Status: izložen na izlaganjima, dosad nije objavljen integralno.** Pri citiranju okvira koristi izlaganja, a za objavljene dijelove radove navedene gore:
+
+> Perak, B. (2017). *Emergence of Social Reality in the Ontological Model of the Lexical Concepts and Constructions* (izlaganje). John Searle Symposium, Rijeka, 17. 5. 2017.
+
+> Perak, B. (2017). *Emergent Structures in the Ontological Model of the Lexical Concepts and Constructions* (izlaganje). RaAM Specialized Seminar „Ecological Cognition", Odense, 4. 5. 2017.
+
+```bibtex
+@misc{perak2017omlcc,
+  author = {Perak, Benedikt},
+  title  = {Emergence of Social Reality in the Ontological Model of the Lexical Concepts and Constructions},
+  year   = {2017},
+  note   = {Izlaganje, John Searle Symposium, Rijeka, 17. 5. 2017.; okvir integralno neobjavljen},
+  url    = {https://github.com/bperak/OntologijaKomunikacijeUDobaAI}
+}
+```
+
+> ⛔ **Ne postoji** publikacija „Perak 2018 (OMLCC)" ni „Perak 2019" — u ranijim verzijama teksta tako su se radno označavali dijelovi okvira. Objavljeni dijelovi okvira su Ban Kirigin & Perak 2020 i Brdar, Brdar-Szabó & Perak 2020.
 
 ---
 

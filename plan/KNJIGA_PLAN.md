@@ -48,7 +48,7 @@
 - 1.3 Kako se emergencija mjeri: kauzalni testovi, intervencije, granice deskripcije
 - 1.4 Vježbe 🟢🟡🏆
 
-**Poglavlje 2: OMLCC — 16 razina ontološke složenosti** — ✅ (Perak 2018, 2019 + disertacija)
+**Poglavlje 2: OMLCC — 16 razina ontološke složenosti** — ✅ (Perak, OMLCC (izlaganja 2017) + disertacija 2014)
 - 2.1 Tri domene (materijalna, psihološka, društvena) — Searleova podjela; *brute / mental / institutional facts*
 - 2.2 Šesnaest razina i relacijske sheme (perceiver, experiencer, cogitor) — kako su izvedene iz korpusa
 - 2.3 Metodologija izgradnje modela odozdo prema gore (korpus → shema → razina)
@@ -159,7 +159,7 @@
 |-----|-----------|--------|-------|
 | — | Uvod | 🟡 iz predavanja 2 | 8–10 str |
 | I | 1. Sustavi i emergencija | ✅ predavanje 3–5 | 15–18 str |
-| I | 2. OMLCC 16 razina | ✅ Perak 2018/2019 + disertacija | 18–22 str |
+| I | 2. OMLCC 16 razina | ✅ Perak, OMLCC (2017) + disertacija 2014 | 18–22 str |
 | I | 3. Tri koraka emergencije | ✅ predavanje 9 + Emmeche | 15–18 str |
 | I | 4. Razine modela i jezika | ✅ predavanje 10 | 15–18 str |
 | II | 5. Od Saussurea do Harrisa | ✅ predavanje 11–12 | 15–18 str |
@@ -194,7 +194,7 @@
 - **Predavanje (izvor materijala):** IUC Dubrovnik 2026 — 35 slajdova, bilješke govora, audio, nacrt, definicije
 - **Teorijska knjiga (prethodna):** *Komunikacija u doba umjetne inteligencije* (Perak 2025) — https://github.com/bperak/komunikacija_u_doba_ai
 - **Praktična knjiga (u izradi):** *Data Science u kulturi* — https://github.com/bperak/dsk
-- **Vlastiti radovi kao jezgra:** Perak 2014 (disertacija, *strah*) · Perak 2018/2019 (OMLCC) · Perak & Ban Kirigin 2023 (CGCN) · EmoCNet 2019–21
+- **Vlastiti radovi kao jezgra:** Perak 2014 (disertacija, *strah*) · Perak, OMLCC (izlaganja 2017) · Perak & Ban Kirigin 2023 (CGCN) · EmoCNet 2019–21
 
 ---
 

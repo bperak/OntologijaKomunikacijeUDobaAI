@@ -106,13 +106,21 @@ Status: ✅ provjereno (izvor/datoteka/DOI) · ☑ kanonsko djelo (bibliografski
 - **Bender, E. M. et al. (2021).** On the dangers of stochastic parrots. *FAccT*. → dodatak F ✅
 - **Amodei, D. et al. (2016).** Concrete problems in AI safety; arXiv:1606.06565. · **Krakovna, V. et al. (2020).** Specification gaming (DeepMind). → pogl. 11.3 ✅
 
-## I. Autorski radovi (nositelji okvira)
-- **Perak, B. (2014).** doktorski rad / *Opojmljivanje leksema strah* — mreža emocija. → pogl. 6.4 ☑
-- **Perak, B. (2018).** OMLCC — Ontological Model of Levels of Cultural Complexity. → pogl. 2 ⭐ ☑
-- **Perak, B. (2019).** OMLCC — razrada razina i relacijskih shema. → pogl. 2 ⭐ ☑
-- **Perak, B. (2025).** rad o jeziku i modelima (pogl. 4 u: *Komunikacija u doba umjetne inteligencije*). → pogl. 5, 9 ☑
-- **EmoCNet (2019–21).** projektna mreža emocionalnih leksema (hrWac). → pogl. 6.4 ☑
-- **Perak, B. (2026).** *Elements of Cognition in Complex Language* (izlaganje, IUC Dubrovnik, 11. 9. 2026.) — kondenzat ove knjige. → cijela knjiga ✅
+## I. Autorski radovi (nositelji okvira) — stanje provjere 14. 9. 2026.
+
+- **Perak, B. (2014).** *Opojmljivanje leksema strah u hrvatskome: sintaktičko-semantička analiza* (doktorski rad). Zagreb: Sveučilište u Zagrebu. CroRIS: https://www.croris.hr/crosbi/publikacija/ocjenski-rad/386434 ❓ *potvrditi fakultet/matičnu ustanovu (rad nije objavljen; autor planira postavljanje u repozitorij)* → pogl. 6 ✅
+- **Perak, B. (2017a).** *Emergence of Social Reality in the Ontological Model of the Lexical Concepts and Constructions* (izlaganje). John Searle Symposium, Rijeka, 17. 5. 2017. → **kanonsko mjesto OMLCC-a** (pogl. 2, 3, 5, 6, 7) ✅
+- **Perak, B. (2017b).** *Emergent Structures in the Ontological Model of the Lexical Concepts and Constructions* (izlaganje). RaAM Specialized Seminar „Ecological Cognition", Odense, 4. 5. 2017. → pogl. 2, 3 ✅
+- **⚠️ STATUS OMLCC-a (odlučno):** okvir od **šesnaest razina** dosad **nije objavljen integralno**. Izložen je na izlaganjima 2017a i 2017b; **objavljeni dijelovi** okvira su Ban Kirigin & Perak 2020 i Brdar, Brdar-Szabó & Perak 2020. U knjizi se citira isključivo u tom obliku (nikad kao „Perak 2018/2019") — jedinica koja ne postoji je izvor koji se ne smije navoditi.
+- **Ban Kirigin, T. & Perak, B. (2020).** Corpus-Based Syntactic-Semantic Graph Analysis: Semantic Domains of the Concept *Feeling*. *Rasprave: Časopis Instituta za hrvatski jezik i jezikoslovlje* 46(2): 957–996. Hrčak: https://hrcak.srce.hr/en/245479 → **izvor figure mreže 125 emocionalnih leksema** (pogl. 6) ✅
+- **Perak, B. (2020).** Emocije u korpusima: konstrukcijska gramatika i graf-metode analize izražavanja emotivnih kategorija. U: L. Molvarec & T. Pišković (ur.), *Emocije u hrvatskome jeziku, književnosti i kulturi. Zbornik radova 48. seminara Zagrebačke slavističke škole.* Zagreb: Filozofski fakultet Sveučilišta u Zagrebu. → pogl. 6 ✅
+- **Brdar, M., Brdar-Szabó, R. & Perak, B. (2020).** Separating (non-)figurative weeds from wheat. U: A. Baicchi (ur.), *Figurative Meaning Construction in Thought and Language.* Amsterdam: John Benjamins, 46–70. → pogl. 5, 6 (objavljeni dio okvira) ✅
+- **Ban Kirigin, T., Bujačić Babić, S. & Perak, B. (2022).** Graph-Based Taxonomic Semantic Class Labeling. *Future Internet* 14(12): 383. DOI 10.3390/fi14120383 ✅
+- **Ban Kirigin, T., Bujačić Babić, S. & Perak, B. (2022).** Semi-Local Integration Measure of Node Importance. *Mathematics* 10(3): 405. DOI 10.3390/math10030405 ✅
+- **Perak, B. & Ban Kirigin, T. (2023).** CG Conceptual Network. ❓ *potvrditi pune bibliografske podatke* → pogl. 6 ✅
+- **Perak, B. (2025).** *Komunikacija u doba umjetne inteligencije: Razvoj velikih jezičnih modela i komunikacijskih agenata.* Rijeka: Filozofski fakultet u Rijeci. ISBN 978-953-361-147-1. → pogl. 5, 9, mreža knjiga ✅
+- **Perak, B. (2026).** *Elements of Cognition in Complex Language* (izlaganje). Inter-University Centre, Dubrovnik, 11. 9. 2026. — kondenzat ove knjige. → cijela knjiga ✅
+- **EmoCNet (2019–21).** projektna mreža emocionalnih leksema (hrWac); pregled: https://emocnet.uniri.hr/research ✅
 
 ## J. Podaci, tablice i mjerni izvori
 - **Thompson, A. D. (2026).** Models Table — Rankings. LifeArchitect.ai. — procjene veličine modela; **označiti kao procjene**. → pogl. 10.4 ✅
@@ -124,7 +132,9 @@ Status: ✅ provjereno (izvor/datoteka/DOI) · ☑ kanonsko djelo (bibliografski
 ## K. NEPOTVRĐENO — ne citirati dok se ne provjeri
 - ❓ Točna publikacija u kojoj je objavljena mreža *strah* (125 leksema) — potvrditi izvor figure
 - ❓ Brojevi projekata: STUDIA · DEMOKRACIJA · FORMALS · Erasmus+ AI4LANG
-- ❓ Puni bibliografski podaci za Perak 2018/2019/2025 (izdavač, stranice) — uzeti iz autorove bibliografije
+- ❓ Puni bibliografski podaci za Perak 2025 (objavljeno; treba samo navesti izdanje) i Perak & Ban Kirigin 2023 (izdavač, stranice, DOI) — uzeti iz autorove bibliografije
+- ❓ Fakultet/matična ustanova doktorskog rada (Perak 2014) i njegovo postavljanje u repozitorij (autor planira)
+- ⛔ **Ne postoji** „Perak 2018 (OMLCC)" ni „Perak 2019" kao publikacija — OMLCC je izlaganje (2017a; 2017b). Nikad ne citirati kao objavljeni rad.
 - ❓ HLE „strop" 25,6 % i GPQA strop ≈ 90 % — provjeriti u tablici A. D. Thompsona (datum pristupa)
 
 ---

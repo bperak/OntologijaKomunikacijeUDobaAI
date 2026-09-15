@@ -92,7 +92,7 @@
 ## 2. OMLCC: šesnaest razina ontološke složenosti
 **Teza:** ontologiju možemo organizirati u **tri domene** i **šesnaest razina**, pri čemu je svaka razina definirana **relacijskom shemom** (tip entiteta + tip relacije + tip svojstva), a ne popisom primjera.
 
-**Stanje materijala:** ✅ (slajdovi 6–8; fig_omlcc_stage 1–3; Perak 2018 OMLCC; Perak 2019)
+**Stanje materijala:** ✅ (slajdovi 6–8; fig_omlcc_s1–s3; Perak, OMLCC - izlaganja 2017a; 2017b)
 
 **Sekcije:**
 2.1 **Tri domene — izričito prema Searleu (1995; 2010):** materijalna (brute facts) · psihološka (mental facts) · društvena (institutional facts). *Podjela domena je Searleova; razrada na šesnaest razina je autorov doprinos — to je u tekstu rečeno na svakom mjestu gdje se pojavi.*
@@ -367,7 +367,7 @@
 ## 14. Razine 12–16 kod agenata: što vidimo, što ne vidimo
 **Teza:** sustavi agenata već pokazuju **funkcionalne parnjake** identiteta, interakcije i komunikacije; institucije i kulturni modeli pokazuju se samo kao naslijeđeni obrasci, **bez zajedničke intencionalnosti**.
 
-**Stanje materijala:** ✅ (slajd 28 — pregled razina 12–16; govor §6; Perak 2018)
+**Stanje materijala:** ✅ (slajd 28 — pregled razina 12–16; govor §6; Perak, OMLCC - izlaganja 2017a; 2017b)
 
 **Sekcije:**
 14.1 **Identitet (12):** imena, uloge, ključevi, konfiguracije — funkcionalni parnjak
