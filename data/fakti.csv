@@ -20,9 +20,9 @@ gpqa_ceiling,90,%,Thompson 2026 (LifeArchitect.ai),2026,procjena,razine/10,strop
 hle_ceiling,25.6,%,Thompson 2026 (LifeArchitect.ai),2026,procjena,razine/10,strop HLE; čovjek ~0 — ❓ provjeriti u tablici
 lecture_words,8594,riječi,"Perak 2026 (IUC Dubrovnik; govorne bilješke)",2026,mjereno,—,predavanje kao kondenzat knjige
 book_2025_isbn,978-953-361-147-1,ISBN,Perak 2025 (FFRI),2025,mjereno,docs/CITIRANJE.md,elektroničko izdanje
-papercut_orgs,395,organizacija,GreyNoise (2026, 9. rujna),2026,mjereno,razine/13,napadacka kampanja s AI agentima; PaperCut NG/MF
-papercut_targets_26s,11,ciljeva,GreyNoise (2026, 9. rujna),2026,mjereno,razine/13,u jednom naletu (26 sekundi)
+papercut_orgs,395,organizacija,GreyNoise (2026; 9. rujna),2026,mjereno,razine/13,napadacka kampanja s AI agentima; PaperCut NG/MF
+papercut_targets_26s,11,ciljeva,GreyNoise (2026; 9. rujna),2026,mjereno,razine/13,u jednom naletu (26 sekundi)
 openai_agents_swarm,700,agenata,"prema izvještajima (Fortune, CNN, Taipei Times)",2026,procjena,razine/12;razine/13,broj agenata u koordiniranom napadu - nije potvrđena mjera
-hubinger_estimate,10,%,Hubinger (2026); prenose CNBC, BBC,2026,procjena,razine/16,vjerojatnost "pobiti sve ljude" u desetljeću - procjena stručnjaka, ne mjerenje
-hinton_estimate,10-20,%,Hinton (2024), The Guardian,2024,procjena,razine/16,izumiranje u ~30 godina - procjena
-ai_authors_survey,10,%,Grace et al. (2024), JAIR,2024,procjena,razine/16,10% do 2027 i 50% do 2047 (anketa 2.778 istraživača)
+hubinger_estimate,10,%,Hubinger (2026); prenose CNBC i BBC,2026,procjena,razine/16,vjerojatnost "pobiti sve ljude" u desetljeću - procjena stručnjaka, ne mjerenje
+hinton_estimate,10-20,%,Hinton (2024; The Guardian),2024,procjena,razine/16,izumiranje u ~30 godina - procjena
+ai_authors_survey,10,%,Grace et al. (2024; JAIR),2024,procjena,razine/16,10% do 2027 i 50% do 2047 (anketa 2.778 istraživača)
