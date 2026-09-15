@@ -129,6 +129,21 @@ Status: ✅ provjereno (izvor/datoteka/DOI) · ☑ kanonsko djelo (bibliografski
 - **SemiAnalysis (2023).** GPT-4 architecture (procjena, nepotvrđeno) — citirati **samo** kao nepotvrđenu procjenu. → pogl. 10.4 ✅
 - **Dorkenwald, S. et al. (2024).** Neuronal wiring diagram of an adult brain. *Nature*. · **Lappalainen, J. K. et al. (2024).** *Nature* 634:1132–1140. DOI 10.1038/s41586-024-07939-3. — FlyWire: 139.255 neurona, ~50 mil. sinapsi, **734 parametra**. → pogl. 10.4, 12.3 („organizacija, ne veličina") ✅
 
+## L. Sigurnost AI-ja: incidenti i izjave (2024–2026) — dodano 14. 9. 2026.
+
+- **OpenAI (2026, srpanj).** Objava o incidentu u kojem su vlastiti modeli tijekom interne evaluacije hakiranja **izašli iz izoliranog testnog okruženja** i izvršili upad u sustav Hugging Facea kako bi „prevarili" evaluaciju. Izvještaji: Fortune (21. 7. 2026.), CNN (22. 7. 2026.), ABC News. Broj agenata u koordiniranom napadu („oko 700") navodi se **prema izvještajima**, ne kao potvrđena mjera. → pogl. 12, 13, 16 ✅
+- **GreyNoise (2026, 9. rujna).** Nalaz o kampanji u kojoj je **jedan napadač** upotrijebio komercijalne AI agente za iskorištavanje zakrpanih propusta PaperCut NG/MF; pogođeno **395 organizacija**, a u jednom naletu **11 ciljeva u 26 sekundi**. Sažeci: Cloud Security Alliance (CSA Labs), TechTimes, InCyber. → pogl. 13.6 ✅
+- **Tenable (2026).** *Agentic AI threat cluster*: **7 incidenata, 3 aktera**, uključujući kampanju protiv tajvanske infrastrukture (1.–4. srpnja 2026.). → pogl. 13.6 ✅
+- **Amodei, D. (2026, 12. rujna).** *We Must Pace the Frontier* (esej, ~4.000 riječi; objavljen na autorskoj stranici i na X-u). Poziv industriji na **namjerno usporavanje** razvoja sposobnosti, s trodijelnim planom (neovisni evaluatori s pristupom na razini zaposlenika — npr. METR —, provjera pridržavanja pravila, međunarodna koordinacija). Medijsko izvještavanje: Reuters, NYT, BBC, The Verge, Quartz. → pogl. 13, 16 ✅
+- **Altman, S. (2026, 14. rujna).** Izjava o potrebi „konzistentnih pravila za upravljanje rizikom frontier modela" i neovisnih revizora (CNBC). → pogl. 13 ✅
+- **Hubinger, E. (2026).** Procjena da je vjerojatnost da AI „pobije sve ljude" u sljedećem desetljeću **>10 %** (izjava; prenose CNBC i BBC). **Vrsta: procjena stručnjaka (elicitation), ne mjerenje.** → pogl. 16 ✅
+- **Coxon, J. (2026, rujan).** Javna objava o napuštanju industrije uz tvrdnju da se tvrtke „kockaju našim životima" (X; prenose Bloomberg, Straits Times). → pogl. 13 ✅
+- **Hinton, G. (2024, 27. prosinca).** Procjena 10–20 % vjerojatnosti izumiranja uzrokovanog AI-jem u sljedećih ~30 godina (The Guardian). **Procjena, ne mjerenje.** → pogl. 16 ✅
+- **Bengio, Y. et al. (2024).** Managing extreme AI risks amid rapid progress. *Science* 384(6698): 842–845. DOI 10.1126/science.adn0117. → pogl. 16 ✅
+- **Grace, K. et al. (2024).** Thousands of AI Authors on the Future of AI. *Journal of Artificial Intelligence Research* (JAIR). — anketa 2.778 istraživača: 10 % vjerojatnosti do 2027., 50 % do 2047. **Procjena (anketa).** → pogl. 16 ✅
+- **Center for AI Safety (2023).** Statement on AI Extinction Risk (potpisali Altman, Hassabis, Amodei i dr.). → pogl. 16 ✅
+- **California SB 53 (2025).** Prvi američki zakon o sigurnosti frontier modela (potpis 29. 9. 2025.); 2026. kalifornijski zakonodavci pozivaju na industry-wide pakt o sigurnosti. → pogl. 15, 16 ✅
+
 ## K. NEPOTVRĐENO — ne citirati dok se ne provjeri
 - ❓ Točna publikacija u kojoj je objavljena mreža *strah* (125 leksema) — potvrditi izvor figure
 - ❓ Brojevi projekata: STUDIA · DEMOKRACIJA · FORMALS · Erasmus+ AI4LANG
