@@ -26,7 +26,15 @@ UNITS = r"(tokena|token|parametara|parametra|neurona|sinapsi|leksema|tipova neur
 
 
 def num(t: str):
+    """Broj iz zapisa; podržava i raspone (npr. '10-20', '10–20')."""
     t = t.strip().replace(".", "").replace(",", ".")
+    for sep in ("-", "\u2013", "\u2014", " do "):
+        if sep in t:
+            dijelovi = [x for x in t.split(sep) if x.strip()]
+            if len(dijelovi) == 2:
+                a, b = (num(x) for x in dijelovi)
+                if a is not None and b is not None:
+                    return (a + b) / 2
     try:
         return float(t)
     except ValueError:
