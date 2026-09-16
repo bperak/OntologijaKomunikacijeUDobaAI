@@ -93,6 +93,8 @@ python kod/check_links.py --http     # sidra, upute na druge knjige, mrežne pro
 | `rukopis/poglavlje-10.md` | ✅ prva radna verzija (6.420 riječi, geometrija na djelu i njezine granice) |
 | `rukopis/poglavlje-11.md` | ✅ prva radna verzija (5.546 riječi, mišljenje kao procesiranje) |
 | `rukopis/poglavlje-12.md` | ✅ prva radna verzija (5.782 riječi, od modela do agenta — novi entitet) |
+| `rukopis/poglavlje-13.md` | ✅ prva radna verzija (5.667 riječi, human→agent i agent→agent — DIO IV) |
+| `rukopis/poglavlje-14.md` | ✅ prva radna verzija (6.470 riječi, razine 12–16 kod agenata: funkcionalno vs. intrinzično) |
 | `rukopis/studije-slucaja/incidenti-2026.md` | ✅ studija slučaja: zašto razlučivati razine (AI incidenti 2026) |
 | `docs/ISPRAVKE.md` | ✅ evidencija ispravljenih javnih tvrdnji (ISPRAVAK-001/002/003) |
 | `doktorat-strah` (zaseban repo) | ✅ doktorski rad 2014. objavljen u otvorenom pristupu: https://github.com/bperak/doktorat-strah |
