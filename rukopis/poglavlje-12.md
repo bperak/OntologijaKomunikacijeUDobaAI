@@ -12,6 +12,10 @@ Odgovor ne dolazi iz jedne velike razlike, nego iz **pet malih dodataka**. Svaki
 
 Uvodna tablica služi kao nacrt; pojedinosti slijede.
 
+![Slika 12.1 — pet dodataka i razine na koje djeluju](../figure/dijagram-12-1-pet-dodataka.png)
+
+**Slika 12.1.** Pet dodataka oko modela i razine OMLCC-a na koje svaki od njih prvenstveno djeluje: ACTION na 8 i 13, MEMORY na 12, RETRIEVAL na 6 i 14, ORCHESTRATION na 13, INTEROPERABILITY na 14. Slika ne tvrdi da dodaci proizvode novu razinu: strelice vode prema **postojećim pozicijama**, a posljednja dva okvira iskazuju da je riječ o kandidaturi koja se provjerava u 12.4. Izvor: vlastita izrada (Perak 2026).
+
 | dodatak | što dodaje | djeluje prvenstveno na | test nepresudnosti |
 |---|---|---|---|
 | **ACTION** | izlaz postaje **operacija** u sustavu (poziv, upis, zahtjev, promjena stanja) | 8 → 13 | ako se svaka radnja može opisati kao tekst koji tek čovjek izvršava, dodatak ne mijenja pripisivanje |
@@ -66,9 +70,9 @@ Interoperabilnost je jedini dodatak koji po naravi djeluje na **razinu 14** (Soc
 
 Slijedi ono što se u raspravama preskače. Pet dodataka **ne daje** namjeru, ne daje doživljaj, ne daje zajedničku intencionalnost i ne daje priznatu obvezu. Ono što daje jest **pozicija**: sudionik koji djeluje, traje, uvodi svijet u svoj rad, dijeli posao i ulazi u odnose s drugima prema dogovorenim pravilima. Kada se ta dva popisa — što je dano i što nije — drže odvojeno, o agentskim se sustavima može govoriti ontološki, a da se pritom ne tvrdi ni premalo ni previše. To je posao iduća tri odjeljka: prvo protokoli (12.2), zatim razlučivanje pozicije od uloge (12.3), pa kandidatura i njezin test (12.4), i najzad pitanje suradnika (12.5).
 
-![fig_agent_hijerarhija.png](../figure/fig_agent_hijerarhija.png)
+![Slika 12.2 — pet slojeva koji pretvaraju model u agenta](../figure/fig_agent_hijerarhija.png)
 
-**Figura 12.1 — Pet slojeva koji pretvaraju model u agenta.** U sredini je model (obrada i izlaz); oko njega pet dodataka iz ovoga odjeljka: djelovanje, pamćenje, dohvat, orkestracija i interoperabilnost. Figura ne tvrdi da iz slojeva nastaje um, nego da iz njih nastaje **pozicija**: ono po čemu se o sustavu može govoriti kao o sudioniku, a ne kao o funkciji. Autorova figura; izrađena za izlaganje *Elements of Cognition in Complex Language* (IUC Dubrovnik, 11. 9. 2026.) i preuzeta u knjigu (Perak 2026); izvorni popis figura u `figure/README.md`.
+**Slika 12.2.** Pet slojeva koji pretvaraju model u agenta.** U sredini je model (obrada i izlaz); oko njega pet dodataka iz ovoga odjeljka: djelovanje, pamćenje, dohvat, orkestracija i interoperabilnost. Slika ne tvrdi da iz slojeva nastaje um, nego da iz njih nastaje **pozicija**: ono po čemu se o sustavu može govoriti kao o sudioniku, a ne kao o funkciji. Autorova slika; izrađena za izlaganje *Elements of Cognition in Complex Language* (IUC Dubrovnik, 11. 9. 2026.) i preuzeta u knjigu (Perak 2026); izvorni popis slika u `slike/README.md`.
 
 ## 12.2 Protokoli kao komunikacijska infrastruktura
 
@@ -133,7 +137,13 @@ Tvrdnja ovoga poglavlja izrečena je u naslovu kao **kandidatura**, i to nije st
 | **uloga u sustavu** | njegovo sudjelovanje traži **pravilo**, a ne samo dopuštenje; drugi računaju s njim | postoji li postupak koji bez njega ne bi bio izvediv ili bi bio drukčiji | ako je sudjelovanje uvijek zamjenjivo bez traga, riječ je o alatu |
 | **posljedice akata** | njegova djela imaju učinke koji traže **ispravak, naknadu ili sankciju** | postoje li zapisi, postupci i adresati odgovornosti za njegove radnje | ako posljedice ne postoje izvan njegova izlaza, nema akta nego teksta |
 
-Kriteriji su namjerno postavljeni tako da ih je **moguće ne zadovoljiti**. Prvi je najmanje sporan i najlakše ga je ispuniti pamćenjem i zapisom (12.1). Drugi je najteži: uloga u sustavu traži da **drugi računaju s njim**, a to je uvijek društvena činjenica, ne tehnička. Treći je najvažniji za etiku i pravo, jer bez njega nema ničega što bi se moglo pripisati: akt bez mogućnosti ispravka nije akt u pravome smislu, nego događaj.
+Kriteriji su namjerno postavljeni tako da ih je **moguće ne zadovoljiti**.
+
+![Slika 12.3 — stablo odluke: je li to entitet u sustavu](../figure/dijagram-12-4-stablo-entitet.png)
+
+**Slika 12.3.** Stablo odluke po trima kriterijima iz tablice: trajni identitet, uloga u sustavu i posljedice akata. Svaki kriterij može se **ne zadovoljiti**, i svaki negativan odgovor vodi u isti izlaz — poziv funkcije, a ne poziciju. Izvor: vlastita izrada (Perak 2026).
+
+ Prvi je najmanje sporan i najlakše ga je ispuniti pamćenjem i zapisom (12.1). Drugi je najteži: uloga u sustavu traži da **drugi računaju s njim**, a to je uvijek društvena činjenica, ne tehnička. Treći je najvažniji za etiku i pravo, jer bez njega nema ničega što bi se moglo pripisati: akt bez mogućnosti ispravka nije akt u pravome smislu, nego događaj.
 
 ### Kako bi izgledalo da *nije* entitet
 

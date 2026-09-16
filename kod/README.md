@@ -21,3 +21,24 @@ Svaka figura u knjizi mora biti **reproducibilna**: skripta + ulazni podaci + ve
 - Ulazni podaci se **ne** commituju ako su veliki (vidi `data/README.md`).
 - U zaglavlju skripte: što radi, ulaz, izlaz, verzije modela i biblioteka, datum.
 - Negativni rezultati se **prijavljuju** (mapa `kod/negativni/`), ne brišu.
+
+### check_figure_overflow.py — mjerenje „izlazi li tekst iz okvira"
+
+Vizualni pregled (`vision_analyze`) za ovo je nepouzdan: u praksi je dvaput prijavio kvar koji
+je bila obična glava strelice. Ovaj alat mjeri **piksel po piksel**: nađe ispune (kućice) i
+piksele teksta, pa za svaku kućicu provjeri je li koja komponenta **nastavak njezina reda
+teksta izvan ruba** (vodoravno ili okomito).
+
+```bash
+python3 kod/check_figure_overflow.py figure/*.png
+```
+
+**Alat je provjeren kontrolnim slikama** prije uporabe (tekst unutra → bez nalaza; tekst
+preko desnoga ruba → nalaz; tekst ispod ruba → nalaz; oznaka brida podalje → bez nalaza).
+Tijekom izrade našao je tri vlastite pogreške: (1) bijela pozadina ulazila je u masku ispune,
+(2) slova su uzimana kao djelići ispune, (3) **strelice su iste boje kao tekst** (#333333) pa
+su se brojale kao slova — riješeno kriterijem ispunjenosti komponente (slovo ≥ 0,18 svojega
+pravokutnika, crta ≈ 0,02).
+
+Mjerljive su slike s poznatom paletom kućica (mermaid zadana tema). Za ostale slike alat
+kaže „nije mjerljivo" umjesto lažnoga „u redu".

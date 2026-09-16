@@ -49,7 +49,7 @@ def jedinicni(x):                                   # L2 normalizacija
     return x / np.linalg.norm(x, axis=1, keepdims=True)
 
 U = (vektori(LEKSEMI))                              # ulaz: gola lema
-S = jedinicni(U) @ jedinicni(U).T                   # kosinusna srodnost, n x n
+S = jedinicni(U)  jedinicni(U).T                   # kosinusna srodnost, n x n
 
 # dijagnostika prostora: koliko se najbliži susjed razlikuje od najdaljega
 d = 1 - S[np.triu_indices(len(S), k=1)]
@@ -83,9 +83,15 @@ To je mjesto na kojemu se u ovome području najčešće gubi stega — i zato mu
 
 **Pravilo koje iz toga slijedi za ovu knjigu:** vizualizacija je **kazalo**, a ne dokaz. Svaka tvrdnja koja se iz slike pročita mora se provjeriti u punome prostoru — na matrici srodnosti, na popisu susjeda, na mjeri stabilnosti. Postupak je jednostavan i ponovljiv: (1) odredi susjede u 4096 dimenzija; (2) označi ih na slici; (3) zapiši svako odstupanje slike od prostora. Odstupanja nisu pogreške — ona su svojstvo metode i moraju se prijaviti.
 
-**Slika 10.1** — *Usporedba mrežnoga i vektorskoga prikaza leksema „strah"* ([`fig_strah_usporedba.png`](../figure/fig_strah_usporedba.png)). Isti leksik, dva zapisa iste organizacije: u mreži je položaj posljedica bridova iz uporabe, u vektorskome prostoru posljedica koordinata koje je naučio model. Prikazi se **ne smiju** čitati jedan preko drugoga: ono što je u mreži udaljenost u broju zajedničkih konstrukcija, u prostoru je kut između vektora, a na slici je tek mjesto na papiru.
+![Slika 10.1 — Usporedba mrežnoga i vektorskoga prikaza leksema „strah"](../figure/fig_strah_usporedba.png)
+
+**Slika 10.1.** *Usporedba mrežnoga i vektorskoga prikaza leksema „strah"* ([`fig_strah_usporedba.png`](../figure/fig_strah_usporedba.png)). Isti leksik, dva zapisa iste organizacije: u mreži je položaj posljedica bridova iz uporabe, u vektorskome prostoru posljedica koordinata koje je naučio model. Prikazi se **ne smiju** čitati jedan preko drugoga: ono što je u mreži udaljenost u broju zajedničkih konstrukcija, u prostoru je kut između vektora, a na slici je tek mjesto na papiru.
 
 **I jedna opreza o „pravome prostoru".** Ni prostor od 4096 dimenzija nije pravi prostor značenja. On je jedan zapis, iz jednoga modela, u jednome trenutku obuke. Ako se promijeni verzija modela i skupine se preslože, promijenio se zapis — a pitanje je li se promijenila organizacija uporabe ostaje otvoreno i rješava se usporedbom, a ne uvjerenjem (vježba 🟡).
+
+![Slika 10.2 — razdioba emocionalnih leksema u vektorskom prostoru](../figure/fig_strah_vektori.png)
+
+**Slika 10.2.** Četiri nakupine hrvatskih emocionalnih leksema u vektorskom prostoru — *strah*, *ljutnja*, *tuga* i *sreća* — s granicama skupova kao konveksnim omotačima. **Slika je izrađena na drugom instrumentu nego ostatak knjige:** model *fastText* (cc.hr.300, 300 dimenzija), pa je projekcija na dvije dimenzije izvedena metodom PCA. Ona zato pokazuje **razdiobu**, a ne mjere srodnosti: položaj točke posljedica je projekcije, pa se udaljenost na slici **ne smije** čitati kao udaljenost u prostoru (→ 4.3, 10.2). Izvor: vlastita izrada (Perak); podaci: cc.hr.300.
 
 ## 10.3 Kontekstni prozor: od 512 do 10.000.000 tokena
 
@@ -103,7 +109,9 @@ Ta brojka ima jasan ontološki smisao: **veličina konteksta je veličina materi
 
 > **Mjereno je** da prozor prima 10.000.000 tokena i **mjereno je** da uspješnost pada s rastom ulaza. **Procjena je** da veći prozor znači više znanja u sustavu. Prvo je svojstvo isporuke, drugo je pretpostavka o uporabi — i ona je, u najmanju ruku, nelinearna.
 
-**Slika 10.2** — *Rast kontekstnog prozora (512 → 10.000.000 tokena)* ([`fig_context.png`](../figure/fig_context.png)). Graf prikazuje mjerene vrijednosti iz dokumentacije pružatelja; crta između njih je vodilica za oko, a ne izmjereni kontinuum. Svojstva poput „dugi kontekst odgovara većoj sposobnosti" na ovoj slici **nisu prikazana** jer nisu izmjerena.
+![Slika 10.3 — Rast kontekstnog prozora](../figure/fig_context.png)
+
+**Slika 10.3.** *Rast kontekstnog prozora (512 → 10.000.000 tokena)* ([`fig_context.png`](../figure/fig_context.png)). Graf prikazuje mjerene vrijednosti iz dokumentacije pružatelja; crta između njih je vodilica za oko, a ne izmjereni kontinuum. Svojstva poput „dugi kontekst odgovara većoj sposobnosti" na ovoj slici **nisu prikazana** jer nisu izmjerena.
 
 Praktična posljedica za ovu knjigu je terminološka: „kontekstni prozor" je svojstvo sustava, a **nije razina**. Sustav s velikim prozorom nije „na višoj razini" od sustava s malim; on ima veći radni stol. Gdje taj stol stoji u sustavu — pitanje je za dvanaesto poglavlje, gdje se modelu dodaju dohvat, pamćenje i djelovanje i gdje se pojavljuje razlika između **entiteta** (gdje sustav jest) i **agenta** (što sustav radi).
 
@@ -127,9 +135,13 @@ Zašto procjene? Zato što veličina frontier modela u pravilu **nije objavljena
 
 **Usporedba koja raskrinkava brojanje kao mjeru.** Konektom mozga vinske mušice — najpotpuniji konektom jednoga odraslog mozga — ima **139.255 neurona**, oko **50 milijuna sinapsi** i **64 tipa neurona** (Dorkenwald i suradnici 2024, *Nature*), a model aktivnosti izveden iz toga konektoma ima **734 parametra** (Lappalainen i suradnici 2024, *Nature* 634:1132–1140). Sve su to **mjerenja**. Taj sustav obavlja navigaciju, učenje, pamćenje i socijalno ponašanje u stvarnome svijetu. Zaključak nije da je mušica moćnija od modela — nego da **broj jedinica mjeri arhitekturu, a ne sposobnost**. Isti nalaz dolazi i iz maloga primjera o cirkulaciji brojki: popularni prikazi istoga konektoma navode brojku 166 za broj tipova neurona, koje u izvorniku nema. ❓ Za tu brojku ne postoji izvor i u knjigu ne ulazi; bilježimo je kao primjer kako se procjena ili pogreška širi dalje od mjerenja.
 
-**Slika 10.3** — *Parametri, račun za obuku, Chinchilla i rijetkost* ([`fig_scale.png`](../figure/fig_scale.png)). Graf je sastavljen iz **procjena** veličine i iz mjerenih vrijednosti računa; osi i oznake to navode. Čitanje: položaj modela na grafu nije mjesto u sustavu razina, nego zapis o jednoj veličini arhitekture.
+![Slika 10.4 — Parametri, račun za obuku, Chinchilla i rijetkost](../figure/fig_scale.png)
 
-**Slika 10.4** — *„Klub 10¹² parametara"* ([`fig_trillion_club.png`](../figure/fig_trillion_club.png); izvor: Thompson 2026, *Models Table*, LifeArchitect.ai). **Sve vrijednosti na ovoj slici su procjene**, uključujući i one koje se odnose na modele čija je veličina dijelom potvrđena. Slika ne dokazuje natjecanje u veličini; ona prikazuje **stanje procjena** o tome natjecanju — a to su dvije različite stvari.
+**Slika 10.4.** *Parametri, račun za obuku, Chinchilla i rijetkost* ([`fig_scale.png`](../figure/fig_scale.png)). Graf je sastavljen iz **procjena** veličine i iz mjerenih vrijednosti računa; osi i oznake to navode. Čitanje: položaj modela na grafu nije mjesto u sustavu razina, nego zapis o jednoj veličini arhitekture.
+
+![Slika 10.5 — „Klub 10¹² parametara"](../figure/fig_trillion_club.png)
+
+**Slika 10.5.** *„Klub 10¹² parametara"* ([`fig_trillion_club.png`](../figure/fig_trillion_club.png); izvor: Thompson 2026, *Models Table*, LifeArchitect.ai). **Sve vrijednosti na ovoj slici su procjene**, uključujući i one koje se odnose na modele čija je veličina dijelom potvrđena. Slika ne dokazuje natjecanje u veličini; ona prikazuje **stanje procjena** o tome natjecanju — a to su dvije različite stvari.
 
 Zato u ovoj knjizi ne postoji tvrdnja „model je velik, dakle je viši". Model s 10¹² parametara ne dodaje **sedamnaestu razinu** i ne zauzima novu razinu: on je veći sustav iste vrste. Gdje se u sustavu nalazi, određuje njegova **uloga** — a uloga se čita iz dodataka koji ga čine agentom (→ pogl. 12), ne iz broja parametara.
 
@@ -145,9 +157,11 @@ Ovdje treba zastati pred dvjema činjenicama koje se lako pročitaju kao „napr
 
 **Druga: zasićenje nije samo pobjeda nego i gubitak informacije.** Kad svi vodeći sustavi desežu strop, test prestaje razlikovati — prestaje mjeriti. Uz to je i **prestanak izvještavanja** događaj u mjernome sustavu, a ne u sustavu koji se mjeri: kad izvještaj prestane stizati, o sposobnosti ne znamo ništa više ni manje nego prije. Mjerni instrument ima svoju povijest i treba je zapisati jednako kao i rezultate.
 
-**„Humanity's Last Exam".** Skup od **2.500 pitanja** iz akademskih domena, izgrađen upravo zato da ne bude zasićen (Center for AI Safety, Scale AI & HLE Contributors Consortium 2026, *Nature* 649:1139–1146, DOI 10.1038/s41586-025-09962-4; arXiv:2501.14249; pitanja finalizirana 4/2025.). Njegov strop „nesporno točnih" odgovora navodi se s **dva različita izvora**: **~51,3 %** (FutureHouse, 7/2025) **ili 25,6 %** (Alibaba, 2/2026, arXiv:2602.13964v2) — oba putem Thompsona (2026). Razlika od dvadeset i pet postotnih bodova nije razlika u modelima nego u **filtru pitanja**: u tome što se u svakome od dvaju izvora broji kao neosporan točan odgovor. Skup je gotovo zasićen u 12/2025 (GPT-5.2 @ **50 %**; mjereno, prema Thompsonu 2026).
+**„Humanity's Last Exam".** Skup od **2.500 pitanja** iz akademskih domena, izgrađen upravo zato da ne bude zasićen (Center for AI Safety, Scale AI & HLE Contributors Consortium 2026, *Nature* 649:1139–1146, DOI 10.1038/s41586-025-09962-4; arXiv:2501.14249; pitanja finalizirana 4/2025.). Njegov strop „nesporno točnih" odgovora navodi se s **dva različita izvora**: **~51,3 %** (FutureHouse, 7/2025) **ili 25,6 %** (Alibaba, 2/2026, arXiv:2602.13964v2) — oba putem Thompsona (2026). Razlika od dvadeset i pet postotnih bodova nije razlika u modelima nego u **filtru pitanja**: u tome što se u svakome od dvaju izvora broji kao neosporan točan odgovor. Skup je gotovo zasićen u 12/2025 (GPT-5.2  **50 %**; mjereno, prema Thompsonu 2026).
 
-**Slika 10.5** — *Rezultati i stropovi testova (GPQA, HLE)* ([`fig_scoreboard.png`](../figure/fig_scoreboard.png)). Na slici se vidi ono što je u tekstu najvažnije: rezultati (mjerenja) i stropovi (procjene) nacrtani su **zajedno**, i upravo ta razlika u vrsti dokaza objašnjava zašto se dvije vrijednosti stropa za isti test razlikuju. Graf s naznačenim stropom čita se samo ako se zna da strop nije izmjeren, nego procijenjen na temelju prosudbe o pitanjima.
+![Slika 10.6 — Rezultati i stropovi testova](../figure/fig_scoreboard.png)
+
+**Slika 10.6.** *Rezultati i stropovi testova (GPQA, HLE)* ([`fig_scoreboard.png`](../figure/fig_scoreboard.png)). Na slici se vidi ono što je u tekstu najvažnije: rezultati (mjerenja) i stropovi (procjene) nacrtani su **zajedno**, i upravo ta razlika u vrsti dokaza objašnjava zašto se dvije vrijednosti stropa za isti test razlikuju. Graf s naznačenim stropom čita se samo ako se zna da strop nije izmjeren, nego procijenjen na temelju prosudbe o pitanjima.
 
 **Kako to mislimo dokazati — i kako bismo znali da griješimo.** Ako se pokaže da su rezultati na stropu posljedica **kontaminacije podacima** (pitanja koja su se našla u obuci) ili da su stropovi ispravni i zasićenje potpuno, dio tvrdnji o „sposobnostima" pada i ova knjiga to mora prijaviti kao **vlastito ograničenje**, a ne kao protuargument. Metodološka opreza je u tome već sadržana: pojava na grafu koja izgleda kao skok može biti posljedica **nelinearnoga praga u mjeri** — načina bodovanja i granice prolaza — a ne skoka u sustavu (Schaeffer i suradnici 2023; Wei i suradnici 2022). Mjera je dio tvrdnje. I rasprava o tome što rezultat na testu uopće pokazuje o razumijevanju ostaje otvorena (Mitchell & Krakauer 2023).
 
@@ -163,7 +177,9 @@ Zadnji skup brojki u ovome poglavlju ne mjeri koliko model zna, nego **koliko du
 
 **Što je time dokazano, a što nije.** Dokazano je da se duljina zadataka koje sustavi dovršavaju **mijenja za nekoliko redova veličine** unutar nekoliko godina: od 9 sekundi do sati. Nije dokazano da je riječ o općoj sposobnosti: horizont je izmjeren na **softverskim zadacima** s izvornim kodom i provjerljivim ishodom, a to je jedna obitelj zadataka. Ništa se odatle ne smije prenijeti na, primjerice, vođenje razgovora, odgovornost ili razumijevanje namjere — a upravo se takav prenos u javnome govoru događa najčešće. Kao i u jedanaestome poglavlju o mjerenju „razmišljanja": **metrika je izbor, ne činjenica**.
 
-**Slika 10.6** — *Vremenski horizont zadataka (METR)* ([`fig_horizon.png`](../figure/fig_horizon.png)). Crta je procjena iz modeliranja, a ne niz izmjerenih točaka; područje iznad 16 sati na slici je označeno kao nepouzdano. Graf se **ne smije** čitati kao najava: produžetak crte nije izmjereni podatak.
+![Slika 10.7 — Vremenski horizont zadataka](../figure/fig_horizon.png)
+
+**Slika 10.7.** *Vremenski horizont zadataka (METR)* ([`fig_horizon.png`](../figure/fig_horizon.png)). Crta je procjena iz modeliranja, a ne niz izmjerenih točaka; područje iznad 16 sati na slici je označeno kao nepouzdano. Graf se **ne smije** čitati kao najava: produžetak crte nije izmjereni podatak.
 
 **I jedna vlastita pogreška, zapisana.** U izlaganju iz kojega je nastala ova knjiga (11. 9. 2026.) navodilo se da horizont iznosi „~13–14,5 h". To je bila **prvotna METR-ova procjena**, koja je u međuvremenu ispravljena. Knjiga pogrešku ne briše: u `docs/ISPRAVKE.md` stoji ISPRAVAK-001 s onim što je pisalo, što je točno, odakle to znamo i gdje je ispravljeno. Razlika između 14,5 i 12 sati nije razlika u modelima — **nije se promijenio sustav, promijenio se izračun**. To je najčišći primjer za pravilo cijeloga poglavlja: brojka bez vrste i bez datuma nije brojka.
 
@@ -247,7 +263,7 @@ A kad se ta pitanja postave, otvara se i **četvrti dio knjige**: komunikacija s
 - **Vizualizacija je kazalo, ne dokaz.** Metode poput t-SNE i UMAPa čuvaju susjedstva, a ne udaljenosti: **udaljenost u prikazu nije udaljenost u prostoru**, praznina na slici nije praznina u podacima, a drugi parametri daju drugu sliku. Svaka se tvrdnja provjerava u punome prostoru.
 - **Kontekstni prozor narastao je s 512 na 10.000.000 tokena (×5.000, izvedeno)** — i to je **mjereno**. Da veći prozor znači i veću uporabu nije: uspješnost pada s rastom ulaza (Chroma 2025; Liu i suradnici 2024), pa „sve u kontekst" ima cijenu i u novcu i u točnosti.
 - **„Klub 10¹² parametara" (Thompson 2026) čine PROCJENE.** Ukupan broj parametara uključuje rijetke stručnjake i nije isto što i broj aktivnih po tokenu; zakoni skaliranja (Kaplan i suradnici 2020), Chinchilla (Hoffmann i suradnici 2022) i kvantizacija skaliranja (Michaud i suradnici 2023) pokazuju da veličina nije samostalna varijabla. Konektom vinske mušice s **734 parametra** (Lappalainen i suradnici 2024) obavlja ono što veliki modeli ne — jer broj jedinica mjeri arhitekturu, a ne sposobnost.
-- **Rezultati i stropovi:** GPQA (448 pitanja; strop ~80 %, procjena; zasićen 11/2025 @ 93,8 %, mjereno; Anthropic prestao izvještavati od 6/2026) i HLE (2.500 pitanja; strop ~51,3 % ili 25,6 %, **oba izvora**; gotovo zasićen 12/2025 @ 50 %). Kad test dođe do stropa, prestaje razlikovati — a prestanak izvještavanja je događaj u mjernome sustavu.
+- **Rezultati i stropovi:** GPQA (448 pitanja; strop ~80 %, procjena; zasićen 11/2025  93,8 %, mjereno; Anthropic prestao izvještavati od 6/2026) i HLE (2.500 pitanja; strop ~51,3 % ili 25,6 %, **oba izvora**; gotovo zasićen 12/2025  50 %). Kad test dođe do stropa, prestaje razlikovati — a prestanak izvještavanja je događaj u mjernome sustavu.
 - **Vremenski horizont (METR):** 9 sekundi (2020., mjereno) → **~12 sati** (2026., **procjena**, nakon METR-ova ispravka buga 3. 3. 2026.; prije toga ~14,5 h). Iznad **16 sati** mjerenja su **nepouzdana** sa sadašnjim skupom zadataka; niže vrijednosti udvostručavanja (3–4 mjeseca) su ekstrapolacija, a ne nalaz.
 - **Geometrija ne pokazuje referenciju, namjeru ni odgovornost** (Harnad 1990; Grice 1957; Harris 1981; Searle 1995; 2010). Ono što pokazuje — organizaciju uporabe — mjereno je i ponovljivo; ono što ne pokazuje nije praznina koju popunjava veći model, nego mjesto na kojemu počinje četvrti dio knjige.
 

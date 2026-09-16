@@ -1,0 +1,11 @@
+%% wrap: 210
+flowchart LR
+  T[Tri konfiguracije:<br/>ko snosi trošak nerazumijevanja?] --> C1[Čovjek → agent]
+  T --> C2[Agent → čovjek]
+  T --> C3[Agent → agent]
+  C1 --> K1[Čovjek preformulira<br/>i ponavlja]
+  C2 --> K2[Čovjek provjerava<br/>istinitost izvještaja]
+  C3 --> K3[Sustav je uključio<br/>čovjek ili ustanova]
+  K1 --> V[Obveza nije priznata<br/>ni u jednoj konfiguraciji]
+  K2 --> V
+  K3 --> V

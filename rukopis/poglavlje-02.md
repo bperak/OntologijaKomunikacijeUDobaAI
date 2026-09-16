@@ -24,6 +24,12 @@ Jedno ograničenje podjele treba priznati odmah. Granica između psihološkoga i
 
 Unutar tih domena ovaj okvir razlučuje šesnaest razina. Atribucija se od ovoga mjesta ponavlja na svakoj stranici: **podjela na materijalnu, psihološku i društvenu domenu je Searleova (1995; 2010); razrada na šesnaest razina i njihove relacijske sheme autorov su doprinos (Perak, OMLCC - izlaganja 2017a; 2017b).**
 
+Cijela je ljestvica najprije na jednoj slici.
+
+![Slika 2.1 — ljestvica šesnaest razina u dvama stupcima](../figure/fig_omlcc16.png)
+
+**Slika 2.1.** Cjelovita ljestvica u dvama stupcima: lijevo razine 1–8 (materijalna domena, osma informacijska), desno razine 9–16; u podnožju je tvrdnja „Each level: network x → emergent entity {property} → network x+1" uz atribuciju (Emmeche, Køppe & Stjernfelt 1997), a legenda dijeli boje na 1–7 material, 8 informational / computational, 9–11 psychological, 12–15 social i 16 cultural. U gornjem okviru slika najavljuje novi entitet — „A NEW ENTITY IN THE SYSTEM — not a new level", „the language model, co-present with humans: collaborator — co-communicator, co-worker" i „potential competitor for resources — compute, energy, data" (tema dvanaestoga poglavlja). Autorov prikaz; naslov na slici nosi radnu godišnju oznaku izvora (2018; 2019) koja nije valjana referencija — okvir se u ovoj knjizi citira kao izlaganje (Perak, OMLCC - izlaganja 2017a; 2017b).
+
 **Materijalna domena — razine 1–8.** Prvih sedam razina materijalne su i strukturne, a osma je informacijska:
 
 1. **Existence.** Razina na kojoj je postavljeno samo jedno pitanje: nešto jest. Svojstvo je prisutnost ili odsutnost.
@@ -35,11 +41,23 @@ Unutar tih domena ovaj okvir razlučuje šesnaest razina. Atribucija se od ovoga
 7. **SequenceActivity.** Slijed i radnja: uređen niz događaja; svojstva su red, trajanje i ponavljanje, a relacija „prethodi" odnosno „slijedi".
 8. **InformationSystem.** Informacijski sustav: razina na kojoj entitet postaje **oznaka**, svojstvo **razlika prema drugim oznakama**, a relacija „nosi informaciju o". Tu se prvi put pojavljuje sadržaj — ali sadržaj koji je korelacija, a ne namjera: da bi oznaka nosila razliku, ne treba nitko da je razumije. U terminima ovoga okvira to je rano uvođenje rječnika informacijske razine u društvenu teoriju, kakvo nalazimo u Hallidayevu opisu jezika kao društvene semiotike (Halliday 1978).
 
+Materijalna je domena na jednome prikazu:
+
+![Slika 2.2 — materijalna domena, razine 1–8](../figure/fig_omlcc_s1.png)
+
+**Slika 2.2.** Prva od triju ploča ljestvice („1 / 3 material domain (levels 1–8)"): materijalna domena s razinama 1–8, svaka zapisana relacijskom shemom (npr. „03 MaterialStructure: A (Part) isPartOf B (Whole)"); zaglavlje ploče je „MATERIAL · brute facts · Searle 1995", a stupci psihološke i društvene domene na ovoj su slici prikazani **prigušeno**: nose samo brojeve 09–16, bez naziva razina i bez relacijskih shema. Podnožje nosi tvrdnju „Each level: network x → emergent entity {property} → network x+1" (Emmeche, Køppe & Stjernfelt 1997) i redak „Three domains after Searle (1995; 2010): material (brute facts) · psychological (mental facts) · social (institutional facts)". Autorov prikaz (Perak, OMLCC - izlaganja 2017a; 2017b).
+
 **Psihološka domena — razine 9–11.** Tri su razine, i svaka ima drukčiji tip relacije prema okolini:
 
 9. **Perception.** Opažanje: *opažač* opaža *objekt opažanja*. Relacija je usmjerenost, a svojstvo razlučivost.
 10. **Affect.** Afekt: *doživljavatelj* doživljava *afektivno stanje*. Svojstva su valencija i pobuđenost, a odnos prema okolini nije usmjerenost, nego stanje u koje sustav dolazi. Hrvatski emocionalni leksik pokazuje da se ta stanja u jeziku ne pojavljuju pojedinačno, nego u mrežama s određenim središtima (Perak 2014; EmoCNet 2019–21).
 11. **Cognition.** Kognicija: *mislitelj* misli *mentalnu reprezentaciju*. Relacija je predočavanje, a svojstvo struktura reprezentacije. Klasična je teorija pojmove držala definicijski strukturiranima, s nužnim i dovoljnim uvjetima (Fodor 1975), a spor o tome što u jezičnome modelu uopće možemo nazvati razumijevanjem i dalje je otvoren (Mitchell & Krakauer 2023).
+
+Psihološka je domena na jednome prikazu:
+
+![Slika 2.3 — psihološka domena, razine 9–11](../figure/fig_omlcc_s2.png)
+
+**Slika 2.3.** Druga ploča ljestvice („2 / 3 + psychological domain (9–11)"): psihološka domena s razinama 9–11 (Perception 9, Affect 10, Cognition 11) uz ponovljenu materijalnu domenu 1–8; zaglavlja su „MATERIAL · brute facts · Searle 1995" i „PSYCHOLOGICAL · mental facts · Searle 1995", a stupac društvene domene na ovoj je slici prikazan **prigušeno**, samo brojevima 12–16 i bez relacijskih shema. Podnožje ponavlja tvrdnju „Each level: network x → emergent entity {property} → network x+1" (Emmeche, Køppe & Stjernfelt 1997) i redak „Three domains after Searle (1995; 2010)". Autorov prikaz (Perak, OMLCC - izlaganja 2017a; 2017b).
 
 **Društvena domena — razine 12–16.** Poredak je ovdje argument, a ne popis:
 
@@ -51,9 +69,15 @@ Unutar tih domena ovaj okvir razlučuje šesnaest razina. Atribucija se od ovoga
 
 Poredak 12 → 13 → 14 → 15 → 16 jest tvrdnja o zavisnosti: identitet prije interakcije, interakcija prije komunikacije, komunikacija prije institucija, a kulturni model samo povrh institucija — kao što ni razina 8 ne može postojati bez nositelja koji nosi razliku.
 
+Sve tri domene na jednome su prikazu:
+
+![Slika 2.4 — sve tri domene, razine 1–16](../figure/fig_omlcc_s3.png)
+
+**Slika 2.4.** Treća ploča: sve tri domene jedna pod drugom — materijalna (1–8), psihološka (9–11) i društvena (12 SocIdentity, 13 SocBehaviourInteraction, 14 SocCommunication, 15 SocCulturalInstitution, 16 CulturalModel), svaka razina sa svojom relacijskom shemom. Zaglavlja ploča nose „MATERIAL · brute facts · Searle 1995", „PSYCHOLOGICAL · mental facts · Searle 1995" i „SOCIAL · institutional facts · Searle 1995", a podnožje tvrdnju „Each level: network x → emergent entity {property} → network x+1" (Emmeche, Køppe & Stjernfelt 1997), legendu (material, psychological, social, cultural) i redak „Three domains after Searle (1995; 2010): material (brute facts) · psychological (mental facts) · social (institutional facts)". Autorov prikaz (Perak, OMLCC - izlaganja 2017a; 2017b).
+
 Ovdje treba dodati napomenu o terminologiji koja vrijedi do kraja knjige. **Entitet imenuje *gdje* je nešto u sustavu — njegovu poziciju; agent imenuje *što* to nešto radi — njegovu sistemsku ulogu.** To su dva pitanja i dva odgovora. Isto tako, riječ *razina* u ovoj knjizi nikada ne označava model: razina je tip svojstva i relacije, a model je organizacija koja se na tim razinama čita. Zato se u dvanaestom poglavlju neće tvrditi da model čini sedamnaestu razinu, nego da je riječ o novom **entitetu** u postojećem sustavu.
 
-**Slika 2.1** — Ljestvica šesnaest razina kroz tri domene (autorov prikaz, `fig_omlcc_s1`–`fig_omlcc_s3`; Perak, OMLCC - izlaganja 2017a; 2017b). Svaka je razina zapisana relacijskom shemom (tip entiteta + tip relacije), a podnožje figure nosi tvrdnju koja povezuje razine: svaka je razina mreža koja daje emergentni entitet sa svojstvom, a taj entitet ulazi u mrežu sljedeće razine (Emmeche, Køppe & Stjernfelt 1997). Novi entitet iz dvanaestog poglavlja **nije** na ovoj ljestvici — on je iznad nje, i to imenuje tekst, a ne slika.
+**Slike 2.2–2.4** — Ljestvica šesnaest razina kroz tri domene (autorov prikaz, `fig_omlcc_s1`–`fig_omlcc_s3`; Perak, OMLCC - izlaganja 2017a; 2017b). Svaka je razina zapisana relacijskom shemom (tip entiteta + tip relacije), a podnožje slike nosi tvrdnju koja povezuje razine: svaka je razina mreža koja daje emergentni entitet sa svojstvom, a taj entitet ulazi u mrežu sljedeće razine (Emmeche, Køppe & Stjernfelt 1997). Novi entitet iz dvanaestog poglavlja **nije** na ovoj ljestvici — on je iznad nje, i to imenuje tekst, a ne slika.
 
 ## 2.3 Relacijske sheme: kako se razina operacionalizira
 
@@ -137,6 +161,12 @@ OMLCC nije prva ljestvica razina i ne tvrdi da jest; stoga ga valja postaviti uz
 | Anderson (1972) | razine znanosti | isti epistemološki, nenametljiv stav |
 
 **Searleove domene.** Podjela na grube, mentalne i institucionalne činjenice (Searle 1995; 2010) ulazi u OMLCC kao okvir domena, a razrada na šesnaest razina i njihove relacijske sheme autorov je doprinos (Perak, OMLCC - izlaganja 2017a; 2017b). Searleove su domene neuređene: razlikuju vrste činjenica, ali ne tvrde da jedna pretpostavlja drugu. OMLCC dodaje uređenje i mjerni kriterij, a obrazac „X broji kao Y u kontekstu C" postaje formula petnaeste razine (Searle 1995; 2010).
+
+Uz domene ovdje valja vidjeti i Searleov vlastiti sklop emergentnih sustava:
+
+![Slika 2.5 — Searleovi emergentni sustavi](../figure/fig_searle.png)
+
+**Slika 2.5.** Searleov sklop emergentnih sustava u pet okvira, odozdo prema gore: „CHEMICAL · PHYSICAL" („microstructure (parts)"), „BIOLOGICAL", „CONSCIOUSNESS" („higher-level system feature — like liquidity of water"), „INTENTIONALITY" („intrinsic (biological) vs derived (computational)") i „SOCIAL REALITY / INSTITUTIONS" („emergent from collective intentionality; language = the basic social institution"). Podnožje nosi „higher levels: system features caused by the microstructure — Searle's 'causally emergent'", a u isprekidanome okviru stoji otvoreno pitanje „? the model — a causal agent at system level, or only a derived system?". Slika ne nosi godinu ni bibliografski izvor i **ne prikazuje** podjelu na grube, mentalne i institucionalne činjenice — ta je podjela u tekstu (Searle 1995; 2010).
 
 **Hartmannovi slojevi.** *Schichtenlehre* Nicolaija Hartmanna razlikuje slojeve stvarnosti — materiju, organsko, duševno, duhovno — i postavlja zakone slojevitosti: viši sloj pretpostavlja niži, uvodi kategorije koje niži ne posjeduje, ali ostaje utemeljen u nižemu (Hartmann 1940). OMLCC preuzima upravo taj obrazac, a razilazi se u dvije točke. Prvo, Hartmannovi su slojevi **kategorije bića**, dok su razine u OMLCC-u klase svojstava i relacija koje se čitaju iz podataka: kod Hartmanna ontologija kaže što jest, kod OMLCC-a što se na čemu mjeri. Drugo, Hartmannov najviši sloj, duhovno, nije isto što razine 15 i 16 — obuhvaća objektivni duh i njegove tvorevine, ali nije definiran zajedničkim priznanjem i deontičkim ovlastima, što je Searleov kriterij (Searle 1995; 2010). Hartmann također nema zasebnu informacijsku razinu (8).
 

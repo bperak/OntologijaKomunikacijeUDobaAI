@@ -1,0 +1,13 @@
+%% wrap: 190
+flowchart TB
+  M[Model: obrada i izlaz] --> D1[ACTION<br/>razine 8 · 13]
+  M --> D2[MEMORY<br/>razina 12]
+  M --> D3[RETRIEVAL<br/>razine 6 · 14]
+  M --> D4[ORCHESTRATION<br/>razina 13]
+  M --> D5[INTEROPERABILITY<br/>razina 14]
+  D1 --> S[Model kao sudionik:<br/>pozicija koja se održava]
+  D2 --> S
+  D3 --> S
+  D4 --> S
+  D5 --> S
+  S --> Z[Kandidat, ne zaključak:<br/>tri kriterija u 12.4]

@@ -12,7 +12,13 @@ Prvo pravilo: **broj razina se ne mijenja.** Novi sudionik ne otvara sedamnaestu
 
 Hrvatski okvir o kojem je riječ prethodi ovoj raspravi: OMLCC je izložen 2017. kao ljestvica u kojoj se društvena stvarnost pojavljuje kroz mreže koje nose entitete više razine (Perak, OMLCC - izlaganja 2017a; 2017b). Ništa u tom okviru ne pretpostavlja da su nositelji tih mreža isključivo ljudi; ali ništa ne pretpostavlja ni suprotno. Upravo tu razliku treba izmjeriti, a ne proglasiti.
 
-Postoje tri konfiguracije, i one se razlikuju po tome **tko snosi trošak nerazumijevanja**. To je ono što ih čini stvarno različitima, a ne smjer strelice.
+Postoje tri konfiguracije, i one se razlikuju po tome **tko snosi trošak nerazumijevanja**.
+
+![Slika 13.1 — tri konfiguracije i raspored tereta](../figure/dijagram-13-1-tri-konfiguracije.png)
+
+**Slika 13.1.** Tri konfiguracije komunikacije (čovjek do agenta, agent do čovjeka, agent do agenta) i pitanje koje ih razlikuje: **ko snosi trošak nerazumijevanja**. U prvoj konfiguraciji čovjek preformulira, u drugoj provjerava istinitost izvještaja, u trećoj trošak pada na onoga koji je sustav uključio. Ni u jednoj konfiguraciji obveza nije **priznata**, nego najviše prenesena. Izvor: vlastita izrada (Perak 2026).
+
+ To je ono što ih čini stvarno različitima, a ne smjer strelice.
 
 **Čovjek → agent.** Čovjek adresira sustav; namjera je čovjekova i ona je javna utoliko što je izrečena (Grice 1957). Ako adresat ne pogodi namjeru, trošak pada na čovjeka: on mora preformulirati, dodati kontekst, ponoviti. To je asimetrija koju svatko poznaje iz uporabe — rečenica koja je „jasna" u razgovoru s kolegom nije dovoljna kao zadatak. Uvjeti koji najbolje stoje: **adresiranje** (postoji uloga primatelja) i **zajednički artefakt** (tekst, zapis, datoteka, kontekst). Uvjet koji najslabije stoji: **obveza**, jer nema zajednice koja je priznala (→ pogl. 7.4).
 

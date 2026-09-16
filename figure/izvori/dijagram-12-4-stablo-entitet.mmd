@@ -1,0 +1,9 @@
+%% wrap: 200
+flowchart TB
+  P[Je li to entitet<br/>u sustavu?] --> K1{Kriterij 1:<br/>trajni identitet?}
+  K1 -->|da| K2{Kriterij 2: uloga u sustavu?<br/>Računa li se s njim?}
+  K2 -->|da| K3{Kriterij 3: posljedice akata?<br/>Ispravak, naknada, sankcija?}
+  K3 -->|da| E[Kandidat za entitet:<br/>pozicija koja se održava]
+  K1 -->|ne| N[Nije entitet:<br/>poziv funkcije]
+  K2 -->|ne| N
+  K3 -->|ne| N

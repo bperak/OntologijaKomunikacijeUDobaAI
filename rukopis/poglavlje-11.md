@@ -8,6 +8,10 @@
 
 Najčešći prigovor na razgovor o „razmišljanju" modela glasi: *to je samo predviđanje sljedećeg tokena.* Prigovor je točan i pogrešno usmjeren. Točan je jer je mehanizam doista predviđanje uvjetne vjerojatnosti sljedeće jedinice teksta. Pogrešno je usmjeren jer polazi od pretpostavke da su „predviđanje sljedećeg tokena" i „lanac koraka" **dvije operacije**, od kojih je prva niska, a druga visoka. Nisu dvije. To je jedna operacija kojoj se izlaz vraća na ulaz.
 
+![Slika 11.1 — jedna operacija, dvije vremenske skale](../figure/fig_loops.png)
+
+**Slika 11.1.** Isti mehanizam na dvjema vremenskim skalama: izlaz se vraća na ulaz, pa se iz jednoga koraka predviđanja dobiva niz koraka. Slika prikazuje **petlju**, a ne novu arhitekturu; ono što se mijenja s brojem koraka jest sadržaj ulaza, a ne funkcija koja ga obrađuje. Izvor: vlastita izrada (Perak 2026), shema bez podataka.
+
 ### Jedan mehanizam, dvije vremenske skale
 
 Uzmimo najjednostavniji opis. Model ima funkciju koja iz niza tokena $x_1 \dots x_n$ daje razdiobu nad sljedećim tokenom:

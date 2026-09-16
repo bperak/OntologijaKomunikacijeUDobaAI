@@ -40,7 +40,13 @@ I jedna posljedica za čitanje ostatka knjige: **svaka brojka nosi svoj uzorak s
 
 ## 4.2 Od teksta do mreže: ko-okurencija, PMI, i prag koji *stvara* predmet
 
-Drugi stupanj pretvara tekst u graf. Postupak je lanac odluka, a ne postupak s jednim ispravnim izlazom. Ovdje ga izlažem u pet koraka, s naglaskom na ono što se obično preskače: **što koja odluka isključuje.**
+Drugi stupanj pretvara tekst u graf.
+
+![Slika 4.1 — cjevovod od korpusa do tvrdnje](../figure/dijagram-4-2-cjevovod.png)
+
+**Slika 4.1.** Cjevovod od korpusa do tvrdnje u dvama redovima: prvi red vodi od korpusa preko ko-okurencije i PMI-ja do mreže jedinica, drugi od mreže preko ugrađivanja i oznake razine do tvrdnje. Slika prikazuje **redoslijed odluka**, a ne rezultat: svaka oznaka razine u ovoj knjizi prolazi kroz sve tri točke drugoga reda. Izvor: vlastita izrada (Perak 2026), shema bez podataka.
+
+ Postupak je lanac odluka, a ne postupak s jednim ispravnim izlazom. Ovdje ga izlažem u pet koraka, s naglaskom na ono što se obično preskače: **što koja odluka isključuje.**
 
 **1. Jedinica analize.** Prva odluka je *što je čvor*: oblik riječi, lema ili lema s vrstom riječi daju tri različite mreže iz istog korpusa. Za hrvatski je to ozbiljno, jer je morfološki bogat: *strah*, *straha*, *strahu* i *strahom* četiri su niza znakova i jedna lema. Postupak koji ih drži odvojenima ne mjeri jezik, nego morfologiju — nalaz je tada artefakt odluke, a ne svojstvo gradiva.
 
@@ -110,7 +116,7 @@ Treći stupanj mijenja oblik zapisa: mreža se pretvara u **vektor**. Razlika ni
 
 **Ugrađivanje ne zamjenjuje mrežu; ono je drugi čitatelj istoga gradiva.** Mreža daje *eksplicitan* zapis relacija iz zadanoga okna i praga, a vektor *implicitan* zapis bliskosti koja se ne mora poklapati s bridovima. Zato se u šestom poglavlju leksem *strah* prikazuje i mrežno i vektorski, pa se slike uspoređuju: ako govore isto, to je nalaz; ako se raziđu, i to je nalaz. Vektorski prostor ne smije se prikazati kao „dokaz" mrežne tvrdnje — to su dvije mjere koje mogu i proturječiti.
 
-**Vektorska bliskost kao mjera s pragom.** I na trećem stupnju postoji prag — **granica srodnosti**, koliko blizu moraju biti dva vektora da ih proglasimo srodnima — s istim posljedicama kao u tablici 4.1. Zato se prijavljuje uz rezultat, uz vrstu udaljenosti i broj dimenzija. Bez toga je figura lijepa slika, a figura bez provjerljive tvrdnje nije rezultat, nego ilustracija.
+**Vektorska bliskost kao mjera s pragom.** I na trećem stupnju postoji prag — **granica srodnosti**, koliko blizu moraju biti dva vektora da ih proglasimo srodnima — s istim posljedicama kao u tablici 4.1. Zato se prijavljuje uz rezultat, uz vrstu udaljenosti i broj dimenzija. Bez toga je slika lijepa slika, a slika bez provjerljive tvrdnje nije rezultat, nego ilustracija.
 
 ## 4.4 Od vektora do razine: kako se tvrdnja „ovo je razina 14" uopće testira
 
@@ -126,7 +132,7 @@ Do sada smo dobili zapise: korpus, mrežu, vektor. Nijedan od njih nije razina. 
 | **4. razina** | vektor ili brid → oznaka | **epizoda / potez / odnos** | slaganje anotatora (κ) | oznaka razine uz nesigurnost |
 | **5. tvrdnja** | oznake + mjere | tvrdnja o razini | omjer šansi uz kontrolu | nalaz ili **negativan nalaz** |
 
-Cjevovod u ovoj knjizi nije prikazan slikom, nego **tablicom i kodom**, jer se tako može provjeriti; figura se dodaje tek kad postoji skripta koja je reproducira (→ 4.7).
+Cjevovod u ovoj knjizi nije prikazan slikom, nego **tablicom i kodom**, jer se tako može provjeriti; slika se dodaje tek kad postoji skripta koja je reproducira (→ 4.7).
 
 ### Tri postupka — i samo jedan od njih smije nositi ime razine
 
@@ -231,7 +237,7 @@ Rezultat koji se ne može ponoviti nije rezultat, nego anegdota. Zato knjiga uvo
 | 4 | **postupak** | okno, mjera asocijacije, prag, dimenzije, udaljenost | odluke koje se poslije ne mogu rekonstruirati |
 | 5 | **verzije** | model (Qwen3-Embedding, Qwen Team 2025), biblioteke, skripta | tihi prijelaz na drugu inačicu modela |
 | 6 | **tablica** | brojke s jedinicama i vrstom (*mjereno / procjena / izvedeno*) | procjena koja se čita kao mjerenje |
-| 7 | **graf** | samo ono što je u tekstu | figura koja tvrdi više od teksta |
+| 7 | **graf** | samo ono što je u tekstu | slika koja tvrdi više od teksta |
 | 8 | **kod** | skripta koja proizvodi tablicu i graf (`kod/`) | „kod nije potreban, opis je dovoljan" |
 | 9 | **neuspjeli pokušaji** | što nije prošlo i zašto | pristranost prema pozitivnim rezultatima |
 
@@ -271,7 +277,7 @@ def u_csv(zapis, put):
                         red["vrsta"], red["izvor"]])   # vrsta: mjereno|procjena|izvedeno
 ```
 
-**Pravilo o figuri.** Figura ne smije tvrditi više od teksta; ako se natpis na slici i rečenica razilaze, ispravlja se **tekst** ili se figura ponovno izrađuje (`figure/README.md`). Figura koja prikazuje više nego što je izmjereno povlači se iz knjige, koliko god bila lijepa.
+**Pravilo o figuri.** Slika ne smije tvrditi više od teksta; ako se natpis na slici i rečenica razilaze, ispravlja se **tekst** ili se slika ponovno izrađuje (`slike/README.md`). Slika koja prikazuje više nego što je izmjereno povlači se iz knjige, koliko god bila lijepa.
 
 **Dvije vrste prijave.** *Nalaz* ima tvrdnju, mjeru, nesigurnost i kontrolu i smije ući u sažetak poglavlja; *pokušaj* ima samo postupak i ishod i ostaje u repozitoriju, a u tekst se navodi tek ako je za tvrdnju važan. Ta je razlika za ovu knjigu ključna jer je njezin predmet upravo **granica između onoga što se tvrdi i onoga što se još ne može tvrditi**. Model je u trećem dijelu knjige *kandidat* za novi entitet, nikad zaključak — i metodologija koja to ne bi mogla zapisati bila bi u suprotnosti s vlastitom tezom.
 
@@ -288,11 +294,11 @@ Ovo poglavlje ne bi imalo smisla kad se ne bi moglo provjeriti. Zato ovdje stoji
 | `referencije/` | `REFERENCE_BASE.md` | **jedini dopušteni izvor citata** |
 | `pojmovnik/` | `koncepti.yaml`, `koncepti.csv`, `RJECNIK.md` | registar pojmova + generirani rječnik |
 | `docs/` | `CITIRANJE.md`, `MREZA-KNJIGA.md`, `UPUTE-PO-POGLAVLJIMA.md`, `ISPRAVKE.md`, `ci-mreza.yml.example` | citiranje, mreža triju knjiga, evidencija ispravaka |
-| `kod/` | `check_fakti.py`, `check_links.py`, `pojmovnik_build.py`, `izvuci_doktorat.py`, `README.md` | analize, figure i **provjere** |
-| `figure/` | 20 PNG datoteka + `README.md` (npr. `fig_omlcc16.png`, `fig_emotion_network.png`, `fig_strah_vektori.png`) | figure s izvorom i poglavljem |
+| `kod/` | `check_fakti.py`, `check_links.py`, `pojmovnik_build.py`, `izvuci_doktorat.py`, `README.md` | analize, slike i **provjere** |
+| `slike/` | 20 PNG datoteka + `README.md` (npr. `fig_omlcc16.png`, `fig_emotion_network.png`, `fig_strah_vektori.png`) | slike s izvorom i poglavljem |
 | `data/` | `fakti.csv`, `README.md`, `izvori/doktorat-2014/` (4 CSV-a) | evidencija brojki i podaci iz doktorata |
 
-**Jedna razlika prema nacrtu.** Nacrt je predviđao mape `/data`, `/code`, `/figures` i `/notebooks`; stvarni repozitorij rabi hrvatske nazive (`kod/`, `figure/`, `data/`) i **mapa za bilježnice ne postoji**. To se navodi namjerno, kao primjer pravila iz 4.6: nacrt je *namjera*, a repozitorij *stanje*. Isto vrijedi za skripte: `kod/README.md` navodi `pipeline_tekst_mreza_vektor.py` (4. poglavlje), `mreza_emocija.py` i `mjere_mreze.py` (6.), `geometrija_vlastiti_podaci.py` i `provjera_brojki.py` (10.) te `tablica_razine_12_16.py` (14.) kao **planirane**. One još nisu u repozitoriju, pa se cjevovod ovoga poglavlja za sada prijavljuje kao **tablica i kod**, a ne kao figura — figura ulazi u knjigu tek kad je skripta koja je reproducira (`kod/README.md`).
+**Jedna razlika prema nacrtu.** Nacrt je predviđao mape `/data`, `/code`, `/figures` i `/notebooks`; stvarni repozitorij rabi hrvatske nazive (`kod/`, `slike/`, `data/`) i **mapa za bilježnice ne postoji**. To se navodi namjerno, kao primjer pravila iz 4.6: nacrt je *namjera*, a repozitorij *stanje*. Isto vrijedi za skripte: `kod/README.md` navodi `pipeline_tekst_mreza_vektor.py` (4. poglavlje), `mreza_emocija.py` i `mjere_mreze.py` (6.), `geometrija_vlastiti_podaci.py` i `provjera_brojki.py` (10.) te `tablica_razine_12_16.py` (14.) kao **planirane**. One još nisu u repozitoriju, pa se cjevovod ovoga poglavlja za sada prijavljuje kao **tablica i kod**, a ne kao slika — slika ulazi u knjigu tek kad je skripta koja je reproducira (`kod/README.md`).
 
 **Četiri provjere koje se mogu pokrenuti odmah.** Uz repozitorij idu skripte koje provjeravaju da tekst i podaci ostanu u skladu; tri rade lokalno, bez mreže.
 

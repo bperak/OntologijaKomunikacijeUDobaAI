@@ -40,6 +40,12 @@ Razlika između zbroja i učinka stara je više od stoljeća i pol. John Stuart 
 
 Treći je korak onaj na kojem cijela knjiga stoji. Formulacija je kratka: **mreža je sama entitet**, sa svojstvima koje njezini sastavnici nemaju. Prijelaz iz drugoga u treći korak nije više podataka ni više relacija — to je **promjena organizacije**. Claus Emmeche, Simo Køppe i Frederik Stjernfelt (1997) to su formulirali najpreciznije: emergentno svojstvo uvijek je relativno prema razini organizacije. Ne postoji „emergentno po sebi".
 
+Shema je prikazana na slici 3.1.
+
+![Slika 3.1 — emergentna hijerarhija: entiteti i relacije daju emergentni entitet s novim svojstvima](../figure/fig_emerg_hijerarhija.png)
+
+**Slika 3.1.** *Emergent hierarchy (OMLCC principle)* (vlastita izrada). U donjem su sloju tri okvira — ENTITY 1, ENTITY 2 i ENTITY 3, svaki s oznakom „properties" — iznad njih dva okvira „RELATIONS + relation properties", a na vrhu „EMERGENT ENTITY + new properties"; strelice vode odozdo prema gore. Podnožje sažima tvrdnju: „each higher level: new entities and properties (not a sum of the parts)".
+
 ### Pet radnih kriterija za „jedan nositelj"
 
 Da bi tvrdnja o trećem koraku bila provjerljiva, a ne pjesnička, mora se znati po čemu prepoznajemo da je skup relacija postao **jedan** nositelj. Predlažemo pet kriterija i izričito ih označavamo kao radni prijedlog, a ne kao kanonsku listu: oni su dio ovoga okvira i dužni smo ih braniti.
@@ -71,6 +77,12 @@ Stariji rječnik za istu stvar nalazi se kod Nicolaija Hartmanna (1940). Njegova
 ## 3.4 Radni primjer 1: od zvučnog vala do komunikacijskog čina
 
 Ovaj primjer prolazi tri koraka četiri puta, u nizu. Njegova je poanta u tome što se **materijal ne mijenja ni na jednom koraku**: na početku je zrak, na kraju je zrak — promijenilo se samo ono što je organizirano.
+
+Najkraći oblik istoga nalaza jest klasični primjer vode (slika 3.2).
+
+![Slika 3.2 — klasični primjer: dijelovi H i O i emergentno svojstvo molekule vode](../figure/fig_voda.png)
+
+**Slika 3.2.** *The classic example* (vlastita izrada). Lijevo su tri kruga s oznakama H, H i O i natpisom „parts — not liquid · not solvent", strelica vodi udesno u okvir H₂O s natpisom „emergent property: liquid · solvent", a podnožje dodaje: „The property belongs to the organisation of the parts — not to the parts, and not to a scaled-down version of it". To je isti nalaz koji je u odjeljku 3.3 izrečen o molekuli vode („Ni jedna molekula vode nije vlažna").
 
 **Materijal.** Prvi korak: dijelovi su oscilacije tlaka u zraku. Njihova svojstva su amplituda, frekvencija i faza. U tom opisu nema ničega što bi se moglo nazvati porukom: val nije znak, val je stanje sredstva. Ovo je domena materijalnoga (razine 1–8 u OMLCC-u), i vrijedi je zadržati čistom od svake interpretacije — jer prvi korak upravo i služi tome da se pokaže koliko se malo nalazi u samome gradivu (Hartmann 1940; Anderson 1972).
 

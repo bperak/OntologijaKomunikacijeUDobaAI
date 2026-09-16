@@ -44,7 +44,7 @@ Postupak ima sedam koraka, a svaki od njih može se izvesti dobro ili loše. Ovd
 
 **6. Izračun mjera.** Kad mreža postoji, računaju se mjere iz 6.3. Mjere su **izlaz postupka**, a ne njegov cilj: način da se ono što vidimo zapiše tako da ga i drugi mogu provjeriti.
 
-**7. Zapis i reproducibilnost.** Prag, okno, mjera asocijacije, verzija korpusa i postupak lematizacije idu u zapis uz mrežu. Bez toga figura nije rezultat, nego ilustracija.
+**7. Zapis i reproducibilnost.** Prag, okno, mjera asocijacije, verzija korpusa i postupak lematizacije idu u zapis uz mrežu. Bez toga slika nije rezultat, nego ilustracija.
 
 **Praktikum (skica koda).** Postupak se izvodi u nekoliko desetaka redaka; isječak pokazuje gdje su odluke, a gdje rutina:
 
@@ -65,7 +65,7 @@ zajednice = nx.community.greedy_modularity_communities(G)
 print(nx.modularity(G, zajednice))               # modularnost dane podjele
 ```
 
-**Ako ne radi — tri najčešće greške.** *Prva:* mreža je izgrađena na oblicima riječi, pa se *strah* i *straha* pojavljuju kao dva slabo povezana čvora i mreža izgleda rascjepkano. *Druga:* u mreži su ostale funkcijske riječi i najčešće riječi jezika, pa sve visi o nekolicini čvorova koji ne nose nikakvo značenje domene — rješenje nije „pojačati prag", nego izračunati asocijaciju umjesto frekvencije. *Treća:* prag je odabran tako da figura izgleda lijepo, a ne tako da se može braniti; ljepota rasporeda nije kriterij, a siloviti (*force-directed*) raspored u kojem je figura najčešće nacrtana koristi **samo bridove** — položaj čvora na slici nije udaljenost u značenju, nego posljedica algoritma crtanja.
+**Ako ne radi — tri najčešće greške.** *Prva:* mreža je izgrađena na oblicima riječi, pa se *strah* i *straha* pojavljuju kao dva slabo povezana čvora i mreža izgleda rascjepkano. *Druga:* u mreži su ostale funkcijske riječi i najčešće riječi jezika, pa sve visi o nekolicini čvorova koji ne nose nikakvo značenje domene — rješenje nije „pojačati prag", nego izračunati asocijaciju umjesto frekvencije. *Treća:* prag je odabran tako da slika izgleda lijepo, a ne tako da se može braniti; ljepota rasporeda nije kriterij, a siloviti (*force-directed*) raspored u kojem je slika najčešće nacrtana koristi **samo bridove** — položaj čvora na slici nije udaljenost u značenju, nego posljedica algoritma crtanja.
 
 ## 6.3 Interpretacija mjera: što mjera znači i što NE znači
 
@@ -97,15 +97,17 @@ Emocionalni je leksik za ovu svrhu prikladan iz jednoga razloga: to je domena u 
 
 **Podaci i postupak.** Polazište je hrvatski emocionalni leksik — **125 leksema** koji pripadaju domeni emocija — a veze se izvode iz uporabe u korpusu (hrWac) mjerom asocijacije uz prijavljeni prag, uz dodatni konstrukcijski sloj koji bilježi lekseme u istim konstrukcijama (Perak 2014; EmoCNet 2019–21; Perak & Ban Kirigin 2023). Mreža je izgrađena oko leksema *strah* kao polazišta, pa se oko njega čitaju susjedstva, a ne popis sinonima. Rezultat je prikazan na slici 6.1.
 
-**Slika 6.1** — *Mreža od 125 hrvatskih emocionalnih leksema s leksemom „strah" u središtu* (objavljeno u: Ban Kirigin & Perak 2020, *Rasprave IHJJ* 46(2): 957–996; `fig_emotion_network.png`, 1618 × 1456 px; izvor podataka: hrWac; Perak 2014; EmoCNet 2019–21). Čvorovi su potpisani leksemima, bridovi su mjera asocijacije iz uporabe, a raspored je siloviti (*force-directed*), što znači da položaj čvora na slici proizlazi iz bridova i algoritma crtanja, a ne iz mjere značenja.
+![Slika 6.1 — Mreža od 125 hrvatskih emocionalnih leksema s leksemom „strah" u središtu](../figure/fig_emotion_network.png)
 
-> **Izvor figure.** Mreža od 125 emocionalnih leksema sa *strah* u središtu objavljena je u: Ban Kirigin, T. & Perak, B. (2020). *Corpus-Based Syntactic-Semantic Graph Analysis: Semantic Domains of the Concept „Feeling“.* Rasprave: Časopis Instituta za hrvatski jezik i jezikoslovlje 46(2): 957–996 (Hrčak: 245479). Ovdje je prenosimo u skraćenom obliku.
+**Slika 6.1.** *Mreža od 125 hrvatskih emocionalnih leksema s leksemom „strah" u središtu* (objavljeno u: Ban Kirigin & Perak 2020, *Rasprave IHJJ* 46(2): 957–996; `fig_emotion_network.png`, 1618 × 1456 px; izvor podataka: hrWac; Perak 2014; EmoCNet 2019–21). Čvorovi su potpisani leksemima, bridovi su mjera asocijacije iz uporabe, a raspored je siloviti (*force-directed*), što znači da položaj čvora na slici proizlazi iz bridova i algoritma crtanja, a ne iz mjere značenja.
+
+> **Izvor slike.** Mreža od 125 emocionalnih leksema sa *strah* u središtu objavljena je u: Ban Kirigin, T. & Perak, B. (2020). *Corpus-Based Syntactic-Semantic Graph Analysis: Semantic Domains of the Concept „Feeling“.* Rasprave: Časopis Instituta za hrvatski jezik i jezikoslovlje 46(2): 957–996 (Hrčak: 245479). Ovdje je prenosimo u skraćenom obliku.
 
 **Što se u ovoj mreži vidi.** Prvo, da se emocionalni leksemi hrvatskoga u uporabi **ne pojavljuju pojedinačno**, nego u mrežama s određenim središtima — što je isti nalaz koji je u drugom poglavlju naveden kao svojstvo razine 10 (Perak 2014; EmoCNet 2019–21). Drugo, da leksem ne nosi svoju definiciju kao spremnik: struktura je u relacijama koje *strah* vežu uz *trepet*, *lepet*, *paniku* i *frku*, a svaki od tih leksema ima drugi položaj i drugo susjedstvo (Perak 2014; EmoCNet 2019–21). Treće, da mreža ima unutarnja polja koja su međusobno razdvojena, a neka su susjedna — a to je svojstvo **cjeline**: nijedan pojedini leksem ne „sadrži" činjenicu da su dva polja razdvojena.
 
 **Provjera pet kriterija iz trećega poglavlja.** Je li ova mreža samo opis ili je postala jedan nositelj? *Namenljivost:* može se imenovati jedninom — *emocionalni leksik hrvatskoga*, *mreža straha*. *Relacijska sposobnost:* s njom se može usporediti druga takva cjelina, iz druge domene ili iz drugoga korpusa. *Svojstvo bez nositelja u sastavnicama:* razdvojenost polja i položaj *straha* nisu svojstva ni jednoga pojedinog leksema. *Granica i pripadnost:* granica postoji, ali je postupna i ovisi o pragu. *Zamjenjivost sastavnica:* najosjetljiviji kriterij; ono što preživljava zamjenu podataka jest **uzorak** — a to je upravo ono što ovdje zovemo organizacijom.
 
-**Što ova studija slučaja ne pokazuje.** Ne pokazuje kakav je *strah* kao doživljaj, ne pokazuje uzrok njegova položaja u mreži ni hijerarhiju važnosti među emocijama. Ne pokazuje ni da govornici hrvatskoga dijele unutarnji pojmovni prostor koji figura prikazuje: pokazuje da se u zapisanome jeziku ustalio obrazac uporabe koji se može opisati mrežom. Razlika između te dvije tvrdnje nije nijansa — to je razlika između jezičnoga podatka i psihološkoga zaključka, i u njoj se lako izgubiti. Zato je sljedeći odjeljak posvećen granici.
+**Što ova studija slučaja ne pokazuje.** Ne pokazuje kakav je *strah* kao doživljaj, ne pokazuje uzrok njegova položaja u mreži ni hijerarhiju važnosti među emocijama. Ne pokazuje ni da govornici hrvatskoga dijele unutarnji pojmovni prostor koji slika prikazuje: pokazuje da se u zapisanome jeziku ustalio obrazac uporabe koji se može opisati mrežom. Razlika između te dvije tvrdnje nije nijansa — to je razlika između jezičnoga podatka i psihološkoga zaključka, i u njoj se lako izgubiti. Zato je sljedeći odjeljak posvećen granici.
 
 ### 6.4.1 Podaci iz izvornika (2014) — što je u radu izmjereno
 

@@ -22,6 +22,12 @@ Iz ovoga slijedi prva radna razlika koju ćemo u knjizi stalno koristiti:
 
 Treći redak tablice nosi tezu cijele knjige. Materijal se mijenja — glasovni val, slovo, vektor — a **organizacija se ponavlja**. Kad u trećem poglavlju budemo govorili o tri koraka emergencije, formula će biti upravo ova: *dijelovi → mreža → nova cjelina*, pri čemu se **materijal ne mijenja, mijenja se organizacija**.
 
+Kako takav lanac organizacije izgleda u jednome jezičnom modelu, prikazuje slika 1.1.
+
+![Slika 1.1 — lanac organizacije u jezičnom modelu: od tokena do strukture na razini sustava](../figure/fig_hijerarhija.png)
+
+**Slika 1.1.** *Levels of organisation in a language model* (vlastita izrada). Pet okvira povezanih strelicama slijeva nadesno nose oznake TOKENS, FEATURES, DISTRICTS, CIRCUITS i PLANNING, a podnožje sažima slijed: „simple parts → local interactions → structure at the system level (weakly emergent)". Slika je shema organizacije, bez brojki i bez mjerenja: oznaka *planning* pripada rječniku same slike, a knjiga o planiranju u modelu ne iznosi tvrdnju — svaka bi takva tvrdnja tražila mjeru (odjeljak 1.7).
+
 **Zašto ovo nije trivijalno.** Moglo bi se prigovoriti: pa svaka analiza raščlanjuje na dijelove i sastavlja natrag. Odgovor je da klasična analiza pretpostavlja da će svojstva cjeline *biti zbroj* svojstava dijelova (to je načelo kompozicionalnosti u najgrubljem obliku). Sustavna perspektiva tu pretpostavku odbacuje: svojstva cjeline mogu biti **kvalitativno nova** u odnosu na dijelove, i to ne zbog misterija, nego zbog organizacije. Upravo zato Simonova „gotovo-razloživost" nije samo tehnički pojam — ona objašnjava zašto je **moguće** da iz jednostavnih dijelova nastane nešto što dijelovi ne pokazuju, a da pritom ne posegnemo za nikakvim dodatnim silama.
 
 ## 1.2 Odakle pojam: emergentno nasuprot rezultantnom (1843–1925)
@@ -75,6 +81,12 @@ Ako razine nisu puko naše pomagalo za snalaženje, nego nešto u strukturi svij
 **Integrativne razine u biologiji.** Alexander Novikoff (1945) u kratkom tekstu u *Scienceu* formulira ono što je postalo radni program: živa tvar organizirana je u razine — stanica, tkivo, organ, organizam, vrsta, ekosustav — i svaka razina ima svoja svojstva koja se ne mogu pripisati nižima. Joseph Feibleman (1954) tu misao razvija u „teoriju integrativnih razina": viša razina *uključuje* nižu, ali njome ne upravlja po njezinim pravilima; integracija je proces u kojem niže jedinice postaju dijelovi više cjeline i time stječu nove relacije. To je formula koju ćemo u trećem poglavlju zvati jednostavno *tri koraka*.
 
 **Slojevi stvarnosti u ontologiji.** Nicolai Hartmann u *Der Aufbau der realen Welt* (1940) razradio je ono što je danas najozbiljnija „stara" ontologija razina: *Schichtenlehre*, nauk o slojevima. Hartmann razlikuje slojeve (materija, organsko, duševno, duhovno) i tvrdi da među njima vrijede zakoni slojevitosti: viši sloj **pretpostavlja** niži, ali uvodi kategorije koje niži ne posjeduje (*kategorijalna novost*), a pritom **ostaje utemeljen** u nižemu (*zakon snažnijeg nižeg sloja*). Njegovo je jaka tvrdnja da viši sloj nikada ne može biti shvaćen iz nižega, a slabi da viši ne može opstati bez nižega. Ovo je, u terminologiji ove knjige, precizno formuliran **ontološki emergentizam** — i zato je Hartmann jedan od okosnih izvora drugog poglavlja, u kojem se razine ne izvode iz primjera, nego iz tipova svojstava.
+
+Isti se slijed slojeva, u najkraćemu obliku, vidi na slici 1.2.
+
+![Slika 1.2 — razine organizacije od fizikalne do kognitivno-računalne](../figure/fig_razine.png)
+
+**Slika 1.2.** *Levels of organisation* (vlastita izrada). Četiri su okvira poredana odozdo prema gore — PHYSICAL („parts: atoms, energy states"), CHEMICAL („emergent: liquidity, solvent properties"), BIOLOGICAL („emergent: life, metabolism") i COGNITIVE / COMPUTATIONAL („emergent: concept-like structure, planning?") — uz lijevi rub stoji strelica prema gore, a podnožje tvrdi: „Each higher level: properties its parts lack". Slika je shema slojevitosti o kojoj u ovome poglavlju govore Novikoff i Hartmann, bez brojki i bez mjerenja; *planning* je na njoj zapisan s upitnikom, dakle kao otvoreno pitanje, a ne kao tvrdnja.
 
 **Stratificirani realizam u filozofiji znanosti.** Roy Bhaskar u *A Realist Theory of Science* (1975) uvodi razliku koja je za nas operativno najkorisnija: razliku između domene **realnog** (mehanizmi i kauzalne moći), domene **aktualnog** (događaji) i domene **empirijskog** (opažaji). Znanost je moguća jer su mehanizmi realni i djeluju i kad ih ne opažamo. Ta je razlika važna zato što nas štiti od zamke koja u istraživanjima jezika i modela vreba na svakom koraku: **iz odsutnosti opažaja ne slijedi odsutnost mehanizma**, a iz prisutnosti korelacije ne slijedi postojanje mehanizma.
 
