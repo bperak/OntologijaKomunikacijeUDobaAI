@@ -117,5 +117,62 @@ U istome smjeru ide i nalaz koji treba čitati kao **hipotezu, ne kao dokaz**: H
 
 **Što iz toga slijedi za ostatak dijela.** Ako je model uređenje uporabe, onda se o njemu može govoriti geometrijski (deseto poglavlje: što se u geometriji mjeri i gdje mjera zavarava), procesno (jedanaesto poglavlje: što znači da se kontekst neprestano unaprjeđuje) i sistemski (dvanaesto poglavlje: kada uređenje postaje entitet, a kada dobiva ulogu). Pouka ovoga poglavlja vrijedi za sve tri: **ono što se mjeri nije sadržaj, nego organizacija**.
 
-<!-- KRAJ-DIJELA-2 -->
+### Kako bismo znali da griješimo
+
+Tvrdnja ovoga poglavlja jest da je model **organizacija uporabe**. Ona pada na četiri načina, i svaki je provjerljiv.
+
+- **Ako se pokaže da uspjeh zavisi od količine, a ne od uređenja.** Kada bi dva sustava istoga kapaciteta — jedan s organiziranim relacijama, drugi s istim podacima ali bez relacijske strukture (npr. samo memorija iskaza) — postizala isti ishod, riječ „organizacija" bila bi suvišna, a model bi bio tablica čestota s boljim pristupom memoriji.
+- **Ako se pokaže da je prijelom u skaliranju artefakt mjere.** Schaeffer i suradnici (2023) tvrde upravo to: „emergentne" sposobnosti ovise o izboru metrike, pa prijelom može nastati u načinu bodovanja, a ne u sustavu. Ako to drži za svaki tvrđeni prijelom, poglavlje mora odustati od riječi *emergencija* i govoriti samo o **kontinuiranom rastu** — organizacija ostaje, prijelom pada.
+- **Ako se pokaže da prikazi različitih modela nisu usporedivi**, tj. da hipoteza Huh i suradnika (2024) ne drži, tada je organizacija uporabe **lokalna** činjenica pojedinoga modela, a ne svojstvo materijala uporabe — i svaka tvrdnja o prijenosu između sustava mora se povući.
+- **Ako se pokaže da razlika prema razini 14 ne postoji** — da se prepoznata namjera i priznata obveza mogu izvesti iz geometrije bez ijednoga dodatka, čemu se Bender i Koller (2020) približavaju s jedne, a Harnad (1990) s druge strane — tada tvrdnja ovoga poglavlja nije pogrešna, nego **prejaka za ono što mjeri**, i mora se svesti na opis razine 6.
+
+Ni jedan od tih testova nije izveden u ovoj knjizi. Nabrojani su zato da se zna **što bi ih izvelo** i da se tvrdnja ne čita kao zaključak.
+
+### Vježbe
+
+🟢 **Provjeri razumijevanje.** Odaberi riječ s najmanje dva značenja (npr. *banka*) i napiši, vlastitim riječima, što bi **statički** vektor morao izgubiti da bi ih mogao predstaviti jednim skupom koordinata, a što **kontekstualni** vektor dobiva time što ga računa za svaku pojavu zasebno. Zatim provjeri svoju tvrdnju na jednom primjeru iz vlastitoga jezika.
+
+🟡 **Primijeni na vlastite podatke.** Izračunaj srodnost deset pojmova na vlastitome mjernom postavu. Postupak: (1) uzmi deset pojmova iz svojega područja; (2) pribavi ugrađivanja; (3) izračunaj kosinusnu sličnost za sve parove; (4) poredaj parove i zapiši tri najbliža i tri najdalja; (5) napiši što te je iznenadilo. Knjiga rabi vlastiti poslužitelj s **Qwen3-Embedding (4096 dimenzija)** (`qwen3_embed_dim` u `data/fakti.csv`), pa je isječak pisan za OpenAI-združeno sučelje:
+
+```python
+# srodnost deset pojmova na vlastitom mjernom postavu (4096-dim)
+import os, itertools, numpy as np
+from openai import OpenAI
+
+klijent = OpenAI(base_url=os.environ["EMBED_URL"], api_key=os.environ["EMBED_KEY"])
+pojmovi = ["strah", "tjeskoba", "panika", "srditost", "prijezir",
+           "veselje", "ushit", "ljubav", "znatiželja", "pažnja"]
+
+V = klijent.embeddings.create(model="qwen3-embedding", input=pojmovi).data
+M = np.array([v.embedding for v in V])
+M = M / np.linalg.norm(M, axis=1, keepdims=True)      # normalizacija
+
+parovi = [((i, j), float(M[i] @ M[j]))
+          for i, j in itertools.combinations(range(len(pojmovi)), 2)]
+for (i, j), s in sorted(parovi, key=lambda x: -x[1])[:5]:
+    print(f"{pojmovi[i]:>12} ~ {pojmovi[j]:<12} {s:+.3f}")
+
+# što provjeriti: je li najbliži par onaj koji bi očekivao po značenju,
+# ili par koji se najčešće pojavljuje zajedno u korpusu? Razlika je nalaz.
+```
+
+**Ako ne radi.** Najčešća tri zastoja: (1) `EMBED_URL` mora završavati na `/v1`; (2) model traži istu dimenziju za sve ulaze — ako miješaš dvije verzije, dobiješ grešku oblika; (3) ako su sve sličnosti blizu 1, provjeri normalizaciju: bez nje kosinus nije kosinus.
+
+🏆 **Istraživački zadatak.** Testiraj gdje distribucijski pristup pada. Postupak: (1) odaberi po tri primjera za **polisemiju**, **ironiju** i **deiksu**; (2) za svaki napiši što bi „točan" odgovor bio po ljudskom sudu; (3) pusti tri upita kroz sustav i zabilježi odgovor; (4) razvrstaj svaki promašaj u jednu od tri kategorije — pogrešna referencija (Harnad 1990), pogrešna namjera (Grice 1957), pogrešno vezanje na situaciju; (5) prijavi i **negativan** nalaz ako sustav prođe sve. Rezultat je nalaz samo ako je razvrstavanje provedeno prije gledanja odgovora.
+
+### Sažetak
+
+- **Distribucijska hipoteza** (Harris 1954; Firth 1957) tvrdi da se razlike u značenju očituju u razlikama kontekstā. To je **empirijska** tvrdnja o uporabi, a ne tvrdnja da je značenje isto što i kontekst.
+- **Prvi vektori** (Mikolov i suradnici 2013; Pennington i suradnici 2014) pretvaraju ko-okurenciju u koordinate: jedinica dobiva jedno mjesto u prostoru.
+- **Kontekstualni obrat** (Vaswani i suradnici 2017; Devlin i suradnici 2018; Radford i suradnici 2018–19) ukida to jedno mjesto: vektor se računa po pojavi, pa ista riječ može imati različite koordinate u različitim rečenicama.
+- **Parametar nije značenje**, a učenje nije upisivanje: parametri su **uređenje** koje se mijenja tijekom obrade podataka. Skaliranje (Kaplan i suradnici 2020; Hoffmann i suradnici 2022) pokazuje da uređenje ima cijenu i da odnos kapaciteta i podataka nije proizvoljan — ali ne pokazuje da veće znači bolje.
+- **Pouka poglavlja:** model nije kopija svijeta, nego **organizacija uporabe**. To je isti postupak koji je u trećem poglavlju primijenjen na mrežu, a u šestom na emocije — samo na drugom materijalu. Zato model ne dodaje sedamnaestu razinu: on zauzima **postojeće pozicije** (→ pogl. 12.3).
+
+### Ključni pojmovi
+
+*distribucijska hipoteza · ko-okurencija · ugrađivanje (embedding) · vektorski prostor · statički vektor · kontekstualni vektor · pažnja · transformer · parametar · učenje · zakon skaliranja · Chinchilla · artefakt metrike · organizacija uporabe · zajednički prikaz*
+
+### Literatura poglavlja
+
+Anderson 1972 · Bedau 1997 · Bender & Koller 2020 · Chalmers 2006 · Devlin i suradnici 2018 · Firth 1957 · Fodor 1975 · Gurnee & Tegmark 2023 · Harnad 1990 · Harris 1954 · Hartmann 1940 · Hoffmann i suradnici 2022 · Huh i suradnici 2024 · Kaplan i suradnici 2020 · Mikolov i suradnici 2013 · Pennington i suradnici 2014 · Perak, OMLCC - izlaganja 2017a; 2017b · Qwen Team 2025 · Radford i suradnici 2018–19 · Saussure 1916 · Schaeffer i suradnici 2023 · Thompson 2026 · Vaswani i suradnici 2017 · Wei i suradnici 2022
 

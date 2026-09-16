@@ -16,6 +16,7 @@ Status: ✅ provjereno (izvor/datoteka/DOI) · ☑ kanonsko djelo (bibliografski
 - **Novikoff, A. B. (1945).** The concept of integrative levels and biology. *Science* 101. — integrativne razine u biologiji. → pogl. 1.5 ☑
 - **Feibleman, J. K. (1954).** Theory of integrative levels. *British Journal for the Philosophy of Science* 5. → pogl. 1.5 ☑
 - **Simon, H. A. (1962).** The architecture of complexity. *Proceedings of the American Philosophical Society* 106(6). — hijerarhija, „near-decomposability", sat i metafora. → pogl. 1.1, 3.1 ☑
+- **Bertalanffy, L. von (1968).** *General System Theory: Foundations, Development, Applications.* New York: George Braziller. — sustav kao „kompleks elemenata u interakciji" (str. 55; formulacija se javlja i kao „a set of elements standing in interrelation among themselves and with environment"). Provjereno 14. 9. 2026. na izvorniku (monoskop.org, panarchy.org) i u sekundarnoj literaturi. → pogl. 1.1, 3.1 ☑
 - **Koestler, A. (1967).** *The Ghost in the Machine.* — *holon*: cjelina koja je istovremeno dio. → pogl. 1.1, 3.3 ☑
 - **Popper, K. R. & Eccles, J. C. (1977).** *The Self and Its Brain.* — tri svijeta i kauzalna otvorenost. → pogl. 1.6 ☑
 - **Anderson, P. W. (1972).** More Is Different. *Science* 177(4047). → pogl. 1.5 (nosiva referenca) ☑
