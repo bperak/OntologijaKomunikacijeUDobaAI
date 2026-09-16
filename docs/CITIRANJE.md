@@ -114,15 +114,15 @@ Za članke i poglavlja u zbornicima koristi punu referencu s **CroRIS-a** (mogu�
 - Google Scholar: https://scholar.google.com/citations?user=8kW9x1MAAAAJ
 
 ### Doktorski rad (2014; mreža emocija — izvor za poglavlje 6)
-> Perak, B. (2014). *Opojmljivanje leksema strah u hrvatskome: sintaktičko-semantička analiza* (doktorski rad). Sveučilište u Zagrebu. https://www.croris.hr/crosbi/publikacija/ocjenski-rad/386434
+> Perak, B. (2014). *Opojmljivanje leksema strah u hrvatskome: sintaktičko-semantička analiza* (doktorski rad). Filozofski fakultet Sveučilišta u Zagrebu. Mentorica: dr. sc. Milena Žic Fuchs. https://github.com/bperak/doktorat-strah
 
 ```bibtex
 @phdthesis{perak2014strah,
   author = {Perak, Benedikt},
   title  = {Opojmljivanje leksema strah u hrvatskome: sintaktičko-semantička analiza},
-  school = {Sveučilište u Zagrebu},
+  school = {Filozofski fakultet Sveučilišta u Zagrebu},
   year   = {2014},
-  note   = {Nije objavljen; CroRIS: 386434},
+  note   = {Mentorica: Milena Žic Fuchs; CroRIS: 386434},
   url    = {https://www.croris.hr/crosbi/publikacija/ocjenski-rad/386434}
 }
 ```
