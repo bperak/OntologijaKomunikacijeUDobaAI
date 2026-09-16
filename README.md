@@ -89,9 +89,14 @@ python kod/check_links.py --http     # sidra, upute na druge knjige, mrežne pro
 | `rukopis/poglavlje-06.md` | ✅ prva radna verzija (4.497 riječi, mreže značenja + praktikum s kodom) |
 | `rukopis/poglavlje-07.md` | ✅ prva radna verzija (3.205 riječi, komunikacija kao razina 14) |
 | `rukopis/poglavlje-08.md` | ✅ prva radna verzija (institucije 15 i kulturni modeli 16) |
+| `rukopis/poglavlje-09.md` | ✅ prva radna verzija (4.270 riječi, od vektorskog prostora do modela — DIO III) |
+| `rukopis/poglavlje-10.md` | ✅ prva radna verzija (6.420 riječi, geometrija na djelu i njezine granice) |
+| `rukopis/poglavlje-11.md` | ✅ prva radna verzija (5.546 riječi, mišljenje kao procesiranje) |
+| `rukopis/poglavlje-12.md` | ✅ prva radna verzija (5.782 riječi, od modela do agenta — novi entitet) |
 | `rukopis/studije-slucaja/incidenti-2026.md` | ✅ studija slučaja: zašto razlučivati razine (AI incidenti 2026) |
+| `docs/ISPRAVKE.md` | ✅ evidencija ispravljenih javnih tvrdnji (ISPRAVAK-001/002/003) |
 | `doktorat-strah` (zaseban repo) | ✅ doktorski rad 2014. objavljen u otvorenom pristupu: https://github.com/bperak/doktorat-strah |
-| `data/fakti.csv` | ✅ evidencija brojki (23 zapisa) + `kod/check_fakti.py` |
+| `data/fakti.csv` | ✅ evidencija brojki (34 zapisa) + `kod/check_fakti.py` (provjerava i brojke u rukopisu) + `kod/izvuci_doktorat.py` |
 | `figure/` | ✅ 20 autorskih figura iz predavanja + popis s mapiranjem na poglavlja |
 
 ---

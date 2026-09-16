@@ -24,10 +24,33 @@ VRSTE = {"mjereno", "procjena", "izvedeno", "mjereno (zaokruženo)"}
 # jedinice koje u tekstu označavaju mjerljivu tvrdnju (ne godine, ne brojevi poglavlja)
 UNITS = r"(tokena|token|parametara|parametra|neurona|sinapsi|leksema|tipova neurona|dimenzija|%|sekundi|sati|milijuna|razina)"
 
+# generičke vrijednosti: pojavljuju se kao dio argumenta, a ne kao mjerenje
+# (npr. „100 % pitanja", „oko 20 % pitanja nema neosporan odgovor") — ne idu u evidenciju
+GENERICKE = {0.0, 20.0, 100.0}
+
 
 def num(t: str):
-    """Broj iz zapisa; podržava i raspone (npr. '10-20', '10–20')."""
-    t = t.strip().replace(".", "").replace(",", ".")
+    """Broj iz zapisa; podržava raspone ('10-20') i oba decimalna zapisa ('51.3' i '51,3').
+
+    Hrvatski rukopis piše decimalni zarez, a evidencija decimalnu točku. Ranija je verzija
+    svaku točku brisala kao razdjelnik tisućica, pa se '51.3' čitalo kao 513 i provjera je
+    lažno prijavljivala svaku decimalnu brojku (npr. HLE 51,3 %). Zato:
+      - '10.000'  -> 10000   (sve skupine iza prve imaju točno 3 znamenke = tisućice)
+      - '51.3'    -> 51.3    (decimalna točka)
+      - '51,3'    -> 51.3    (decimalni zarez)
+      - '10.000,5'-> 10000.5 (hrvatski zapis)
+    """
+    t = t.strip()
+    if "," in t and "." in t:
+        t = t.replace(".", "").replace(",", ".")
+    elif "," in t:
+        t = t.replace(",", ".")
+    elif "." in t:
+        dijelovi = t.split(".")
+        if (len(dijelovi) > 1
+                and all(len(x) == 3 and x.isdigit() for x in dijelovi[1:])
+                and dijelovi[0].isdigit()):
+            t = "".join(dijelovi)          # tisućice: 10.000 -> 10000
     for sep in ("-", "\u2013", "\u2014", " do "):
         if sep in t:
             dijelovi = [x for x in t.split(sep) if x.strip()]
@@ -67,7 +90,11 @@ def main():
             warn.append(f"{rid}: nepotvrđeno (❓) — ne citirati bez provjere")
 
     # brojke iz rukopisa s jedinicom
-    known = {norm(num(r["brojka"])) for r in rows.values() if num(r["brojka"]) is not None}
+    known = {num(r["brojka"]) for r in rows.values() if num(r["brojka"]) is not None}
+
+    def poznato(v: float) -> bool:
+        """Je li brojka u evidenciji — uz toleranciju za zaokruživanje (51 % ≈ 51.3 %)."""
+        return any(abs(k - v) <= max(0.01 * abs(k), 0.5) for k in known)
     hits = []
     if os.path.isdir(RUK):
         for fn in sorted(os.listdir(RUK)):
@@ -78,7 +105,9 @@ def main():
                 v = num(m.group(1))
                 if v is None or v < 10:      # jednocifrene brojke su najčešće redni brojevi razina
                     continue
-                if norm(v) not in known:
+                if v in GENERICKE:           # opisno, ne mjerljivo
+                    continue
+                if not poznato(v):
                     hits.append(f"{fn}: '{m.group(0).strip()}' nema u evidenciji")
 
     print("=== Evidencija brojki ===")
