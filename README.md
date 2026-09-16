@@ -87,7 +87,10 @@ python kod/check_links.py --http     # sidra, upute na druge knjige, mrežne pro
 | `rukopis/predgovor.md` | ✅ predgovor + „kako čitati uz druge dvije knjige" (804 riječi) |
 | `rukopis/poglavlje-05.md` | ✅ prva radna verzija (4.392 riječi, jezik kao emergentna pojava) |
 | `rukopis/poglavlje-06.md` | ✅ prva radna verzija (4.497 riječi, mreže značenja + praktikum s kodom) |
-| `data/fakti.csv` | ✅ evidencija brojki (17 zapisa) + `kod/check_fakti.py` |
+| `rukopis/poglavlje-07.md` | ✅ prva radna verzija (3.205 riječi, komunikacija kao razina 14) |
+| `rukopis/poglavlje-08.md` | ✅ prva radna verzija (institucije 15 i kulturni modeli 16) |
+| `rukopis/studije-slucaja/incidenti-2026.md` | ✅ studija slučaja: zašto razlučivati razine (AI incidenti 2026) |
+| `data/fakti.csv` | ✅ evidencija brojki (23 zapisa) + `kod/check_fakti.py` |
 | `figure/` | ✅ 20 autorskih figura iz predavanja + popis s mapiranjem na poglavlja |
 
 ---
