@@ -88,9 +88,9 @@ Status: ✅ provjereno (izvor/datoteka/DOI) · ☑ kanonsko djelo (bibliografski
 - **Snell, C. et al. (2024).** Scaling LLM test-time compute optimally can be more effective than scaling model parameters; arXiv:2408.03314. → pogl. 10.4, 11.1 ✅
 - **DeepSeek-AI (2024).** DeepSeek-V3; arXiv:2412.19437. → pogl. 10.4 ✅
 - **DeepSeek-AI (2025).** DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning. *Nature* 645:633–638. DOI 10.1038/s41586-025-09422-z. → pogl. 11.1 ✅
-- **METR (2025).** Measuring AI ability to complete long software tasks; arXiv:2503.14499 (NeurIPS 2025). → pogl. 10.6 ✅
-- **Phan, L. et al. (2025).** Humanity's Last Exam; arXiv:2501.14249. → pogl. 10.5 ✅
-- **Rein, D. et al. (2023).** GPQA; arXiv:2311.12022. → pogl. 10.5 ✅
+- **METR (2025).** Measuring AI ability to complete long software tasks; arXiv:2503.14499 (NeurIPS 2025). Horizont 2020.: **9 sekundi**. **Ispravak (provjereno 14. 9. 2026.):** procjena za Claude Opus 4.6 od 20. 2. 2026. iznosila je ~14,5 h, ali je METR **3. 3. 2026. ispravio bug u modeliranju** i vrijednost spustio na **~12 h**; uz graf stoji napomena **„Measurements above 16 hrs are unreliable with our current task suite"** (mjerenja iznad 16 h nepouzdana). Claude Mythos (ožujak 2026.) ocijenjen je na **16+ h**, tj. na gornjoj granici skupa zadataka. → pogl. 10.6 ✅
+- **Center for AI Safety, Scale AI & HLE Contributors Consortium (2026).** A benchmark of expert-level academic questions to assess AI capabilities. *Nature* 649:1139–1146. DOI 10.1038/s41586-025-09962-4 · arXiv:2501.14249 (v11). HLE ima 2.500 pitanja (finalizirano 4/2025). **Stropovi (provjereno 14. 9. 2026.):** „uncontroversially correct" strop iznosi **~51,3 %** prema FutureHouse (7/2025) **ili 25,6 %** prema Alibabi (2/2026, arXiv:2602.13964v2); gotovo zasićen 12/2025 (GPT-5.2 @ 50 %). Navode se oba izvora. → pogl. 10.5 ✅
+- **Rein, D. et al. (2023).** GPQA: A Graduate-Level Google-Proof Q&A Benchmark; arXiv:2311.12022. 448 pitanja (podskup Diamond = 198). **Strop (provjereno 14. 9. 2026.):** **~80 %** (zavisi od podskupa), prema Thompson (2026); zasićen 11/2025 (Gemini 3 Pro @ 93,8 %); **Anthropic prestao izvještavati GPQA od 6/2026.** → pogl. 10.5 ✅
 - **Qwen Team (2025).** Qwen3 Embedding: advancing text embedding and ranking models; arXiv:2506.05176. → pogl. 4.3, 10.1 ✅ *(vlastiti mjerni postav: 4096 dim.)*
 - **Lindsey, J. (2025).** Emergent introspective awareness in large language models. *Transformer Circuits Thread* (Anthropic). → pogl. 11.4 ✅
 - **Anthropic (2025).** On the biology of a large language model. *Transformer Circuits Thread*. → pogl. 10.7 ✅
@@ -124,6 +124,7 @@ Status: ✅ provjereno (izvor/datoteka/DOI) · ☑ kanonsko djelo (bibliografski
 
 ## J. Podaci, tablice i mjerni izvori
 - **Thompson, A. D. (2026).** Models Table — Rankings. LifeArchitect.ai. — procjene veličine modela; **označiti kao procjene**. → pogl. 10.4 ✅
+- **Thompson, A. D. (2026).** *Mapping IQ, MMLU, MMLU-Pro, GPQA, HLE* (ažurirano 4. 8. 2026.), LifeArchitect.ai. Stropovi benchmarka: MMLU **~91 %** (zasićen 9/2024: o1-preview 92,3 %), MMLU-Pro **~90 %** (zasićen 11/2025: Gemini 3 Pro 90,1 %), GPQA **~80 %**, HLE **~51 %** / **~26 %**. → pogl. 10.5 ✅
 - **Epoch AI (2026).** AI Models. → pogl. 10.4 ✅
 - **hrWac** (hrvatski web-korpus) — primarni korpus knjige. → pogl. 4.1, 6.2 ☑
 - **SemiAnalysis (2023).** GPT-4 architecture (procjena, nepotvrđeno) — citirati **samo** kao nepotvrđenu procjenu. → pogl. 10.4 ✅
@@ -150,7 +151,7 @@ Status: ✅ provjereno (izvor/datoteka/DOI) · ☑ kanonsko djelo (bibliografski
 - ❓ Puni bibliografski podaci za Perak 2025 (objavljeno; treba samo navesti izdanje) i Perak & Ban Kirigin 2023 (izdavač, stranice, DOI) — uzeti iz autorove bibliografije
 - ❓ Fakultet/matična ustanova doktorskog rada (Perak 2014) i njegovo postavljanje u repozitorij (autor planira)
 - ⛔ **Ne postoji** „Perak 2018 (OMLCC)" ni „Perak 2019" kao publikacija — OMLCC je izlaganje (2017a; 2017b). Nikad ne citirati kao objavljeni rad.
-- ❓ HLE „strop" 25,6 % i GPQA strop ≈ 90 % — provjeriti u tablici A. D. Thompsona (datum pristupa)
+- ✅ RIJEŠENO (14. 9. 2026.): HLE strop = ~51,3 % (FutureHouse, 7/2025) ili 25,6 % (Alibaba, 2/2026) — navode se oba; GPQA strop = **~80 %** (ne 90 %). Detalji u `docs/ISPRAVKE.md`.
 
 ---
 
