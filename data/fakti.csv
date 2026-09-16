@@ -26,3 +26,7 @@ openai_agents_swarm,700,agenata,"prema izvještajima (Fortune, CNN, Taipei Times
 hubinger_estimate,10,%,Hubinger (2026); prenose CNBC i BBC,2026,procjena,razine/16,vjerojatnost "pobiti sve ljude" u desetljeću - procjena stručnjaka; ne mjerenje
 hinton_estimate,10-20,%,Hinton (2024; The Guardian),2024,procjena,razine/16,izumiranje u ~30 godina - procjena
 ai_authors_survey,10,%,Grace et al. (2024; JAIR),2024,procjena,razine/16,10% do 2027 i 50% do 2047 (anketa 2.778 istraživača)
+hnk_corpus,131.8,Mw,Perak 2014 (doktorski rad; sažetak izvornika),2014,mjereno,razine/6,Hrvatski nacionalni korpus
+strah_tokens,14875,pojavnica,Perak 2014 (doktorski rad; sažetak izvornika),2014,mjereno,razine/6,pojavnice leme strah u HNK-u
+od_straha_freq,825,pojavnica,Perak 2014 (doktorski rad: tiskana str. 304),2014,mjereno,razine/6,prijedložni izraz od straha - drugi po čestotnosti
+mijesati_strah,17,pojavnica,Perak 2014 (doktorski rad: tiskana str. 369),2014,mjereno,razine/6,konstrukcija mijesati se sa strahom

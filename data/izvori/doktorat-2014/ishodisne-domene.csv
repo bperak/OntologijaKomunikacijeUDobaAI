@@ -1,0 +1,51 @@
+izraz,ishodisna_domena,pdf_str,tiskana_str
+pepeo straha,OBJEKT / GORIVO/VATRA,269,245
+vrsta straha,OBJEKT / PODRVSTA,269,245
+kip straha,OBJEKT / NEPOMIČNOST,269,245
+znak straha,OBJEKT,269,245
+svjetovi straha,OBJEKT,269,245
+poruka straha,OBJEKT,269,245
+stvaranje straha,OBJEKT,269,245
+širenje straha,OBJEKT / PROCES,269,245
+postojanje straha,OBJEKT / STANJE,269,245
+eksplozija straha,OBJEKT / PROCES,269,245
+projekcija straha,OBJEKT / PROCES,269,245
+odsutnost straha,OBJEKT / STANJE,269,245
+tretman straha,OBJEKT / PROCES,269,245
+blijeda krpe straha,OBJEKT,269,245
+elementi straha,OBJEKT / DIJELOVI,269,245
+toleriranje straha,OBJEKT / PROCES / NAČIN,269,245
+konstrukt straha,OBJEKT / DJELOVI,269,245
+pustolovina straha,PROCES / OBJEKT,269,245
+atmosfera straha,OBJEKT / MEDIJ,269,245
+izazivanje straha,OBJEKT / BIĆE / PROCES,269,245
+klima straha,OBJEKT /MEDIJ,269,245
+funkcija straha,OBJEKT,269,245
+ozračje straha,OBJEKT / BIĆE,269,245
+utjerivanje straha,OBJEKT / BIĆE,269,245
+vrhunac straha,OBJEKT,269,245
+posljedica straha,OBJEKT/PROCES / UZROK,269,245
+preuveličavanje straha,OBJEKT / DIMENZIJE,269,245
+rezultat straha,OBJEKT/PROCES / UZROK,269,245
+povećanje straha,OBJEKT / DIMENZIJE,269,245
+poriv straha,OBJEKT/PROCES / UZROK,269,245
+doza straha,OBJEKT / DIMENZIJE,269,245
+simptomi straha,OBJEKT/PROCES / UZROK,269,245
+mrva straha,OBJEKT / DIMENZIJE,269,245
+kaos straha,OBJEKT/PROCES / UZROK,269,245
+mrvica straha,OBJEKT / DIMENZIJE,269,245
+potvrda straha,OBJEKT / POSLJEDICA,269,245
+plod straha,OBJEKT / BILJKA,269,245
+uzrok straha,OBJEKT/PROCES,269,245
+sjeme straha,OBJEKT / BILJKA,269,245
+trepet straha,OBJEKT/PROCES,269,245
+sijanje straha,OBJEKT / BILJKA/PROCES,269,245
+premošćivanje straha,OBJEKT / PREPREKA,269,245
+liječenje straha,PROCES / BOLEST,269,245
+barijera straha,OBJEKT / PREPREKA,269,245
+vikendi straha,PROCES / VRIJEME,269,245
+uklanjanje straha,OBJEKT / PREPREKA,269,245
+vrijeme straha,PROCES / VRIJEME,269,245
+savladavanje straha,OBJEKT / PREPREKA / BIĆE,269,245
+časovi straha,PROCES / VRIJEME,269,245
+povijest straha,OBJEKT / PROCES / VRIJEME,269,245
