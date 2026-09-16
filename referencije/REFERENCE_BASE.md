@@ -127,6 +127,8 @@ Status: ✅ provjereno (izvor/datoteka/DOI) · ☑ kanonsko djelo (bibliografski
 - **Thompson, A. D. (2026).** Models Table — Rankings. LifeArchitect.ai. — procjene veličine modela; **označiti kao procjene**. → pogl. 10.4 ✅
 - **Thompson, A. D. (2026).** *Mapping IQ, MMLU, MMLU-Pro, GPQA, HLE* (ažurirano 4. 8. 2026.), LifeArchitect.ai. Stropovi benchmarka: MMLU **~91 %** (zasićen 9/2024: o1-preview 92,3 %), MMLU-Pro **~90 %** (zasićen 11/2025: Gemini 3 Pro 90,1 %), GPQA **~80 %**, HLE **~51 %** / **~26 %**. → pogl. 10.5 ✅
 - **Epoch AI (2026).** AI Models. → pogl. 10.4 ✅
+- **Church, K. W. & Hanks, P. (1990).** Word association norms, mutual information, and lexicography. *Computational Linguistics* 16(1): 22–29. — **PMI** kao mjera asocijacije (pointwise mutual information). Provjereno 14. 9. 2026. na izvorniku (ACL Anthology J90-1003). → pogl. 4.2, 6.2 ✅
+- **Ljubešić, N. & Klubička, F. (2014).** {bs,hr,sr}WaC — Web corpora of Bosnian, Croatian and Serbian. U: *Proceedings of the 9th Web as Corpus Workshop (WaC-9)*, 29–35, Gothenburg. · **hrWaC 2.1** (CLARIN.SI, 2016; izgrađen crawlom domene .hr 2011. i 2014.). Provjereno 14. 9. 2026. (ACL Anthology W14-0405; CLARIN handle 11356/1064). → pogl. 4.1, 6.2 ✅
 - **hrWac** (hrvatski web-korpus) — primarni korpus knjige. → pogl. 4.1, 6.2 ☑
 - **SemiAnalysis (2023).** GPT-4 architecture (procjena, nepotvrđeno) — citirati **samo** kao nepotvrđenu procjenu. → pogl. 10.4 ✅
 - **Dorkenwald, S. et al. (2024).** Neuronal wiring diagram of an adult brain. *Nature*. · **Lappalainen, J. K. et al. (2024).** *Nature* 634:1132–1140. DOI 10.1038/s41586-024-07939-3. — FlyWire: 139.255 neurona, ~50 mil. sinapsi, **734 parametra**. → pogl. 10.4, 12.3 („organizacija, ne veličina") ✅
