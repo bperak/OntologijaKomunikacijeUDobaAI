@@ -411,6 +411,6 @@ print(N, okno, prag, "bridova:", len(bridovi))
 
 ### Literatura poglavlja
 
-Ban Kirigin, T., Bujačić Babić, S. i Perak, B. 2022 · Ban Kirigin, T. i Perak, B. 2020 · Battiston, F. i sur. 2021 · Bedau, M. 1997 · Church, K. W. i Hanks, P. 1990 · Croft, W. 2001 · Emmeche, C., Køppe, S. i Stjernfelt, F. 1997 · EmoCNet 2019–21 · Firth, J. R. 1957 · Goldberg, A. 2006 · Harris, Z. 1954 · hrWaC 2.1 (CLARIN.SI, 2016) · Ljubešić, N. i Klubička, F. 2014 · METR 2025; 2026 · Perak, B. 2014 · Perak, B. 2020 · Perak, B. 2025 · Perak, B. 2026 · Perak, B. i Ban Kirigin, T. 2023 ❓ · Perak, B., OMLCC — izlaganja 2017a; 2017b · Qwen Team 2025 · Schaeffer, R. i sur. 2023 · Searle, J. 1995; 2010 · Thompson, A. D. 2026
+Ban Kirigin, T., Bujačić Babić, S. i Perak, B. 2022 · Ban Kirigin, T. i Perak, B. 2020 · Battiston, F. i sur. 2021 · Church, K. W. i Hanks, P. 1990 · EmoCNet 2019–21 · hrWaC 2.1 (CLARIN.SI, 2016) · Ljubešić, N. i Klubička, F. 2014 · METR 2025; 2026 · Perak, B. 2014 · Perak, B. 2020 · Perak, B. 2025 · Perak, B. 2026 · Perak, B. i Ban Kirigin, T. 2023 ❓ · Perak, B., OMLCC — izlaganja 2017a; 2017b · Qwen Team 2025 · Schaeffer, R. i sur. 2023 · Thompson, A. D. 2026
 
 *Napomena o referencijama.* Sve reference nalaze se u `referencije/REFERENCE_BASE.md`; izvor koji ondje nije zapisan ne ulazi u poglavlje. Oznaka ❓ stoji uz jedinu referencu s nepotvrđenim punim podacima (Perak i Ban Kirigin 2023); nije nositelj nijedne brojke. Okvir od šesnaest razina citira se isključivo kao izlaganje (Perak, OMLCC — 2017a; 2017b), jer integralno nije objavljen.

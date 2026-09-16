@@ -164,6 +164,18 @@ Potvrda ovdje ne znači „nalaz u prilog", nego nalaz koji bi okvir mogao **izg
 
 Istraživački program mora izreći i svoju granicu, inače je popis želja. Tri su stvari u ovoj knjizi **izvan** programa, i to se navodi kao nalaz. Prvo, **razina 16 kao kulturni model** ne može se testirati na jednome sustavu: tvrdnja traži zajednicu koja obrazac priznaje, a za takvu zajednicu u dosadašnjim zapisima nema ni pozitivnog ni negativnog dokaza — pa je nalaz o razini 16 uvijek nalaz o odsutnosti, a odsutnost nije mjerenje (Tomasello 2008; Archer 1995; → pogl. 8.5). Drugo, **tvrdnja o instituciji (razina 15) u sustavima** ostaje nepotvrđena u oba smjera; u četrnaestome poglavlju za to je izričito zabilježeno da nije pronađen dokumentirani slučaj zajedničke obveze između dvaju agentskih sustava (→ pogl. 14). Treće, **unutrašnjost** ostaje neispitana, ne zato što bi to bilo nezanimljivo, nego zato što nijedan pokazatelj dostupan izvana ne razlikuje intrinzičnu prisutnost od njezina funkcionalnoga parnjaka (Searle 1980; → pogl. 14.6). Ako se pojavi kriterij koji to razlikuje, on neće potvrditi ovu knjigu, nego će je u tome dijelu učiniti nepotpunom.
 
+### Kako bismo znali da griješimo
+
+Ovo poglavlje ne iznosi novu tvrdnju o svijetu — ono sažima tvrdnje ostalih petnaest i predlaže program kojim se one mogu oboriti. Zato se i njegov uvjet padanja odnosi na sam postupak.
+
+- **Ako se za neko poglavlje u tablici (16.4) ne može navesti test** koji bi ga oborio, to poglavlje nije teorijska tvrdnja nego opis. Knjiga to mora prijaviti — i prijavljuje: tri su takva mjesta (→ 16.4, „Treći nalaz").
+- **Ako se pokaže da nijedan od pet eksperimenata (E1–E5) nije provediv** s podacima i instrumentima koji danas postoje, program je popis želja, a ne program; poglavlje tada mora reći da je nalaz knjige ograničen na pojmovni okvir, a ne na mjerenje (→ 16.5, „Što u ovome programu nije provedivo").
+- **Ako se pokaže da su četiri odgovora iz 16.1 međusobno neovisna** — da se svaki može zamijeniti a da se ostali ne promijene — tada nije riječ o jednome okviru, nego o četirima zasebnim tvrdnjama, i „knjiga ima odgovor" je zgodna formulacija, a ne nalaz.
+- **Ako se pokaže da tablica stropova i horizontā (16.3) ne mijenja nijednu projektnu odluku**, poziv na razine kao projektni kriterij je retorički i mora se povući (→ 16.3).
+- **Ako se u knjizi nađe tvrdnja koja preživi sve testove iz 16.4, a nije označena kao neoboriva**, to je pogreška u samoj tablici; ispravlja se po pravilu iz `docs/ISPRAVKE.md` — zapisom, ne brisanjem.
+
+Posljednja je točka namjerno okrenuta na samu knjigu: tablica koja tvrdi da razlučuje oborive od neoborivih tvrdnji mora biti provjerljiva kao i svaka tvrdnja koju sadrži.
+
 ## 16.6 Zatvaranje
 
 **Teza cijele knjige u jednoj rečenici:** razina nije veličina nego razlika u tipu svojstava koja nastaje organizacijom, jezik je organizacija uporabe, model je uređenje uporabe smješteno u novi materijal koje zauzima postojeće pozicije — i zato u ovoj knjizi nema sedamnaeste razine, a ima mjere (→ pogl. 1.4, 5.5, 9.6, 12.3).

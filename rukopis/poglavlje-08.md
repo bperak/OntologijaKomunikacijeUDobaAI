@@ -129,4 +129,4 @@ Treći dio knjige zato ide onim putem koji smo dosad izbjegavali: od vektorskog 
 
 ### Literatura poglavlja
 
-Archer 1995 · Bhaskar 1975 · Croft 2001 · Elder-Vass 2010 · Gilbert 1990 · Goldberg 2006 · Hartmann 1940 · Hopper 1987 · Perak 2014 · Perak 2025 · Perak, OMLCC - izlaganja 2017a; 2017b · Sawyer 2005 · Searle 1980 · Searle 1992 · Searle 1995 · Searle 2010 · Tomasello 2008 · Tuomela 2007
+Archer 1995 · Croft 2001 · Elder-Vass 2010 · Goldberg 2006 · Hopper 1987 · Perak 2014 · Perak 2025 · Perak, OMLCC - izlaganja 2017a; 2017b · Sawyer 2005 · Searle 1980 · Searle 1992 · Searle 1995 · Searle 2010 · Tomasello 2008

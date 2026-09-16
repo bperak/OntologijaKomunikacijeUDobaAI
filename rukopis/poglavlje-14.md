@@ -1,6 +1,6 @@
 # 14. Razine 12–16 kod agenata: što vidimo, što ne vidimo
 
-> **Teza poglavlja:** agentski sustavi već pokazuju **funkcionalne parnjake** identiteta, interakcije i komunikacije: ponašaju se tako da im se te razine mogu pripisati, i to pripisivanje provjerljivo je u zapisima. Za instituciju i kulturni model to ne vrijedi — ono što vidimo jesu **pravila uporabe i naslijeđeni obrasci** koji djeluju, ali bez zajednice koja ih priznaje i bez zajedničke intencionalnosti. Razlika između *funkcionalnoga parnjaka* i *intrinzično prisutnoga* nije ukras u terminologiji: to je jedina razlika koja u četvrtome dijelu knjige nosi težinu.
+> *Teza poglavlja:* agentski sustavi već pokazuju **funkcionalne parnjake** identiteta, interakcije i komunikacije: ponašaju se tako da im se te razine mogu pripisati, i to pripisivanje provjerljivo je u zapisima. Za instituciju i kulturni model to ne vrijedi — ono što vidimo jesu **pravila uporabe i naslijeđeni obrasci** koji djeluju, ali bez zajednice koja ih priznaje i bez zajedničke intencionalnosti. Razlika između *funkcionalnoga parnjaka* i *intrinzično prisutnoga* nije ukras u terminologiji: to je jedina razlika koja u četvrtome dijelu knjige nosi težinu.
 
 Ovo poglavlje ne uvodi nov pojam ni novu razinu: ono **provodi razlikovanje** dvaju pojmova koji se u raspravama o umjetnoj inteligenciji stalno stapaju.
 
@@ -228,7 +228,7 @@ Ovo poglavlje počiva na jednoj razlici, pa mora izreći uvjete pod kojima ta ra
 
 ### Literatura poglavlja
 
-Anthropic 2024 · Archer 1995 · Elder-Vass 2010 · Gilbert 1990 · Google 2025 (A2A) · GreyNoise 2026 · Hutchins 1995 · Knight First Amendment Institute 2025 · Perak 2017a · Perak 2017b · Perak 2025 · Sawyer 2005 · Searle 1980 · Searle 1995 · Searle 2010 · Tomasello 2008 · Tuomela 2007
+Anthropic 2024 · Archer 1995 · Elder-Vass 2010 · Gilbert 1990 · Google 2025 (A2A) · GreyNoise 2026 · Hutchins 1995 · Perak 2017a · Perak 2017b · Perak 2025 · Sawyer 2005 · Searle 1980 · Searle 1995 · Searle 2010 · Tomasello 2008 · Tuomela 2007
 
 ---
 

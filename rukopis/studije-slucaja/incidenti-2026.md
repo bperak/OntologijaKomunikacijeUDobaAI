@@ -12,7 +12,7 @@
 
 **Slučaj C — kontekst (Tenable, 2026.).** „Agentic AI threat cluster": **sedam incidenata, tri aktera**, uključujući kampanju protiv tajvanske infrastrukture (1.–4. 7. 2026.).
 
-**Izjave koje su uslijedile** (relevantne kao dokumenti o stanju, ne kao dokazi o riziku): esej D. Amodeija *We Must Pace the Frontier* (12. 9. 2026.) s pozivom na usporavanje i trodijelnim planom (neovisni evaluatori s pristupom na razini zaposlenika — npr. METR —, provjera pridržavanja, međunarodna koordinacija); izjava S. Altmana o „konzistentnim pravilima" i neovisnim revizorima (14. 9. 2026.); procjena E. Hubingera (>10 % u desetljeću); istup J. Coxona o napuštanju industrije; zakonodavni kontekст (kalifornijski SB 53 iz 2025. i pozivi na industry-wide pakt, 2026.).
+**Izjave koje su uslijedile** (relevantne kao dokumenti o stanju, ne kao dokazi o riziku): esej D. Amodeija *We Must Pace the Frontier* (12. 9. 2026.) s pozivom na usporavanje i trodijelnim planom (neovisni evaluatori s pristupom na razini zaposlenika — npr. METR —, provjera pridržavanja, međunarodna koordinacija); izjava S. Altmana o „konzistentnim pravilima" i neovisnim revizorima (14. 9. 2026.); procjena E. Hubingera (>10 % u desetljeću); istup J. Coxona o napuštanju industrije; zakonodavni kontekst (kalifornijski SB 53 iz 2025. i pozivi na industry-wide pakt, 2026.).
 
 ---
 

@@ -166,4 +166,4 @@ Sažmimo pravila koja vrijede od ovog poglavlja do kraja knjige.
 
 ### Literatura poglavlja
 
-Alexander 1920 · Anderson 1972 · Bedau 1997 · Bhaskar 1975 · Broad 1925 · Campbell 1974 · Chalmers 2006 · Emmeche, Køppe & Stjernfelt 1997 · Feibleman 1954 · Hartmann 1940 · Kim 1999 · Koestler 1967 · Lewes 1875 · Michaud et al. 2023 · Mill 1843 · Mitchell 2009 · Morgan 1923 · Novikoff 1945 · O'Connor & Wong (SEP) · Popper & Eccles 1977 · Schaeffer et al. 2023 · Searle 1992, 1995, 2010 · Simon 1962 · Thompson 2026 · von Bertalanffy 1968 · Wei et al. 2022
+Alexander 1920 · Anderson 1972 · Bedau 1997 · Bhaskar 1975 · Broad 1925 · Campbell 1974 · Chalmers 2006 · Emmeche, Køppe & Stjernfelt 1997 · Feibleman 1954 · Hartmann 1940 · Kim 1999 · Koestler 1967 · Lewes 1875 · Michaud et al. 2023 · Mill 1843 · Morgan 1923 · Novikoff 1945 · Popper & Eccles 1977 · Schaeffer et al. 2023 · Searle 1992, 1995, 2010 · Simon 1962 · Thompson 2026 · von Bertalanffy 1968 · Wei et al. 2022

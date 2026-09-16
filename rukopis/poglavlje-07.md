@@ -41,7 +41,7 @@ Ta formulacija ima tri posljedice koje je lako previdjeti.
 
 **Treće, prepoznata namjera omogućuje *impliciranje*.** U kasnijem tekstu *Logic and Conversation* (1975) Grice uvodi razliku između onoga što je rečeno i onoga što je implicirano, i pokazuje da sugovornici uspješno prenose mnogo više od izrečenoga upravo zato što pretpostavljaju suradnju i njezine uvjete. Sperber i Wilson (1986) kasnije tu misao razvijaju u teoriju relevantnosti: komunikacija nije dekodiranje nego **zaključivanje o namjeri** uz najmanji potreban napor.
 
-Za ovu knjigu iz Gricеova uvida slijedi operativan zaključak: **komunikacijski čin je onaj kod kojeg je prepoznavanje namjere dio mehanizma, a ne dodatak.** Sve što se može objasniti bez tog sloja — prijenos, uzorak, asocijacija — nije razina 14, koliko god sličilo razgovoru.
+Za ovu knjigu iz Griceova uvida slijedi operativan zaključak: **komunikacijski čin je onaj kod kojeg je prepoznavanje namjere dio mehanizma, a ne dodatak.** Sve što se može objasniti bez tog sloja — prijenos, uzorak, asocijacija — nije razina 14, koliko god sličilo razgovoru.
 
 ## 7.3 Harris: prepoznavanje namjere i što model ne radi „iznutra"
 
@@ -68,7 +68,7 @@ Ako Grice objašnjava *kako* komunikacija funkcionira, John Searle (1995; 2010) 
 
 Komad papira broji kao novac u kontekstu države koja ga priznaje. Niz zvukova broji kao obećanje u kontekstu zajednice koja ga tako prihvaća. Bitno je da taj mehanizam **ne djeluje ni na razini materijala ni na razini pojedinca**: njegova je nosivost u *kolektivnoj intencionalnosti* — u tome što skupina ljudi prihvaća da nešto broji kao nešto drugo.
 
-Time dobivamo ono što je razini 14 nedostajalo u gricеovskom opisu: **deontologiju**. Statusna funkcija ne stvara samo značenje nego **prava, dužnosti i ovlasti**: ako je rečeno kao obećanje, postoji nešto što se duguje; ako je potpisano, postoji obveza koja nadživljuje raspoloženje potpisnika.
+Time dobivamo ono što je razini 14 nedostajalo u griceovskom opisu: **deontologiju**. Statusna funkcija ne stvara samo značenje nego **prava, dužnosti i ovlasti**: ako je rečeno kao obećanje, postoji nešto što se duguje; ako je potpisano, postoji obveza koja nadživljuje raspoloženje potpisnika.
 
 Tu misao u istom smjeru, ali s naglaskom na zajedničko djelovanje, razrađuju Margaret Gilbert (1990) s pojmom **zajedničke obveze** (*joint commitment*) i Raimo Tuomela (2007) s razlikovanjem zajedničkog i pojedinačnog stajališta. Gilbert je posebno korisna jer inzistira da zajednička obveza *nije zbroj pojedinačnih*: kad dvoje nešto zajedno obeća, obveza postoji i onda kad je jedan od njih više ne želi — i to je upravo razlika između dogovora i slučajne podudarnosti interesa. Michael Tomasello (2008) dodaje evolucijsku dimenziju: zajednička intencionalnost nije naknadni sloj nad individualnom, nego uvjet bez kojeg se komunikacijski čin ove vrste ne razvija.
 
@@ -179,4 +179,4 @@ Time je DIO II dovršen u svojoj tvrdnji: **komunikacija je razina**, ima svoju 
 
 ### Literatura poglavlja
 
-Bender & Koller 2020 · Clark 1996 · Clark & Chalmers 1998 · Emmeche, Køppe & Stjernfelt 1997 · Firth 1957 · Gilbert 1990 · Goldberg 2006 · Grice 1957 · Grice 1975 · Harris, R. 1981 · Harris, Z. 1954 · Hopper 1987 · Hutchins 1995 · Mahowald et al. 2024 · Mitchell & Krakauer 2023 · Perak 2017a · Perak 2017b · Schaeffer et al. 2023 · Searle 1995 · Searle 2010 · Sperber & Wilson 1986 · Tomasello 2008 · Tuomela 2007
+Clark 1996 · Clark & Chalmers 1998 · Firth 1957 · Gilbert 1990 · Goldberg 2006 · Grice 1957 · Grice 1975 · Harris, R. 1981 · Harris, Z. 1954 · Hopper 1987 · Hutchins 1995 · Mahowald et al. 2024 · Mitchell & Krakauer 2023 · Perak 2017a · Perak 2017b · Schaeffer et al. 2023 · Searle 1995 · Searle 2010 · Sperber & Wilson 1986 · Tomasello 2008 · Tuomela 2007

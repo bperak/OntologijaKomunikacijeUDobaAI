@@ -56,6 +56,9 @@ Provjera mreže (radi lokalno, bez mreže i s mrežom):
 ```bash
 python kod/pojmovnik_build.py        # registar → rječnik + CSV
 python kod/check_links.py --http     # sidra, upute na druge knjige, mrežne provjere
+python kod/check_fakti.py --strict   # svaka brojka u rukopisu mora biti u data/fakti.csv (s vrstom dokaza)
+python kod/check_lit.py              # citiranje u oba smjera: popis ↔ tekst ↔ REFERENCE_BASE.md
+python kod/izvuci_doktorat.py        # ponovno izvlačenje podataka iz doktorata 2014.
 ```
 
 **Automatska provjera u CI-u:** workflow je pripremljen u [`docs/ci-mreza.yml.example`](docs/ci-mreza.yml.example). GitHub ne dopušta stvaranje datoteka u `.github/workflows/` tokenom koji nema `workflow` ovlast — aktiviraj ga tako da datoteku kopiraš u `.github/workflows/mreza.yml` (kroz web sučelje ili tokenom s `workflow` scopeom), pa se provjera pokreće pri svakom commitu.

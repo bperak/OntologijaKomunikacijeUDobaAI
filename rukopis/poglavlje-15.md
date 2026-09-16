@@ -1,6 +1,6 @@
 # 15. Hoće li imati kulturu?
 
-> **Teza poglavlja:** kultura nije nusprodukt veličine, nego **prijenosa**. Pitanje zato nije „mogu li modeli biti kulturni", nego *mogu li naslijediti i predati obrasce unutar zajednice koja ih priznaje* — a to je pitanje o uvjetima, ne o proročanstvu.
+> *Teza poglavlja:* kultura nije nusprodukt veličine, nego **prijenosa**. Pitanje zato nije „mogu li modeli biti kulturni", nego *mogu li naslijediti i predati obrasce unutar zajednice koja ih priznaje* — a to je pitanje o uvjetima, ne o proročanstvu.
 
 Prethodno poglavlje završilo je nalazom u kojemu je dio pozitivan, a dio negativan. Pozitivno je bilo to da se razine 12, 13 i 14 kod agentskih sustava daju pripisati **s dokazom** — imena, protokoli, adresiranje, zajednički artefakt, sve to postoji u zapisima i sve se to može prebrojati (→ pogl. 14.6). Negativno je bilo to da se za razine 15 i 16 pripisivanje mora zaustaviti na granici koja je imenovana: kod institucije postoji zapis, ali ne i ovlaštenje za sankciju; kod kulturnoga modela postoje naslijeđeni obrasci, ali ne i zajednica koja ih predaje (→ pogl. 14.4, 14.5).
 
@@ -238,7 +238,7 @@ Tvrdnja ovoga poglavlja ima oblik uvjeta, pa se i obara uvjetima. Ona pada ako v
 
 ### Literatura poglavlja
 
-Anthropic 2024 · Archer 1995 · Ban Kirigin & Perak 2020 · Bedau 1997 · Bender, E. M. & Koller, A. 2020 · Bender, E. M. et al. 2021 · California SB 53 (2025) · Chalmers 2006 · Clark & Chalmers 1998 · Croft 2001 · Elder-Vass 2010 · EmoCNet 2019–21 · Firth 1957 · Gilbert 1990 · Goldberg 2006 · Google 2025 (A2A) · Grice 1957 · Harris, R. 1981 · Hopper 1987 · Huh et al. 2024 · Hutchins 1995 · Kim 1999 · METR 2025 · METR 2026 · Perak 2014 · Perak 2017a · Perak 2017b · Perak 2020 · Perak 2025 · Perak 2026 · Saussure 1916 · Sawyer 2005 · Searle 1980 · Searle 1995 · Searle 2010 · Shumailov et al. 2024 · Thompson 2026 · Tomasello 2008 · Tuomela 2007
+Archer 1995 · Ban Kirigin & Perak 2020 · Bedau 1997 · Bender, E. M. & Koller, A. 2020 · Bender, E. M. et al. 2021 · California SB 53 (2025) · Chalmers 2006 · Clark & Chalmers 1998 · Elder-Vass 2010 · EmoCNet 2019–21 · Firth 1957 · Gilbert 1990 · Goldberg 2006 · Grice 1957 · Harris, R. 1981 · Hopper 1987 · Huh et al. 2024 · Hutchins 1995 · Kim 1999 · METR 2025 · METR 2026 · Perak 2014 · Perak 2017a · Perak 2017b · Perak 2020 · Perak 2025 · Perak 2026 · Saussure 1916 · Sawyer 2005 · Searle 1980 · Searle 1995 · Searle 2010 · Shumailov et al. 2024 · Thompson 2026 · Tomasello 2008 · Tuomela 2007
 
 ---
 
