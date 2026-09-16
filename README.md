@@ -105,7 +105,7 @@ python kod/izvuci_doktorat.py        # ponovno izvlačenje podataka iz doktorata
 | `docs/ISPRAVKE.md` | ✅ evidencija ispravljenih javnih tvrdnji (ISPRAVAK-001/002/003) |
 | `doktorat-strah` (zaseban repo) | ✅ doktorski rad 2014. objavljen u otvorenom pristupu: https://github.com/bperak/doktorat-strah |
 | `data/fakti.csv` | ✅ evidencija brojki (34 zapisa) + `kod/check_fakti.py` (provjerava i brojke u rukopisu) + `kod/izvuci_doktorat.py` |
-| `figure/` | ✅ 20 autorskih figura iz predavanja + popis s mapiranjem na poglavlja |
+| `figure/` | ✅ 19 autorskih figura iz predavanja + popis s mapiranjem na poglavlja (⚠ u tekst je zasad ugrađeno 2 — vidi `figure/README.md`) |
 
 ---
 
