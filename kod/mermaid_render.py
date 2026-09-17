@@ -125,6 +125,18 @@ def _kod_za_svg(kod: str) -> str:
     return kod
 
 
+def provjeri_izvor(kod: str):
+    """Upozori na obrasce koji ruše Mermaid parser (poslužitelj guši mmdc-ovu grešku).
+
+    Naučeno 2026-09-16: **zagrada u natpisu** („da (kao naslijeđe)") izaziva
+    `Parse error ... got 'PS'` i render padne bez ikakve poruke. Rješenje: natpis
+    pod navodnicima (`A["tekst (sa zagradom)"]`) ili zagrada izvan natpisa.
+    """
+    lose = [ln.strip() for ln in kod.splitlines()
+            if re.search(r"\w+\[[^\]\"]*\([^)]*\)", ln) and '"' not in ln]
+    return lose
+
+
 def render(kod: str, format_: str = "svg"):
     """Pošalji Mermaid kod na H2; vrati SVG (s prevedenim natpisima) ili PNG (bytes)."""
     klijent = paramiko.SSHClient()
@@ -164,6 +176,9 @@ def main() -> int:
     for f in datoteke:
         ime = f[:-4]
         kod = open(os.path.join(IZVORI, f), encoding="utf-8").read()
+        rizicno = provjeri_izvor(kod)
+        if rizicno:
+            print(f"⚠ {ime}: zagrada u necitiranom natpisu (Mermaid to obara): {rizicno[0][:70]}")
         svg = render(_kod_za_svg(kod), "svg")
         open(os.path.join(FIG, ime + ".svg"), "w", encoding="utf-8").write(svg)
         natpisi = re.findall(r"<text[^>]*>([^<]+)</text>", svg)
@@ -187,8 +202,8 @@ def main() -> int:
                 open(os.path.join(FIG, ime + ".png"), "wb").write(
                     bytes(resvg_py.svg_to_bytes(svg_string=svg, width=2000)))
                 red += " → rezerva resvg (⚠ mjere fonta mogu se razlikovati)"
-            except ImportError:
-                red += " → rezerve nema"
+            except Exception as e2:
+                red += f" → rezerva resvg također pala ({type(e2).__name__}): {str(e2)[:60]}"
         print(red)
     print("\n✔ gotovo")
     return 0

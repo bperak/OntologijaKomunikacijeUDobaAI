@@ -106,3 +106,30 @@ Knjiga tvrdi da se razine razlučuju **po vrsti dokaza**, a ne po uvjerljivosti 
 - **Što je točno:** `hermes config set model.supports_vision true` (kopija configa:
   `config.yaml.prije-vision.bak`). Sada `vision_analyze` prilaže sliku izravno.
 - **Napomena:** promjena vrijedi za nove sesije; u tekućoj je već stupila na snagu.
+
+## ISPRAVAK-009 — tri figure ispod tiskarske rezolucije zamijenjene vektorskim dijagramima
+
+- **Što je bilo:** tri PNG figure bile su ispod granice za tisak (~1800 px za 150 mm pri 300 dpi):
+  `fig_razine` (891 × 832), `fig_emerg_hijerarhija` (873 × 437), `fig_voda` (952 × 672). U tisku
+  bi bile mutne, a skaliranje rastra ne pomaže.
+- **Što je točno:** sve tri zamijenjene su **vektorskim dijagramima** (SVG + PNG ~2000 px):
+  `dijagram-1-5-slojevi-stvarnosti` (Slika 1.2), `dijagram-3-3-emergentna-hijerarhija`
+  (Slika 3.1) i `dijagram-3-4-voda` (Slika 3.2). Stare PNG datoteke **uklonjene** su iz repoa,
+  a potpisi prepisani prema onome što se na novim slikama stvarno vidi (npr. Slika 1.2 sada
+  nosi i zaglavlja ljestvica — Hartmann 1940 te Novikoff 1945 · Feibleman 1954 — kojih na
+  staroj slici nije bilo, pa se nije znalo čija je koja ljestvica).
+- **Napomena o kriteriju:** vektorski dijagram nema „rezoluciju"; mjerilo je sada **veličina
+  teksta na stranici** (traženo ≥ 8 pt pri širini 150 mm). Izmjereno za sve dijagrame:
+  8,2–28 pt.
+
+## ISPRAVAK-010 — četiri nova dijagrama ondje gdje je tekst tražio sliku
+
+- **Dodano:** Slika 4.2 (`dijagram-4-5-vrste-dokaza`, trijaža mjereno/procjena/izvedeno),
+  Slika 7.1 (`dijagram-7-5-pet-uvjeta`, pet uvjeta komunikacijskoga čina), Slika 8.1
+  (`dijagram-8-1-statusna-funkcija`, X broji kao Y u kontekstu C) i Slika 14.1
+  (`dijagram-14-6-funkcionalno-intrinzicno`, funkcionalno i intrinzično po razinama 12–16).
+- **Zašto:** to su mjesta na kojima čitatelj mora držati nekoliko odnosa istodobno (trijaža,
+  pet kumulativnih uvjeta, tri mjesta formule, dvije vrste prisutnosti kroz pet razina) —
+  upravo ondje slika radi posao koji rečenica radi sporije.
+- **Provjera:** svaki dijagram pregledan je vizualno (`model.supports_vision` uključen) i
+  izmjeren (`check_figure_overflow.py`); vrijednosti u Slici 14.1 prepisane su iz tablice 14.6.

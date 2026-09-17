@@ -78,6 +78,10 @@ Iz toga slijedi **treći uvjet razine 14** koji je za ovu knjigu odlučujuć: **
 
 Sve što je rečeno u prethodnim odjeljcima možemo sada zapisati kao **relacijsku shemu** razine 14 (→ pogl. 2.3). Uvjeti su kumulativni: ako jedan nedostaje, čin pada na nižu razinu ili na drugu vrstu pojave.
 
+![Slika 7.1 — pet uvjeta komunikacijskoga čina](../figure/dijagram-7-5-pet-uvjeta.png)
+
+**Slika 7.1.** Pet uvjeta poredanih kako ih knjiga provjerava: **1** adresiranje, **2** prepoznata namjera, **3** zajednički artefakt, **4** konvencija, **5** obveza. Uvjeti su **kumulativni**: isprekidana strelica s natpisom „nedostaje li ijedan uvjet" vodi u isti izlaz — čin pada na nižu razinu ili na drugu vrstu pojave. Izvor: vlastita izrada (Perak 2026), shema prema tablici u 7.5.
+
 | # | uvjet | tip relacije | što ga nosi | tko ga je formulirao |
 |---|---|---|---|---|
 | 1 | **adresiranje** | izvor → adresat | uloge u razmjeni | (klasična teorija govornih činova) |

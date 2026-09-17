@@ -27,10 +27,16 @@ Figure su **autorske** (Benedikt Perak), izrađene za predavanje *Elements of Co
 
 | dijagram | poglavlje | što prikazuje |
 |---|---|---|
-| `dijagram-4-2-cjevovod` | 4.2 | cjevovod od korpusa do tvrdnje, u dvama redovima (odluke 1–3, pa ugrađivanje i oznaka razine) |
-| `dijagram-12-1-pet-dodataka` | 12.1 | pet dodataka i razine OMLCC-a na koje djeluju (8→13, 12, 6→14, 13, 14) |
-| `dijagram-12-4-stablo-entitet` | 12.4 | stablo odluke po trima kriterijima kandidature; svaki negativan odgovor vodi u „poziv funkcije" |
-| `dijagram-13-1-tri-konfiguracije` | 13.1 | tri konfiguracije komunikacije i raspored tereta; obveza nije priznata ni u jednoj |
+| `dijagram-1-5-slojevi-stvarnosti` | 1.5 (Slika 1.2) | dvije ljestvice: Hartmannovi slojevi i Novikoffove/Feiblemanove integrativne razine + zakon slojevitosti |
+| `dijagram-3-3-emergentna-hijerarhija` | 3.3 (Slika 3.1) | tri koraka: entiteti → mreža → emergentni entitet → mreža sljedeće razine (petlja) |
+| `dijagram-3-4-voda` | 3.4 (Slika 3.2) | klasični primjer: H, H, O → H₂O → emergentno svojstvo pripada organizaciji |
+| `dijagram-4-2-cjevovod` | 4.2 (Slika 4.1) | cjevovod od korpusa do tvrdnje |
+| `dijagram-4-5-vrste-dokaza` | 4.5 (Slika 4.2) | trijaža brojke: mjereno / izvedeno / procjena → zapis u fakti.csv |
+| `dijagram-7-5-pet-uvjeta` | 7.5 (Slika 7.1) | pet kumulativnih uvjeta komunikacijskoga čina |
+| `dijagram-8-1-statusna-funkcija` | 8.1 (Slika 8.1) | X broji kao Y u kontekstu C → sankcija → razina 15 |
+| `dijagram-12-1-pet-dodataka` | 12.1 (Slika 12.1) | pet dodataka i razine koje dotiču (8·13, 12, 6·14, 13, 14) |
+| `dijagram-12-4-stablo-entitet` | 12.4 (Slika 12.3) | stablo odluke po trima kriterijima kandidature |
+| `dijagram-13-1-tri-konfiguracije` | 13.1 (Slika 13.1) | tri konfiguracije i raspored tereta |
 
 ⚠️ **Zamka koju alat rješava.** Mermaid CLI (mmdc) upisuje natpise u SVG kao HTML (`<foreignObject>`). Vektorski rendereri (resvg, InDesign, LaTeX) takve natpise **odbacuju** i okviri ostaju prazni — greška koja se otkrije tek u prijelomu. `kod/mermaid_render.py` zato svaki `foreignObject` prevodi u pravi `<text>` element i ispisuje kontrolu (mora biti 0 preostalih, uz popis vektorskih natpisa).
 
@@ -41,16 +47,19 @@ Izvori dijagrama ne smiju sadržavati ćirilične homoglife (npr. „Rаčuna" s
 | slika | datoteka | poglavlje |
 |---|---|---|
 | 1.1 | `fig_hijerarhija.png` | 1 |
-| 1.2 | `fig_razine.png` | 1 |
+| 1.2 | `dijagram-1-5-slojevi-stvarnosti.png` | 1 |
 | 2.1 | `fig_omlcc16.png` | 2 |
 | 2.2 | `fig_omlcc_s1.png` | 2 |
 | 2.3 | `fig_omlcc_s2.png` | 2 |
 | 2.4 | `fig_omlcc_s3.png` | 2 |
 | 2.5 | `fig_searle.png` | 2 |
-| 3.1 | `fig_emerg_hijerarhija.png` | 3 |
-| 3.2 | `fig_voda.png` | 3 |
+| 3.1 | `dijagram-3-3-emergentna-hijerarhija.png` | 3 |
+| 3.2 | `dijagram-3-4-voda.png` | 3 |
 | 4.1 | `dijagram-4-2-cjevovod.png` | 4 |
+| 4.2 | `dijagram-4-5-vrste-dokaza.png` | 4 |
 | 6.1 | `fig_emotion_network.png` | 6 |
+| 7.1 | `dijagram-7-5-pet-uvjeta.png` | 7 |
+| 8.1 | `dijagram-8-1-statusna-funkcija.png` | 8 |
 | 9.1 | `fig_scale.png` | 9 |
 | 10.1 | `fig_strah_usporedba.png` | 10 |
 | 10.2 | `fig_strah_vektori.png` | 10 |
@@ -64,6 +73,7 @@ Izvori dijagrama ne smiju sadržavati ćirilične homoglife (npr. „Rаčuna" s
 | 12.2 | `fig_agent_hijerarhija.png` | 12 |
 | 12.3 | `dijagram-12-4-stablo-entitet.png` | 12 |
 | 13.1 | `dijagram-13-1-tri-konfiguracije.png` | 13 |
+| 14.1 | `dijagram-14-6-funkcionalno-intrinzicno.png` | 14 |
 
 ## Alati i provjera
 
@@ -82,7 +92,10 @@ python3 kod/check_figure_overflow.py figure/dijagram-*.png    # mjeri izlazi li 
 python3 kod/mermaid_render.py                                 # ponovno iscrtava sve dijagrame
 ```
 
-**Rezolucija za tisak:** figura širine ~150 mm pri 300 dpi traži ≈1800 px; dijagrami se
+**Rezolucija za tisak:** sve figure su sada iznad granice — tri najslabije (`fig_razine`,
+`fig_emerg_hijerarhija`, `fig_voda`) zamijenjene su vektorskim dijagramima (ISPRAVAK-009).
+Kriterij za dijagrame nije rezolucija nego **veličina teksta na stranici**: traženo ≥ 8 pt pri
+širini 150 mm; izmjereno 8,2–28 pt za sve deset dijagrama.
 izvoze na ~2200 px (Chromium), a SVG je vektorski pa se skalira bez gubitka. Tri starije
 PNG figure (`fig_emerg_hijerarhija` 873×437, `fig_razine` 891×832, `fig_voda` 952×672)
 ispod su te granice i treba ih ponovno izraditi ili zamijeniti dijagramom.

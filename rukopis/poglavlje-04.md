@@ -194,6 +194,10 @@ Mrežne mjere iz drugog stupnja nisu ukras: one su **ulazna svojstva** za klasif
 
 Ovo je najmanje uzbudljiv i najvažniji odjeljak poglavlja. Pravilo je jednostavno: **brojka bez izvora, datuma i vrste nije brojka.** Vrsta može biti *mjereno*, *procjena* ili *izvedeno*, i odlučuje što se smije tvrditi.
 
+![Slika 4.2 — trijaža: od brojke u tekstu do vrste dokaza](../figure/dijagram-4-5-vrste-dokaza.png)
+
+**Slika 4.2.** Trijaža svake brojke u rukopisu. Prvo pitanje je ima li **izvor i datum**; ako nema, to nije brojka i ne ulazi u tekst. Drugo je pitanje **kako je dobivena**: izmjerena na uzorku → *mjereno*, izračunata iz drugih brojki → *izvedeno*, nijedno od toga → *procjena*, koja mora biti izričito označena. Svaki ishod završava istim korakom — zapisom u `data/fakti.csv` i provjerom `check_fakti.py`. Izvor: vlastita izrada (Perak 2026).
+
 **Veličina uzorka.** Prvo pitanje svake mjerne tvrdnje jest *na koliko je jedinica izračunata*: mreža od 125 leksema i višestruko veća mreža daju različite gustoće i modularnosti, a **gustoća se ne smije usporediti između mreža različitoga broja čvorova bez korekcije**. Isto vrijedi za anotaciju: κ izračunata na malom broju jedinica ima tako širok interval pouzdanosti da razlika među vrijednostima u praksi nije razlika. Zato se uz svaku mjeru slaganja navode **broj jedinica i broj anotatora**, a kad je uzorak mali i interval, ne samo točka.
 
 **Višestruka usporedba.** Druga je zamka aritmetička: ako se testira mnogo hipoteza, dio će ih biti „potvrđen" samo zato što su testirane. Na razini značajnosti 0,05 očekuje se da će se **jedna od dvadeset** provjera pokazati značajnom i kad učinka nema. Okvir ima šesnaest razina i više mjera po razini, pa se u knjizi primjenjuju tri pravila:

@@ -84,9 +84,9 @@ Ako razine nisu puko naše pomagalo za snalaženje, nego nešto u strukturi svij
 
 Isti se slijed slojeva, u najkraćemu obliku, vidi na slici 1.2.
 
-![Slika 1.2 — razine organizacije od fizikalne do kognitivno-računalne](../figure/fig_razine.png)
+![Slika 1.2 — dvije ljestvice: slojevi stvarnosti i integrativne razine](../figure/dijagram-1-5-slojevi-stvarnosti.png)
 
-**Slika 1.2.** *Levels of organisation* (vlastita izrada). Četiri su okvira poredana odozdo prema gore — PHYSICAL („parts: atoms, energy states"), CHEMICAL („emergent: liquidity, solvent properties"), BIOLOGICAL („emergent: life, metabolism") i COGNITIVE / COMPUTATIONAL („emergent: concept-like structure, planning?") — uz lijevi rub stoji strelica prema gore, a podnožje tvrdi: „Each higher level: properties its parts lack". Slika je shema slojevitosti o kojoj u ovome poglavlju govore Novikoff i Hartmann, bez brojki i bez mjerenja; *planning* je na njoj zapisan s upitnikom, dakle kao otvoreno pitanje, a ne kao tvrdnja.
+**Slika 1.2.** Dvije ljestvice jedna uz drugu. Lijevo su **slojevi stvarnosti** (Hartmann 1940): Materija → Organsko → Duševno → Duhovno. Desno su **integrativne razine** (Novikoff 1945; Feibleman 1954): Stanica → Tkivo → Organ → Organizam → Vrsta → Ekosustav. Ispod obiju stoji zakon slojevitosti: *viši sloj pretpostavlja niži i uvodi kategorije koje niži ne posjeduje.* Slika je shema, bez brojki i bez mjerenja; izvor: vlastita izrada (Perak 2026).
 
 **Stratificirani realizam u filozofiji znanosti.** Roy Bhaskar u *A Realist Theory of Science* (1975) uvodi razliku koja je za nas operativno najkorisnija: razliku između domene **realnog** (mehanizmi i kauzalne moći), domene **aktualnog** (događaji) i domene **empirijskog** (opažaji). Znanost je moguća jer su mehanizmi realni i djeluju i kad ih ne opažamo. Ta je razlika važna zato što nas štiti od zamke koja u istraživanjima jezika i modela vreba na svakom koraku: **iz odsutnosti opažaja ne slijedi odsutnost mehanizma**, a iz prisutnosti korelacije ne slijedi postojanje mehanizma.
 

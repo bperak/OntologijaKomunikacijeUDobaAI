@@ -16,6 +16,10 @@ Komad papira broji kao novac u kontekstu pravne države. Niz izgovorenih riječi
 - **Y** je statusna uloga (novac, obećanje, dokaz) — svojstvo koje ne postoji u X-u samome, kao što ni kemijski sastav novčanice ne sadrži „vrijedi";
 - **C** je kontekst u kojemu priznanje vrijedi — i to je mjesto na kojemu se institucija razlikuje od običaja.
 
+![Slika 8.1 — statusna funkcija: X broji kao Y u kontekstu C](../figure/dijagram-8-1-statusna-funkcija.png)
+
+**Slika 8.1.** Searleova formula u tri ulaza: **X** (nositelj, materijalni ili jezični), **Y** (statusna uloga) i **C** (kontekst priznanja) sastaju se u tvrdnji *X broji kao Y u kontekstu C*. Iz nje slijedi ono što razinu 15 dijeli od razine 14: **sankcija** — postoji ovlaštenje utvrditi kršenje i izreći posljedicu, pa je obveza *branjena*, a ne samo priznata. Izvor: vlastita izrada (Perak 2026), prema Searleu (1995; 2010).
+
 Ono što ovu razinu čini **različitom od razine 14** nije količina obveze, nego **sankcija**. Na razini 14 obveza postoji jer je priznata; na razini 15 ona je **branjena**: postoji netko tko je ovlašten utvrditi kršenje, izreći posljedicu i vratiti stanje. Kad kažemo da je nešto „institucija", kažemo da postoji aparat — i to aparat koji je i sam sastavljen od statusnih funkcija (jer i ovlast sudca je „X broji kao Y").
 
 Odatle slijedi posljedica koja je za ovu knjigu važna: **institucija je razina na kojoj se obveza može pripisati nečemu što nije osoba.** Pravna osoba, fondacija, država — sve su to nositelji prava i dužnosti koji ne postoje kao biološke jedinke, a ipak ulaze u obveze. To nam u četvrtom dijelu knjige omogućuje da precizno formuliramo pitanje o agentskim sustavima: ne „mogu li modeli biti odgovorni?", nego **postoji li zajednica koja im priznaje obvezu i koja je ovlaštena sankcionirati njezino kršenje?** Prvo je pitanje o unutrašnjosti, drugo je pitanje o ustroju — i samo se drugo može provjeriti.

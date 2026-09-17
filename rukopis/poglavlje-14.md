@@ -152,6 +152,10 @@ Kod agentskih sustava prvi uvjet nije ispunjen: sustav uči iz **zapisa kulture 
 
 Prethodne četiri sekcije daju nalaze koje valja skupiti na jednome mjestu. Tablica je zato uređena tako da **svaki stupac ima vlastiti kriterij**, i da je svaki kriterij mjerljiv — dakle takav da se može primijeniti na konkretan sustav i dati odgovor koji se može provjeriti. Bez toga bi tablica bila popis dojmova.
 
+![Slika 14.1 — funkcionalno i intrinzično prisutno po razinama 12–16](../figure/dijagram-14-6-funkcionalno-intrinzicno.png)
+
+**Slika 14.1.** Zbirni nalaz po razinama 12–16, s vrijednostima iz tablice u 14.6: funkcionalno prisutno jest za 12, 13 i 14, **djelomično** za 15, a za 16 *da, kao naslijeđe*; intrinzično prisutno je **ne** na svim pet razina. Donji okvir izriče kriterij razlikovanja: razinu ima sam nositelj, a ne da mu je pripisana izvana. Izvor: vlastita izrada (Perak 2026); vrijednosti su iz tablice 14.6, koja navodi i mjerljivu provjeru za svaki stupac.
+
 **Kriteriji po stupcima.**
 
 - **Funkcionalno prisutno.** Razina se pripisuje ako je ispunjen **barem jedan** mjerljivi uvjet iz dotične sekcije i ako se ishod može prebrojiti u zapisima. Kriterij je *operativan*: primjenjuje se bez pozivanja na unutrašnjost.

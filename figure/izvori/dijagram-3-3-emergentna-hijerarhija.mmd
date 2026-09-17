@@ -1,0 +1,9 @@
+%% wrap: 190
+flowchart TB
+  E3[Entitet 3<br/>svojstva] --> R
+  E2[Entitet 2<br/>svojstva] --> R
+  E1[Entitet 1<br/>svojstva] --> R[Mreža:<br/>relacije i svojstva relacija]
+  R --> N[Emergentni entitet:<br/>nova svojstva<br/>koja dijelovi nemaju]
+  N --> M[Mreža sljedeće razine:<br/>novi entitet postaje čvor]
+  M -.->|isti korak| R
+  N -.-> Z[Nije zbroj dijelova:<br/>mijenja se organizacija]

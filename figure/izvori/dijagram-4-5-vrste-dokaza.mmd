@@ -1,0 +1,11 @@
+%% wrap: 190
+flowchart TB
+  B[Brojka u tekstu] --> P{Ima li izvor<br/>i datum?}
+  P -->|ne| X[Nije brojka —<br/>ne ulazi u tekst]
+  P -->|da| V{Kako je dobivena?}
+  V -->|izmjerena na uzorku| MJ[mjereno]
+  V -->|izračunata iz drugih brojki| IZ[izvedeno]
+  V -->|nijedno od toga| PR[procjena —<br/>mora biti označena]
+  MJ --> Z[Zapis u data/fakti.csv<br/>i provjera check_fakti.py]
+  IZ --> Z
+  PR --> Z

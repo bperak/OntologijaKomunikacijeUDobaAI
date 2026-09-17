@@ -42,9 +42,9 @@ Treći je korak onaj na kojem cijela knjiga stoji. Formulacija je kratka: **mre�
 
 Shema je prikazana na slici 3.1.
 
-![Slika 3.1 — emergentna hijerarhija: entiteti i relacije daju emergentni entitet s novim svojstvima](../figure/fig_emerg_hijerarhija.png)
+![Slika 3.1 — od entiteta preko mreže do emergentnog entiteta i mreže sljedeće razine](../figure/dijagram-3-3-emergentna-hijerarhija.png)
 
-**Slika 3.1.** *Emergent hierarchy (OMLCC principle)* (vlastita izrada). U donjem su sloju tri okvira — ENTITY 1, ENTITY 2 i ENTITY 3, svaki s oznakom „properties" — iznad njih dva okvira „RELATIONS + relation properties", a na vrhu „EMERGENT ENTITY + new properties"; strelice vode odozdo prema gore. Podnožje sažima tvrdnju: „each higher level: new entities and properties (not a sum of the parts)".
+**Slika 3.1.** Tri koraka u jednome prikazu: tri entiteta (svaki sa svojim svojstvima) ulaze u **mrežu** koju čine relacije i svojstva relacija; mreža je sama **emergentni entitet** s novim svojstvima koja dijelovi nemaju; novi entitet postaje **čvor mreže sljedeće razine**. Isprekidana strelica „isti korak" pokazuje da se postupak ponavlja, a natpis uz njega izriče ono što je u ovome poglavlju ključno: *nije zbroj dijelova — mijenja se organizacija.* Izvor: vlastita izrada (Perak 2026), shema bez podataka.
 
 ### Pet radnih kriterija za „jedan nositelj"
 
@@ -80,9 +80,9 @@ Ovaj primjer prolazi tri koraka četiri puta, u nizu. Njegova je poanta u tome �
 
 Najkraći oblik istoga nalaza jest klasični primjer vode (slika 3.2).
 
-![Slika 3.2 — klasični primjer: dijelovi H i O i emergentno svojstvo molekule vode](../figure/fig_voda.png)
+![Slika 3.2 — klasični primjer: dijelovi H i O i emergentno svojstvo vode](../figure/dijagram-3-4-voda.png)
 
-**Slika 3.2.** *The classic example* (vlastita izrada). Lijevo su tri kruga s oznakama H, H i O i natpisom „parts — not liquid · not solvent", strelica vodi udesno u okvir H₂O s natpisom „emergent property: liquid · solvent", a podnožje dodaje: „The property belongs to the organisation of the parts — not to the parts, and not to a scaled-down version of it". To je isti nalaz koji je u odjeljku 3.3 izrečen o molekuli vode („Ni jedna molekula vode nije vlažna").
+**Slika 3.2.** Klasični primjer u četiri koraka: atomi **H**, **H** i **O** ulaze u molekulu **H₂O**; dijelovi nisu ni tekućina ni otapalo; **emergentno svojstvo** (tekućina · otapalo) javlja se na razini molekule; svojstvo zato pripada **organizaciji**, a ne dijelovima. Slika je shema, bez mjerenja i bez brojki; izvor: vlastita izrada (Perak 2026).
 
 **Materijal.** Prvi korak: dijelovi su oscilacije tlaka u zraku. Njihova svojstva su amplituda, frekvencija i faza. U tom opisu nema ničega što bi se moglo nazvati porukom: val nije znak, val je stanje sredstva. Ovo je domena materijalnoga (razine 1–8 u OMLCC-u), i vrijedi je zadržati čistom od svake interpretacije — jer prvi korak upravo i služi tome da se pokaže koliko se malo nalazi u samome gradivu (Hartmann 1940; Anderson 1972).
 
