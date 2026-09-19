@@ -152,6 +152,21 @@ Gdje prestaje razina 14? Tamo gdje se komunikacijski čin stabilizira u **pravil
 
 Time je DIO II dovršen u svojoj tvrdnji: **komunikacija je razina**, ima svoju relacijsku shemu, svoje pokazatelje i svoje načine na koje pada. Sljedeći dio knjige radi ono što iz ove tvrdnje slijedi: ako je komunikacija razina s pravilima, što se dogodi kad u nju uđe sudionik koji nije ni čovjek ni institucija — nego **model**.
 
+## 7.9 Radni primjer: pet uvjeta na vlastitome materijalu
+
+Radni primjer prenosi shemu iz 7.5 na materijal koji čitatelj ima pred sobom — i to tako da se njegov rezultat može pokazati drugome. Uvjeti se ne procjenjuju „u cjelini", po dojmu, nego jedan po jedan, na istome isječku.
+
+1. **Odaberi isječak i zapiši ga.** Uzmi uzastopni niz replika iz razgovora koji postoji u transkriptu ili iz javno dostupnoga teksta u kojemu je vidljivo tko kome piše. Zapiši odakle je isječak, tko su sudionici i što je jedinica analize — replika, rečenica ili čin. Bez toga zapisa nalaz se ne može ponoviti.
+2. **Provjeri adresiranje (uvjet 1).** Za svaku jedinicu zabilježi postoji li nositelj uloge primatelja: obraćanje u drugome licu, vokativ, ime, uputa. Razlikuj obraćanje od pukoga postojanja primatelja signala — jedinica bez adresata nije komunikacijski čin, nego tekst.
+3. **Odredi namjeru i zapiši obrazloženje (uvjet 2).** Imenuj jezični čin (izjava, zahtjev, ispravak, ograđivanje) i napiši jednu rečenicu o tome **po čemu** si to zaključio. Shemu anotacije objavi prije nego što pogledaš ishod: ako je mijenjaš tijekom posla, mijenjaš i predmet.
+4. **Označi zajednički artefakt (uvjet 3).** Popiši deikse i referencije na prethodni tekst (*ovo, ono, gore navedeno*) i odgovori na pitanje: na što se obojica mogu referirati kao na zajednički predmet? Ako se pokazatelji množe, a predmet nitko ne može imenovati, uvjet nije ispunjen.
+5. **Zabilježi konvenciju (uvjet 4).** Izbroji ustaljene obrasce i formule u isječku i zapazi njihovu nisku varijabilnost na visokoj frekvenciji. Ustaljeno nije isto što i emergentno ni proizvoljno (→ pogl. 5.5), pa se ta razlika bilježi, a ne prešućuje.
+6. **Traži obvezu (uvjet 5).** Izluči performative, ispravke i preuzimanje odgovornosti („ja sam rekao", „obećavam", „priznajem da"). Za svaki zapiši **tko** je što preuzeo i **tko** to priznaje. To je najslabije pokriven pokazatelj u podacima i zato najvažniji.
+7. **Izračunaj udjele i sastavi tablicu.** Za svaku jedinicu upiši ✓/✗ po uvjetima i dodaj jednu rečenicu obrazloženja; zatim izračunaj udjele u obliku iz 7.6: koliko jedinica zadovoljava uvjete 1–4, a koliko uvjet 5.
+8. **Provjeri stabilnost nalaza.** Ponovi procjenu na drugome isječku iz drugoga žanra i, ako je moguće, s drugim ocjenjivačem. Zapiši svako odstupanje u procjeni: ono je podatak o mjeri, a ne smetnja.
+
+**Ako ne radi — tri najčešće greške.** *Prva:* adresiranje se pročita iz činjenice da je poruka nekamo otišla, pa se svaki zapis proglasi komunikacijskim činom; nositelj uloge nije isto što i primatelj signala, a ta je razlika upravo ono što razinu 14 dijeli od razine 13. *Druga:* namjera se čita iz ishoda — „sustav je pogodio, dakle prepoznao je namjeru" — čime se mehanizam zamjenjuje rezultatom; prepoznata namjera mora biti dio mehanizma, a ne objašnjenje koje dolijepimo nakon uspjeha. *Treća:* obveza se pripiše obrascu jezika (pronađen performativ u tekstu) bez ijednoga priznanja; performativ u tekstu koji nitko ne priznaje jest jezični obrazac, a ne preuzeta obveza — i to je najčešći izvor tvrdnje da je razina 14 „već prijeđena".
+
 ### Kako bismo znali da griješimo
 
 - Ako se komunikacijski čin može u cijelosti objasniti **bez** prepoznate namjere i bez obveze (čistom inferencijom iz distribucijskih podataka), razina 14 reducira se na 8 + 13 i **nosiva tvrdnja knjige pada**.

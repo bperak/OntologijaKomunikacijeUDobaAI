@@ -125,6 +125,21 @@ Valja izričito navesti i **što ovo poglavlje ne isključuje**, jer se u raspra
 - **Ne odlučuje o tome što je u jeziku urođeno.** Tvrdi samo da stabilnost i struktura koju mjerimo nastaju u uporabi; time se ne tvrdi ništa o tome što organizam unaprijed donosi.
 - **I ne govori o modelima.** Ako značenje dolazi iz uporabe, tada sustav koji uči iz uporabe ima, načelno, pristup toj strukturi — ali to je tvrdnja o strukturi, a ne o razumijevanju, referenciji ili odgovornosti, i traži vlastiti dokaz (→ pogl. 9; → pogl. 12).
 
+## 5.7 Radni primjer: od okruženja do stabilnoga obrasca
+
+Postupak koji slijedi pokazuje kako se tvrdnja „obrazac je proizvod uporabe" provjerava na gradivu, a ne brani uvjeravanjem. Gradivo je par obrazaca koji izriču isti afektivni sadržaj dvjema shemama — *strah me (je) da…* i *bojim se da…* — a isti se postupak može ponoviti na svakoj konstrukciji. Postupak ne traži da se značenje obrazaca unaprijed odredi: traži samo da se zabilježi ono što je u uporabi vidljivo — koje se riječi drže zajedno, u kojim se okruženjima obrazac pojavljuje i koliko je usaden.
+
+1. **Zapiši oba obrasca prije tumačenja.** Navedi ih onako kako se pojavljuju u uporabi, s vrstama dopuna koje traže. Time već imaš razliku koju pravilo „izrazi strah" ne razlikuje.
+2. **Prikupi pojavnice i zabilježi postupak.** Izvor (hrWac), upit i način pretrage moraju biti zapisani tako da ih drugi može ponoviti; bez toga nalaz nije provjerljiv.
+3. **Zabilježi razlike koje pojedino čitanje pretpostavlja (Saussure).** Položaj leksema ne određuje nikakva definicija koju riječ nosi sa sobom, nego njegove razlike prema susjedima u polju — *strah* prema *trepetu*, *lepetu*, *panici* i *frki*. Vrijednost je svojstvo položaja, a ne svojstvo stvari.
+4. **Zabilježi društvo riječi (Firth).** Za svaku pojavnicu napiši koje se riječi drže uz nju u stvarnome izričaju, a ne u rječničkom članku.
+5. **Zabilježi okruženja (Harris).** Sastavi popis okruženja u kojima se obrazac pojavljuje i usporedi okruženja dvaju obrazaca — ne njihova značenja. Distribucija je ono što je opažljivo i što se može prebrojiti.
+6. **Izmjeri ustaljenost i produktivnost.** Ustaljenost je usadenost obrasca u uporabu, koju čitaš iz učestalosti i raspodjele po izvorima i registrima; produktivnost je raznolikost popuna i konteksta. Mjeri ih odvojeno: obrazac može biti ustaljen, a neproduktivan.
+7. **Razvrstaj nalaz u tri kategorije koje se ne smiju stopiti.** Proizvoljno (znak nije motiviran svijetom), ustaljeno (obrazac se reproducira) i emergentno (obrazac je proizvod procesa i ostaje otvoren za reviziju). Ne piši „konvencija" ondje gdje je stabilizirani obrazac uporabe: konvencija u punom smislu uključuje obvezu i pripada razini 14 (→ pogl. 7).
+8. **Napiši pravilnik i provjeri što on razlikuje.** Formuliraj pravilo kao sažetak obrazaca i pogledaj razlikuje li dvije konstrukcije. Ako ne razlikuje, dobio si točan opis koji ne objašnjava — i to se zapisuje kao rezultat, a ne kao neuspjeh.
+
+**Ako ne radi — tri najčešće greške.** *Prva:* „emergentno" se pročita kao „proizvoljno" — sve je slučajno i nema pravilnosti. Rješenje je korak 7: proizvoljnost je tvrdnja o znaku, ustaljenost o obrascu, a emergentnost o odnosu procesa i ishoda; pravilnost je stvarna, samo nije uzrok sama sebe. *Druga:* učestalost se zamijeni za ustaljenost, pa se stabilnost pripiše samo količini izloženosti. Rješenje je korak 6: uz učestalost zabilježi raspodjelu po izvorima i registrima, i ako stabilnost prati samo izloženost, bez ikakve uloge uspješnoga sporazumijevanja i zajedničkoga tla, zapiši da je naš mehanizam zamijenjen jednostavnijim. *Treća:* zapisano pravilo počne se ponašati kao uzrok. Rješenje je korak 8: pravila koja zapišemo jesu sažeci obrazaca, a ne njihov uzrok; pravilo koje ne razlikuje dvije konstrukcije nije mehanizam, nego opis.
+
 ### Kako bismo znali da griješimo
 
 - Ako se gramatička i leksička svojstva mogu u cijelosti objasniti **bez podataka o uporabi** — iz formalnoga sustava i leksika — tada je emergencijski okvir nepotreban i tvrdnja ovoga poglavlja pada.

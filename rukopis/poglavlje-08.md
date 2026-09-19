@@ -104,6 +104,21 @@ Time je DIO II zaokružen: komunikacija je razina (14), institucija je razina ko
 
 Treći dio knjige zato ide onim putem koji smo dosad izbjegavali: od vektorskog prostora do modela, od modela do geometrije, od geometrije do mišljenja kao procesiranja, i najzad do pitanja je li model **novi entitet u sustavu**. ↗ *Komunikacija u doba umjetne inteligencije* (2025), pogl. 8 (Digitalni suputnici) daje tehnički i praktični opis tih sustava; ovdje je posao ontološki.
 
+## 8.7 Radni primjer: statusna funkcija na jednome dokumentu
+
+I formula iz 8.1 i pokazatelji iz 8.2 vrijede tek ako se mogu primijeniti na predmet koji se drži u ruci. Radni primjer zato ide u tri poteza: rastavi dokument na tri mjesta formule, odredi vrstu statusne funkcije i provedi dva testa oduzimanja — jedan za priznanje, drugi za odgovornost.
+
+1. **Odaberi dokument.** Uzmi jedan dokument iz svojega okruženja u kojemu nešto *broji kao* nešto drugo: potvrda, uvjerenje, ugovor, zapisnik, potpisani obrazac, upis u registar. Zapiši odakle je i čije je.
+2. **Rastavi formulu na tri mjesta.** Napiši **X** (materijalni ili jezični nositelj: papir, potpis, pečat, izgovorena rečenica), **Y** (statusna uloga: dokaz, obveza, ovlast) i **C** (kontekst u kojemu priznanje vrijedi). Ako se **C** ne može imenovati, primjer je prestao biti institucijski — i to je nalaz.
+3. **Odredi vrstu.** Prema tablici iz 8.1 razvrstaj primjer u jednu od pet vrsta — deklarativna, atributivna, deontička, reprezentacijska, konstitutivna — i zapiši obrazloženje u jednoj rečenici. Ako primjer traži dvije vrste, napiši koje i zašto.
+4. **Provjeri tri pokazatelja.** Za svaki pokazatelj iz 8.2 upiši ✓/✗: postoji li **ovlaštenje** (može li čin izvršiti bilo tko), postoji li **zapis** koji nadživljuje situaciju i postoji li **postupak** za osporavanje (žalba, ispravak, poništenje).
+5. **Test oduzimanja — priznanje.** Napiši što bi od toga ostalo kad bi nestalo priznanja zajednice. Jezik i forma ostaju, institucija pada — i to je najbolji pojedinačni pokazatelj da je razlika između razine 14 i razine 15 stvarna, a ne verbalna.
+6. **Test oduzimanja — odgovornost.** Napiši kome bi se pripisalo kršenje: nositelju uloge, osobi koja je čin izvršila ili tijelu koje je ovlašteno sankcionirati. Ako odgovornost ostaje na osobi iza uloge, iz toga se ne smije izvesti da je uloga suvišna — izvodi se to da sankcija traži aparat.
+7. **Ponovi na drugome kontekstu.** Isti postupak provedi na dokumentu iz drugoga konteksta **C**. Ako se vrste i pokazatelji ne razlikuju, nalaz je da je razdioba preslaba za tvoj materijal; napiši ga kao negativan nalaz.
+8. **Zapiši odluke.** Sve što si odlučio — što je **X**, što **Y**, što **C**, što je ovlaštenje, a što zapis — ide u zapis uz primjer. Bez toga primjer nije ponovljiv.
+
+**Ako ne radi — tri najčešće greške.** *Prva:* **X** se zamijeni s **Y**, pa se opis predmeta (papir, datoteka, zapis u bazi) proglasi statusnom ulogom; status ne postoji u sastavu nositelja, nego u priznanju. *Druga:* kontekst **C** se prešuti ili proširi tako da obuhvaća sve i svakoga — kontekst koji obuhvaća sve ne priznaje ništa, pa primjer ne razlikuje instituciju od običaja. *Treća:* sankcija se pripiše onome koji je čin izvršio, ili samome sustavu, a ne zajednici ovlaštenoj da je izrekne; time se ovlast razine 15 svede na obvezu razine 14, a odgovornost se pripiše mehanizmu.
+
 ### Kako bismo znali da griješimo
 
 - Ako se institucionalne činjenice mogu u cijelosti opisati kao obrasci uporabe **bez** ovlaštenja i sankcije, razina 15 nije potrebna i mora se reducirati na 14.

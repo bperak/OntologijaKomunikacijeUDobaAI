@@ -178,6 +178,21 @@ Uz domene ovdje valja vidjeti i Searleov vlastiti sklop emergentnih sustava:
 
 Što je onda doprinos OMLCC-a? Četiri stvari, i nijedna nije „prva ljestvica": **operativan kriterij** za izdvajanje razina (odjeljak 2.4), **informacijska razina kao razina**, **komunikacija kao razina (14), a ne kao tema** i **protokol čitanja s podataka**, jer su razine izvedene iz korpusne uporabe, a ne postulirane (Perak, OMLCC - izlaganja 2017a; 2017b).
 
+## 2.7 Radni primjer: od rečenice do relacijske sheme
+
+Razina se u ovome okviru ne pogađa po temi iskaza, nego se čita iz njegove morfosintakse (odjeljak 2.3). Postupak koji slijedi to pretvara u provjerljiv niz koraka, a ponovljiv je na svakome iskazu iz korpusa. Ono što se provjerava nije sadržaj iskaza ni njegova vrijednost, nego shema po kojoj je složen: tko je u njemu entitet, što je relacija i koje svojstvo relacija nosi. Postupak zato ne traži ni jedno novo ime za razinu, nego samo dosljednu primjenu sheme iz ovoga poglavlja.
+
+1. **Uzmi jedan iskaz i navedi mu izvor.** Iskaz mora biti stvaran i ponovljiv — iz korpusa ili iz zabilježenoga razgovora — s mjestom na kojem se može provjeriti. Izmišljen primjer ne može poslužiti kao dokaz.
+2. **Ispiši uloge iz morfosintakse.** Imenice i zamjenice odredi kao entitete, glagole kao relacije i procese, pridjeve kao svojstva entiteta, a priloge i prijedloge kao svojstva relacija. U ovome koraku ne tumači sadržaj; samo prepisuj uloge.
+3. **Sastavi zapis sheme.** Napiši ga u obliku *entitet {svojstvo} — relacija {svojstvo} → entitet {svojstvo}*. Ako koji član nedostaje, zapiši ga kao prazno mjesto: praznina je nalaz, a ne smetnja.
+4. **Usporedi zapis s tablicom relacijskih shema.** Nađi razinu kojoj odgovaraju sva tri tipa — tip entiteta, tip relacije i tip svojstva. Ako odgovaraju samo dva od triju članova, fenomen pripada nižoj razini.
+5. **Primijeni test spajanja.** Usporedi dobivenu razinu sa susjednom. Ako imaju isti trojac, to je jedna razina, a ne dvije — provjeri nisi li zapisao dvije razine ondje gdje je jedna.
+6. **Primijeni test razdvajanja.** Ako u istome materijalu vidiš dva tipa svojstva s različitim zakonima sastavljanja, to su dvije razine — ili je materijal za reviziju ljestvice, koju tada moraš obraniti podacima, a ne ukusom.
+7. **Ako je iskaz adresiran, provjeri četiri uvjeta razine 14.** Adresiranje, namjera, zajednički artefakt i konvencija. Zabilježi koji su zadovoljeni, a koji nisu: uvjet koji se ne može zadovoljiti čisto distribucijskim opisom jest namjera, i zato on odlučuje o smještaju.
+8. **Zapiši nalaz i ono što nije odlučeno.** Uz razinu upiši je li nositelj *entitet* (pozicija: gdje je) ili *agent* (uloga: što radi) — to su dva pitanja i dva dokaza. Slučaj koji nisi mogao odlučiti označi kao nepotvrđen i ne popravljaj ga kasnije.
+
+**Ako ne radi — tri najčešće greške.** *Prva:* domena se pročita kao razina, pa se iz vrste ovisnosti izvede mjesto na ljestvici („ovo je društveno, dakle visoka razina"). Rješenje je podsjetnik iz odjeljka 2.1: domena ima tri, razina šesnaest, a razlikuju se po različitim kriterijima. *Druga:* razina se čita iz teme, a ne iz sheme — odluka se donosi prema tomu o čemu iskaz govori, pa nalaz ispadne smislen, ali neponovljiv. Rješenje je korak 2: uloge se prepisuju iz morfosintakse prije nego se išta protumači, a zapis mora sadržavati sva tri člana. *Treća:* sve novo proglasi se novom razinom — najčešće model. Rješenje je imenovati novi tip svojstva i novu relacijsku shemu; ako ih nema, ne postoji sedamnaesta razina, nego novi entitet u postojećem sustavu.
+
 ### Kako bismo znali da griješimo
 
 - Ako se na novim podacima pokaže da **ravni model bez razina** predviđa jednako dobro kao model s razinama, razine su suvišne i OMLCC pada kao okvir.

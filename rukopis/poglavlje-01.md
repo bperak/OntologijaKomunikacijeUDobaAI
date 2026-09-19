@@ -148,6 +148,21 @@ Sažmimo pravila koja vrijede od ovog poglavlja do kraja knjige.
 4. **Tvrdnja o razini je mjerljiva tvrdnja.** Ako se ne može razlučiti od artefakta mjere, prijavljuje se kao nerazlučiva (pouka Schaeffer et al. 2023).
 5. **Ontološki okvir se ne izmišlja iznova.** Podjela na materijalno, psihološko i društveno preuzeta je od Searlea (1995; 2010); slojevitost stvarnosti od Hartmanna (1940) i Bhaskara (1975); hijerarhija i integrativne razine od Simona (1962), Novikoffa (1945) i Feiblemana (1954). **Naš je doprinos razrada na šesnaest razina i njihove relacijske sheme** — i to je ono što sljedeće poglavlje izlaže.
 
+## 1.9 Radni primjer: od svojstva do razine
+
+Postupak koji slijedi služi jednome: da se tvrdnja o razini **provjeri, a ne izrekne**. Ponovljiv je na svakome svojstvu iz ovoga poglavlja, a svaki korak vraća na odjeljak u kojem je pojam uveden. Kao gradivo uzimamo svojstvo koje poglavlje već rabi — *temperaturu* — i provodimo ga do kraja. Svojstvo je odabrano zato što na njemu poglavlje već pokazuje osnovnu razliku: ono postoji na razini mnoštva čestica, a ne postoji ni na jednoj pojedinoj čestici. Postupak ne uvodi nijedan novi pojam; svi su pojmovi koje traži već izloženi u odjeljcima na koje se koraci pozivaju.
+
+1. **Imenuj svojstvo, a ne stvar.** Zapiši tvrdnju u obliku „X ima svojstvo Y" i izdvoji Y: *voda ima temperaturu*. Ako svojstvo ne možeš imenovati jednim izrazom, tvrdnja još nije provjerljiva i razina joj ne treba.
+2. **Odredi dio, cjelinu i organizaciju.** Prema tablici iz odjeljka 1.1 napiši što su dijelovi (mnoštvo čestica), što je cjelina (uzorak njihova međudjelovanja) i što je organizacija (uzorak relacija među njima). Bez trećega retka nema razine — imaš samo popis dijelova.
+3. **Nađi nižu razinu i pokaži gdje svojstva nema.** Niža je razina pojedina čestica: nijedna čestica nema temperaturu. Ako nižu razinu ne možeš imenovati, nemaš tvrdnju o razini, nego pridjev.
+4. **Napiši zakon sastavljanja u jednoj rečenici.** Formuliraj kako organizacija daje svojstvo: raspodjela energije po česticama *jest* temperatura. Rečenica mora sadržavati i nižu razinu i uzorak koji svojstvo nosi.
+5. **Provjeri postoji li prečica.** Pitaj može li se svojstvo izračunati iz nižega bez odigravanja procesa. Ako može, svojstvo je rezultantno i novu razinu ne nosi; ako ne može — izvedivo je, ali samo simulacijom — tvrdnja stoji na terenu slabe emergencije (odjeljak 1.3).
+6. **Provjeri je li skok artefakt mjere.** Ako se svojstvo pojavljuje skokovito, izmjeri ga drugom, kontinuiranom mjerom. Razlika koja pri promjeni mjere nestane prijavljuje se kao nerazlučiva od artefakta (odjeljak 1.7).
+7. **Provjeri dodaje li razina ičemu.** Napiši što bi se izgubilo kad bi razinu uklonio iz opisa. Ako se ne izgubi ni u opisu ni u predviđanju, odustaješ od nje u tome slučaju (odjeljak 1.6).
+8. **Zapiši ishod.** U pet redaka: *svojstvo · niža razina · zakon sastavljanja · prečica (ima/nema) · ishod (rezultantno, slabo emergentno, nerazlučivo od mjere).* Isti zapis ponovi za drugo svojstvo i usporedi zapise: tvrdnju drži postupak, a ne uvjerljivost primjera.
+
+**Ako ne radi — tri najčešće greške.** *Prva:* razina se pročita kao mjerilo veličine, pa se broj dijelova zamijeni za tip svojstva („veće je na višoj razini"). Rješenje je korak 1: razina nije veličina ni vrijednosna ljestvica, a veće nije više. *Druga:* svojstvo se pripiše dijelu — „čestica je topla", „token nosi značenje" — i razina se izgubi prije nego je nađena. Rješenje je korak 3: ako svojstvo preživi na dijelu, pronašao si nižu razinu, a ne ovu. *Treća:* skok u mjeri proglasi se skokom u sustavu. Rješenje je korak 6: zamijeni pragovnu mjeru kontinuiranom i zapiši ishod kakav jest — pojava koja se ne razlučuje od artefakta mora se prijaviti kao nerazlučiva.
+
 ### Kako bismo znali da griješimo
 
 - Ako se za **svako** svojstvo koje u knjizi nazivamo „razinom" pokaže da je izvedivo iz niže razine bez simulacije (u zatvorenoj formi), okvir razina nema posla i prva tvrdnja knjige pada.

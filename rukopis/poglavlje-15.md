@@ -195,6 +195,18 @@ Time je četvrti dio došao do svojega kraja. Rečeno je da komunikacija ima svo
 
 ---
 
+**Praktikum.** Nacrt testa iz 15.4.2 izvodi se u sedam koraka; sve što se poslije prijavi mora stajati u zapisu sastavljenom **prije** podataka. Postupak je izvediv s postojećim instrumentima — dvije strane, jedan zajednički artefakt i zapisnik — a svrha mu je da nalaz može pasti, a ne da tvrdnju potvrdi.
+
+1. **Zapiši protokol prije podataka.** Četiri jedinice iz 15.4.2 — prijenosna jedinica, generacijski korak, osporavanje, isključenje — dobivaju mjesto dokaza i prag za „prijenos postoji". Prag se ne mijenja nakon što su podaci prikupljeni.
+2. **Uspostavi konvenciju.** Dvije strane (dva agentska sustava, ili sustav i skupina ljudi) rade na **zajedničkom artefaktu** dok se ne stabilizira obrazac koji nije bio zadan uputom (Hutchins 1995). Bilježe se vrijeme nastanka i prvi zapis u kojemu se obrazac navodi kao vodilja.
+3. **Prekini izvor.** Uklanjaju se dotadašnji izvori: uputa, korpus, posrednik. Prije uklanjanja popiše se što je bilo dostupno, jer se nalaz čita po tome je li konvencija preživjela **bez** njih.
+4. **Prenesi dalje, kroz generacije.** Konvencija se predaje novomu nositelju **samo od prethodnika**; svaka je generacija zaseban izvoditelj, a zapis o podrijetlu imenuje prethodnika. Postupak se ponavlja kroz najmanje tri generacije, a u svakoj se mjeri odstupanje od izvornoga obrasca.
+5. **Testiraj osporavanje i isključenje.** U jednoj se generaciji obrazac namjerno prekrši i bilježi se: je li kršenje **utvrđeno**, postoji li ishod koji nije puki prekid izvršenja, može li se uložiti prigovor i čije se ponašanje mijenja (→ pogl. 14.1). Zasebno se bilježi postoji li zapis o **oduzimanju uloge** nositelju, s obrazloženjem.
+6. **Drži kontrole.** Tri su obavezne: skupina bez konvencije (mjeri se šum), skupina s uputom umjesto konvencije (mjeri se razlika između izvršenja i predaje) i mjera degradacije pri rekurentnome učenju kao referentna vrijednost (Shumailov et al. 2024). Bez kontrole s uputom nalaz se ne razlikuje od izvršenja.
+7. **Prijavi nalaz.** Prijavljuju se broj prijenosnih jedinica (obrazac, izvor, primatelj, priznanje), broj generacija kroz koje je obrazac preživio bez korpusa, zapis o kršenju s ishodom i zapis o isključenju. Ako konvencija padne u prvoj generaciji, nalaz je negativan i to je rezultat: prijenos je bio ljudski, a obrazac je pripadao razini 6 (→ pogl. 8.5). Uz svaku se jedinicu u zapisnik upisuje i nositelj koji ju je izveo te vrsta izvora dostupnoga u tome koraku.
+
+**Ako ne radi — tri najčešće greške.** *Prva:* ono što se drži konvencijom zapravo je uputa; provjerava se tako da se uputa promijeni — ako se obrazac promijeni s njom, riječ je o izvršenju, a ne o konvenciji naučenoj iz uporabe (Hopper 1987; Goldberg 2006), pa prvi zapis o konvenciji mora biti zapis o uporabi na artefaktu, a ne unos u konfiguraciji. *Druga:* izvor nije uklonjen u cijelosti — ostane dostupna datoteka, stara sesija ili prethodnik u petlji — pa se mjeri nasljeđivanje, a ne predaja; rješenje je popis svih izvora prije uklanjanja i provjera da nijedan nije ostao. *Treća:* generacije se broje kao ponovljeni pozivi istoga nositelja, pa prijelaza nema; svaka generacija mora biti zaseban izvoditelj, a prethodnik imenovan u zapisu o podrijetlu. Ako odstupanje raste u svakoj generaciji kao pri rekurentnome učenju, nalaz se prijavljuje kao degradacija obrasca, a ne kao prijenos (Shumailov et al. 2024).
+
 ### Kako bismo znali da griješimo
 
 Tvrdnja ovoga poglavlja ima oblik uvjeta, pa se i obara uvjetima. Ona pada ako vrijedi bilo što od sljedećega:
