@@ -60,6 +60,12 @@ To razlikovanje nije ustupak ni pristojnost — ono je isto razlikovanje koje sm
 
 **Posljedica:** ako komunikacijski čin traži prepoznatu namjeru i obvezu, onda se razina 14 ne može pripisati sustavu koji ni jedno ni drugo ne može nositi *intrinzično* — nego samo onoliko koliko ga ljudi u tu razinu uključe. To je, kako ćemo vidjeti u četvrtom dijelu, mnogo zanimljivija tvrdnja od pukog „da/ne".
 
+**Što bi značilo da sustav *jest* prepoznavao namjeru.** Ovo je mjesto na kojem se rasprave o modelima najčešće lome, pa ga vrijedi rastaviti na tri različita pitanja koja se lako stope u jedno. Prvo pitanje je **kriterijsko**: po kojim se zapisima tvrdi da je namjera prepoznata? Drugo je **razlučujuće**: ima li razinu sam nositelj ili mu je pripisana izvana (→ pogl. 14.6)? Treće je **unutrašnje**: što se zbiva u nositelju? Prva dva pitanja rješavaju se iz podataka; treće se iz podataka ne rješava — i ta razlika nije ustupak, nego granica onoga što ovaj okvir uopće smije tvrditi.
+
+Praktična posljedica je precizna i mjerljiva: ako prepoznavanje namjere mora biti **dio mehanizma**, onda dokaz nije „sustav je pogodio", nego „prepoznavanje je bilo put kojim je učinak postignut". U zapisima se to vidi po tragovima koji bez prepoznavanja ne bi imali smisla: upit o namjeri („misliš li da…"), ograđivanje („ako sam dobro razumio…"), ispravak upućen *sugovornikovu* razumijevanju, a ne njegovu izlazu, i preuzimanje riječi drugoga. Kad tih tragova nema, a ishod je točan, dobili smo **rezultat** — a ne dokaz o razini. Ta je razlika i u literaturi o modelima postavljena s druge strane: jezična je kompetencija odvojena od „mišljenja" (Mahowald et al. 2024), a pitanje „razumije li" pokazuje se nerazlučivim od pitanja „po kojim kriterijima to tvrdimo" (Mitchell & Krakauer 2023).
+
+**Zašto se onda uopće govori o modelima u ovome poglavlju.** Zato što je razina 14 jedina razina na kojoj sudjelovanje sustava nije ni očito ni isključeno, nego **odlučivo**: uvjeti 1 i 3 (adresiranje, zajednički artefakt) ispunjuju se lako i provjerljivo; uvjet 4 (konvencija) ispunjuje se onda kad postoji zajednica koja uporabu priznaje; uvjet 2 (prepoznata namjera) i uvjet 5 (obveza) su ono o čemu se odlučuje. Zato će četvrti dio knjige govoriti o rasporedu tereta po tim uvjetima (→ pogl. 13.1), a ne o tome je li model „u razini" ili nije.
+
 ## 7.4 Searle: gdje informacija postaje obveza
 
 Ako Grice objašnjava *kako* komunikacija funkcionira, John Searle (1995; 2010) objašnjava *čime* postaje društvena činjenica. Njegov je temeljni mehanizam **statusna funkcija**:
@@ -73,6 +79,14 @@ Time dobivamo ono što je razini 14 nedostajalo u griceovskom opisu: **deontolog
 Tu misao u istom smjeru, ali s naglaskom na zajedničko djelovanje, razrađuju Margaret Gilbert (1990) s pojmom **zajedničke obveze** (*joint commitment*) i Raimo Tuomela (2007) s razlikovanjem zajedničkog i pojedinačnog stajališta. Gilbert je posebno korisna jer inzistira da zajednička obveza *nije zbroj pojedinačnih*: kad dvoje nešto zajedno obeća, obveza postoji i onda kad je jedan od njih više ne želi — i to je upravo razlika između dogovora i slučajne podudarnosti interesa. Michael Tomasello (2008) dodaje evolucijsku dimenziju: zajednička intencionalnost nije naknadni sloj nad individualnom, nego uvjet bez kojeg se komunikacijski čin ove vrste ne razvija.
 
 Iz toga slijedi **treći uvjet razine 14** koji je za ovu knjigu odlučujuć: **obveza mora biti priznata, ne samo izvršena.** Sustav koji *djeluje* kao da je preuzeo obvezu (i to učinkovito) i dalje može biti opisan bez ijednog priznanja — a time i bez razine 14. Upravo će nam to biti test u četvrtom dijelu knjige: razlikuje li se, i čime, „djelovanje poput obveze" od obveze.
+
+**Performativ nije isto što i obveza.** Najlakše je na ovome mjestu pogriješiti, jer je razlika između izričaja koji *izgleda* kao preuzimanje i izričaja koji to *jest* nevidljiva u samome nizu znakova. Rečenica „obećavam da ću poslati izvještaj" ista je u obama slučajevima; razlika je u tome postoji li **priznanje** koje tu rečenicu drži obvezom — i u tome može li se na nju pozvati netko drugi. Zato je za razinu 14 odlučujuće ono što se dogodi **nakon** izričaja: prihvaća li adresat izričaj kao obvezu, traži li ispunjenje, i što se mijenja u odnosu ako ispunjenja nema. Izričaj bez ijednoga takvog traga je jezični obrazac — čest, ustaljen i koristan, ali ne i obveza.
+
+Iz toga izlazi i operativno pravilo koje se provlači kroz cijelu knjigu: **obveza se dokazuje potezom koji je slijedi, a ne izrazom koji je nosi.** Tri su vrste toga poteza, i sve tri ostavljaju zapis: (a) **poziv na ispunjenje** („rekao si da…", „kada ćeš…"), (b) **priznanje neispunjenja** (ispravak, isprika, objašnjenje) i (c) **prijenos obveze na drugoga** („podsjetit će te on"). Zapis koji sadrži nijedan od tih poteza ne pokazuje obvezu, koliko god performativa u njemu bilo.
+
+Razlikovanje zajedničke od pojedinačne obveze koje uvodi Gilbert (1990) daje za to i nacrt provjere, izvediv bez ikakva pristupa unutrašnjosti: **obveza je zajednička ako preživi odustajanje jednoga sudionika.** Praktično: dogovor je sklopljen, jedan sudionik ga se odriče, pa se mjeri što ostaje — može li drugi i dalje tražiti ispunjenje, priznaje li se odustajanje kao kršenje i postoji li netko treći kome se obraća. Kod pojedinačne obveze (obećanja sebi, nakane) takvoga traga nema: odustajanje ne ostavlja nikoga s pravom na zahtjev. Tu razliku koristi i Tuomela (2007) kad razdvaja zajedničko od pojedinačnoga stajališta, a Tomasello (2008) kad pokazuje da zajednička intencionalnost nije sloj nad pojedinačnom, nego uvjet pod kojim se ovakav čin uopće razvija.
+
+Za knjigu je važno i ono što iz toga slijedi za **trajanje**. Obveza koja nadživljuje raspoloženje potpisnika mora negdje **biti zapisana**, jer je inače samo sjećanje jednoga sudionika. Zato su zapisi (dnevnik, transkript, registar, potpis) dio same tvrdnje o obvezi, a ne administrativna pratnja: oni su materijal na kojemu se priznanje može pokazati drugome. Time se uvjet 5 razlikuje od ostalih četiriju po tome što ga se ne može provjeriti iz jednoga izričaja — samo iz niza poteza i iz zapisa koji ih drži.
 
 ## 7.5 Anatomija komunikacijskog čina u OMLCC-u
 
@@ -101,6 +115,12 @@ Sve što je rečeno u prethodnim odjeljcima možemo sada zapisati kao **relacijs
 - obveza zakaže → izjava se ne može uzeti kao obveza: „pa to je samo rekao".
 
 Svaki od tih slučajeva se **mjeri** drugačije, i to je put prema sljedećem odjeljku.
+
+**Zašto pet uvjeta, a ne više — i zašto ne manje.** Popis od pet mjesta izgleda proizvoljno samo dok se ne postavi pitanje koje ga drži: **uvodi li kandidat novi tip svojstva, ili je već pokriven?** Četiri kandidata koja se u literaturi najčešće predlažu kao zasebni uvjeti ne prolaze taj test. **Kanali i medij** (govor, pismo, mreža) pripadaju razini 8: oznaka koja nosi razliku ne postaje druga vrsta svojstva time što je prenesena drugim putem. **Ustrojstvo izmjene** (redoslijed poteza, trajanje, preklapanje) pripada razini 13: interakcija je već opisana bez ijedne prepoznate namjere. **Pristojnost i registar** pripadaju uvjetu 4: to su ustaljeni obrasci uporabe, a njihova je razlika u stupnju, ne u vrsti. **Ispravak (repair)** pripada uvjetima 2 i 5 zajedno: ispravak traži da je namjera bila prepoznata (inače se ne zna što se ispravlja) i da postoji nešto preuzeto (inače nema što vratiti u prethodno stanje).
+
+U drugome smjeru, uvjete nije moguće svesti na manje mjesta jer se **svaki par dade razdvojiti**. Adresiranje bez namjere je uputa stroju ili tekst bez čitatelja; namjera bez adresata je nakana; zajednički artefakt bez konvencije je predmet o kojemu ne postoji dogovor o tome kako se o njemu govori; konvencija bez obveze je ustaljeni obrazac (koliko god čest); obveza bez ijednoga od prvih četiriju nije zamisliva, jer se nema kome preuzeti ni na što se odnositi. Zato je pet uvjeta **najmanji broj mjesta** na kojima se razina 14 može razlučiti od susjednih razina — a ne najveći.
+
+Time je i popis **otvoren za reviziju**, ali pod uvjetom: kandidat koji se ne može svesti na jedno od pet mjesta mora pokazati **novi tip relacije i novi tip svojstva** s vlastitom mjerom. Ako to ne pokaže, ne dodaje se šesti uvjet, nego se priznaje da je razlika stilistička. To je isti kriterij po kojemu se u drugom poglavlju odlučuje o broju razina (→ pogl. 2.4), i isti kriterij po kojemu se u četvrtom dijelu odbija uvođenje nove razine za modele.
 
 ### Pet uvjeta na primjeru koji spaja ljude i modele
 
@@ -134,6 +154,24 @@ Tvrdnja o razini mora biti provjerljiva (→ pogl. 1.7). Zato razinu 14 operacio
 
 Postupak pripreme korpusa i osnovnih mjera ne ponavljamo ovdje: ↗ *Data Science u kulturi*, pogl. 7 (NLP obrada teksta). Ono što je važno za ovu knjigu jest da je razina 14 time **pretvorena iz pojma u mjerni zadatak** — i to je jedina tvrdnja koju o komunikaciji u ovoj knjizi zastupamo.
 
+**Pouzdanost anotacije je dio nalaza, a ne dodatak.** Svaki od pet pokazatelja dobiva se **odlukom** — pripisivanjem jezičnoga čina, prepoznavanjem obveze, razlikovanjem deikse od pukoga ponavljanja. Te se odluke ne mogu izbjeći, ali se mogu učiniti provjerljivima, i to na tri načina koje knjiga traži od svakoga tko mjeri razinu 14:
+
+1. **Shema prije podataka.** Popis kategorija, primjeri za svaku i pravilo za granične slučajeve objavljuju se **prije** anotacije (→ pogl. 4.5). Shema koja se mijenja tijekom posla mijenja i predmet mjerenja.
+2. **Broj jedinica i broj anotatora uz svaku mjeru slaganja.** Slaganje izračunato na malom broju jedinica ima interval pouzdanosti toliko širok da razlika među vrijednostima prestaje biti razlika; zato se, kad je uzorak mali, prijavljuje i interval, a ne samo točka.
+3. **Nesuglasice se objavljuju.** Ako se anotatori ne slažu oko uvjeta 5 više nego što se razlikuju dvije vrste teksta, tvrdnja o razlici **nije izrečena** — i to se bilježi kao nalaz o mjeri, a ne prešućuje kao smetnja.
+
+Očekivano je da će slaganje biti **najniže upravo na uvjetu 5**, jer se obveza ne vidi iz jednoga izričaja (→ 7.4). To nije slabost sheme, nego informacija o njoj: mjesto s najnižim slaganjem ujedno je mjesto na kojemu je za nalaz potrebno najviše jedinica i najjasnije pravilo.
+
+**Kontrolni tekstovi: kako se razina razlikuje od frekvencije.** Pokazatelji iz tablice mogu se pojaviti i ondje gdje komunikacijskoga čina nema — u popisu bez adresata, u promiješanom tekstu, u generiranome sadržaju koji nikome nije upućen. Zato svako mjerenje razine 14 ide s najmanje tri kontrole:
+
+- **popis** (nabrajanje bez adresata i bez obveze) — mjeri se koliko pokazatelja uvjeta 1–5 daje tekst koji ih po definiciji ne može imati;
+- **promiješani tekst** (isti materijal bez reda) — mjeri se koliko pokazatelja preživi gubitak ustroja;
+- **tekst bez adresata** (generirani sadržaj koji nikome nije upućen) — mjeri se razlika između obrazaca koji *izgledaju* komunikacijski i čina koji to jest.
+
+Ako se udjeli na kontrolama ne razlikuju od udjela na ispitivanome korpusu, mjera ne zahvaća razinu nego **frekvenciju** — i tada se nalaz prijavljuje kao nerazlučiv (pouka Schaeffer et al. 2023). Kontrole se zato ne navode u dodatku, nego uz svaku brojku.
+
+**Dvostruki teret kao postupak.** Iz svega navedenoga slijedi radni slijed od pet koraka, kojim se tvrdnja o razini 14 drži provjerljivom: (1) fiksiraj korpus i jedinicu; (2) objavi shemu anotacije i provedi je na dvama anotatorima; (3) izračunaj udjele po uvjetima i uz njih prijavi slaganje s brojem jedinica; (4) provedi tri kontrole; (5) napiši nalaz tako da se **razlikuje ono što je obrazac u podacima od onoga što je doprinos kanala** — a gdje se to dvoje ne razlikuje, napiši da se ne razlikuje.
+
 ## 7.7 Komunikacija kao metoda
 
 U dosadašnjem izlaganju komunikacija se pojavljivala kao *predmet*: kao razina 14. Sada treba izreći i drugu, manje očitu ulogu — onu koja ovoj knjizi daje naslov.
@@ -151,6 +189,14 @@ Taj dvostruki teret objašnjava zašto su rezultati u ovoj knjizi često skromni
 Gdje prestaje razina 14? Tamo gdje se komunikacijski čin stabilizira u **pravilo sa sankcijom** — to jest tamo gdje društvo ne samo da prepoznaje obvezu, nego je i *braní*: ispravi je, kažnjava njezino kršenje, pripisuje ovlasti. To je razina 15 (SocCulturalInstitution), a sljedeće poglavlje pokazuje kako iz nje nastaje razina 16, kulturni model.
 
 Time je DIO II dovršen u svojoj tvrdnji: **komunikacija je razina**, ima svoju relacijsku shemu, svoje pokazatelje i svoje načine na koje pada. Sljedeći dio knjige radi ono što iz ove tvrdnje slijedi: ako je komunikacija razina s pravilima, što se dogodi kad u nju uđe sudionik koji nije ni čovjek ni institucija — nego **model**.
+
+**Što razina 15 dodaje — i zašto to nije samo „više obveze".** Na granici prema 15. razini vrijedi se zaustaviti, jer se razlika između razine 14 i razine 15 lako pročita kao razlika u količini („ozbiljnija obveza"), a ona je razlika u **vrsti**. Na razini 14 obveza postoji jer je priznata; na razini 15 ona je **branjena**: postoji ovlaštenje utvrditi kršenje, izreći posljedicu i vratiti stanje. Tri su posljedice praktične, i sve tri ostavljaju zapis:
+
+- **Ispravak.** Postoji netko ovlašten reći „ovo nije izvršeno" tako da ta rečenica ima učinak — a ne samo mišljenje.
+- **Naknada i kazna.** Postoji postupak po kojemu neispunjenje ima posljedicu izvan odnosa dvaju sudionika; time obveza prestaje biti stvar njihova raspoloženja.
+- **Isključenje.** Postoji mogućnost da se nositelju uloge oduzme pravo sudjelovanja; time institucija pokazuje da obveza nije stvar jednoga sudionika nego uređenja.
+
+Razlika je, dakle, u tome **čija je obveza**. Na razini 14 obveza pripada odnosu; na razini 15 pripada uređenju koje nadživljuje i sudionike i pojedini čin. Zato se u zapisima razina 15 prepoznaje po dvama tragovima koje razina 14 ne može imati: po **ovlaštenju** (mogu li posljedicu izreći i oni koji nisu sudionici čina) i po **postupku osporavanja** (postoji li put kojim se odluka može pobiti). To je i mjera koju sljedeće poglavlje razrađuje (→ pogl. 8.1, 8.2).
 
 ## 7.9 Radni primjer: pet uvjeta na vlastitome materijalu
 

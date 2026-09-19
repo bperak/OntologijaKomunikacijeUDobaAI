@@ -36,6 +36,20 @@ Odatle slijedi posljedica koja je za ovu knjigu važna: **institucija je razina 
 
 Ta je razdioba korisna jer omogućuje da se u konkretnom slučaju vidi **koja je vrsta prisutna, a koja nije** — i to je razlika između analize i dojma.
 
+**Sankcijski aparat: od čega je sastavljen.** Ako je razlika između razine 14 i razine 15 u tome da je obveza na potonjoj *branjena*, onda se ta razlika mora dati razložiti na dijelove koji se u zapisima mogu pojedinačno pronaći. Tri su takva dijela, i sva tri su nužna:
+
+1. **Ovlaštenje.** Postoji netko (ili nešto) čija izjava „ovo nije izvršeno" **ima učinak** — ne zato što je točna, nego zato što je izrečena s ovlaštenjem. Bez toga dijela postoje mišljenja o kršenju, ali ne i utvrđenja kršenja.
+2. **Zapis.** Postoji mjesto na kojemu je stanje obveze zapisano tako da nadživljuje sudionike i trenutak. Bez zapisa se ne može znati što je bilo preuzeto, pa se ne može ni utvrditi da nije izvršeno.
+3. **Postupak osporavanja.** Postoji put kojim se utvrđenje može pobiti (žalba, ispravak, poništenje, revizija). Bez toga dijela sankcija postoji, ali je njezina veza s obvezom proizvoljna — a onda je to vlast, a ne institucija.
+
+**Zašto to nije sila.** Najčešća zamjena pojmova na ovome mjestu jest poistovjetiti sankciju s moći: onaj koji može nametnuti posljedicu ima sankciju. Searle (1995; 2010) pokazuje zašto to ne drži: institucionalne su činjenice **ovisne o promatraču** (*observer-relative*) — njihovo postojanje ovisi o kolektivnome priznanju, a ne o rasporedu fizičke moći. Posljedica je precizna: kažnjavanje koje nitko ne priznaje kao ovlašteno jest nasilje, a ne sankcija, jer mu učinak ne dolazi iz priznanja nego iz sile. Razlika nije moralna nego ontološka — i zato je provjerljiva: kod sankcije se može imenovati **tko** je ovlašten i **po kojemu pravilu**, kod nasilja se to ne može.
+
+**Zašto je aparat rekurzivan.** Svaki od triju dijelova i sam je statusna funkcija: ovlast suca je „X broji kao Y", zapis u registru je „X broji kao Y", rok za žalbu je „X broji kao Y". Ta rekurzivnost nije ukras nego objašnjenje: institucija može djelovati na udaljenosti i nakon što svi sudionici odu, jer je **posložena od statusnih funkcija koje se pozivaju jedna na drugu** (Searle 1995). Zato se institucije u praksi pojavljuju kao **ugniježđene**: postoji pravilo, postoji tijelo koje ga primjenjuje, i postoji tijelo koje provjerava primjenu. U zapisima se ta ugniježđenost vidi kao lanac pozivanja (poziv na pravilo, poziv na odluku, poziv na odluku o odluci), a ne kao jedna rečenica.
+
+**Vrste zapisa nisu zamjenjive.** Reprezentacijska vrsta iz tablice (dokument, zapis, potpis, arhiv) čini se najtehničkijom, a nosi najveći teret: različiti zapisi drže različite stvari. **Registar** drži stanje (tko ima koju ulogu), **zapisnik** drži tijek (što je izrečeno i u kojemu poretku), **ugovor** drži obvezu (što je preuzeto i do kada), a **sjećanje sudionika** ne drži ništa od toga izvan jednoga uma. Zato se u analizi uvijek pita *koji* zapis postoji: institucija s registrom i institucija s dobrom namjerom nisu isti predmet.
+
+**Posljedica za knjigu.** Ako se za neki sustav tvrdi da djeluje na razini 15, mora se pokazati upravo ovo: postoji li **ovlaštenje koje ne pripada sudioniku čina**, postoji li **zapis koji stanje obveze drži**, i postoji li **put osporavanja**. Gdje tih triju dijelova nema, pravila mogu biti prisutna, ali institucija nije — i to je razlika koju četvrti dio knjige mjeri, a ne pretpostavlja (→ pogl. 14.4, 12.4).
+
 ## 8.2 Jezik kao institucija: gdje jezik djeluje, a ne samo opisuje
 
 Tradicionalna lingvistika promatra jezik kao opis svijeta. Institucije pokazuju drugu stranu: postoje izričaji koji **same sebe čine istinitima** u odgovarajućem kontekstu. Izgovoreno „obećavam" nije izvještaj o obećanju nego samo obećanje; potpis nije opis potpisa.
@@ -49,6 +63,17 @@ Uporabna gramatika (Hopper 1987; Goldberg 2006; Croft 2001) tu daje važan korek
 1. postoji **ovlaštenje** (ne može svatko izvršiti čin; „tko" je dio funkcije);
 2. postoji **zapis** koji nadživljuje situaciju (arhiv, registar, dokument);
 3. postoji **postupak** za osporavanje (žalba, ispravak, poništenje) — dakle sankcija je predviđena, a ne improvizirana.
+
+**Kad priznanje padne: što ostaje od institucije.** Tvrdnju da je jezik i institucijski materijal najlakše je provjeriti **oduzimanjem**, a ne dodavanjem. Uzmimo formulu koja djeluje — „proglašavam sjednicu otvorenom", „imenujem vas…", „potpisom se obvezujem…" — i uklonimo joj priznanje zajednice: neka je izgovori netko bez ovlasti, ili u kontekstu u kojemu je nitko ne prihvaća kao obvezujuću. Što ostaje?
+
+- **Ostaje jezik.** Formula se i dalje prepoznaje, može se navesti, citirati, oponašati, analizirati; njezina je forma naučena konstrukcija i kao takva pripada mreži uporabe (→ pogl. 5.5, 6.4).
+- **Ne ostaje čin.** Nije otvorena sjednica, nije imenovana osoba, nije preuzeta obveza. Ono što je nestalo nije značenje, nego **obvezujućnost**.
+
+Ta asimetrija — jezik traje, institucija pada — najbolji je pojedinačni pokazatelj da razlika između razine 14 i razine 15 nije verbalna: da je razlika samo u stupnju, oduzimanje priznanja ne bi imalo tako različit ishod na dvjema stranama. Ujedno je i **mjerna uputa**: ono što s priznanjem nestaje mora biti ono što se u mjerenju razine 15 i traži (ovlaštenje, zapis, postupak), a ono što ostaje pripada razini 14 ili niže.
+
+**Zapis kao produžetak dosega.** Iz istoga slijedi i manje očita posljedica: zapis nije samo dokaz institucije, nego **njezin produžetak**. Usmena obveza vrijedi dok su sudionici nazočni i dok je se sjećaju; zapisana obveza vrijedi i kad nitko od sudionika nije nazočan. Zato institucije koje djeluju na velikim udaljenostima i kroz dugo vrijeme nužno razvijaju pisanu formu, standardizirane obrasce i arhiv — i zato je **standardizacija** institucionalni proces, a ne stilski. Iz toga slijedi i oprez koji ova knjiga sebi postavlja: institucionalni jezik nije samo sredstvo obvezivanja, nego i sredstvo **skrivanja** — formula može sakriti čija je obveza u njoj i koga se može pozvati. Zato se u analizi uz svaku formulu traži **adresa obveze**: tko je u njoj preuzeo i tko je u njoj ovlašten tražiti.
+
+**Predviđanje koje se može provjeriti.** Ako je razina 15 doista viša razina, a ne samo „ozbiljniji razgovor", onda institucionalizacija mora ostaviti trag u mjeri iz 7.6: udio jedinica koje zadovoljavaju uvjet 5 (obveza) mora rasti s prelaskom iz privatne razmjene u institucionalnu, a uz njega se moraju pojaviti i izrazi kojima se imenuje **ovlaštenje i posljedica** („nije dopušteno", „podliježe", „žalba", „rok"). To je tvrdnja koja može pasti — ako se pokaže da se udjeli ne razlikuju između žanrova, ili da se isti izrazi pojavljuju jednako često i ondje gdje nema nikakva aparata (→ pogl. 7.6, 8.5).
 
 ## 8.3 Kulturni model i nasljeđivanje: učenje iz podataka nasuprot predaji
 
@@ -68,6 +93,20 @@ U literaturi su ti mehanizmi opisani s raznih strana i međusobno se nadopunjuju
 - **Sawyer (2005)** pokazuje da se društvena emergencija ne svodi na „skup pojedinaca", nego traži mehanizam na kojemu se viša razina održava.
 
 **Razlika prema modelima podataka** mora biti izrečena bez patetike: sustav koji je naučio obrasce iz mnoštva tekstova **reproducira obrasce** i to često bolje od pojedinca. Ono što iz takvog učenja ne slijedi jest **prihvaćanje obrasca kao vodilje u zajednici koja ga priznaje** — jer za to je potrebna zajednica, a ne samo podaci. To nije tvrdnja o nemogućnosti, nego o **uvjetima**: ako se jednom uspostavi zajednica koja sustavu priznaje takvu ulogu, tvrdnja se može promijeniti; do tada ostaje otvoreno pitanje, a ne stav (→ pogl. 15).
+
+**Tri načina prijenosa — i zašto samo jedan nosi razinu 16.** Razlika između učenja i predaje zahtijeva razradu, jer se u svakodnevnom govoru sve troje naziva „učenjem". Razlikujmo tri mehanizma:
+
+| mehanizam | što se prenosi | što je potrebno | je li razina 16? |
+|---|---|---|---|
+| **izloženost** | pravilnosti u podacima (frekvencije, obrasci) | dovoljna količina materijala | **ne** — nema prijenosa među nositeljima |
+| **oponašanje** | ponašanje koje drugi izvodi | promatranje i sposobnost reprodukcije | **ne** — preneseno je ponašanje, a ne obveza da se po njemu ravna |
+| **predaja s priznanjem** | obrazac koji primatelj **prihvaća kao vodilju** | zajednica, zajednička pažnja i odgovornost za primijenjeni obrazac | **da** |
+
+Prva dva mehanizma ne trebaju zajednicu: izloženost je odnos između materijala i nositelja, a oponašanje je odnos između dvaju nositelja u kojemu drugi može ostati posve neupitan. Treći mehanizam je drukčiji po vrsti: obrazac se prenosi tako da ga primatelj **može navesti kao vodilju**, da se na njega može pozvati i da se od njega može tražiti račun za njegovu primjenu. Zato predaja ima dvije strane: prenositelj koji obrazac predaje i primatelj koji ga prihvaća — i ta obostranost je razlog zašto Tomasello (2008) zajedničku intencionalnost drži pretpostavkom, a ne dodatkom.
+
+Odatle slijedi i sadržaj razine 16 koji se lako previdi. Kulturni model nije zbroj obrazaca; on je **način na koji se odlučuje što je relevantno** — što u razgovoru vrijedi kao argument, što kao dokaz, što kao šala, a što kao uvreda. Zato se ne svodi na mrežu značenja (razina 6): mreža pokazuje **strukturu uporabe**, a kulturni model pokazuje **normu tumačenja** koju zajednica drži. Ta razlika objašnjava i zašto se modeli podataka mogu ponašati u skladu s obrascem, a da pritom ne prenose obrazac: njihovo je „znanje" o normi posljedica izloženosti, a ne prihvaćanja — sve dok ne postoji zajednica koja bi ga na obrazac pozvala (→ pogl. 15.3, 15.4).
+
+**Zašto je ta razlika operativna, a ne filozofska.** Ako je razlika između izloženosti i predaje stvarna, ona se mora vidjeti u ponašanju: kod predaje obrazac treba **preživjeti prekid izvora** (uklanjanje upute, korpusa, posrednika), mora biti **naveden kao vodilja** u novoj situaciji, i mora biti **obostran** u smislu odgovornosti. Gdje toga nema, a ponašanje je ipak usklađeno, dobili smo usklađenost bez predaje — a to je nalaz o mehanizmu, ne o kulturi (→ pogl. 15.2).
 
 ## 8.4 Što se nalazi u modelu, a što ne nalazi
 
@@ -97,6 +136,12 @@ Sve dosad rečeno moglo bi izgledati kao pojmovna igra. Zato ovdje prekidam teor
 Nijedan od tih opisa nije „točniji" od ostalih: oni su odgovori na različita pitanja. **No pomiješani, proizvode pogrešnu tvrdnju** — najčešće tvrdnju da je „AI stekao namjeru", koja nastaje tako da se svojstvo razine 13 (koordinacija) proglasi svojstvom razine 14 (prepoznata namjera i obveza), a ono što je posao razine 15 (sankcija) pripiše se samome sustavu. Zato je razlučivanje razina **operativno**, a ne akademsko: ono odlučuje kome se što pripisuje, a time i koga se može pozvati na odgovornost.
 
 I obrnuto — jednako je pogrešna i suprotna redukcija: proglasiti cijeli incident „samo softverom" i time izbjeći pitanja o tome kako je sustav uopće došao u poziciju da djeluje bez nadzora. Ni ta tvrdnja ne stoji na razini 8, jer razina 8 ne zna za „dopuštenja", „nadzor" i „odgovornost" — te riječi pripadaju višim razinama, i njihovo postojanje je razlog zašto je okvir razina potreban.
+
+**Četvrti opis — onaj koji ne postoji.** Dosad smo opisali tri smještanja koja se u dokumentaciji doista nalaze (8, 13, 15) i jedno koje se u raspravama najčešće izvodi pogrešno (14). Ostaje razina 16, i ona zaslužuje zaseban odlomak, jer je ovdje riječ o **nalazu o odsutnosti**.
+
+Što bi značilo opisati taj incident na razini 16? Trebalo bi pokazati da je u krugu ljudi koji rade s takvim sustavima nastao **obrazac tumačenja** koji je nadživio pojedini slučaj: da postoji vodilja o tome kako se s takvim sustavima radi (što se smije pustiti bez nadzora, što se mora zabilježiti, što se smatra nemarnim), da je ta vodilja **prešla na nove članove** koji je nisu izveli iz vlastitoga iskustva, i da je **obostrano priznata** — da se na nju može pozvati i onaj koji je po njoj postupao i onaj koji je zbog nje snosio posljedicu. Takav bi opis bio nalaz o kulturnom modelu u nastajanju.
+
+U dostupnoj dokumentaciji **toga opisa nema**: imamo pravila (razina 15), koordinaciju (13) i tehnički slijed (8), a ne pokazatelje predaje obrasca. To se, po pravilu iz 4.5, izriče kao **nalaz o odsutnosti**, a ne kao tvrdnja o nemogućnosti: nije pronađen dokumentirani slučaj, i to vrijedi onoliko koliko je širok pregled na kojemu stoji. Ujedno je to i najkorisniji dio analize, jer daje mjerljiv zadatak: ako se za nekoliko godina ti pokazatelji pojave — vodilja koja se navodi, prijenos na nove članove, obostrano priznanje — okvir će imati što izmjeriti, a tvrdnja o razini 16 kod novoga sudionika promijenit će se s dokazom, a ne s dojmom (→ pogl. 15.4, 16.5).
 
 ## 8.6 Most prema trećemu dijelu
 
