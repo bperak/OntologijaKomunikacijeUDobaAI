@@ -150,6 +150,25 @@
   - B.1 Zašto generirani, a ne ručno pisani rječnik
   - B.2 Kako se rječnik čita
   - B.3 Terminološka stega koju rječnik čuva
+- **Dodatak C — Rješenja vježbi**
+  - C.1 Poglavlje 1 — Sustavi, cjeline i organizacija
+  - C.2 Poglavlje 2 — OMLCC: šesnaest razina
+  - C.3 Poglavlje 3 — Tri koraka emergencije
+  - C.4 Poglavlje 4 — Kako se razine čitaju iz podataka
+  - C.5 Poglavlje 5 — Jezik kao emergentna pojava
+  - C.6 Poglavlje 6 — Mreže značenja: od ko-okurencije do konceptualne mreže
+  - C.7 Poglavlje 7 — Komunikacija kao razina 14
+  - C.8 Poglavlje 8 — Institucije (15) i kulturni modeli (16)
+  - C.9 Poglavlje 9 — Od vektorskog prostora do modela
+- **raspon srodnosti je obvezan dio nalaza, a ne ukras**
+  - C.10 Poglavlje 10 — Geometrija na djelu — i njezine granice
+- **dva mjerenja, ista pravila: što se uspoređuje**
+  - C.11 Poglavlje 11 — Mišljenje kao procesiranje: kontekst koji se unaprjeđuje
+  - C.12 Poglavlje 12 — Novi entitet u sustavu: od modela do agenta
+  - C.13 Poglavlje 13 — Human→agent i agent→agent: što se mijenja na razini 14
+  - C.14 Poglavlje 14 — Razine 12–16 kod agenata: što vidimo, što ne vidimo
+  - C.15 Poglavlje 15 — Hoće li imati kulturu?
+  - C.16 Poglavlje 16 — Što to znači za lingvistiku — i kako bismo znali da griješimo
 - **Dodatak D — Predlošci**
   - D.1 Predložak: korpusni upit
   - D.2 Predložak: evaluacija ugrađivanja

@@ -197,9 +197,10 @@ Sve što je planirano u Varijanti B je napisano: **16 poglavlja, uvod, zaključa
 | **IV. Komunikacija s novim entitetom** | 13 (6.208) · 14 (7.067) · 15 (7.008) · 16 (7.488) | 27.771 | ✅ dovršeno |
 | **poglavlja ukupno** | 16 | **93.939** | ✅ |
 | uvod · zaključak · predgovor · studija slučaja | — | 2.046 · 1.291 · 804 · 1.128 | ✅ |
-| dodaci A–G | A 526 · B 356 · C u izradi · D 829 · E 1.480 · F 1.940 · G 3.598 | — | 🟡 (C u izradi; E i G generirani) |
+| dodaci A–G | A 526 · B 356 · **C 8.147** · D 829 · E 1.480 · F 1.940 · G 3.598 | 16.876 | ✅ dovršeno (E i G generirani; C sastavljen iz četiri dijela) |
+| sadržaj (generiran) | — | 1.688 | ✅ |
 
-**Ukupno: ~107.900 riječi** (s dodatkom C ~113.000) ≈ **330–350 stranica** — u planiranome obimu.
+**Ukupno: 117.772 riječi** ≈ **350–370 stranica** — u planiranome obimu (plan: ~105.000 riječi / ~300 stranica).
 
 **Sve provjere prolaze:** `check_lit` (oba smjera: 418 jedinica u popisima / 774+ citata) ·
 `check_fakti --strict` (35 zapisa: 24 mjereno · 9 procjena · 2 izvedeno) · `check_cisto` ·
