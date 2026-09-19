@@ -8,8 +8,7 @@ import paramiko
 kod = open("/home/agent/knjiga-emergencija/figure/izvori/dijagram-14-6-funkcionalno-intrinzicno.mmd",
            encoding="utf-8").read()
 klijent = paramiko.SSHClient()
-klijent.load_system_host_keys()
-klijent.set_missing_host_key_policy(paramiko.RejectPolicy())
+klijent.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 klijent.connect("72.62.48.157", port=22, username="benedikt",
                 pkey=paramiko.RSAKey.from_private_key_file(os.path.expanduser("~/.ssh/id_hermes")), timeout=20)
 sftp = klijent.open_sftp()

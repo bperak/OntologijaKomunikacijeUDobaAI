@@ -133,3 +133,19 @@ Knjiga tvrdi da se razine razlučuju **po vrsti dokaza**, a ne po uvjerljivosti 
   upravo ondje slika radi posao koji rečenica radi sporije.
 - **Provjera:** svaki dijagram pregledan je vizualno (`model.supports_vision` uključen) i
   izmjeren (`check_figure_overflow.py`); vrijednosti u Slici 14.1 prepisane su iz tablice 14.6.
+
+## ISPRAVAK-011 — rukopis je o sebi tvrdio nešto netočno (pogl. 16)
+
+- **Što je bilo:** na kraju 16. poglavlja, u bloku „Otvoreno za provjeru u ovoj datoteci", stajale su
+  dvije tvrdnje koje su u međuvremenu postale netočne: (3) da poglavlje 9 **nema** odjeljak
+  „Kako bismo znali da griješimo" i (4) da u rukopisu **nema** poglavlja 4 i 15, pa se upute na 4.x i
+  15.x odnose na plan, a ne na tekst.
+- **Što je točno (17. 9. 2026.):** poglavlje 9 **ima** taj odjeljak, a poglavlja 4 (7.113 riječi) i 15
+  (6.488 riječi) **postoje** i dovršena su.
+- **Kako je ispravljeno:** tvrdnje nisu obrisane nego prepisane kao **riješene stavke** s datumom, uz
+  uputu na ovaj zapis. Razlog je isti kao i za sve ostale ispravke: pogreška se ne briše, jer brisanje
+  skriva i samu činjenicu da je rukopis jedno vrijeme bio nepotpun.
+- **Uz to:** `check_fakti.py --strict` upozorio je na brojku **300 dimenzija** (fastText cc.hr.300) u
+  potpisu slike 10.2 koje nije bilo u evidenciji; dodan je zapis `fasttext_hr_dim` u `data/fakti.csv`.
+  Alat `check_lit.py` proširen je tako da provjerava i dijelove rukopisa **bez** popisa literature
+  (uvod, zaključak, predgovor, studija slučaja) — u smjeru citat → baza.

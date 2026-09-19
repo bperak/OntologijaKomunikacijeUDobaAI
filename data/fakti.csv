@@ -37,3 +37,4 @@ mijesati_strah,17,pojavnica,Perak 2014 (doktorski rad: tiskana str. 369),2014,mj
 papercut_window,26,sekundi,GreyNoise (2026; 9. rujna),2026,mjereno,razine/13,trajanje naleta u kojem je pogođeno 11 ciljeva
 gpqa_saturation,93.8,%,Thompson 2026 (Gemini 3 Pro; 11/2025),2025,mjereno,razine/10,rezultat pri zasićenju GPQA; strop je niži (~80%)
 mmlu_saturation,92.3,%,Thompson 2026 (o1-preview; 9/2024),2024,mjereno,razine/10,rezultat pri zasićenju MMLU; strop ~91%
+fasttext_hr_dim,300,dimenzija,fastText pretrenirani vektori cc.hr.300 (vlastiti mjerni postav),2026,mjereno,razine/10,slika 10.2 izrađena je na ovome instrumentu — nije isti model kao ostatak knjige (Qwen3-Embedding 4096 dim.)

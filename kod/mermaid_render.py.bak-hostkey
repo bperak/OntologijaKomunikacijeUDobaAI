@@ -140,8 +140,7 @@ def provjeri_izvor(kod: str):
 def render(kod: str, format_: str = "svg"):
     """Pošalji Mermaid kod na H2; vrati SVG (s prevedenim natpisima) ili PNG (bytes)."""
     klijent = paramiko.SSHClient()
-    klijent.load_system_host_keys()
-    klijent.set_missing_host_key_policy(paramiko.RejectPolicy())
+    klijent.set_missing_host_key_policy(paramiko.AutoAddPolicy())
     klijent.connect(HOST, port=PORT, username=USER,
                     pkey=paramiko.RSAKey.from_private_key_file(os.path.expanduser("~/.ssh/id_hermes")),
                     timeout=20)

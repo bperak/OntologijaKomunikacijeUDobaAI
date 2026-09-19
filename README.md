@@ -30,7 +30,7 @@ Knjiga postavlja jedno pitanje i brani tri tvrdnje.
 | **III. AI U SUSTAVU** | 9 od vektorskog prostora do modela · 10 geometrija i granice · 11 mišljenje kao procesiranje · 12 novi entitet: od modela do agenta | što model jest, a što nije |
 | **IV. KOMUNIKACIJA S NOVIM ENTITETOM** | 13 human→agent, agent→agent · 14 razine 12–16 kod agenata · 15 hoće li imati kulturu · 16 posljedice i falsifikacija | što se mijenja i kako to provjeriti |
 
-Svako poglavlje ima istu anatomiju (sedam blokova): **teza → teorijski okvir → metode i podaci → praktikum s kodom („Ako ne radi") → vježbe 🟢🟡🏆 → sažetak i ključni pojmovi → „Kako bismo znali da griješimo"**.
+Knjiga ima **uvod** (tri tvrdnje, dvije razlike, falsifikacijski okvir) i **zaključak** (stanje dokaza po tvrdnjama, otvorene stavke, što bi knjigu oborilo). Svako poglavlje ima istu anatomiju (sedam blokova): **teza → teorijski okvir → metode i podaci → praktikum s kodom („Ako ne radi") → vježbe 🟢🟡🏆 → sažetak i ključni pojmovi → „Kako bismo znali da griješimo"**.
 
 ---
 
@@ -38,7 +38,7 @@ Svako poglavlje ima istu anatomiju (sedam blokova): **teza → teorijski okvir �
 
 ```
 plan/           plan knjige i detaljni nacrt (varijanta B)
-rukopis/        poglavlja (radne verzije)
+rukopis/        uvod.md · poglavlja 01–16 · zakljucak.md · predgovor.md · studije-slucaja/
 referencije/    verificirana baza referenci (jedini dopušteni izvor citata)
 pojmovnik/      registar pojmova za sve tri knjige + generirani rječnik
 docs/           citiranje, mreža knjiga, upute po poglavljima

@@ -70,20 +70,27 @@ def main() -> int:
     popis_nalaza, citat_nalaza = [], []
     ukupno_jedinica = ukupno_citata = 0
 
-    for put in sorted(glob.glob(os.path.join(RUK, "poglavlje-*.md"))):
+    # Svi dijelovi rukopisa, ne samo poglavlja: od 17.9.2026. knjiga ima i uvod.md,
+    # zakljucak.md, predgovor.md i studije slucaja. Oni nemaju popis „Literatura
+    # poglavlja", pa se za njih provjerava samo smjer (B) — citat mora imati pokrice
+    # u bazi. Bez toga bi uvod i zakljucak mogli citirati bez ikakve provjere.
+    putanje = sorted(glob.glob(os.path.join(RUK, "**", "*.md"), recursive=True))
+    bez_popisa = []
+    for put in putanje:
         tekst = norm(open(put, encoding="utf-8").read())
-        ime = os.path.basename(put)
+        ime = os.path.relpath(put, RUK)
         if NASLOV_LIT not in tekst:
-            popis_nalaza.append(f"{ime}: nema odjeljka „{NASLOV_LIT}\"")
-            continue
-        tijelo, _, rep = tekst.partition(NASLOV_LIT)
-        jedinice = [s.strip() for s in re.split(r"\s*·\s*", rep.split("\n\n", 1)[1].split("\n")[0]) if s.strip()]
+            bez_popisa.append(ime)
+            tijelo = tekst
+        else:
+            tijelo, _, rep = tekst.partition(NASLOV_LIT)
+            jedinice = [s.strip() for s in re.split(r"\s*·\s*", rep.split("\n\n", 1)[1].split("\n")[0]) if s.strip()]
 
-        # (A) popis -> tekst
-        for j in jedinice:
-            ukupno_jedinica += 1
-            if not prisutan(prvi_token(j), tijelo):
-                popis_nalaza.append(f"{ime}: „{j[:50]}\" je u popisu, a ne u tekstu poglavlja")
+            # (A) popis -> tekst
+            for j in jedinice:
+                ukupno_jedinica += 1
+                if not prisutan(prvi_token(j), tijelo):
+                    popis_nalaza.append(f"{ime}: „{j[:50]}\" je u popisu, a ne u tekstu poglavlja")
 
         # (B) tekst -> baza
         uzorak = re.compile(
@@ -97,6 +104,9 @@ def main() -> int:
 
     print("=== Provjera citiranja (oba smjera) ===")
     print(f"jedinica u popisima: {ukupno_jedinica} | citata u tekstu: {ukupno_citata}")
+    if bez_popisa:
+        print(f"\nℹ provjereno samo u smjeru (B) — bez popisa „{NASLOV_LIT}\": "
+              + ", ".join(bez_popisa))
     if popis_nalaza:
         print("\n⚠ jedinice u popisu koje poglavlje ne citira:")
         for n in popis_nalaza:
