@@ -1,0 +1,180 @@
+# Sadržaj
+
+*Generirano skriptom `kod/sadrzaj_build.py` iz naslova u rukopisu; brojevi stranica dodaju se u prijelomu.*
+
+- **Predgovor**
+- **Uvod**
+
+## POGLAVLJA
+
+- **1. Sustavi, cjeline i organizacija — što je razina**
+  - 1.1 Cjelina i dijelovi: sustav kao organizacija, ne kao zbroj
+  - 1.2 Odakle pojam: emergentno nasuprot rezultantnom (1843–1925)
+  - 1.3 Slaba i jaka emergencija: gdje ova knjiga namjerno staje
+  - 1.4 Vrijednost svojstva je uvijek relativna prema razini
+  - 1.5 Hijerarhija razina: od biologije do ontologije
+  - 1.6 Najozbiljniji prigovor: zar nije sve ipak samo fizika?
+  - 1.7 Što razina NIJE — i jedna vrlo recentna pouka iz AI-a
+  - 1.8 Kako ćemo postupati u ovoj knjizi
+  - 1.9 Radni primjer: od svojstva do razine
+- **2. OMLCC: šesnaest razina ontološke složenosti**
+  - 2.1 Tri domene: Searleova podjela i njezina cijena
+  - 2.2 Šesnaest razina s definicijama
+  - 2.3 Relacijske sheme: kako se razina operacionalizira
+  - 2.4 Zašto šesnaest, a ne pet ili sto
+  - 2.5 Granice modela: što OMLCC tvrdi, a što ne tvrdi
+  - 2.6 Srodni modeli: gdje se OMLCC poklapa, a gdje razilazi
+  - 2.7 Radni primjer: od rečenice do relacijske sheme
+- **3. Tri koraka emergencije: PARTS → NETWORK → NEW ENTITY**
+  - 3.1 Korak 1 — dijelovi: što uopće ulazi u sustav
+  - 3.2 Korak 2 — mreža: relacije kao izvor novih svojstava
+  - 3.3 Korak 3 — nova cjelina: kad skup relacija postaje JEDAN nositelj svojstva
+  - 3.4 Radni primjer 1: od zvučnog vala do komunikacijskog čina
+  - 3.5 Radni primjer 2: od ko-okurencije do konceptualne mreže
+  - 3.6 Dijagnostika: u kojem je koraku neki sustav — i gdje se postupak zaustavlja
+- **4. Kako se razine čitaju iz podataka — metodologija**
+  - 4.1 Podaci: korpusi, leksikoni, anketni i eksperimentalni materijal — i jedna odluka koja se stalno skriva
+  - 4.2 Od teksta do mreže: ko-okurencija, PMI, i prag koji *stvara* predmet
+  - 4.3 Od mreže do vektora: ugrađivanje na vlastitom mjernom postavu
+  - 4.4 Od vektora do razine: kako se tvrdnja „ovo je razina 14" uopće testira
+  - 4.5 Statistika i etika mjerenja: zašto „isti broj iz iste metode" nije formalnost
+  - 4.6 Kako prijaviti rezultat: tablica + graf + kod + verzije + neuspjeli pokušaji
+  - 4.7 Repozitorij knjige: stvarna struktura i kako se svaka brojka provjerava
+- **5. Jezik kao emergentna pojava**
+  - 5.1 Šest definicija jezika i njihove posljedice
+  - 5.2 Saussure: vrijednost kao razlika
+  - 5.3 Firth i Harris: uporaba i distribucija
+  - 5.4 Uporabna gramatika i konstrukcije
+  - 5.5 Zašto „emergentno" nije „proizvoljno"
+  - 5.6 Što ovo isključuje
+  - 5.7 Radni primjer: od okruženja do stabilnoga obrasca
+- **6. Mreže značenja: od ko-okurencije do konceptualne mreže**
+  - 6.1 Konceptualna mreža: čvorovi, veze, konstrukcije — i što je jedinica analize
+  - 6.2 Kako se mreža gradi iz korpusa: koraci, pragovi i njihove posljedice
+  - 6.3 Interpretacija mjera: što mjera znači i što NE znači
+  - 6.4 Studija slučaja: emocije — mreža od 125 hrvatskih emocionalnih leksema
+  - 6.5 Granice: mreža ne sadrži značenje — prikazuje strukturu uporabe
+  - 6.6 Od mreže do razina 10 i 11 — i najava sedmoga poglavlja
+- **7. Komunikacija kao razina 14 — SocCommunication**
+  - 7.1 Zašto komunikacija zaslužuje razinu
+  - 7.2 Grice: značenje kao prepoznata namjera
+  - 7.3 Harris: prepoznavanje namjere i što model ne radi „iznutra"
+  - 7.4 Searle: gdje informacija postaje obveza
+  - 7.5 Anatomija komunikacijskog čina u OMLCC-u
+  - 7.6 Mjerenje razine 14 u podacima
+  - 7.7 Komunikacija kao metoda
+  - 7.8 Granica prema razini 15 — i što ostaje za sljedeće poglavlje
+  - 7.9 Radni primjer: pet uvjeta na vlastitome materijalu
+- **8. Institucije (15) i kulturni modeli (16)**
+  - 8.1 Statusna funkcija: X broji kao Y u kontekstu C
+  - 8.2 Jezik kao institucija: gdje jezik djeluje, a ne samo opisuje
+  - 8.3 Kulturni model i nasljeđivanje: učenje iz podataka nasuprot predaji
+  - 8.4 Što se nalazi u modelu, a što ne nalazi
+  - 8.5 Zašto je razlučivanje razina nužno — jedna studija slučaja
+  - 8.6 Most prema trećemu dijelu
+  - 8.7 Radni primjer: statusna funkcija na jednome dokumentu
+- **9. Od vektorskog prostora do modela**
+  - 9.1 Distribucijska hipoteza: što tvrdi, a što joj se pripisuje
+  - 9.2 Prvi vektori: od riječi do koordinata
+  - 9.3 Kontekstualni obrat: vektor riječi prestaje biti jedan
+  - 9.4 Što je „parametar", a što „učenje"
+  - 9.5 Skala: što je bilo otvoreno, što se zatvorilo — i što je i dalje otvoreno
+  - 9.6 Pouka poglavlja: model nije kopija svijeta, nego organizacija uporabe
+- **srodnost deset pojmova na vlastitom mjernom postavu (4096-dim)**
+- **što provjeriti: je li najbliži par onaj koji bi očekivao po značenju,**
+- **ili par koji se najčešće pojavljuje zajedno u korpusu? Razlika je nalaz.**
+- **10. Geometrija na djelu — i njezine granice**
+  - 10.1 Postupak na vlastitim podacima: od leksema do klastera
+- **10.1 — leksemi -> vektori (4096) -> srodnost -> skupine**
+- **dijagnostika prostora: koliko se najbliži susjed razlikuje od najdaljega**
+  - 10.2 Vizualizacija i ono što vizualizacija skriva
+  - 10.3 Kontekstni prozor: od 512 do 10.000.000 tokena
+  - 10.4 Veliki brojevi: „klub 10¹² parametara"
+  - 10.5 Rezultati i stropovi: GPQA i „Humanity's Last Exam"
+  - 10.6 Vremenski horizont: od 9 sekundi do ~12 sati
+  - 10.7 Što geometrija ne pokazuje — i prijelaz na DIO IV
+- **11. Mišljenje kao procesiranje: kontekst koji se unaprjeđuje**
+  - 11.1 Od predviđanja sljedećeg tokena do lanca koraka
+  - 11.2 Što mjerimo kad mjerimo „razmišljanje"
+  - 11.3 Devijacije: kad se petlja zatvori u sebe
+  - 11.4 Tri kriterija razlike između procesiranja i mišljenja
+  - 11.5 Zašto ovo nije ni dualizam ni eliminativizam
+  - 11.6 Kako bi izgledalo da teza pada
+- **isti zadaci, dva načina rada**
+- **12. Novi entitet u sustavu: od modela do agenta**
+  - 12.1 Pet dodataka
+  - 12.2 Protokoli kao komunikacijska infrastruktura
+  - 12.3 Zašto entitet, a ne razina
+  - 12.4 Kandidat, ne zaključak
+  - 12.5 Kolaborator i kompetitor
+  - 12.6 Most prema četvrtome dijelu
+- **13. Human→agent i agent→agent: što se mijenja na razini 14**
+  - 13.1 Tri konfiguracije: kome se što pripisuje
+  - 13.2 Prepoznavanje namjere bez uma
+  - 13.3 Zajednički artefakt: mjesto susreta
+  - 13.4 Konvencije i obveze: mogu li agenti imati zajedničke obveze?
+  - 13.5 Gdje se razina 14 vidi u praksi: dijaloški protokol kao mjerni instrument
+  - 13.6 Neuspjesi komunikacije s novim sudionikom: taksonomija
+- **14. Razine 12–16 kod agenata: što vidimo, što ne vidimo**
+  - 14.1 Identitet (12): imena, uloge, ključevi, konfiguracije
+  - 14.2 Interakcija (13): protokoli, predaja zadatka, peer organizacija bez vođe
+  - 14.3 Komunikacija (14): jezični činovi, artefakti, adresiranje
+  - 14.4 Institucija (15): pravila i sankcije — postoje li, ili samo pravila bez sankcije?
+  - 14.5 Kulturni model (16): naslijeđeni obrasci bez zajedništva
+  - 14.6 Zbirna tablica: što je funkcionalno, a što intrinzično prisutno
+  - 14.7 Što to znači za OMLCC: model kao test okvira
+- **15. Hoće li imati kulturu?**
+  - 15.1 Što je kulturni model u OMLCC-u (razina 16): obrasci tumačenja koji se predaju
+  - 15.2 Nasljeđivanje bez sudjelovanja
+  - 15.3 Tri scenarija
+  - 15.4 Kriteriji i kako bi se to testiralo
+  - 15.5 Što bi „kultura modela" značila za ljude
+  - 15.6 Skromnost tvrdnje: kandidat, ne proročanstvo
+- **16. Što to znači za lingvistiku — i kako bismo znali da griješimo**
+  - 16.1 Četiri odgovora knjige
+  - 16.2 Posljedice za lingvistiku: od opisa prema mjerenju razina
+  - 16.3 Posljedice za razvoj AI-a: razine kao projektni kriterij
+  - 16.4 Zbirna tablica „Kako bismo znali da griješimo"
+  - 16.5 Istraživački program: pet eksperimenata koji mogu oboriti ovu knjigu
+  - 16.6 Zatvaranje
+
+## DODACI
+
+- **Dodatak A — Postavljanje okruženja**
+  - A.1 Što je potrebno
+  - A.2 Najmanji radni postav
+  - A.3 Reproducibilnost: četiri stavke uz svaki rezultat
+  - A.4 Što okruženje ne rješava
+  - A.5 Licenca i citiranje
+- **Dodatak B — Rječnik pojmova**
+  - B.1 Zašto generirani, a ne ručno pisani rječnik
+  - B.2 Kako se rječnik čita
+  - B.3 Terminološka stega koju rječnik čuva
+- **Dodatak D — Predlošci**
+  - D.1 Predložak: korpusni upit
+  - D.2 Predložak: evaluacija ugrađivanja
+  - D.3 Predložak: protokol kauzalnog testa
+  - D.4 Predložak: obrazac za mrežnu analizu
+  - D.5 Predložak: zapis o brojci
+  - D.6 Predložak: zapisnik razlučivanja razina
+  - D.7 Kako se predlošci koriste u nastavi
+- **Dodatak E — Izvori, podaci i provjera brojki**
+  - E.1 Zašto je vrsta brojke dio tvrdnje
+  - E.2 Brojke — mjereno
+  - E.3 Brojke — procjena
+  - E.4 Brojke — izvedeno
+  - E.5 Ispravljene brojke
+  - E.6 Kako se brojka provjerava
+  - E.7 Izvori podataka korišteni u knjizi
+- **Dodatak F — Prigovori i odgovori**
+  - F.1 „To je samo kineska soba"
+  - F.2 „Simboli nisu utemeljeni" (Harnad)
+  - F.3 „Stohastičke papige" (Bender i suradnici)
+  - F.4 „To je antropomorfizam"
+  - F.5 „To je samo statistika"
+  - F.6 „Okvir je koristan, ali to nije dokaz"
+- **Dodatak G — Kazalo pojmova i imena**
+  - G.1 Pojmovi
+  - G.2 Imena i izvori
+- **Zaključak**
+- **Studija slučaja: incidenti s autonomnim agentskim sustavima (srpanj–rujan 2026.)**

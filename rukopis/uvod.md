@@ -60,6 +60,22 @@ Posljednji odjeljak nije ukras. On je mjesto na kojem svako poglavlje kaže **ko
 
 Metodološki slijed knjige je pet stupnjeva i nijedan se ne preskače: **tekst → mreža → vektor → razina → tvrdnja** (→ pogl. 4.3). Svaki stupanj je prijelaz s jednoga tipa zapisa na drugi, i svaki zahtijeva odluku koja se u tekstu prijavljuje: što je jedinica, koja je mjera asocijacije, koliko je dimenzija, koliko je skupina, s kojim se pragom radi.
 
+## Kako se knjiga čita: poglavlje po poglavlju
+
+Knjiga se ne mora čitati redom, ali nijedan redoslijed nije bez cijene, pa evo karte.
+
+**DIO I — RAZINE: OKVIR.** **1.** Razina nije veličina nego **razlika u tipu svojstava** koja nastaje organizacijom; uvode se slaba emergencija, dio–cjelina–organizacija i artefakt mjere. **2.** OMLCC: tri domene (Searleova podjela) i šesnaest razina (autorova razrada), sa **relacijskim shemama** po razinama. **3.** Tri koraka emergencije — dijelovi → mreža → nova cjelina — i klasični primjer vode. **4.** Kako se razine čitaju iz podataka: pet stupnjeva, vrste dokaza, kontrole, etika mjerenja i provjere u repozitoriju.
+
+**DIO II — KOMUNIKACIJA KAO RAZINA.** **5.** Jezik kao emergentna pojava, kroz šest definicija koje se međusobno ne slažu — i to je njihov rezultat. **6.** Mreže značenja: mjere asocijacije i to što mreža pokazuje (strukturu uporabe), a što ne pokazuje (značenje kao sadržaj). **7.** *(središnje poglavlje)* Komunikacija kao **razina 14**: pet uvjeta, njihovo mjerenje i granica prema razini 15. **8.** Institucije (15) i kulturni modeli (16): sankcijski aparat, jezik kao institucijski materijal i prijenos kao predaja.
+
+**DIO III — AI U SUSTAVU.** **9.** Od distribucijske hipoteze do vektora i kontekstualnog obrata: što model jest, a što mu se pripisuje. **10.** Geometrija na djelu — i njezine granice: stropovi mjerenja, vrste brojki i pravilo da se vizualizacija čita kao kazalo. **11.** Mišljenje kao procesiranje: što se mjeri kad se mjeri „razmišljanje" i kad je ravna krivulja nalaz. **12.** Od modela do agenta: pet dodataka i kandidatura za **novi entitet** u sustavu.
+
+**DIO IV — KOMUNIKACIJA S NOVIM ENTITETOM.** **13.** Tri konfiguracije sudionika i **raspored tereta** po pet uvjeta iz 7.5. **14.** Razine 12–16 kod agenata: **funkcionalno prisutno** nasuprot **intrinzično prisutnom**. **15.** Hoće li imati kulturu: tri scenarija i nacrt testa s mjerljivim jedinicama. **16.** Što to znači za lingvistiku — i kako bismo znali da griješimo (eksperimenti E1–E5).
+
+**Tri dopuštena puta kroz knjigu.** (a) *Od pojmova prema primjeni*: 1 → 2 → 7 → 12 → 14. (b) *Od mjerenja prema tvrdnji*: 4 → 6 → 10 → 14 → 16. (c) *Od rasprave prema aparatu*: 16 → 14 → 7 → 2 → 1. Prvi je za čitatelja koji traži okvir, drugi za onoga koji mjeri, treći za onoga koji već ima stav i želi vidjeti stoji li.
+
+**Dodaci.** A — postavljanje okruženja · B — rječnik pojmova · C — rješenja vježbi · D — predlošci · E — izvori, podaci i provjera brojki · F — prigovori i odgovori · G — kazalo pojmova i imena. Uz tekst idu `pojmovnik/RJECNIK.md` (generirani rječnik), `referencije/REFERENCE_BASE.md` (baza referenci) i `data/fakti.csv` (evidencija brojki).
+
 ## Dvije vrste pogreške koje knjiga nastoji izbjeći
 
 **Brojka bez vrste.** Svaka brojka u ovoj knjizi ima izvor, datum i vrstu: *mjereno*, *procjena* ili *izvedeno*. Procjena se nikad ne prikazuje kao mjerenje; kad je izvor nepotpun, brojka se označava i ne prenosi dalje. Evidencija je u `data/fakti.csv`, a provjera je automatska (→ pogl. 4.5).

@@ -155,6 +155,11 @@
 
 ## 3. STATUS SADRŽAJA
 
+> **Ažurirano 17. 9. 2026.:** tablica u nastavku je iz v0.1 (prije Varijante B) i ostaje kao zapis o
+> prvotnome planu. **Stvarno stanje vidi u odjeljku 3.1.**
+
+*[izvorna tablica v0.1 — stanje na 12. 9. 2026.]*
+
 | Dio | Poglavlje | Status | Opseg |
 |-----|-----------|--------|-------|
 | — | Uvod | 🟡 iz predavanja 2 | 8–10 str |
@@ -180,15 +185,51 @@
 **Ukupno procijenjeno: ~300 stranica** (≈ 290–330)
 **Prednost ovog projekta:** ≈ 80 % sadržaja već postoji u obliku predavanja, radova i kodova — knjiga je uglavnom *proširivanje u prozu + pedagogija*, ne istraživanje od nule.
 
+### 3.1 Stvarno stanje (17. 9. 2026.)
+
+Sve što je planirano u Varijanti B je napisano: **16 poglavlja, uvod, zaključak, predgovor, studija slučaja i dodaci A–G**.
+
+| dio | poglavlja | riječi | stanje |
+|---|---|---|---|
+| **I. Razine: okvir** | 1 (4.471) · 2 (5.779) · 3 (4.692) · 4 (7.113) | 22.055 | ✅ dovršeno |
+| **II. Komunikacija kao razina** | 5 (4.897) · 6 (4.743) · 7 (5.420) · 8 (4.326) | 19.386 | ✅ dovršeno |
+| **III. AI u sustavu** | 9 (5.225) · 10 (7.027) · 11 (6.070) · 12 (6.405) | 24.727 | ✅ dovršeno |
+| **IV. Komunikacija s novim entitetom** | 13 (6.208) · 14 (7.067) · 15 (7.008) · 16 (7.488) | 27.771 | ✅ dovršeno |
+| **poglavlja ukupno** | 16 | **93.939** | ✅ |
+| uvod · zaključak · predgovor · studija slučaja | — | 2.046 · 1.291 · 804 · 1.128 | ✅ |
+| dodaci A–G | A 526 · B 356 · C u izradi · D 829 · E 1.480 · F 1.940 · G 3.598 | — | 🟡 (C u izradi; E i G generirani) |
+
+**Ukupno: ~107.900 riječi** (s dodatkom C ~113.000) ≈ **330–350 stranica** — u planiranome obimu.
+
+**Sve provjere prolaze:** `check_lit` (oba smjera: 418 jedinica u popisima / 774+ citata) ·
+`check_fakti --strict` (35 zapisa: 24 mjereno · 9 procjena · 2 izvedeno) · `check_cisto` ·
+`check_links` · `check_figure_overflow`.
+
+**Figure:** 24 slike u tekstu + **11 vektorskih dijagrama** (SVG za tisak + PNG za pregled); nijedna
+figura nije ispod tiskarske rezolucije, mjeri se veličina teksta na stranici (8–28 pt pri 150 mm).
+
+**Što je ostalo otvoreno** (vidi `docs/ISPRAVKE.md` i blokove „Otvoreno za provjeru" po poglavljima):
+22 oznake ❓ — najviše ih je za pune bibliografske jedinice protokolâ (MCP 2024, A2A 2025, AP2/x402),
+za nalaze o odsutnosti (pogl. 15, 16) kojima treba datum i opseg pretrage, i za tipološku replikaciju
+ljestvice (pogl. 2). Nijedna od njih ne nosi tvrdnju knjige — sve su označene.
+
+**Sljedeće faze:** (1) dovršiti dodatak C · (2) lektura i terminološka provjera · (3) prijelom i
+paginacija (kazalo i evidencija dobivaju brojeve stranica) · (4) recenzija (najosjetljivija
+poglavlja: 4, 11, 14 i 16) · (5) odluka o izdanju (FFRI Biblioteka open access / komercijalni
+izdavač) i eventualno englesko izdanje po poglavljima.
+
 ## 4. SLJEDEĆI KORACI (lejer 2)
-1. **Odobriti strukturu** (naslov, dijelovi, poglavlja) i **ton** (priručnik / udžbenik / između)
-2. **Pilot: DIO I (pogl. 1–3)** u puni tekst — potvrda tona i dubine prije pisanja ostaloga
-3. **Odluka o izdanju:** FFRI Biblioteka (open access) ili komercijalni izdavač
-4. **Jezik:** hrvatski (osnovno) + odluka o engleskom izdanju/poglavljima
-5. **Repozitorij:** `github.com/bperak/<knjiga>` — kod, podaci, figure, build knjige
-6. **Figure u kvaliteti za tisak** (300 dpi) + **dozvole** za tuđe figure (Thompson/LifeArchitect: citat ostaje)
-7. **Recenzija:** 2 recenzenta; poglavlja 4, 11 i 16 su najosjetljivija (tvrdnje o mapiranju razina)
-8. **Verifikacija koda** — svaki primjer izvršiv (Colab), s podacima u repozitoriju
+
+*Stanje 17. 9. 2026.: prve četiri točke su riješene, ostale su u tijeku ili predstoje.*
+
+1. ✅ **Struktura i ton odobreni** — Varijanta B (komunikacija kao razina 14); ton: između priručnika i udžbenika.
+2. ✅ **Pilot (DIO I) napisan** — poglavlja 1–3 u punome tekstu, s anatomijom od sedam blokova.
+3. 🟡 **Izdanje** — otvoreno: FFRI Biblioteka (open access) ili komercijalni izdavač; licenca repozitorija je CC BY-NC 4.0.
+4. ✅ **Jezik** — hrvatski (osnovno); engleska izdanja/poglavlja ostaju opcija.
+5. ✅ **Repozitorij** — `github.com/bperak/OntologijaKomunikacijeUDobaAI` (javni), s kodom, podacima, figurama i provjerama.
+6. ✅ **Figure u kvaliteti za tisak** — 11 vektorskih dijagrama (SVG za tisak), nijedna figura ispod tiskarske rezolucije; mjeri se veličina teksta na stranici.
+7. 🟡 **Recenzija** — predstoji; najosjetljivija poglavlja: 4, 11, 14 i 16.
+8. 🟡 **Verifikacija koda** — provjere prolaze automatski (`check_lit`, `check_fakti`, `check_cisto`, `check_links`); predstoji izvršavanje svih primjera u Colabu prije predaje.
 
 ## 5. POVEZNICE
 - **Predavanje (izvor materijala):** IUC Dubrovnik 2026 — 35 slajdova, bilješke govora, audio, nacrt, definicije

@@ -39,12 +39,34 @@ Knjiga ima **uvod** (tri tvrdnje, dvije razlike, falsifikacijski okvir) i **zakl
 ```
 plan/           plan knjige i detaljni nacrt (varijanta B)
 rukopis/        uvod.md · poglavlja 01–16 · zakljucak.md · predgovor.md · studije-slucaja/
+rukopis/dodaci/ dodaci A–G (okruzenje, rjecnik, rjesenja vjezbi, predlosci, evidencija
+                brojki, prigovori i odgovori, kazalo); E i G su GENERIRANI skriptama
 referencije/    verificirana baza referenci (jedini dopušteni izvor citata)
 pojmovnik/      registar pojmova za sve tri knjige + generirani rječnik
 docs/           citiranje, mreža knjiga, upute po poglavljima
-kod/            skripte za analize, figure i provjere mreže
+kod/            skripte za analize, figure i provjere mreže (check_lit, check_fakti,
+                check_cisto, check_links, check_figure_overflow, mermaid_render,
+                kazalo_build, evidencija_build, pojmovnik_build)
 figure/         figure knjige
 data/           podaci (korpusi, leksikoni) — veliki skupovi se ne verzioniraju
+```
+
+## Provjere (pokreću se prije svakoga commita)
+
+```bash
+python3 kod/check_lit.py             # citati ↔ baza referenci (oba smjera)
+python3 kod/check_fakti.py --strict  # brojke u tekstu ↔ data/fakti.csv
+python3 kod/check_cisto.py           # higijena: homoglifi, markeri, nazivlje slika
+python3 kod/check_links.py           # upute, sidra, poveznice
+python3 kod/check_figure_overflow.py # prelijevanje teksta u figurama
+```
+
+Generatori (izlaz se obnavlja jednom naredbom, pa ne može zastarjeti):
+
+```bash
+python3 kod/kazalo_build.py      # → rukopis/dodaci/dodatak-G-kazalo.md
+python3 kod/evidencija_build.py  # → rukopis/dodaci/dodatak-E-izvori-i-brojke.md
+python3 kod/pojmovnik_build.py   # → pojmovnik/RJECNIK.md
 ```
 
 ## Mreža triju knjiga

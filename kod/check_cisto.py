@@ -7,6 +7,8 @@ Tri vrste grešaka koje se u ovome projektu stalno vraćaju, a oku su nevidljive
      Izgledaju kao latinična slova, pretraživanje ih ne nalazi, a u tisku izlaze kao
      drugi znak. Provjeravaju se svi .md i .mmd izvori.
   2. **zaostali markeri skripti** — `<!-- KRAJ-DIJELA-2 -->`, `TODO`, `FIXME`.
+     Izuzetak je namjerni marker dijelova dodatka C (`<!-- dio N/4: … -->`), koji
+     nastaje pri pisanju u četiri dijela i zato se ne prijavljuje kao zaostatak.
   3. **miješano nazivlje slika** — usporedno „Slika 3.1" i „Figura 3.1" u istome rukopisu;
      potpis i uputa u tekstu moraju rabiti isti naziv (u ovoj knjizi: **Slika**).
 
@@ -43,7 +45,8 @@ def main() -> int:
                     naziv = "?"
                 nalazi.append(f"{ime}: ćirilični znak {ch!r} ({naziv}) → "
                               f"…{t[max(0, i - 35):i + 25].replace(chr(10), ' ')}…")
-        for lab, rx in (("HTML komentar", r"<!--"), ("marker skripte", r"KRAJ-DIJELA"),
+        for lab, rx in (("HTML komentar", r"<!--(?!\s*dio\s+\d+/\d+)"),
+                        ("marker skripte", r"KRAJ-DIJELA"),
                         ("TODO/FIXME", r"\bTODO\b|\bFIXME\b|\bXXX\b")):
             for m in re.finditer(rx, t):
                 nalazi.append(f"{ime}: {lab} → …{t[max(0, m.start() - 40):m.start() + 40]}…")
