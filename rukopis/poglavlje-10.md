@@ -69,7 +69,7 @@ json.dump({"jedinice": LEKSEMI, "model": MODEL},    # izlaz 3: zapis postavka
 
 ## 10.2 Vizualizacija i ono što vizualizacija skriva
 
-Prostor od 4096 dimenzija ne može se pogledati. Zato se crta: dvije dimenzije se izaberu tako da prikaz bude čitljiv, najčešće metodama t-SNE ili UMAP. ❓ Njihove izvorne radove ovdje ne citiramo jer nisu u bazi referenci ove knjige; do provjere navodimo samo imena metoda.
+Prostor od 4096 dimenzija ne može se pogledati. Zato se crta: dvije dimenzije se izaberu tako da prikaz bude čitljiv, najčešće metodama t-SNE ili UMAP. Izvorni su radovi: t-SNE (van der Maaten & Hinton 2008) i UMAP (McInnes i suradnici 2018).
 
 To je mjesto na kojemu se u ovome području najčešće gubi stega — i zato mu posvećujemo cijeli odjeljak.
 
@@ -277,4 +277,4 @@ A kad se ta pitanja postave, otvara se i **četvrti dio knjige**: komunikacija s
 
 ### Literatura poglavlja
 
-Anthropic 2025 · Ban Kirigin & Perak 2020 · Chroma 2025 · DeepSeek-AI 2024 · Dorkenwald i suradnici 2024 · Emmeche, Køppe & Stjernfelt 1997 · EmoCNet 2019–21 · Epoch AI 2026 · Grice 1957 · Gurnee & Tegmark 2023 · Harnad 1990 · Harris 1981 · Hoffmann i suradnici 2022 · Huh i suradnici 2024 · Kaplan i suradnici 2020 · Lappalainen i suradnici 2024 · Liu i suradnici 2024 · METR 2025 (uz ispravak od 3. 3. 2026.) · Michaud i suradnici 2023 · Mitchell & Krakauer 2023 · Perak 2014 · Perak 2025 · Qwen Team 2025 · Rein i suradnici 2023 · Schaeffer i suradnici 2023 · Searle 1995 · Searle 2010 · SemiAnalysis 2023 (nepotvrđena procjena) · Snell i suradnici 2024 · Thompson 2026 (*Models Table*; *Mapping IQ, MMLU, MMLU-Pro, GPQA, HLE*) · Center for AI Safety, Scale AI & HLE Contributors Consortium 2026 (uz izvore stropova: FutureHouse 7/2025; Alibaba 2/2026, arXiv:2602.13964v2) · Wei i suradnici 2022
+Anthropic 2025 · Ban Kirigin & Perak 2020 · Chroma 2025 · DeepSeek-AI 2024 · Dorkenwald i suradnici 2024 · Emmeche, Køppe & Stjernfelt 1997 · EmoCNet 2019–21 · Epoch AI 2026 · Grice 1957 · Gurnee & Tegmark 2023 · Harnad 1990 · Harris 1981 · Hoffmann i suradnici 2022 · Huh i suradnici 2024 · Kaplan i suradnici 2020 · Lappalainen i suradnici 2024 · Liu i suradnici 2024 · McInnes i suradnici 2018 · METR 2025 (uz ispravak od 3. 3. 2026.) · Michaud i suradnici 2023 · Mitchell & Krakauer 2023 · Perak 2014 · Perak 2025 · Qwen Team 2025 · Rein i suradnici 2023 · Schaeffer i suradnici 2023 · Searle 1995 · Searle 2010 · SemiAnalysis 2023 (nepotvrđena procjena) · Snell i suradnici 2024 · Thompson 2026 (*Models Table*; *Mapping IQ, MMLU, MMLU-Pro, GPQA, HLE*) · Center for AI Safety, Scale AI & HLE Contributors Consortium 2026 (uz izvore stropova: FutureHouse 7/2025; Alibaba 2/2026, arXiv:2602.13964v2) · Wei i suradnici 2022 · van der Maaten & Hinton 2008

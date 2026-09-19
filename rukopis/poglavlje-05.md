@@ -173,4 +173,4 @@ Postupak koji slijedi pokazuje kako se tvrdnja „obrazac je proizvod uporabe" p
 
 ### Literatura poglavlja
 
-Bedau 1997 · Bloch & Trager 1942 · Chalmers 2006 · Chomsky 1957 · Clark 1996 · Croft 2001 · Emmeche, Køppe & Stjernfelt 1997 · EmoCNet 2019–21 · Firth 1957 · Fodor 1975 · Fodor & Pylyshyn 1988 · Goldberg 2006 · Halliday 1978 · Harnad 1990 · Harris, R. 1981 · Harris, Z. 1954 · Hopper 1987 · hrWac · Mikolov et al. 2013 · Pennington et al. 2014 · Perak 2014, 2018, 2019, 2025, 2026 · Perak & Ban Kirigin 2023 · Sapir 1921 · Saussure 1916 · Tomasello 2008
+Bedau 1997 · Bloch & Trager 1942 · Chalmers 2006 · Chomsky 1957 · Clark 1996 · Croft 2001 · Emmeche, Køppe & Stjernfelt 1997 · EmoCNet 2019–21 · Firth 1957 · Fodor 1975 · Fodor & Pylyshyn 1988 · Goldberg 2006 · Halliday 1978 · Harnad 1990 · Harris, R. 1981 · Harris, Z. 1954 · Hopper 1987 · hrWac · Mikolov et al. 2013 · Pennington et al. 2014 · Perak 2014 · Perak 2025 · Perak 2026 · Perak, OMLCC - izlaganja 2017a; 2017b · Perak & Ban Kirigin 2023 · Sapir 1921 · Saussure 1916 · Tomasello 2008

@@ -210,14 +210,17 @@ Sve što je planirano u Varijanti B je napisano: **16 poglavlja, uvod, zaključa
 figura nije ispod tiskarske rezolucije, mjeri se veličina teksta na stranici (8–28 pt pri 150 mm).
 
 **Što je ostalo otvoreno** (vidi `docs/ISPRAVKE.md` i blokove „Otvoreno za provjeru" po poglavljima):
-22 oznake ❓ — najviše ih je za pune bibliografske jedinice protokolâ (MCP 2024, A2A 2025, AP2/x402),
-za nalaze o odsutnosti (pogl. 15, 16) kojima treba datum i opseg pretrage, i za tipološku replikaciju
-ljestvice (pogl. 2). Nijedna od njih ne nosi tvrdnju knjige — sve su označene.
+**22 oznake ❓**, ali nijedna nije bibliografska — sve bibliografske stavke provjerene su na primarnim
+izvorima 17. 9. 2026. (MCP, A2A, AP2, x402, Knight, Chroma, GreyNoise, Tenable, t-SNE, UMAP, Perak &
+Ban Kirigin 2023; vidi ISPRAVAK-012). Ostaju: **tipološka replikacija ljestvice** (pogl. 2),
+**nalazi o odsutnosti** (pogl. 11, 14, 15, 16 — traže upisan datum i opseg pretrage) i **Perak 2025**
+(naslov i izdanje iz autorove bibliografije). Nijedna od njih ne nosi tvrdnju knjige — sve su označene.
 
-**Sljedeće faze:** (1) dovršiti dodatak C · (2) lektura i terminološka provjera · (3) prijelom i
-paginacija (kazalo i evidencija dobivaju brojeve stranica) · (4) recenzija (najosjetljivija
+**Sljedeće faze:** (1) ✅ dodatak C dovršen (17. 9. 2026.) · (2) lektura i terminološka provjera ·
+(3) prijelom i paginacija (kazalo i evidencija dobivaju brojeve stranica) · (4) recenzija (najosjetljivija
 poglavlja: 4, 11, 14 i 16) · (5) odluka o izdanju (FFRI Biblioteka open access / komercijalni
-izdavač) i eventualno englesko izdanje po poglavljima.
+izdavač) i eventualno englesko izdanje po poglavljima; (6) upis datuma i opsega pretrage uz nalaze o
+odsutnosti (pogl. 11, 14, 15, 16).
 
 ## 4. SLJEDEĆI KORACI (lejer 2)
 

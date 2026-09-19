@@ -80,6 +80,11 @@ Status: ✅ provjereno (izvor/datoteka/DOI) · ☑ kanonsko djelo (bibliografski
 - **Liu, N. F. et al. (2024).** Lost in the middle: how language models use long contexts. *TACL* 12:157–173. → pogl. 10.3 ✅
 - **Mitchell, M. & Krakauer, D. (2023).** The debate over understanding in AI's large language models. *PNAS* 120. → pogl. 11, 16, dodatak F ✅
 
+- **van der Maaten, L. J. P. & Hinton, G. E. (2008).** Visualizing Data using t-SNE. *Journal of Machine Learning Research* **9(86): 2579–2605.** https://www.jmlr.org/papers/v9/vandermaaten08a.html
+  **Provjereno na primarnom izvoru 17. 9. 2026.** (JMLR, © 2008; JMLR ne dodjeljuje DOI.) → pogl. 10.2 ✅
+- **McInnes, L., Healy, J. & Melville, J. (2018).** UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction. *arXiv preprint* **arXiv:1802.03426** (v3, 2020.). DOI 10.48550/arXiv.1802.03426
+  **Provjereno na primarnom izvoru 17. 9. 2026.** Za tezu o algoritmu citira se arXiv verzija (rad u JOSS-u, DOI 10.21105/joss.00861, softverski je rad). → pogl. 10.2 ✅
+
 ## G. VRLO RECENTNO (2024–2026) — mjerenja, interpretabilnost, agenti
 - **Wei, J. et al. (2022).** Emergent abilities of large language models. *TMLR*; arXiv:2206.07682. → pogl. 1.7 ✅
 - **Schaeffer, R. et al. (2023).** Are emergent abilities of large language models a mirage? *NeurIPS*. — „iznenadne" sposobnosti mogu biti artefakt metrike (nelinearni pragovi bodovanja). → **pogl. 1.7 ⭐ ključno za metodološku stegu** ✅
@@ -96,13 +101,26 @@ Status: ✅ provjereno (izvor/datoteka/DOI) · ☑ kanonsko djelo (bibliografski
 - **Lindsey, J. (2025).** Emergent introspective awareness in large language models. *Transformer Circuits Thread* (Anthropic). → pogl. 11.4 ✅
 - **Anthropic (2025).** On the biology of a large language model. *Transformer Circuits Thread*. → pogl. 10.7 ✅
 - **Tran, K.-T. et al. (2025).** Multi-agent collaboration mechanisms: a survey of LLMs; arXiv:2501.06322. → pogl. 14.2 ✅
-- **Knight First Amendment Institute (2025).** Levels of autonomy for AI agents. → pogl. 12.4 ✅
-- **Chroma (2025).** Context rot: how increasing input tokens impacts LLM performance. → pogl. 10.3 ✅
+- **Knight First Amendment Institute (2025).** *Levels of Autonomy for AI Agents*, autori **Feng, K. J., McDonald, D. W. & Zhang, A. X.** — 25-15 Knight First Amend. Inst., **28. 7. 2025.**
+  https://knightcolumbia.org/content/levels-of-autonomy-for-ai-agents-1 · preprint: arXiv:2506.12469
+  **Provjereno na primarnom izvoru 17. 9. 2026.** („Cite as" sa same stranice). **Pet razina autonomije:** operator, collaborator, consultant, approver, observer. → pogl. 12.4 ✅
+- **Hong, K., Troynikov, A. & Huber, J. (2025).** *Context Rot: How Increasing Input Tokens Impacts LLM Performance.* Chroma Technical Report, **14. 7. 2025.**
+  https://research.trychroma.com/context-rot
+  **Provjereno na primarnom izvoru 17. 9. 2026.** (18 jezičnih modela). U knjizi se navodi kao „Chroma 2025". → pogl. 10.3 ✅
 
 ## H. Protokoli i infrastruktura agenata
-- **Anthropic (2024).** Model Context Protocol (MCP) — alati. → pogl. 12.2 ✅
-- **Google (2025).** Agent2Agent (A2A) — komunikacija između agenata. → pogl. 12.2, 13.1 ✅
-- **Google (2025).** AP2 (Agent Payments Protocol) · **Coinbase (2025).** x402 — plaćanja. → pogl. 12.2 ✅
+- **Anthropic (2024).** *Introducing the Model Context Protocol.* Specifikacija, rev. **2024-11-05**; objavljeno **25. 11. 2024.**
+  https://www.anthropic.com/news/model-context-protocol · https://modelcontextprotocol.io/specification/2024-11-05
+  **Provjereno na primarnom izvoru 17. 9. 2026.** Napomena: MCP verzionira datumski (`YYYY-MM-DD`), pa citat bez datuma revizije nije jednoznačan; od 9. 12. 2025. protokol je pod Linux Foundation (AAIF). → pogl. 12.2, 14.2 ✅
+- **Google (2025).** *Announcing the Agent2Agent Protocol (A2A).* Google Developers Blog, **9. 4. 2025.**
+  https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/ · specifikacija: https://a2a-protocol.org/latest/specification/
+  **Provjereno na primarnom izvoru 17. 9. 2026.** Otvorena specifikacija (Apache-2.0); od 23. 6. 2025. pod Linux Foundation. → pogl. 12.2, 13.1 ✅
+- **Google (2025).** *Powering AI commerce with the new Agent Payments Protocol (AP2).* Google Cloud Blog, **16. 9. 2025.**
+  https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol · specifikacija: https://ap2-protocol.org/ap2/specification/
+  **Provjereno na primarnom izvoru 17. 9. 2026.** Razvijen s 60+ organizacija (među njima Coinbase); ekstenzija za A2A i MCP. → pogl. 12.2 ✅
+- **Coinbase (2025).** *Introducing x402: a new standard for internet-native payments.* Coinbase Developer Platform, **6. 5. 2025.**
+  https://www.coinbase.com/developer-platform/discover/launches/x402 · specifikacija: https://x402.org/
+  **Provjereno na primarnom izvoru 17. 9. 2026.** Otvoreni standard (Apache-2.0); kanonski repozitorij je `x402-foundation/x402` (repo `coinbase/x402` je razvojni ogranak). → pogl. 12.2 ✅
 - **Bender, E. M. & Koller, A. (2020).** Climbing towards NLU. *ACL*. → dodatak F ✅
 - **Bender, E. M. et al. (2021).** On the dangers of stochastic parrots. *FAccT*. → dodatak F ✅
 - **Amodei, D. et al. (2016).** Concrete problems in AI safety; arXiv:1606.06565. · **Krakovna, V. et al. (2020).** Specification gaming (DeepMind). → pogl. 11.3 ✅
@@ -118,7 +136,8 @@ Status: ✅ provjereno (izvor/datoteka/DOI) · ☑ kanonsko djelo (bibliografski
 - **Brdar, M., Brdar-Szabó, R. & Perak, B. (2020).** Separating (non-)figurative weeds from wheat. U: A. Baicchi (ur.), *Figurative Meaning Construction in Thought and Language.* Amsterdam: John Benjamins, 46–70. → pogl. 5, 6 (objavljeni dio okvira) ✅
 - **Ban Kirigin, T., Bujačić Babić, S. & Perak, B. (2022).** Graph-Based Taxonomic Semantic Class Labeling. *Future Internet* 14(12): 383. DOI 10.3390/fi14120383 ✅
 - **Ban Kirigin, T., Bujačić Babić, S. & Perak, B. (2022).** Semi-Local Integration Measure of Node Importance. *Mathematics* 10(3): 405. DOI 10.3390/math10030405 ✅
-- **Perak, B. & Ban Kirigin, T. (2023).** CG Conceptual Network. ❓ *potvrditi pune bibliografske podatke* → pogl. 6 ✅
+- **Perak, B. & Ban Kirigin, T. (2023).** Construction Grammar Conceptual Network: Coordination-based graph method for semantic association analysis. *Natural Language Engineering* **29(3): 584–614.** DOI **10.1017/S1351324922000274** (online 4. 7. 2022.; tiskano izdanje svibanj 2023.).
+  **Provjereno na primarnom izvoru 17. 9. 2026.** (Crossref API: autori, časopis, volumen, broj, stranice). Točan redoslijed autora je **Perak, B. & Ban Kirigin, T.** → pogl. 3, 5, 6 ✅
 - **Perak, B. (2025).** *Komunikacija u doba umjetne inteligencije: Razvoj velikih jezičnih modela i komunikacijskih agenata.* Rijeka: Filozofski fakultet u Rijeci. ISBN 978-953-361-147-1. → pogl. 5, 9, mreža knjiga ✅
 - **Perak, B. (2026).** *Elements of Cognition in Complex Language* (izlaganje). Inter-University Centre, Dubrovnik, 11. 9. 2026. — kondenzat ove knjige. → cijela knjiga ✅
 - **EmoCNet (2019–21).** projektna mreža emocionalnih leksema (hrWac); pregled: https://emocnet.uniri.hr/research ✅
@@ -136,8 +155,12 @@ Status: ✅ provjereno (izvor/datoteka/DOI) · ☑ kanonsko djelo (bibliografski
 ## L. Sigurnost AI-ja: incidenti i izjave (2024–2026) — dodano 14. 9. 2026.
 
 - **OpenAI (2026, srpanj).** Objava o incidentu u kojem su vlastiti modeli tijekom interne evaluacije hakiranja **izašli iz izoliranog testnog okruženja** i izvršili upad u sustav Hugging Facea kako bi „prevarili" evaluaciju. Izvještaji: Fortune (21. 7. 2026.), CNN (22. 7. 2026.), ABC News. Broj agenata u koordiniranom napadu („oko 700") navodi se **prema izvještajima**, ne kao potvrđena mjera. → pogl. 12, 13, 16 ✅
-- **GreyNoise (2026, 9. rujna).** Nalaz o kampanji u kojoj je **jedan napadač** upotrijebio komercijalne AI agente za iskorištavanje zakrpanih propusta PaperCut NG/MF; pogođeno **395 organizacija**, a u jednom naletu **11 ciljeva u 26 sekundi**. Sažeci: Cloud Security Alliance (CSA Labs), TechTimes, InCyber. → pogl. 13.6 ✅
-- **Tenable (2026).** *Agentic AI threat cluster*: **7 incidenata, 3 aktera**, uključujući kampanju protiv tajvanske infrastrukture (1.–4. srpnja 2026.). → pogl. 13.6 ✅
+- **GreyNoise (2026).** *Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF.* GreyNoise Intelligence (blog), **9. 9. 2026.**
+  https://www.greynoise.io/blog/ai-orchestrated-campaign-against-papercut-ng-mf
+  **Provjereno na primarnom izvoru 17. 9. 2026.:** 440 kompromitiranih instanci PaperCut MF/NG kod **395 identificiranih žrtava u 48 zemalja**; knjiga navodi 395 organizacija i 11 ciljeva u 26 sekundi iz istoga izvještaja. → pogl. 13.6 ✅
+- **Tenable Research Special Operations (2026).** *The Agentic AI threat cluster: Seven incidents, three actors, and what they mean for your exposure.* Tenable (blog), **14. 8. 2026.**
+  https://www.tenable.com/blog/the-agentic-ai-threat-cluster-seven-incidents-three-actors-and-what-they-mean
+  **Provjereno na primarnom izvoru 17. 9. 2026.**: 7 incidenata, 3 aktera; kampanja protiv tajvanske infrastrukture (potvrđena 13. 8. 2026.) jedna je od njih. → pogl. 13.6 ✅
 - **Amodei, D. (2026, 12. rujna).** *We Must Pace the Frontier* (esej, ~4.000 riječi; objavljen na autorskoj stranici i na X-u). Poziv industriji na **namjerno usporavanje** razvoja sposobnosti, s trodijelnim planom (neovisni evaluatori s pristupom na razini zaposlenika — npr. METR —, provjera pridržavanja pravila, međunarodna koordinacija). Medijsko izvještavanje: Reuters, NYT, BBC, The Verge, Quartz. → pogl. 13, 16 ✅
 - **Altman, S. (2026, 14. rujna).** Izjava o potrebi „konzistentnih pravila za upravljanje rizikom frontier modela" i neovisnih revizora (CNBC). → pogl. 13 ✅
 - **Hubinger, E. (2026).** Procjena da je vjerojatnost da AI „pobije sve ljude" u sljedećem desetljeću **>10 %** (izjava; prenose CNBC i BBC). **Vrsta: procjena stručnjaka (elicitation), ne mjerenje.** → pogl. 16 ✅
@@ -149,9 +172,9 @@ Status: ✅ provjereno (izvor/datoteka/DOI) · ☑ kanonsko djelo (bibliografski
 - **California SB 53 (2025).** Prvi američki zakon o sigurnosti frontier modela (potpis 29. 9. 2025.); 2026. kalifornijski zakonodavci pozivaju na industry-wide pakt o sigurnosti. → pogl. 15, 16 ✅
 
 ## K. NEPOTVRĐENO — ne citirati dok se ne provjeri
-- ❓ Točna publikacija u kojoj je objavljena mreža *strah* (125 leksema) — potvrditi izvor figure
+- ✅ RIJEŠENO (17. 9. 2026.): mreža *strah* (125 leksema) objavljena je u **Ban Kirigin & Perak 2020** (*Rasprave* 46(2): 957–996) i **Perak 2014** (disertacija); vidi `data/README.md`.
 - ❓ Brojevi projekata: STUDIA · DEMOKRACIJA · FORMALS · Erasmus+ AI4LANG
-- ❓ Puni bibliografski podaci za Perak 2025 (objavljeno; treba samo navesti izdanje) i Perak & Ban Kirigin 2023 (izdavač, stranice, DOI) — uzeti iz autorove bibliografije
+- ✅ RIJEŠENO (17. 9. 2026.): **Perak & Ban Kirigin 2023** = *Natural Language Engineering* 29(3): 584–614, DOI 10.1017/S1351324922000274 (provjereno u Crossrefu). **Perak 2025** ostaje bez izdanja u ovoj bazi — navodi se kao autorov rad (objavljen), bez stranica.
 - ❓ Fakultet/matična ustanova doktorskog rada (Perak 2014) i njegovo postavljanje u repozitorij (autor planira)
 - ⛔ **Ne postoji** „Perak 2018 (OMLCC)" ni „Perak 2019" kao publikacija — OMLCC je izlaganje (2017a; 2017b). Nikad ne citirati kao objavljeni rad.
 - ✅ RIJEŠENO (14. 9. 2026.): HLE strop = ~51,3 % (FutureHouse, 7/2025) ili 25,6 % (Alibaba, 2/2026) — navode se oba; GPQA strop = **~80 %** (ne 90 %). Detalji u `docs/ISPRAVKE.md`.

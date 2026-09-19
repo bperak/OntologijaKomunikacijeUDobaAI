@@ -149,3 +149,34 @@ Knjiga tvrdi da se razine razlučuju **po vrsti dokaza**, a ne po uvjerljivosti 
   potpisu slike 10.2 koje nije bilo u evidenciji; dodan je zapis `fasttext_hr_dim` u `data/fakti.csv`.
   Alat `check_lit.py` proširen je tako da provjerava i dijelove rukopisa **bez** popisa literature
   (uvod, zaključak, predgovor, studija slučaja) — u smjeru citat → baza.
+
+## ISPRAVAK-012 — bibliografski podaci provjereni na primarnim izvorima (17. 9. 2026.)
+
+**Što je bilo:** baza referenci navodila je četiri protokola (MCP, A2A, AP2, x402) i šest izvještaja
+(GreyNoise, Tenable, Chroma, Knight, t-SNE/UMAP, Perak & Ban Kirigin 2023) **bez punih bibliografskih
+podataka**, s oznakom ❓. Uz to je popis literature poglavlja 5 sadržavao **„Perak 2018, 2019"** —
+radove kojih nema (OMLCC je izlaganje 2017a; 2017b, kako stoji i u odjeljku K baze).
+
+**Što je utvrđeno (provjereno na primarnim izvorima, ne preko posrednika):**
+
+| jedinica | utvrđeno |
+|---|---|
+| Anthropic 2024 (MCP) | *Introducing the Model Context Protocol*, spec. rev. 2024-11-05, objavljeno 25. 11. 2024. |
+| Google 2025 (A2A) | *Announcing the Agent2Agent Protocol (A2A)*, Google Developers Blog, 9. 4. 2025. |
+| Google 2025 (AP2) | *Powering AI commerce with the new Agent Payments Protocol (AP2)*, Google Cloud Blog, 16. 9. 2025. |
+| Coinbase 2025 (x402) | *Introducing x402*, Coinbase Developer Platform, 6. 5. 2025. |
+| Knight 2025 | *Levels of Autonomy for AI Agents*, **autori Feng, McDonald i Zhang**, 25-15 Knight First Amend. Inst., 28. 7. 2025.; pet razina autonomije |
+| Chroma 2025 | Hong, Troynikov i Huber, *Context Rot*, Chroma Technical Report, 14. 7. 2025. |
+| GreyNoise 2026 | *Agents Gone Wild…*, 9. 9. 2026. (potvrđene i brojke: 395 organizacija, 440 instanci, 48 zemalja) |
+| Tenable 2026 | Research Special Operations, *The Agentic AI threat cluster…*, 14. 8. 2026. |
+| t-SNE | van der Maaten & Hinton 2008, *JMLR* 9(86): 2579–2605 |
+| UMAP | McInnes, Healy i Melville 2018, arXiv:1802.03426 (DOI 10.48550/arXiv.1802.03426) |
+| Perak & Ban Kirigin 2023 | *Natural Language Engineering* 29(3): 584–614, DOI 10.1017/S1351324922000274 (Crossref) |
+
+**Što je ispravljeno u rukopisu:**
+1. poglavlje 5 — popis literature: „Perak 2014, 2018, 2019, 2025, 2026" → **„Perak 2014 · Perak 2025 · Perak 2026 · Perak, OMLCC - izlaganja 2017a; 2017b"**;
+2. poglavlje 10 — t-SNE i UMAP više se ne navode samo imenom: dodani su citati i oba rada u popis;
+3. poglavlja 3, 6 i 4 — ukinute napomene da se „puni podaci preuzimaju iz autorove bibliografije" (podaci su sada u bazi);
+4. poglavlja 12 i 14 — ❓ blokovi skraćeni: riješene stavke (bibliografije, Knight) premještene u „Zatvoreno", ostaju samo one koje nisu bibliografske (vrsta brojke; nalazi o odsutnosti).
+
+**Što ostaje otvoreno:** tipološka replikacija ljestvice (pogl. 2), nalazi o odsutnosti (pogl. 11, 14, 15, 16) i Perak 2025 (naslov i izdanje iz autorove bibliografije).
