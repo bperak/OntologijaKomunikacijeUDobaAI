@@ -33,7 +33,7 @@ Uzmimo **slučaj B** (kampanja s AI agentima protiv PaperCuta) i opišimo ga če
 
 ## 3. Tri miješanja razina i njihove posljedice
 
-**Miješanje 1: koordinacija (13) → namjera (14).** „Agenti su se sami udružili" opisuje koordinirano ponašanje; namjera je svojstvo razine 14 koje traži prepoznatu namjeru i preuzetu obvezu. Posljedica: **pogrešno pripisivanje** — odgovornost klizi sa sudionika na oruđe.
+**Miješanje 1: koordinacija (13) → namjera (14).** „Agenti su se sami udružili" opisuje koordinirano ponašanje; namjera je svojstvo razine 14 koje traži prepoznatu namjeru i preuzetu obvezu. Posljedica: **pogrešno pripisivanje** — odgovornost klizi sa sudionika na oruđe. Uz to valja dodati i mjeru same koordinacije: u kontroliranome pokusu, u kojem su promptovi, alati i proračun računanja držani stalnima, korist od dodavanja jedinica **ne raste s njihovim brojem**, a bez **središnje provjere** pogreška se s težinom zadatka pojačava **17,2×** prema **4,4×** uz nju (Kim et al. 2026; **mjereno**, na mjerilima za programski rad, a ne na napadima). Brojnost roja zato nije pokazatelj nove sposobnosti: i ondje gdje je koordinacija izmjerena, njezin se dobitak veže uz **pravilo**, a ne uz mnoštvo.
 
 **Miješanje 2: naučeni obrasci (6/16-funkcionalno) → predaja u zajednici (16).** „Model je naučio kulturu iz podataka" miješa **učenje iz podataka** s **nasljeđivanjem unutar zajednice koja priznaje obrazac**. Posljedica: rasprava o „kulturi modela" postaje nerješiva jer svaka strana mjeri drugu razinu.
 
@@ -54,7 +54,7 @@ Sve četiri tvrdnje su **provjerljive**, i to je poanta: ontološki okvir nije t
 
 ---
 
-## 5. Izvori (provjereni 14. 9. 2026.)
+## 5. Izvori (provjereni 14. 9. 2026.; dopunjeno 27. 9. 2026.)
 
 | # | izvor | vrsta |
 |---|---|---|
@@ -66,5 +66,6 @@ Sve četiri tvrdnje su **provjerljive**, i to je poanta: ontološki okvir nije t
 | 6 | Hubinger, E. (2026.), procjena >10 % (CNBC, BBC) | **procjena stručnjaka, ne mjerenje** |
 | 7 | Coxon, J. (2026.), objava o napuštanju industrije (X; Bloomberg, Straits Times) | primarna objava + izvješće |
 | 8 | California SB 53 (2025.) i poziv na industry-wide pakt (2026.) | zakonodavni dokument |
+| 9 | Kim, Y., Gu, K., Park, C. et al. (2026). Capable language models can outgrow the benefits of collaboration. *Nature Machine Intelligence* **8: 1157–1172.** DOI 10.1038/s42256-026-01268-y; preprint arXiv:2512.08296 | kontrolirani pokus (**mjerenje**; provjereno 27. 9. 2026. na primarnom izvoru) |
 
-**Status brojki:** 395 organizacija i 11 ciljeva u 26 sekundi — *mjereno* (izvješće GreyNoise). „Oko 700 agenata" (slučaj A) — *prema izvještajima, nije potvrđena mjera*. 10–20 % (Hinton 2024.), >10 % (Hubinger), 10 % do 2027. / 50 % do 2047. (anketa 2.778 istraživača, JAIR) — **sve tri su procjene stručnjaka, ne mjerenja**; ne postoji validiran model koji daje vjerojatnost izumiranja.
+**Status brojki:** 395 organizacija i 11 ciljeva u 26 sekundi — *mjereno* (izvješće GreyNoise). „Oko 700 agenata" (slučaj A) — *prema izvještajima, nije potvrđena mjera*. Prag zasićenja ≈ 45 %, pojačanje pogreške 17,2× prema 4,4× i superlinearni komunikacijski trošak (Kim et al. 2026.) — *mjereno u kontroliranome pokusu*; prag je u radu izričito ograđen kao **pravilo odabira, a ne kao zakon skaliranja**, i ne prenosi se na mjerenja iz divljine (drugi zadaci, druga mjerila). 10–20 % (Hinton 2024.), >10 % (Hubinger), 10 % do 2027. / 50 % do 2047. (anketa 2.778 istraživača, JAIR) — **sve tri su procjene stručnjaka, ne mjerenja**; ne postoji validiran model koji daje vjerojatnost izumiranja.
