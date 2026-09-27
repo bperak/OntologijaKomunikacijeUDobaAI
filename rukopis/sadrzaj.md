@@ -18,7 +18,7 @@
   - 1.8 Kako ćemo postupati u ovoj knjizi
   - 1.9 Radni primjer: od svojstva do razine
 - **2. OMLCC: šesnaest razina ontološke složenosti**
-  - 2.1 Tri domene: Searleova podjela i njezina cijena
+  - 2.1 Što je OMLCC: ime, oblik i namjena
   - 2.2 Šesnaest razina s definicijama
   - 2.3 Relacijske sheme: kako se razina operacionalizira
   - 2.4 Zašto šesnaest, a ne pet ili sto

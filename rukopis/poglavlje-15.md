@@ -16,7 +16,7 @@ Tri su razloga zašto je to pitanje teško, i sva tri su metodološka, a ne mora
 
 ## 15.1 Što je kulturni model u OMLCC-u (razina 16): obrasci tumačenja koji se predaju
 
-Razina 16 u okviru od **šesnaest razina** (Perak 2017a; 2017b) nije „još jedna institucija" i nije „nakupina navika". Ona je razina na kojoj obrasci prestaju biti vezani uz pojedini slučaj i postaju **način na koji se svijet čita**. U poglavlju 8.3 to je izrečeno u jednoj rečenici koja ostaje mjera i ovoga poglavlja: kad dijete ne uči samo jeziku nego i *čemu se u razgovoru smije smijati*, ne uči pravilo, nego model (→ pogl. 8.3).
+Razina 16 u okviru od **šesnaest razina** (→ pogl. 2.1) nije „još jedna institucija" i nije „nakupina navika". Ona je razina na kojoj obrasci prestaju biti vezani uz pojedini slučaj i postaju **način na koji se svijet čita**. U poglavlju 8.3 to je izrečeno u jednoj rečenici koja ostaje mjera i ovoga poglavlja: kad dijete ne uči samo jeziku nego i *čemu se u razgovoru smije smijati*, ne uči pravilo, nego model (→ pogl. 8.3).
 
 **Kulturni model nije popis pravila.** Popis pravila može se naučiti napamet i postupati po njemu bez razumijevanja situacije. Kulturni model je **skup očekivanja o tome što je relevantno**: što se u razgovoru smije reći, čemu se smije smijati, što se šuti, koga se citira, što je lijepo, što je nepristojno, čemu je vrijeme posvećeno. Zato je on uvijek **selektivan i nepotpun** — i zato se ne može izvesti iz pravila, nego samo iz prakse koja se ponavlja.
 
@@ -237,7 +237,7 @@ Tvrdnja ovoga poglavlja ima oblik uvjeta, pa se i obara uvjetima. Ona pada ako v
 
 ### Sažetak
 
-- **Kultura je prijenos, ne količina.** Razina 16 (CulturalModel) je razina **predaje** obrazaca tumačenja, a ne razina njihova učenja; ne postoji u pojedincu, nego u mreži koja ga predaje (Perak 2017a; 2017b; Tomasello 2008; Elder-Vass 2010; Archer 1995; Sawyer 2005).
+- **Kultura je prijenos, ne količina.** Razina 16 (CulturalModel) je razina **predaje** obrazaca tumačenja, a ne razina njihova učenja; ne postoji u pojedincu, nego u mreži koja ga predaje (→ pogl. 2.1; Tomasello 2008; Elder-Vass 2010; Archer 1995; Sawyer 2005).
 - **Tri pokazatelja razine 16:** obrazac nadživljuje nositelja, prihvaćen je kao **vodilja** i prijenos je **obostran** u smislu odgovornosti.
 - **Nasljeđivanje bez sudjelovanja.** Sustav modela uči iz zapisa kulture i reproducira obrasce, ali ne sudjeluje u zajednici koja ih proizvodi; smjer prijenosa je jednosmjeran, a uzajamnost pozivanja na odgovornost izostaje (Searle 2010; Gilbert 1990; Tuomela 2007; Tomasello 2008; Bender & Koller 2020).
 - **Nasljeđivanje nije predaja.** Predaja se razlikuje od učenja po tome što traži **zajednicu koja obrazac priznaje** i **prijenos kroz generacije bez korpusa kao izvora** (Tomasello 2008; Hopper 1987; Goldberg 2006).

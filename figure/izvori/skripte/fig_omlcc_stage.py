@@ -4,6 +4,7 @@ stage 1 = MATERIAL (levels 1-8) · stage 2 = + PSYCHOLOGICAL (9-11) · stage 3 =
 Domains follow Searle's ontology of facts: brute/physical · mental/psychological · social-institutional.
 """
 import sys
+import os
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -35,7 +36,8 @@ DOMS = {1: ('MATERIAL', 'brute facts · Searle 1995', INK2),
         2: ('PSYCHOLOGICAL', 'mental facts · Searle 1995', ACC2),
         3: ('SOCIAL', 'institutional facts · Searle 1995', ACC)}
 
-STAGE = 3
+STAGE = int(sys.argv[1]) if len(sys.argv) > 1 else 3
+OUT_DIR = sys.argv[2] if len(sys.argv) > 2 else '/home/agent/knjiga-emergencija/figure'
 fig, ax = plt.subplots(figsize=(12.1, 5.5), dpi=200)
 ax.set_xlim(0, 100); ax.set_ylim(0, 100); ax.axis('off')
 
@@ -44,7 +46,7 @@ X0, X1 = 2.0, 2.0 + CW + GAPX
 ROWH, ROWGAP, HDR = 6.4, 0.7, 3.3
 
 # ---------- header + step chip ----------
-ax.text(50, 98.6, 'OMLCC — 16 levels of ontological complexity (Perak 2018; 2019)',
+ax.text(50, 98.6, 'OMLCC — 16 levels of ontological complexity',
         ha='center', va='center', fontsize=11.4, color=ACC, fontweight='bold')
 steps = {1: ('1 / 3', 'material domain (levels 1–8)'),
          2: ('2 / 3', '+ psychological domain (9–11)'),
@@ -107,6 +109,6 @@ for lab, col, dom in (('1–7  material', INK2, 1), ('8  informational', ACC2, 1
 ax.text(50, 0.9, 'Three domains after Searle (1995; 2010): material (brute facts) · psychological (mental facts) · social (institutional facts).',
         ha='center', va='center', fontsize=8.4, color=ACC, fontweight='bold')
 
-fig.savefig(f'/home/agent/iuc-dubrovnik-2026/fig_omlcc_s{STAGE}.png', facecolor='white',
+fig.savefig(os.path.join(OUT_DIR, f'fig_omlcc_s{STAGE}.png'), facecolor='white',
             bbox_inches='tight', pad_inches=0.06)
-print(f'saved fig_omlcc_s{STAGE}.png')
+print(f'saved {os.path.join(OUT_DIR, f"fig_omlcc_s{STAGE}.png")}')

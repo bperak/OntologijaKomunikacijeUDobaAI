@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""OMLCC 16-level diagram, drawn from the 2018 'Emergence of Social Reality in the OMLCC' deck."""
+"""OMLCC 16-level diagram (autorov okvir; izlaganja 2017a; 2017b).
+
+Pokretanje:  python3 fig_omlcc16.py [izlazni_direktorij]
+Zadani izlaz je figure/ u repozitoriju knjige. Naslov slike NE nosi godinu ni
+„polureferencu": okvir se u knjizi citira na jednome mjestu (pogl. 2.1), a slika
+samo prikazuje ljestvicu.
+"""
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -66,7 +72,7 @@ for k, (lab, col) in enumerate((('collaborator — co-communicator, co-worker', 
             fontweight='bold', zorder=4)
 
 # band legend + the emergence loop
-ax.text(50, 98.4, 'OMLCC — 16 levels of ontological complexity (Perak 2018; 2019)',
+ax.text(50, 98.4, 'OMLCC — 16 levels of ontological complexity',
         ha='center', va='center', fontsize=11.5, color=ACC, fontweight='bold')
 band = [('1–7  material', INK2), ('8  informational / computational', ACC2), ('9–11  psychological', ACC2),
         ('12–15  social', ACC), ('16  cultural', DEEP)]
@@ -79,6 +85,9 @@ for lab, col in band:
 ax.text(50, 7.4, 'Each level: network x  →  emergent entity {property}  →  network x+1   (Emmeche, Køppe & Stjernfelt 1997)',
         ha='center', va='center', fontsize=8.6, color=INK2)
 fig.tight_layout()
-fig.savefig('/home/agent/iuc-dubrovnik-2026/fig_omlcc16.png', facecolor='white',
+import os, sys
+out_dir = sys.argv[1] if len(sys.argv) > 1 else '/home/agent/knjiga-emergencija/figure'
+os.makedirs(out_dir, exist_ok=True)
+fig.savefig(os.path.join(out_dir, 'fig_omlcc16.png'), facecolor='white',
             bbox_inches='tight', pad_inches=0.06)
-print('saved fig_omlcc16.png')
+print('saved', os.path.join(out_dir, 'fig_omlcc16.png'))

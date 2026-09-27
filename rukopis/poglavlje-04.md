@@ -72,7 +72,7 @@ def pmi(par, zajedno, f_x, f_y, N):
 
 Dvije ograde uz tu formulu. **Prva:** PMI je pristran prema rijetkim parovima — par koji se pojavi jednom dobiva visoku vrijednost uz malu pouzdanost — pa se rabi i normalizirana inačica (nPMI) ili se uz mjeru navodi zajednička čestota. **Druga:** mjera ovisi o tome što je *N* (prozor, rečenica ili pojavnica); ako *N* nije zapisan, mjera nije reproducibilna. PMI se računa iz tri broja koji ovise o tri odluke, pa je transparentnost tih odluka dio mjere, a ne dodatak.
 
-**4. Graf: čvorovi i bridovi.** Kad mjera postoji, mreža je zapis. Čvor je zapis entiteta (leksem ili konstrukcija), brid je zapis relacije, a težina brida je mjera asocijacije. Shema je ista kao u ostatku knjige: *entitet {svojstvo} — [relacija {svojstvo}] → entitet {svojstvo}* (Perak, OMLCC — izlaganja 2017a; 2017b). Terminološka stega vrijedi i ovdje: **čvor imenuje *gdje* jedinica jest u mreži, brid imenuje *što* se među njima zbiva** — i nijedno od toga nije još ni značenje ni komunikacija.
+**4. Graf: čvorovi i bridovi.** Kad mjera postoji, mreža je zapis. Čvor je zapis entiteta (leksem ili konstrukcija), brid je zapis relacije, a težina brida je mjera asocijacije. Shema je ista kao u ostatku knjige: *entitet {svojstvo} — [relacija {svojstvo}] → entitet {svojstvo}* (→ pogl. 2.1). Terminološka stega vrijedi i ovdje: **čvor imenuje *gdje* jedinica jest u mreži, brid imenuje *što* se među njima zbiva** — i nijedno od toga nije još ni značenje ni komunikacija.
 
 **5. Prag: odluka koja stvara mrežu.** PMI daje kontinuiranu vrijednost; prag je odluka „veza postoji ili ne postoji". Zato: **prag ne filtrira postojeću mrežu, nego određuje koja organizacija uopće postoji.** Dvije mreže uz različite pragove nisu dvije slike istoga predmeta — one su dva različita predmeta.
 
@@ -148,7 +148,7 @@ Ova je tablica obrana od najlakše pogreške u području: **klaster se preimenuj
 
 ### Kako se tvrdnja „ovo je razina 14" prevodi u mjernu tvrdnju
 
-Razina 14 je **SocCommunication**: komunikacija kao razina na kojoj su prisutni adresiranje, artefakt, obrasci konvencije i **prepoznata namjera** (Perak, OMLCC — izlaganja 2017a; 2017b). Recimo da želimo tvrditi: „ovaj je zapis slučaj komunikacije, dakle razine 14." Tvrdnja se, da bi bila empirijska, mora razložiti na pet koraka i svaki mora biti zapisan.
+Razina 14 je **SocCommunication**: komunikacija kao razina na kojoj su prisutni adresiranje, artefakt, obrasci konvencije i **prepoznata namjera** (→ pogl. 2.1). Recimo da želimo tvrditi: „ovaj je zapis slučaj komunikacije, dakle razine 14." Tvrdnja se, da bi bila empirijska, mora razložiti na pet koraka i svaki mora biti zapisan.
 
 **1. Jedinica analize.** Prvo se odlučuje *što* se označava. Za razinu 14 to nije riječ ni leksem, nego **epizoda**: niz poteza koji ima početak, sudionike i završetak (primjerice jedan zahtjev i odgovor na njega). Ako je jedinica pogrešna, svi ostali koraci mjere nešto drugo. Ovo je odluka, ne nalaz, i zato se navodi.
 

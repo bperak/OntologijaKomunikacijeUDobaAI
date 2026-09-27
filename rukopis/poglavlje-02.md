@@ -4,13 +4,28 @@
 
 ---
 
-## 2.1 Tri domene: Searleova podjela i njezina cijena
+## 2.1 Što je OMLCC: ime, oblik i namjena
+
+**Što je OMLCC.** OMLCC je kratica engleskoga naziva *Ontological Model of Lexical Concepts and Constructions*, odnosno **ontološki model leksičkih koncepata i konstrukcija**. To je okvir koji ontologiju — pitanje *što postoji i koje je vrste* — ne postavlja kao popis stvari, nego kao **ljestvicu od šesnaest razina** u tri domene, pri čemu je svaka razina određena **relacijskom shemom**. U ovoj se knjizi okvir ne izlaže kao gotov sustav, nego kao **mjerni instrument**: on daje kriterij po kojemu se za neki fenomen može reći na kojoj je razini i zašto (→ pogl. 2.3).
+
+**Zašto se tako zove — svaka riječ imena nosi dio posla.**
+
+- **Ontološki** — zato što se pita *što postoji i koje je vrste*, a ne samo kako se o nečemu govori. Ontologija je ovdje ljestvica **vrsta svojstava i relacija**, a ne popis bića (→ pogl. 1.4).
+- **Model** — zato što je ljestvica **organizacijska shema i mjerni postupak**, a ne opis svijeta: ne tvrdi da razine postoje „u prirodi" kao pretinci (→ pogl. 2.5).
+- **Leksičkih koncepata** — zato što polazi od **leksičkoga značenja**: od toga kako se razine očituju u značenju riječi i u njihovim mrežama (polazište je istraživanje leksema *strah*; Perak 2014; EmoCNet 2019–21).
+- **Konstrukcija** — zato što je jedinica opisa **konstrukcija**: spoj oblika i značenja koji nosi relacijsku shemu — imenica kao entitet, glagol kao relacija, pridjev kao svojstvo entiteta, prijedlog i prilog kao svojstvo relacije. Zato se razine mogu čitati iz morfosintakse, a ne postulirati (→ pogl. 2.3; 4.2).
+
+**Zašto se u knjizi rabi kratica.** Zato što je okvir pod tim imenom izložen i pod tim se imenom navodi u literaturi. Opisni naziv („ljestvica šesnaest razina") imenuje samo **ishod** okvira, a ne sam okvir, i ne razlikuje ga od drugih ljestvica razina. Kad u knjizi stoji *OMLCC*, misli se na okvir; kad stoji *ljestvica*, misli se na njegov ishod (→ pogl. 2.6, gdje se uspoređuje s pet srodnih tradicija).
+
+**Status okvira i kako se citira — na jednome mjestu, bez ponavljanja.** OMLCC dosad **nije objavljen integralno**. Razine su izložene na dvama izlaganjima: *Emergence of Social Reality in the Ontological Model of the Lexical Concepts and Constructions* (John Searle Symposium, Rijeka, 17. 5. 2017.) i *Emergent Structures in the Ontological Model of the Lexical Concepts and Constructions* (RaAM Specialized Seminar „Ecological Cognition", Odense, 4. 5. 2017.) — u bazi referenci to su jedinice **Perak 2017a** i **Perak 2017b**. Objavljeni dijelovi okvira stoje u radovima Ban Kirigin & Perak 2020 i Brdar, Brdar-Szabó & Perak 2020. Okvir se u ovoj knjizi **nikada ne citira kao „Perak 2018" ni „Perak 2019"** — takve publikacije ne postoje, a radne godine koje su stajale na starijim inačicama slika nisu referencija i uklonjene su (→ `docs/ISPRAVKE.md`). Zato se atribucija u ostatku knjige **ne ponavlja uz svaku razinu**, nego upućuje ovamo: **podjela na tri domene je Searleova (1995; 2010), a razrada na šesnaest razina i njihove relacijske sheme autorov su doprinos.**
+
+### 2.1.1 Tri domene: Searleova podjela i njezina cijena
 
 Prvo poglavlje završilo je definicijom koja je istovremeno točna i prazna: razina je skup entiteta i relacija kod kojih vrijedi isti tip svojstava i isti tip zakona sastavljanja. Točna je jer ne pretpostavlja ništa o veličini, a prazna jer ne kaže **koliko tipova svojstava ima**. Ovo poglavlje daje odgovor: šesnaest, u tri domene.
 
 Najgrublja podjela dolazi iz Searleove ontologije činjenica. U knjigama *The Construction of Social Reality* (1995) i *Making the Social World* (2010) Searle razlikuje **grube činjenice** (*brute facts*), **mentalne činjenice** (*mental facts*) i **institucionalne činjenice** (*institutional facts*). Grube činjenice vrijede neovisno o tome što bilo tko o njima misli — planina je visoka i onda kad nikoga nema da to primijeti; mentalne činjenice jesu činjenice o nečijem stanju, primjerice da nekoga boli ili da nešto vjeruje (Searle 1995). Institucionalne činjenice postoje samo zato što ih zajednica priznaje: novac, granica i diploma nisu kemijske činjenice, nego *X koji broji kao Y u kontekstu C* (Searle 1995; 2010).
 
-Iz toga slijedi podjela koju ovaj okvir preuzima i naziva **domenama**: materijalna domena (grube činjenice), psihološka domena (mentalne činjenice) i društvena domena (institucionalne činjenice). **Ta je podjela Searleova; razrada na šesnaest razina i njihove relacijske sheme autorov su doprinos (Perak, OMLCC - izlaganja 2017a; 2017b).** Tu razliku valja izgovoriti na svakom mjestu gdje se podjela pojavi: najveći je dio ovoga okvira posuđen, a najmanji — i najosjetljiviji — onaj koji je vlastit.
+Iz toga slijedi podjela koju ovaj okvir preuzima i naziva **domenama**: materijalna domena (grube činjenice), psihološka domena (mentalne činjenice) i društvena domena (institucionalne činjenice). **Ta je podjela Searleova; razrada na šesnaest razina i njihove relacijske sheme autorov su doprinos** (→ pogl. 2.1). Najveći je dio toga okvira posuđen, a najmanji — i najosjetljiviji — onaj koji je vlastit.
 
 Kriterij po kojemu se domene razlikuju nije količina ni složenost, nego **vrsta ovisnosti**. Gruba činjenica ne ovisi ni o kome; mentalna ovisi o tome da postoji nositelj koji je doživljava; institucionalna ovisi o *mnoštvu* koje je priznaje (Searle 1995; 2010). Tri vrste ovisnosti daju tri domene; kolektivno se priznanje razrađuje kao zajednička obveza i intencionalnost (Gilbert 1990; Tuomela 2007; Tomasello 2008).
 
@@ -22,15 +37,17 @@ Jedno ograničenje podjele treba priznati odmah. Granica između psihološkoga i
 
 ## 2.2 Šesnaest razina s definicijama
 
-Unutar tih domena ovaj okvir razlučuje šesnaest razina. Atribucija se od ovoga mjesta ponavlja na svakoj stranici: **podjela na materijalnu, psihološku i društvenu domenu je Searleova (1995; 2010); razrada na šesnaest razina i njihove relacijske sheme autorov su doprinos (Perak, OMLCC - izlaganja 2017a; 2017b).**
+Unutar tih domena ovaj okvir razlučuje šesnaest razina. Atribucija je izrečena na jednome mjestu i ovdje se ne ponavlja (→ pogl. 2.1): **podjela na materijalnu, psihološku i društvenu domenu je Searleova (1995; 2010); razrada na šesnaest razina i njihove relacijske sheme autorov su doprinos (→ pogl. 2.1).**
 
 Cijela je ljestvica najprije na jednoj slici.
 
 ![Slika 2.1 — ljestvica šesnaest razina u dvama stupcima](../figure/fig_omlcc16.png)
 
-**Slika 2.1.** Cjelovita ljestvica u dvama stupcima: lijevo razine 1–8 (materijalna domena, osma informacijska), desno razine 9–16; u podnožju je tvrdnja „Each level: network x → emergent entity {property} → network x+1" uz atribuciju (Emmeche, Køppe & Stjernfelt 1997), a legenda dijeli boje na 1–7 material, 8 informational / computational, 9–11 psychological, 12–15 social i 16 cultural. U gornjem okviru slika najavljuje novi entitet — „A NEW ENTITY IN THE SYSTEM — not a new level", „the language model, co-present with humans: collaborator — co-communicator, co-worker" i „potential competitor for resources — compute, energy, data" (tema dvanaestoga poglavlja). Autorov prikaz; naslov na slici nosi radnu godišnju oznaku izvora (2018; 2019) koja nije valjana referencija — okvir se u ovoj knjizi citira kao izlaganje (Perak, OMLCC - izlaganja 2017a; 2017b).
+**Slika 2.1.** Cjelovita ljestvica u dvama stupcima: lijevo razine 1–8 (materijalna domena, osma informacijska), desno razine 9–16; u podnožju je tvrdnja „Each level: network x → emergent entity {property} → network x+1" uz atribuciju (Emmeche, Køppe & Stjernfelt 1997), a legenda dijeli boje na 1–7 material, 8 informational / computational, 9–11 psychological, 12–15 social i 16 cultural. U gornjem okviru slika najavljuje novi entitet — „A NEW ENTITY IN THE SYSTEM — not a new level", „the language model, co-present with humans: collaborator — co-communicator, co-worker" i „potential competitor for resources — compute, energy, data" (tema dvanaestoga poglavlja). Autorov prikaz (→ pogl. 2.1). Naslov slike ne nosi godinu ni referenciju: okvir se citira u pogl. 2.1, a slika prikazuje ljestvicu.
 
-**Materijalna domena — razine 1–8.** Prvih sedam razina materijalne su i strukturne, a osma je informacijska:
+### 2.2.1 Materijalna domena (razine 1–8)
+
+Prvih sedam razina materijalne su i strukturne, a osma je informacijska:
 
 1. **Existence.** Razina na kojoj je postavljeno samo jedno pitanje: nešto jest. Svojstvo je prisutnost ili odsutnost.
 2. **Emergence.** Nastajanje: organizacija niže razine daje nositelja kojega prije nije bilo; relacija je „nastaje iz", a svojstvo novost, uvijek relativna prema razini organizacije (Emmeche, Køppe & Stjernfelt 1997).
@@ -45,9 +62,11 @@ Materijalna je domena na jednome prikazu:
 
 ![Slika 2.2 — materijalna domena, razine 1–8](../figure/fig_omlcc_s1.png)
 
-**Slika 2.2.** Prva od triju ploča ljestvice („1 / 3 material domain (levels 1–8)"): materijalna domena s razinama 1–8, svaka zapisana relacijskom shemom (npr. „03 MaterialStructure: A (Part) isPartOf B (Whole)"); zaglavlje ploče je „MATERIAL · brute facts · Searle 1995", a stupci psihološke i društvene domene na ovoj su slici prikazani **prigušeno**: nose samo brojeve 09–16, bez naziva razina i bez relacijskih shema. Podnožje nosi tvrdnju „Each level: network x → emergent entity {property} → network x+1" (Emmeche, Køppe & Stjernfelt 1997) i redak „Three domains after Searle (1995; 2010): material (brute facts) · psychological (mental facts) · social (institutional facts)". Autorov prikaz (Perak, OMLCC - izlaganja 2017a; 2017b).
+**Slika 2.2.** Prva od triju ploča ljestvice („1 / 3 material domain (levels 1–8)"): materijalna domena s razinama 1–8, svaka zapisana relacijskom shemom (npr. „03 MaterialStructure: A (Part) isPartOf B (Whole)"); zaglavlje ploče je „MATERIAL · brute facts · Searle 1995", a stupci psihološke i društvene domene na ovoj su slici prikazani **prigušeno**: nose samo brojeve 09–16, bez naziva razina i bez relacijskih shema. Podnožje nosi tvrdnju „Each level: network x → emergent entity {property} → network x+1" (Emmeche, Køppe & Stjernfelt 1997) i redak „Three domains after Searle (1995; 2010): material (brute facts) · psychological (mental facts) · social (institutional facts)". Autorov prikaz (→ pogl. 2.1).
 
-**Psihološka domena — razine 9–11.** Tri su razine, i svaka ima drukčiji tip relacije prema okolini:
+### 2.2.2 Psihološka domena (razine 9–11)
+
+Tri su razine, i svaka ima drukčiji tip relacije prema okolini:
 
 9. **Perception.** Opažanje: *opažač* opaža *objekt opažanja*. Relacija je usmjerenost, a svojstvo razlučivost.
 10. **Affect.** Afekt: *doživljavatelj* doživljava *afektivno stanje*. Svojstva su valencija i pobuđenost, a odnos prema okolini nije usmjerenost, nego stanje u koje sustav dolazi. Hrvatski emocionalni leksik pokazuje da se ta stanja u jeziku ne pojavljuju pojedinačno, nego u mrežama s određenim središtima (Perak 2014; EmoCNet 2019–21).
@@ -57,15 +76,17 @@ Psihološka je domena na jednome prikazu:
 
 ![Slika 2.3 — psihološka domena, razine 9–11](../figure/fig_omlcc_s2.png)
 
-**Slika 2.3.** Druga ploča ljestvice („2 / 3 + psychological domain (9–11)"): psihološka domena s razinama 9–11 (Perception 9, Affect 10, Cognition 11) uz ponovljenu materijalnu domenu 1–8; zaglavlja su „MATERIAL · brute facts · Searle 1995" i „PSYCHOLOGICAL · mental facts · Searle 1995", a stupac društvene domene na ovoj je slici prikazan **prigušeno**, samo brojevima 12–16 i bez relacijskih shema. Podnožje ponavlja tvrdnju „Each level: network x → emergent entity {property} → network x+1" (Emmeche, Køppe & Stjernfelt 1997) i redak „Three domains after Searle (1995; 2010)". Autorov prikaz (Perak, OMLCC - izlaganja 2017a; 2017b).
+**Slika 2.3.** Druga ploča ljestvice („2 / 3 + psychological domain (9–11)"): psihološka domena s razinama 9–11 (Perception 9, Affect 10, Cognition 11) uz ponovljenu materijalnu domenu 1–8; zaglavlja su „MATERIAL · brute facts · Searle 1995" i „PSYCHOLOGICAL · mental facts · Searle 1995", a stupac društvene domene na ovoj je slici prikazan **prigušeno**, samo brojevima 12–16 i bez relacijskih shema. Podnožje ponavlja tvrdnju „Each level: network x → emergent entity {property} → network x+1" (Emmeche, Køppe & Stjernfelt 1997) i redak „Three domains after Searle (1995; 2010)". Autorov prikaz (→ pogl. 2.1).
 
-**Društvena domena — razine 12–16.** Poredak je ovdje argument, a ne popis:
+### 2.2.3 Društvena domena (razine 12–16)
+
+Poredak je ovdje argument, a ne popis:
 
 12. **SocIdentity.** Društveni identitet: nositelj kojega drugi prepoznaju kao nekoga — ime, naslov, uloga, račun. Relacija je prepoznavanje i pripisivanje.
 13. **SocBehaviourInteraction.** Društveno ponašanje i interakcija: uzajamno djelovanje s očekivanjem da će druga strana uzvratiti. Zajedničko je djelovanje ovdje paradigmatičan slučaj (Gilbert 1990), a upravo se na toj razini u razvoju komunikacije pojavljuje zajednička intencionalnost (Tomasello 2008).
 14. **SocCommunication.** Društvena komunikacija: čin kojim jedan sudionik drugome daje nešto da prepozna. Zahtijeva adresiranje, namjeru, zajednički artefakt i konvenciju; značenje je pritom prepoznata namjera (Grice 1957), a komunikacija nije prijenos nego usklađivanje (Harris 1981; Clark 1996). Ovoj se razini posvećuje sedmo poglavlje.
 15. **SocCulturalInstitution.** Društveno-kulturna institucija: pravilo po kojemu nešto broji kao nešto drugo u danome kontekstu (Searle 1995; 2010), s obvezom i s mogućnošću sankcije. Tu informacija postaje obveza, a ponašanje dužnost (Tuomela 2007; Elder-Vass 2010).
-16. **CulturalModel.** Kulturni model: naslijeđeni obrasci tumačenja — vrijednosti, uvjerenja, žanrovi, načini na koje se svijet čita. Takav obrazac ne postoji ni u jednom pojedinom nositelju kao gotova cjelina; on je svojstvo mreže koja ga predaje (Perak 2025; Perak, OMLCC - izlaganja 2017a; 2017b).
+16. **CulturalModel.** Kulturni model: naslijeđeni obrasci tumačenja — vrijednosti, uvjerenja, žanrovi, načini na koje se svijet čita. Takav obrazac ne postoji ni u jednom pojedinom nositelju kao gotova cjelina; on je svojstvo mreže koja ga predaje (Perak 2025; → pogl. 15).
 
 Poredak 12 → 13 → 14 → 15 → 16 jest tvrdnja o zavisnosti: identitet prije interakcije, interakcija prije komunikacije, komunikacija prije institucija, a kulturni model samo povrh institucija — kao što ni razina 8 ne može postojati bez nositelja koji nosi razliku.
 
@@ -73,15 +94,15 @@ Sve tri domene na jednome su prikazu:
 
 ![Slika 2.4 — sve tri domene, razine 1–16](../figure/fig_omlcc_s3.png)
 
-**Slika 2.4.** Treća ploča: sve tri domene jedna pod drugom — materijalna (1–8), psihološka (9–11) i društvena (12 SocIdentity, 13 SocBehaviourInteraction, 14 SocCommunication, 15 SocCulturalInstitution, 16 CulturalModel), svaka razina sa svojom relacijskom shemom. Zaglavlja ploča nose „MATERIAL · brute facts · Searle 1995", „PSYCHOLOGICAL · mental facts · Searle 1995" i „SOCIAL · institutional facts · Searle 1995", a podnožje tvrdnju „Each level: network x → emergent entity {property} → network x+1" (Emmeche, Køppe & Stjernfelt 1997), legendu (material, psychological, social, cultural) i redak „Three domains after Searle (1995; 2010): material (brute facts) · psychological (mental facts) · social (institutional facts)". Autorov prikaz (Perak, OMLCC - izlaganja 2017a; 2017b).
+**Slika 2.4.** Treća ploča: sve tri domene jedna pod drugom — materijalna (1–8), psihološka (9–11) i društvena (12 SocIdentity, 13 SocBehaviourInteraction, 14 SocCommunication, 15 SocCulturalInstitution, 16 CulturalModel), svaka razina sa svojom relacijskom shemom. Zaglavlja ploča nose „MATERIAL · brute facts · Searle 1995", „PSYCHOLOGICAL · mental facts · Searle 1995" i „SOCIAL · institutional facts · Searle 1995", a podnožje tvrdnju „Each level: network x → emergent entity {property} → network x+1" (Emmeche, Køppe & Stjernfelt 1997), legendu (material, psychological, social, cultural) i redak „Three domains after Searle (1995; 2010): material (brute facts) · psychological (mental facts) · social (institutional facts)". Autorov prikaz (→ pogl. 2.1).
 
 Ovdje treba dodati napomenu o terminologiji koja vrijedi do kraja knjige. **Entitet imenuje *gdje* je nešto u sustavu — njegovu poziciju; agent imenuje *što* to nešto radi — njegovu sistemsku ulogu.** To su dva pitanja i dva odgovora. Isto tako, riječ *razina* u ovoj knjizi nikada ne označava model: razina je tip svojstva i relacije, a model je organizacija koja se na tim razinama čita. Zato se u dvanaestom poglavlju neće tvrditi da model čini sedamnaestu razinu, nego da je riječ o novom **entitetu** u postojećem sustavu.
 
-**Slike 2.2–2.4** — Ljestvica šesnaest razina kroz tri domene (autorov prikaz, `fig_omlcc_s1`–`fig_omlcc_s3`; Perak, OMLCC - izlaganja 2017a; 2017b). Svaka je razina zapisana relacijskom shemom (tip entiteta + tip relacije), a podnožje slike nosi tvrdnju koja povezuje razine: svaka je razina mreža koja daje emergentni entitet sa svojstvom, a taj entitet ulazi u mrežu sljedeće razine (Emmeche, Køppe & Stjernfelt 1997). Novi entitet iz dvanaestog poglavlja **nije** na ovoj ljestvici — on je iznad nje, i to imenuje tekst, a ne slika.
+**Slike 2.2–2.4** — Ljestvica šesnaest razina kroz tri domene (autorov prikaz, `fig_omlcc_s1`–`fig_omlcc_s3`; → pogl. 2.1). Svaka je razina zapisana relacijskom shemom (tip entiteta + tip relacije), a podnožje slike nosi tvrdnju koja povezuje razine: svaka je razina mreža koja daje emergentni entitet sa svojstvom, a taj entitet ulazi u mrežu sljedeće razine (Emmeche, Køppe & Stjernfelt 1997). Novi entitet iz dvanaestog poglavlja **nije** na ovoj ljestvici — on je iznad nje, i to imenuje tekst, a ne slika.
 
 ## 2.3 Relacijske sheme: kako se razina operacionalizira
 
-Ako razina nije popis primjera, čime je onda definirana? Odgovor ovoga okvira jest da se **na svakoj razini primjenjuje ista shema** — entitet sa svojstvom, relacija sa svojim svojstvom, drugi entitet sa svojim svojstvom — i da razinu određuje **tip** svakoga od triju članova (Perak, OMLCC - izlaganja 2017a; 2017b). Shema nije formalizam nametnut jeziku: morfosintaksa već kodira te uloge, jer imenice i zamjenice označavaju entitete, pridjevi svojstva entiteta, glagoli relacije i procese, a prilozi i prijedlozi svojstva relacija (Perak, OMLCC - izlaganja 2017a; 2017b). Jezik, dakle, nosi uputu o razini opisa — i zato se ljestvica mogla izvući iz korpusne uporabe, a ne postulirati.
+Ako razina nije popis primjera, čime je onda definirana? Odgovor ovoga okvira jest da se **na svakoj razini primjenjuje ista shema** — entitet sa svojstvom, relacija sa svojim svojstvom, drugi entitet sa svojim svojstvom — i da razinu određuje **tip** svakoga od triju članova (→ pogl. 2.1). Shema nije formalizam nametnut jeziku: morfosintaksa već kodira te uloge, jer imenice i zamjenice označavaju entitete, pridjevi svojstva entiteta, glagoli relacije i procese, a prilozi i prijedlozi svojstva relacija (→ pogl. 2.1). Jezik, dakle, nosi uputu o razini opisa — i zato se ljestvica mogla izvući iz korpusne uporabe, a ne postulirati.
 
 Razina je, dakle, **trostruka shema**: tip entiteta + tip relacije + tip svojstva. Fenomen je na nekoj razini ako su prisutna sva tri člana; ako su prisutna samo dva, pripada nižoj razini.
 
@@ -106,6 +127,29 @@ Razina je, dakle, **trostruka shema**: tip entiteta + tip relacije + tip svojstv
 
 *(Skraćeni prikaz; pune relacijske sheme vode se u repozitoriju knjige.)*
 
+**Gdje se koja razina obrađuje u ovoj knjizi.** Ljestvica nije samo popis nego i **karta**: svaka razina ima svoje mjesto na kojemu se mjeri ili opovrgava, i to je najkraći put od okvira do primjene.
+
+| razina | tipičan primjer | gdje se obrađuje |
+|---|---|---|
+| 1 Existence | kamen, broj, praznina | 1.1, 2.7 |
+| 2 Emergence | nastanak cjeline iz dijelova | 1.2, 3.1–3.3 |
+| 3 MaterialStructure | sastav tvari, dio i cjelina | 3.1, 4.2 |
+| 4 Spatial | „uz", „iznad", obuhvaćanje | 5.2 |
+| 5 Force | guranje, pritisak | 5.2 |
+| 6 Motion | putanja, brzina | 5.2 |
+| 7 SequenceActivity | slijed koraka, recept, obred | 6.3, 11.1 |
+| 8 InformationSystem | oznaka koja nosi razliku, znak, vektorski zapis | 4.2, 9.2 |
+| 9 Perception | opažanje predmeta | 10.2, 11.2 |
+| 10 Affect | strah, radost — kao mreža leksema | 6.4, 6.6 |
+| 11 Cognition | pojam, mentalna reprezentacija | 6.6, 11.4 |
+| 12 SocIdentity | ime, uloga, račun, ključ | 8.4, 14.1 |
+| 13 SocBehaviourInteraction | uzvraćanje, koordinacija, predaja zadatka | 8.3, 14.2 |
+| 14 SocCommunication | adresirana poruka s prepoznatom namjerom | 7.5, 13.5, 14.3 |
+| 15 SocCulturalInstitution | novac, granica, diploma, pravilo sa sankcijom | 8.1, 8.7, 14.4 |
+| 16 CulturalModel | žanr, kanon, vrijednosti koje zajednica predaje | 8.3, 15.1 |
+
+**Kako se karta rabi.** Ona nije sadržaj nego **putokaz**: kad u nekom poglavlju naiđeš na tvrdnju o razini, ovdje je mjesto na kojemu se ta razina mjeri, opovrgava ili u koje se upire. Praznina u ovoj karti značila bi da razina nije obrađena — a to bi bio nalaz o knjizi, ne o svijetu.
+
 Operacionalizacija je u tome da se shema pretvara u **kontrolnu listu**. Uzmimo razinu 14, koja u ovoj knjizi nosi najviše tereta. Da bi nešto bio komunikacijski čin, moraju biti zadovoljena četiri uvjeta: (a) **adresiranje** — postoji izvor i primatelj, a izraz je njima usmjeren (deiksa, dijaloške oznake, obrasci izmjene); (b) **namjera** — izvor želi da primatelj prepozna njegovu namjeru upravo time što ju je prepoznao (Grice 1957; Harris 1981); (c) **zajednički artefakt** — postoji nešto treće na što se oba sudionika odnose (tekst, dokument, kontekst; Clark 1996; usp. Clark & Chalmers 1998; Hutchins 1995); (d) **konvencija** — postoji obrazac koji sudionici dijele i koji omogućuje da se izraz potvrdi ili ispravi. Prvi, treći i četvrti uvjet mogu se, u načelu, zadovoljiti i čisto distribucijskim opisom; drugi se ne može. Zato je tvrdnja o razini 14 nosiva tvrdnja knjige, i zato sedmo poglavlje mora pokazati da se drugi uvjet u podacima razlikuje od ostalih — ili priznati da se ne razlikuje.
 
 Primjer pokazuje kako shema radi. Ispis vremenske prognoze: kao niz oznaka koje nose razliku o stanju okoline to je razina 8, a kao poruka upućena čitatelju s namjerom da nešto poduzme to je razina 14 — razlika nije u količini teksta, nego u prisutnosti adresata i namjere.
@@ -125,15 +169,15 @@ Isto pravilo razdvaja psihološke razine. Opažanje, afekt i kognicija imaju tri
 
 Zašto onda ne pet razina? Zato što bi se time izgubilo jedino što pojam razine čini korisnim: unutar materijalne domene položaj, sila, gibanje i red imaju različite tipove svojstava, pa model s pet razina ne bi razlikovao loptu koja se kotrlja od ruke koja ju gura. Domene su podjela po vrsti ovisnosti, a ne po tipu svojstva, i zato ne mogu preuzeti posao razina.
 
-Zašto ne sto razina? Zato što bi se među stotinu razina našla najmanje dva skupa s istim tipom entiteta, relacije i svojstva, i test spajanja vratio bi ih zajedno. Stotinu razina nije ljestvica, nego popis tema, a popis se ne može ni provjeriti ni oboriti. Broj šesnaest tako je **rezultat dvaju testova primijenjenih na korpusno izvučene entitete, svojstva i relacije** (Perak, OMLCC - izlaganja 2017a; 2017b), a ne tvrdnja o prirodi. Ako se na novim podacima pokaže da neka razina nema vlastiti tip svojstva, ona se spaja; ako se pokaže da neka razina sadrži dva tipa, ona se razdvaja. Isti test odlučuje i o tome je li šesnaest konačan broj.
+Zašto ne sto razina? Zato što bi se među stotinu razina našla najmanje dva skupa s istim tipom entiteta, relacije i svojstva, i test spajanja vratio bi ih zajedno. Stotinu razina nije ljestvica, nego popis tema, a popis se ne može ni provjeriti ni oboriti. Broj šesnaest tako je **rezultat dvaju testova primijenjenih na korpusno izvučene entitete, svojstva i relacije** (→ pogl. 2.1), a ne tvrdnja o prirodi. Ako se na novim podacima pokaže da neka razina nema vlastiti tip svojstva, ona se spaja; ako se pokaže da neka razina sadrži dva tipa, ona se razdvaja. Isti test odlučuje i o tome je li šesnaest konačan broj.
 
 ## 2.5 Granice modela: što OMLCC tvrdi, a što ne tvrdi
 
 Svaki okvir mora reći gdje mu prestaje doseg. OMLCC tvrdi sljedeće:
 
 1. Da se u svakome fenomenu mogu razlučiti tip svojstva i tip relacije, i da ti tipovi tvore konačan, uređen skup unutar kojega vrijedi **pretpostavljanje**, a ne vrijednost ni veličina: viša razina pretpostavlja nižu, a niža se ne izvodi iz više (Anderson 1972).
-2. Da podjela na tri domene slijedi vrstu ovisnosti (Searle 1995; 2010), dok su razrada na šesnaest razina i njihove relacijske sheme autorov doprinos (Perak, OMLCC - izlaganja 2017a; 2017b).
-3. Da se razine mogu **čitati iz podataka**, jer morfosintaksa kodira uloge entiteta, svojstava i relacija (Perak, OMLCC - izlaganja 2017a; 2017b); to se u četvrtom poglavlju pretvara u mjerni postupak.
+2. Da podjela na tri domene slijedi vrstu ovisnosti (Searle 1995; 2010), dok su razrada na šesnaest razina i njihove relacijske sheme autorov doprinos (→ pogl. 2.1).
+3. Da se razine mogu **čitati iz podataka**, jer morfosintaksa kodira uloge entiteta, svojstava i relacija (→ pogl. 2.1); to se u četvrtom poglavlju pretvara u mjerni postupak.
 4. Da se cijeli okvir drži na **slaboj emergenciji**: makrosvojstvo je izvedivo iz mikrodinamike, ali samo simulacijom (Bedau 1997), i nigdje se ne traži jaka emergencija (Chalmers 2006).
 
 A ovo su stvari koje **ne** tvrdi:
@@ -146,7 +190,7 @@ A ovo su stvari koje **ne** tvrdi:
 6. **Ne tvrdi da su društvene razine 12–16 prisutne u jezičnome modelu.** To je otvoreno pitanje četrnaestoga poglavlja; ovdje se tvrdi samo da okvir mora biti takav da tu razliku učini provjerljivom.
 7. **Ne tvrdi ništa o svijesti ni o moralnome statusu.** „Agent" je sistemska uloga, a ne izjava o unutrašnjosti, i ta je ograda dio same definicije.
 
-Dvije su tehničke granice koje treba zapisati. Prva: relacijska je shema parna, pa relacije višega reda — one među trojkama i skupinama, koje mijenjaju dinamiku drukčije od zbroja parnih veza (Battiston i dr. 2021) — nisu obuhvaćene. Razgovor trojice sudionika nije zbroj triju dvostranih razgovora: to je otvoreni zadatak, a ne rezultat. Druga: ljestvica je izvučena iz korpusne uporabe odozdo prema gore (Perak, OMLCC - izlaganja 2017a; 2017b), pa je prije svega tvrdnja o jeziku, a tek zatim tvrdnja o svijetu. Prednost je što se mogla provjeriti na podacima, a rizik što nije isključeno da dijelom odražava osobitosti hrvatske morfologije. **❓ nepotvrđeno:** nemam mjerenje koje pokazuje da se istih šesnaest tipova svojstava dâ izvući iz tipološki različitoga korpusa; replikacija na drugim jezicima zato je test, a ne ukras. S istom se ogradom navode i radovi koji razrađuju okvir: **Status okvira (provjereno 14. 9. 2026.):** OMLCC dosad **nije objavljen integralno**. Razine su izložene na dvama izlaganjima: *Emergence of Social Reality in the Ontological Model of the Lexical Concepts and Constructions* (John Searle Symposium, Rijeka, 17. 5. 2017.) i *Emergent Structures in the Ontological Model of the Lexical Concepts and Constructions* (RaAM Specialized Seminar „Ecological Cognition“, Odense, 4. 5. 2017.), a dijelovi okvira objavljeni su u radovima Ban Kirigin & Perak 2020 i Brdar, Brdar-Szabó & Perak 2020. Citiranje zato ide na izlaganja (2017a; 2017b) i na objavljene dijelove.
+Dvije su tehničke granice koje treba zapisati. Prva: relacijska je shema parna, pa relacije višega reda — one među trojkama i skupinama, koje mijenjaju dinamiku drukčije od zbroja parnih veza (Battiston i dr. 2021) — nisu obuhvaćene. Razgovor trojice sudionika nije zbroj triju dvostranih razgovora: to je otvoreni zadatak, a ne rezultat. Druga: ljestvica je izvučena iz korpusne uporabe odozdo prema gore (→ pogl. 2.1), pa je prije svega tvrdnja o jeziku, a tek zatim tvrdnja o svijetu. Prednost je što se mogla provjeriti na podacima, a rizik što nije isključeno da dijelom odražava osobitosti hrvatske morfologije. **❓ nepotvrđeno:** nemam mjerenje koje pokazuje da se istih šesnaest tipova svojstava dâ izvući iz tipološki različitoga korpusa; replikacija na drugim jezicima zato je test, a ne ukras. S istom se ogradom navode i radovi koji razrađuju okvir: **Status okvira:** puni podaci stoje u pogl. 2.1 — okvir **nije objavljen integralno**, izložen je na dvama izlaganjima (2017a; 2017b), a objavljeni su mu dijelovi Ban Kirigin & Perak 2020 i Brdar, Brdar-Szabó & Perak 2020.
 
 ## 2.6 Srodni modeli: gdje se OMLCC poklapa, a gdje razilazi
 
@@ -159,8 +203,11 @@ OMLCC nije prva ljestvica razina i ne tvrdi da jest; stoga ga valja postaviti uz
 | Bhaskar (1975) | stratificirana stvarnost | isti realizam; stratum je mehanizam, razina tip svojstva |
 | integrativne razine (Novikoff 1945; Feibleman 1954) | razine organizacije u biologiji | isti postupak; biološka ljestvica nema institucija |
 | Anderson (1972) | razine znanosti | isti epistemološki, nenametljiv stav |
+| sistemske teorije i kibernetika (Wiener 1948; Ashby 1956; Maturana & Varela 1980; Capra & Luisi 2014; Meadows 2008) | razine organizacije, upravljanje, zatvorenost | isti oblik ljestvice i isti naglasak na uređenju; OMLCC dodaje komunikacijsku razinu i pripisivanje, a od njih preuzima **kriterije koje model ne zadovoljava** (→ dodatak H.2) |
+| ANT i teorija asemblaza (Latour 2005; Callon 1984; DeLanda 2006) | mreža ljudi i ne-ljudi | isti predmet (djelovanje ne-ljudi), ali ravna ontologija bez razina: ANT opisuje *da* nešto djeluje, a ne na kojoj razini njegov akt vrijedi (→ dodatak H.3) |
+| Luhmann (1984) | komunikacija kao element društvenoga sustava | potpora smještanju razine 14 kao konstitutivne, uz razliku da sustavi s modelima nisu autopoietični (→ dodatak H.3) |
 
-**Searleove domene.** Podjela na grube, mentalne i institucionalne činjenice (Searle 1995; 2010) ulazi u OMLCC kao okvir domena, a razrada na šesnaest razina i njihove relacijske sheme autorov je doprinos (Perak, OMLCC - izlaganja 2017a; 2017b). Searleove su domene neuređene: razlikuju vrste činjenica, ali ne tvrde da jedna pretpostavlja drugu. OMLCC dodaje uređenje i mjerni kriterij, a obrazac „X broji kao Y u kontekstu C" postaje formula petnaeste razine (Searle 1995; 2010).
+**Searleove domene.** Podjela na grube, mentalne i institucionalne činjenice (Searle 1995; 2010) ulazi u OMLCC kao okvir domena, a razrada na šesnaest razina i njihove relacijske sheme autorov je doprinos (→ pogl. 2.1). Searleove su domene neuređene: razlikuju vrste činjenica, ali ne tvrde da jedna pretpostavlja drugu. OMLCC dodaje uređenje i mjerni kriterij, a obrazac „X broji kao Y u kontekstu C" postaje formula petnaeste razine (Searle 1995; 2010).
 
 Uz domene ovdje valja vidjeti i Searleov vlastiti sklop emergentnih sustava:
 
@@ -176,7 +223,7 @@ Uz domene ovdje valja vidjeti i Searleov vlastiti sklop emergentnih sustava:
 
 **Anderson i ljestvice stupnjeva.** Andersonova hijerarhija znanosti (1972) tvrdi epistemološku neizvedivost, a ne metafizičku novost, i OMLCC zauzima isti, suzdržan stav. Dvije su pak ljestvice srodne, a nisu ljestvice domena. Chalmersova razlika između slabe i jake emergencije (Chalmers 2006) tvori **skalu po deducibilnosti**, ortogonalnu OMLCC-u; budući da knjiga radi samo sa slabom emergencijom, ta se skala u njoj nikada ne pomiče prema jakome kraju. Searleov argument da je manipulacija simbolima nedostatna za značenje (Searle 1980) u terminima ovoga okvira povlači granicu između osme razine i razina 9 odnosno 14 — što je naše čitanje, a ne Searleova tvrdnja o razinama. Tri svijeta Poppera i Ecclesa (Popper & Eccles 1977) prekrivaju se dijelom s prvim dvjema domenama, ali treći svijet, objektivni sadržaji misli, nije zamjena za razine 15 i 16, jer se one određuju zajedničkim priznanjem (Searle 1995; 2010).
 
-Što je onda doprinos OMLCC-a? Četiri stvari, i nijedna nije „prva ljestvica": **operativan kriterij** za izdvajanje razina (odjeljak 2.4), **informacijska razina kao razina**, **komunikacija kao razina (14), a ne kao tema** i **protokol čitanja s podataka**, jer su razine izvedene iz korpusne uporabe, a ne postulirane (Perak, OMLCC - izlaganja 2017a; 2017b).
+Što je onda doprinos OMLCC-a? Četiri stvari, i nijedna nije „prva ljestvica": **operativan kriterij** za izdvajanje razina (odjeljak 2.4), **informacijska razina kao razina**, **komunikacija kao razina (14), a ne kao tema** i **protokol čitanja s podataka**, jer su razine izvedene iz korpusne uporabe, a ne postulirane (→ pogl. 2.1).
 
 ## 2.7 Radni primjer: od rečenice do relacijske sheme
 
@@ -213,16 +260,16 @@ Razina se u ovome okviru ne pogađa po temi iskaza, nego se čita iz njegove mor
 
 ### Sažetak
 
-- **Podjela na tri domene — materijalnu (grube činjenice), psihološku (mentalne činjenice) i društvenu (institucionalne činjenice) — je Searleova (1995; 2010); razrada na šesnaest razina i njihove relacijske sheme autorov su doprinos (Perak, OMLCC - izlaganja 2017a; 2017b).**
+- **Podjela na tri domene — materijalnu (grube činjenice), psihološku (mentalne činjenice) i društvenu (institucionalne činjenice) — je Searleova (1995; 2010); razrada na šesnaest razina i njihove relacijske sheme autorov su doprinos (→ pogl. 2.1).**
 - Domene se razlikuju po **vrsti ovisnosti**, razine po **tipu svojstva i relacije**; zato domena ima tri, a razina šesnaest.
 - Ljestvica je: 1 Existence, 2 Emergence, 3 MaterialStructure, 4 Spatial, 5 Force, 6 Motion, 7 SequenceActivity, 8 InformationSystem (materijalno); 9 Perception, 10 Affect, 11 Cognition (psihološko); 12 SocIdentity, 13 SocBehaviourInteraction, 14 SocCommunication, 15 SocCulturalInstitution, 16 CulturalModel (društveno).
 - Poredak je tvrdnja o **pretpostavljanju**: identitet prije interakcije, interakcija prije komunikacije, komunikacija prije institucija, kulturni model samo povrh institucija.
-- Svaka je razina definirana **relacijskom shemom** — tip entiteta + tip relacije + tip svojstva — a morfosintaksa te uloge kodira: imenice su entiteti, pridjevi svojstva entiteta, glagoli relacije, prilozi i prijedlozi svojstva relacija (Perak, OMLCC - izlaganja 2017a; 2017b).
+- Svaka je razina definirana **relacijskom shemom** — tip entiteta + tip relacije + tip svojstva — a morfosintaksa te uloge kodira: imenice su entiteti, pridjevi svojstva entiteta, glagoli relacije, prilozi i prijedlozi svojstva relacija (→ pogl. 2.1).
 - Razina 14 zahtijeva **adresiranje, namjeru, zajednički artefakt i konvenciju** (Grice 1957; Harris 1981; Clark 1996); namjera je uvjet koji se čisto distribucijski ne može zadovoljiti, i zato je ta razina nosiva tvrdnja knjige.
 - Broj šesnaest **nije odabran**: rezultat je testa spajanja (isti tip svojstva i relacije) i testa razdvajanja (dva tipa svojstva na jednoj razini).
 - Okvir tvrdi organizacijsku shemu i mjerni postupak, a **ne tvrdi** da razine postoje u prirodi, da su potpune, da su vrijednosne ni da viša razina kauzalno određuje nižu (Kim 1999 ostaje ograničenje); isti se entitet može čitati na više razina (Koestler 1967), pa razine nisu kutije u koje stvari pripadaju.
 - U odnosu na Hartmannove slojeve (1940), Bhaskarov stratificirani realizam (1975) i integrativne razine (Novikoff 1945; Feibleman 1954), OMLCC preuzima zakon pretpostavljanja i logiku integracije, a dodaje operativan kriterij, informacijsku razinu, komunikaciju kao razinu i protokol čitanja s podataka.
-- **❓ nepotvrđeno:** replikacija ljestvice na tipološki različitim jezicima nije izmjerena. Sam je okvir dosad izložen na izlaganjima 2017. (2017a; 2017b), a integralna objava tek slijedi.
+- **❓ nepotvrđeno:** replikacija ljestvice na tipološki različitim jezicima nije izmjerena. Sam je okvir dosad izložen na izlaganjima 2017. (→ pogl. 2.1), a integralna objava tek slijedi.
 
 ### Ključni pojmovi
 
@@ -230,4 +277,4 @@ Razina se u ovome okviru ne pogađa po temi iskaza, nego se čita iz njegove mor
 
 ### Literatura poglavlja
 
-Anderson 1972 · Battiston i dr. 2021 · Bedau 1997 · Bhaskar 1975 · Chalmers 2006 · Clark 1996 · Clark & Chalmers 1998 · Elder-Vass 2010 · Emmeche, Køppe & Stjernfelt 1997 · EmoCNet 2019–21 · Feibleman 1954 · Fodor 1975 · Gilbert 1990 · Grice 1957 · Halliday 1978 · Harris 1981 · Hartmann 1940 · Hutchins 1995 · Kim 1999 · Koestler 1967 · Mitchell & Krakauer 2023 · Novikoff 1945 · Perak 2014 · Perak 2017a (izlaganje, John Searle Symposium, Rijeka) · Perak 2017b (izlaganje, RaAM, Odense) · Perak 2020 · Perak 2025 · Ban Kirigin & Perak 2020 · Perak 2026 · Popper & Eccles 1977 · Searle 1980 · Searle 1992 · Searle 1995 · Searle 2010 · Tomasello 2008 · Tuomela 2007
+Anderson 1972 · Ashby 1956 · Ban Kirigin & Perak 2020 · Battiston i dr. 2021 · Bedau 1997 · Bhaskar 1975 · Brdar, Brdar-Szabó & Perak 2020 · Callon 1984 · Capra & Luisi 2014 · Chalmers 2006 · Clark 1996 · Clark & Chalmers 1998 · DeLanda 2006 · Elder-Vass 2010 · Emmeche, Køppe & Stjernfelt 1997 · EmoCNet 2019–21 · Feibleman 1954 · Fodor 1975 · Gilbert 1990 · Grice 1957 · Halliday 1978 · Harris 1981 · Hartmann 1940 · Hutchins 1995 · Kim 1999 · Koestler 1967 · Latour 2005 · Luhmann 1984 · Meadows 2008 · Mitchell & Krakauer 2023 · Novikoff 1945 · Perak 2014 · Perak, OMLCC - izlaganja 2017a; 2017b · Perak 2020 · Perak 2025 · Perak 2026 · Popper & Eccles 1977 · Searle 1980 · Searle 1992 · Searle 1995 · Searle 2010 · Tomasello 2008 · Tuomela 2007 · Wiener 1948

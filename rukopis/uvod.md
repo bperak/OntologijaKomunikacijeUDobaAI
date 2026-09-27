@@ -14,7 +14,7 @@ Iz toga slijedi i ton knjige. Ona ne tvrdi da modeli razumiju, ni da ne razumiju
 
 ## Tri tvrdnje koje knjiga brani
 
-1. **Razine su operativan okvir, ne metafora.** Ontološke razine — tri domene i šesnaest razina (OMLCC) — definirane su **relacijskim shemama** i mogu se čitati iz podataka (→ pogl. 2, 4). Podjela na tri domene — materijalnu (grube činjenice), psihološku (mentalne činjenice) i društvenu (institucionalne činjenice) — je Searleova (1995; 2010); razrada domene na razine i njihove relacijske sheme autorov je doprinos (Perak, OMLCC — izlaganja 2017a; 2017b).
+1. **Razine su operativan okvir, ne metafora.** Ontološke razine — tri domene i šesnaest razina (OMLCC) — definirane su **relacijskim shemama** i mogu se čitati iz podataka (→ pogl. 2, 4). Podjela na tri domene — materijalnu (grube činjenice), psihološku (mentalne činjenice) i društvenu (institucionalne činjenice) — je Searleova (1995; 2010); razrada domene na razine i njihove relacijske sheme autorov je doprinos (→ pogl. 2.1).
 
 2. **Komunikacija je jedna od tih razina (14, SocCommunication) — i ujedno metoda.** Ona je istodobno **objekt** (društveni čin s adresiranjem, prepoznatom namjerom, zajedničkim artefaktom, konvencijom i obvezom; → pogl. 7.5) i **instrument**: sve ostale razine čitaju se iz komunikacijskih podataka, jer su zapisi o uporabi jedina građa koju imamo (→ pogl. 4, 5).
 
@@ -114,7 +114,7 @@ Nijedan od tih testova nije izveden u ovoj knjizi do kraja; knjiga pokazuje kako
 
 ## Kako je rukopis napravljen
 
-Rukopis se razvija iz izlaganja *Elements of Cognition in Complex Language* (Inter-University Centre Dubrovnik, 11. rujna 2026.), uz građu iz doktorske disertacije (Perak 2014) i autorskih radova o OMLCC-u i mrežama značenja (Perak 2017a; 2017b; Ban Kirigin & Perak 2020; Perak & Ban Kirigin 2023). Provjere se pokreću automatski:
+Rukopis se razvija iz izlaganja *Elements of Cognition in Complex Language* (Inter-University Centre Dubrovnik, 11. rujna 2026.), uz građu iz doktorske disertacije (Perak 2014) i autorskih radova o OMLCC-u i mrežama značenja (→ pogl. 2.1; Ban Kirigin & Perak 2020; Perak & Ban Kirigin 2023). Provjere se pokreću automatski:
 
 ```bash
 python kod/check_lit.py             # citati ↔ baza referenci (u oba smjera)

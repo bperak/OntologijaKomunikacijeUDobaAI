@@ -10,7 +10,7 @@ U dvanaestom poglavlju model je postao **entitet** u sustavu — pozicija koja s
 
 Prvo pravilo: **broj razina se ne mijenja.** Novi sudionik ne otvara sedamnaestu razinu, ne pomiče granicu razine 14 i ne ukida nijedan od pet uvjeta. Ono što se mijenja jest *raspored tereta* po tim uvjetima: koji od njih nosi isključivo jedna strana, koji postaje tehnički, a koji ostaje bez nositelja. Zato je ovo poglavlje poglavlje o **uvjetima**, a ne o razinama — i zato je njegova tvrdnja slabija od one koja se obično čita u naslovima o „novoj komunikaciji", a provjerljivija od nje.
 
-Hrvatski okvir o kojem je riječ prethodi ovoj raspravi: OMLCC je izložen 2017. kao ljestvica u kojoj se društvena stvarnost pojavljuje kroz mreže koje nose entitete više razine (Perak, OMLCC - izlaganja 2017a; 2017b). Ništa u tom okviru ne pretpostavlja da su nositelji tih mreža isključivo ljudi; ali ništa ne pretpostavlja ni suprotno. Upravo tu razliku treba izmjeriti, a ne proglasiti.
+Hrvatski okvir o kojem je riječ prethodi ovoj raspravi: OMLCC je izložen 2017. kao ljestvica u kojoj se društvena stvarnost pojavljuje kroz mreže koje nose entitete više razine (→ pogl. 2.1). Ništa u tom okviru ne pretpostavlja da su nositelji tih mreža isključivo ljudi; ali ništa ne pretpostavlja ni suprotno. Upravo tu razliku treba izmjeriti, a ne proglasiti.
 
 Postoje tri konfiguracije, i one se razlikuju po tome **tko snosi trošak nerazumijevanja**.
 

@@ -42,7 +42,7 @@ Iz tog zapisa slijedi nekoliko posljedica koje se lako izgube u razgovoru o „s
 
 ### Veza s trećim i šestim poglavljem
 
-Tu vrijedi stati i pokazati da ovdje nije riječ o novom postupku. U trećem poglavlju mreža se gradila iz **ko-okurencije**: jedinice koje se zajedno pojavljuju ulaze u vezu, a iz ponavljanja te veze izvlači se struktura (Perak 2017a; 2017b; Ban Kirigin & Perak 2020; Ban Kirigin, Bujačić Babić & Perak 2022a). U šestom poglavlju isti je postupak primijenjen na emocije: iz zajedničke pojavnosti leksema u korpusu izrasla je mreža od 125 emocionalnih leksema, a nositelj te mreže nije pojedini um nego korpus (Perak 2020; Perak 2014).
+Tu vrijedi stati i pokazati da ovdje nije riječ o novom postupku. U trećem poglavlju mreža se gradila iz **ko-okurencije**: jedinice koje se zajedno pojavljuju ulaze u vezu, a iz ponavljanja te veze izvlači se struktura (→ pogl. 2.1; Ban Kirigin & Perak 2020; Ban Kirigin, Bujačić Babić & Perak 2022a). U šestom poglavlju isti je postupak primijenjen na emocije: iz zajedničke pojavnosti leksema u korpusu izrasla je mreža od 125 emocionalnih leksema, a nositelj te mreže nije pojedini um nego korpus (Perak 2020; Perak 2014).
 
 Lanac koraka je **isti postupak na trećem materijalu**:
 
@@ -232,7 +232,7 @@ To je točno ista pozicija koju smo zauzeli prema mreži emocija u šestom pogla
 
 ### Što je zajedničko s autorovim okvirom
 
-Taj stav nije nova konstrukcija. U okviru OMLCC-a razine nisu posude nego **uređenja** koja se pojavljuju iz lokalnih veza, a ne dodaju se odozgo (Perak 2017a; 2017b). Emergencija je pritom **slaba**: više se ne može pročitati s niže, ali se njome objašnjava i ne uvodi se kao njezin uzrok (→ pogl. 2.4). Isti je stav iznesen i u kondenzatu okvira (Perak 2026) te u knjizi o komunikaciji s agentskim sustavima (Perak 2025).
+Taj stav nije nova konstrukcija. U okviru OMLCC-a razine nisu posude nego **uređenja** koja se pojavljuju iz lokalnih veza, a ne dodaju se odozgo (→ pogl. 2.1). Emergencija je pritom **slaba**: više se ne može pročitati s niže, ali se njome objašnjava i ne uvodi se kao njezin uzrok (→ pogl. 2.4). Isti je stav iznesen i u kondenzatu okvira (Perak 2026) te u knjizi o komunikaciji s agentskim sustavima (Perak 2025).
 
 Ako taj stav primijenimo na model: model **nije razina** — model je entitet i imenuje *gdje*; agent imenuje *što radi*; lanac koraka nije sedamnaesta razina, nego **uređenje unutar postojećeg supstrata** (→ pogl. 12.3).
 

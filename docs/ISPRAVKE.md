@@ -235,3 +235,43 @@ srodnih tradicija** i reference na kanonska djela. Dodano je:
 **Uz to je proširen alat:** `kod/check_lit.py` sada prihvaća i naslov `### Literatura dodatka`, pa
 dodatak H nije samo provjeren u smjeru *citat → baza*, nego mu je i popis provjeren prema tekstu
 (dosad su dodaci s popisom bili izvan smjera A — ista vrsta tišine kao u ISPRAVKU-013).
+
+## ISPRAVAK-014 — radne godine na naslovima slika i ponavljane „polureference" (27. 9. 2026.)
+
+**Što je bilo:** naslovi generiranih slika ljestvice (`fig_omlcc16.png`, `fig_omlcc_s1`–`fig_omlcc_s3.png`)
+nosili su radnu godišnju oznaku **„(Perak 2018; 2019)"** koja **nije referencija** — takve publikacije ne
+postoje (odjeljak K baze). Slika je time nosila citat koji se u knjizi ne smije rabiti, a potpisi su to
+morali objašnjavati („radna oznaka koja nije valjana referencija"), što je čitatelju šum. Uz to je
+puni citat izlaganja stajao **14 puta** u tijelu poglavlja 2, plus u potpisima slika i u sažetku.
+
+**Što je točno:**
+1. skripte `figure/izvori/skripte/fig_omlcc16.py` i `fig_omlcc_stage.py` izmijenjene su (naslov bez
+   godine i bez citata), a slike su **ponovno generirane** — provjereno čitanjem slike: naslov je
+   „OMLCC — 16 levels of ontological complexity"; skripte sada same upisuju u `figure/` repozitorija i
+   izlazni direktorij primaju kao argument;
+2. iz poglavlja 2 uklonjene su **ponavljane polureference**: atribucija se izriče **na jednome mjestu
+   (pogl. 2.1)**, a na svim ostalim mjestima stoji uputa (→ pogl. 2.1);
+3. popis literature poglavlja 2 sveden je na kratki oblik `Perak, OMLCC - izlaganja 2017a; 2017b`,
+   kakav rabe i ostala poglavlja.
+
+**Zašto izlaganje nije izbrisano posve:** okvir **nije objavljen integralno**, pa je izlaganje jedini
+izvor za razradu na šesnaest razina; izbrisati i posljednju uputu značilo bi ostaviti tvrdnju bez
+nositelja. Zato je sačuvano **na jednome mjestu, s punim podacima**, a svugdje drugdje zamijenjeno uputom.
+
+## ZAPIS-003 — drugo poglavlje razrađeno: ime okvira, razine i karta knjige (27. 9. 2026.)
+
+Dopuna koju je zatražio autor („što je to OMLCC i zašto ga tako zovemo; više pažnje razinama; povezati
+sve više"):
+
+- **novi odjeljak 2.1 „Što je OMLCC: ime, oblik i namjena"** — što je okvir u jednoj rečenici, značenje
+  **svake riječi** kratice (*ontološki · model · leksičkih koncepata · konstrukcija*), zašto se u knjizi
+  rabi kratica, i **status okvira s načinom citiranja na jednome mjestu** (dosad razasut po poglavlju);
+  dotadašnji odjeljak o domenama postao je **2.1.1** (numeracija ostalih odjeljaka nepromijenjena, pa
+  se nijedna postojeća uputa u knjizi nije morala mijenjati);
+- **podnaslovi 2.2.1–2.2.3** (materijalna, psihološka, društvena domena) radi čitljivosti i navigacije;
+- **nova karta „Gdje se koja razina obrađuje u ovoj knjizi"** (u 2.3): za svaku od šesnaest razina —
+  tipičan primjer i odjeljci u kojima se mjeri ili opovrgava; to je najkraći put od okvira do primjene;
+- **odjeljak 2.6 proširen** trima srodnim tradicijama koje su u knjigu ušle istoga dana (sistemske
+  teorije i kibernetika, ANT i asemblazi, Luhmann) s uputama na **dodatak H**;
+- popis literature poglavlja 2 proširen s devet jedinica (Ashby, Brdar i sur., Callon, Capra & Luisi,
+  DeLanda, Latour, Luhmann, Meadows, Wiener).
