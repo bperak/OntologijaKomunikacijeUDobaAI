@@ -90,6 +90,8 @@ Poredak je ovdje argument, a ne popis:
 
 Poredak 12 → 13 → 14 → 15 → 16 jest tvrdnja o zavisnosti: identitet prije interakcije, interakcija prije komunikacije, komunikacija prije institucija, a kulturni model samo povrh institucija — kao što ni razina 8 ne može postojati bez nositelja koji nosi razliku.
 
+**Formalni zapis ljestvice.** Ljestvica se može zapisati i strože, i to je učinjeno u **dodatku I**. Svaka je razina **trojka tipova** — **L_n = (E_n, R_n, P_n)**, gdje je E_n skup tipova entiteta, R_n skup tipova relacija s potpisom *R : E_n × E_n → P_n*, a P_n skup tipova svojstava; interakcija se bilježi kao peterokut **(r, p, arnost, smjer, uvjet dopuštenosti; učinak)**, a prijelaz s razine na razinu kao **zakon sastavljanja κ_n : N_n ↦ e_{n+1}{p}** — mreža razine *n* daje entitet razine *n+1* sa svojstvom koje na razini *n* nije postojalo. Ta formalizacija **ne dodaje tvrdnje o svijetu**; ona zapisuje tvrdnje iz ovoga poglavlja i pokazuje gdje se razine razlikuju po **uvjetu dopuštenosti** (→ dodatak I.1, I.6).
+
 Sve tri domene na jednome su prikazu:
 
 ![Slika 2.4 — sve tri domene, razine 1–16](../figure/fig_omlcc_s3.png)
@@ -125,7 +127,7 @@ Razina je, dakle, **trostruka shema**: tip entiteta + tip relacije + tip svojstv
 | 15 SocCulturalInstitution | pravilo, kontekst | broji kao (X kao Y u C) | status, ovlast, sankcija |
 | 16 CulturalModel | zajednica, obrasci | nasljeđuje, tumači | vrijednost, žanr, kanon |
 
-*(Skraćeni prikaz; pune relacijske sheme vode se u repozitoriju knjige.)*
+*(Skraćeni prikaz; potpuni tipizirani zapis svih šesnaest razina — s potpisima relacija, uvjetima dopuštenosti i zakonima sastavljanja — stoji u **dodatku I.2–I.5**; pune relacijske sheme vode se i u repozitoriju knjige.)*
 
 **Gdje se koja razina obrađuje u ovoj knjizi.** Ljestvica nije samo popis nego i **karta**: svaka razina ima svoje mjesto na kojemu se mjeri ili opovrgava, i to je najkraći put od okvira do primjene.
 

@@ -275,3 +275,23 @@ sve više"):
   teorije i kibernetika, ANT i asemblazi, Luhmann) s uputama na **dodatak H**;
 - popis literature poglavlja 2 proširen s devet jedinica (Ashby, Brdar i sur., Callon, Capra & Luisi,
   DeLanda, Latour, Luhmann, Meadows, Wiener).
+
+## ZAPIS-004 — Dodatak I: formalizacija razina (entiteti, interakcije, zakoni sastavljanja) (27. 9. 2026.)
+
+Dopuna koju je zatražio autor („puna razrada s formalizacijom entiteta i interakcija"):
+
+- **novi dodatak I** (*rukopis/dodaci/dodatak-I-formalizacija-razina.md*): oznake i pravila dobroga
+  zapisa (**L_n = (E_n, R_n, P_n)**, relacijska shema *a{E} — [p : r] → b{E}*, mreža N_n, **peterokut
+  interakcije** (r, p, arnost, smjer, uvjet dopuštenosti; učinak), **zakon sastavljanja κ_n : N_n ↦
+  e_{n+1}{p}**, slaba emergencija, dva testa koja određuju broj razina);
+- **tablica potpisa svih šesnaest razina** (E_n, R_n s potpisom, P_n);
+- **za svaku razinu** — formalizacija **entiteta**, formalizacija **interakcije** s uvjetom dopuštenosti,
+  **zakon sastavljanja**, **kako se čita iz podataka** i **što bi je oborilo** (16 blokova u tri domene);
+- **I.6** izvodi četiri posljedice, među njima ključnu: društvene se razine od nižih ne razlikuju po
+  složenosti nego po tome što im je **uvjet dopuštenosti priznanje drugoga** — zato se ne mogu izračunati
+  iz nižih razina, i zato modelu ne nedostaje razina, nego priznanje koje bi ga obvezalo;
+- u poglavlju 2 dodan odlomak „Formalni zapis ljestvice" (u 2.2) i uputa na dodatak I uz tablicu shema
+  (u 2.3); uvod, README i plan sada navode dodatke **A–I**.
+
+**Napomena o vrsti tvrdnje:** formalizacija je **autorova i iznosi se prvi put**; ona **ne dodaje** nove
+tvrdnje o svijetu, nego zapisuje postojeće. Mjere ostaju u tekstu i u `data/fakti.csv`, s naznačenom vrstom.

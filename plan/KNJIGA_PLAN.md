@@ -145,7 +145,7 @@
 **ZAKLJUČAK — Četiri odgovora i jedna posljedica** — ✅ (predavanje 32)
 - 16.5 → zaključno mapiranje na četiri pitanja; što ostaje otvoreno
 
-## 2. DODACI (A–H)
+## 2. DODACI (A–I)
 - **Dodatak A: Postavljanje okruženja** — Python/Colab, vlastiti embedding poslužitelj (Qwen3-Embedding-8B), Gephi, reproducibilnost
 - **Dodatak B: Rječnik pojmova** — ✅ postoji (*definicije-pojmovi.md*, 28 natuknica s verificiranim citatima) → proširiti na ~60 natuknica
 - **Dodatak C: Rješenja vježbi** (🟢🟡)
@@ -154,6 +154,7 @@
 - **Dodatak F: Prigovori i odgovori** — kineska soba, symbol grounding (Harnad), stohastički papige (Bender), antropomorfizam, "samo statistika"
 - **Dodatak G: Kazalo pojmova i imena** — ✅ generirano (*kod/kazalo_build.py*)
 - **Dodatak H: Srodni okviri — 4E kognicija, sistemske teorije, ANT** (dodano 27. 9. 2026.) — što knjiga preuzima od Varele/Clarka/Noëa/Hutta, od kibernetike i sistemskih teorija (Ashby, Maturana & Varela, Rosen, Capra & Luisi, Meadows, Luhmann) te od Latoura, Callona i DeLande, i **gdje se od svakoga razilazi**; završava preglednom tablicom razlika
+- **Dodatak I: Formalizacija razina — entiteti, interakcije, zakoni sastavljanja** (dodano 27. 9. 2026.) — oznake i pravila dobroga zapisa (L_n = (E_n, R_n, P_n), relacijska shema, mreža, peterokut interakcije, zakon sastavljanja κ_n, slaba emergencija), potpisi svih šesnaest razina u jednoj tablici te za **svaku razinu** formalizacija entiteta, formalizacija interakcije s uvjetom dopuštenosti, zakon sastavljanja, način čitanja iz podataka i **što bi je oborilo**
 
 ## 3. STATUS SADRŽAJA
 
