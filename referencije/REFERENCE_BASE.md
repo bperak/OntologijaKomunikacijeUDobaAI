@@ -107,6 +107,8 @@ Status: ✅ provjereno (izvor/datoteka/DOI) · ☑ kanonsko djelo (bibliografski
 - **Hong, K., Troynikov, A. & Huber, J. (2025).** *Context Rot: How Increasing Input Tokens Impacts LLM Performance.* Chroma Technical Report, **14. 7. 2025.**
   https://research.trychroma.com/context-rot
   **Provjereno na primarnom izvoru 17. 9. 2026.** (18 jezičnih modela). U knjizi se navodi kao „Chroma 2025". → pogl. 10.3 ✅
+- **Kim, Y., Gu, K., Park, C. et al. (2026).** Capable language models can outgrow the benefits of collaboration. *Nature Machine Intelligence* **8: 1157–1172.** DOI **10.1038/s42256-026-01268-y** · preprint: arXiv:2512.08296
+  **Provjereno na primarnom izvoru 27. 9. 2026.** (naslov, autori, volumen, stranice, DOI, datumi: zaprimljeno 20. 12. 2025., prihvaćeno 4. 6. 2026., objavljeno **24. 7. 2026.**; licencija CC BY-NC-ND). Kontrolirani pokus: promptovi, alati i proračun računanja **stalni**, mijenjaju se samo **struktura koordinacije** i **sposobnost modela** — 260 konfiguracija, šest mjerila, pet arhitektura, tri obitelji modela. Nalazi koji se citiraju: najjači prediktor ishoda je **uspjeh pojedinačnoga agenta**, a ne broj sudionika; **prag zasićenja sposobnosti ≈ 45 %**; **pojačanje pogreške** bez središnje provjere (17,2× prema 4,4×); **superlinearni komunikacijski trošak** s brojem agenata. **Ograda koju knjiga preuzima doslovno:** autori prag izričito predstavljaju kao **praktično pravilo odabira, a ne kao zakon skaliranja** (interakcija osnovice i veličine tima ne prolazi klasterski robusnu korekciju; provjera na 16 konfiguracija). → pogl. 12.3 ✅
 
 ## H. Protokoli i infrastruktura agenata
 - **Anthropic (2024).** *Introducing the Model Context Protocol.* Specifikacija, rev. **2024-11-05**; objavljeno **25. 11. 2024.**

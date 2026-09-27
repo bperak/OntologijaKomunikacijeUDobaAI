@@ -38,3 +38,11 @@ papercut_window,26,sekundi,GreyNoise (2026; 9. rujna),2026,mjereno,razine/13,tra
 gpqa_saturation,93.8,%,Thompson 2026 (Gemini 3 Pro; 11/2025),2025,mjereno,razine/10,rezultat pri zasićenju GPQA; strop je niži (~80%)
 mmlu_saturation,92.3,%,Thompson 2026 (o1-preview; 9/2024),2024,mjereno,razine/10,rezultat pri zasićenju MMLU; strop ~91%
 fasttext_hr_dim,300,dimenzija,fastText pretrenirani vektori cc.hr.300 (vlastiti mjerni postav),2026,mjereno,razine/10,slika 10.2 izrađena je na ovome instrumentu — nije isti model kao ostatak knjige (Qwen3-Embedding 4096 dim.)
+mas_configs,260,konfiguracija,Kim et al. 2026 (Nature Machine Intelligence 8:1157–1172),2026,mjereno,razine/12,"kontrolirani pokus: 6 mjerila, 5 arhitektura, 3 obitelji modela; promptovi, alati i proračun računanja držani stalnima"
+mas_saturation_threshold,45,%,Kim et al. 2026 (Nat Mach Intell 8:1157–1172),2026,izvedeno,razine/12,"prag zasićenja sposobnosti (empirijski izveden iz prilagođenoga pravila odabira); autori ga nazivaju praktičnim pravilom odabira, NE zakonom skaliranja"
+mas_validation,94,%,Kim et al. 2026,2026,mjereno,razine/12,"točnost predviđanja smjera učinka koordinacije na 16 validacijskih konfiguracija (SWE-bench Verified, Terminal-Bench)"
+mas_validation_configs,16,konfiguracija,Kim et al. 2026,2026,mjereno,razine/12,mali n: provjera praga izvedena je na 16 konfiguracija — dio ograde uz nalaz
+mas_error_amp_independent,17.2,x,Kim et al. 2026,2026,mjereno,razine/12,"pojačanje pogreške u tragovima, arhitektura bez središnje provjere (independent)"
+mas_error_amp_centralized,4.4,x,Kim et al. 2026,2026,mjereno,razine/12,"isto uz središnju provjeru (centralized); razlika je u shemi provjere, ne u broju agenata"
+mas_optimal_redundancy,0.41,R,Kim et al. 2026,2026,mjereno,razine/12,"optimalna redundancija poruka; visoka redundancija (R > 0,50) negativno korelira s uspjehom (r = −0,136)"
+mas_model_r2,0.373,R2,Kim et al. 2026,2026,mjereno,razine/12,"križno validirani R²; 0,413 s mjerom sposobnosti vezanom na zadatak"
