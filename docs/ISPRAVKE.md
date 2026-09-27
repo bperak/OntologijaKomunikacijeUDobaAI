@@ -180,3 +180,35 @@ radove kojih nema (OMLCC je izlaganje 2017a; 2017b, kako stoji i u odjeljku K ba
 4. poglavlja 12 i 14 — ❓ blokovi skraćeni: riješene stavke (bibliografije, Knight) premještene u „Zatvoreno", ostaju samo one koje nisu bibliografske (vrsta brojke; nalazi o odsutnosti).
 
 **Što ostaje otvoreno:** tipološka replikacija ljestvice (pogl. 2), nalazi o odsutnosti (pogl. 11, 14, 15, 16) i Perak 2025 (naslov i izdanje iz autorove bibliografije).
+
+## ISPRAVAK-013 — popis literature 11. poglavlja bio je u drugom formatu, pa nije bio provjeravan (27. 9. 2026.)
+
+**Što je bilo:** 11. poglavlje imalo je popis literature u **vlastitome formatu** — pune bibliografske
+jedinice, jedna po retku s critom (`- Autor, I. (godina). Naslov…`) — dok sva ostala poglavlja rabe
+jednoredni oblik `Autor godina · Autor godina` pod naslovom `### Literatura poglavlja`.
+**Posljedica:** `kod/check_lit.py` čita popis iz **prvoga retka** iza naslova, pa je u tome poglavlju
+provjeravao **1 jedinicu umjesto 24**: ostalih 23 nisu bile ni provjerene prema tekstu (smjer A), a u
+repozitoriju su **dvostruko** stajali podaci koji pripadaju isključivo `referencije/REFERENCE_BASE.md`.
+
+**Dokaz da je riječ o stvarnome propustu, a ne o stilu:** prije ispravka `check_lit.py` je izvješćivao
+*425 jedinica / 909 citata*; nakon pretvorbe **459 jedinica / 926 citata** — razlika od 23 jedinice
+u poglavlju 11 je upravo ono što nije bilo obuhvaćeno.
+
+**Što je ispravljeno:** popis 11. poglavlja pretvoren je u standardni oblik (23 postojeće jedinice +
+novi `Li et al. 2026`), a pune bibliografske jedinice ostaju samo u `REFERENCE_BASE.md`, kako pravilo
+i nalaže. Nakon pretvorbe **sve jedinice prolaze oba smjera provjere** (nijedna nije prijavljena kao
+„u popisu, a ne u tekstu", što je i kontrola da popis nije nabujao).
+
+**Napomena za buduće unose:** nova poglavlja i dodaci moraju rabiti jednoredni oblik; ako se u nekom
+popisu pojavi crita na početku retka, provjera ga **neće** obuhvatiti — a to je tišina koja izgleda
+kao čistoća.
+
+## ZAPIS-001 — dopuna izvora iz *Naturea* i njegovih časopisa (27. 9. 2026.)
+
+Nije ispravak, nego zapis o dopuni: u knjigu je uneseno **dvanaest provjerenih izvora** iz *Naturea*
+i časopisa u njegovu portfelju (odjeljak **M** u `referencije/REFERENCE_BASE.md`; puni popis ondje).
+Svi su pročitani na primarnom izvoru, a bibliografski su podaci provjereni i u **Crossrefu**
+(autori, volumen, stranice, DOI, datumi). Tri najveće dopune nisu citati nego **dokumentirani
+slučajevi**: sustav **Robin** (autorstvo koje je preuzeto), **AISI** (provjera koja je glumljena) i
+**australski upad** (sankcija koja se pokreće) — ušli su u poglavlja 12.5, 13.6 i 15.3 te u studiju
+slučaja (novi slučajevi D i E).

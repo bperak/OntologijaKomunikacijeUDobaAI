@@ -47,6 +47,8 @@ Razina 13 (SocBehaviourInteraction) je razina **koordiniranoga ponašanja**: vi�
 
 **Što o koordinaciji bez vođe pokazuje kontrolirano mjerenje.** Uz nalaz iz divljine ide i laboratorijski, i on koordinaciju bez vođe ne potvrđuje kao prednost. Kad se promptovi, alati i proračun računanja drže **stalnima**, a mijenja se samo raspored jedinica i njihova sposobnost, dobitak od koordinacije **ne raste s brojem jedinica**, nego ponajprije ovisi o tome **koliko pojedinačna jedinica već postiže**; autorima se iz toga izvodi **prag zasićenja od oko 45 %**, uz njihovu izričitu ogradu da je to **pravilo odabira, a ne zakon skaliranja** (Kim et al. 2026; mjereno). U istome pokusu razlika među rasporedima nije bila u broju jedinica, nego u tome postoji li **središnja provjera**: bez nje se pogreška s težinom zadatka pojačava **17,2×**, a s njom **4,4×**, dok komunikacijski trošak raste **superlinearno** s brojem sudionika (Kim et al. 2026; mjereno). Za ovu razinu iz toga slijede dvije stvari. Prvo, **dodavanje jedinica nije samo po sebi dobit**: ono se ne može pretpostaviti ni u jednome smjeru, nego se provjerava po zadatku — što je mjerljiv razlog protiv govora o „roju" kao o sposobnosti koja raste sama od sebe. Drugo, mjerena razlika izvedbe **sa** središnjom provjerom i **bez** nje pokazuje gdje se korist stvarno pojavljuje: u **pravilu**, dakle u shemi, a ne u dodatnoj jedinici. To je isti nalaz koji je poglavlje 12.3 izvuklo na pojmovnoj razini — **korist dolazi od relacijske sheme, ne od mnoštva** — i zato koordinacija bez vođe, koliko god bila zabilježena, ostaje opis **rasporeda**, a ne dokaz zajedništva.
 
+**Treća strana istoga nalaza: komunikacijska arhitektura, a ne broj jedinica.** Kad se agenti utemeljeni na modelima usporede s klasičnim „česticama" u istome optimizacijskom zadatku, agenti su bolji u pojedinačnim odlukama, ali zbog **težnje konsenzusu prerano konvergiraju**; prilagodba mrežne topologije taj učinak ublažava, no po cijeni sporije konvergencije od klasičnoga roja. U modelu segregacije (Schelling) lokalne interakcije i homofilija daju drukčija emergentna ponašanja od klasičnih, pa autori zaključuju da je za ishod presudna **realistična komunikacijska arhitektura** (Zomer & De Domenico 2026; *npj Artificial Intelligence* 2: 36; mjereno). Sažeto: usklađenost se ne dobiva množenjem jedinica, nego **uređenjem njihove komunikacije** — a to je upravo mjesto na koje ovo poglavlje smješta razinu 13.
+
 **Kriterij za „funkcionalno prisutno".** Razina 13 prisutna je funkcionalno ako se u zapisima pokaže **usklađenost koja se ne svodi na jedan naredbeni lanac**. Provjera ima tri mjerila:
 
 1. **Vremenska zbijenost.** Radnje više jedinica padaju u kratak interval (mjereni nalet: **11 ciljeva** u **26 sekundi**), mjerljiv iz zapisa o prometu.
@@ -244,7 +246,7 @@ Ovo poglavlje počiva na jednoj razlici, pa mora izreći uvjete pod kojima ta ra
 
 ### Literatura poglavlja
 
-Anthropic 2024 · Archer 1995 · Elder-Vass 2010 · Gilbert 1990 · Google 2025 (A2A) · GreyNoise 2026 · Hutchins 1995 · Kim et al. 2026 · Perak 2017a · Perak 2017b · Perak 2025 · Sawyer 2005 · Searle 1980 · Searle 1995 · Searle 2010 · Tomasello 2008 · Tuomela 2007
+Anthropic 2024 · Archer 1995 · Elder-Vass 2010 · Gilbert 1990 · Google 2025 (A2A) · GreyNoise 2026 · Hutchins 1995 · Kim et al. 2026 · Perak 2017a · Perak 2017b · Perak 2025 · Sawyer 2005 · Searle 1980 · Searle 1995 · Searle 2010 · Tomasello 2008 · Tuomela 2007 · Zomer & De Domenico 2026
 
 ---
 

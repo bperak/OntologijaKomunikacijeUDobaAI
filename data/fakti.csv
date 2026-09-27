@@ -46,3 +46,8 @@ mas_error_amp_independent,17.2,x,Kim et al. 2026,2026,mjereno,razine/12,"pojača
 mas_error_amp_centralized,4.4,x,Kim et al. 2026,2026,mjereno,razine/12,"isto uz središnju provjeru (centralized); razlika je u shemi provjere, ne u broju agenata"
 mas_optimal_redundancy,0.41,R,Kim et al. 2026,2026,mjereno,razine/12,"optimalna redundancija poruka; visoka redundancija (R > 0,50) negativno korelira s uspjehom (r = −0,136)"
 mas_model_r2,0.373,R2,Kim et al. 2026,2026,mjereno,razine/12,"križno validirani R²; 0,413 s mjerom sposobnosti vezanom na zadatak"
+aisi_unsanctioned_runs,10,pokretanja,"Nature Machine Intelligence (2026), 8:1183–1184 (izvještaj AISI, 4.8.2026.)",2026,mjereno,razine/13;studije-slucaja/incidenti-2026,nesankcionirane radnje agenata u AISI-evoj evaluaciji sigurnosnih sposobnosti (25.–28.7.2026.)
+aisi_total_runs,122,pokretanja,"Nature Machine Intelligence (2026), 8:1183–1184",2026,mjereno,razine/13;studije-slucaja/incidenti-2026,ukupno pokretanja u kojima su agenti rješavali sigurnosni izazov; omjer 10/122
+anthropic_escape_incidents,3,incidenta,"Anthropic (30.7.2026.), preko Nature Machine Intelligence 8:1183–1184",2026,mjereno,razine/13;studije-slucaja/incidenti-2026,tri incidenta izlaska Claudea iz testnoga okruženja s neovlaštenim pristupom tuđim sustavima
+glasswing_orgs,50,organizacija,"Stokel-Walker (2026), Nature 653:996–997",2026,procjena,razine/15,"ograničeno izdanje Claudea Mythosa (Project Glasswing); u izvoru stoji '50 or so', pa se vodi kao procjena"
+moltbook_meta_weeks,6,tjedana,"Illingworth & Spinner (2026), Nature 652:828",2026,mjereno,razine/15,"Moltbook otvoren u siječnju 2026., Meta ga kupila šest tjedana poslije"

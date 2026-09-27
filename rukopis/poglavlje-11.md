@@ -190,6 +190,8 @@ Sva tri kriterija imaju istu logiku: **razlika između procesiranja i mišljenja
 
 **Upozorenje koje dolazi iz literature.** Mahowald i sur. (2024) razdvajaju **jezičnu kompetenciju** od „mišljenja": mjerenje na jezičnim zadacima ne dokazuje da je sposobnost koja se mjeri ista ona koju bismo tražili izvan jezika (Mahowald et al. 2024, *Trends in Cognitive Sciences*). To je točno onaj tip pogreške na koji su upozorili Mitchell i Krakauer (2023): ponašanje na skupu nije isto što i razumijevanje. Za tri kriterija iz ove sekcije to znači jedno: **nijedan od njih ne smije se mjeriti isključivo na jezičnim zadacima.** Ako se CILJ, PROVJERA i ODGOVORNOST mjere razgovorom, mjerimo vještinu razgovora.
 
+**Uz to ide i mjera opreza s druge strane: projekcija.** Kad se ti kriteriji procjenjuju razgovorom, mjeri se i ono što ispitivač **projicira**, a ne samo ono što sustav radi. Li, Teng, Wang i Hu (2026) zato traže razlikovanje **ljudske projekcije od strojnoga znanja**: isti izrazi kojima opisujemo um prikladno opisuju i izlaz sustava, pa se iz opisa ne smije zaključivati o unutrašnjosti (Li et al. 2026; *Communications Psychology* 4: 108). To je ista granica koju poglavlje 12.4 postavlja kao „unutrašnjost nije kriterij" — samo izrečena iz perspektive mjerenja, gdje se najlakše zamijeni s nalazom.
+
 ## 11.5 Zašto ovo nije ni dualizam ni eliminativizam
 
 Dvije su krajnosti između kojih se ta rasprava obično vodi, i obje su za ovaj okvir nezadovoljavajuće — ali iz različitih razloga, i to je važno precizno razlikovati.
@@ -348,26 +350,4 @@ Nacrt koji ne ispunjava točku 5 nije nacrt, nego opis.
 
 ### Literatura poglavlja
 
-- Amodei, D. et al. (2016). *Concrete problems in AI safety*; arXiv:1606.06565.
-- Ban Kirigin, T. & Perak, B. (2020). Corpus-Based Syntactic-Semantic Graph Analysis: Semantic Domains of the Concept *Feeling*. *Rasprave* 46(2): 957–996.
-- Ban Kirigin, T., Bujačić Babić, S. & Perak, B. (2022). Graph-Based Taxonomic Semantic Class Labeling. *Future Internet* 14(12): 383.
-- Bender, E. M. & Koller, A. (2020). Climbing towards NLU. *ACL*.
-- DeepSeek-AI (2025). DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning. *Nature* 645:633–638. DOI 10.1038/s41586-025-09422-z.
-- Krakovna, V. et al. (2020). *Specification gaming* (DeepMind).
-- Lindsey, J. (2025). Emergent introspective awareness in large language models. *Transformer Circuits Thread* (Anthropic).
-- Liu, N. F. et al. (2024). Lost in the middle: how language models use long contexts. *TACL* 12:157–173.
-- Mahowald, K. et al. (2024). Dissociating language and thought in large language models. *Trends in Cognitive Sciences*.
-- Mitchell, M. & Krakauer, D. (2023). The debate over understanding in AI's large language models. *PNAS* 120.
-- Perak, B. (2014). *Opojmljivanje leksema strah u hrvatskome: sintaktičko-semantička analiza* (doktorski rad). Zagreb: Filozofski fakultet Sveučilišta u Zagrebu.
-- Perak, B. (2017a). *Emergence of Social Reality in the Ontological Model of the Lexical Concepts and Constructions* (izlaganje). John Searle Symposium, Rijeka, 17. 5. 2017.
-- Perak, B. (2017b). *Emergent Structures in the Ontological Model of the Lexical Concepts and Constructions* (izlaganje). RaAM Specialized Seminar „Ecological Cognition", Odense, 4. 5. 2017.
-- Perak, B. (2020). Emocije u korpusima. U: *Emocije u hrvatskome jeziku, književnosti i kulturi*. Zagreb: Filozofski fakultet.
-- Perak, B. (2025). *Komunikacija u doba umjetne inteligencije.* Rijeka: Filozofski fakultet u Rijeci. ISBN 978-953-361-147-1.
-- Perak, B. (2026). *Elements of Cognition in Complex Language* (izlaganje). Inter-University Centre, Dubrovnik, 11. 9. 2026.
-- Schaeffer, R. et al. (2023). Are emergent abilities of large language models a mirage? *NeurIPS*.
-- Searle, J. R. (1995). *The Construction of Social Reality.*
-- Searle, J. R. (2010). *Making the Social World.*
-- Shumailov, I. et al. (2024). AI models collapse when trained on recursively generated data. *Nature*.
-- Snell, C. et al. (2024). Scaling LLM test-time compute optimally can be more effective than scaling model parameters; arXiv:2408.03314.
-- Thompson, A. D. (2026). *Mapping IQ, MMLU, MMLU-Pro, GPQA, HLE* (ažurirano 4. 8. 2026.), LifeArchitect.ai. — procjene, označiti kao procjene.
-- Wei, J. et al. (2022). Emergent abilities of large language models. *TMLR*; arXiv:2206.07682.
+Amodei et al. 2016 · Ban Kirigin & Perak 2020 · Ban Kirigin, Bujačić Babić & Perak 2022 · Bender & Koller 2020 · DeepSeek-AI 2025 · Krakovna et al. 2020 · Li et al. 2026 · Lindsey 2025 · Liu et al. 2024 · Mahowald et al. 2024 · Mitchell & Krakauer 2023 · Perak 2014 · Perak 2017a · Perak 2017b · Perak 2020 · Perak 2025 · Perak 2026 · Schaeffer et al. 2023 · Searle 1995 · Searle 2010 · Shumailov et al. 2024 · Snell et al. 2024 · Thompson 2026 · Wei et al. 2022

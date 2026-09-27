@@ -2,7 +2,7 @@
 
 Ovaj dodatak nije popis literature — literatura je u `referencije/REFERENCE_BASE.md`. Ovo je **evidencija brojki**: svaka brojka koja se u knjizi pojavljuje ima ovdje svoj redak, s izvorom, datumom i **vrstom**. Pravilo je iz 4.5: *brojka bez izvora, datuma i vrste nije brojka*, i provjerava se automatski (`kod/check_fakti.py --strict`). Tablica se generira iz `data/fakti.csv` skriptom `kod/evidencija_build.py`.
 
-**Stanje (generirano):** zapisa 35 · izvedeno: 2 · mjereno: 24 · procjena: 9.
+**Stanje (generirano):** zapisa 48 · izvedeno: 3 · mjereno: 35 · procjena: 10.
 
 ---
 
@@ -18,16 +18,27 @@ Uz svaku se brojku bilježi i **datum izvora**, jer se predmet knjige mijenja br
 
 | brojka | jedinica | izvor | datum | gdje se pojavljuje | napomena |
 |---|---|---|---|---|---|
+| 3 | incidenta | Anthropic (30.7.2026.), preko Nature Machine Intelligence 8:1183–1184 | 2026 | `razine/13;studije-slucaja/incidenti-2026` | tri incidenta izlaska Claudea iz testnoga okruženja s neovlaštenim pristupom tuđim sustavima |
 | 125 | leksema | Ban Kirigin & Perak 2020 (Rasprave IHJJ 46(2): 957-996); Perak 2014; EmoCNet 2019-21 | 2020 | `razine/6` | mreža hrvatskih emocionalnih leksema sa 'strah' u središtu |
 | 139255 | neurona | Dorkenwald et al. 2024 (Nature) | 2024 | `razine/10;razine/12` | užiži mozak vinske mušice; video o konektomu navodi pogrešnu brojku 166 |
 | 50000000 | sinapsi | Dorkenwald et al. 2024 (Nature) | 2024 | `razine/10;razine/12` | ~50 milijuna |
 | 395 | organizacija | GreyNoise (2026; 9. rujna) | 2026 | `razine/13` | napadacka kampanja s AI agentima; PaperCut NG/MF |
 | 11 | ciljeva | GreyNoise (2026; 9. rujna) | 2026 | `razine/13` | u jednom naletu (26 sekundi) |
 | 26 | sekundi | GreyNoise (2026; 9. rujna) | 2026 | `razine/13` | trajanje naleta u kojem je pogođeno 11 ciljeva |
+| 6 | tjedana | Illingworth & Spinner (2026), Nature 652:828 | 2026 | `razine/15` | Moltbook otvoren u siječnju 2026., Meta ga kupila šest tjedana poslije |
+| 94 | % | Kim et al. 2026 | 2026 | `razine/12` | točnost predviđanja smjera učinka koordinacije na 16 validacijskih konfiguracija (SWE-bench Verified, Terminal-Bench) |
+| 16 | konfiguracija | Kim et al. 2026 | 2026 | `razine/12` | mali n: provjera praga izvedena je na 16 konfiguracija — dio ograde uz nalaz |
+| 17.2 | x | Kim et al. 2026 | 2026 | `razine/12` | pojačanje pogreške u tragovima, arhitektura bez središnje provjere (independent) |
+| 4.4 | x | Kim et al. 2026 | 2026 | `razine/12` | isto uz središnju provjeru (centralized); razlika je u shemi provjere, ne u broju agenata |
+| 0.41 | R | Kim et al. 2026 | 2026 | `razine/12` | optimalna redundancija poruka; visoka redundancija (R > 0,50) negativno korelira s uspjehom (r = −0,136) |
+| 0.373 | R2 | Kim et al. 2026 | 2026 | `razine/12` | križno validirani R²; 0,413 s mjerom sposobnosti vezanom na zadatak |
+| 260 | konfiguracija | Kim et al. 2026 (Nature Machine Intelligence 8:1157–1172) | 2026 | `razine/12` | kontrolirani pokus: 6 mjerila, 5 arhitektura, 3 obitelji modela; promptovi, alati i proračun računanja držani stalnima |
 | 734 | parametara | Lappalainen et al. 2024 (Nature 634:1132–1140) | 2024 | `razine/10;razine/12` | model aktivnosti 64 tipa neurona iz konektoma |
 | 64 | tipova neurona | Lappalainen et al. 2024 (Nature) | 2024 | `razine/10;razine/12` |  |
 | 9 | sekundi | METR 2025 (arXiv:2503.14499) | 2020 | `razine/10` | vremenski horizont zadatka na 50 % |
 | 16 | sati | METR 2026 (napomena uz graf) | 2026 | `razine/10` | mjerenja iznad 16 h nepouzdana sa sadašnjim skupom zadataka (METR: Measurements above 16 hrs are unreliable with our current task suite) |
+| 122 | pokretanja | Nature Machine Intelligence (2026), 8:1183–1184 | 2026 | `razine/13;studije-slucaja/incidenti-2026` | ukupno pokretanja u kojima su agenti rješavali sigurnosni izazov; omjer 10/122 |
+| 10 | pokretanja | Nature Machine Intelligence (2026), 8:1183–1184 (izvještaj AISI, 4.8.2026.) | 2026 | `razine/13;studije-slucaja/incidenti-2026` | nesankcionirane radnje agenata u AISI-evoj evaluaciji sigurnosnih sposobnosti (25.–28.7.2026.) |
 | 825 | pojavnica | Perak 2014 (doktorski rad: tiskana str. 304) | 2014 | `razine/6` | prijedložni izraz od straha - drugi po čestotnosti |
 | 17 | pojavnica | Perak 2014 (doktorski rad: tiskana str. 369) | 2014 | `razine/6` | konstrukcija mijesati se sa strahom |
 | 131.8 | Mw | Perak 2014 (doktorski rad; sažetak izvornika) | 2014 | `razine/6` | Hrvatski nacionalni korpus |
@@ -52,6 +63,7 @@ Uz svaku se brojku bilježi i **datum izvora**, jer se predmet knjige mijenja br
 | 10-20 | % | Hinton (2024; The Guardian) | 2024 | `razine/16` | izumiranje u ~30 godina - procjena |
 | 10 | % | Hubinger (2026); prenose CNBC i BBC | 2026 | `razine/16` | vjerojatnost "pobiti sve ljude" u desetljeću - procjena stručnjaka; ne mjerenje |
 | 12 | sati | METR 2026 (ispravak 3.3.2026; prvotna procjena 14.5 h od 20.2.2026) | 2026 | `razine/10` | Claude Opus 4.6; METR je ispravio bug u modeliranju i spustio vrijednost s 14.5 h na ~12 h |
+| 50 | organizacija | Stokel-Walker (2026), Nature 653:996–997 | 2026 | `razine/15` | ograničeno izdanje Claudea Mythosa (Project Glasswing); u izvoru stoji '50 or so', pa se vodi kao procjena |
 | 80 | % | Thompson 2026 (Mapping IQ/MMLU/MMLU-Pro/GPQA/HLE; ažurirano 4.8.2026) | 2026 | `razine/10` | GPQA strop ~80% (zavisi od podskupa); zasićen 11/2025 (Gemini 3 Pro 93.8%); Anthropic prestao izvještavati GPQA od 6/2026; ISPRAVAK: u izlaganju je bilo navedeno 90% |
 | 90 | % | Thompson 2026 (Mapping) | 2026 | `razine/10` | zasićen 11/2025 (Gemini 3 Pro 90.1%) |
 | 91 | % | Thompson 2026 (Mapping; analiza UoE) | 2026 | `razine/10` | zasićen 9/2024 (o1-preview 92.3%) |
@@ -61,6 +73,7 @@ Uz svaku se brojku bilježi i **datum izvora**, jer se predmet knjige mijenja br
 
 | brojka | jedinica | izvor | datum | gdje se pojavljuje | napomena |
 |---|---|---|---|---|---|
+| 45 | % | Kim et al. 2026 (Nat Mach Intell 8:1157–1172) | 2026 | `razine/12` | prag zasićenja sposobnosti (empirijski izveden iz prilagođenoga pravila odabira); autori ga nazivaju praktičnim pravilom odabira, NE zakonom skaliranja |
 | 16 | razina | Perak OMLCC (izlaganja 2017a; 2017b; integralno neobjavljen) | 2017 | `razine/2;razine/3;kom2025/3` | autorov okvir; domene prema Searleu |
 | 5000 | x (umnožak) | izvedeno iz context_window_small i context_window_large | 2026 | `razine/10` | 512 → 10 M |
 
@@ -82,6 +95,7 @@ Alat traži brojke s jedinicom u rukopisu i provjerava da za svaku postoji zapis
 
 ## E.7 Izvori podataka korišteni u knjizi
 
+- Anthropic (30.7.2026.), preko Nature Machine Intelligence 8:1183–1184
 - Ban Kirigin & Perak 2020 (Rasprave IHJJ 46(2): 957-996); Perak 2014; EmoCNet 2019-21
 - Dorkenwald et al. 2024 (Nature)
 - FutureHouse (7/2025) preko Thompsona 2026
@@ -89,11 +103,17 @@ Alat traži brojke s jedinicom u rukopisu i provjerava da za svaku postoji zapis
 - GreyNoise (2026; 9. rujna)
 - Hinton (2024; The Guardian)
 - Hubinger (2026); prenose CNBC i BBC
+- Illingworth & Spinner (2026), Nature 652:828
+- Kim et al. 2026
+- Kim et al. 2026 (Nat Mach Intell 8:1157–1172)
+- Kim et al. 2026 (Nature Machine Intelligence 8:1157–1172)
 - Lappalainen et al. 2024 (Nature 634:1132–1140)
 - Lappalainen et al. 2024 (Nature)
 - METR 2025 (arXiv:2503.14499)
 - METR 2026 (ispravak 3.3.2026; prvotna procjena 14.5 h od 20.2.2026)
 - METR 2026 (napomena uz graf)
+- Nature Machine Intelligence (2026), 8:1183–1184
+- Nature Machine Intelligence (2026), 8:1183–1184 (izvještaj AISI, 4.8.2026.)
 - Perak 2014 (doktorski rad: tiskana str. 304)
 - Perak 2014 (doktorski rad: tiskana str. 369)
 - Perak 2014 (doktorski rad; sažetak izvornika)
@@ -102,6 +122,7 @@ Alat traži brojke s jedinicom u rukopisu i provjerava da za svaku postoji zapis
 - Perak OMLCC (izlaganja 2017a; 2017b; integralno neobjavljen)
 - Qwen Team 2025 (arXiv:2506.05176)
 - Searle 1995;2010
+- Stokel-Walker (2026), Nature 653:996–997
 - Thompson 2026 (Gemini 3 Pro; 11/2025)
 - Thompson 2026 (Mapping IQ/MMLU/MMLU-Pro/GPQA/HLE; ažurirano 4.8.2026)
 - Thompson 2026 (Mapping)
