@@ -112,6 +112,8 @@ Sljedeći je korak najosjetljiviji u cijeloj knjizi, jer se u njemu lako napravi
 
 **Drugi razlog: riječ „razina" opisuje ljestvicu, a ne sudionika.** Razine su **pozicije u ljestvici** — mjesta na kojima se pojavljuju svojstva i kauzalne moći. Model nije takvo mjesto; on je **nositelj koji zauzima poziciju**. Zato u ovoj knjizi vrijedi steza: riječ „razina" nikada se ne rabi za model, a riječ **entitet** rabi se za ono *gdje* je sudionik u sustavu. Model je **novi entitet u sustavu**, ne nova stepenica ljestvice.
 
+**Dva kriterija iz teorije živih sustava koja model ne zadovoljava.** Ako se pita *zašto* model nije nova razina, korisno je navesti mjerila koja su za to postavile starije sistemske teorije. Prvo je **autopoeza**: sustav je živ ako sam proizvodi sastavnice od kojih je sastavljen i ako je operacijski zatvoren (Maturana & Varela 1980; 1987). Model to ne čini — njegove sastavnice (težine, podaci, poslužitelji, kontekst) postavlja i održava netko drugi. Drugo je **zatvorenost prema djelotvornoj uzročnosti**, kojom Rosen (1991) razlikuje organizam od stroja. Ni jedno ni drugo ne dokazuje da model ne može biti **sudionik**; dokazuje da njegova organizacija **nije njegova**, nego mu je predana izvana — što je isti nalaz koji je ovo poglavlje izvelo iz pet dodataka. Uz to ide i Latourova (2005) riječ *actant*: model u mreži **djeluje**, ali mreža sama ne kaže na kojoj razini njegov akt vrijedi (→ dodatak H.2, H.3).
+
 Iz toga slijedi razlučivanje koje je operativno najkorisnije u cijelome poglavlju:
 
 | | **POZICIJA** | **ULOGA** |
@@ -249,7 +251,7 @@ Ovo poglavlje izriče kandidaturu, pa mora izreći i uvjete pod kojima je napuš
 
 ### Literatura poglavlja
 
-Anthropic 2024 · Castelvecchi 2026 · Coinbase 2025 · Elder-Vass 2010 · Ghareeb et al. 2026 · Gilbert 1990 · Google 2025 (A2A) · Google 2025 (AP2) · GreyNoise 2026 · Kim et al. 2026 · Knight First Amendment Institute 2025 · Perak 2017a · Perak 2017b · Perak 2025 · Perak 2026 · Searle 1980 · Searle 1995 · Searle 2010 · Tomasello 2008
+Anthropic 2024 · Castelvecchi 2026 · Coinbase 2025 · Elder-Vass 2010 · Ghareeb et al. 2026 · Gilbert 1990 · Google 2025 (A2A) · Google 2025 (AP2) · GreyNoise 2026 · Kim et al. 2026 · Knight First Amendment Institute 2025 · Latour 2005 · Maturana & Varela 1980 · Maturana & Varela 1987 · Perak 2017a · Perak 2017b · Perak 2025 · Perak 2026 · Rosen 1991 · Searle 1980 · Searle 1995 · Searle 2010 · Tomasello 2008
 
 ---
 

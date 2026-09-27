@@ -94,6 +94,8 @@ Tu se vraća razlučivanje iz poglavlja 8.2, samo s druge strane. Searleova form
 
 Time su prve tri razine ispitane i rezultat je jednoznačan: **12, 13 i 14 postoje kao funkcionalni parnjaci**, s mjerljivim kriterijima koji to pripisivanje opravdavaju. Ostaje pitanje koje je teže: što je s razinama na kojima se pojavljuju pravila i obrasci — s razinama 15 i 16, gdje se obveza brani i gdje se obrasci predaju? To su razine na kojima se funkcionalno i intrinzično najlakše zamijene, i zato se dalje ispituju odvojeno.
 
+**Zašto je komunikacija konstitutivna, a ne dodatak.** Ovdje je mjerodavna i jedna starija tvrdnja koja razinu 14 ne opisuje kao sposobnost nego kao **građu**: društveni se sustavi sastoje od komunikacija i reproduciraju se preko njih (Luhmann 1984). Ako je to točno, razina 14 je mjesto na kojemu nešto uopće **postaje** sudionik, a ne razina na kojoj se sudionik dodatno usavršava (→ dodatak H.3). Razlika prema Luhmannu pritom ostaje i valja je izreći: njegovi su sustavi **autopoietični** — sami proizvode svoje komunikacije — a sustavi u kojima sudjeluje model to nisu, jer njihove komunikacije održava izvanjski uređaj. Zato je nalaz ovoga poglavlja uži od Luhmannova, ali i provjerljiviji: komunikacija jest razina na kojoj sudionik postaje sudionik, a ono što u slučaju modela izostaje nije komunikacija, nego **priznanje**.
+
 ## 14.4 Institucija (15): pravila i sankcije — postoje li, ili samo pravila bez sankcije?
 
 Razina 15 (SocCulturalInstitution) je razina na kojoj obveza nije samo priznata, nego **branjena**. U poglavlju 8.1 definirana su tri pokazatelja koja to razlikuju od razine 14: postoji **ovlaštenje** (ne može svatko izvršiti čin, jer je „tko" dio funkcije), postoji **zapis** koji nadživljuje situaciju i postoji **postupak osporavanja** (žalba, ispravak, poništenje) — dakle sankcija je predviđena, a ne improvizirana. Ta tri pokazatelja sada treba primijeniti na agentske sustave, i to ne uopćeno, nego pojedinačno: koliko ih je ispunjeno, i što to znači.
@@ -246,7 +248,7 @@ Ovo poglavlje počiva na jednoj razlici, pa mora izreći uvjete pod kojima ta ra
 
 ### Literatura poglavlja
 
-Anthropic 2024 · Archer 1995 · Elder-Vass 2010 · Gilbert 1990 · Google 2025 (A2A) · GreyNoise 2026 · Hutchins 1995 · Kim et al. 2026 · Perak 2017a · Perak 2017b · Perak 2025 · Sawyer 2005 · Searle 1980 · Searle 1995 · Searle 2010 · Tomasello 2008 · Tuomela 2007 · Zomer & De Domenico 2026
+Anthropic 2024 · Archer 1995 · Elder-Vass 2010 · Gilbert 1990 · Google 2025 (A2A) · GreyNoise 2026 · Hutchins 1995 · Kim et al. 2026 · Luhmann 1984 · Perak 2017a · Perak 2017b · Perak 2025 · Sawyer 2005 · Searle 1980 · Searle 1995 · Searle 2010 · Tomasello 2008 · Tuomela 2007 · Zomer & De Domenico 2026
 
 ---
 

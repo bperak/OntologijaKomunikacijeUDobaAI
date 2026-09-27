@@ -30,6 +30,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REF = os.path.join(ROOT, "referencije", "REFERENCE_BASE.md")
 RUK = os.path.join(ROOT, "rukopis")
 NASLOV_LIT = "### Literatura poglavlja"
+# Dodaci od 27.9.2026. imaju vlastiti popis; bez ovoga bi svaki dodatak s popisom bio
+# provjeren samo u smjeru (B), a njegove jedinice ne bi bile provjerene prema tekstu.
+NASLOVI_LIT = (NASLOV_LIT, "### Literatura dodatka")
 
 # riječi koje nisu prezime
 STOP = {"et", "al", "i", "suradnici", "ur", "in", "the", "of", "and", "SEP", "OMLCC"}
@@ -79,11 +82,12 @@ def main() -> int:
     for put in putanje:
         tekst = norm(open(put, encoding="utf-8").read())
         ime = os.path.relpath(put, RUK)
-        if NASLOV_LIT not in tekst:
+        naslov = next((n for n in NASLOVI_LIT if n in tekst), None)
+        if naslov is None:
             bez_popisa.append(ime)
             tijelo = tekst
         else:
-            tijelo, _, rep = tekst.partition(NASLOV_LIT)
+            tijelo, _, rep = tekst.partition(naslov)
             jedinice = [s.strip() for s in re.split(r"\s*·\s*", rep.split("\n\n", 1)[1].split("\n")[0]) if s.strip()]
 
             # (A) popis -> tekst

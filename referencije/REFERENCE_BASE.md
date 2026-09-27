@@ -199,6 +199,49 @@ Status: ✅ provjereno (izvor/datoteka/DOI) · ☑ kanonsko djelo (bibliografski
 - **Rahwan, I., Cebrian, M., Obradovich, N., Bongard, J. et al. (2019).** Machine behaviour. *Nature* **568: 477–486.** DOI **10.1038/s41586-019-1138-y** (23 autora). → pogl. 15.2 ✅ *(kanonska referenca za „ponašanje strojeva" kao zaseban predmet)*
 - **Li, L., Teng, Y., Wang, Y. & Hu, X. (2026).** Understanding large language models demands distinguishing human projection from machine cognition. *Communications Psychology* **4: 108.** DOI **10.1038/s44271-026-00508-6** (objavljeno 16. 7. 2026.). → pogl. 11.4 ✅
 
+## N. Srodni okviri: 4E kognicija, sistemske teorije i ANT (dodano 27. 9. 2026.)
+
+*(Podaci provjereni 27. 9. 2026. u Crossrefu — autor, izdavač, godina, DOI, stranice — ondje gdje DOI postoji; djela bez DOI-a označena su ☑ kao kanonska, sa standardnim bibliografskim podacima. Puni opis odnosa prema OMLCC-u: **dodatak H**.)*
+
+### N.1 Četiri E: utjelovljena, ugrađena, enaktivna i proširena kognicija
+- **Varela, F. J., Thompson, E. & Rosch, E. (1991).** *The Embodied Mind: Cognitive Science and Human Experience.* Cambridge, MA: MIT Press. DOI **10.7551/mitpress/6730.001.0001** *(obnovljeno izdanje 2017., DOI 10.7551/mitpress/9780262529365.001.0001)* ✅ → dodatak H.1
+- **Clark, A. (1996).** *Being There: Putting Brain, Body, and World Together Again.* Cambridge, MA: MIT Press. DOI **10.7551/mitpress/1552.001.0001** ✅ *(već u bazi; ovdje puni podatak)* → dodatak H.1
+- **Clark, A. (2008).** *Supersizing the Mind: Embodiment, Action, and Cognitive Extension.* New York: Oxford University Press. DOI **10.1093/acprof:oso/9780195333213.001.0001** ✅ → dodatak H.1
+- **Noë, A. (2004).** *Action in Perception.* Cambridge, MA: MIT Press. ☑ → dodatak H.1
+- **Thompson, E. (2007).** *Mind in Life: Biology, Phenomenology, and the Sciences of Mind.* Cambridge, MA: Harvard University Press. ☑ → dodatak H.1
+- **Gallagher, S. (2005).** *How the Body Shapes the Mind.* Oxford: Oxford University Press. DOI **10.1093/0199271941.001.0001** ✅ → dodatak H.1
+- **Hutto, D. D. & Myin, E. (2012).** *Radicalizing Enactivism: Basic Minds without Content.* Cambridge, MA: MIT Press. DOI **10.7551/mitpress/9780262018548.001.0001** ✅ *(često citirano i kao 2013.)* → dodatak H.1
+- **Chemero, A. (2009).** *Radical Embodied Cognitive Science.* Cambridge, MA: MIT Press. DOI **10.7551/mitpress/8367.001.0001** ✅ → dodatak H.1
+- **Menary, R. (ur.) (2010).** *The Extended Mind.* Cambridge, MA: MIT Press. DOI **10.7551/mitpress/8535.001.0001** ✅ → dodatak H.1
+- **Newen, A., de Bruin, L. & Gallagher, S. (ur.) (2018).** *The Oxford Handbook of 4E Cognition.* Oxford: Oxford University Press. DOI **10.1093/oxfordhb/9780198735410.001.0001** ✅ → dodatak H.1
+- **Gibson, J. J. (1979).** *The Ecological Approach to Visual Perception.* Boston: Houghton Mifflin. ☑ *(pretisak: Psychology Press, 2013., DOI 10.4324/9780203767764)* → dodatak H.1
+- **Wilson, M. (2002).** Six views of embodied cognition. *Psychonomic Bulletin & Review* **9(4): 625–636.** DOI **10.3758/BF03196322** ✅ → dodatak H.1
+- **Brooks, R. A. (1991).** Intelligence without representation. *Artificial Intelligence* **47(1–3): 139–159.** DOI **10.1016/0004-3702(91)90053-M** ✅ → dodatak H.1
+- **Engel, A. K., Maye, A., Kurthen, M. & König, P. (2013).** Where's the action? The pragmatic turn in cognitive science. *Trends in Cognitive Sciences* **17(5): 202–209.** DOI **10.1016/j.tics.2013.03.006** ✅ → dodatak H.1
+
+### N.2 Sistemske teorije, kibernetika i teorija živih sustava
+- **Wiener, N. (1948).** *Cybernetics: Or Control and Communication in the Animal and the Machine.* Cambridge, MA: MIT Press. ☑ → dodatak H.2
+- **Ashby, W. R. (1956).** *An Introduction to Cybernetics.* London: Chapman & Hall. DOI **10.5962/bhl.title.5851** ✅ *(digitalizirani primjerak)* → pogl. 1.5, dodatak H.2
+- **Bateson, G. (1972).** *Steps to an Ecology of Mind.* San Francisco: Chandler. ✅ *(pretisak: University of Chicago Press, 2000., DOI 10.7208/chicago/9780226924601.001.0001)* → dodatak H.2
+- **Maturana, H. R. & Varela, F. J. (1980).** *Autopoiesis and Cognition: The Realization of the Living.* Dordrecht: Reidel (Boston Studies in the Philosophy of Science 42). DOI **10.1007/978-94-009-8947-4** ✅ → pogl. 12.3, dodatak H.2
+- **Maturana, H. R. & Varela, F. J. (1987).** *The Tree of Knowledge: The Biological Roots of Human Understanding.* Boston: Shambhala. ☑ → dodatak H.2
+- **Prigogine, I. & Stengers, I. (1984).** *Order out of Chaos: Man's New Dialogue with Nature.* New York: Bantam. ☑ → dodatak H.2
+- **Kauffman, S. A. (1993).** *The Origins of Order: Self-Organization and Selection in Evolution.* New York: Oxford University Press. ☑ → dodatak H.2
+- **Rosen, R. (1991).** *Life Itself: A Comprehensive Inquiry into the Nature, Origin, and Fabrication of Life.* New York: Columbia University Press. ☑ → pogl. 12.3, dodatak H.2
+- **Capra, F. (1996).** *The Web of Life: A New Scientific Understanding of Living Systems.* New York: Anchor. ☑ → dodatak H.2
+- **Capra, F. & Luisi, P. L. (2014).** *The Systems View of Life: A Unifying Vision.* Cambridge: Cambridge University Press. DOI **10.1017/CBO9780511895555** ✅ → pogl. 1.5, dodatak H.2
+- **Meadows, D. H. (2008).** *Thinking in Systems: A Primer* (ur. D. Wright). White River Junction: Chelsea Green. ✅ *(izdanje Routledge 2012., DOI 10.4324/9781849773386)* → pogl. 1.5, dodatak H.2
+- **Luhmann, N. (1984).** *Soziale Systeme: Grundriß einer allgemeinen Theorie.* Frankfurt: Suhrkamp. ✅ *(kritičko izdanje: De Gruyter, 2013., DOI 10.1524/9783050064925)* → pogl. 14.3, dodatak H.3
+
+### N.3 ANT, teorija asemblaza i popularizacija sistemskoga gledanja
+- **Latour, B. (1987).** *Science in Action: How to Follow Scientists and Engineers through Society.* Cambridge, MA: Harvard University Press. ☑ → dodatak H.3
+- **Latour, B. (1991/1993).** *We Have Never Been Modern* (prev. C. Porter). Cambridge, MA: Harvard University Press. ☑ *(francuski izvornik 1991.)* → dodatak H.3
+- **Latour, B. (2005).** *Reassembling the Social: An Introduction to Actor-Network-Theory.* Oxford: Oxford University Press. DOI **10.1093/oso/9780199256044.001.0001** ✅ → pogl. 12.1, dodatak H.3
+- **Callon, M. (1984).** Some elements of a sociology of translation: domestication of the scallops and the fishermen of St Brieuc Bay. *The Sociological Review* **32(1_suppl): 196–233.** DOI **10.1111/j.1467-954X.1984.tb00113.x** ✅ *(često citirano i po pretisku 1986. u zborniku J. Lawa)* → dodatak H.3
+- **DeLanda, M. (2006).** *A New Philosophy of Society: Assemblage Theory and Social Complexity.* London: Continuum. ✅ *(reizdanje Bloomsbury 2019., DOI 10.5040/9781350096769)* → pogl. 2.6, dodatak H.3
+- **Capra, F. (1982).** *The Turning Point: Science, Society, and the Rising Culture.* New York: Simon & Schuster. ☑ → dodatak H.2
+- **Capra, F. (1975).** *The Tao of Physics.* Boulder: Shambhala. ☑ → dodatak H.2 *(popularizacija sistemskoga gledanja; navodi se kao kontekst, ne kao izvor tvrdnji)*
+
 ## K. NEPOTVRĐENO — ne citirati dok se ne provjeri
 - ✅ RIJEŠENO (17. 9. 2026.): mreža *strah* (125 leksema) objavljena je u **Ban Kirigin & Perak 2020** (*Rasprave* 46(2): 957–996) i **Perak 2014** (disertacija); vidi `data/README.md`.
 - ❓ Brojevi projekata: STUDIA · DEMOKRACIJA · FORMALS · Erasmus+ AI4LANG

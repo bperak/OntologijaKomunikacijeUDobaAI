@@ -106,6 +106,8 @@ Iz ove četiri tradicije proizlazi shema koju knjiga rabi:
 
 *(Tablica je skica; u drugom poglavlju svaka od tih rubrika postaje razina s vlastitom relacijskom shemom.)*
 
+**Ljestvica nije samo emergencijska tema.** Razine organizacije imaju i stariju, **sistemsku** liniju, koja se u ovoj knjizi ne smije prešutjeti. Wiener (1948) uvodi kibernetiku kao znanost o **upravljanju i komunikaciji** — isti par pojmova koji se ovdje razdvaja na razinama 13 i 14 — a Ashby (1956) daje zakon **nužne raznolikosti**: regulator mora imati najmanje toliko raznolikosti koliko je ima poremećaj, pa je „viša" razina uvijek i **složenija po uređenju**, a ne samo po imenu. Capra i Luisi (2014) tu liniju sažimaju u tezu da je svojstvo svake razine posljedica **uređenja** mreže procesa, a Meadows (2008) pokazuje da mjesto djelotvornoga zahvata ovisi upravo o razini na koju se djeluje. OMLCC se od te linije razlikuje u jednome: dodaje **komunikacijsku razinu** s priznanjem i obvezom, čega u sistemskim teorijama nema (→ dodatak H.2).
+
 ## 1.6 Najozbiljniji prigovor: zar nije sve ipak samo fizika?
 
 Svaka tvrdnja o razinama mora se suočiti s prigovorom koji je najbolje formulirao Jaegwon Kim (1999): ako je više svojstvo **supervenijentno** — ako nužno slijedi iz nižega, tako da je nemoguće da niže ostane isto, a više se promijeni — onda je svaki kauzalni rad koji pripišemo višemu svojstvu već obavilo niže svojstvo, i to dvaput. To je problem **kauzalnog isključivanja**. Ako više svojstvo ne dodaje kauzalnu moć, ono je epifenomen; ako dodaje, moramo objasniti kako, a da ne prekršimo zatvorenost fizike.
@@ -195,4 +197,4 @@ Postupak koji slijedi služi jednome: da se tvrdnja o razini **provjeri, a ne iz
 
 ### Literatura poglavlja
 
-Alexander 1920 · Anderson 1972 · Bedau 1997 · Bhaskar 1975 · Broad 1925 · Campbell 1974 · Chalmers 2006 · Emmeche, Køppe & Stjernfelt 1997 · Feibleman 1954 · Hartmann 1940 · Kim 1999 · Koestler 1967 · Lewes 1875 · Michaud et al. 2023 · Mill 1843 · Morgan 1923 · Novikoff 1945 · Pigozzi, Goldstein & Levin 2025 · Popper & Eccles 1977 · Schaeffer et al. 2023 · Searle 1992, 1995, 2010 · Simon 1962 · Thompson 2026 · von Bertalanffy 1968 · Wei et al. 2022
+Alexander 1920 · Anderson 1972 · Ashby 1956 · Bedau 1997 · Bhaskar 1975 · Broad 1925 · Campbell 1974 · Capra & Luisi 2014 · Chalmers 2006 · Emmeche, Køppe & Stjernfelt 1997 · Feibleman 1954 · Hartmann 1940 · Kim 1999 · Koestler 1967 · Lewes 1875 · Meadows 2008 · Michaud et al. 2023 · Mill 1843 · Morgan 1923 · Novikoff 1945 · Pigozzi, Goldstein & Levin 2025 · Popper & Eccles 1977 · Schaeffer et al. 2023 · Searle 1992, 1995, 2010 · Simon 1962 · Thompson 2026 · von Bertalanffy 1968 · Wei et al. 2022 · Wiener 1948

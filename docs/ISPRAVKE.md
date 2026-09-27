@@ -212,3 +212,26 @@ Svi su pročitani na primarnom izvoru, a bibliografski su podaci provjereni i u 
 slučajevi**: sustav **Robin** (autorstvo koje je preuzeto), **AISI** (provjera koja je glumljena) i
 **australski upad** (sankcija koja se pokreće) — ušli su u poglavlja 12.5, 13.6 i 15.3 te u studiju
 slučaja (novi slučajevi D i E).
+
+## ZAPIS-002 — dodan sloj srodnih okvira: 4E kognicija, sistemske teorije i ANT (27. 9. 2026.)
+
+Nije ispravak, nego zapis o dopuni koju je zatražio autor: knjizi je nedostajao **teorijski sloj
+srodnih tradicija** i reference na kanonska djela. Dodano je:
+
+- **novi dodatak H** (*rukopis/dodaci/dodatak-H-srodni-okviri.md*) — 4E kognicija (Varela, Thompson
+  i Rosch; Clark; Clark i Chalmers; Noë; Gallagher; Thompson; Chemero; Menary; Hutto i Myin; Newen
+  i sur.; Gibson; Brooks; Wilson; Engel i sur.), sistemske teorije i kibernetika (Wiener; Ashby;
+  Bateson; Maturana i Varela; Prigogine i Stengers; Kauffman; Rosen; Capra; Capra i Luisi; Meadows;
+  Luhmann) te ANT, teorija asemblaza i prevođenje (Latour; Callon; DeLanda) — sa **tablicom „što se
+  preuzima / gdje se razilazi"** i s ishodom da nijedan od tih okvira ne daje **ljestvicu s
+  pripisivanjem**, što je jedini dio na koji knjiga polaže pravo;
+- **četiri odlomka u poglavljima** koja tim okvirima pripadaju: 1.5 (sistemska linija ljestvice),
+  11.5 (4E: modelu od četiriju E pripadaju *ugrađenost* i *proširenost*, ne utjelovljenje),
+  12.3 (autopoeza i zatvorenost prema djelotvornoj uzročnosti kao dva kriterija koja model **ne**
+  zadovoljava) i 14.3 (Luhmann: društvo se sastoji od komunikacija);
+- **33 nove jedinice u bazi referenci** (odjeljak **N**), s DOI-em ondje gdje postoji i s oznakom
+  ☑ za kanonska djela bez DOI-a; svi su podaci provjereni u **Crossrefu** 27. 9. 2026.
+
+**Uz to je proširen alat:** `kod/check_lit.py` sada prihvaća i naslov `### Literatura dodatka`, pa
+dodatak H nije samo provjeren u smjeru *citat → baza*, nego mu je i popis provjeren prema tekstu
+(dosad su dodaci s popisom bili izvan smjera A — ista vrsta tišine kao u ISPRAVKU-013).

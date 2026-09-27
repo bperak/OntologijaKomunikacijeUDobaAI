@@ -145,13 +145,15 @@
 **ZAKLJUČAK — Četiri odgovora i jedna posljedica** — ✅ (predavanje 32)
 - 16.5 → zaključno mapiranje na četiri pitanja; što ostaje otvoreno
 
-## 2. DODACI (A–F)
+## 2. DODACI (A–H)
 - **Dodatak A: Postavljanje okruženja** — Python/Colab, vlastiti embedding poslužitelj (Qwen3-Embedding-8B), Gephi, reproducibilnost
 - **Dodatak B: Rječnik pojmova** — ✅ postoji (*definicije-pojmovi.md*, 28 natuknica s verificiranim citatima) → proširiti na ~60 natuknica
 - **Dodatak C: Rješenja vježbi** (🟢🟡)
 - **Dodatak D: Predlošci** — korpusni upit, evaluacija ugrađivanja, protokol kauzalnog testa, obrazac za mrežnu analizu
 - **Dodatak E: Izvori, podaci i provjera brojki** — Epoch AI, LifeArchitect/Thompson, FlyWire, GPQA/HLE; pravilo: nijedna brojka bez primarnog izvora
 - **Dodatak F: Prigovori i odgovori** — kineska soba, symbol grounding (Harnad), stohastički papige (Bender), antropomorfizam, "samo statistika"
+- **Dodatak G: Kazalo pojmova i imena** — ✅ generirano (*kod/kazalo_build.py*)
+- **Dodatak H: Srodni okviri — 4E kognicija, sistemske teorije, ANT** (dodano 27. 9. 2026.) — što knjiga preuzima od Varele/Clarka/Noëa/Hutta, od kibernetike i sistemskih teorija (Ashby, Maturana & Varela, Rosen, Capra & Luisi, Meadows, Luhmann) te od Latoura, Callona i DeLande, i **gdje se od svakoga razilazi**; završava preglednom tablicom razlika
 
 ## 3. STATUS SADRŽAJA
 

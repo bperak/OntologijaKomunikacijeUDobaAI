@@ -39,14 +39,16 @@ Knjiga ima **uvod** (tri tvrdnje, dvije razlike, falsifikacijski okvir) i **zakl
 ```
 plan/           plan knjige i detaljni nacrt (varijanta B)
 rukopis/        uvod.md · poglavlja 01–16 · zakljucak.md · predgovor.md · studije-slucaja/
-rukopis/dodaci/ dodaci A–G (okruzenje, rjecnik, rjesenja vjezbi, predlosci, evidencija
-                brojki, prigovori i odgovori, kazalo); E i G su GENERIRANI skriptama
+rukopis/dodaci/ dodaci A–H (okruzenje, rjecnik, rjesenja vjezbi, predlosci, evidencija
+                brojki, prigovori i odgovori, kazalo, srodni okviri — 4E kognicija,
+                sistemske teorije, ANT); E i G su GENERIRANI skriptama
 referencije/    verificirana baza referenci (jedini dopušteni izvor citata)
 pojmovnik/      registar pojmova za sve tri knjige + generirani rječnik
-docs/           citiranje, mreža knjiga, upute po poglavljima
+docs/           citiranje, mreža knjiga, upute po poglavljima, ispravci (ISPRAVKE.md)
 kod/            skripte za analize, figure i provjere mreže (check_lit, check_fakti,
-                check_cisto, check_links, check_figure_overflow, mermaid_render,
-                kazalo_build, evidencija_build, pojmovnik_build)
+                check_cisto, check_links, check_refs, check_figure_overflow,
+                mermaid_render, kazalo_build, evidencija_build, sadrzaj_build,
+                pojmovnik_build)
 figure/         figure knjige
 data/           podaci (korpusi, leksikoni) — veliki skupovi se ne verzioniraju
 ```

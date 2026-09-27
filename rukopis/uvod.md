@@ -74,7 +74,7 @@ Knjiga se ne mora čitati redom, ali nijedan redoslijed nije bez cijene, pa evo 
 
 **Tri dopuštena puta kroz knjigu.** (a) *Od pojmova prema primjeni*: 1 → 2 → 7 → 12 → 14. (b) *Od mjerenja prema tvrdnji*: 4 → 6 → 10 → 14 → 16. (c) *Od rasprave prema aparatu*: 16 → 14 → 7 → 2 → 1. Prvi je za čitatelja koji traži okvir, drugi za onoga koji mjeri, treći za onoga koji već ima stav i želi vidjeti stoji li.
 
-**Dodaci.** A — postavljanje okruženja · B — rječnik pojmova · C — rješenja vježbi · D — predlošci · E — izvori, podaci i provjera brojki · F — prigovori i odgovori · G — kazalo pojmova i imena. Uz tekst idu `pojmovnik/RJECNIK.md` (generirani rječnik), `referencije/REFERENCE_BASE.md` (baza referenci) i `data/fakti.csv` (evidencija brojki).
+**Dodaci.** A — postavljanje okruženja · B — rječnik pojmova · C — rješenja vježbi · D — predlošci · E — izvori, podaci i provjera brojki · F — prigovori i odgovori · G — kazalo pojmova i imena · H — srodni okviri (4E kognicija, sistemske teorije, ANT). Uz tekst idu `pojmovnik/RJECNIK.md` (generirani rječnik), `referencije/REFERENCE_BASE.md` (baza referenci) i `data/fakti.csv` (evidencija brojki).
 
 ## Dvije vrste pogreške koje knjiga nastoji izbjeći
 
