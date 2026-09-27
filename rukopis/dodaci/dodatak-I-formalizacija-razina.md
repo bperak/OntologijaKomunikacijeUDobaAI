@@ -38,6 +38,12 @@ koji čitamo: **mreža razine n daje entitet razine n+1 sa svojstvom koje na raz
 
 **Stega.** Riječ *razina* nikada ne označava model; **entitet** imenuje poziciju (*gdje*), **agent** imenuje ulogu (*što radi*); isti entitet može biti čitan na više razina (Koestler 1967).
 
+**Lanac κ na jednome prikazu.** Slika I.1 prikazuje upravo tu tvrdnju: šesnaest razina povezanih zakonima sastavljanja, gdje svaka razina svojoj sljedećoj predaje entitet sa svojstvom koje prije nije postojalo.
+
+![Slika I.1 — lanac zakona sastavljanja κ₁–κ₁₅](../../figure/dijagram-I-1-lanac-kapa.png)
+
+**Slika I.1.** Lanac zakona sastavljanja κ₁–κ₁₅: šesnaest razina u dvama stupcima — 1–8 odozgo prema dolje, 9–16 odozdo prema gore — a svaka kućica nosi naziv razine, pripadni entitet *e_n* i svojstva koja razina donosi; strelice nose oznaku zakona κ_n, a prijelaz s razine 8 na razinu 9 prikazan je vodoravno. U podnožju stoji zapis κ_n : N_n ↦ e(n+1){p} i napomena da se iznad razine 16 petlja zatvara (κ₁₆ ↦ zajednica kao nositelj). Autorov prikaz (→ dodatak I.1).
+
 ## I.2 Potpisi svih šesnaest razina
 
 | razina | L_n = (E_n, R_n, P_n) — tipovi entiteta | R_n — relacija (potpis) | P_n — svojstvo |
@@ -66,56 +72,56 @@ koji čitamo: **mreža razine n daje entitet razine n+1 sa svojstvom koje na raz
 ### L1 — Existence
 **Entitet.** *x* je nosač: bilo što što ulazi u domenu razmatranja. Formalno: x ∈ U, gdje je U domena.
 **Interakcija.** Unarna relacija prisutnosti: *jest(x) = 1* ili *0*. Arnost 1; uvjet dopuštenosti je pripadnost domeni; učinak je uvrštavanje u daljnje zapise.
-**Zakon sastavljanja.** κ₁ nema prethodne mreže — L1 je **polazište**; ε₁ nije definiran.
+**Zakon sastavljanja.** **L1 je polazište**: nema prethodne mreže, pa nema ni κ ni ε — prisutnost se ne izvodi ni iz čega.
 **Kako se čita.** Egzistencijalni iskazi („postoji X", „X ima") i imenice koje uvode sudionika.
 **Što bi je oborilo.** Ako se svaka tvrdnja o postojanju može prevesti u tvrdnju o sastavu („postoji" = „ima dijelove"), razina 1 nije razina nego način govora.
 
 ### L2 — Emergence
 **Entitet.** Dvije vrste: **niža mreža** N₁ i **nova cjelina** *e* koja iz nje nastaje.
 **Interakcija.** *nastaje iz*: N₁ → e. Uvjet dopuštenosti: postoji zakon sastavljanja niže razine; učinak: e dobiva svojstvo koje se ne pripisuje pojedinim dijelovima.
-**Zakon sastavljanja.** κ₁: N₁ ↦ e₂{p}, gdje je *p* **novost relativna prema razini**.
+**Zakon sastavljanja.** κ₁: N₁ ↦ e₂{novost} — mreža nosača daje **novu cjelinu**, sa svojstvom novosti relativne prema razini.
 **Kako se čita.** Glagoli nastajanja i postajanja („nastaje", „postaje", „iz toga proizlazi").
 **Što bi je oborilo.** Ako se novost može izračunati **prečicom** (bez izvođenja), nije riječ o slaboj emergenciji nego o promjeni vrijednosti nižega svojstva — i tada je L2 mjera, a ne razina.
 
 ### L3 — MaterialStructure
 **Entitet.** *dio* p i *cjelina* w; formalno w = (P, ≼) gdje je P skup dijelova, a ≼ relacija dijela prema cjelini.
 **Interakcija.** *isPartOf(p, w)*: arnost 2; uvjet dopuštenosti je pripadnost skupu dijelova; učinak: p doprinosi sastavu w.
-**Zakon sastavljanja.** κ₂: (P, ≼) ↦ w₃{sastav, čvrstoća} — iz rasporeda dijelova nastaje cjelina sa svojstvom sastava.
+**Zakon sastavljanja.** κ₂: N₂ ↦ e₃{sastav, čvrstoća} — iz mreže nastalih cjelina i njihovih sastavnica nastaje **strukturirana cjelina**.
 **Kako se čita.** Genitivne konstrukcije, „sastoji se od", „dio", „cjelina", brojivi i nebrojivi sastav.
 **Što bi je oborilo.** Ako su **sva** svojstva cjeline aditivna (zbroj svojstava dijelova), razina 3 opisuje zbroj, a ne uređenje.
 
 ### L4 — Spatial
 **Entitet.** *figura* f i *tlo* g (Gibson 1979 daje psihološku stranu istoga pojma).
 **Interakcija.** Prostorna relacija s topološkim tipom τ ∈ {kontakt, inkluzija, smjer, udaljenost}: R(f, g; τ). Arnost 2 + tip; učinak: f dobiva položaj **s obzirom na** g.
-**Zakon sastavljanja.** κ₃: raspored figura ↦ konfiguracija₄{položaj, inkluzija}.
+**Zakon sastavljanja.** κ₃: N₃ ↦ e₄{položaj, inkluzija} — iz mreže dijelova i cjelina nastaje **tijelo s položajem**.
 **Kako se čita.** Prijedlozi i prilozi mjesta („u", „na", „uz", „iznad"), padežni oblici mjesta.
 **Što bi je oborilo.** Ako se svi prostorni odnosi mogu svesti na svojstva strukture (L3) bez ostatka, prostorna razina nije zasebna.
 
 ### L5 — Force
 **Entitet.** *djelovatelj* A i *trpitelj* B.
 **Interakcija.** *djeluje na*: A × B → (jakost, smjer); uvjet dopuštenosti je **doseg**; učinak je promjena stanja trpitelja (a ne nužno njegova gibanja).
-**Zakon sastavljanja.** κ₄: mreža sila ↦ djelovatelj₅{jakost, smjer} — sila postaje svojstvo entiteta koji je nosi.
+**Zakon sastavljanja.** κ₄: N₄ ↦ e₅{jakost, smjer} — iz rasporeda tijelâ nastaje **djelovatelj**: sila postaje svojstvo entiteta koji je nosi.
 **Kako se čita.** Kauzativni glagoli, instrumentali, izrazi jakosti („pritisak", „udar", „vuča").
 **Što bi je oborilo.** Ako je sila uvijek samo **opis gibanja** (nema razlike prema L6 u podacima), test razdvajanja spaja L5 i L6.
 
 ### L6 — Motion
 **Entitet.** *tijelo* m i *putanja* π (putanja kao funkcija vremena).
 **Interakcija.** *giba se duž*: m × π → brzina; uvjet je mogućnost putanje; učinak je promjena položaja.
-**Zakon sastavljanja.** κ₅: gibanja ↦ događaj₇{red, trajanje} — kad se gibanja **zapišu kao događaji**, nastaje slijed.
+**Zakon sastavljanja.** κ₅: N₅ ↦ e₆{brzina, putanja} — iz mreže sila i trpiteljâ nastaje **tijelo u gibanju**.
 **Kako se čita.** Glagoli kretanja s prijedlozima putanje, izrazi brzine i trajanja.
 **Što bi je oborilo.** Ako se gibanje može opisati kao niz **stanja položaja** bez ijednoga novog tipa svojstva, L6 je izvedenica L4.
 
 ### L7 — SequenceActivity
 **Entitet.** *događaj* d i *niz* Σ = (d₁, d₂, …) s relacijom uređenja.
 **Interakcija.** *prethodi / slijedi*: par događaja s uvjetom **reda**; učinak je da svojstva niza (ponavljanje, ritam) ne pripadaju pojedinom događaju.
-**Zakon sastavljanja.** κ₆: (Σ, ≺) ↦ oznaka₈{razlika} — kad se slijed **stabilizira**, njegove faze postaju razlikovne za onoga tko ih čita.
+**Zakon sastavljanja.** κ₆: N₆ ↦ e₇{red, trajanje} — kad se gibanja **zapišu kao događaji**, nastaje **slijed**.
 **Kako se čita.** Vremenski veznici („zatim", „prije", „nakon"), glagolski vid, izrazi ponavljanja.
 **Što bi je oborilo.** Ako redoslijed nije ništa drugo do svojstvo trajanja pojedinih dijelova, L7 se svodi na L3–L6.
 
 ### L8 — InformationSystem
 **Entitet.** *oznaka* σ koja stoji u korelaciji sa stanjem okoline *s*.
 **Interakcija.** *nosi informaciju o*: σ × s → razlika. Uvjet dopuštenosti: postoji **razlikovanje** (σ₁ ≠ σ₂ kad s₁ ≠ s₂); učinak: σ postaje upotrebljiva za daljnje odluke, **i kad je nitko ne razumije**.
-**Zakon sastavljanja.** κ₇: razlike u mreži ↦ opažaj₉{razlučivost} — kad razlike imaju **nositelja koji ih dobiva**, nastaje opažaj.
+**Zakon sastavljanja.** κ₇: N₇ ↦ e₈{razlika} — kad se slijed **stabilizira**, njegove faze postaju razlikovne: nastaje **oznaka**.
 **Kako se čita.** Znakovi, oznake, kodovi; rečenice koje pripisuju sadržaj nositelju („oznaka pokazuje", „signal znači").
 **Što bi je oborilo.** Ako je informacija samo struktura (svediva na L3–L7), informacijska razina ne postoji i ljestvica se skraćuje (→ pogl. 2.6, „kako bismo znali da griješimo").
 
@@ -124,21 +130,21 @@ koji čitamo: **mreža razine n daje entitet razine n+1 sa svojstvom koje na raz
 ### L9 — Perception
 **Entitet.** *opažač* q i *objekt opažanja* o.
 **Interakcija.** *opaža*: q × o → razlučivost. Uvjet dopuštenosti je **usmjerenost** (postoji razlika između toga da q prima razliku i da je ne prima); učinak: o postaje **za** q.
-**Zakon sastavljanja.** κ₈: opažaji ↦ afektivno stanje₁₀{valencija} — kad opažaj dobije vrijednosni predznak, nastaje afekt.
+**Zakon sastavljanja.** κ₈: N₈ ↦ e₉{razlučivost} — kad razlike imaju **nositelja koji ih dobiva**, nastaje **opažaj**.
 **Kako se čita.** Perceptivni glagoli („vidi", „čuje", „opaža") s izraženim objektom.
 **Što bi je oborilo.** Ako se razlučivost može objasniti isključivo svojstvima oznake (L8) bez nositelja koji opaža, L9 se svodi na L8.
 
 ### L10 — Affect
 **Entitet.** *doživljavatelj* q i *stanje* α.
 **Interakcija.** *doživljava*: q × α → (valencija, pobuđenost); uvjet je **stanje** u koje sustav dolazi (ne usmjerenost); učinak: α mijenja spremnost na djelovanje.
-**Zakon sastavljanja.** κ₉: afekti ↦ reprezentacija₁₁{struktura} — kad se afektivna stanja **razvrstavaju i imenuju**, nastaje pojam.
+**Zakon sastavljanja.** κ₉: N₉ ↦ e₁₀{valencija, pobuđenost} — kad opažaj dobije vrijednosni predznak, nastaje **afektivno stanje**.
 **Kako se čita.** Emocionalni leksik i njegove mreže; u ovoj knjizi mjereno na mreži od 125 hrvatskih emocionalnih leksema (Ban Kirigin & Perak 2020; → pogl. 6.4).
 **Što bi je oborilo.** Ako se afektivna svojstva mogu svesti na oznake bez nositelja (L8), afekt nije razina nego vrsta oznake.
 
 ### L11 — Cognition
 **Entitet.** *mislitelj* q i *reprezentacija* ρ sa strukturom.
 **Interakcija.** *predočuje*: q × ρ → struktura reprezentacije; uvjet je **mogućnost pogreške** (reprezentacija može ne odgovarati onome što predočuje); učinak: ρ ulazi u zaključivanje.
-**Zakon sastavljanja.** κ₁₀: reprezentacije ↦ nositelj uloge₁₂{ime, uloga} — kad se reprezentacija **stabilizira i pripiše nositelju**, nastaje društveni identitet.
+**Zakon sastavljanja.** κ₁₀: N₁₀ ↦ e₁₁{struktura reprezentacije} — kad se afektivna stanja **razvrstavaju i imenuju**, nastaje **pojam**.
 **Kako se čita.** Izrazi vjerovanja i mišljenja („misli da", „drži da"), propozicijski sadržaji.
 **Što bi je oborilo.** Ako se sva svojstva reprezentacije daju opisati kao svojstva oznake (L8) u kontekstu (a spor o tome je otvoren; Mitchell & Krakauer 2023), L11 je način opisa, a ne razina.
 
@@ -147,35 +153,35 @@ koji čitamo: **mreža razine n daje entitet razine n+1 sa svojstvom koje na raz
 ### L12 — SocIdentity
 **Entitet.** *nositelj* a i *drugi* b; identitet je **pripisana uloga**, ne unutrašnje svojstvo.
 **Interakcija.** *prepoznaje kao*: b × a × uloga → (ime, uloga); uvjet dopuštenosti je **trajnost kroz situacije** (adresa koja nadživljava susret); učinak: a postaje adresabilan.
-**Zakon sastavljanja.** κ₁₁: identiteti ↦ sudionik₁₃{uzajamnost} — kad dva adresabilna nositelja **uzvraćaju**, nastaje interakcija.
+**Zakon sastavljanja.** κ₁₁: N₁₁ ↦ e₁₂{ime, uloga} — kad se reprezentacija **stabilizira i pripiše nositelju**, nastaje **društveni identitet**.
 **Kako se čita.** Imena, titule, uloge, računi, ključevi, konfiguracije; rečenice pripisivanja (→ pogl. 14.1).
 **Što bi je oborilo.** Ako se identitet svaki put uspostavlja izvana i ne postoji adresa koja nadživljava susret, riječ je o oznaci (L8), a ne o identitetu.
 
 ### L13 — SocBehaviourInteraction
 **Entitet.** *sudionik* a i *sudionik* b, svaki s identitetom iz L12.
 **Interakcija.** *uzvraća / suradi*: a × b → (uzajamnost, očekivanje); uvjet je **očekivanje uzvrata** (akcija je smislena samo ako se uzvrat očekuje); učinak: koordinirano ponašanje bez središnjega naredbodavca.
-**Zakon sastavljanja.** κ₁₂: koordinacija ↦ komunikacijski čin₁₄{namjera} — kad koordinacija zahtijeva **adresiranje i prepoznatu namjeru**, nastaje komunikacija.
+**Zakon sastavljanja.** κ₁₂: N₁₂ ↦ e₁₃{uzajamnost} — kad dva adresabilna nositelja **uzvraćaju**, nastaje **interakcija**.
 **Kako se čita.** Uzajamni i recipročni izrazi, protokoli predaje zadatka, mjerenja vremenske zbijenosti i raspodjele (→ pogl. 14.2).
 **Što bi je oborilo.** Ako se usklađenost uvijek svodi na jedan naredbeni lanac, L13 je raspored, a ne interakcija (→ pogl. 14.2, tri mjerila).
 
 ### L14 — SocCommunication
 **Entitet.** *izvor* S, *primatelj* H i *zajednički artefakt* c; komunikacijski čin je trojka (S, H, c) s namjerom.
 **Interakcija.** *adresira i daje da prepozna*: S × H (uz c) → (namjera, konvencija). Uvjet dopuštenosti ima **četiri člana**: adresiranje, prepoznata namjera, zajednički artefakt, konvencija (Grice 1957; Harris 1981; Clark 1996; Hutchins 1995). Učinak: ishod **ovisi o tome je li namjera prepoznata** — što je član koji se čisto distribucijskim opisom ne može zadovoljiti.
-**Zakon sastavljanja.** κ₁₃: komunikacijski činovi + konvencija ↦ statusna funkcija₁₅{status, ovlast} — kad se konvencija **prizna kao obvezujuća**, nastaje pravilo sa sankcijom.
+**Zakon sastavljanja.** κ₁₃: N₁₃ ↦ e₁₄{namjera, konvencija} — kad koordinacija zahtijeva **adresiranje i prepoznatu namjeru**, nastaje **komunikacijski čin**.
 **Kako se čita.** Adresiranje, ispravci, preuzimanje obveze; dijaloški protokol kao mjerni instrument (→ pogl. 13.5).
 **Što bi je oborilo.** Ako se komunikacijski čin dade objasniti bez prepoznate namjere i bez obveze, L14 se svodi na **L8 + L13** i nosiva tvrdnja knjige pada.
 
 ### L15 — SocCulturalInstitution
 **Entitet.** *pravilo* R, *kontekst* C i nositelj a kojemu se pripisuje status; formalno: **X broji kao Y u C** (Searle 1995; 2010).
 **Interakcija.** *broji kao*: (X, Y, C) → (status, ovlast). Uvjet dopuštenosti je **kolektivno priznanje**; učinak je **deontički**: nastaju prava, dužnosti i ovlast da se izrekne posljedica (Tuomela 2007; Elder-Vass 2010; Gilbert 1990).
-**Zakon sastavljanja.** κ₁₄: institucije ↦ obrazac₁₆{vrijednost, žanr} — kad se pravila **prenose kao obrasci tumačenja**, nastaje kulturni model.
+**Zakon sastavljanja.** κ₁₄: N₁₄ ↦ e₁₅{status, ovlast} — kad se konvencija **prizna kao obvezujuća**, nastaje **pravilo sa sankcijom**.
 **Kako se čita.** Pravne i statusne konstrukcije („vrijedi kao", „ima pravo", „dužan je"), zapisi o ispravku ili sankciji (→ pogl. 8.1, 8.7, 14.4).
 **Što bi je oborilo.** Ako institucionalne činjenice možemo opisati kao **puke obrasce uporabe** bez obveze i priznanja, L15 nije potrebna.
 
 ### L16 — CulturalModel
 **Entitet.** *zajednica* G, *obrazac* M i nositelj a; M nije u pojedincu kao cjelina, nego u **mreži koja ga predaje**.
 **Interakcija.** *predaje / nasljeđuje*: G × a → M, uz uvjete **višegeneracijskoga prijenosa, mogućnosti osporavanja i isključenja** (→ pogl. 15.3.3, šest uvjeta).
-**Zakon sastavljanja.** κ₁₅: obrasci ↦ **zajednica kao nositelj** — iznad razine 16 petlja se **zatvara**: entitet koji iz toga proizlazi nije nova razina, nego zajednica koja obrazac nosi (→ pogl. 15.3).
+**Zakon sastavljanja.** κ₁₅: N₁₅ ↦ e₁₆{vrijednost, žanr} — kad se pravila **prenose kao obrasci tumačenja**, nastaje **kulturni model**. Iznad toga petlja se **zatvara**: κ₁₆: N₁₆ ↦ **zajednica kao nositelj**, što nije nova razina (→ pogl. 15.3).
 **Kako se čita.** Žanrovi, kanon, vrijednosti, „kako se svijet čita" u nekoj zajednici; prijenos bez korpusa (→ pogl. 15.1, 15.4).
 **Što bi je oborilo.** Ako se svaki od šest uvjeta prijenosa može ispuniti bez **zajednice** koja priznaje obrazac, razina 16 gubi razliku prema razini 6.
 

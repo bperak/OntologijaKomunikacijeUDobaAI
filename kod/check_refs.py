@@ -35,10 +35,10 @@ def main() -> int:
     dijelovi = {p: open(p, encoding="utf-8").read() for p in datoteke()}
     sve = "\n".join(dijelovi.values())
 
-    # što postoji
-    odjeljci = skup(sve, r"^#{2,4} (\d+\.\d+(?:\.\d+)?)")
-    slike = skup(sve, r"^\*\*Slika (\d+\.\d+)\.\*\*")
-    tablice = skup(sve, r"^\*\*Tablica (\d+\.\d+)[\.\s—–]")
+    # što postoji (rimske oznake: dodaci od 27.9.2026. — I.1, I.2 …)
+    odjeljci = skup(sve, r"^#{2,4} (\d+\.\d+(?:\.\d+)?|[IVX]+\.\d+(?:\.\d+)?)")
+    slike = skup(sve, r"^\*\*Slika (\d+\.\d+|[IVX]+\.\d+)\.\*\*")
+    tablice = skup(sve, r"^\*\*Tablica (\d+\.\d+|[IVX]+\.\d+)[\.\s—–]")
 
     print(f"odjeljaka: {len(odjeljci)} | slika s potpisom: {len(slike)} | tablica s naslovom: {len(tablice)}")
 
@@ -46,15 +46,15 @@ def main() -> int:
     for put, tekst in sorted(dijelovi.items()):
         ime = os.path.relpath(put, RUK)
         # (A) upute na odjeljke
-        for m in re.finditer(r"(?:pogl\.|odjeljak|odjeljku|→)\s*(\d{1,2}\.\d{1,2}(?:\.\d{1,2})?)(?![\d.])", tekst):
+        for m in re.finditer(r"(?:pogl\.|odjeljak|odjeljku|dodatak|→)\s*(\d{1,2}\.\d{1,2}(?:\.\d{1,2})?|[IVX]+\.\d+(?:\.\d+)?)(?![\d.])", tekst):
             if m.group(1) not in odjeljci:
                 nalazi.append((ime, "odjeljak", m.group(1), tekst[max(0, m.start() - 60):m.start() + 40]))
         # (B) slike — preskaču se potpisi (oni su definicija, ne uputa)
-        for m in re.finditer(r"(?<!^\*\*)(?<!\!\[)[Ss]lik[ae]\s+(\d{1,2}\.\d{1,2})(?![\d.])", tekst, re.M):
+        for m in re.finditer(r"(?<!^\*\*)(?<!\!\[)[Ss]lik[ae]\s+(\d{1,2}\.\d{1,2}|[IVX]+\.\d+)(?![\d.])", tekst, re.M):
             if m.group(1) not in slike:
                 nalazi.append((ime, "slika", m.group(1), tekst[max(0, m.start() - 60):m.start() + 40]))
         # (C) tablice
-        for m in re.finditer(r"[Tt]ablic[aeu]\s+(\d+\.\d+)", tekst):
+        for m in re.finditer(r"[Tt]ablic[aeu]\s+(\d+\.\d+|[IVX]+\.\d+)", tekst):
             if m.group(1) not in tablice and m.group(1) not in odjeljci:
                 nalazi.append((ime, "tablica", m.group(1), tekst[max(0, m.start() - 60):m.start() + 40]))
 
