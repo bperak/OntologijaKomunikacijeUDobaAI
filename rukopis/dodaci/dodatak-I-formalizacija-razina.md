@@ -69,6 +69,12 @@ koji čitamo: **mreža razine n daje entitet razine n+1 sa svojstvom koje na raz
 
 ## I.3 Materijalna domena (1–8)
 
+**Materijalna domena na jednome prikazu.** Slika I.2 prikazuje osam razina materijalne domene s istim podacima koje donose potpoglavlja niže — entitet, relaciju s arnošću, uvjet dopuštenosti, učinak, mjesto u podacima i ono što bi razinu oborilo.
+
+![Slika I.2 — materijalna domena](../../figure/dijagram-I-2-materijalna-domena.png)
+
+**Slika I.2.** Materijalna domena (razine 1–8): osam kućica u dva reda — prvi red slijeva nadesno (1–4), drugi zdesna nalijevo (5–8) — a svaka kućica nosi naziv i broj razine, entitet *e_n*, relaciju s arnošću, uvjet dopuštenosti, učinak, mjesto u podacima i što bi razinu oborilo; strelice nose zakone κ₁–κ₇, a κ₄ je prijelaz između redova. U kućici razine 1 stoji napomena da je ona polazište (nema ni κ ni ε). Autorov prikaz (→ dodatak I.3).
+
 ### L1 — Existence
 **Entitet.** *x* je nosač: bilo što što ulazi u domenu razmatranja. Formalno: x ∈ U, gdje je U domena.
 **Interakcija.** Unarna relacija prisutnosti: *jest(x) = 1* ili *0*. Arnost 1; uvjet dopuštenosti je pripadnost domeni; učinak je uvrštavanje u daljnje zapise.
@@ -127,6 +133,12 @@ koji čitamo: **mreža razine n daje entitet razine n+1 sa svojstvom koje na raz
 
 ## I.4 Psihološka domena (9–11)
 
+**Psihološka domena na jednome prikazu.** Slika I.3 prikazuje tri razine psihološke domene s istim podacima koje donose potpoglavlja niže.
+
+![Slika I.3 — psihološka domena](../../figure/dijagram-I-3-psiholoska-domena.png)
+
+**Slika I.3.** Psihološka domena (razine 9–11) u jednome redu: tri kućice, svaka s entitetom *e_n*, relacijom s arnošću, uvjetom dopuštenosti, učinkom, mjestom u podacima i onim što bi razinu oborilo; strelice nose zakone κ₈–κ₁₀, a u podnožju je napomena o ulazu iz materijalne domene (κ₈). Autorov prikaz (→ dodatak I.4).
+
 ### L9 — Perception
 **Entitet.** *opažač* q i *objekt opažanja* o.
 **Interakcija.** *opaža*: q × o → razlučivost. Uvjet dopuštenosti je **usmjerenost** (postoji razlika između toga da q prima razliku i da je ne prima); učinak: o postaje **za** q.
@@ -149,6 +161,12 @@ koji čitamo: **mreža razine n daje entitet razine n+1 sa svojstvom koje na raz
 **Što bi je oborilo.** Ako se sva svojstva reprezentacije daju opisati kao svojstva oznake (L8) u kontekstu (a spor o tome je otvoren; Mitchell & Krakauer 2023), L11 je način opisa, a ne razina.
 
 ## I.5 Društvena domena (12–16)
+
+**Društvena domena na jednome prikazu.** Slika I.4 prikazuje pet razina društvene domene s istim podacima koje donose potpoglavlja niže.
+
+![Slika I.4 — društvena domena](../../figure/dijagram-I-4-drustvena-domena.png)
+
+**Slika I.4.** Društvena domena (razine 12–16): pet kućica u dva reda — prvi red slijeva nadesno (12–14), drugi zdesna nalijevo (15–16) — sa sadržajem kao na slikama I.2 i I.3; strelice nose zakone κ₁₁–κ₁₅, a κ₁₄ je prijelaz između redova. U kućici razine 16 stoji napomena da se iznad nje petlja zatvara (κ₁₆ ↦ zajednica kao nositelj), a u podnožju napomena o ulazu iz psihološke domene (κ₁₁). Autorov prikaz (→ dodatak I.5).
 
 ### L12 — SocIdentity
 **Entitet.** *nositelj* a i *drugi* b; identitet je **pripisana uloga**, ne unutrašnje svojstvo.

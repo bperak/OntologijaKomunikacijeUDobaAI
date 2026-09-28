@@ -295,3 +295,48 @@ Dopuna koju je zatražio autor („puna razrada s formalizacijom entiteta i inte
 
 **Napomena o vrsti tvrdnje:** formalizacija je **autorova i iznosi se prvi put**; ona **ne dodaje** nove
 tvrdnje o svijetu, nego zapisuje postojeće. Mjere ostaju u tekstu i u `data/fakti.csv`, s naznačenom vrstom.
+
+## ISPRAVAK-015 — κ-oznake u dodatku I bile mješovito indeksirane (27. 9. 2026.)
+
+**Što je nađeno.** Dok se crtala slika lanca zakona sastavljanja (→ ZAPIS-005), provjerene su sve
+formulacije zakona κ u dodatku I. Pokazalo se da su **indeksi bili mješoviti**: dio formulacija
+slijedio je definiciju iz I.1 (**κ_n : N_n ↦ e_{n+1}** — mreža razine *n* daje entitet razine *n+1*),
+a dio je uzimao mrežu razine *n+1* (npr. *κ₅: gibanja ↦ događaj₇* uz *κ₆: (Σ, ≺) ↦ oznaka₈*).
+
+**Zašto je to bilo ozbiljno.** Formula je obećanje o tome **što se s čime povezuje**. Mješoviti indeksi
+ne bi bili vidljivi u čitanju, ali bi slika koja crta lanac tvrdila nešto drugo od teksta — čime pada
+pravilo „figura nikada ne smije tvrditi više od teksta".
+
+**Što je učinjeno.** **Svih šesnaest formulacija** prepisano je u jedinstveni oblik **κ_n : N_n ↦ e_{n+1}{p}**,
+sačuvana je svaka dosadašnja pojašnjavajuća rečenica, uz to:
+- **L1** je izričito označen kao **polazište** (nema prethodne mreže, pa nema ni κ ni ε);
+- **iznad razine 16** petlja se **zatvara** (κ₁₆ : N₁₆ ↦ *zajednica kao nositelj*), što nije nova razina.
+
+**Provjera.** Slika I.1 i tri ploče (slike I.2–I.4) sada crtaju točno taj lanac: strelica između razina
+*k* i *k+1* nosi **κ_k**. Nalaz je zabilježen ovdje, a ne prešućen: pogreška se ne briše, nego bilježi.
+
+## ZAPIS-005 — Slike I.1–I.4: lanac κ i tri ploče po domenama (27./28. 9. 2026.)
+
+Autor je zatražio sliku lanca („Ajde, lanac"), a zatim i **tri detaljne ploče** po domenama.
+
+- **Slika I.1** (*figure/dijagram-I-1-lanac-kapa.svg/.png*) — lanac zakona sastavljanja κ₁–κ₁₅:
+  zmijski raspored (1–8 odozgo prema dolje, 9–16 odozdo prema gore), svaka kućica nosi naziv razine,
+  entitet *e_n* i svojstva koja razina donosi; prijelaz 8 → 9 vodoravan; u podnožju zapis
+  κ_n : N_n ↦ e(n+1){p} i zatvaranje petlje iznad 16. U tekstu: uvodna rečenica i potpis u **I.1**,
+  uputa iz **pogl. 2.2**.
+- **Slike I.2–I.4** (*figure/dijagram-I-2-materijalna-domena*, *-I-3-psiholoska-domena*,
+  *-I-4-drustvena-domena*, svaka .svg + .png) — **tri ploče po domenama** (1–8, 9–11, 12–16), u kojima
+  svaka kućica nosi: entitet *e_n*, **relaciju s arnošću**, **uvjet dopuštenosti**, **učinak**,
+  **gdje se čita u podacima** i **što bi razinu oborilo**; strelice nose zakone κ_n, a prijelaz između
+  redova vlastitu oznaku. U tekstu: uvodna rečenica i potpis u **I.3, I.4 i I.5**, uputa iz **pogl. 2.2**.
+
+**Kako su provjerene (dvije razine).** (1) **Mjerenjem** — skripta *figure/izvori/skripte/fig_ploce_domena.py*
+prije spremanja sama mjeri svaki redak teksta i svaku oznaku κ te prijavi svaki izlazak iz kućice ili
+ulazak oznake u kućicu; mjerenje je pokazalo i **stvarnu grešku u rasporedu** (osi nisu ispunjavale
+platno, pa „inčne" mjere nisu bile inči) — popravljeno, nakon čega je nalaza **0**. (2) **Čitanjem slike**
+— `check_figure_overflow` ove slike ne može mjeriti (nema prepoznatljivih kućica), pa su pregledane okom,
+uz ispravke: visina retka sada slijedi veličinu fonta (prije se tekst preklapao), a oznake κ lomljene su
+tako da ostanu unutar razmaka među kućicama.
+
+**Vrsta tvrdnje.** Slike **ne dodaju** nove tvrdnje: svaka kućica ponavlja ono što stoji u dodatku I,
+i to bez ijedne brojke i bez ijedne referencije (citiranje okvira ostaje na jednome mjestu — pogl. 2.1).
