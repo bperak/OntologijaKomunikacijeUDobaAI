@@ -2,7 +2,7 @@
 
 Ovaj dodatak nije popis literature — literatura je u `referencije/REFERENCE_BASE.md`. Ovo je **evidencija brojki**: svaka brojka koja se u knjizi pojavljuje ima ovdje svoj redak, s izvorom, datumom i **vrstom**. Pravilo je iz 4.5: *brojka bez izvora, datuma i vrste nije brojka*, i provjerava se automatski (`kod/check_fakti.py --strict`). Tablica se generira iz `data/fakti.csv` skriptom `kod/evidencija_build.py`.
 
-**Stanje (generirano):** zapisa 48 · izvedeno: 3 · mjereno: 35 · procjena: 10.
+**Stanje (generirano):** zapisa 53 · izvedeno: 3 · mjereno: 35 · procjena: 15.
 
 ---
 
@@ -58,12 +58,17 @@ Uz svaku se brojku bilježi i **datum izvora**, jer se predmet knjige mijenja br
 
 | brojka | jedinica | izvor | datum | gdje se pojavljuje | napomena |
 |---|---|---|---|---|---|
+| 33 | % | Aftenposten (2026), rujan 2026. (vlastita analiza redakcije) | 2026 | `studije-slucaja/incidenti-2026` | više od svakoga trećeg prijedloga u norveškome Stortingu sadrži AI-tekst; među njima i prijedlog SV-a o strožoj regulaciji AI-ja |
 | 51.3 | % | FutureHouse (7/2025) preko Thompsona 2026 | 2025 | `razine/10` | uncontroversially correct strop HLE; Alibaba (2/2026; arXiv:2602.13964v2) navodi 25.6% — u knjizi se navode oba izvora |
 | 10 | % | Grace et al. (2024; JAIR) | 2024 | `razine/16` | 10% do 2027 i 50% do 2047 (anketa 2.778 istraživača) |
 | 10-20 | % | Hinton (2024; The Guardian) | 2024 | `razine/16` | izumiranje u ~30 godina - procjena |
 | 10 | % | Hubinger (2026); prenose CNBC i BBC | 2026 | `razine/16` | vjerojatnost "pobiti sve ljude" u desetljeću - procjena stručnjaka; ne mjerenje |
 | 12 | sati | METR 2026 (ispravak 3.3.2026; prvotna procjena 14.5 h od 20.2.2026) | 2026 | `razine/10` | Claude Opus 4.6; METR je ispravio bug u modeliranju i spustio vrijednost s 14.5 h na ~12 h |
+| 0.0041 | % | Pangram Labs (2026), Pangram 4 Technical Overview, 29.7.2026. | 2026 | `studije-slucaja/incidenti-2026` | tvrdnja proizvođača na vlastitome benchmarku; ≈1 lažno pozitivan na 24.000 dokumenata |
 | 50 | organizacija | Stokel-Walker (2026), Nature 653:996–997 | 2026 | `razine/15` | ograničeno izdanje Claudea Mythosa (Project Glasswing); u izvoru stoji '50 or so', pa se vodi kao procjena |
+| 96 | % | The Dartmouth (2026), 21.9.2026. (analiza alatom Pangram) | 2026 | `studije-slucaja/incidenti-2026` | medijan oznake AI-napisano za op-edove i članke prorektora S. Schnella; protuevidencija o pouzdanosti oznaka |
+| 10 | % | The Economist (2026), 23.9.2026. (analiza alatom Pangram) | 2026 | `studije-slucaja/incidenti-2026` | oznaka detektora: svaka deseta riječ u britanskim parlamentarnim raspravama sastavljena je uz pomoć AI-ja |
+| 75 | % | The Economist (2026), 23.9.2026. (analiza alatom Pangram) | 2026 | `studije-slucaja/incidenti-2026` | najveći udio među britanskim zastupnicima (N. Shastri-Hurst, konzervativac): tri četvrtine istupa označeno kao AI-pisano |
 | 80 | % | Thompson 2026 (Mapping IQ/MMLU/MMLU-Pro/GPQA/HLE; ažurirano 4.8.2026) | 2026 | `razine/10` | GPQA strop ~80% (zavisi od podskupa); zasićen 11/2025 (Gemini 3 Pro 93.8%); Anthropic prestao izvještavati GPQA od 6/2026; ISPRAVAK: u izlaganju je bilo navedeno 90% |
 | 90 | % | Thompson 2026 (Mapping) | 2026 | `razine/10` | zasićen 11/2025 (Gemini 3 Pro 90.1%) |
 | 91 | % | Thompson 2026 (Mapping; analiza UoE) | 2026 | `razine/10` | zasićen 9/2024 (o1-preview 92.3%) |
@@ -95,6 +100,7 @@ Alat traži brojke s jedinicom u rukopisu i provjerava da za svaku postoji zapis
 
 ## E.7 Izvori podataka korišteni u knjizi
 
+- Aftenposten (2026), rujan 2026. (vlastita analiza redakcije)
 - Anthropic (30.7.2026.), preko Nature Machine Intelligence 8:1183–1184
 - Ban Kirigin & Perak 2020 (Rasprave IHJJ 46(2): 957-996); Perak 2014; EmoCNet 2019-21
 - Dorkenwald et al. 2024 (Nature)
@@ -114,6 +120,7 @@ Alat traži brojke s jedinicom u rukopisu i provjerava da za svaku postoji zapis
 - METR 2026 (napomena uz graf)
 - Nature Machine Intelligence (2026), 8:1183–1184
 - Nature Machine Intelligence (2026), 8:1183–1184 (izvještaj AISI, 4.8.2026.)
+- Pangram Labs (2026), Pangram 4 Technical Overview, 29.7.2026.
 - Perak 2014 (doktorski rad: tiskana str. 304)
 - Perak 2014 (doktorski rad: tiskana str. 369)
 - Perak 2014 (doktorski rad; sažetak izvornika)
@@ -123,6 +130,8 @@ Alat traži brojke s jedinicom u rukopisu i provjerava da za svaku postoji zapis
 - Qwen Team 2025 (arXiv:2506.05176)
 - Searle 1995;2010
 - Stokel-Walker (2026), Nature 653:996–997
+- The Dartmouth (2026), 21.9.2026. (analiza alatom Pangram)
+- The Economist (2026), 23.9.2026. (analiza alatom Pangram)
 - Thompson 2026 (Gemini 3 Pro; 11/2025)
 - Thompson 2026 (Mapping IQ/MMLU/MMLU-Pro/GPQA/HLE; ažurirano 4.8.2026)
 - Thompson 2026 (Mapping)

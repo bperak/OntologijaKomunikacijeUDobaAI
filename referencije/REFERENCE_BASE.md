@@ -242,6 +242,23 @@ Status: ✅ provjereno (izvor/datoteka/DOI) · ☑ kanonsko djelo (bibliografski
 - **Capra, F. (1982).** *The Turning Point: Science, Society, and the Rising Culture.* New York: Simon & Schuster. ☑ → dodatak H.2
 - **Capra, F. (1975).** *The Tao of Physics.* Boulder: Shambhala. ☑ → dodatak H.2 *(popularizacija sistemskoga gledanja; navodi se kao kontekst, ne kao izvor tvrdnji)*
 
+## O. Autorstvo, detekcija i AI-tekst u političkoj komunikaciji (dodano 30. 9. 2026.)
+
+**O.1 Primarna analiza i njezina provjera**
+
+- **The Economist (2026).** *AI-written speeches are taking over politics.* The Economist, 23. 9. 2026. (rubrika Britain). Novinska analiza provedena alatom **Pangram**; cijeli tekst provjeren 30. 9. 2026. preko sindikacije (*Hindustan Times*, 27. 9. 2026.) jer je economist.com zaštićen; hrvatski prijevod: *Jutarnji list*, 27. 9. 2026. („Ovo su političari kojima umjetna inteligencija piše govore").
+- **Pangram Labs (2026).** *Pangram 4 Technical Overview.* 29. 7. 2026. Tvrdnje **proizvođača**: 99,66 % točnosti i stopa lažnih pozitiva **0,0041 %** (~1 na 24.000 dokumenata) **na vlastitome benchmarku**; u ovoj se knjizi citira kao tvrdnja proizvođača, ne kao mjerenje.
+- **Jabarian, B. & Imas, A. (2025).** *Artificial Writing and Automated Detection.* BFI Working Paper 2025-116, University of Chicago, 26. 8. 2025. Neovisna provjera četiriju detektora (Pangram, OriginalityAI, GPTZero, RoBERTa); Pangram je jedini koji zadovoljava strog kriterij (FPR ≤ 0,005) uz gotovo nultu stopu pogreške — **na uzorcima koje su autori sami sastavili**.
+- **Aftenposten (2026).** *Mer enn hvert tredje forslag på Stortinget inneholder KI-generert tekst, viser analyse.* Aftenposten, rujan 2026. (Giæver, Eide, Bjørkeng, Gausen, Ringnes i Thoresen). Vlastita analiza redakcije; **neovisna replikacija** obrasca izvan Ujedinjenoga Kraljevstva.
+- **Volkskrant (2026).** *Rob Jetten liet socialemediaberichten door AI schrijven* (10. 9. 2026.); izvještavanje: NOS (2026). Priznanje nizozemskoga premijera.
+
+**O.2 Protuevidencija: koliko oznaka alata vrijedi izvan benchmarka**
+
+- **The Dartmouth (2026).** *Op-eds, academic articles by Provost Santiago Schnell flagged as 'AI-written' by 'near-zero error' AI detector Pangram.* 21. 9. 2026. Medijan oznake **96 %** „AI-napisanoga" teksta.
+- **Semafor (2026).** *AI writing has already begun to appear on op-ed pages.* 26. 8. 2026. Isti pristup primijenjen na novinske kolumne.
+- **Karr, J. A., Khvatskii, G., Hua, T. & Chawla, N. V. (2026).** *Why AI Detection Fails for Academic Integrity.* arXiv:2608.11256 (6. 8. 2026.); prihvaćeno na ACM AI Leadership Summit. Pokazuje razliku između benchmark-ocjena i stvarne uporabe.
+- **Granica koja se ne smije prijeći.** Detektor mjeri **razliku u stilu**, a ne autorstvo: neovisne provjere bilježe i da dio AI-tekstova izmiče oznaci kad se modelu zada oponašanje ljudskoga autora (Jabarian & Imas 2025). Zato se u ovoj knjizi oznaka detektora vodi kao **procjena**, nikad kao mjerenje i nikad kao dokaz namjere.
+
 ## K. NEPOTVRĐENO — ne citirati dok se ne provjeri
 - ✅ RIJEŠENO (17. 9. 2026.): mreža *strah* (125 leksema) objavljena je u **Ban Kirigin & Perak 2020** (*Rasprave* 46(2): 957–996) i **Perak 2014** (disertacija); vidi `data/README.md`.
 - ❓ Brojevi projekata: STUDIA · DEMOKRACIJA · FORMALS · Erasmus+ AI4LANG

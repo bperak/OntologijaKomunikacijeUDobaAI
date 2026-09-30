@@ -196,4 +196,4 @@
   - G.1 Pojmovi
   - G.2 Imena i izvori
 - **Zaključak**
-- **Studija slučaja: incidenti s autonomnim agentskim sustavima (lipanj–rujan 2026.)**
+- **Studija slučaja: AI sustavi u infrastrukturi i javnoj komunikaciji (lipanj–rujan 2026.)**
