@@ -49,7 +49,8 @@ def main():
             # bold_odlomci se NE prijavljuje: skidanje masnoga s tvrdnji je cilj prolaza.
             if k == "bold_odlomci":
                 continue
-            if sa[k] != sb[k] and k != "markeri":
+            # Prijavljuje se samo GUBITAK aparata (uklanjanje je šteta); dodavanje je namjerni zahvat.
+            if sb[k] < sa[k] and k != "markeri":
                 nalazi.append(f"{rel}: struktura {k} {sa[k]} -> {sb[k]}")
         if sb["markeri"] and not sa["markeri"]:
             nalazi.append(f"{rel}: NEOBALANSIRANI ** (novo)")

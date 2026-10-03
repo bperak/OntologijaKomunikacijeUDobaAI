@@ -36,7 +36,7 @@ Iz toga slijedi i obveza koju ova knjiga ostavlja otvorenom, a koja je posve pra
 
 ## Što je ostalo neprovjereno
 
-Knjiga ima **22 otvorene oznake ❓** (stanje 17. rujna 2026.) i one nisu sve iste vrste. Tri su skupine:
+Knjiga ima **23 otvorenih oznaka ❓** (stanje 3. listopada 2026.) i one nisu sve iste vrste. Tri su skupine:
 
 1. **Bibliografska nedovršenost.** Puni podaci (izdanje, datum, mjesto objave) nedostaju za nekoliko unosa iz domene protokola i infrastrukture: MCP (Anthropic 2024), A2A (Google 2025), AP2 i x402 te za Knight First Amendment Institute (2025) i Chroma (2025). Do dopune ti se unosi u tekstu navode kratko, a u `referencije/REFERENCE_BASE.md` vode se s oznakom ❓.
 2. **Nepotvrđene tvrdnje o tuđim radovima.** Uz referencu koja nije provjerena do izvora stoji oznaka i tvrdnja se ne širi dalje od onoga što izvor nosi.
@@ -51,6 +51,17 @@ Na razini cijele knjige to su tri rezultata, navedena u uvodu i razrađena u 16.
 ## Knjiga kao nastavno sredstvo
 
 Ovo nije dodatak nego dio namjere. Anatomija od sedam blokova (teza, teorijski okvir, metode i podaci, praktikum ili radni primjer, vježbe, sažetak i ključni pojmovi, „kako bismo znali da griješimo") napravljena je tako da se poglavlje može zadati kao **tjedan nastave**. Teza i okvir služe kao tekst za čitanje, praktikum kao vježba u računalu, vježbe kao domaći rad, a falsifikacijski odjeljak kao tema seminara. Trojna podjela vježbi (🟢 provjeri razumijevanje, 🟡 primijeni na vlastite podatke, 🏆 istraživački zadatak) omogućuje da isti materijal radi i na preddiplomskoj i na diplomskoj razini. Rješenja vježbi dana su u dodatku C, a predlošci za praktikume (korpusni upit, evaluacija ugrađivanja, protokol kauzalnog testa) u repozitoriju knjige (`kod/`, `data/`).
+
+## Što čitatelj može učiniti danas
+
+Knjiga ne završava pozivom na čekanje. Četiri su poteza izvediva odmah, i svaki je uzet iz njezina vlastita postupka:
+
+1. **Primijeni kontrolnu listu s pet uvjeta iz 7.5 na jedan sustav koji poznaješ.** Zabilježi koji su uvjeti zadovoljeni, a koji nisu, i uz svaki razlog. Ako nijedan nije zadovoljen, nalaz je da na tome mjestu nema komunikacijske razine — a to je nalaz, ne neuspjeh (→ pogl. 7.5).
+2. **Provedi test nepresudnosti iz 12.1 na jednome dodatku svojega sustava.** Ako dodatak ne mijenja ni tip svojstva ni tip relacije, on je opis, a ne razina (→ pogl. 12.1).
+3. **Uzmi jedan nalaz iz 16.4 i pokušaj ga oboriti,** s pragom upisanim **prije** podataka. Ako nalaz padne, knjiga je time provjerena, a ne oslabljena (→ dodatak D.3).
+4. **Upisuj ono što ne znaš.** Svaka tvrdnja bez izvora ili mjerenja dobiva oznaku ❓ i **mjesto provjere**; predlošci za zapis stoje u dodatku D, a evidencija brojki u `data/fakti.csv`.
+
+Redoslijed nije slučajan. Prvo se provjerava ono što je već na stolu — vlastiti sustav i vlastiti zapisi — jer se time okvir ili potvrđuje ili obara bez novoga mjerenja. Tek nakon toga ima smisla posegnuti za novim podacima.
 
 ## Mreža triju knjiga — što slijedi
 
