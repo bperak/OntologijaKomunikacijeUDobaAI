@@ -194,3 +194,21 @@ upute:
     obuhvat: "rukopis/dodaci/"
     provjera: "bash -c 'for f in rukopis/dodaci/dodatak-A*.md rukopis/dodaci/dodatak-C*.md rukopis/dodaci/dodatak-D*.md rukopis/dodaci/dodatak-F*.md rukopis/dodaci/dodatak-H*.md rukopis/dodaci/dodatak-I*.md; do python3 kod/check_stil.py --datoteka $f | grep -q granicama || { echo FAIL:$f; exit 1; }; done; echo OK'"
     ocekivano: "OK"
+
+  # ── IZRIČAJ ──────────────────────────────────────────────────────────────────
+  - id: MU-25
+    vrsta: stil
+    pravilo: "Nijedna rečenica nije fraza: izrazi koji zvuče odlučno, a ne tvrde ništa (uzeti ozbiljno, igra ključnu ulogu, na pragu, nije slučajno, u suštini) zamjenjuju se tvrdnjom."
+    izvor: "autor: „banalizira izričaj\" (ZAPIS-022); docs/STIL.md, pravilo 3"
+    obuhvat: "cijeli rukopis"
+    provjera: "python3 kod/check_izricaj.py"
+    ocekivano: "ukupno floskula: 2"
+    status: "ručni pregled — 2 preostale iznimke su namjerne: „na pragu nečega većega\" stoji u tuđem stavu koji knjiga citira, a „Emergentno nije slučajno.\" je tvrdnja, ne fraza"
+  - id: MU-26
+    vrsta: stil
+    pravilo: "Pokazna zamjenica u tvrdnji („to\", „ovo\", „time\") ima imenicu na koju se veže u istoj ili prethodnoj rečenici."
+    izvor: "autor: „nije jasno na što se odnosi\" (ZAPIS-022); docs/STIL.md, pravilo 3"
+    obuhvat: "cijeli rukopis"
+    provjera: "python3 kod/check_izricaj.py"
+    ocekivano: "pokaznih zamjenica u tvrdnjama"
+    status: "ručni pregled — mjera je gruba (76 kandidata); presudu daje čitanje"

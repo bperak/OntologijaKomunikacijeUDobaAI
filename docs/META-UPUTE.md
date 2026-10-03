@@ -4,7 +4,7 @@
 
 *Svaka uputa ima provjeru: `provjera` se pokreće, a `ocekivano` mora se pojaviti u izlazu. Ako uputa nema provjeru, nije meta-uputa nego želja.*
 
-**Stanje provjere:** 24/24 prolazi.
+**Stanje provjere:** 26/26 prolazi.
 
 | id | vrsta | pravilo | status |
 |---|---|---|---|
@@ -32,6 +32,8 @@
 | `MU-22` | proces | Prije i poslije svakoga zahvata pokreće se mjera; namjerna promjena (preimenovan naslov, ispravljena uputa) bilježi se u ZAPIS i osvježava snimku. | provjereno posredno |
 | `MU-23` | proces | U zahvatu se ne dodaje nijedna nova tvrdnja, izvor, brojka ni citat — sve što zahvat tvrdi stoji na građi koja je već u tekstu. | provjereno automatski |
 | `MU-24` | proces | Stil dodataka (prozne dodatke A, C, D, F, H, I) drži iste pragove kao glavni tekst; aparatni dodaci (B rječnik, E izvori, G kazalo) izuzeti su. | provjereno automatski |
+| `MU-25` | stil | Nijedna rečenica nije fraza: izrazi koji zvuče odlučno, a ne tvrde ništa (uzeti ozbiljno, igra ključnu ulogu, na pragu, nije slučajno, u suštini) zamjenjuju se tvrdnjom. | ručni pregled — 2 preostale iznimke su namjerne: „na pragu nečega većega" stoji u tuđem stavu koji knjiga citira, a „Emergentno nije slučajno." je tvrdnja, ne fraza |
+| `MU-26` | stil | Pokazna zamjenica u tvrdnji („to", „ovo", „time") ima imenicu na koju se veže u istoj ili prethodnoj rečenici. | ručni pregled — mjera je gruba (76 kandidata); presudu daje čitanje |
 
 ## Kako se pokreće
 

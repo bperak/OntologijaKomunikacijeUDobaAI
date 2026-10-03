@@ -65,6 +65,20 @@ Mjerni alat: `kod/check_stil.py`. Mjeri se **prije i poslije** svakoga zahvata.
    izgubi ijedna tvrdnja, to je pogreška zahvata — i provjerava se **usporedbom citata i brojki**
    prije i poslije (vidi §5).
 
+## 1a. Pravilo 3 — izričaj (ZAPIS-022, autorova korekcija 3. 10. 2026.)
+
+Autor: **„To nije jasno na što se odnosi i banalizira izričaj"** (o tezi uvoda).
+
+1. **Pokazna zamjenica mora imati imenicu.** Ako rečenica tvrdi nešto s „to", „ovo", „ono" ili „time",
+   imenica na koju se veže mora stajati u istoj ili prethodnoj rečenici. Ako je nema, zamjenica se
+   zamjenjuje imenicom. ⛔ Zabranjeno: „uzima *to* pitanje ozbiljno" kad pitanje u tekstu nije izrečeno
+   imenicom.
+2. **Nijedna rečenica ne smije biti fraza.** Izrazi koji zvuče odlučno, a ne tvrde ništa (uzeti ozbiljno,
+   igra ključnu ulogu, na pragu, nije slučajno, mijenja pravila igre, u suštini) zamjenjuju se tvrdnjom.
+   Mjera: `kod/check_izricaj.py` — prag **0** floskula, uz iznimke koje se navode u `docs/ISPRAVKE.md`.
+3. **Teza uvoda mora reći dvije stvari imenom:** što nedostaje i što knjiga daje. Bez toga je teza
+   najava, a ne tvrdnja.
+
 ## 2. Što se dira, a što ne
 
 | dira se | ne dira se |

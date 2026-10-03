@@ -860,3 +860,32 @@ status *ručni pregled*).
 **Stanje mjere nakon pregleda: 13** — sve su pokazivači, sažeci i opisi scenarija, pojedinačno obrazloženi
 u zapisniku.
 
+## ZAPIS-022 — Izričaj: zamjenica bez imenice i fraza bez tvrdnje (3. 10. 2026.)
+
+**Povod (autor, o tezi uvoda):** „To nije jasno na što se odnosi i banalizira izričaj."
+
+**Teza uvoda — prije:**
+> *Teza uvoda:* u raspravama o jeziku i umjetnoj inteligenciji preskače se ono što bi ih učinilo
+> odlučivima — **gdje to ontološki stoji?** Ova knjiga uzima to pitanje ozbiljno: nudi ljestvicu…
+
+**Teza uvoda — poslije:**
+> *Teza uvoda:* u raspravama o jeziku i umjetnoj inteligenciji izostaju dva odgovora — **na kojoj razini
+> stoji svojstvo o kojemu se tvrdi da ga model ima** i **po čemu bi se vidjelo da ga ima**. Bez njih se o
+> tvrdnjama ne odlučuje, nego pregovara: „model razumije" i „model samo predviđa sljedeći token" opisuju
+> istu snimku, a nijedna ne kaže gdje bi se razlika vidjela. Knjiga ta dva odgovora daje: ljestvicu od
+> šesnaest razina, relacijske sheme kojima se razina čita iz podataka i mjesto na kojemu bi svaka tvrdnja
+> pala.
+
+**Što je bilo krivo:** (1) **„to" nije imalo imenicu** — ni u pitanju („gdje *to* ontološki stoji?") ni u
+nastavku („uzima *to* pitanje ozbiljno"), pa se teza nije mogla provjeriti; (2) **„uzeti pitanje
+ozbiljno"** je fraza koja ne tvrdi ništa.
+
+**Nove mjere:** `kod/check_izricaj.py` — (a) popis fraza koje ne tvrde ništa (prag **0**, uz iznimke);
+(b) pokazne zamjenice u tvrdnjama (sito). Uz to je u `docs/STIL.md` dodano **pravilo 3 — izričaj**, a u
+registar meta-uputa **MU-25** (nema fraza) i **MU-26** (zamjenica ima imenicu).
+
+**Nalaz u cijeloj knjizi:** **4 fraze**, od kojih su **dvije popravljene** — pogl. 1 („Nije slučajno da tu
+razliku uvodi netko tko je istovremeno fiziolog i filozof") i pogl. 5 („prigovor koji **treba uzeti
+ozbiljno**" → „prigovor koji **pogađa sam pojam**"). Dvije su ostale namjerno: „na pragu nečega većega"
+stoji u **tuđem stavu** koji knjiga citira, a „Emergentno nije slučajno." je tvrdnja o pojmu, ne fraza.
+

@@ -1,6 +1,6 @@
 # Uvod
 
-> *Teza uvoda:* u raspravama o jeziku i umjetnoj inteligenciji preskače se ono što bi ih učinilo odlučivima — **gdje to ontološki stoji?** Ova knjiga uzima to pitanje ozbiljno: nudi ljestvicu od šesnaest razina, relacijske sheme kojima se razina čita iz podataka, i pokazuje na kojem bi mjestu odgovor pao.
+> *Teza uvoda:* u raspravama o jeziku i umjetnoj inteligenciji izostaju dva odgovora — **na kojoj razini stoji svojstvo o kojemu se tvrdi da ga model ima** i **po čemu bi se vidjelo da ga ima**. Bez njih se o tvrdnjama ne odlučuje, nego pregovara: „model razumije“ i „model samo predviđa sljedeći token“ opisuju istu snimku, a nijedna ne kaže gdje bi se razlika vidjela. Knjiga ta dva odgovora daje: ljestvicu od šesnaest razina, relacijske sheme kojima se razina čita iz podataka i mjesto na kojemu bi svaka tvrdnja pala.
 
 ---
 

@@ -94,7 +94,7 @@ Druga je da slika pravilnika gubi svoju ulogu objašnjenja. Pravila koja zapiše
 
 ## 5.5 Zašto „emergentno" nije „proizvoljno"
 
-Ako je struktura jezika proizvod uporabe, javlja se prigovor koji treba uzeti ozbiljno: zar „emergentno" ne znači naprosto da je sve slučajno, da nema pravila i da se o jeziku ne može reći ništa općenito? Emergentno nije slučajno. Odgovor na taj prigovor najvažniji je dio ovoga poglavlja.
+Ako je struktura jezika proizvod uporabe, javlja se prigovor koji pogađa sam pojam: zar „emergentno" ne znači naprosto da je sve slučajno, da nema pravila i da se o jeziku ne može reći ništa općenito? Emergentno nije slučajno. Odgovor na taj prigovor najvažniji je dio ovoga poglavlja.
 
 Polazište je rad Paula Hoppera „Emergent grammar" (1987). Hopper razlikuje dvije slike. Nijedna nije pogrešna. U prvoj, **apriornoj**, gramatika postoji prije uporabe i uporaba je primjenjuje. U drugoj, **emergentnoj**, gramatika je neprekidan i uvijek privremen proizvod uporabe: ona je u procesu, nikada dovršena, i nema mjesto na kojem bi bila „pohranjena" prije svojih ostvarenja. Hopperovu je tvrdnju lako pročitati radikalnije nego što je potrebno. Za potrebe ove knjige dovoljna je slabija verzija: emergentna gramatika oduzima pravilnosti prethodno mjesto, a ne postojanje. Pravilnost je stvarna; samo nije uzrok sama sebe.
 
