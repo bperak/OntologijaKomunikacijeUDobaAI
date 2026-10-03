@@ -8,7 +8,9 @@ Mjeri (po datoteci i ukupno):
      dakako, napose, zacijelo, tek) na 10.000 riječi,
   4. klišeje i menadžerski registar (popis),
   5. popisne retke i retke tablica,
-  6. umetke među crtama (par „ — … — " u istoj rečenici) — informativno.
+  6. umetke među crtama (par „ — … — " u istoj rečenici) — informativno,
+  7. ritam: udio rečenica ≤ 8 riječi, raznolikost dužina (SD), najdulji niz rečenica > 30 riječi,
+  8. „šuplje kratke" rečenice — kratkoća bez informacije (mora ih biti 0).
 
 Upotreba:
     python3 kod/check_stil.py                      # izvještaj (0 = u granicama)
@@ -27,7 +29,7 @@ RUK = os.path.join(ROOT, "rukopis")
 GENERIRANO = {"sadrzaj.md", "dodatak-E-izvori-i-brojke.md", "dodatak-G-kazalo.md"}
 
 PRAG = {"bold": 15.0, "bold_dugi": 10.0, "rec_min": 20.0, "rec_max": 30.0, "kratke": 25.0, "duge": 12.0,
-        "vrlo_kratke": 15.0, "niz_dagih": 2,
+        "vrlo_kratke": 15.0, "niz_dagih": 2, "suplje": 0,
         "upravo": 3.0, "cestice_razlicitih": 5, "kliseji": 5, "popis": 280}
 CESTICE = ["naime", "dakle", "pak", "usto", "pritom", "otud", "naprotiv", "štoviše",
            "dakako", "napose", "zacijelo", "tek"]
@@ -35,6 +37,12 @@ KLISEJI = ["implementira", "fokusira", "procesuira", "validira", "optimizira", "
            "bazirano", "feedback", "trend", "u okviru", "u kontekstu", "s ciljem",
            "kroz prizmu", "na kraju krajeva", "igra ključnu ulogu", "neizostavan",
            "adresira poruku", "adresirati problem", "adekvatan", "efikasan", "relevantan"]
+# „Šuplja kratka": kratka rečenica (do 8 riječi) koja samo ocjenjuje ili najavljuje, a ne nosi
+# informaciju. Kratkoća nije stil ako nema sadržaja (autorovo pravilo: „malo su prebanalne").
+SUPLJE = re.compile(
+    r"\b(?:važn|ključn|nosiv|bitn|zanimljiv|korisn|poučn)\w*"
+    r"|\b(?:vrijedi|treba|valja)\s+(?:istaknuti|napomenuti|naglasiti|reći|zapamtiti)"
+    r"|\briječ je o\b|\bne smije se prešutjeti\b", re.IGNORECASE)
 
 
 def datoteke(samo=None):
@@ -69,6 +77,7 @@ def mjere(put):
     rec = [r for r in re.split(r"(?<=[.!?])\s+(?=[A-ZČĆĐŠŽ„(])", t) if len(r.split()) >= 3]
     duz = [len(r.split()) for r in rec] or [0]
     vrlo_kratke = 100.0 * sum(1 for d in duz if d <= 8) / len(duz)
+    suplje = sum(1 for r in rec if len(r.split()) <= 8 and SUPLJE.search(r))
     sd = statistics.pstdev(duz) if len(duz) > 2 else 0.0
     niz, najduzi = 0, 0
     for d in duz:
@@ -81,7 +90,7 @@ def mjere(put):
         "bold_dugi": (100.0 * len(dugi) / len(odlomci)) if odlomci else 0.0,
         "bold_odlomaka": len(odlomci),
         "rec": statistics.mean(duz), "kratke": 100.0 * sum(1 for d in duz if d < 12) / len(duz),
-        "vrlo_kratke": vrlo_kratke, "sd": sd, "niz_dagih": najduzi,
+        "vrlo_kratke": vrlo_kratke, "sd": sd, "niz_dagih": najduzi, "suplje": suplje,
         "duge": 100.0 * sum(1 for d in duz if d > 40) / len(duz),
         "upravo": 10000.0 * broj(r"\bupravo\b") / N,
         "cestice": c, "cestice_raz": sum(1 for v in c.values() if 10000.0 * v / N >= 0.5),
@@ -95,7 +104,7 @@ def mjere(put):
 def ispis(put, m):
     ime = os.path.relpath(put, ROOT)
     print(f"{ime}\n   riječi {m['rijeci']:>6} | podebljano {m['bold']:>5.1f}% | rečenica {m['rec']:>4.1f} "
-          f"| <12 {m['kratke']:>4.1f}% | ≤8 {m['vrlo_kratke']:>4.1f}% | >40 {m['duge']:>4.1f}% | SD {m['sd']:>4.1f} | niz>30 {m['niz_dagih']:>2} | „upravo“ {m['upravo']:>4.1f}/10k "
+          f"| <12 {m['kratke']:>4.1f}% | ≤8 {m['vrlo_kratke']:>4.1f}% | >40 {m['duge']:>4.1f}% | SD {m['sd']:>4.1f} | niz>30 {m['niz_dagih']:>2} | šuplje {m['suplje']:>2} | „upravo“ {m['upravo']:>4.1f}/10k "
           f"| čestice {m['cestice_raz']}/12 | klišeji {m['kliseji']:>2} | popis {m['popis']:>3} "
           f"| crte {m['crte']:>4.1f}/10k")
 
@@ -108,6 +117,8 @@ def provjera(zbroj):
         nal.append(f"podebljanih odlomaka >6 riječi {zbroj['bold_dugi']:.1f}% > {PRAG['bold_dugi']}% (podebljane tvrdnje)")
     if not (PRAG["rec_min"] <= zbroj["rec"] <= PRAG["rec_max"]):
         nal.append(f"srednja rečenica {zbroj['rec']:.1f} izvan {PRAG['rec_min']}–{PRAG['rec_max']}")
+    if zbroj["suplje"] > PRAG["suplje"]:
+        nal.append(f"šupljih kratkih rečenica {zbroj['suplje']} > {PRAG['suplje']} (kratka rečenica mora nositi informaciju)")
     if zbroj["vrlo_kratke"] < PRAG["vrlo_kratke"]:
         nal.append(f"kratkih rečenica (≤8 riječi) {zbroj['vrlo_kratke']:.1f}% < {PRAG['vrlo_kratke']}%")
     if zbroj["niz_dagih"] > PRAG["niz_dagih"]:
@@ -168,7 +179,7 @@ def main():
         if not os.path.isabs(samo):
             samo = os.path.join(ROOT, samo)
 
-    zbroj = {"rijeci": 0, "bold": 0.0, "bold_dugi": 0.0, "vrlo_kratke": 0.0, "sd": 0.0, "niz_dagih": 0,
+    zbroj = {"rijeci": 0, "bold": 0.0, "bold_dugi": 0.0, "vrlo_kratke": 0.0, "sd": 0.0, "niz_dagih": 0, "suplje": 0,
              "rec": [], "kratke": [], "duge": [], "upravo": 0.0,
              "cestice": {k: 0 for k in CESTICE}, "kliseji": 0, "popis": 0, "tablice": 0, "crte": 0.0}
     svi = []
@@ -196,6 +207,7 @@ def main():
     zbroj["vrlo_kratke"] = statistics.mean([m["vrlo_kratke"] for _, m in svi])
     zbroj["sd"] = statistics.mean([m["sd"] for _, m in svi])
     zbroj["niz_dagih"] = max(m["niz_dagih"] for _, m in svi)
+    zbroj["suplje"] = sum(m["suplje"] for _, m in svi)
     zbroj["duge"] = statistics.mean([m["duge"] for _, m in svi])
     zbroj["upravo"] = statistics.mean([m["upravo"] for _, m in svi])
     zbroj["crte"] = statistics.mean([m["crte"] for _, m in svi])

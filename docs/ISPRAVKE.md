@@ -424,3 +424,28 @@ Kratke rečenice koje su ušle u tekst (izvode, ne ukrašavaju): *To je pretpost
 **Provjera istovjetnosti sadržaja nakon zahvata:** citati 33 → 33, godine 33 → 33, upute 13 → 13;
 sve ostale provjere prolaze. Isti postupak primjenjuje se na poglavlja 2–16.
 
+## ZAPIS-009 — Kratka rečenica ne smije biti banalna (30. 9. 2026.)
+
+Autor: „malo su te kratke rečenice prebanalne ponekad." Točna primjedba. U ritmičkome prolazu (ZAPIS-008)
+ušlo je pet kratkih rečenica koje su **ocjenjivale** ili **najavljivale**, a nisu nosile informaciju —
+dakle bile su ukras. Zamijenjene su kratkim rečenicama koje nose razliku, posljedicu ili kriterij:
+
+| prije (ukras) | poslije (informacija) |
+|---|---|
+| Riječ je o namjerno oskudnoj definiciji. | **Definicija je oskudna, ali ne i prazna.** |
+| Ta je poruka nosiva. | **Opis bi mogao biti i pogrešan; uvjet ne.** |
+| To treba reći otvoreno. | **Prigovor time nije riješen.** |
+| Svojstvo je odabrano s razlogom. | **Svojstvo mora biti takvo da ga pojedinačni dio ne posjeduje.** |
+| Ta sistemska linija ne smije se prešutjeti. | **Ta je linija starija od suvremene rasprave o kompleksnosti.** |
+
+**Pravilo (docs/STIL.md, pravilo 2):** *test brisanja* — ako se kratka rečenica izbriše i ništa se ne
+izgubi, ona je ukras. Kratka rečenica smije izreći razliku, posljedicu/uvjet, ime ili mjeru; ne smije
+samo ocjenjivati ni najavljivati.
+
+**Mjera:** `check_stil.py` sada broji **„šuplje kratke"** (kratka rečenica koja samo ocjenjuje ili
+najavljuje: *važno, ključno, nosivo, vrijedi istaknuti, treba reći, riječ je o…*). Prag je **0**.
+
+**Poglavlje 1 nakon korekcije:** ≤ 8 riječi **20,1 → 19,2 %** (i dalje iznad praga 15 %) · šuplje **0** ·
+srednja rečenica 20,1 · SD 20,2 · najdulji niz > 30 riječi 2 · podebljano 3,0 % (pojmovi).
+Provjera istovjetnosti: citati 33 → 33, godine 33 → 33, upute 13 → 13.
+

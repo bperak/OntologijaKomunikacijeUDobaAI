@@ -36,6 +36,14 @@ Mjerni alat: `kod/check_stil.py`. Mjeri se **prije i poslije** svakoga zahvata.
    *Integracija nije zbroj.* · *Ta je poruka nosiva.* · *Riječ je o namjerno oskudnoj definiciji.* ·
    *Izbor je ovdje konstitutivan.* Duga rečenica smije biti duga zbog **zavisnih surečenica**, a ne zbog
    nizanja umetaka među crtama.
+
+   **Kratka rečenica mora nositi informaciju.** *Test brisanja:* ako se kratka rečenica izbriše i pri
+   tome se **ništa ne izgubi**, ona je ukras i briše se. Kratka rečenica smije raditi jedno od četiriju:
+   (a) izreći **razliku** — *To je pretpostavka, ne zakon.* · *Integracija nije zbroj.*; (b) izreći
+   **posljedicu ili uvjet** — *Prigovor time nije riješen.* · *Opis bi mogao biti i pogrešan; uvjet ne.*;
+   (c) **imenovati** pojam ili mjeru; (d) izreći **vrijeme, broj ili mjesto**. Zabranjeno je da samo
+   **ocjenjuje** (*Ta je poruka nosiva.* · *To je važno.*) ili **najavljuje** (*To treba reći otvoreno.* ·
+   *Vrijedi istaknuti…*). Takve se broje kao „šuplje kratke" i moraju biti **0**.
 3. **Umetak se ne piše crtama, nego zavisnom surečenicom.** Par crta (— … —) u sredini rečenice je
    iznimka (do nekoliko puta u poglavlju), a ne ritam. Gdje umetak objašnjava, ide **naime**; gdje
    suprotstavlja, ide **pak**; gdje dopunjuje, **usto** ili **pritom**.
@@ -78,6 +86,7 @@ Mjerni alat: `kod/check_stil.py`. Mjeri se **prije i poslije** svakoga zahvata.
 | rečenice kraće od 8 riječi | ≥ 15 % |
 | niz uzastopnih rečenica dužih od 30 riječi | ≤ 2 |
 | raznolikost dužina (SD) | ≥ 14 |
+| „šuplje kratke" rečenice (kratkoća bez informacije) | 0 |
 | rečenice duže od 40 riječi | ≤ 14 % |
 | „upravo" | ≤ 3 / 10.000 |
 | čestični repertoar (različitih čestica ≥ 0,5 / 10.000) | ≥ 5 |
