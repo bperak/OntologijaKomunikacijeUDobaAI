@@ -2,13 +2,26 @@
 
 > *Teza poglavlja:* agentski sustavi već pokazuju **funkcionalne parnjake** identiteta, interakcije i komunikacije: ponašaju se tako da im se te razine mogu pripisati, i to pripisivanje provjerljivo je u zapisima. Za instituciju i kulturni model to ne vrijedi — ono što vidimo jesu **pravila uporabe i naslijeđeni obrasci** koji djeluju, ali bez zajednice koja ih priznaje i bez zajedničke intencionalnosti. Razlika između *funkcionalnoga parnjaka* i *intrinzično prisutnoga* nije ukras u terminologiji: to je jedina razlika koja u četvrtome dijelu knjige nosi težinu.
 
-Ovo poglavlje ne uvodi nov pojam ni novu razinu: ono **provodi razlikovanje** dvaju pojmova koji se u raspravama o umjetnoj inteligenciji stalno stapaju.
+Postoji sustav koji vas u svakoj novoj sesiji navede imenom, sjeti se što ste prošli put tražili i preuzme zadatak ondje gdje je stao. Iz toga se lako izvede zaključak da sustav ima **identitet**. Jednako se lako izvede i suprotan: sve je to dosljedno ponašanje, a iza njega nema nikoga. Oba zaključka čitaju isti zapis. Nijedan od njih, naime, ne kaže što se u zapisu vidi, a što se pripisuje nositelju. Zato se o njima ne može odlučiti — samo pregovarati.
 
-**Funkcionalni parnjak.** Za neku razinu reći ćemo da je u sustavu **funkcionalno prisutna** ako se sustav ponaša tako da se ta razina može pripisati, i ako se pripisivanje može provjeriti: postoji ponašanje koje se ponavlja, postoje zapisi iz kojih se ono čita i postoje provjere kojima se ono razlikuje od slučajnoga šuma. Funkcionalni parnjak identiteta jest ime koje drugi sustav može navesti kao adresata. Funkcionalni parnjak interakcije jest koordinacija bez središnjega naredbodavca. Funkcionalni parnjak komunikacije jest izmjena u kojoj je adresat imenovan, sadržaj zapisan i ispravak zabilježen. Ništa od toga nije prijevara ni privid: to je **stvarno ponašanje**, opisano na razini na kojoj se može mjeriti. Riječ „parnjak" ne znači „lažni"; znači *odgovara na istom mjestu u opisu, a ne u nositelju*.
+Za tu su razliku potrebna dva pojma, a ona se u raspravi stalno stapaju. Za neku razinu reći ćemo da je **funkcionalno prisutna** ako se sustav ponaša tako da se ta razina može pripisati i ako se to pripisivanje može provjeriti u zapisima. Za razliku ćemo reći da je **intrinzično prisutna** ako postoji **nositelj koji je ima sam** — koji je može izgubiti i kojemu se može osporiti (→ pogl. 14.6). Prvi pojam sam daje pripisivanje previše, drugi premalo. Oba promašaja dolaze iz istoga propusta: iz **nerazlučivanja** onoga što se vidi od onoga što nositelj ima.
 
-**Intrinzično prisutno.** Za razliku reći ćemo da je **intrinzično prisutna** ako postoji **nositelj koji je ima sam** — nositelj koji je može izgubiti, kojemu se može osporiti, i koji u osporavanju sudjeluje kao stranka. Razina 12 je intrinzično prisutna kad identitet nije samo oznaka koju drugi pridaju, nego nešto što nositelj zastupa (→ pogl. 8.4). Razina 15 je intrinzično prisutna kad obveza ima ovlaštenje, zapis i postupak osporavanja, a ne samo pravilo koje djeluje. Razina 16 je intrinzično prisutna kad se obrazac **predaje** unutar zajednice koja ga priznaje, a ne samo uči iz podataka.
+Kad se ta razlika provede po razinama 12–16, odgovor ima oblik zbirne tablice:
 
-Zašto su oba pojma potrebna? Zato što svaki samostalno proizvodi jednu vrstu pogreške. Samo funkcionalno daje pripisivanje previše („sustav ima dopuštenja i zapise, dakle ima institucije"), samo intrinzično daje pripisivanje premalo („to je samo softver"). Obje nastaju iz istoga propusta. **Nerazlučivanje** onoga što se vidi od onoga što nositelj ima.
+| razina | funkcionalno prisutno | intrinzično prisutno |
+|---|---|---|
+| **12–14** | da, s dokazom u zapisima | ne |
+| **15** | djelomično: zapis jest, sankcije nema | ne |
+| **16** | da, kao naslijeđe | ne |
+
+Razlika između „djelomično" i „da" nije nijansa: kod razine 15 stoji pravilo bez sankcije, kod razine 16 naslijeđeni obrazac bez zajedništva. Nalaz pada ako se za neku od tih razina pokaže da je intrinzično prisutna po kriterijima ovoga poglavlja, ili ako se funkcionalni parnjak ne može razlikovati od pravoga slučaja nijednim mjerljivim kriterijem (→ pogl. 14.7). Unutrašnjost se pritom ne provjerava; izvana nije provjerljiva (Searle 1980).
+
+Što čitatelj odatle dobiva:
+
+- **Ime za razliku.** Ono što sustav radi i ono što mu se pripisuje nije isto.
+- **Kriterij koji daje i „ne".** Svaka razina dobiva mjerljivu provjeru, a odgovor „ne" dio je nalaza (→ pogl. 14.6).
+- **Postupak izvediv na vlastitome sustavu.** Od popisa zapisa do kriterija razlikovanja (→ pogl. 14.7).
+- **Mjesto na kojemu nalaz pada.** Uvjeti su izrečeni unaprijed i mogu se oboriti.
 
 Metoda je zato strogo poredbena: za svaku od pet razina (12–16) postavljam dva pitanja — *što bi se u ponašanju sustava moralo vidjeti da bi se razina mogla pripisati?* i *po kojemu se mjerljivomu kriteriju funkcionalni parnjak razlikuje od slučaja u kojemu razinu ima sam nositelj?* Drugi je kriterij odlučujući. Bez njega je razlika verbalna, i tada cijelo poglavlje pada.
 

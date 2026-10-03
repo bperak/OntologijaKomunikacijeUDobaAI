@@ -6,11 +6,27 @@
 
 ## 13.1 Tri konfiguracije: kome se što pripisuje
 
-U dvanaestom poglavlju model je postao **entitet** u sustavu — pozicija koja se održava, a ne funkcija koja se poziva — i pritom smo postavili razliku koja se u raspravi o agentima najlakše izgubi. **Entitet imenuje *gdje* je, agent *što* radi** (→ pogl. 12.1). U ovom je poglavlju posao uži i teži: pokazati što se promijeni kad se u komunikacijski čin uključi sudionik koji nije osoba. Riječ je o istom činu s pet uvjeta iz 7.5 (adresiranje, prepoznata namjera, zajednički artefakt, konvencija, obveza).
+Čovjek uputi zadatak agentskom sustavu, a potom isti zadatak prenese drugome sustavu. U obama se slučajevima posao odvija, a razumijevanje negdje zapne. Već prvi korak pokaže razliku koju svatko poznaje iz uporabe: rečenica koja je „jasna" u razgovoru s kolegom nije dovoljna kao zadatak. Iz toga se brzo izvuku dvije suprotne tvrdnje. Prva kaže da novi sudionik otvara novu komunikacijsku razinu, pa je riječ o nečemu što prije nije postojalo. Druga kaže da je sve samo sučelje, pa se ništa bitno ne mijenja. Tvrdnje izgledaju suprotno, a dijele istu prazninu: nijedna ne imenuje **mjesto** na kojemu bi promjena stajala ni **kriterij** po kojemu bi se vidjela.
 
-Prvo pravilo: **broj razina se ne mijenja.** Novi sudionik ne otvara sedamnaestu razinu, ne pomiče granicu razine 14 i ne ukida nijedan od pet uvjeta. Ono što se mijenja jest *raspored tereta* po tim uvjetima: koji od njih nosi isključivo jedna strana, koji postaje tehnički, a koji ostaje bez nositelja. Zato je ovo poglavlje poglavlje o **uvjetima**, a ne o razinama. Njegova je tvrdnja slabija od one koja se obično čita u naslovima o „novoj komunikaciji", a provjerljivija od nje. Mijenjaju se uvjeti, ne razina.
+Mjesto je, dakako, već zadano. Riječ je o istom komunikacijskom činu s pet uvjeta iz 7.5 — adresiranje, prepoznata namjera, zajednički artefakt, konvencija, obveza (→ pogl. 7.5). Novi sudionik, naime, ne otvara sedamnaestu razinu i ne ukida nijedan od tih uvjeta. Mijenja se njihov **raspored tereta**: koji uvjet nosi jedna strana, koji postaje tehnički, a koji ostaje bez nositelja. OMLCC je izložen 2017. kao ljestvica u kojoj se društvena stvarnost pojavljuje kroz mreže koje nose entitete više razine (→ pogl. 2.1). Ništa u njemu ne pretpostavlja da su ti nositelji isključivo ljudi, ali ni suprotno. Tu razliku treba izmjeriti, a ne proglasiti.
 
-Hrvatski okvir o kojem je riječ prethodi ovoj raspravi: OMLCC je izložen 2017. kao ljestvica u kojoj se društvena stvarnost pojavljuje kroz mreže koje nose entitete više razine (→ pogl. 2.1). Ništa u tom okviru ne pretpostavlja da su nositelji tih mreža isključivo ljudi. Ali ništa ne pretpostavlja ni suprotno. Tu razliku treba izmjeriti, a ne proglasiti.
+Zato odgovor ima oblik koji se može provjeriti na jednome transkriptu. U 13.5 uvjeti se ne broje po dojmu, nego po četirima mjestima na kojima se vide, a svako mjesto mjeri svoj uvjet.
+
+| mjesto u transkriptu | što se broji | koji uvjet time mjerimo |
+|---|---|---|
+| **adresiranje** | 2. lice, vokativ, ime zadatka | 1 |
+| **izmjena** | referencija na prethodni doprinos | 2 i 3 |
+| **ispravak** | izričaj koji prethodni poništava ili dopunjuje | 2 i 4 |
+| **preuzimanje obveze** | izričaj preuzimanja koji ima nositelja | 5 |
+
+Drugi dio istoga oblika jest taksonomija iz 13.6: četiri vrste neuspjeha — nerazumijevanje, lažna suradnja, gubitak konteksta i obveza bez nostitelja — svaka sa svojim pokazateljem i svojim pripisivanjem. Kad se oba dijela provedu, nalaz se čita kao pravilo: protokol rješava prvi, treći i četvrti uvjet, a ne peti. Nalaz pada ako se pokaže da neka konfiguracija uvodi svojstvo koje se ne može opisati kao raspored istih pet uvjeta.
+
+Što čitatelj odatle dobiva:
+
+- **Ime za mjesto.** Nije „nova razina", nego **raspored tereta** po pet uvjeta iz 7.5.
+- **Razliku koja čuva od dviju pogrešaka.** Ni „nova komunikacija" ni „samo sučelje".
+- **Postupak izvediv na vlastitome materijalu.** Četiri mjesta u transkriptu iz 13.5.
+- **Mjesto na kojemu tvrdnja pada.** Svojstvo koje se ne svodi na raspored istih pet uvjeta.
 
 Postoje tri konfiguracije, i one se razlikuju po tome **tko snosi trošak nerazumijevanja**.
 

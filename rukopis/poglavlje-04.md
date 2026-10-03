@@ -6,9 +6,20 @@
 
 ## 4.1 Podaci: korpusi, leksikoni, anketni i eksperimentalni materijal — i jedna odluka koja se stalno skriva
 
-Prvo poglavlje postavilo je sustave i razine, drugo ih je popisalo (šesnaest razina, tri domene), treće je opisalo tri koraka kojima iz organizacije nastaje nova cjelina. Ovo poglavlje radi nešto drugo: prevodi taj okvir u postupak. Njegov je posao da pokaže odakle dolaze brojke, kako se izračunavaju, što smiju značiti i gdje im je granica. Bez toga bi cijela knjiga bila tvrdnja bez dokaza, a okvir razina bio bi shema bez primjene.
+Zamislimo nalaz koji se lako citira: „razlika među razinama preživjela je kontrolu“. Rečenica je točna, i lako se prepričava. Ali ona ne kaže iz kojega je uzorka izvedena — ni koja je jedinica brojena, ni na koliko je jedinica brojka izračunata. Tko je prenosi dalje, prenosi zaključak bez onoga što ga drži na mjestu.
 
-Postupak ima četiri stupnja i jedan lanac: **tekst → mreža → vektor → razina → tvrdnja** (tablica 4.3). Svaki stupanj ima svoje jedinice, svoje mjere i svoju vrstu pogreške. Nijedan se stupanj ne preskače, i to je metodološko pravilo knjige: tvrdnja o razini koja na neki stupanj nije stupila nije mjerenje, nego dojam.
+Ta se odluka ne skriva slučajno. U tekstovima o jeziku dvije riječi obično ostaju prešućene: **populacija** i **uzorak**. Jedno čitanje uzima korpus kao da je jezik sam; drugo uzima uzorak kao formalnost uz brojku. Oba dijele istu prazninu: nigdje ne piše gdje je odluka zapisana ni po kojem se kriteriju nalaz smije prenijeti dalje.
+
+Uzorak pritom nije „dio populacije“ u smislu u kojem je uzorak vode dio vode. Korpus je pristran prema pisanom, objavljenom i tehnički dostupnom, pa ono što vrijedi za njega ne vrijedi automatski za govorni jezik. Ni jedno ni drugo nije manje vrijedno; ono je **manje općenito**, i to se mora izreći. Zato se uzorak ne vidi iz dojma, nego iz zapisa — iz medija, žanra, razdoblja i jedinice analize.
+
+Gotov odgovor ima oblik koji se može provjeriti. Postupak ide u pet stupnjeva — **tekst → mreža → vektor → razina → tvrdnja** (→ Tablica 4.3) — i na svakom se stupnju mijenjaju jedinica analize, mjera i vrsta pogreške; nijedan se stupanj ne preskače. Nalaz se zato ne prijavljuje dojmom, nego obrascem od devet stavki (→ Tablica 4.4): tvrdnja, podaci, uzorak, postupak, verzije, tablica, graf, kod i neuspjeli pokušaji. A uvjet pod kojim nalaz pada zapisan je unaprijed: ako se razlika među razinama izgubi čim se kontrolira veličina uzorka i vrsta teksta, tvrdnja nije empirijska („Kako bismo znali da griješimo“).
+
+Time se dobiva četvero:
+
+- ime za mjesto na kojem se odluka o uzorku zapisuje — jedinica analize i njezine granice;
+- razliku između nalaza i pokušaja, pa se negativan rezultat ne briše nego objavljuje;
+- postupak od pet stupnjeva, ponovljiv na vlastitim podacima;
+- mjesto na kojem bi nalaz pao, zapisano prije analize.
 
 **Prvi sloj: korpusi.** Knjiga radi na **uporabi zapisanoj u tekstu**, pa je prvo pitanje *koji tekst*. Primarni korpus je hrvatski web-korpus **hrWac**, izgrađen crawlom domene `.hr` 2011. i 2014. (Ljubešić i Klubička 2014; inačica hrWaC 2.1, CLARIN.SI). To je korpus *uporabe*, a ne korpus *primjera*. U njemu nema recenzenta koji odlučuje što je dobra rečenica, pa je i nalaz o njemu nalaz o tome kako se piše, a ne kako bi se *trebalo* pisati. To je razlika između opisa i propisa. To je bitno jer se razine ne čitaju iz propisa o jeziku, nego iz njegove uporabe.
 

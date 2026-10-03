@@ -6,7 +6,22 @@
 
 ## 10.1 Postupak na vlastitim podacima: od leksema do klastera
 
-Šesto poglavlje ostavilo je mrežu izgrađenu iz uporabe; deveto je pokazalo kako ko-okurencija postaje geometrija. Ovdje se ta dva koraka spajaju u jedan postupak i izvode **na vlastitim podacima**, do kraja, sa svim odlukama koje se pri tome donose. Nema ničega skrivenoga u tome postupku — i to je njegova vrijednost: ono što se na kraju dobije može se ponoviti, provjeriti i osporiti.
+Postupak ovoga poglavlja vraća brojke koje izgledaju kao odgovor. Dvjema riječima izračuna se jedna **srodnost**, 125 leksema složi se u klastere, a svaka jedinica ima **4.096 dimenzija**. Brojka je precizna i ponovljiva, pa je lako pročitati kao značenje: visoka srodnost kao blizina pojma, gust klaster kao kategorija. Tu je i nevolja.
+
+Ponovljivost brojke ne jamči ono što brojka znači. Geometrija nije pojam: postupak daje strukturu uporabe, a ne značenje samo. Klaster pokazuje da se jedinice pojavljuju u sličnim okolinama; ne pokazuje da je itko nešto htio reći. Zato se uz svaku brojku u ovome poglavlju vodi i druga stvar — njezina **vrsta dokaza**.
+
+Razlika se vidi na istome broju. Isti **10.000.000 tokena** znači, kao **mjereno**, da sučelje prihvaća ulaz te duljine; kao **procjena**, značio bi da sustav tu količinu i upotrebljava, ravnomjerno i pouzdano. Prvo je istina, drugo nije. Isto vrijedi za **~12 sati** vremenskoga horizonta: kao mjerenje to bi bila tvrdnja o sposobnosti, a kao procjena — što ona i jest — tvrdnja o instrumentu (→ pogl. 10.6.2).
+
+Evidencijska tablica zato nije dodatak, nego oblik odgovora: uz svaku brojku stoji njezina vrsta i izvor. Evo kako to izgleda na četirima zapisima iz ovoga poglavlja:
+
+| tvrdnja | brojka | vrsta dokaza | izvor (datum) |
+|---|---|---|---|
+| dimenzija ugrađivanja (vlastiti postav) | 4.096 dimenzija | mjereno | Qwen Team 2025 (arXiv:2506.05176) |
+| kontekstni prozor 2026. | 10.000.000 tokena | mjereno | dokumentacija pružatelja (provjereno 14. 9. 2026.) |
+| „klub 10¹² parametara" | ~10¹² parametara | **procjena** | Thompson 2026 (*Models Table*, LifeArchitect.ai) |
+| METR-ov horizont 2026. | ~12 sati | **procjena** | METR 2026 (ispravak 3. 3. 2026.; prije toga ~14,5 h) |
+
+Odgovor je time potpun samo ako se zna čemu koja brojka pripada. Ako se **procjena** pročita kao mjerenje, dobije se tvrdnja koja se ne može oboriti. Ako se izvedeno pročita kao mjereno, dobije se preciznost koje nema. Pravilo iz ovoga poglavlja zato vrijedi za cijelu knjigu: ista brojka, jednom izrečena kao mjerenje i jednom kao procjena, nije jedna tvrdnja s dva naglaska, nego dvije tvrdnje s različitim uvjetima opovrgavanja (→ pogl. 10.6.2). Tvrdnja pada ako se pokaže da su sve brojke iz evidencijske tablice mjerenja i da nijedna nije procjena — tada je tablica suvišna (→ pogl. 10.6.1). Odatle čitatelj nosi razliku koja ga čuva od dviju pogrešaka, postupak koji može ponoviti na vlastitim podacima, i mjesto na kojemu bi tvrdnja pala.
 
 Postupak ima četiri koraka i svaki od njih ima **ulaz**, **izlaz** i **odluku koja mijenja rezultat**:
 

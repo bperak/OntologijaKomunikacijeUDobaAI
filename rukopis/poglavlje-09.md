@@ -6,7 +6,21 @@
 
 ## 9.1 Distribucijska hipoteza: što tvrdi, a što joj se pripisuje
 
-Treći dio knjige počinje ondje gdje je drugi stao. Drugi dio pokazao je da je značenje relacijsko i da se rekonstruira iz uporabe (→ pogl. 5.3, 6.1); sada treba vidjeti što se dogodi kad se taj uvid **prevede u računski postupak**. Prijevod ima svoju povijest, i ta povijest je mjesto na kojemu se najčešće gubi razlika između tvrdnje i njezine popularne verzije.
+Značenje je relacijsko i rekonstruira se iz uporabe (→ pogl. 5.3, 6.1). Iz toga je izrasla rečenica koja se lako ponovi, a još lakše precijeni: „riječ poznajemo po društvu u kojem se drži". Ako to stoji, dovoljno je izbrojiti s kojim se riječima neka riječ druži pa da se dobije i njezino značenje. Zaključak je udoban, jer ne traži ni mjesto ni mjeru. Tu i počinje problem.
+
+Između uporabe i koordinata stoji prijevod, a svaki prijevod nešto daje i nešto uzima. Riječ dobiva jedno mjesto u **vektorskom prostoru**, a blizina dvaju mjesta postaje jedan broj. Dobiva se time ono što prije nije bilo moguće: sličnost se dade izračunati, ponoviti i usporediti. Uzima se pak ono što je u uporabi bilo neodređeno: sve se uporabe jedne riječi sabiju u jednu točku, pa **polisemija** i homonimija idu u prosjek. Prijevod zato ne pojačava tvrdnju; on je čini provjerljivom i time joj oduzima pravo na dojam.
+
+Odatle slijedi problem od kojega ovisi cijeli treći dio. Sličnost u prostoru nije isto što i razumijevanje. Model koji jedinice slaže blizu jedne drugima daje **uređenje uporabe**; time još ne pokazuje da je išta razumio. Razlika se ne vidi iz dojma, nego iz mjere. Mjera je, naime, ono što popularna verzija hipoteze prešućuje. Zato se ovdje ne pita je li model blizu značenju, nego što se u toj blizini uopće mjeri i po čemu bi nalaz pao.
+
+Poglavlje zato ide putem kojim je treće poglavlje išlo kroz mrežu: **dijelovi → mreža → nova cjelina**. Odgovor ima oblik koji se može provjeriti, i evo kako izgleda:
+
+| korak | što se pita | gdje se gleda | uvjet koji mora držati |
+|---|---|---|---|
+| **dijelovi** | što je jedinica? | razlučivost: token, lema, dio riječi (→ pogl. 3.1) | jedinica je odluka, a ne prirodna granica jezika |
+| **mreža** | što jedinice povezuje? | okruženja jedinice, dakle **distribucija** (Harris 1954) | uzorak koji se vraća, a ne slučajna supojavnost (→ pogl. 3.2) |
+| **nova cjelina** | postoji li nositelj? | **model** i njegove koordinate (→ pogl. 9.2, 9.3) | ime, relacije, nova svojstva, granica, zamjenjivost sastavnica (→ pogl. 3.3) |
+
+Hipoteza pada ako se dvije jedinice razlikuju u značenju, a ne razlikuju u distribuciji — ili obratno. Time se vidi i zašto identitetska verzija hipoteze („distribucija jest značenje") nije provjerljiva, a ograničenje koje su izrekli Harris (1954) i Firth (1957) jest. U trećem se koraku put zaustavlja na granici koja se ne pomiče: kriteriji se ispunjavaju **funkcionalno**, a uloga u sustavu traži zaseban dokaz (→ pogl. 9.6, 12.3). Odatle čitatelj nosi tri stvari: ime za ono što se mjeri (**organizacija uporabe**), razliku između sličnosti i razumijevanja, i mjesto na kojemu bi tvrdnja pala.
 
 Taj prijevod nose dva teksta. Zellig Harris (1954) u radu *Distributional structure* definira distribuciju elementa kao ukupnost svih okruženja u kojoj se element pojavljuje i tvrdi da se jezik može opisati distribucijski — dakle bez pozivanja na značenje kao kriterij analize. John Rupert Firth (1957) istu misao sažima u rečenicu koja je danas najcitiraniji ulomak iz lingvistike dvadesetoga stoljeća: riječ poznajemo po društvu u kojem se drži. Obje tvrdnje polaze od istog opažanja: jedino što je izravno dostupno jesu okruženja, a identitet jedinice čita se iz razlika prema drugim jedinicama — što je u drugom rječniku već rekao Saussure (1916) kad je vrijednost znaka odredio kao čistu razliku.
 

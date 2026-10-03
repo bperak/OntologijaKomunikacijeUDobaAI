@@ -6,7 +6,20 @@
 
 ## 3.1 Korak 1 — dijelovi: što uopće ulazi u sustav
 
-Prvo poglavlje završilo je definicijom koja je namjerno siromašna: sustav je „kompleks elemenata u interakciji" (von Bertalanffy 1968: 55). Ta definicija ne kaže što je element. Praznina nije propust — to je mjesto na kojem počinje svaki ozbiljan posao, i prva odluka koju donosimo kad neki sustav opisujemo.
+Uzmimo snimku razgovora i pitanje što je u njoj jedinica. Raščlanimo je na znakove — dobivamo niz slova. Raščlanimo je na riječi — dobivamo niz riječi. Raščlanimo je na izmjene — dobivamo niz poteza. Cjelina u sva tri slučaja nije ista, a snimka jest.
+
+Ni jedna od tih podjela ne dolazi iz snimke. Odluka o tome što je dio zato je ujedno odluka o tome što je cjelina — jer cjelina je ono što odabrani dijelovi zajedno čine. Tko odabere slovo, dobiva jednu cjelinu; tko odabere izmjenu, dobiva drugu. S cjelinom pak dolaze svojstva koja se prije te odluke nisu mogla ni tražiti.
+
+Naslovna definicija ne pomaže. Sustav je „kompleks elemenata u interakciji“ (von Bertalanffy 1968: 55): to kaže da elementi međusobno djeluju, a pritom ne kaže što je element. Praznina nije propust — to je mjesto na kojem počinje posao i prva odluka koju donosimo kad neki sustav opisujemo. Dva čitanja identiteta dijela stoje jedno uz drugo: **supstancijalno** (dio nosi svoja svojstva sam) i **relacijsko** (dio je ono što jest zbog razlika prema ostalima). Ni jedno od njih ne odgovara na radno pitanje — *čiji su to dijelovi i za koje svojstvo*.
+
+Rješenje ima oblik koji se vidi odmah. Postupak ide u tri koraka, **dijelovi → mreža → nova cjelina**, i za svaki postoji pitanje i znak da je stao (→ Tablica 3.1): popis bez relacija (**inventar**), sve povezano sa svime (**akumulacija**), mreža kao slika bez nositelja. Treći korak ne prolazi bez pet kriterija — **namenljivost**, **relacijska sposobnost**, **svojstvo bez nositelja u sastavnicama**, **granica i pripadnost**, **zamjenjivost sastavnica** — a tvrdnja pada ako se pokaže da organizacija nije promjenljiva veličina, to jest da se svojstva cjeline mogu izvesti iz dijelova bez obzira na uzorak („Kako bismo znali da griješimo“).
+
+Odatle slijedi četvero:
+
+- ime za mjesto na kojem se odlučuje — prvi korak, s podpitanjem *čiji dijelovi i za koje svojstvo*;
+- razliku između pogreške razlučivosti i pogreške naturalizacije, pa se particija ne uzima kao dana;
+- postupak koji se može ponoviti na vlastitome materijalu, korak po korak;
+- mjesto na kojem bi tvrdnja pala, zapisano unaprijed.
 
 **Dio nije zadan, nego odabran.** Isti materijal može se raščlaniti na više načina i svaki od njih dat će drugu cjelinu. Niz slova, niz riječi i niz izmjena u razgovoru tri su različite particije istoga događaja; ni jedna nije „prava". Odluka o tome što je dio nije opis svijeta, nego **odluka o razlučivosti** — i ona unaprijed određuje koje svojstvo uopće možemo vidjeti. Kad god se u ovom poglavlju kaže „dijelovi", treba čuti podpitanje: *čiji dijelovi i za koje svojstvo*.
 

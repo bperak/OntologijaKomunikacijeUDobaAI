@@ -2,13 +2,13 @@
 
 ## Zašto još jedna knjiga o jeziku i umjetnoj inteligenciji
 
-Ova knjiga ne opisuje što umjetna inteligencija radi — to čini *Komunikacija u doba umjetne inteligencije* (Perak 2025) — ni kako se to mjeri — to je posao knjige *Data Science u kulturi*. Njezino je pitanje uže i tvrdoglavije: **gdje to ontološki stoji?**
+Tko radi s jezikom i umjetnom inteligencijom, prije ili poslije nađe se pred istom rečenicom: model „razumije", „komunicira", „stvara značenje". Ta se rečenica izgovara i prima, a uz nju se rijetko pita **gdje** bi to svojstvo uopće stajalo — na kojoj razini stvarnosti. Bez odgovora se o takvim tvrdnjama ne odlučuje, nego pregovara; odluke se, pritom, donose i bez njega — pripisivanje, granica između pomoći i prepisivanja, ono što se traži od studenta.
 
-Kad kažemo da model „razumije", „komunicira" ili „stvara značenje", pretpostavljamo odgovor koji nikad nije izrečen: pretpostavljamo da postoje razine stvarnosti i da se zna na kojoj se od njih što zbiva. Značenje je, međutim, jedna od najgorih stvari za takvu pretpostavku — ono se pojavljuje u mreži uporabe, u prepoznatoj namjeri, u konvenciji, u obvezi; nigdje od toga nije u jednom pojedinačnom nositelju. Pitanje je, dakle, o razini. Ova knjiga kreće od najjednostavnijeg mogućeg stroja: od **razina**.
+Zato ova knjiga nije suvišna, i zato je njezino pitanje uže i tvrdoglavije od pitanja dviju srodnih knjiga. *Komunikacija u doba umjetne inteligencije* (Perak 2025) opisuje **što se dogodilo**; *Data Science u kulturi* pokazuje **kako se to mjeri**. Obje ostavljaju netaknutim ono što spor čini nerješivim: **gdje to ontološki stoji?** Ova knjiga ne opisuje iznova ni jedno ni drugo — ona nudi mjerilo: razine s relacijskim shemama, uvjet koji se na konkretnome slučaju može ispuniti ili ne ispuniti, i mjesto na kojem bi odgovor pao.
 
 ## Kome je namijenjena
 
-Studentima kulturalnih studija, lingvistike i digitalne humanistike; istraživačima koji se bave emergencijom, kompleksnošću i umjetnom inteligencijom; praktičarima u jezičnim tehnologijama i kulturnoj baštini koji traže pojmovni aparat bez matematike — ali i bez pojednostavljenja koje iskrivljuje. Knjiga pretpostavlja znatiželju, ne predznanje programiranja; kod koji se pojavljuje uvijek je objašnjen i uvijek se može preskočiti bez gubitka tvrdnje. Tvrdnja ne ovisi o kodu.
+Studentima kulturalnih studija, lingvistike i digitalne humanistike; istraživačima koji se bave emergencijom, kompleksnošću i umjetnom inteligencijom; praktičarima u jezičnim tehnologijama i kulturnoj baštini koji traže pojmovni aparat bez matematike — ali i bez pojednostavljenja koje iskrivljuje. Ona im daje ono što rasprava obično nema: **mjesto** na kojem tvrdnja stoji i **kriterij** po kojem se o njoj odlučuje. Knjiga pretpostavlja znatiželju, ne predznanje programiranja; kod koji se pojavljuje uvijek je objašnjen i uvijek se može preskočiti bez gubitka tvrdnje. Tvrdnja ne ovisi o kodu.
 
 ## Kako je organizirana
 

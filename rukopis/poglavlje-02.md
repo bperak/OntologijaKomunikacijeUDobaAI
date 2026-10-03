@@ -6,7 +6,13 @@
 
 ## 2.1 Što je OMLCC: ime, oblik i namjena
 
-**Što je OMLCC.** OMLCC je kratica engleskoga naziva *Ontological Model of Lexical Concepts and Constructions*, odnosno **ontološki model leksičkih koncepata i konstrukcija**. To je okvir koji ontologiju — pitanje *što postoji i koje je vrste* — ne postavlja kao popis stvari, nego kao **ljestvicu od šesnaest razina** u tri domene. Svaka je razina pritom određena **relacijskom shemom**. U ovoj se knjizi okvir ne izlaže kao gotov sustav, nego kao **mjerni instrument**. On daje kriterij po kojemu se za neki fenomen može reći na kojoj je razini i zašto (→ pogl. 2.3).
+Riječ *razina* rabi se za sve. Za visinu vode, za kakvoću usluge, za „višu razinu" koja se čini boljom od niže. Svaka je od tih uporaba razumljiva, a zajedničko im je samo ime. Kad jedna riječ pokriva i visinu vode i kakvoću usluge, ona prestaje razlučivati, a tada se svaki popis može proglasiti ljestvicom.
+
+Tu nastaje problem s kojim se ovo poglavlje nosi. Ako je razina popis imena, o njoj se može samo nabrajati: svaka se tvrdnja brani novim primjerom, a nijedna se ne može oboriti. Ljestvica s kriterijima može nešto oboriti. Razlika između popisa i ljestvice zato nije stvar ukusa, nego razlika između tvrdnje koja se može provjeriti i tvrdnje koja se samo ponavlja.
+
+Odgovor ovoga poglavlja ima određen oblik, i taj oblik vrijedi vidjeti odmah. Razina se ne određuje popisom primjera, nego **relacijskom shemom**: tip entiteta, tip relacije i tip svojstva (odjeljak 2.3). Te se sheme za sve razine mogu složiti u tablicu — šesnaest redaka, svaki s trima tipovima — i iz nje se za neki fenomen čita na kojoj je razini i zašto. Postupak koji to provodi na stvarnome iskazu ima osam koraka i završava nalazom u kojemu uz razinu stoji i ono što nije odlučeno (odjeljak 2.7). Nalaz ima i uvjet pod kojim pada: ako se **test spajanja i razdvajanja** ne može primijeniti dosljedno, broj šesnaest nije rezultat, nego konvencija; ako ravni model bez razina predviđa jednako dobro kao model s razinama, ljestvica je suvišna i okvir pada (odjeljak 2.4).
+
+Taj okvir ima ime. Zove se **OMLCC** — *Ontological Model of Lexical Concepts and Constructions*, odnosno **ontološki model leksičkih koncepata i konstrukcija** — i ontologiju, pitanje *što postoji i koje je vrste*, ne postavlja kao popis stvari, nego kao **ljestvicu od šesnaest razina** u tri domene. U ovoj se knjizi ne izlaže kao gotov sustav, nego kao **mjerni instrument**, jer daje kriterij po kojemu se za neki fenomen može reći na kojoj je razini i zašto (→ pogl. 2.3).
 
 **Zašto se tako zove**
 

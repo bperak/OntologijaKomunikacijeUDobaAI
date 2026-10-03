@@ -4,11 +4,15 @@
 
 ---
 
-Ovo je završno poglavlje, pa ima dva posla koja se lako razdvajaju, a teško izvode zajedno. Prvi je posao **sabiranja**. Petnaest prethodnih poglavlja izreklo je niz tvrdnji, a čitatelj ima pravo na jedan pregledan odgovor na četiri pitanja — što je sustav, što je jezik, što je model i što je mišljenje. Drugi je posao **razgradnje**. Ista ta poglavlja tvrde da nešto znaju, a svaka tvrdnja koja nešto zna mora moći reći i što bi je oborilo.
+Teorija koja ne može pasti nije teorija, nego pripovijest. Tu mjeru ova knjiga postavlja sama sebi, i zato je ovo poglavlje njezin najteži dio. Petnaest prethodnih poglavlja izreklo je niz tvrdnji, a svako je dobilo odjeljak „Kako bismo znali da griješimo"; ti su odjeljci sabrani na jednome mjestu (→ pogl. 16.4). Isti standard mora sada vrijediti i za ono što knjiga tvrdi o lingvistici.
 
-Ta dva posla nisu u napetosti samo retorički. Oni su u napetosti ontološki, i to je nalaz ovoga poglavlja: knjiga koja tvrdi da su **razine stvarne** mora pokazati da se razine mogu izmjeriti; knjiga koja tvrdi da je mjerenje moguće mora pokazati što bi svako pojedino mjerenje oborilo. Ako se to dvoje raziđe — ako razine ostanu nešto o čemu se govori, a nikad nešto na čemu se mjerenje može slomiti — onda je cijeli okvir nomenklatura. To je u četrnaestom poglavlju već imenovano kao najozbiljniji prigovor (→ pogl. 14.6).
+Lingvistika je dosad opisivala jezik: sustav znakova, njegovu gramatiku i njegovo značenje. Ako su **razine stvarne**, ona ne opisuje znakove, nego mjeri jedan sloj ontologije. Tvrdnja je time veća, pa mora biti i izloženija. Ako se razine ne mogu izmjeriti, ako ostanu nešto o čemu se govori a nikad nešto na čemu se mjerenje može slomiti, cijeli je okvir nomenklatura. To je u četrnaestom poglavlju imenovano kao najozbiljniji prigovor (→ pogl. 14.6). Promjena zato nije u predmetu, nego u vrsti tvrdnje: lingvistički nalaz mora moći pokazati neuspjeh.
 
-Zato ovo poglavlje ne završava obranom. Završava popisom načina na koje bi se ova knjiga mogla pokazati pogrešnom, i to u obliku u kojemu ih druga osoba može provesti bez autorova pristanka. Nema sedamnaeste razine (→ pogl. 12.3) ni u toj rečenici; ima samo rada koji drugi mogu ponoviti.
+Dva posla ovoga poglavlja, **sabiranje** i **razgradnja**, lako se razdvajaju, a teško izvode zajedno. Sabiranje traži jedan pregledan odgovor na četiri pitanja: što je sustav, što je jezik, što je model i što je mišljenje (→ pogl. 16.1). Razgradnja traži da svaka od tih tvrdnji kaže što bi je oborilo. Napetost među njima nije retorička, nego ontološka, i ona je nalaz ovoga poglavlja.
+
+Gotov odgovor zato ne izgleda kao obrana, nego kao pet eksperimenata i tablica koja ih vodi. Za svaki se navode podaci ili sudionici, protokol, mjera i ono što bi se smatralo obaranjem (→ pogl. 16.5). Poredani su po tome koliko bi štete nanijeli. E1 poredi ravni model s modelom s razinama i oborio bi samu ljestvicu. E2 traži neovisno anotiranje i oborio bi broj šesnaest kao rezultat. E3 mjeri ustaljenost nasuprot izloženosti. E4 testira prediktivnu vrijednost izvan podataka iz kojih je mreža izgrađena. E5 razlučuje funkcionalnoga parnjaka od pravoga slučaja. Uz njih stoje tri potvrđujuća eksperimenta i izričita granica: tri su stvari izvan programa, i to se navodi kao nalaz.
+
+Što čitatelj odatle dobiva? Tablicu iz koje za svako poglavlje vidi nosivu tvrdnju, test, što bi je oborilo i tko ju je već pokušao oboriti. Imena za mjesta na kojima tvrdnja pada: strop testa, artefakt mjere, nerazlučiv nalaz. Postupak izvediv bez autorova pristanka, u šest koraka. I mjeru koju knjiga sama sebi postavlja: nema sedamnaeste razine (→ pogl. 12.3), ima samo rada koji drugi mogu ponoviti.
 
 ## 16.1 Četiri odgovora knjige
 

@@ -4,6 +4,8 @@
 
 ---
 
+Kako izgleda gotov odgovor ovoga poglavlja? Pet uvjeta iz 7.5 — adresiranje, prepoznata namjera, zajednički artefakt, konvencija, obveza — nije popis načela, nego mjerni instrument: za svaki je u 7.6 naveden pokazatelj u korpusu i primjer jedinice, pa se u tablici po uvjetima broji koliko jedinica zadovoljava uvjete 1–4, a koliko uvjet 5. Iz toga proizlazi nalaz u obliku u kojem ga knjiga izvodi: razina 14 prisutna je **funkcionalno** — s pokazateljem u zapisu — a **intrinzično** ne (→ pogl. 14.6). Taj nalaz nije stav, nego mjera, i zato pada pod uvjetom koji se može navesti: ako se pokazatelji uvjeta 5 ne razlikuju od slučajnih obrazaca frekvencije, ili ako ravni opis bez razina ne pokaže mjerljiv gubitak, tvrdnja o razini se povlači (→ pogl. 7.6, 16.5). Poglavlje taj nalaz zatim izvodi na najjednostavnijem slučaju — po pokazatelju, a ne po dojmu (→ pogl. 7.9).
+
 ## 7.1 Zašto komunikacija zaslužuje razinu
 
 U drugom poglavlju postavili smo kriterij: razlika između razina nije razlika u količini, nego u **tipu svojstava i tipu relacija** (→ pogl. 2.4). Primijenimo ga sada na nešto što svatko misli da poznaje: na razgovor.

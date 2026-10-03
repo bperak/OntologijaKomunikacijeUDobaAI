@@ -12,6 +12,8 @@ Najčešći prigovor na razgovor o „razmišljanju" modela glasi: *to je samo p
 
 **Slika 11.1.** Isti mehanizam na dvjema vremenskim skalama: izlaz se vraća na ulaz, pa se iz jednoga koraka predviđanja dobiva niz koraka. Slika prikazuje **petlju**, a ne novu arhitekturu; ono što se mijenja s brojem koraka jest sadržaj ulaza, a ne funkcija koja ga obrađuje. Izvor: vlastita izrada (Perak 2026), shema bez podataka.
 
+Gotov odgovor ovoga poglavlja ima mjerljiv oblik i može se pokazati odmah. Tri kriterija iz 11.4 — **CILJ**, **PROVJERA** i **ODGOVORNOST** — nisu metafore nego mjerni instrument: za svaki se zna što se gleda (postavlja li sustav cilj sam, može li ocijeniti vlastiti ishod, kome se ishod pripisuje) i što bi ga oborilo. Iz njih slijedi nalaz koji ovo poglavlje izvodi: duljina lanca nije dokaz mišljenja, jer se petlja koja se vrti mjeri istim instrumentom kao i petlja koja vodi prema cilju (→ 11.3). Brojka, naime, bez tih triju odgovora ostaje dojam, a ne nalaz (→ 11.2). Ni jedan od triju kriterija ne smije se mjeriti isključivo na jezičnim zadacima; mjeri li se razgovorom, mjeri se vještina razgovora, a ne mišljenje (→ 11.4). Teza pritom pada ako se pokaže da duljina lanca nije uzrok ishoda, nego samo pratilac nečega trećega; tada od nje ostaje duži izlaz, a ne mišljenje (→ pogl. 11.6).
+
 ### Jedan mehanizam, dvije vremenske skale
 
 Uzmimo najjednostavniji opis. Model ima funkciju koja iz niza tokena $x_1 \dots x_n$ daje razdiobu nad sljedećim tokenom:

@@ -6,11 +6,11 @@
 
 ## 12.1 Pet dodataka
 
-Dosadašnja tri dijela knjige opisivala su model kao **izvor obrade**: vektorski prostor, geometriju značenja, predviđanje, mišljenje kao procesiranje (→ pogl. 9–11). U svim tim opisima model je bio *nešto što daje izlaz*. Pitanje ovoga poglavlja je drugo. Što se promijeni kad se izlaz ne samo daje, nego i izvršava? I kad se oko modela sagradi ono što izlaz čini djelovanjem s posljedicom?
+Uzmimo sustav koji je jučer preuzeo zadatak, a danas mu se obraća istom adresom. U kojem trenutku takav sustav prestaje biti izvor izlaza i postaje sudionik? Prijelom se ne vidi u veličini modela, nego u pet sitnica oko njega. Sustav dobiva ime po kojemu ga se može pozvati, pa drugi susret nije prvi. Pamti nešto između dvaju razgovora. Prima zadatak koji nije samo upit, nego posao s ishodom. Taj posao predaje dalje: drugom alatu, drugoj jedinici, drugome sustavu. Dosadašnja tri dijela knjige opisivala su model kao **izvor obrade**: vektorski prostor, geometriju značenja, predviđanje, mišljenje kao procesiranje (→ pogl. 9–11). U svim tim opisima model je bio *nešto što daje izlaz*. Pitanje ovoga poglavlja je drugo: što se promijeni kad se izlaz ne samo daje, nego i izvršava, i kad se oko modela sagradi ono što izlaz čini djelovanjem s posljedicom?
 
-Odgovor ne dolazi iz jedne velike razlike, nego iz **pet malih dodataka**. Svaki od njih je tehnički skroman i svaki se može zasebno opisati. Pitanje je samo je li njihov *skup* dovoljan da se o modelu počne govoriti kao o sudioniku u sustavu, a ne kao o funkciji koja se poziva. U ovom odjeljku svaki dodatak dobiva isti troslojni tretman: **što dodaje**, **na koju razinu OMLCC-a djeluje** i koji bi ga test pokazao nepresudnim. Dodatak koji ne mijenja ništa u opisu sustava nije dodatak, nego udobnost.
+Na tom se mjestu najlakše pomiješa pozicija s ulogom. Pozicija govori *gdje* je sudionik u sustavu, a uloga *što* radi (→ 12.3). Ta se razlika u raspravi o agentima izgubi prije svega ostaloga, jer ista riječ — **agent** — služi i za mjesto i za posao. Zato ovo poglavlje ne pita je li model pametniji, nego što se u opisu sustava promijenilo.
 
-Uvodna tablica služi kao nacrt; pojedinosti slijede.
+Odgovor ne dolazi iz jedne velike razlike, nego iz **pet malih dodataka**: **ACTION**, **MEMORY**, **RETRIEVAL**, **ORCHESTRATION** i **INTEROPERABILITY** (→ 12.1). Oni zajedno čine mjerni popis, a ne tvrdnju: za svaki se zna što dodaje, na koju razinu OMLCC-a djeluje i koji bi ga test pokazao nepresudnim. Taj popis ujedno je kandidatura, a ne zaključak (→ 12.4). Model time dobiva poziciju u sustavu, dakle postaje **entitet**, a ulogu koju pritom obavlja zovemo **agent**. Kandidatura pada ako se svih pet dodataka može opisati kao pozivi funkcija bez trajnoga identiteta sudionika (→ pogl. 16.4). Slika i uvodna tablica služe kao nacrt; pojedinosti slijede.
 
 ![Slika 12.1 — pet dodataka i razine na koje djeluju](../figure/dijagram-12-1-pet-dodataka.png)
 

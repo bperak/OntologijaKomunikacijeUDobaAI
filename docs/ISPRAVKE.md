@@ -621,3 +621,30 @@ ispravljeno dvostruko nijekanje („ne niječe" → „ne odbacuje").
 (7.5, 7.9, 13.4, 13.5, 14.6, 14.7, 16.5); **nijedna nova tvrdnja, izvor ni brojka**. Proza uvoda
 2.129 → 2.093 riječi po mjeri (podebljano 10,6 % · ≤8 14,8 % · čestice 5/12 · „upravo" 0 · šuplje 0).
 
+## ZAPIS-015 — Problem-first otvaranja u cijeloj knjizi (3. 10. 2026.)
+
+**Povod (autor):** „Tako je! To je odlično. Pretvori to u skil i propusti za ostatak knjige."
+
+**Metoda** je zapisana kao skill **`problem-first-openings`** (dijagnoza od 5 simptoma, četiri poteza,
+tvrdi okviri, pragovi stila, provjere i zamke). Primijenjena je na otvaranja **16 poglavlja** i
+**predgovora** (uvod je prerađen dan prije, ZAPIS-014); zaključak je pregledan i **nije diran** jer mu je
+ulaz već problematski (teza + „zašto zaključak nije zbroj sažetaka").
+
+**Pravilo za svaki zahvat:** zamijenjen je **samo otvarajući prozni tok** (prva 2–4 odlomka nakon teze —
+u poglavljima 1–6, 9, 10, 12, 13 unutar prve sekcije, u 7, 8, 11, 14, 15, 16 prije nje); aparat
+(naslovi, tablice, slike, potpisi, popisi, blokovi koda, ključni pojmovi, literatura) nije diran.
+**Nijedna nova tvrdnja, izvor, brojka ni citat** — sve što preslika i problem tvrde stoji na građi koja
+je već u poglavlju.
+
+**Mjerena promjena (riječi otvarajućeg toka, prije → poslije):** p.1 280→368 · p.2 462→324 ·
+p.3 349→290 · p.4 378→277 · p.5 259→384 · p.6 415→362 · p.7 273→375 · p.8 248→344 · p.9 307→258 ·
+p.10 194→195 · p.11 188→292 · p.12 304→370 · p.13 238→310 · p.14 289→258 · p.15 213→347 ·
+p.16 274→324. **Preslika rješenja sada postoji u svih 16 otvaranja** (prije u 6); **konkretna situacija**
+u većini (iznimka je p.16, gdje je otvaranje namjerno teza koja boli: „teorija koja ne može pasti nije
+teorija, nego pripovijest"); otvaranja **nisu postala formula** — nijedne dvije datoteke ne počinju istim
+riječima (mjeri `kod/provjeri_otvaranja.py`).
+
+**Ispravke koje su radnici propustili, a provjera ih je našla:** u p.13 uputa za pet uvjeta vodila je na
+12.1 (pet uvjeta je u **7.5**); u p.14 definicija dvaju pojmova vodila je na 8.4 (definicije stoje u
+**14.6**). Obje su ispravljene, snimke za te dvije datoteke osvježene.
+
