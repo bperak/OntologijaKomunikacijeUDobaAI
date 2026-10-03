@@ -648,3 +648,52 @@ riječima (mjeri `kod/provjeri_otvaranja.py`).
 12.1 (pet uvjeta je u **7.5**); u p.14 definicija dvaju pojmova vodila je na 8.4 (definicije stoje u
 **14.6**). Obje su ispravljene, snimke za te dvije datoteke osvježene.
 
+## ZAPIS-016 — Okret prema čitatelju: teza običnim jezikom i „što vam ovo daje" (3. 10. 2026.)
+
+**Povod (autor):** „Još treba ići prema čitatelju. Razjasni teze, bolje objasni sve. A i zašto je i dalje
+neusmjereno prema čitatelju?" — uz citiran popis koristi iz uvoda („Ime za mjesto · Razliku koja čuva od
+dviju pogrešaka · Postupak · Mjesto na kojem bi tvrdnja pala").
+
+**Dijagnoza (moja pogreška).** Popravljen je *ulaz* (problem, situacija, preslika), a korist je ostala
+izrečena **rječnikom knjige**: „ime za mjesto", „funkcionalno nasuprot intrinzično prisutnom". Preslika
+pokazuje kako izgleda gotov *odgovor*; nijedno mjesto nije pokazivalo što će *čitatelj* moći izgovoriti.
+Rečenica knjige o sebi nije rečenica koju čitatelj može izgovoriti svojem kolegi.
+
+**Ispravak.** Uveden je trajni uređaj u dvama dijelovima:
+
+1. **Uvod:** odjeljak „Što čitatelj odatle dobiva" zamijenjen je odjeljkom **„Što ćete odatle ponijeti"** —
+   pet stavki u drugome licu, svaka kao nešto što čitatelj danas ne može izgovoriti s pokrićem
+   („rečenicu koju dosad niste mogli izgovoriti", „pitanje koje raspravu pretvara u provjeru", „razliku
+   koja vas čuva od dvije jednako pogrešne rečenice", „postupak koji možete izvesti na svojim podacima i
+   pokazati drugome", „mjesto na kojem bi tvrdnja pala"), uz završnu rečenicu da je posao obavljen ako se
+   ostvari samo prva. U anatomiji poglavlja dodano je da uz tezu stoji **„teza običnim jezikom"**.
+2. **Svako poglavlje:** otvarajući tok završava odlomkom **„Što vam ovo poglavlje daje."** (80–130 riječi):
+   teza toga poglavlja prevedena na običan jezik, pa što će čitatelj s tim moći reći ili učiniti u svojoj
+   situaciji (drugo lice), pa uputa na mjesto gdje se to pokazuje. Uz to: gdje je teza u blok-citatu bila
+   nerazumljiva, preformulirana je **bez promjene tvrdnje** i bez gubitka citata; u otvarajućem toku
+   objašnjen je pojam prije uporabe i dodano je „zašto" tamo gdje je tvrdnja visjela.
+
+**Zapisano u skill** `problem-first-openings` kao **peti potez** („prema čitatelju"), s dijagnozom slijepe
+točke i mjerom: ako se odlomak može prepisati u treće lice bez gubitka, nije usmjeren na čitatelja.
+
+**Izvještaj o provedbi (3. 10. 2026., poslije neovisne provjere).** Uređaj „Što vam ovo poglavlje daje"
+stoji u **svih 16 poglavlja i u predgovoru** (predgovor: „Što vam ova knjiga daje"), u uvodu odgovara
+odjeljak „Što ćete odatle ponijeti".
+
+**Popravci koje je našla neovisna provjera (radnici ih nisu vidjeli):**
+- u **četiri poglavlja (5, 13, 14, 15, 16)** uz novi uređaj ostao je i stari blok u trećem licu
+  („Što čitatelj odatle dobiva…", „Iz toga čitatelj nosi četiri stvari"), pa su se dva čitateljska bloka
+  nizala jedan za drugim: spojeni su u jedan, **u drugome licu**, s natuknicama ispod uređaja;
+- isto u **pogl. 9 i 10** („Odatle čitatelj nosi…" → „Odatle nosite…", spojeno s uređajem);
+- **pogl. 3 i 4** ponavljala su istu figuru („…s tri pitanja… Bez odgovora na njih…") u dva susjedna
+  poglavlja → pogl. 3 sada izvodi posljedicu drukčije („smještena se tvrdnja može i oboriti");
+- treće lice u praksi: pogl. 1 („koje čitatelj naziva razinom" → „koje nazovete razinom"), pogl. 6
+  („Prije nego pogleda rezultat, čitatelj zapisuje…" → „Prije nego pogledate rezultat, zapišite…"),
+  zaključak (naslov „Što čitatelj može učiniti danas" → **„Što možete učiniti danas"**), uvod (anatomija).
+
+**Mjere:** „čitatelj" (treće lice) u rukopisu **31 → 20** pojava; preostale su opisne, a ne obraćanje
+čitatelju („poruka upućena čitatelju", „tekst bez čitatelja", „knjiga koja mijenja čitatelja").
+Proza: dodano ~1.700 riječi uređaja. Provjere nakon svake izmjene: struktura (nijedan izgubljen element
+aparata), sadržaj (0 izgubljenih citata/godina/brojki/naslova/uputa), pragovi stila svih 17 datoteka,
+`check_lit`, `check_fakti --strict`, `check_cisto`, `check_refs`, `check_links` — sve prolazi.
+

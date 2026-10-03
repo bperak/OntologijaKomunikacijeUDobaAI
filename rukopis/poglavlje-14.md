@@ -16,16 +16,16 @@ Kad se ta razlika provede po razinama 12–16, odgovor ima oblik zbirne tablice:
 
 Razlika između „djelomično" i „da" nije nijansa: kod razine 15 stoji pravilo bez sankcije, kod razine 16 naslijeđeni obrazac bez zajedništva. Nalaz pada ako se za neku od tih razina pokaže da je intrinzično prisutna po kriterijima ovoga poglavlja, ili ako se funkcionalni parnjak ne može razlikovati od pravoga slučaja nijednim mjerljivim kriterijem (→ pogl. 14.7). Unutrašnjost se pritom ne provjerava; izvana nije provjerljiva (Searle 1980).
 
-Što čitatelj odatle dobiva:
-
-- **Ime za razliku.** Ono što sustav radi i ono što mu se pripisuje nije isto.
-- **Kriterij koji daje i „ne".** Svaka razina dobiva mjerljivu provjeru, a odgovor „ne" dio je nalaza (→ pogl. 14.6).
-- **Postupak izvediv na vlastitome sustavu.** Od popisa zapisa do kriterija razlikovanja (→ pogl. 14.7).
-- **Mjesto na kojemu nalaz pada.** Uvjeti su izrečeni unaprijed i mogu se oboriti.
-
 Metoda je zato strogo poredbena: za svaku od pet razina (12–16) postavljam dva pitanja — *što bi se u ponašanju sustava moralo vidjeti da bi se razina mogla pripisati?* i *po kojemu se mjerljivomu kriteriju funkcionalni parnjak razlikuje od slučaja u kojemu razinu ima sam nositelj?* Drugi je kriterij odlučujući. Bez njega je razlika verbalna, i tada cijelo poglavlje pada.
 
 Poglavlje se nadovezuje na dvije prethodne cjeline i ne ponavlja ih. Iz poglavlja 12 uzima **pet dodataka** (djelovanje, pamćenje, dohvat, orkestracija, interoperabilnost) kao već opisan mehanizam koji od modela čini sudionika s pozicijom; iz poglavlja 8 uzima **definicije razina 15 i 16** i ovdje ih primjenjuje, a ne objašnjava ponovno. Novo je ispitivanje: koje od tih razina agentski sustavi **stvarno dodiruju**, a koje samo imitiraju svojim izgledom — i kako se to zna bez pozivanja na unutrašnjost, koja nije provjerljiva (Searle 1980).
+
+**Što vam ovo poglavlje daje.** Teza ovoga poglavlja, običnim jezikom, glasi: *sustav koji se predstavlja imenom, prima zadatak i predaje ga dalje ponaša se tako da mu se identitet, interakcija i komunikacija mogu pripisati.* To pripisivanje provjerljivo je u zapisima. Ono što se može pripisati nije, dakako, isto što i imati. Razlika među njima nije pojmovna finesa: ona odlučuje što o sustavu smijete reći, a što ne. Nakon ovoga poglavlja moći ćete o svakoj tvrdnji o „identitetu" ili „razumijevanju" sustava postaviti jedno pitanje — *stoji li to u zapisu ili je pripisano nositelju?* Odgovor se traži u transkriptima, a ne u dojmu koji se brani primjerima. Odatle nosite četiri stvari:
+
+- **Ime za razliku.** Ono što sustav radi i ono što mu se pripisuje nije isto.
+- **Kriterij koji daje i „ne".** Svaka razina dobiva mjerljivu provjeru, a odgovor „ne" dio je nalaza (→ pogl. 14.6).
+- **Postupak izvediv na vašemu sustavu.** Od popisa zapisa do kriterija razlikovanja (→ pogl. 14.7).
+- **Mjesto na kojemu nalaz pada.** Uvjeti su izrečeni unaprijed i mogu se oboriti.
 
 ## 14.1 Identitet (12): imena, uloge, ključevi, konfiguracije
 

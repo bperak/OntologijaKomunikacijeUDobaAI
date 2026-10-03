@@ -14,6 +14,8 @@ Ni uvid nije nov, i to je dio nevolje. Ludwig von Bertalanffy definirao je susta
 
 Oblik gotovog odgovora zato nije novo mišljenje, nego zapis, i on se može pokazati odmah. Tvrdnja o razini zapisuje se u pet redaka — *svojstvo · niža razina · zakon sastavljanja · prečica (ima/nema) · ishod* — a ishod je jedno od triju: **rezultantno**, **slabo emergentno** ili **nerazlučivo od mjere** (odjeljak 1.9). Zapis ima i svoju cijenu: ako se pokaže da je svojstvo izvedivo iz niže razine bez simulacije, u zatvorenoj formi, okvir razina nema posla i prva tvrdnja knjige pada (odjeljak 1.9). Čitatelj odatle dobiva ime za mjesto, razliku koja ga čuva od dviju pogrešaka — od čitanja razine kao veličine i od čitanja razine kao stupnja neznanja — postupak izvediv na vlastitome materijalu i mjesto na kojemu bi tvrdnja pala.
 
+**Što vam ovo poglavlje daje.** Teza ovoga poglavlja, običnim jezikom, glasi: *„razina" ne znači da je čega više ni da je što veće, nego da se pojavljuje nešto druge vrste, i to ne u pojedinome dijelu, nego u njihovu rasporedu.* U svojem materijalu — popisu riječi, korpusu, vlastitim bilješkama — moći ćete pokazati na što mislite kad nešto nazovete razinom. Kad u razgovoru netko tvrdi da je nešto „na višoj razini", imat ćete pitanje koje to razlučuje: koja je tu vrsta svojstva nova, a gdje je ima samo cjelina? Tako i vlastita tvrdnja dobiva mjesto na kojemu se provjerava, a ne primjer koji je brani (→ pogl. 1.9).
+
 Iz toga slijedi prva radna razlika koju ćemo u knjizi stalno rabiti:
 
 | pojam | što znači | primjer |
@@ -169,7 +171,7 @@ Postupak koji slijedi služi jednome: da se tvrdnja o razini *provjeri, a ne izr
 
 Ako ne radi — tri najčešće greške. *Prva:* razina se pročita kao mjerilo veličine, pa se broj dijelova zamijeni za tip svojstva („veće je na višoj razini"). Rješenje je korak 1: razina nije veličina ni vrijednosna ljestvica, a veće nije više. *Druga:* svojstvo se pripiše dijelu („čestica je topla", „token nosi značenje") i razina se izgubi prije nego je nađena. Rješenje je korak 3: ako svojstvo preživi na dijelu, pronašao si nižu razinu, a ne ovu. *Treća:* skok u mjeri proglasi se skokom u sustavu. Rješenje je korak 6: zamijeni pragovnu mjeru kontinuiranom i zapiši ishod kakav jest, jer pojava koja se ne razlučuje od artefakta mora se prijaviti kao nerazlučiva.
 
-**Što to mijenja u praksi.** Za svako svojstvo koje čitatelj naziva razinom mora stajati odgovor: koje svojstvo, koja niža razina i koji zakon sastavljanja. Time se sprječava da se veći broj dijelova pročita kao viša razina i da se skok u mjeri zamijeni za skok u sustavu. Ograda ostaje Kimova: ako razina ne dodaje ništa ni opisu ni predviđanju, odustaje se od nje u tome slučaju.
+**Što to mijenja u praksi.** Za svako svojstvo koje nazovete razinom mora stajati odgovor: koje svojstvo, koja niža razina i koji zakon sastavljanja. Time se sprječava da se veći broj dijelova pročita kao viša razina i da se skok u mjeri zamijeni za skok u sustavu. Ograda ostaje Kimova: ako razina ne dodaje ništa ni opisu ni predviđanju, odustaje se od nje u tome slučaju.
 
 ### Kako bismo znali da griješimo
 

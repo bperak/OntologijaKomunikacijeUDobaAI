@@ -1,6 +1,6 @@
 # 13. Human→agent i agent→agent: što se mijenja na razini 14
 
-> *Teza poglavlja:* novi sudionik **ne dodaje razinu**, nego mijenja **uvjete** komunikacije: prepoznavanje namjere, zajednički artefakt, konvencije i obveze moraju se iznova urediti. Komunikacija ostaje razina 14 (SocCommunication) — a ono što se mijenja jest raspored tereta po pojedinim uvjetima iz 7.5.
+> *Teza poglavlja:* novi sudionik **ne dodaje novu razinu**, nego mijenja **uvjete** komunikacije: prepoznavanje namjere, zajednički artefakt, konvencije i obveze moraju se iznova urediti. Komunikacija ostaje razina 14 (SocCommunication) — a ono što se mijenja jest **raspored tereta**: koji od pet uvjeta iz 7.5 nosi koja strana.
 
 ---
 
@@ -21,11 +21,11 @@ Zato odgovor ima oblik koji se može provjeriti na jednome transkriptu. U 13.5 u
 
 Drugi dio istoga oblika jest taksonomija iz 13.6: četiri vrste neuspjeha — nerazumijevanje, lažna suradnja, gubitak konteksta i obveza bez nostitelja — svaka sa svojim pokazateljem i svojim pripisivanjem. Kad se oba dijela provedu, nalaz se čita kao pravilo: protokol rješava prvi, treći i četvrti uvjet, a ne peti. Nalaz pada ako se pokaže da neka konfiguracija uvodi svojstvo koje se ne može opisati kao raspored istih pet uvjeta.
 
-Što čitatelj odatle dobiva:
+**Što vam ovo poglavlje daje.** Teza ovoga poglavlja, običnim jezikom, glasi: *novi sudionik u razgovoru ne dodaje novu razinu, nego mijenja raspored tereta po pet uvjeta komunikacije.* Ti su uvjeti adresiranje, prepoznata namjera, zajednički artefakt, konvencija i obveza. Isti uvjeti, dakle, vrijede i kad s druge strane nije čovjek; mijenja se samo tko koji od njih nosi. Nakon ovoga poglavlja moći ćete u svome transkriptu prebrojati tih pet uvjeta i vidjeti koji uvjet nosi koja strana. Svaki od njih ima i mjesto na kojemu se vidi, pa vam nalaz o „novoj razini" ili o „samo sučelju" prestaje biti dojam i postaje provjerljiv. Odatle nosite četiri stvari:
 
 - **Ime za mjesto.** Nije „nova razina", nego **raspored tereta** po pet uvjeta iz 7.5.
-- **Razliku koja čuva od dviju pogrešaka.** Ni „nova komunikacija" ni „samo sučelje".
-- **Postupak izvediv na vlastitome materijalu.** Četiri mjesta u transkriptu iz 13.5.
+- **Razliku koja vas čuva od dviju pogrešaka.** Ni „nova komunikacija" ni „samo sučelje".
+- **Postupak izvediv na vašem materijalu.** Četiri mjesta u transkriptu iz 13.5 (→ pogl. 13.5).
 - **Mjesto na kojemu tvrdnja pada.** Svojstvo koje se ne svodi na raspored istih pet uvjeta.
 
 Postoje tri konfiguracije, i one se razlikuju po tome **tko snosi trošak nerazumijevanja**.

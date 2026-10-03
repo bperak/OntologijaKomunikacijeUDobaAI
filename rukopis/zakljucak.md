@@ -52,7 +52,7 @@ Na razini cijele knjige to su tri rezultata, navedena u uvodu i razrađena u 16.
 
 Ovo nije dodatak nego dio namjere. Anatomija od sedam blokova (teza, teorijski okvir, metode i podaci, praktikum ili radni primjer, vježbe, sažetak i ključni pojmovi, „kako bismo znali da griješimo") napravljena je tako da se poglavlje može zadati kao **tjedan nastave**. Teza i okvir služe kao tekst za čitanje, praktikum kao vježba u računalu, vježbe kao domaći rad, a falsifikacijski odjeljak kao tema seminara. Trojna podjela vježbi (🟢 provjeri razumijevanje, 🟡 primijeni na vlastite podatke, 🏆 istraživački zadatak) omogućuje da isti materijal radi i na preddiplomskoj i na diplomskoj razini. Rješenja vježbi dana su u dodatku C, a predlošci za praktikume (korpusni upit, evaluacija ugrađivanja, protokol kauzalnog testa) u repozitoriju knjige (`kod/`, `data/`).
 
-## Što čitatelj može učiniti danas
+## Što možete učiniti danas
 
 Knjiga ne završava pozivom na čekanje. Četiri su poteza izvediva odmah, i svaki je uzet iz njezina vlastita postupka:
 

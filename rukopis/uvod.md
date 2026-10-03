@@ -36,12 +36,17 @@ Prva se četiri uvjeta daju izbrojiti; peti je u podacima najslabije pokriven (�
 
 Takav odgovor može biti pogrešan, i u tome je njegova vrijednost. Ako se pokaže da se isti transkript jednako dobro čita na dvije razine, ili da se uvjet 5 nigdje ne može izbrojiti, nalaz pada (→ pogl. 16.5). Dojam se ne može oboriti; nalaz može.
 
-## Što čitatelj odatle dobiva
+## Što ćete odatle ponijeti
 
-- **Ime za mjesto.** Umjesto „napredno" ili „samo statistika", može se reći na kojoj razini teče koji nalaz i zašto (→ pogl. 2).
-- **Razliku koja čuva od dviju pogrešaka.** Ono što sustav radi i ono što mu se pripisuje nisu isto; ta se razlika zove **funkcionalno** nasuprot **intrinzično prisutnom** (→ pogl. 14).
-- **Postupak koji se izvodi na vlastitome materijalu.** Od rečenice do relacijske sheme, od pet uvjeta do brojanja, od testa spajanja do ocjene kriterija (→ pogl. 2.7, 7.9, 12.1).
-- **Mjesto na kojem bi tvrdnja pala.** Uz svaku tvrdnju stoji i rezultat koji bi je oborio (→ pogl. 16.5).
+Ovo nije popis knjižnih dobara, nego popis onoga što ćete moći reći i učiniti — svaka stavka je jedna stvar koju danas vjerojatno ne možete izgovoriti s pokrićem.
+
+- **Rečenicu koju dosad niste mogli izgovoriti.** Umjesto „napredno" ili „samo statistika", moći ćete reći: *ovaj nalaz stoji na razini 14, i to po uvjetu 5 — a evo gdje se to vidi u zapisu.* Ta je rečenica provjerljiva, i zato ju je moguće oboriti (→ pogl. 7.5).
+- **Pitanje koje raspravu pretvara u provjeru.** Na svaku tvrdnju o modelu moći ćete postaviti dva pitanja: *na kojoj razini* i *po kojem uvjetu*. Ako odgovora nema, znat ćete da se ne raspravlja o nalazu, nego o dojmu (→ pogl. 2.3).
+- **Razliku koja vas čuva od dvije jednako pogrešne rečenice.** „Sustav radi X, dakle ima X" i „sustav nema X, dakle ne radi X" padaju na istome pitanju: vidi li se svojstvo u zapisu ili mu je pripisano izvana. Tu razliku zovemo *funkcionalno* nasuprot *intrinzično prisutnom* (→ pogl. 14).
+- **Postupak koji možete izvesti na svojim podacima i pokazati drugome.** Od rečenice do relacijske sheme, od pet uvjeta do udjela u transkriptu, od mreže do nalaza s vrstom dokaza (→ pogl. 2.7, 7.9, 12.1).
+- **Mjesto na kojem bi tvrdnja pala.** Uz svaku tvrdnju stoji i rezultat koji bi je oborio, pa ćete moći procijeniti koliko joj vjerovati i što bi je promijenilo (→ pogl. 16.5).
+
+Ako se od ovih pet stvari ostvari samo prva, knjiga je obavila posao: rasprava o tome što model jest prestaje biti stvar ukusa.
 
 ## Tri tvrdnje koje knjiga brani
 
@@ -85,7 +90,7 @@ Bez te razlike okvir proizvodi dvije jednako pogrešne tvrdnje iz istoga propust
 
 Poglavlja imaju isti oblik, i taj oblik je dio metode:
 
-**teza** (jedan odlomak) → **teorijski okvir** → **metode i podaci** → **praktikum** (kod korak po korak, uz odjeljak „Ako ne radi"; u teorijskim poglavljima na njegovu mjestu stoji **radni primjer**) → **vježbe** (🟢 provjeri razumijevanje, 🟡 primijeni na vlastite podatke, 🏆 istraživački zadatak) → **sažetak i ključni pojmovi** → **„Što to mijenja u praksi"** (dvije do četiri rečenice o tome što čitatelj radi drukčije, ondje gdje nalaz ima neposrednu posljedicu za rad) → **„Kako bismo znali da griješimo"**. Znak **❓** označuje **nepotvrđenu stavku**: tvrdnja je izrečena, ali izvor ili mjerenje za nju još ne postoji, pa se takva stavka u knjizi ne rabi kao dokaz i ne citira se.
+**teza** (jedan odlomak, zapisan u jednome dahu da se lakše provjeri drži li kroz cijelo poglavlje) → **teza običnim jezikom** (što tvrdi i što vam time daje) → **teorijski okvir** → **metode i podaci** → **praktikum** (kod korak po korak, uz odjeljak „Ako ne radi"; u teorijskim poglavljima na njegovu mjestu stoji **radni primjer**) → **vježbe** (🟢 provjeri razumijevanje, 🟡 primijeni na vlastite podatke, 🏆 istraživački zadatak) → **sažetak i ključni pojmovi** → **„Što to mijenja u praksi"** (dvije do četiri rečenice o tome što radite drukčije, ondje gdje nalaz ima neposrednu posljedicu za rad) → **„Kako bismo znali da griješimo"**. Znak **❓** označuje **nepotvrđenu stavku**: tvrdnja je izrečena, ali izvor ili mjerenje za nju još ne postoji, pa se takva stavka u knjizi ne rabi kao dokaz i ne citira se.
 
 Posljednji odjeljak nije ukras. On je mjesto na kojem svako poglavlje kaže **koji bi ga rezultat oborio**; knjiga koja to ne može reći nije teorija, nego pripovijest (→ pogl. 16.5).
 

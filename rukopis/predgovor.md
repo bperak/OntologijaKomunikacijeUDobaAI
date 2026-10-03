@@ -6,6 +6,8 @@ Tko radi s jezikom i umjetnom inteligencijom, prije ili poslije nađe se pred is
 
 Zato ova knjiga nije suvišna, i zato je njezino pitanje uže i tvrdoglavije od pitanja dviju srodnih knjiga. *Komunikacija u doba umjetne inteligencije* (Perak 2025) opisuje **što se dogodilo**; *Data Science u kulturi* pokazuje **kako se to mjeri**. Obje ostavljaju netaknutim ono što spor čini nerješivim: **gdje to ontološki stoji?** Ova knjiga ne opisuje iznova ni jedno ni drugo — ona nudi mjerilo: razine s relacijskim shemama, uvjet koji se na konkretnome slučaju može ispuniti ili ne ispuniti, i mjesto na kojem bi odgovor pao.
 
+**Što vam ova knjiga daje.** Teza ove knjige, običnim jezikom, glasi: *knjiga ne nudi stav o modelima, nego mjerilo. Svaka tvrdnja o jeziku i o modelu ima razinu na kojoj stoji i uvjet pod kojim pada.* Nakon nje moći ćete za tvrdnju o „razumijevanju" ili „komunikaciji" reći na kojoj razini stoji i koji je nositelj nosi. Moći ćete razlikovati ono što stoji u zapisu od onoga što se pripisuje, i to pokazati na vlastitome slučaju. Ono što time dobivate nije gotov sud, nego kriterij koji možete primijeniti i osporiti (→ pogl. 16.5).
+
 ## Kome je namijenjena
 
 Studentima kulturalnih studija, lingvistike i digitalne humanistike; istraživačima koji se bave emergencijom, kompleksnošću i umjetnom inteligencijom; praktičarima u jezičnim tehnologijama i kulturnoj baštini koji traže pojmovni aparat bez matematike — ali i bez pojednostavljenja koje iskrivljuje. Ona im daje ono što rasprava obično nema: **mjesto** na kojem tvrdnja stoji i **kriterij** po kojem se o njoj odlučuje. Knjiga pretpostavlja znatiželju, ne predznanje programiranja; kod koji se pojavljuje uvijek je objašnjen i uvijek se može preskočiti bez gubitka tvrdnje. Tvrdnja ne ovisi o kodu.

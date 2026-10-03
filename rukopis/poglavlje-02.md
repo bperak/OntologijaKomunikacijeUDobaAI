@@ -14,6 +14,8 @@ Odgovor ovoga poglavlja ima određen oblik, i taj oblik vrijedi vidjeti odmah. R
 
 Taj okvir ima ime. Zove se **OMLCC** — *Ontological Model of Lexical Concepts and Constructions*, odnosno **ontološki model leksičkih koncepata i konstrukcija** — i ontologiju, pitanje *što postoji i koje je vrste*, ne postavlja kao popis stvari, nego kao **ljestvicu od šesnaest razina** u tri domene. U ovoj se knjizi ne izlaže kao gotov sustav, nego kao **mjerni instrument**, jer daje kriterij po kojemu se za neki fenomen može reći na kojoj je razini i zašto (→ pogl. 2.3).
 
+**Što vam ovo poglavlje daje.** Teza ovoga poglavlja, običnim jezikom, glasi: *razine ne određuje popis imena nego pravilo po kojemu se svaka prepoznaje. Kakav je u njoj entitet, kakva relacija i kakvo svojstvo — po tomu se o razini može odlučivati, a ne samo nabrajati.* U svojem materijalu moći ćete za svaku tvrdnju o razini imenovati tri stvari koje je ondje smještaju. Kad u razgovoru netko kaže da nešto „pripada višoj razini", imat ćete tri pitanja koja to provjeravaju: što je tu entitet, što je relacija i što je svojstvo. Tako se i broj šesnaest dade braniti, a ne samo navesti (→ pogl. 2.7).
+
 **Zašto se tako zove**
 
 - **Ontološki** — zato što se pita *što postoji i koje je vrste*, a ne samo kako se o nečemu govori. Ontologija je ovdje ljestvica **vrsta svojstava i relacija**, a ne popis bića (→ pogl. 1.4).
