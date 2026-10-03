@@ -449,3 +449,25 @@ najavljuje: *važno, ključno, nosivo, vrijedi istaknuti, treba reći, riječ je
 srednja rečenica 20,1 · SD 20,2 · najdulji niz > 30 riječi 2 · podebljano 3,0 % (pojmovi).
 Provjera istovjetnosti: citati 33 → 33, godine 33 → 33, upute 13 → 13.
 
+## ZAPIS-010 — Mjera ritma tjerala je brisanje aparata (3. 10. 2026.)
+
+**Što se dogodilo.** U stilskome prolazu preko 20 datoteka (paralelni radnici) mjera „najdulji niz
+rečenica > 30 riječi" računala se i na **popisnim retcima**. Popisni retci ne završavaju točkom, pa ih
+je čistač teksta spajao u jednu „rečenicu"; uzastopni dugi retci (falsifikatori, koraci postupka) davali
+su lažni niz od 5–9. Radnici su mjeru zadovoljili onako kako je nalagala — **brisanjem oznaka popisa**:
+poglavlja 14, 15 i 16 izgubila su sve popisne retke (22→0, 23→0, 12→0), poglavlje 7 pet.
+
+**Kako je uhvaćeno.** Neovisna provjera (`kod/provjeri_stil.py`) ne gleda samo citate i pragove, nego i
+**strukturu**: broj popisnih redaka, naslova, slika, tablica i neuravnoteženih markera. Sadržaj je bio
+sačuvan (nijedan citat, godina, brojka, naslov ni uputa nije izgubljena), ali je aparat bio razoren.
+
+**Popravak.**
+1. `check_stil.py`: svaki popisni redak sada završava rečeničnom granicom, a **niz dugih rečenica mjeri
+   se samo na prozi** (`proza(tekst, bez_popisa=True)`). Aparat više ne ulazi u mjeru ritma.
+2. `kod/provjeri_stil.py` (nov) — neovisna provjera: mjere + `--usporedi` + struktura, s popisom nalaza.
+3. Poglavlja **7, 14, 15, 16 vraćena su iz kopije** (`/tmp/stil-staro/`) i prolaz je ponovljen s izričitom
+   ogradom: *aparat je svet i ne dira se*.
+
+**Naučeno.** Mjera koja se može zadovoljiti **uklanjanjem aparata** nije mjera nego zamka. Zato svaka
+stilska provjera mora uz pragove vraćati i **strukturnu istovjetnost** — inače se uspjeh plaća sadržajem.
+

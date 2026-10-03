@@ -56,11 +56,17 @@ def datoteke(samo=None):
     return out
 
 
-def proza(tekst):
+def proza(tekst, bez_popisa=False):
     t = re.sub(r"!\[[^\]]*\]\([^)]*\)", " ", tekst)
     t = re.sub(r"^\|.*$", " ", t, flags=re.M)
     t = re.sub(r"^#{1,6} .*$", " ", t, flags=re.M)
     t = re.sub(r"^> .*$", " ", t, flags=re.M)
+    if bez_popisa:
+        t = re.sub(r"^\s*(?:[-*+]|\d+\.)\s+.*$", " ", t, flags=re.M)
+    # POPISNI RETCI: svaki redak popisa mora završiti rečeničnom granicom. Bez toga se uzastopni
+    # popisni retci (koji ne završavaju točkom) spoje u jednu „rečenicu" i umjetno stvore niz
+    # dugih rečenica — mjera ritma tada traži da se popis briše, a to je aparat i ne dira se.
+    t = re.sub(r"^(\s*(?:[-*+]|\d+\.)\s+.*?)(?<![.!?:;])\s*$", r"\1.", t, flags=re.M)
     t = re.sub(r"[*_`#|]", " ", t)
     return re.sub(r"\s+", " ", t)
 
@@ -79,8 +85,13 @@ def mjere(put):
     vrlo_kratke = 100.0 * sum(1 for d in duz if d <= 8) / len(duz)
     suplje = sum(1 for r in rec if len(r.split()) <= 8 and SUPLJE.search(r))
     sd = statistics.pstdev(duz) if len(duz) > 2 else 0.0
+    # Niz dugih rečenica mjeri se SAMO na prozi (bez popisnih redaka): niz dugih popisnih
+    # čestica (falsifikatori, koraci postupka) jest aparat, a ne ritam, i ne smije se „popravljati".
+    t_run = proza(tekst, bez_popisa=True)
+    rec_run = [r for r in re.split(r"(?<=[.!?])\s+(?=[A-ZČĆĐŠŽ„(])", t_run) if len(r.split()) >= 3]
+    duz_run = [len(r.split()) for r in rec_run] or [0]
     niz, najduzi = 0, 0
-    for d in duz:
+    for d in duz_run:
         niz = niz + 1 if d > 30 else 0
         najduzi = max(najduzi, niz)
     broj = lambda uzorak: len(re.findall(uzorak, t, re.I))
