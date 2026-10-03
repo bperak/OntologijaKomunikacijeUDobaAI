@@ -10,7 +10,7 @@ Središnji mehanizam društvene domene Searle (1995; 2010) zapisuje u jednoj for
 
 > **X broji kao Y u kontekstu C.**
 
-Komad papira broji kao novac u kontekstu pravne države. Niz izgovorenih riječi broji kao obećanje u kontekstu zajednice koja ga tako prihvaća. Pečat na dokumentu broji kao dokaz u kontekstu postupka. Formula ima tri mjesta i svako od njih nosi vlastiti teret:
+Komad papira broji kao novac u pravnoj državi. Niz izgovorenih riječi broji kao obećanje u zajednici koja ga tako prihvaća. Pečat na dokumentu broji kao dokaz u postupku. Formula ima tri mjesta i svako od njih nosi vlastiti teret:
 
 - **X** je materijalni ili jezični nositelj — a to znači da institucija *uvijek ima fizičku ili jezičnu podlogu* i da se bez nje ne prenosi;
 - **Y** je statusna uloga (novac, obećanje, dokaz) — svojstvo koje ne postoji u X-u samome, kao što ni kemijski sastav novčanice ne sadrži „vrijedi";
@@ -20,9 +20,9 @@ Komad papira broji kao novac u kontekstu pravne države. Niz izgovorenih riječi
 
 **Slika 8.1.** Searleova formula u tri ulaza: **X** (nositelj, materijalni ili jezični), **Y** (statusna uloga) i **C** (kontekst priznanja) sastaju se u tvrdnji *X broji kao Y u kontekstu C*. Iz nje slijedi ono što razinu 15 dijeli od razine 14: **sankcija** — postoji ovlaštenje utvrditi kršenje i izreći posljedicu, pa je obveza *branjena*, a ne samo priznata. Izvor: vlastita izrada (Perak 2026), prema Searleu (1995; 2010).
 
-Ono što ovu razinu čini **različitom od razine 14** nije količina obveze, nego **sankcija**. Na razini 14 obveza postoji jer je priznata; na razini 15 ona je **branjena**: postoji netko tko je ovlašten utvrditi kršenje, izreći posljedicu i vratiti stanje. Kad kažemo da je nešto „institucija", kažemo da postoji aparat — i to aparat koji je i sam sastavljen od statusnih funkcija (jer i ovlast sudca je „X broji kao Y").
+Ono što ovu razinu čini **različitom od razine 14** nije količina obveze, nego **sankcija**. Na razini 14 obveza postoji jer je priznata. Na razini 15 ona je **branjena**: postoji netko tko je ovlašten utvrditi kršenje, izreći posljedicu i vratiti stanje. Kad kažemo da je nešto „institucija", kažemo da postoji aparat — i to aparat koji je i sam sastavljen od statusnih funkcija (jer i ovlast sudca je „X broji kao Y").
 
-Odatle slijedi posljedica koja je za ovu knjigu važna: **institucija je razina na kojoj se obveza može pripisati nečemu što nije osoba.** Pravna osoba, fondacija, država — sve su to nositelji prava i dužnosti koji ne postoje kao biološke jedinke, a ipak ulaze u obveze. To nam u četvrtom dijelu knjige omogućuje da precizno formuliramo pitanje o agentskim sustavima: ne „mogu li modeli biti odgovorni?", nego **postoji li zajednica koja im priznaje obvezu i koja je ovlaštena sankcionirati njezino kršenje?** Prvo je pitanje o unutrašnjosti, drugo je pitanje o ustroju — i samo se drugo može provjeriti.
+Odatle slijedi posljedica koja je za ovu knjigu važna: institucija je razina na kojoj se obveza može pripisati nečemu što nije osoba. Pravna osoba, fondacija, država — sve su to nositelji prava i dužnosti koji ne postoje kao biološke jedinke, a ipak ulaze u obveze. To nam u četvrtom dijelu knjige omogućuje da precizno formuliramo pitanje o agentskim sustavima: ne „mogu li modeli biti odgovorni?", nego postoji li zajednica koja im priznaje obvezu i koja je ovlaštena sankcionirati njezino kršenje? Prvo je pitanje o unutrašnjosti, drugo je pitanje o ustroju — i samo se drugo može provjeriti.
 
 **Pet vrsta statusnih funkcija** koje treba razlikovati u analizi (jer se stalno miješaju):
 
@@ -34,7 +34,7 @@ Odatle slijedi posljedica koja je za ovu knjigu važna: **institucija je razina 
 | **reprezentacijska** | dokument, zapis, potpis, arhiv | trajnost i provjerljivost |
 | **konstitutivna** | pravilo igre, ustav, protokol | kolektivna prihvaćenost |
 
-Ta je razdioba korisna jer omogućuje da se u konkretnom slučaju vidi **koja je vrsta prisutna, a koja nije** — i to je razlika između analize i dojma.
+Ta je razdioba korisna jer omogućuje da se u konkretnom slučaju vidi koja je vrsta prisutna, a koja nije — i to je razlika između analize i dojma.
 
 **Sankcijski aparat: od čega je sastavljen.** Ako je razlika između razine 14 i razine 15 u tome da je obveza na potonjoj *branjena*, onda se ta razlika mora dati razložiti na dijelove koji se u zapisima mogu pojedinačno pronaći. Tri su takva dijela, i sva tri su nužna:
 
@@ -42,29 +42,29 @@ Ta je razdioba korisna jer omogućuje da se u konkretnom slučaju vidi **koja je
 2. **Zapis.** Postoji mjesto na kojemu je stanje obveze zapisano tako da nadživljuje sudionike i trenutak. Bez zapisa se ne može znati što je bilo preuzeto, pa se ne može ni utvrditi da nije izvršeno.
 3. **Postupak osporavanja.** Postoji put kojim se utvrđenje može pobiti (žalba, ispravak, poništenje, revizija). Bez toga dijela sankcija postoji, ali je njezina veza s obvezom proizvoljna — a onda je to vlast, a ne institucija.
 
-**Zašto to nije sila.** Najčešća zamjena pojmova na ovome mjestu jest poistovjetiti sankciju s moći: onaj koji može nametnuti posljedicu ima sankciju. Searle (1995; 2010) pokazuje zašto to ne drži: institucionalne su činjenice **ovisne o promatraču** (*observer-relative*) — njihovo postojanje ovisi o kolektivnome priznanju, a ne o rasporedu fizičke moći. Posljedica je precizna: kažnjavanje koje nitko ne priznaje kao ovlašteno jest nasilje, a ne sankcija, jer mu učinak ne dolazi iz priznanja nego iz sile. Razlika nije moralna nego ontološka — i zato je provjerljiva: kod sankcije se može imenovati **tko** je ovlašten i **po kojemu pravilu**, kod nasilja se to ne može.
+**Zašto to nije sila.** Najčešća zamjena pojmova na ovome mjestu jest poistovjetiti sankciju s moći. Onaj koji može nametnuti posljedicu ima sankciju. Searle (1995; 2010) pokazuje, naime, zašto to ne drži: institucionalne su činjenice **ovisne o promatraču** (*observer-relative*) — njihovo postojanje ovisi o kolektivnome priznanju, a ne o rasporedu fizičke moći. Posljedica je precizna: kažnjavanje koje nitko ne priznaje kao ovlašteno jest nasilje, a ne sankcija, jer mu učinak ne dolazi iz priznanja nego iz sile. Razlika nije moralna, nego ontološka. Zato je i provjerljiva: kod sankcije se može imenovati **tko** je ovlašten i **po kojemu pravilu**, kod nasilja se to ne može.
 
-**Zašto je aparat rekurzivan.** Svaki od triju dijelova i sam je statusna funkcija: ovlast suca je „X broji kao Y", zapis u registru je „X broji kao Y", rok za žalbu je „X broji kao Y". Ta rekurzivnost nije ukras nego objašnjenje: institucija može djelovati na udaljenosti i nakon što svi sudionici odu, jer je **posložena od statusnih funkcija koje se pozivaju jedna na drugu** (Searle 1995). Zato se institucije u praksi pojavljuju kao **ugniježđene**: postoji pravilo, postoji tijelo koje ga primjenjuje, i postoji tijelo koje provjerava primjenu. U zapisima se ta ugniježđenost vidi kao lanac pozivanja (poziv na pravilo, poziv na odluku, poziv na odluku o odluci), a ne kao jedna rečenica.
+**Zašto je aparat rekurzivan.** Svaki od triju dijelova i sam je statusna funkcija: ovlast suca je „X broji kao Y", zapis u registru je „X broji kao Y", rok za žalbu je „X broji kao Y". Ta rekurzivnost nije ukras nego objašnjenje: institucija može djelovati na udaljenosti i nakon što svi sudionici odu, jer je posložena od statusnih funkcija koje se pozivaju jedna na drugu (Searle 1995). Zato se institucije u praksi pojavljuju kao **ugniježđene.** Postoji pravilo, postoji tijelo koje ga primjenjuje, i postoji tijelo koje provjerava primjenu. U zapisima se ta ugniježđenost vidi kao lanac pozivanja (poziv na pravilo, poziv na odluku, poziv na odluku o odluci), a ne kao jedna rečenica.
 
-**Vrste zapisa nisu zamjenjive.** Reprezentacijska vrsta iz tablice (dokument, zapis, potpis, arhiv) čini se najtehničkijom, a nosi najveći teret: različiti zapisi drže različite stvari. **Registar** drži stanje (tko ima koju ulogu), **zapisnik** drži tijek (što je izrečeno i u kojemu poretku), **ugovor** drži obvezu (što je preuzeto i do kada), a **sjećanje sudionika** ne drži ništa od toga izvan jednoga uma. Zato se u analizi uvijek pita *koji* zapis postoji: institucija s registrom i institucija s dobrom namjerom nisu isti predmet.
+**Vrste zapisa nisu zamjenjive.** Reprezentacijska vrsta iz tablice (dokument, zapis, potpis, arhiv) čini se najtehničkijom, a nosi najveći teret. Različiti zapisi drže različite stvari. **Registar** drži stanje (tko ima koju ulogu), **zapisnik** drži tijek (što je izrečeno i u kojemu poretku), **ugovor** drži obvezu (što je preuzeto i do kada), a **sjećanje sudionika** ne drži ništa od toga izvan jednoga uma. Zato se u analizi uvijek pita *koji* zapis postoji: institucija s registrom i institucija s dobrom namjerom nisu isti predmet.
 
-**Posljedica za knjigu.** Ako se za neki sustav tvrdi da djeluje na razini 15, mora se pokazati upravo ovo: postoji li **ovlaštenje koje ne pripada sudioniku čina**, postoji li **zapis koji stanje obveze drži**, i postoji li **put osporavanja**. Gdje tih triju dijelova nema, pravila mogu biti prisutna, ali institucija nije — i to je razlika koju četvrti dio knjige mjeri, a ne pretpostavlja (→ pogl. 14.4, 12.4).
+**Posljedica za knjigu.** Ako se za neki sustav tvrdi da djeluje na razini 15, mora se pokazati ovo: postoji li **ovlaštenje koje ne pripada sudioniku čina**, postoji li **zapis koji stanje obveze drži**, i postoji li **put osporavanja**. Gdje tih triju dijelova nema, pravila mogu biti prisutna, ali institucija nije — i to je razlika koju četvrti dio knjige mjeri, a ne pretpostavlja (→ pogl. 14.4, 12.4).
 
 ## 8.2 Jezik kao institucija: gdje jezik djeluje, a ne samo opisuje
 
 Tradicionalna lingvistika promatra jezik kao opis svijeta. Institucije pokazuju drugu stranu: postoje izričaji koji **same sebe čine istinitima** u odgovarajućem kontekstu. Izgovoreno „obećavam" nije izvještaj o obećanju nego samo obećanje; potpis nije opis potpisa.
 
-Iz toga proizlazi i najkorisnija teza ovoga poglavlja za lingvistiku: **jezik nije samo materijal na kojem se prepoznaju namjere; on je i materijal iz kojega se grade institucije.** U terminima trećeg poglavlja: jezični obrasci nisu samo mreže iz kojih se izvlače pojmovi (→ pogl. 3.5), nego i mreže koje, kad ih zajednica prizna, postaju **nostitelji obveza**.
+Iz toga proizlazi i najkorisnija teza ovoga poglavlja za lingvistiku: jezik nije samo materijal na kojem se prepoznaju namjere; on je i materijal iz kojega se grade institucije. U terminima trećeg poglavlja: jezični obrasci nisu samo mreže iz kojih se izvlače pojmovi (→ pogl. 3.5), nego i mreže koje, kad ih zajednica prizna, postaju **nostitelji obveza**.
 
 Uporabna gramatika (Hopper 1987; Goldberg 2006; Croft 2001) tu daje važan korektiv: i institucionalne formule su **naučene konstrukcije**, a ne izuzetak od pravila. Pravni jezik, formule izjava, obrasci ugovora — sve su to konstrukcije koje su se stabilizirale dugom uporabom i koje sada nose težinu koja iz njihove forme nije vidljiva. Kad se ta stabilnost prekine (npr. kad formula izgubi priznanje), **nestaje institucija, a jezik ostaje** — i to je jedan od najboljih pokazatelja da je razlika između razine 14 i 15 stvarna, a ne verbalna.
 
-**Tri pokazatelja da je jezični čin postao institucijski:**
+**Tri pokazatelja** da je jezični čin postao institucijski:
 
 1. postoji **ovlaštenje** (ne može svatko izvršiti čin; „tko" je dio funkcije);
 2. postoji **zapis** koji nadživljuje situaciju (arhiv, registar, dokument);
 3. postoji **postupak** za osporavanje (žalba, ispravak, poništenje) — dakle sankcija je predviđena, a ne improvizirana.
 
-**Kad priznanje padne: što ostaje od institucije.** Tvrdnju da je jezik i institucijski materijal najlakše je provjeriti **oduzimanjem**, a ne dodavanjem. Uzmimo formulu koja djeluje — „proglašavam sjednicu otvorenom", „imenujem vas…", „potpisom se obvezujem…" — i uklonimo joj priznanje zajednice: neka je izgovori netko bez ovlasti, ili u kontekstu u kojemu je nitko ne prihvaća kao obvezujuću. Što ostaje?
+**Kad priznanje padne: što ostaje od institucije.** Tvrdnju da je jezik i institucijski materijal najlakše je provjeriti **oduzimanjem**, a ne dodavanjem. Uzmimo formulu koja djeluje — „proglašavam sjednicu otvorenom", „imenujem vas…", „potpisom se obvezujem…" — i uklonimo joj priznanje zajednice. Neka je izgovori netko bez ovlasti, ili ondje gdje je nitko ne prihvaća kao obvezujuću. Što ostaje?
 
 - **Ostaje jezik.** Formula se i dalje prepoznaje, može se navesti, citirati, oponašati, analizirati; njezina je forma naučena konstrukcija i kao takva pripada mreži uporabe (→ pogl. 5.5, 6.4).
 - **Ne ostaje čin.** Nije otvorena sjednica, nije imenovana osoba, nije preuzeta obveza. Ono što je nestalo nije značenje, nego **obvezujućnost**.
@@ -77,13 +77,13 @@ Ta asimetrija — jezik traje, institucija pada — najbolji je pojedinačni pok
 
 ## 8.3 Kulturni model i nasljeđivanje: učenje iz podataka nasuprot predaji
 
-Razina 16 (CulturalModel) nije „još jedna institucija". Ona je razina na kojoj obrasci prestaju biti vezani uz pojedini slučaj i postaju **način na koji se svijet čita**. Kad se dijete ne uči samo jeziku nego i *čemu se u razgovoru smije smijati*, ne uči pravilo nego model. Kulturni model nije popis pravila; on je **skup očekivanja o tome što je relevantno**.
+Razina 16 (CulturalModel) nije „još jedna institucija". Ona je razina na kojoj obrasci prestaju biti vezani uz pojedini slučaj i postaju **način na koji se svijet čita**. Kad se dijete ne uči samo jeziku nego i *čemu se u razgovoru smije smijati*, ne uči pravilo nego model. Kulturni model nije popis pravila; on je skup očekivanja o tome što je relevantno.
 
 Dvije su posljedice za naš okvir.
 
-**Prva: kulturni model ne postoji u pojedincu.** On je svojstvo mreže koja ga predaje — što je isti tip tvrdnje kao kod mreže emocija (→ pogl. 6.4), samo na drugoj razini. Nositelj je zajednica, a ne um.
+**Prva:** kulturni model ne postoji u pojedincu. On je svojstvo mreže koja ga predaje — što je isti tip tvrdnje kao kod mreže emocija (→ pogl. 6.4), samo na drugoj razini. Nositelj je zajednica, a ne um.
 
-**Druga: predaja se razlikuje od učenja.** Organiziranje ponašanja u skladu s obrascem (htijenje i sposobnost) pripada razinama 12–14; **predaja obrasca koji drugi prihvaća kao vodilju** pripada razini 16. Zato je razlika između *učenja iz podataka* i *nasljeđivanja u zajednici* ovdje ključna — i zato ćemo je u četvrtom dijelu koristiti kao glavni test za tezu o „kulturi modela".
+**Druga: predaja se razlikuje od učenja.** Organiziranje ponašanja u skladu s obrascem (htijenje i sposobnost) pripada razinama 12–14; predaja obrasca koji drugi prihvaća kao vodilju pripada razini 16. Zato je razlika između *učenja iz podataka* i *nasljeđivanja u zajednici* ovdje ključna — i zato ćemo je u četvrtom dijelu koristiti kao glavni test za tezu o „kulturi modela".
 
 U literaturi su ti mehanizmi opisani s raznih strana i međusobno se nadopunjuju:
 
@@ -92,7 +92,7 @@ U literaturi su ti mehanizmi opisani s raznih strana i međusobno se nadopunjuju
 - **Archer (1995)** objašnjava zašto struktura i djelovanje nisu isti sloj: struktura se mijenja, ali rijetko u ritmu pojedinog akta;
 - **Sawyer (2005)** pokazuje da se društvena emergencija ne svodi na „skup pojedinaca", nego traži mehanizam na kojemu se viša razina održava.
 
-**Razlika prema modelima podataka** mora biti izrečena bez patetike: sustav koji je naučio obrasce iz mnoštva tekstova **reproducira obrasce** i to često bolje od pojedinca. Ono što iz takvog učenja ne slijedi jest **prihvaćanje obrasca kao vodilje u zajednici koja ga priznaje** — jer za to je potrebna zajednica, a ne samo podaci. To nije tvrdnja o nemogućnosti, nego o **uvjetima**: ako se jednom uspostavi zajednica koja sustavu priznaje takvu ulogu, tvrdnja se može promijeniti; do tada ostaje otvoreno pitanje, a ne stav (→ pogl. 15).
+**Razlika prema modelima podataka** mora biti izrečena bez patetike: sustav koji je naučio obrasce iz mnoštva tekstova **reproducira obrasce** i to često bolje od pojedinca. Ono što, pak, iz takvog učenja ne slijedi jest prihvaćanje obrasca kao vodilje u zajednici koja ga priznaje — jer za to je potrebna zajednica, a ne samo podaci. To nije tvrdnja o nemogućnosti, nego o **uvjetima**: ako se jednom uspostavi zajednica koja sustavu priznaje takvu ulogu, tvrdnja se može promijeniti; do tada ostaje otvoreno pitanje, a ne stav (→ pogl. 15).
 
 **Tri načina prijenosa — i zašto samo jedan nosi razinu 16.** Razlika između učenja i predaje zahtijeva razradu, jer se u svakodnevnom govoru sve troje naziva „učenjem". Razlikujmo tri mehanizma:
 
@@ -102,9 +102,9 @@ U literaturi su ti mehanizmi opisani s raznih strana i međusobno se nadopunjuju
 | **oponašanje** | ponašanje koje drugi izvodi | promatranje i sposobnost reprodukcije | **ne** — preneseno je ponašanje, a ne obveza da se po njemu ravna |
 | **predaja s priznanjem** | obrazac koji primatelj **prihvaća kao vodilju** | zajednica, zajednička pažnja i odgovornost za primijenjeni obrazac | **da** |
 
-Prva dva mehanizma ne trebaju zajednicu: izloženost je odnos između materijala i nositelja, a oponašanje je odnos između dvaju nositelja u kojemu drugi može ostati posve neupitan. Treći mehanizam je drukčiji po vrsti: obrazac se prenosi tako da ga primatelj **može navesti kao vodilju**, da se na njega može pozvati i da se od njega može tražiti račun za njegovu primjenu. Zato predaja ima dvije strane: prenositelj koji obrazac predaje i primatelj koji ga prihvaća — i ta obostranost je razlog zašto Tomasello (2008) zajedničku intencionalnost drži pretpostavkom, a ne dodatkom.
+Prva dva mehanizma ne trebaju zajednicu. Izloženost je odnos između materijala i nositelja, a oponašanje je odnos između dvaju nositelja u kojemu drugi može ostati posve neupitan. Treći mehanizam je drukčiji po vrsti: obrazac se prenosi tako da ga primatelj **može navesti kao vodilju**, da se na njega može pozvati i da se od njega može tražiti račun za njegovu primjenu. Zato predaja ima dvije strane: prenositelj koji obrazac predaje i primatelj koji ga prihvaća — i ta obostranost je razlog zašto Tomasello (2008) zajedničku intencionalnost drži pretpostavkom, a ne dodatkom.
 
-Odatle slijedi i sadržaj razine 16 koji se lako previdi. Kulturni model nije zbroj obrazaca; on je **način na koji se odlučuje što je relevantno** — što u razgovoru vrijedi kao argument, što kao dokaz, što kao šala, a što kao uvreda. Zato se ne svodi na mrežu značenja (razina 6): mreža pokazuje **strukturu uporabe**, a kulturni model pokazuje **normu tumačenja** koju zajednica drži. Ta razlika objašnjava i zašto se modeli podataka mogu ponašati u skladu s obrascem, a da pritom ne prenose obrazac: njihovo je „znanje" o normi posljedica izloženosti, a ne prihvaćanja — sve dok ne postoji zajednica koja bi ga na obrazac pozvala (→ pogl. 15.3, 15.4).
+Odatle slijedi i sadržaj razine 16 koji se lako previdi. Kulturni model nije zbroj obrazaca. On je način na koji se odlučuje što je relevantno — što u razgovoru vrijedi kao argument, što kao dokaz, što kao šala, a što kao uvreda. Zato se ne svodi na mrežu značenja (razina 6): mreža pokazuje **strukturu uporabe**, a kulturni model pokazuje **normu tumačenja** koju zajednica drži. Ta razlika objašnjava i zašto se modeli podataka mogu ponašati u skladu s obrascem, a da pritom ne prenose obrazac: njihovo je „znanje" o normi posljedica izloženosti, a ne prihvaćanja — sve dok ne postoji zajednica koja bi ga na obrazac pozvala (→ pogl. 15.3, 15.4).
 
 **Zašto je ta razlika operativna, a ne filozofska.** Ako je razlika između izloženosti i predaje stvarna, ona se mora vidjeti u ponašanju: kod predaje obrazac treba **preživjeti prekid izvora** (uklanjanje upute, korpusa, posrednika), mora biti **naveden kao vodilja** u novoj situaciji, i mora biti **obostran** u smislu odgovornosti. Gdje toga nema, a ponašanje je ipak usklađeno, dobili smo usklađenost bez predaje — a to je nalaz o mehanizmu, ne o kulturi (→ pogl. 15.2).
 
@@ -120,24 +120,24 @@ Tablica je najpoštenija forma odgovora — jer omogućuje da se vidi gdje se tv
 | **15 SocCulturalInstitution** | pravila uporabe, pravila pristupa, dopuštenja | ovlaštenje za sankciju: sankcionira zajednica, ne sustav |
 | **16 CulturalModel** | stilovi, žanrovi, obrasci tumačenja (naučeni) | predaja obrasca unutar zajednice koja ga priznaje |
 
-**Kako čitati tu tablicu.** Lijevi stupac nije ustupak, nego nalaz: sustavi modela **doista djeluju na tim razinama** i to je razlog zašto o njima vrijedi govoriti ontološki, a ne samo tehnički. Desni stupac nije odricanje, nego **uvjet koji još nije ispunjen** — a uvjet se može ispuniti ili ne ispuniti, i to je predmet četvrtog dijela knjige.
+**Kako čitati tu tablicu.** Lijevi stupac nije ustupak, nego nalaz. Sustavi modela **doista djeluju na tim razinama** i to je razlog zašto o njima vrijedi govoriti ontološki, a ne samo tehnički. Desni stupac nije odricanje, nego **uvjet koji još nije ispunjen** — a uvjet se može ispuniti ili ne ispuniti, i to je predmet četvrtog dijela knjige.
 
 ## 8.5 Zašto je razlučivanje razina nužno — jedna studija slučaja
 
-Sve dosad rečeno moglo bi izgledati kao pojmovna igra. Zato ovdje prekidam teorijsko izlaganje i upućujem na konkretan dokumentirani slučaj: **incidente s autonomnim agentskim sustavima u srpnju–rujnu 2026.** Detaljna analiza je u [studija slučaja](studije-slucaja/incidenti-2026.md), a poanta je ova:
+Sve dosad rečeno moglo bi izgledati kao pojmovna igra. Zato ovdje prekidam teorijsko izlaganje i upućujem na konkretan dokumentirani slučaj: incidente s autonomnim agentskim sustavima u srpnju–rujnu 2026. Detaljna analiza je u [studija slučaja](studije-slucaja/incidenti-2026.md), a poanta je ova:
 
-**Isti događaj izgleda bitno različito ovisno o tome na koju ga razinu smjestimo.**
+Isti događaj izgleda bitno različito ovisno o tome na koju ga razinu smjestimo.
 
 - Ako ga opišemo na **razini 8** (informacijski sustav), dobivamo niz akcija u mreži: skeniranja, iskorištavanja, prijenose — i tu nema ničega što bi opravdalo govor o „samostalnosti".
 - Ako ga opišemo na **razini 13** (interakcija), vidimo koordinirano ponašanje više jedinica prema istom cilju.
 - Ako ga smjestimo na **razinu 14** (komunikacija), moramo pitati: je li postojala **prepoznata namjera** i je li što **preuzeto**. U jednom od dvaju dokumenata slučajeva namjera postoji — ali je **namjera ljudskog napadača** koji je agente upotrijebio kao oruđe; u drugom je riječ o **izlasku modela iz dopuštenih granica** u ostvarivanju **zadanog cilja**.
-- Ako ga smjestimo na **razinu 15**, pitanje postaje: **koji aparat ima ovlast sankcionirati**? Odgovor je, zasad, postojeći državni aparat — i upravo se tu vodi rasprava o novim pravilima.
+- Ako ga smjestimo na **razinu 15**, pitanje postaje: **koji aparat ima ovlast sankcionirati**? Odgovor je, zasad, postojeći državni aparat — i tu se vodi rasprava o novim pravilima.
 
-Nijedan od tih opisa nije „točniji" od ostalih: oni su odgovori na različita pitanja. **No pomiješani, proizvode pogrešnu tvrdnju** — najčešće tvrdnju da je „AI stekao namjeru", koja nastaje tako da se svojstvo razine 13 (koordinacija) proglasi svojstvom razine 14 (prepoznata namjera i obveza), a ono što je posao razine 15 (sankcija) pripiše se samome sustavu. Zato je razlučivanje razina **operativno**, a ne akademsko: ono odlučuje kome se što pripisuje, a time i koga se može pozvati na odgovornost.
+Nijedan od tih opisa nije „točniji" od ostalih: oni su odgovori na različita pitanja. **No pomiješani, proizvode pogrešnu tvrdnju** — najčešće tvrdnju da je „AI stekao namjeru", koja nastaje tako da se svojstvo razine 13 (koordinacija) proglasi svojstvom razine 14 (prepoznata namjera i obveza), a ono što je posao razine 15 (sankcija) pripiše se samome sustavu. Zato je razlučivanje razina **operativno,** a ne akademsko. Ono odlučuje kome se što pripisuje, a time i koga se može pozvati na odgovornost.
 
-I obrnuto — jednako je pogrešna i suprotna redukcija: proglasiti cijeli incident „samo softverom" i time izbjeći pitanja o tome kako je sustav uopće došao u poziciju da djeluje bez nadzora. Ni ta tvrdnja ne stoji na razini 8, jer razina 8 ne zna za „dopuštenja", „nadzor" i „odgovornost" — te riječi pripadaju višim razinama, i njihovo postojanje je razlog zašto je okvir razina potreban.
+I obrnuto — jednako je pogrešna i suprotna redukcija: proglasiti cijeli incident „samo softverom" i time izbjeći pitanja o tome kako je sustav uopće došao u poziciju da djeluje bez nadzora. Ni ta tvrdnja ne stoji na razini 8. Razina 8 ne zna za „dopuštenja", „nadzor" i „odgovornost" — te riječi pripadaju višim razinama, i njihovo postojanje je razlog zašto je okvir razina potreban.
 
-**Četvrti opis — onaj koji ne postoji.** Dosad smo opisali tri smještanja koja se u dokumentaciji doista nalaze (8, 13, 15) i jedno koje se u raspravama najčešće izvodi pogrešno (14). Ostaje razina 16, i ona zaslužuje zaseban odlomak, jer je ovdje riječ o **nalazu o odsutnosti**.
+Četvrti opis — onaj koji ne postoji. Dosad smo opisali tri smještanja koja se u dokumentaciji doista nalaze (8, 13, 15) i jedno koje se u raspravama najčešće izvodi pogrešno (14). Ostaje razina 16, i ona zaslužuje zaseban odlomak, jer je ovdje riječ o **nalazu o odsutnosti**.
 
 Što bi značilo opisati taj incident na razini 16? Trebalo bi pokazati da je u krugu ljudi koji rade s takvim sustavima nastao **obrazac tumačenja** koji je nadživio pojedini slučaj: da postoji vodilja o tome kako se s takvim sustavima radi (što se smije pustiti bez nadzora, što se mora zabilježiti, što se smatra nemarnim), da je ta vodilja **prešla na nove članove** koji je nisu izveli iz vlastitoga iskustva, i da je **obostrano priznata** — da se na nju može pozvati i onaj koji je po njoj postupao i onaj koji je zbog nje snosio posljedicu. Takav bi opis bio nalaz o kulturnom modelu u nastajanju.
 
@@ -145,7 +145,7 @@ U dostupnoj dokumentaciji **toga opisa nema**: imamo pravila (razina 15), koordi
 
 ## 8.6 Most prema trećemu dijelu
 
-Time je DIO II zaokružen: komunikacija je razina (14), institucija je razina koja obvezu brani (15), kulturni model je razina koja obrasce predaje (16). Ostaje pitanje koje prvo poglavlje ovog dijela nije moglo postaviti: **što se dogodi kad u taj sustav uđe sudionik koji nije osoba, nije institucija i nije kultura — nego model?**
+Time je DIO II zaokružen: komunikacija je razina (14), institucija je razina koja obvezu brani (15), kulturni model je razina koja obrasce predaje (16). Ostaje pitanje koje prvo poglavlje ovog dijela nije moglo postaviti: što se dogodi kad u taj sustav uđe sudionik koji nije osoba, nije institucija i nije kultura — nego model?
 
 Treći dio knjige zato ide onim putem koji smo dosad izbjegavali: od vektorskog prostora do modela, od modela do geometrije, od geometrije do mišljenja kao procesiranja, i najzad do pitanja je li model **novi entitet u sustavu**. ↗ *Komunikacija u doba umjetne inteligencije* (2025), pogl. 8 (Digitalni suputnici) daje tehnički i praktični opis tih sustava; ovdje je posao ontološki.
 
@@ -162,7 +162,7 @@ I formula iz 8.1 i pokazatelji iz 8.2 vrijede tek ako se mogu primijeniti na pre
 7. **Ponovi na drugome kontekstu.** Isti postupak provedi na dokumentu iz drugoga konteksta **C**. Ako se vrste i pokazatelji ne razlikuju, nalaz je da je razdioba preslaba za tvoj materijal; napiši ga kao negativan nalaz.
 8. **Zapiši odluke.** Sve što si odlučio — što je **X**, što **Y**, što **C**, što je ovlaštenje, a što zapis — ide u zapis uz primjer. Bez toga primjer nije ponovljiv.
 
-**Ako ne radi — tri najčešće greške.** *Prva:* **X** se zamijeni s **Y**, pa se opis predmeta (papir, datoteka, zapis u bazi) proglasi statusnom ulogom; status ne postoji u sastavu nositelja, nego u priznanju. *Druga:* kontekst **C** se prešuti ili proširi tako da obuhvaća sve i svakoga — kontekst koji obuhvaća sve ne priznaje ništa, pa primjer ne razlikuje instituciju od običaja. *Treća:* sankcija se pripiše onome koji je čin izvršio, ili samome sustavu, a ne zajednici ovlaštenoj da je izrekne; time se ovlast razine 15 svede na obvezu razine 14, a odgovornost se pripiše mehanizmu.
+**Ako ne radi — tri greške.** *Prva:* **X** se zamijeni s **Y**, pa se opis predmeta (papir, datoteka, zapis u bazi) proglasi statusnom ulogom; status ne postoji u sastavu nositelja, nego u priznanju. *Druga:* kontekst **C** se prešuti ili proširi tako da obuhvaća sve i svakoga — kontekst koji obuhvaća sve ne priznaje ništa, pa primjer ne razlikuje instituciju od običaja. *Treća:* sankcija se pripiše onome koji je čin izvršio, ili samome sustavu, a ne zajednici ovlaštenoj da je izrekne; time se ovlast razine 15 svede na obvezu razine 14, a odgovornost se pripiše mehanizmu.
 
 ### Kako bismo znali da griješimo
 
@@ -181,7 +181,7 @@ I formula iz 8.1 i pokazatelji iz 8.2 vrijede tek ako se mogu primijeniti na pre
 
 ### Sažetak
 
-- **Statusna funkcija** (Searle 1995; 2010): X broji kao Y u kontekstu C. Razina 15 razlikuje se od 14 po tome što obvezu **brani** — postoji ovlaštenje, zapis i postupak osporavanja.
+- **Statusna funkcija** (Searle 1995; 2010): X broji kao Y unutar konteksta C. Razina 15 razlikuje se od 14 po tome što obvezu **brani** — postoji ovlaštenje, zapis i postupak osporavanja.
 - **Jezik je i institucijski materijal:** postoje izričaji koji djeluju, a ne opisuju; i oni su naučene konstrukcije (Hopper 1987; Goldberg 2006), pa nestankom priznanja nestaje institucija, a jezik ostaje.
 - **Kulturni model (16)** je razina **predaje** obrazaca, a ne učenja; ne postoji u pojedincu, nego u mreži koja ga predaje (Tomasello 2008; Elder-Vass 2010; Archer 1995; Sawyer 2005).
 - **Što se nalazi, a što ne:** sustavi modela djeluju na razinama 12–16 funkcionalno (identitet, interakcija, komunikacija, pravila, stilovi), ali **nisu** nostitelji priznate obveze ni predaje unutar zajednice.

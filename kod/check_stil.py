@@ -126,8 +126,18 @@ def mjere(put):
     t = proza(tekst)
     rijeci = re.findall(r"[^\W\d_]+", t, re.UNICODE)
     N = len(rijeci) or 1
-    odlomci = re.findall(r"\*\*(.+?)\*\*", tekst, re.S)
-    podebljano = " ".join(odlomci)
+    # Podebljane TVRDNJE mjere se odvojeno od podebljanih UVODNIH NATUKNICA („Slučaj A — …",
+    # „Ključni nalaz: …"): natuknica je aparat, ne tvrdnja, i ne smije se brojiti u „duge“ odlomke.
+    odlomci, natuknice = [], []
+    for m in re.finditer(r"\*\*(.+?)\*\*", tekst, re.S):
+        red_poc = tekst.rfind("\n", 0, m.start()) + 1
+        ostatak = tekst[m.end():tekst.find("\n", m.end()) if tekst.find("\n", m.end()) >= 0 else len(tekst)]
+        prije_na_retku = re.sub(r"^\s*(?:[-*+]|\d+\.)\s*", "", tekst[red_poc:m.start()])
+        if prije_na_retku == "" and ostatak.strip():
+            natuknice.append(m.group(1))
+        else:
+            odlomci.append(m.group(1))
+    podebljano = " ".join(odlomci + natuknice)
     bold_n = len(re.findall(r"[^\W\d_]+", podebljano, re.UNICODE))
     dugi = [o for o in odlomci if len(o.split()) > 6]
     rec, duz, je_popis = recenice(tekst)
@@ -149,7 +159,7 @@ def mjere(put):
     return {
         "rijeci": N, "bold": 100.0 * bold_n / N,
         "bold_dugi": (100.0 * len(dugi) / len(odlomci)) if odlomci else 0.0,
-        "bold_odlomaka": len(odlomci),
+        "bold_odlomaka": len(odlomci) + len(natuknice), "bold_natuknica": len(natuknice),
         "rec": statistics.mean(duz), "kratke": 100.0 * sum(1 for d in duz if d < 12) / len(duz),
         "vrlo_kratke": vrlo_kratke, "sd": sd, "niz_dagih": najduzi, "suplje": suplje,
         "duge": 100.0 * sum(1 for d in duz if d > 40) / len(duz),
@@ -216,7 +226,13 @@ def skupovi(put):
     godine = set(re.findall(r"(1[89][0-9]{2}|20[0-9]{2})", t))
     brojke = set(re.findall(r"([0-9][0-9.,]*[ ]*(?:%|puta|bioloških|riječi|poglavlja|razina|parametara|koraka))", t))
     naslovi = set(re.findall(r"^#{2,4} .+$", t, re.M))
-    upute = set(re.findall(r"(→[ ]*[^ .,;)]+)", t))
+    # Unutarnje upute su samo prave upute (→ pogl. 2.3, → dodatak I.1, → Slika I.1, → data/…), a ne
+    # svaki „→ " u tekstu: lanac pojmova („materijal → informacija → interakcija → komunikacija") nije
+    # uputa. Zato se traži poznata oznaka, a masni markeri se prije toga uklanjaju.
+    t_clean = re.sub(r"[*_`]", "", t)
+    upute = set(re.findall(
+        r"→\s*(?:pogl\.|dodatk\w*|Slika|Tablica|odjeljak|docs/\S+|data/\S+|kod/\S+)\s*[IVXLC0-9][\w.,–\-]*",
+        t_clean))
     return citati, godine, brojke, naslovi, upute
 
 

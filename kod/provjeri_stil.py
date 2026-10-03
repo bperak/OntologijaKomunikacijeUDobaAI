@@ -54,11 +54,11 @@ def main():
         if sb["markeri"] and not sa["markeri"]:
             nalazi.append(f"{rel}: NEOBALANSIRANI ** (novo)")
         prekoracenja = []
-        if mb["bold"] > 15.0: prekoracenja.append(f"bold {mb['bold']:.1f}")
-        if mb["bold_dugi"] > 10.0: prekoracenja.append(f"dugi {mb['bold_dugi']:.1f}")
-        if mb["vrlo_kratke"] < 15.0: prekoracenja.append(f"≤8 {mb['vrlo_kratke']:.1f}")
+        if mb["bold"] > cs.PRAG["bold"]: prekoracenja.append(f"bold {mb['bold']:.1f}")
+        if mb["bold_dugi"] > cs.PRAG["bold_dugi"]: prekoracenja.append(f"dugi {mb['bold_dugi']:.1f}")
+        if mb["vrlo_kratke"] < cs.PRAG["vrlo_kratke"]: prekoracenja.append(f"≤8 {mb['vrlo_kratke']:.1f}")
         if mb["niz_dagih"] > 2: prekoracenja.append(f"niz {mb['niz_dagih']}")
-        if mb["upravo"] > 3.0: prekoracenja.append(f"upravo {mb['upravo']:.1f}")
+        if mb["upravo"] > cs.PRAG["upravo"]: prekoracenja.append(f"upravo {mb['upravo']:.1f}")
         if mb["suplje"] > 0: prekoracenja.append(f"šuplje {mb['suplje']}")
         redovi.append([rel, round(ma["bold"], 1), round(mb["bold"], 1), round(ma["bold_dugi"], 1),
                        round(mb["bold_dugi"], 1), round(ma["upravo"], 1), round(mb["upravo"], 1),

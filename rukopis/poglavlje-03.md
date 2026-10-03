@@ -1,6 +1,6 @@
 # 3. Tri koraka emergencije: PARTS → NETWORK → NEW ENTITY
 
-> *Teza poglavlja:* emergencija nije misterij, nego postupak u tri koraka — dijelovi se organiziraju u mrežu, mreža dobiva nova svojstva, a ta svojstva postaju nova cjelina: **materijal se ne mijenja, mijenja se organizacija**. Ako se ta tri koraka ne mogu razlučiti u konkretnom slučaju, pojam razine iz prvoga poglavlja ostaje neoperativan; ako se razluče, dobivamo instrument kojim se može provjeriti svaka tvrdnja o razini u ostatku knjige.
+> *Teza poglavlja:* emergencija nije misterij, nego postupak u tri koraka — dijelovi se organiziraju u mrežu, mreža dobiva nova svojstva, a ta svojstva postaju nova cjelina: materijal se ne mijenja, **mijenja se organizacija**. Ako se ta tri koraka ne mogu razlučiti u konkretnom slučaju, pojam razine iz prvoga poglavlja ostaje neoperativan; ako se razluče, dobivamo instrument kojim se može provjeriti svaka tvrdnja o razini u ostatku knjige.
 
 ---
 
@@ -24,7 +24,7 @@ Prvo poglavlje završilo je definicijom koja je namjerno siromašna: sustav je �
 
 Razlika između zbroja i učinka stara je više od stoljeća i pol. John Stuart Mill (1843) uočio je da zakoni mehaničkog sastavljanja ne vrijede uvijek: učinak zajedničkog djelovanja uzroka može biti **heteropatski**, različit po vrsti od učinaka pojedinih uzroka. George Henry Lewes (1875) za to je predložio razliku koja se zadržala: *rezultantni* efekti mogu se izračunati iz djelovanja sastavnica, *emergentni* ne mogu. Drugi korak je mjesto na kojem se ta razlika konkretizira.
 
-**Relacija mora biti stabilna.** Nije dovoljno da se dvije stvari jednom nađu zajedno; slučajna supojavnost ne nosi ništa. Društveni i jezični sustavi zato su pogodni za ovaj korak. O stabilnosti postoji izričit kriterij. Zellig Harris (1954) definira distribuciju elementa kao **ukupnost svih okruženja u kojima se pojavljuje**, a John Rupert Firth (1957) istu misao sažima u rečenicu koju cijela ova knjiga rabi kao polazište — Distribucija je okruženje. Riječ poznajemo po društvu u kojem se drži. Saussureova „sinkronijska solidarnost" isti je zahtjev u drugom rječniku: jedinice su međusobno povezane zato što su različite.
+**Relacija mora biti stabilna.** Nije dovoljno da se dvije stvari jednom nađu zajedno; slučajna supojavnost ne nosi ništa. Društveni i jezični sustavi zato su pogodni za ovaj korak. O stabilnosti postoji izričit kriterij. Zellig Harris (1954) definira distribuciju elementa kao **ukupnost svih okruženja** u kojima se pojavljuje, a John Rupert Firth (1957) istu misao sažima u rečenicu koju cijela ova knjiga rabi kao polazište — Distribucija je okruženje. Riječ poznajemo po društvu u kojem se drži. Saussureova „sinkronijska solidarnost" isti je zahtjev u drugom rječniku: jedinice su međusobno povezane zato što su različite.
 
 **Središnja tvrdnja drugoga koraka.** Svojstvo entiteta je, u prvom redu, **njegov položaj u mreži**, a ne definicija koju nosi sam. Uzmimo *strah*. Riječ ne nosi svoju definiciju kao spremnik; struktura je u relacijama koje je vežu uz *trepet*, *lepet*, *paniku* i *frku* — a svaki od tih leksema ima drugi položaj i drugo susjedstvo (Perak 2014; EmoCNet 2019–21). Zato je pojmovni rječnik uvijek nepotpun, a mreža uporabe uvijek puna.
 
@@ -58,15 +58,15 @@ Da bi tvrdnja o trećem koraku bila provjerljiva, a ne pjesnička, mora se znati
 
 ### Zašto to nije nova razina, nego novi entitet
 
-Prvo poglavlje ponudilo je definiciju koju ovdje moramo upotrijebiti: **razina je skup entiteta i relacija kod kojih vrijedi isti tip svojstava i isti tip zakona sastavljanja** (Emmeche, Køppe & Stjernfelt 1997). Iz toga slijedi da je razina **klasa svojstava i relacija**, a ne klasa stvari. Nova razina otud traži dvije stvari istovremeno: **novi tip svojstva** i **novu relacijsku shemu**. Ako to dvoje nije na stolu, ne govorimo o novoj razini — ma koliko pojava bila velika, skupa ili brza.
+Prvo poglavlje ponudilo je definiciju koju ovdje moramo upotrijebiti: **razina je skup entiteta i relacija** kod kojih vrijedi isti tip svojstava i isti tip zakona sastavljanja (Emmeche, Køppe & Stjernfelt 1997). Iz toga slijedi da je razina **klasa svojstava i relacija**, a ne klasa stvari. Nova razina otud traži dvije stvari istovremeno: **novi tip svojstva** i **novu relacijsku shemu**. Ako to dvoje nije na stolu, ne govorimo o novoj razini — ma koliko pojava bila velika, skupa ili brza.
 
 Novi je entitet nešto drugo. Razliku treba izreći što jasnije, jer se u raspravi o umjetnoj inteligenciji ona neprestano gubi:
 
-> **Entitet imenuje *gdje* nešto jest u sustavu; agent imenuje *što* to nešto ondje radi.**
+> **Entitet** imenuje *gdje* nešto jest u sustavu; **agent** imenuje *što* to nešto ondje radi.
 
 Entitet je pozicija, agent je sistemska uloga. Model može biti entitet i bez uloge — pozicija bez djelovanja; agent je entitet s ulogom. Dvije su to različite stvari i dvije različite tvrdnje, pa svaka traži vlastiti test. Tvrdnja „ovo je novi entitet u sustavu" traži pet kriterija iz prethodnoga odjeljka; tvrdnja „ovo je agent" traži da se pokaže uloga — modeliranje okoline, djelovanje prema cilju — i pritom **ne** traži nikakvu tvrdnju o svijesti ni o moralnom statusu.
 
-**Posljedica je konceptualno čista.** Novi entitet ne dodaje sedamnaestu razinu, nego **zauzima postojeće**. On može imati identitet (razina 12), sudjelovati u interakciji (13) i komunikaciji (14) — i, ako su uvjeti ispunjeni, ući u institucije (15). On ne diže novu prečku na ljestvici; on se kreće po postojećima. Zato je pitanje „je li model sedamnaesta razina?" pogrešno postavljeno; ispravno glasi: **koje razine zauzima i s kojom relacijskom shemom**. (Detaljno u dvanaestom poglavlju.)
+**Posljedica je konceptualno čista.** Novi entitet ne dodaje sedamnaestu razinu, nego **zauzima postojeće**. On može imati identitet (razina 12), sudjelovati u interakciji (13) i komunikaciji (14) — i, ako su uvjeti ispunjeni, ući u institucije (15). On ne diže novu prečku na ljestvici; on se kreće po postojećima. Zato je pitanje „je li model sedamnaesta razina?" pogrešno postavljeno; ispravno glasi: **koje razine** zauzima i **s kojom relacijskom shemom**. (Detaljno u dvanaestom poglavlju.)
 
 **Ontološka podloga ove razlike nije nova.** Razina se u ovoj knjizi ne izmišlja iznova: podjela na materijalnu, psihološku i društvenu domenu preuzeta je od Searlea (1995; 2010) — *brute*, mentalne i institucionalne činjenice — dok je razrada na šesnaest razina unutar tih domena autorov doprinos (→ pogl. 2.1). Searle je ujedno mjesto na kojem se vidi kako u društvenoj domeni skup relacija postaje jedan nositelj: statusna funkcija „X broji kao Y u kontekstu C" traži **kolektivnu intencionalnost**, a time i priznanje, a ne samo ponašanje (Searle 1995; 2010). U tom je smislu institucija paradigmatski treći korak: ono što je prije bilo uzorak očekivanja sada je **jedan** nositelj na koji se možemo pozvati.
 
@@ -76,7 +76,7 @@ Stariji rječnik za istu stvar nalazi se kod Nicolaija Hartmanna (1940). Njegova
 
 ## 3.4 Radni primjer 1: od zvučnog vala do komunikacijskog čina
 
-Ovaj primjer prolazi tri koraka četiri puta, u nizu. Njegova je poanta u tome što se **materijal ne mijenja ni na jednom koraku**: na početku je zrak, na kraju je zrak — promijenilo se samo ono što je organizirano.
+Ovaj primjer prolazi tri koraka četiri puta, u nizu. Njegova je poanta u tome što se **materijal se ne mijenja** ni na jednom koraku: na početku je zrak, na kraju je zrak — promijenilo se samo ono što je organizirano.
 
 Najkraći oblik istoga nalaza jest klasični primjer vode (slika 3.2).
 
@@ -98,7 +98,7 @@ Najkraći oblik istoga nalaza jest klasični primjer vode (slika 3.2).
 
 Drugi primjer isti postupak vodi u domenu značenja. Ovdje se najavljuje, a izvodi u drugom dijelu knjige — u petom i šestom poglavlju — jer zahtijeva podatke i mjere koje tek treba izložiti.
 
-**Prvi korak.** Dio je jedinica koja ulazi u analizu: leksem ili konstrukcija iz korpusa (hrWac). Treba ponoviti odakle razine uopće dolaze: one nisu postulirane, nego izvučene **odozdo prema gore** iz korpusne uporabe — entiteti, svojstva i relacije — i tek su se potom organizirale u shemu (→ pogl. 2.1). Zato je ljestvica razina **prije tvrdnja o jeziku nego tvrdnja o svijetu**. Isti zahtjev vrijedi i ovdje: pogreška razlučivosti iz prvoga koraka ne popravlja se kasnije.
+**Prvi korak.** Dio je jedinica koja ulazi u analizu: leksem ili konstrukcija iz korpusa (hrWac). Treba ponoviti odakle razine uopće dolaze: one nisu postulirane, nego izvučene **odozdo prema gore** iz korpusne uporabe — entiteti, svojstva i relacije — i tek su se potom organizirale u shemu (→ pogl. 2.1). Zato je ljestvica razina prije tvrdnja o jeziku nego tvrdnja o svijetu. Isti zahtjev vrijedi i ovdje: pogreška razlučivosti iz prvoga koraka ne popravlja se kasnije.
 
 **Drugi korak.** Supojavljivanje se mjeri, a mjera se pretvara u vezu; nastaje graf u kojem su čvorovi leksemi i konstrukcije, a bridovi mjere asocijacije. Pragovi nisu tehnički detalj: prag **odlučuje** koja organizacija postoji, pa se uz svaku mrežu mora prijaviti i prag. Kad je prag prenizak, sve je povezano sa svime i mreža nema strukturu; kad je previsok, ostaju izolirani otoci. Oboje je rezultat, ali nijedno nije mreža.
 
@@ -120,7 +120,7 @@ Tri koraka imaju vrijednost tek ako se mogu upotrijebiti kao instrument. Zato ov
 
 **Pitanje 4 — entitet ili agent.** Je li nositelj samo **negdje** (pozicija) ili nešto i **radi** (uloga)? Nerazlikovanje tih dvaju pitanja vodi u pogrešku da se pozicija čita kao funkcija. Terminološka stega time pokazuje svoju praktičnu vrijednost: *entitet* odgovara na pitanje gdje, *agent* na pitanje što — i dvije tvrdnje traže dva različita dokaza.
 
-**Obrnuta pogreška: preuranjeno imenovanje.** Najučestaliji je zastoj u praksi onaj koji nije zastoj nego preskakanje: skupu se nadjene ime i proglasi ga se entitetom bez ijednoga od pet kriterija. Ime nije identitet; koordinacija nije obveza; protokol nije društvo. Ista se pogreška u obrnutom smjeru pojavljuje kao **prerano uzdizanje na razinu**: tvrdi se nova razina ondje gdje je opis točan samo ako se kaže „novi entitet". Dijagnostički je test jednostavan i nemilosrdan — **navedi novi tip svojstva i novu relacijsku shemu**. Ako ih nema, novoga tipa svojstva nema, pa nema ni nove razine; imamo novoga **stanovnika postojećih razina**.
+**Obrnuta pogreška: preuranjeno imenovanje.** Najučestaliji je zastoj u praksi onaj koji nije zastoj nego preskakanje: skupu se nadjene ime i proglasi ga se entitetom bez ijednoga od pet kriterija. Ime nije identitet; koordinacija nije obveza; protokol nije društvo. Ista se pogreška u obrnutom smjeru pojavljuje kao **prerano uzdizanje na razinu**: tvrdi se nova razina ondje gdje je opis točan samo ako se kaže „novi entitet". Dijagnostički je test jednostavan i nemilosrdan — **navedi novi tip svojstva** i novu relacijsku shemu. Ako ih nema, novoga tipa svojstva nema, pa nema ni nove razine; imamo novoga **stanovnika postojećih razina**.
 
 **I jedna mjerna opreza.** Prije nego što proglasimo treći korak, moramo isključiti da novo „svojstvo" nije artefakt instrumenta. Pouka iz istraživanja velikih jezičnih modela ovdje je općenita, a ne lokalna: „iznenadna" pojava može biti posljedica nelinearnog praga u mjeri, pa se skok u grafu lako zamijeni za skok u sustavu (Schaeffer et al. 2023). Isti test vrijedi i izvan modela: mjeri li se nova cjelina istom mjerom kao i njezini dijelovi, ili je „novo" samo drugo ime za prag?
 
@@ -139,7 +139,7 @@ Tri koraka imaju vrijednost tek ako se mogu upotrijebiti kao instrument. Zato ov
 
 ### Kako bismo znali da griješimo
 
-- Ako se pokaže da se **treći korak uvijek može opisati bez uvođenja nove cjeline** — dakle samo kao skup relacija, bez ijednoga od pet kriterija — tada je „novi entitet" samo skraćeni zapis, pojam je suvišan i ova knjiga to mora priznati.
+- Ako se pokaže da se treći korak uvijek može opisati bez uvođenja nove cjeline — dakle samo kao skup relacija, bez ijednoga od pet kriterija — tada je „novi entitet" samo skraćeni zapis, pojam je suvišan i ova knjiga to mora priznati.
 - Ako se pokaže da **organizacija nije promjenljiva veličina**: da se svojstva cjeline mogu izvesti iz svojstava dijelova bez obzira na uzorak, središnja tvrdnja poglavlja pada — jer tada materijal određuje sve, a organizacija ništa.
 - Ako se **razlikovanje entiteta i agenta** ne može primijeniti na nijednom konkretnom slučaju bez verbalnog određivanja (svaki se entitet može nazvati i agentom i obratno), razlika je verbalna, a ne sistemska.
 - Ako se za svako „novo svojstvo" iz ove dijagnostike pokaže da je **artefakt mjere** (Schaeffer et al. 2023) ili **nominalna emergencija**, ostaje nam samo slabija tvrdnja: da organizacija mijenja naš opis, a ne da mijenja svojstva sustava.
@@ -163,7 +163,7 @@ Tri koraka imaju vrijednost tek ako se mogu upotrijebiti kao instrument. Zato ov
 - Treći korak **nije nova razina, nego novi entitet**: razina je klasa svojstava i relacija (Emmeche, Køppe & Stjernfelt 1997), a novi je entitet novi stanovnik postojećih razina.
 - **Entitet imenuje gdje, agent imenuje što.** Razine 1–16 i njihove relacijske sheme autorov su doprinos (→ pogl. 2.1). Podjela na materijalnu, psihološku i društvenu domenu Searleova je (1995; 2010).
 - Ontološka podloga: Hartmannova slojevitost — viši sloj pretpostavlja niži, uvodi nove kategorije i ostaje u njemu utemeljen (1940). U društvenoj domeni skup relacija postaje nositelj putem statusne funkcije i kolektivne intencionalnosti (Searle 1995; 2010).
-- Radni primjer I: isti zrak, četiri organizacije — **materijal → informacija → interakcija → komunikacija**. Radni primjer II: ko-okurencija → pojmovna mreža od 125 emocionalnih leksema (Perak 2014; EmoCNet 2019–21).
+- Radni primjer I: isti zrak, četiri organizacije — materijal → informacija → interakcija → komunikacija. Radni primjer II: ko-okurencija → pojmovna mreža od 125 emocionalnih leksema (Perak 2014; EmoCNet 2019–21).
 - Dijagnostika ima četiri člana. To su: inventar · akumulacija · opis bez nositelja · zamjena pozicije i funkcije. Zastoj je rezultat, a ne neuspjeh.
 - Tvrdnja ostaje na **slaboj emergenciji** (Bedau 1997), nikada na jakoj (Chalmers 2006); Kimov prigovor (1999) ostaje trajno ograničenje.
 

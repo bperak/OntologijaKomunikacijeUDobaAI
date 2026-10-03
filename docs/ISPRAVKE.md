@@ -497,3 +497,28 @@ Zato `kod/provjeri_stil.py` uz pragove provjerava i **strukturnu istovjetnost** 
 tablice, parnost markera), a `kod/vrati_natuknice.py` vraća masno na uvodne natuknice koje su radnici
 skinuli (vraćeno 27, samo nedvojbene — dvotočka, upitnik, najava).
 
+## ZAPIS-012 — Stilski prolaz dovršen na svim 27 datoteka (3. 10. 2026.)
+
+**Stanje:** sve 27 datoteka rukopisa prolaze `check_stil.py` (pragovi + struktura + sadržaj).
+Knjiga u cjelini: podebljano **16,4 % → 9,2 %** · dugi masni odlomci **13,1 % → 2,4 %** ·
+srednja rečenica **23,7 → 20,8** · ≤ 8 riječi **12,0 % → 17,6 %** · < 12 riječi **19,8 % → 27,3 %** ·
+> 40 riječi **10,9 % → 6,9 %** · „upravo“ **9,8 → 0,7**/10k · čestični repertoar **3 → 8**/12.
+
+**Mjerljivi dokazi koji prate svaku datoteku:** `kod/check_stil.py --usporedi` (citati, godine, brojke,
+naslovi, **prave unutarnje upute**) i `kod/provjeri_stil.py` (struktura: popis, naslovi, slike, tablice,
+parnost `**`). Nijedna datoteka nije izgubila nijednu jedinicu sadržaja ni redak aparata.
+
+**Popravci alata u ovome prolazu (svi zbog lažnih nalaza koji su usmjeravali rad na krivo mjesto):**
+1. popisni retci nisu rečenice — svaki je jedinica za sebe, a niz dugih rečenica mjeri se samo na prozi;
+2. masni podnaslovi, uvodne natuknice i retci popisa literature ne broje se kao rečenice;
+3. blokovi koda ne ulaze u prozu;
+4. podebljane natuknice (na početku retka ili popisne čestice) ne broje se u „podebljane tvrdnje“;
+5. unutarnje upute prepoznaju se po oznaci cilja (→ pogl. 2.3, → dodatak I.1, → Slika I.1, → data/…), a
+   lanac pojmova („materijal → informacija → interakcija → komunikacija“) nije uputa.
+
+**Otvoreno za autora (stilsko, ne mjerno):** 43 uvodne natuknice bile su masne u izvorniku; 30 ih je
+vraćeno (nedvojbene: dvotočka, upitnik, najava poput „Slučaj A — …“), a 13 deklarativnih („Kompetitor je
+ista tablica s obrnutim predznakom.“) ostalo je bez masnoga jer ih pravilo o podebljanim tvrdnjama
+zabranjuje. Ako autor želi i njih masne kao natuknice, vraćaju se jednom naredbom
+(`kod/vrati_natuknice.py`, uz proširenje filtra).
+
