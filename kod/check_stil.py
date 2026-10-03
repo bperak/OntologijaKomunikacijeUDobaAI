@@ -194,7 +194,7 @@ def provjera(zbroj):
         nal.append(f"kratkih rečenica (≤8 riječi) {zbroj['vrlo_kratke']:.1f}% < {PRAG['vrlo_kratke']}%")
     if zbroj["niz_dagih"] > PRAG["niz_dagih"]:
         nal.append(f"niz rečenica >30 riječi {zbroj['niz_dagih']} > {PRAG['niz_dagih']} (ritam se ne mijenja)")
-    # Na razini cijele knjige ne provjeravaju se APSOLUTNI zbrojevi (klišejи, popisni retci): pragovi
+    # Na razini cijele knjige ne provjeravaju se APSOLUTNI zbrojevi (klišeji, popisni retci): pragovi
     # za njih vrijede po datoteci, a zbroj kroz 27 datoteka nije mjera i ne smije rušiti provjeru.
     if zbroj["kratke"] < PRAG["kratke"]:
         nal.append(f"kratkih rečenica {zbroj['kratke']:.1f}% < {PRAG['kratke']}%")
@@ -208,7 +208,7 @@ def provjera(zbroj):
     prag_cestica = 5 if w >= 1500 else (3 if w >= 800 else (2 if w >= 400 else 1))
     if zbroj["cestice_raz"] < prag_cestica:
         nal.append(f"čestični repertoar {zbroj['cestice_raz']} < {prag_cestica}")
-    # (klišejи i popisni retci ispisuju se u zbroju, ali se ovdje ne provjeravaju — vidi gore)
+    # (klišeji i popisni retci ispisuju se u zbroju, ali se ovdje ne provjeravaju — vidi gore)
     return nal
 
 
