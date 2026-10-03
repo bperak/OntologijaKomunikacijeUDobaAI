@@ -16,7 +16,7 @@ Ova knjiga ne pokušava presuditi razumije li model. Uzima dio tvrdnje koji se o
 
 ## Dva odgovora koja se ne mogu provjeriti
 
-Odbacivanje i napuhavanje imaju različite riječi, a isti nedostatak: nijedno ne imenuje **mjesto** na kojemu bi se tvrdnja provjerila. Iz toga slijede dvije jednako pogrešne rečenice, i to iz jednoga propusta: „sustav radi X, dakle sustav ima X" i „sustav nema X, dakle ne radi X" (→ pogl. 14.7). Prva pripisuje svojstvo na temelju ishoda, druga ga niječe na temelju podrijetla. Oba puta nedostaje isti korak: razlika između onoga što se vidi u zapisu i onoga što se nositelju pripisuje.
+Suprotno onome kako se prikazuju, odbacivanje i napuhavanje imaju različite riječi, a isti nedostatak: nijedno ne imenuje **mjesto** na kojemu bi se tvrdnja provjerila. Iz toga slijede dvije jednako pogrešne rečenice, i to iz jednoga propusta: „sustav radi X, dakle sustav ima X" i „sustav nema X, dakle ne radi X" (→ pogl. 14.7). Prva pripisuje svojstvo na temelju ishoda, druga ga niječe na temelju podrijetla. Oba puta nedostaje isti korak: razlika između onoga što se vidi u zapisu i onoga što se nositelju pripisuje.
 
 Popravak zato nije treće mišljenje, nego dvije stvari: **mjesto** i **kriterij**. Mjesto je razina s pripadnom relacijskom shemom; kriterij je uvjet koji se na konkretnome slučaju može ispuniti ili ne ispuniti. Kad se to dvoje ima, ista se rasprava može voditi kao mjerenje — i može se izgubiti.
 
@@ -34,7 +34,7 @@ Pitanje se mijenja u četiri koraka. Umjesto „razumije li?", pita se: na **koj
 
 Prva se četiri uvjeta daju izbrojiti; peti je u podacima najslabije pokriven (→ pogl. 7.9), i zato o njemu odlučuje teza knjige (→ pogl. 13.4). Kad se niz iz tablice provede na stvarnome transkriptu, odgovor ima oblik nalaza: razina 14 je **funkcionalno prisutna**, a **intrinzično nije**. Prvi dio znači da se sve što razina traži može pokazati u zapisu. Drugi znači da razinu ne nosi onaj koji je u njoj, nego da mu je pripisana izvana (→ pogl. 14.6). Nalaz je u cijelosti izveden u 13. i 14. poglavlju; ovdje stoji zato da se vidi njegov oblik prije nego što se u nj uloži čitanje.
 
-Takav odgovor može biti pogrešan, i u tome je njegova vrijednost. Ako se pokaže da se isti transkript jednako dobro čita na dvije razine, ili da se uvjet 5 nigdje ne može izbrojiti, nalaz pada (→ pogl. 16.5). Dojam se ne može oboriti; nalaz može.
+Takav odgovor može biti pogrešan, i u tome je njegova vrijednost. Ako se pokaže da se isti transkript jednako dobro čita na dvije razine, ili da se uvjet 5 nigdje ne može izbrojiti, nalaz pada (→ pogl. 16.5). Dojam se ne može oboriti; nalaz može. Zato se ono što slijedi ne čita kao sažetak, nego kao ono što se odavde nosi.
 
 ## Što ćete odatle ponijeti
 
@@ -60,7 +60,7 @@ Tvrdnja 3, naprotiv, promjenu ne odbacuje; ona je smješta. Novo je **gdje** se 
 
 ## Zašto ljestvica, a ne popis
 
-Razine bi se mogle uzeti i kao puki popis imena. Ova knjiga to odbija iz jednoga razloga: popis imena ne može ništa oboriti. Ljestvica s kriterijima pak može. Kad se na konkretnome slučaju pokaže da je neka razina **funkcionalno prisutna**, a istodobno da nije **intrinzično prisutna**, to je nalaz — i to nalaz koji se može ponoviti ili opovrgnuti (→ pogl. 14.6, 16).
+Razine bi se mogle uzeti i kao puki popis imena. Ova knjiga, naprotiv, to odbija iz jednoga razloga: popis imena ne može ništa oboriti. Ljestvica s kriterijima pak može. Kad se na konkretnome slučaju pokaže da je neka razina **funkcionalno prisutna**, a istodobno da nije **intrinzično prisutna**, to je nalaz — i to nalaz koji se može ponoviti ili opovrgnuti (→ pogl. 14.6, 16).
 
 Zato se u cijeloj knjizi drži razlika koja je ujedno njezin glavni alat:
 
@@ -72,6 +72,8 @@ Zato se u cijeloj knjizi drži razlika koja je ujedno njezin glavni alat:
 Bez te razlike okvir proizvodi dvije jednako pogrešne tvrdnje iz istoga propusta: „sustav radi X, dakle sustav ima X" i „sustav nema X, dakle ne radi X" (→ pogl. 14.7).
 
 ## Dvije razlike koje treba držati do kraja
+
+Ta razlika nije jedina koju treba držati do kraja; uz nju, a ne umjesto nje, stoje još dvije, i obje se tiču onoga što se razini smije pripisati.
 
 **Entitet imenuje *gdje*, agent imenuje *što*.** *Entitet* je pozicija u sustavu — mjesto na koje nešto dolazi; *agent* je sistemska uloga onoga što na tom mjestu djeluje (djeluje, pamti, dohvaća, orkestrira). Riječ „razina" u ovoj knjizi nikad ne označava model; model nije razina, nego **entitet** koji zauzima postojeće pozicije (→ pogl. 12.4, 16.3).
 
@@ -90,7 +92,7 @@ Bez te razlike okvir proizvodi dvije jednako pogrešne tvrdnje iz istoga propust
 
 Poglavlja imaju isti oblik, i taj oblik je dio metode:
 
-**teza** (jedan odlomak, zapisan u jednome dahu da se lakše provjeri drži li kroz cijelo poglavlje) → **teza običnim jezikom** (što tvrdi i što vam time daje) → **teorijski okvir** → **metode i podaci** → **praktikum** (kod korak po korak, uz odjeljak „Ako ne radi"; u teorijskim poglavljima na njegovu mjestu stoji **radni primjer**) → **vježbe** (🟢 provjeri razumijevanje, 🟡 primijeni na vlastite podatke, 🏆 istraživački zadatak) → **sažetak i ključni pojmovi** → **„Što to mijenja u praksi"** (dvije do četiri rečenice o tome što radite drukčije, ondje gdje nalaz ima neposrednu posljedicu za rad) → **„Kako bismo znali da griješimo"**. Znak **❓** označuje **nepotvrđenu stavku**: tvrdnja je izrečena, ali izvor ili mjerenje za nju još ne postoji, pa se takva stavka u knjizi ne rabi kao dokaz i ne citira se.
+**teza** (jedan odlomak, zapisan u jednome dahu da se lakše provjeri drži li kroz cijelo poglavlje) → **teza običnim jezikom** (što tvrdi i što vam time daje) → **teorijski okvir** → **metode i podaci** → **praktikum** (kod korak po korak, uz odjeljak „Ako ne radi"; u teorijskim poglavljima na njegovu mjestu stoji **radni primjer**) → **vježbe** (🟢 provjeri razumijevanje, 🟡 primijeni na vlastite podatke, 🏆 istraživački zadatak) → **sažetak i ključni pojmovi** → **„Što to mijenja u praksi"** (dvije do četiri rečenice o tome što radite drukčije, ondje gdje nalaz ima neposrednu posljedicu za rad) → **„Kako bismo znali da griješimo"**. Znak **❓** označuje **nepotvrđenu stavku**: tvrdnja je izrečena, ali izvor ili mjerenje za nju još ne postoji, pa se takva stavka u knjizi ne rabi kao dokaz i ne citira se. Taj je oblik dio metode, a ne vanjski okvir koji se može i izostaviti.
 
 Posljednji odjeljak nije ukras. On je mjesto na kojem svako poglavlje kaže **koji bi ga rezultat oborio**; knjiga koja to ne može reći nije teorija, nego pripovijest (→ pogl. 16.5).
 
@@ -98,7 +100,7 @@ Metodološki slijed knjige je pet stupnjeva i nijedan se ne preskače: **tekst �
 
 ## Kako se knjiga čita: poglavlje po poglavlju
 
-Knjiga se ne mora čitati redom, ali nijedan redoslijed nije bez cijene, pa evo karte.
+No knjiga se ne mora čitati redom, ali nijedan redoslijed nije bez cijene. Umjesto jednoga propisanoga reda, evo karte s tri puta, a ne popisa obveznih poglavlja.
 
 **DIO I — RAZINE: OKVIR.** **1.** Razina nije veličina nego **razlika u tipu svojstava** koja nastaje organizacijom; uvode se slaba emergencija, dio–cjelina–organizacija i artefakt mjere. **2.** OMLCC: tri domene (Searleova podjela) i šesnaest razina (autorova razrada), sa **relacijskim shemama** po razinama. **3.** Tri koraka emergencije — dijelovi → mreža → nova cjelina — i klasični primjer vode. **4.** Kako se razine čitaju iz podataka: pet stupnjeva, vrste dokaza, kontrole, etika mjerenja i provjere u repozitoriju.
 
@@ -114,7 +116,7 @@ Knjiga se ne mora čitati redom, ali nijedan redoslijed nije bez cijene, pa evo 
 
 ## Dvije vrste pogreške koje knjiga nastoji izbjeći
 
-**Brojka bez vrste.** Svaka brojka u ovoj knjizi ima izvor, datum i vrstu: *mjereno*, *procjena* ili *izvedeno*. Procjena se nikad ne prikazuje kao mjerenje; kad je izvor nepotpun, brojka se označava i ne prenosi dalje. Vrsta je dio brojke. Evidencija je u `data/fakti.csv`, a provjera je automatska (→ pogl. 4.5).
+**Brojka bez vrste.** Svaka brojka u ovoj knjizi ima izvor, datum i vrstu: *mjereno*, *procjena* ili *izvedeno*. Procjena se nikad ne prikazuje kao mjerenje; kad je izvor nepotpun, brojka se označava i ne prenosi dalje. Vrsta je dio brojke, a ne dodatak. Evidencija je u `data/fakti.csv`, a provjera je automatska (→ pogl. 4.5).
 
 **Citat bez izvora u istoj rečenici.** Reference u knjizi ne idu u opći popis na kraju kao potvrda da je nešto pročitano: tvrdnja i njezin izvor stoje u istoj rečenici, a cijeli popis referenci održava se u zajedničkoj bazi (`referencije/REFERENCE_BASE.md`). Nijedan citat ne ulazi u rukopis ako nije u toj bazi, i to se provjerava u oba smjera (→ pogl. 4.6).
 
@@ -128,7 +130,7 @@ Ova knjiga je dio mreže triju knjiga, s podjelom posla:
 | *Data Science u kulturi* (u izradi) | **kako se mjeri** (podaci, statistika, ugrađivanja) |
 | **ova knjiga** | **gdje to ontološki stoji** |
 
-U tekstu se upute označavaju: **↗** upućuje na drugu knjigu, **→** na drugo mjesto u ovoj. Pravilo je da tema ima jednoga vlasnika: ova knjiga ne objašnjava iznova kako se izračunava ugrađivanje ni kako se priprema korpus — to čini *Data Science u kulturi* — nego pita što ti postupci znače za tvrdnju o razinama. Popis svih uputa je u `docs/UPUTE-PO-POGLAVLJIMA.md`.
+U tekstu se upute označavaju: **↗** upućuje na drugu knjigu, **→** na drugo mjesto u ovoj. Pravilo je da tema ima jednoga vlasnika: ova knjiga ne objašnjava iznova kako se izračunava ugrađivanje ni kako se priprema korpus — to čini *Data Science u kulturi* — nego pita što ti postupci znače za tvrdnju o razinama. Popis svih uputa je u `docs/UPUTE-PO-POGLAVLJIMA.md`. Granica među knjigama nije isto što i šutnja: ondje gdje se posao preuzima, uputa na drugu knjigu to imenuje.
 
 ## Što ova knjiga ne tvrdi
 
@@ -146,11 +148,11 @@ Na razini cijele knjige tri su rezultata koja bi je oborila ili bitno oslabila:
 2. **Razina koja ne mijenja ništa.** Ako se pokaže da komunikacija ne uvodi **nijedan** tip svojstva kojega niže razine ne posjeduju, tvrdnja 2 pada: komunikacija bi bila alat, a ne razina (→ pogl. 7.5, 8.1).
 3. **Sedamnaesta razina.** Ako se za modele pokaže da imaju razinu koju nijedna od šesnaest ne pokriva — s kriterijem koji nije samo „novi materijal" — tvrdnja 3 pada (→ pogl. 12.4, 16.4).
 
-Nijedan od tih testova nije izveden u ovoj knjizi do kraja; knjiga pokazuje kako bi se izveli i što je za njih potrebno. To je razlika između programa i zaključka, i knjiga je namjerno na strani programa.
+Nijedan od tih testova nije izveden u ovoj knjizi do kraja; knjiga pokazuje kako bi se izveli i što je za njih potrebno. To je razlika između programa i zaključka, i knjiga je namjerno na strani programa, a ne na strani zaključka. Odatle slijedi i to kako je rukopis nastao.
 
 ## Kako je rukopis napravljen
 
-Rukopis se razvija iz izlaganja *Elements of Cognition in Complex Language* (Inter-University Centre Dubrovnik, 11. rujna 2026.), uz građu iz doktorske disertacije (Perak 2014) i autorskih radova o OMLCC-u i mrežama značenja (→ pogl. 2.1; Ban Kirigin & Perak 2020; Perak & Ban Kirigin 2023). Provjere se pokreću automatski:
+Ova knjiga ne skriva kako je nastala, a ne nudi ni gotov rezultat: zapisi o izradi stoje uz tvrdnje. Rukopis se razvija iz izlaganja *Elements of Cognition in Complex Language* (Inter-University Centre Dubrovnik, 11. rujna 2026.), uz građu iz doktorske disertacije (Perak 2014) i autorskih radova o OMLCC-u i mrežama značenja (→ pogl. 2.1; Ban Kirigin & Perak 2020; Perak & Ban Kirigin 2023). Provjere se pokreću automatski:
 
 ```bash
 python kod/check_lit.py             # citati ↔ baza referenci (u oba smjera)
@@ -161,4 +163,4 @@ python kod/check_figure_overflow.py # prelijevanje teksta u figurama
 python kod/pojmovnik_build.py       # registar pojmova → rječnik
 ```
 
-Licenca je **CC BY-NC 4.0** (uz obavezno navođenje autorstva); izvorni kod i podaci dostupni su u repozitoriju knjige, a način citiranja opisan je u `docs/CITIRANJE.md`.
+Licenca je **CC BY-NC 4.0** (uz obavezno navođenje autorstva); izvorni kod i podaci dostupni su u repozitoriju knjige, a način citiranja opisan je u `docs/CITIRANJE.md`. Time se ovaj uvod ne zatvara u sebe, nego uz tekst predaje i građu za provjeru.

@@ -53,7 +53,7 @@ Razlika između zbroja i učinka stara je više od stoljeća i pol. John Stuart 
 
 ## 3.3 Korak 3 — nova cjelina: kad skup relacija postaje JEDAN nositelj svojstva
 
-Treći je korak onaj na kojem cijela knjiga stoji. Formulacija je kratka: **mreža je sama entitet**, sa svojstvima koje njezini sastavnici nemaju. Prijelaz iz drugoga u treći korak nije više podataka ni više relacija — to je **promjena organizacije**. Claus Emmeche, Simo Køppe i Frederik Stjernfelt (1997) to su formulirali najpreciznije: emergentno svojstvo uvijek je relativno prema razini organizacije. Ne postoji „emergentno po sebi".
+Treći je korak onaj na kojem cijela knjiga stoji. Formulacija je kratka: **mreža je sama entitet**, sa svojstvima koje njezini sastavnici nemaju. Prijelaz iz drugoga u treći korak ne znači više podataka ni više relacija — to je **promjena organizacije**. Claus Emmeche, Simo Køppe i Frederik Stjernfelt (1997) to su formulirali najpreciznije: emergentno svojstvo uvijek je relativno prema razini organizacije. Ne postoji „emergentno po sebi".
 
 Shema je prikazana na slici 3.1.
 
@@ -87,7 +87,7 @@ Entitet je pozicija, agent je sistemska uloga. Model može biti entitet i bez ul
 
 Stariji rječnik za istu stvar nalazi se kod Nicolaija Hartmanna (1940). Njegova *Schichtenlehre* tvrdi da viši sloj **pretpostavlja** niži, ali uvodi kategorije koje niži ne posjeduje (*kategorijalna novost*), i pritom u njemu ostaje utemeljen (*zakon snažnijeg nižeg sloja*). Prevedeno na formulaciju ovoga poglavlja: materijal ostaje isti, a nove su kategorije — dakle organizacija. Hartmann je tako, dvadeset godina prije prvih računalnih mreža, zapisao ono što ćemo ovdje pokazati na dva primjera.
 
-**Skromnost tvrdnje.** Tvrdnja ostaje na **slaboj emergenciji** (Bedau 1997): makrostanje je izvedivo iz mikrodinamike, ali samo simulacijom — iznenađujuće u praksi, izvedivo načelno. Ne tvrdimo jaku emergenciju (Chalmers 2006). Kimov prigovor kauzalnoga isključivanja (1999) ostaje na snazi kao trajno ograničenje: ako u konkretnom slučaju novi nositelj ne dodaje ništa ni opisu ni predviđanju, od njega u tom slučaju odustajemo.
+**Skromnost tvrdnje.** Tvrdnja ostaje na **slaboj emergenciji** (Bedau 1997): makrostanje je izvedivo iz mikrodinamike, ali samo simulacijom — iznenađujuće u praksi, izvedivo načelno. Ne tvrdimo jaku emergenciju (Chalmers 2006). Kimov prigovor kauzalnoga isključivanja (1999) ostaje na snazi kao trajno ograničenje: ako u konkretnom slučaju novi nositelj ne dodaje ništa ni opisu ni predviđanju, od njega u tom slučaju odustajemo. Odatle slijedi da se tvrdnja mora pokazati na konkretnoj građi, u dva radna primjera.
 
 ## 3.4 Radni primjer 1: od zvučnog vala do komunikacijskog čina
 
@@ -148,7 +148,7 @@ Tri koraka imaju vrijednost tek ako se mogu upotrijebiti kao instrument. Zato ov
 | 3. cjelina | ima li cjelina ime i svojstvo bez nositelja u dijelovima? | jedan nositelj s vlastitim svojstvima | **opis bez nositelja** — mreža kao slika |
 | 4. uloga | radi li nositelj nešto u sustavu? | uloga, a ne samo pozicija | zamjena pozicije i funkcije |
 
-**Zašto je zastoj rezultat, a ne neuspjeh.** Treći korak često **ne nastupa**, i to je jedna od najkorisnijih informacija koju ovaj instrument daje. Ako sustav ostaje na drugom koraku, pogrešno je pitati „zašto se još nije emergiralo"; ispravno je pitati **koji od pet kriterija nedostaje** — za institucije je to najčešće peti, za mreže značenja četvrti, a za tehničke sustave treći.
+**Zašto je zastoj rezultat, a ne neuspjeh.** Treći korak često **ne nastupa**, i to je jedna od najkorisnijih informacija koju ovaj instrument daje. Ako sustav ostaje na drugom koraku, pogrešno je pitati „zašto se još nije emergiralo"; ispravno je pitati **koji od pet kriterija nedostaje** — za institucije je to najčešće peti, za mreže značenja četvrti, a za tehničke sustave treći. Koji uvjeti ruše ovaj postupak, izlaže sljedeći odjeljak.
 
 ---
 

@@ -30,7 +30,7 @@ Tvrdnje nemaju jednaku podlogu. Razlika u jačini podloge nije nedostatak knjige
 
 ## Nalazi o odsutnosti — i kako ih treba čitati
 
-Dva mjesta u knjizi izriču **nalaz o odsutnosti**: nije pronađen dokumentirani slučaj prijenosa konvencije između dvaju agentskih sustava bez korpusa kao izvora (→ pogl. 15.5) i nije pronađen dokumentirani slučaj zajedničke obveze između dvaju agentskih sustava (→ pogl. 16.4). Takav nalaz, naime, vrijedi onoliko koliko je širok pregled na kojemu stoji, i zato ga knjiga ne izriče kao tvrdnju o svijetu, nego kao tvrdnju o dostupnoj literaturi.
+Dva mjesta u knjizi izriču **nalaz o odsutnosti**: nije pronađen dokumentirani slučaj prijenosa konvencije između dvaju agentskih sustava bez korpusa kao izvora (→ pogl. 15.5) i nije pronađen dokumentirani slučaj zajedničke obveze između dvaju agentskih sustava (→ pogl. 16.4). Takav nalaz, naime, vrijedi onoliko koliko je širok pregled na kojemu stoji; zato odsutnost nije isto što i tvrdnja o svijetu, pa ga knjiga izriče kao tvrdnju o dostupnoj literaturi.
 
 Iz toga slijedi i obveza koju ova knjiga ostavlja otvorenom, a koja je posve praktična: uz svaki nalaz o odsutnosti treba stajati **datum i opseg pretrage** (koji izvori, kojim pojmovima, u kojem razdoblju). Bez toga se odsutnost ne može razlikovati od nepotpunog čitanja — a knjiga koja to ne razlikuje krši vlastito pravilo iz 4.5.
 
@@ -46,11 +46,11 @@ Otvorena oznaka nije sramota. Sramota bi bila da je nema, jer bi to značilo da 
 
 ## Što bi ovu knjigu oborilo
 
-Na razini cijele knjige to su tri rezultata, navedena u uvodu i razrađena u 16.5. Prvi je **neraslučivost razina**: isti podaci daju iste nalaze neovisno o razini koja se traži. Drugi je **razina koja ne mijenja ništa**: komunikacija ne uvodi nijedan tip svojstva kojega niže razine ne posjeduju. Treći je **sedamnaesta razina**: za modele se pokaže razina koju nijedna od šesnaest ne pokriva, s kriterijem koji nije samo novi materijal. Nijedan od njih, usto, nije izveden. Knjiga daje postupke po kojima se izvode.
+Na razini cijele knjige to su tri rezultata, navedena u uvodu i razrađena u 16.5. Prvi je **neraslučivost razina**: isti podaci daju iste nalaze neovisno o razini koja se traži. Drugi je **razina koja ne mijenja ništa**: komunikacija ne uvodi nijedan tip svojstva kojega niže razine ne posjeduju. Treći je **sedamnaesta razina**: za modele se pokaže razina koju nijedna od šesnaest ne pokriva, s kriterijem koji nije samo novi materijal. Nijedan od njih, usto, nije izveden. Knjiga daje postupke po kojima se izvode, a ne tvrdnju da su izvedeni.
 
 ## Knjiga kao nastavno sredstvo
 
-Ovo nije dodatak nego dio namjere. Anatomija od sedam blokova (teza, teorijski okvir, metode i podaci, praktikum ili radni primjer, vježbe, sažetak i ključni pojmovi, „kako bismo znali da griješimo") napravljena je tako da se poglavlje može zadati kao **tjedan nastave**. Teza i okvir služe kao tekst za čitanje, praktikum kao vježba u računalu, vježbe kao domaći rad, a falsifikacijski odjeljak kao tema seminara. Trojna podjela vježbi (🟢 provjeri razumijevanje, 🟡 primijeni na vlastite podatke, 🏆 istraživački zadatak) omogućuje da isti materijal radi i na preddiplomskoj i na diplomskoj razini. Rješenja vježbi dana su u dodatku C, a predlošci za praktikume (korpusni upit, evaluacija ugrađivanja, protokol kauzalnog testa) u repozitoriju knjige (`kod/`, `data/`).
+Ovo je dio namjere, a ne dodatak. Anatomija od sedam blokova (teza, teorijski okvir, metode i podaci, praktikum ili radni primjer, vježbe, sažetak i ključni pojmovi, „kako bismo znali da griješimo") napravljena je tako da se poglavlje može zadati kao **tjedan nastave**. Teza i okvir služe kao tekst za čitanje, praktikum kao vježba u računalu, vježbe kao domaći rad, a falsifikacijski odjeljak kao tema seminara. Trojna podjela vježbi (🟢 provjeri razumijevanje, 🟡 primijeni na vlastite podatke, 🏆 istraživački zadatak) omogućuje da isti materijal radi i na preddiplomskoj i na diplomskoj razini. Rješenja vježbi dana su u dodatku C, a predlošci za praktikume (korpusni upit, evaluacija ugrađivanja, protokol kauzalnog testa) u repozitoriju knjige (`kod/`, `data/`).
 
 ## Što možete učiniti danas
 
@@ -65,6 +65,6 @@ Redoslijed nije slučajan. Prvo se provjerava ono što je već na stolu — vlas
 
 ## Mreža triju knjiga — što slijedi
 
-Ova knjiga ne stoji sama i to nije marketinška napomena, nego posljedica podjele posla. *Komunikacija u doba umjetne inteligencije* (Perak 2025) daje **što se dogodilo**, *Data Science u kulturi* daje **kako se mjeri**, a ova knjiga pita **gdje to ontološki stoji**. Ako se okvir pokaže upotrebljivim, sljedeći korak nije nova knjiga istoga tipa, nego **mjerenja** koja su u 16.5 zapisana kao E1–E5 — i, s njima, mogućnost da se ista ljestvica primijeni na druge jezike, druge tipove građe i druge izvođače. Mjerenja su sljedeći korak.
+Ova knjiga ne stoji sama; naprotiv, njezino mjesto posljedica je podjele posla, a ne marketinška napomena. *Komunikacija u doba umjetne inteligencije* (Perak 2025) daje **što se dogodilo**, *Data Science u kulturi* daje **kako se mjeri**, a ova knjiga pita **gdje to ontološki stoji**. Ako se okvir pokaže upotrebljivim, sljedeći korak nije nova knjiga istoga tipa, nego **mjerenja** koja su u 16.5 zapisana kao E1–E5 — i, s njima, mogućnost da se ista ljestvica primijeni na druge jezike, druge tipove građe i druge izvođače. Mjerenja su sljedeći korak.
 
 Do tada, dakle, vrijedi ono čime knjiga i počinje: razina nije veličina nego **razlika u tipu svojstava** koja nastaje organizacijom; a tvrdnja koja se ne može izmjeriti izriče se kao neizmjerena.

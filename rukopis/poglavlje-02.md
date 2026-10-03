@@ -6,7 +6,7 @@
 
 ## 2.1 Što je OMLCC: ime, oblik i namjena
 
-Riječ *razina* rabi se za sve. Za visinu vode, za kakvoću usluge, za „višu razinu" koja se čini boljom od niže. Svaka je od tih uporaba razumljiva, a zajedničko im je samo ime. Kad jedna riječ pokriva i visinu vode i kakvoću usluge, ona prestaje razlučivati, a tada se svaki popis može proglasiti ljestvicom.
+Riječ *razina* rabi se za sve. Za visinu vode, za kakvoću usluge, za „višu razinu" koja se čini boljom od niže. Svaka je od tih uporaba razumljiva, a zajedničko im je samo ime. Kad jedna riječ pokriva i visinu vode i kakvoću usluge, ona prestaje razlučivati, a tada se svaki popis može proglasiti ljestvicom. Nasuprot toj raširenoj uporabi, ovo poglavlje razinu veže uz jedan određen kriterij.
 
 Tu nastaje problem s kojim se ovo poglavlje nosi. Ako je razina popis imena, o njoj se može samo nabrajati: svaka se tvrdnja brani novim primjerom, a nijedna se ne može oboriti. Ljestvica s kriterijima može nešto oboriti. Razlika između popisa i ljestvice zato nije stvar ukusa, nego razlika između tvrdnje koja se može provjeriti i tvrdnje koja se samo ponavlja.
 
@@ -29,7 +29,7 @@ Taj okvir ima ime. Zove se **OMLCC** — *Ontological Model of Lexical Concepts 
 
 ### 2.1.1 Tri domene: Searleova podjela i njezina cijena
 
-Prvo poglavlje završilo je definicijom koja je istovremeno točna i prazna: razina je skup entiteta i relacija kod kojih vrijedi isti tip svojstava i isti tip zakona sastavljanja. Točna je jer ne pretpostavlja ništa o veličini, a prazna jer ne kaže **koliko tipova svojstava ima**. Ovo poglavlje daje odgovor: šesnaest, u tri domene.
+Prvo poglavlje završilo je definicijom koja je istovremeno točna i prazna: razina je skup entiteta i relacija kod kojih vrijedi isti tip svojstava i isti tip zakona sastavljanja. Točna je jer ne pretpostavlja ništa o veličini, a prazna jer ne kaže **koliko tipova svojstava ima**. Ovo poglavlje daje odgovor: šesnaest, u tri domene. Umjesto podjele po tipu svojstva, koja vrijedi za razine, domena se dijeli po vrsti ovisnosti.
 
 Najgrublja podjela dolazi iz Searleove ontologije činjenica. U knjigama *The Construction of Social Reality* (1995) i *Making the Social World* (2010) Searle razlikuje **grube činjenice** (*brute facts*), **mentalne činjenice** (*mental facts*) i **institucionalne činjenice** (*institutional facts*). Grube činjenice vrijede neovisno o tome što bilo tko o njima misli — planina je visoka i onda kad nikoga nema da to primijeti. Mentalne činjenice jesu činjenice o nečijem stanju, primjerice da nekoga boli ili da nešto vjeruje (Searle 1995). Institucionalne činjenice postoje samo zato što ih zajednica priznaje: novac, granica i diploma nisu kemijske činjenice, nego *X koji broji kao Y u kontekstu C* (Searle 1995; 2010).
 
@@ -45,7 +45,7 @@ Jedno ograničenje podjele treba priznati odmah. Granica između psihološkoga i
 
 ## 2.2 Šesnaest razina s definicijama
 
-Unutar tih domena ovaj okvir razlučuje šesnaest razina. Atribucija je izrečena na jednome mjestu i ovdje se ne ponavlja (→ pogl. 2.1): podjela na materijalnu, psihološku i društvenu domenu je **Searleova** (1995; 2010); razrada na šesnaest razina i njihove relacijske sheme **autorov su doprinos** (→ pogl. 2.1).
+Unutar tih domena ovaj okvir razlučuje šesnaest razina. Atribucija je izrečena na jednome mjestu i ovdje se ne ponavlja (→ pogl. 2.1): podjela na materijalnu, psihološku i društvenu domenu je **Searleova** (1995; 2010); razrada na šesnaest razina i njihove relacijske sheme **autorov su doprinos** (→ pogl. 2.1). Nasuprot popisu, svaka je od tih razina određena tipovima, a ne primjerima.
 
 Cijela je ljestvica najprije na jednoj slici.
 
@@ -55,7 +55,7 @@ Cijela je ljestvica najprije na jednoj slici.
 
 ### 2.2.1 Materijalna domena (razine 1–8)
 
-Prvih sedam razina materijalne su i strukturne, a osma je informacijska:
+Prvih sedam razina materijalne su i strukturne, a osma je informacijska. Suprotno domenama koje slijede, ovdje nema nositelja koji prepoznaje ni obveze koja se priznaje:
 
 1. **Existence.** Razina na kojoj je postavljeno samo jedno pitanje: nešto jest. Svojstvo je prisutnost ili odsutnost.
 2. **Emergence.** Nastajanje: organizacija niže razine daje nositelja kojega prije nije bilo; relacija je „nastaje iz", a svojstvo novost, uvijek relativna prema razini organizacije (Emmeche, Køppe & Stjernfelt 1997).
@@ -74,7 +74,7 @@ Materijalna je domena na jednome prikazu:
 
 ### 2.2.2 Psihološka domena (razine 9–11)
 
-Tri su razine, i svaka ima drukčiji tip relacije prema okolini:
+Tri su razine, i svaka ima drukčiji tip relacije prema okolini. Za razliku od materijalne domene, koja povezuje stvari, psihološke razine povezuju nositelja s onim što opaža, osjeća ili misli:
 
 9. **Perception.** Opažanje: *opažač* opaža *objekt opažanja*. Relacija je usmjerenost, a svojstvo razlučivost.
 10. **Affect.** Afekt: *doživljavatelj* doživljava *afektivno stanje*. Svojstva su valencija i pobuđenost, a odnos prema okolini nije usmjerenost, nego stanje u koje sustav dolazi. Hrvatski emocionalni leksik pokazuje da se ta stanja u jeziku ne pojavljuju pojedinačno, nego u mrežama s određenim središtima (Perak 2014; EmoCNet 2019–21).
@@ -86,6 +86,8 @@ Psihološka je domena na jednome prikazu:
 
 **Slika 2.3.** Druga ploča ljestvice („2 / 3 + psychological domain (9–11)"): psihološka domena s razinama 9–11 (Perception 9, Affect 10, Cognition 11) uz ponovljenu materijalnu domenu 1–8; zaglavlja su „MATERIAL · brute facts · Searle 1995" i „PSYCHOLOGICAL · mental facts · Searle 1995", a stupac društvene domene na ovoj je slici prikazan **prigušeno**, samo brojevima 12–16 i bez relacijskih shema. Podnožje ponavlja tvrdnju „Each level: network x → emergent entity {property} → network x+1" (Emmeche, Køppe & Stjernfelt 1997) i redak „Three domains after Searle (1995; 2010)". Autorov prikaz (→ pogl. 2.1).
 
+S tim nositeljem otvara se put prema razinama koje slijede, od prepoznavanja uloge do zajedničkog obrasca tumačenja, a taj nas put vodi k društvenoj domeni.
+
 ### 2.2.3 Društvena domena (razine 12–16)
 
 Poredak je ovdje argument, a ne popis:
@@ -96,7 +98,7 @@ Poredak je ovdje argument, a ne popis:
 15. **SocCulturalInstitution.** Društveno-kulturna institucija: pravilo po kojemu nešto broji kao nešto drugo u danome kontekstu (Searle 1995; 2010), s obvezom i s mogućnošću sankcije. Tu informacija postaje obveza, a ponašanje dužnost (Tuomela 2007; Elder-Vass 2010).
 16. **CulturalModel.** Kulturni model: naslijeđeni obrasci tumačenja — vrijednosti, uvjerenja, žanrovi, načini na koje se svijet čita. Takav obrazac ne postoji ni u jednom pojedinom nositelju kao gotova cjelina; on je svojstvo mreže koja ga predaje (Perak 2025; → pogl. 15).
 
-Poredak 12 → 13 → 14 → 15 → 16 jest tvrdnja o zavisnosti: identitet prije interakcije, interakcija prije komunikacije, komunikacija prije institucija, a kulturni model samo povrh institucija. Isto vrijedi i niže: ni razina 8 ne može postojati bez nositelja koji nosi razliku.
+Tu se psihološki nositelj iz prethodnoga odjeljka spaja s drugima, pa se, nasuprot nabrajanju, društvene razine ovdje izvode jedna iz druge. Poredak 12 → 13 → 14 → 15 → 16 jest tvrdnja o zavisnosti: identitet prije interakcije, interakcija prije komunikacije, komunikacija prije institucija, a kulturni model samo povrh institucija. Isto vrijedi i niže: ni razina 8 ne može postojati bez nositelja koji nosi razliku.
 
 **Formalni zapis ljestvice.** Ljestvica se može zapisati i strože, i to je učinjeno u **dodatku I**. Svaka je razina **trojka tipova** — **L_n = (E_n, R_n, P_n)**, gdje je E_n skup tipova entiteta, R_n skup tipova relacija s potpisom *R : E_n × E_n → P_n*, a P_n skup tipova svojstava; interakcija se bilježi kao peterokut **(r, p, arnost, smjer, uvjet dopuštenosti; učinak)**, a prijelaz s razine na razinu kao **zakon sastavljanja κ_n : N_n ↦ e_{n+1}{p}** — mreža razine *n* daje entitet razine *n+1* sa svojstvom koje na razini *n* nije postojalo. Ta formalizacija **ne dodaje tvrdnje o svijetu**. Ona zapisuje tvrdnje iz ovoga poglavlja i pokazuje gdje se razine razlikuju po **uvjetu dopuštenosti** (→ dodatak I.1, I.6); cijeli lanac zakona sastavljanja prikazuje **Slika I.1**, a razine po domenama razlažu **slike I.2–I.4**.
 
@@ -162,11 +164,11 @@ Razina je, dakle, **trostruka shema**: tip entiteta + tip relacije + tip svojstv
 
 Operacionalizacija je u tome da se shema pretvara u **kontrolnu listu**. Uzmimo razinu 14, koja u ovoj knjizi nosi najviše tereta. Da bi nešto bio komunikacijski čin, moraju biti zadovoljena pet uvjeta: (a) **adresiranje** — postoji izvor i primatelj, a izraz je njima usmjeren (deiksa, dijaloške oznake, obrasci izmjene); (b) **namjera** — izvor želi da primatelj prepozna njegovu namjeru upravo time što ju je prepoznao (Grice 1957; Harris 1981); (c) **zajednički artefakt** — postoji nešto treće na što se oba sudionika odnose (tekst, dokument, kontekst; Clark 1996; usp. Clark & Chalmers 1998; Hutchins 1995); (d) **konvencija** — postoji obrazac koji sudionici dijele i koji omogućuje da se izraz potvrdi ili ispravi; (e) **obveza** — izvor se obvezao da će izraz vrijediti i da snosi posljedicu ako ne vrijedi (→ pogl. 7.5). Prvi, treći, četvrti i peti uvjet mogu se, u načelu, zadovoljiti i čisto distribucijskim opisom; drugi se ne može. Zato je tvrdnja o razini 14 nosiva tvrdnja knjige. Sedmo poglavlje mora pokazati da se drugi uvjet u podacima razlikuje od ostalih — ili priznati da se ne razlikuje.
 
-Primjer pokazuje kako shema radi. Ispis vremenske prognoze: kao niz oznaka koje nose razliku o stanju okoline to je razina 8, a kao poruka upućena čitatelju s namjerom da nešto poduzme to je razina 14. Razlika nije u količini teksta. Ona je u prisutnosti adresata i namjere.
+Primjer pokazuje kako shema radi. Ispis vremenske prognoze: kao niz oznaka koje nose razliku o stanju okoline to je razina 8, a kao poruka upućena čitatelju s namjerom da nešto poduzme to je razina 14. Razlika nije u količini teksta. Ona je u prisutnosti adresata i namjere. Iz toga slijedi pitanje o broju razina: po čemu se opravdava baš šesnaest?
 
 ## 2.4 Zašto šesnaest, a ne pet ili sto
 
-Broj razina nije odabran. On je **rezultat postupka**, a bez njega je ljestvica proizvoljna. Postupak ima dva pravila:
+Ista razina iz prethodnoga odjeljka, kao i svaka druga, mora se opravdati u cjelini ljestvice. Broj razina zato nije odabran, nego je **rezultat postupka**, a bez njega je ljestvica proizvoljna. Postupak ima dva pravila:
 
 - **Test spajanja.** Ako dvije razine imaju isti tip entiteta, isti tip relacije i isti tip svojstva, one su jedna razina.
 - **Test razdvajanja.** Ako jedna razina sadrži dva tipa svojstva s različitim zakonima sastavljanja, mora se razdvojiti.

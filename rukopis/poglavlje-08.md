@@ -56,7 +56,7 @@ Ta je razdioba korisna jer omogućuje da se u konkretnom slučaju vidi koja je v
 
 ## 8.2 Jezik kao institucija: gdje jezik djeluje, a ne samo opisuje
 
-Tradicionalna lingvistika promatra jezik kao opis svijeta. Institucije pokazuju drugu stranu: postoje izričaji koji **same sebe čine istinitima** u odgovarajućem kontekstu. Izgovoreno „obećavam" nije izvještaj o obećanju nego samo obećanje; potpis nije opis potpisa.
+Ta se razlika najjasnije vidi na jeziku, jer je i on sam institucionalni materijal. Tradicionalna lingvistika promatra jezik kao opis svijeta. Institucije pokazuju drugu stranu: postoje izričaji koji **same sebe čine istinitima** u odgovarajućem kontekstu. Izgovoreno „obećavam" nije izvještaj o obećanju nego samo obećanje; potpis nije opis potpisa.
 
 Iz toga proizlazi i najkorisnija teza ovoga poglavlja za lingvistiku: jezik nije samo materijal na kojem se prepoznaju namjere; on je i materijal iz kojega se grade institucije. U terminima trećeg poglavlja: jezični obrasci nisu samo mreže iz kojih se izvlače pojmovi (→ pogl. 3.5), nego i mreže koje, kad ih zajednica prizna, postaju **nostitelji obveza**.
 
@@ -112,7 +112,7 @@ Prva dva mehanizma ne trebaju zajednicu. Izloženost je odnos između materijala
 
 Odatle slijedi i sadržaj razine 16 koji se lako previdi. Kulturni model nije zbroj obrazaca. On je način na koji se odlučuje što je relevantno — što u razgovoru vrijedi kao argument, što kao dokaz, što kao šala, a što kao uvreda. Zato se ne svodi na mrežu značenja (razina 6): mreža pokazuje **strukturu uporabe**, a kulturni model pokazuje **normu tumačenja** koju zajednica drži. Ta razlika objašnjava i zašto se modeli podataka mogu ponašati u skladu s obrascem, a da pritom ne prenose obrazac: njihovo je „znanje" o normi posljedica izloženosti, a ne prihvaćanja — sve dok ne postoji zajednica koja bi ga na obrazac pozvala (→ pogl. 15.3, 15.4).
 
-**Zašto je ta razlika operativna, a ne filozofska.** Ako je razlika između izloženosti i predaje stvarna, ona se mora vidjeti u ponašanju: kod predaje obrazac treba **preživjeti prekid izvora** (uklanjanje upute, korpusa, posrednika), mora biti **naveden kao vodilja** u novoj situaciji, i mora biti **obostran** u smislu odgovornosti. Gdje toga nema, a ponašanje je ipak usklađeno, dobili smo usklađenost bez predaje — a to je nalaz o mehanizmu, ne o kulturi (→ pogl. 15.2).
+**Zašto je ta razlika operativna, a ne filozofska.** Ako je razlika između izloženosti i predaje stvarna, ona se mora vidjeti u ponašanju: kod predaje obrazac treba **preživjeti prekid izvora** (uklanjanje upute, korpusa, posrednika), mora biti **naveden kao vodilja** u novoj situaciji, i mora biti **obostran** u smislu odgovornosti. Gdje toga nema, a ponašanje je ipak usklađeno, dobili smo usklađenost bez predaje — a to je nalaz o mehanizmu, ne o kulturi (→ pogl. 15.2). Zato se ta razlika mora moći pročitati iz pregleda — iz tablice koja slijedi.
 
 ## 8.4 Što se nalazi u modelu, a što ne nalazi
 
@@ -126,7 +126,7 @@ Tablica je najpoštenija forma odgovora — jer omogućuje da se vidi gdje se tv
 | **15 SocCulturalInstitution** | pravila uporabe, pravila pristupa, dopuštenja | ovlaštenje za sankciju: sankcionira zajednica, ne sustav |
 | **16 CulturalModel** | stilovi, žanrovi, obrasci tumačenja (naučeni) | predaja obrasca unutar zajednice koja ga priznaje |
 
-**Kako čitati tu tablicu.** Lijevi stupac nije ustupak, nego nalaz. Sustavi modela **doista djeluju na tim razinama** i to je razlog zašto o njima vrijedi govoriti ontološki, a ne samo tehnički. Desni stupac nije odricanje, nego **uvjet koji još nije ispunjen** — a uvjet se može ispuniti ili ne ispuniti, i to je predmet četvrtog dijela knjige.
+**Kako čitati tu tablicu.** Lijevi stupac nije ustupak, nego nalaz. Sustavi modela **doista djeluju na tim razinama** i to je razlog zašto o njima vrijedi govoriti ontološki, a ne samo tehnički. Desni stupac nije odricanje, nego **uvjet koji još nije ispunjen** — a uvjet se može ispuniti ili ne ispuniti, i to je predmet četvrtog dijela knjige. Zašto je to razlučivanje uopće nužno, pokazuje se na jednome dokumentiranom slučaju.
 
 ## 8.5 Zašto je razlučivanje razina nužno — jedna studija slučaja
 
@@ -151,13 +151,13 @@ U dostupnoj dokumentaciji **toga opisa nema**: imamo pravila (razina 15), koordi
 
 ## 8.6 Most prema trećemu dijelu
 
-Time je DIO II zaokružen: komunikacija je razina (14), institucija je razina koja obvezu brani (15), kulturni model je razina koja obrasce predaje (16). Ostaje pitanje koje prvo poglavlje ovog dijela nije moglo postaviti: što se dogodi kad u taj sustav uđe sudionik koji nije osoba, nije institucija i nije kultura — nego model?
+Time je DIO II zaokružen: komunikacija je razina (14), institucija je razina koja obvezu brani (15), kulturni model je razina koja obrasce predaje (16). Ostaje pitanje koje prvo poglavlje ovog dijela nije moglo postaviti: što se dogodi kad u taj sustav uđe sudionik koji nije osoba, nije institucija i nije kultura — nego model? To je pitanje o ustroju, a ne o unutrašnjosti modela.
 
 Treći dio knjige zato ide onim putem koji smo dosad izbjegavali: od vektorskog prostora do modela, od modela do geometrije, od geometrije do mišljenja kao procesiranja, i najzad do pitanja je li model **novi entitet u sustavu**. ↗ *Komunikacija u doba umjetne inteligencije* (2025), pogl. 8 (Digitalni suputnici) daje tehnički i praktični opis tih sustava; ovdje je posao ontološki.
 
 ## 8.7 Radni primjer: statusna funkcija na jednome dokumentu
 
-I formula iz 8.1 i pokazatelji iz 8.2 vrijede tek ako se mogu primijeniti na predmet koji se drži u ruci. Radni primjer zato ide u tri poteza: rastavi dokument na tri mjesta formule, odredi vrstu statusne funkcije i provedi dva testa oduzimanja — jedan za priznanje, drugi za odgovornost.
+Ono što je dosad vrijedilo na razini pojma mora se sada pokazati na jednome dokumentu. I formula iz 8.1 i pokazatelji iz 8.2 vrijede tek ako se mogu primijeniti na predmet koji se drži u ruci. Radni primjer zato ide u tri poteza: rastavi dokument na tri mjesta formule, odredi vrstu statusne funkcije i provedi dva testa oduzimanja — jedan za priznanje, drugi za odgovornost.
 
 1. **Odaberi dokument.** Uzmi jedan dokument iz svojega okruženja u kojemu nešto *broji kao* nešto drugo: potvrda, uvjerenje, ugovor, zapisnik, potpisani obrazac, upis u registar. Zapiši odakle je i čije je.
 2. **Rastavi formulu na tri mjesta.** Napiši **X** (materijalni ili jezični nositelj: papir, potpis, pečat, izgovorena rečenica), **Y** (statusna uloga: dokaz, obveza, ovlast) i **C** (kontekst u kojemu priznanje vrijedi). Ako se **C** ne može imenovati, primjer je prestao biti institucijski — i to je nalaz.

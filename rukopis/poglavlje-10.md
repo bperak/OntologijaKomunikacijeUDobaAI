@@ -229,7 +229,7 @@ Granice mjerenja — dio koji se najčešće prešućuje. Uz METR-ov graf stoji 
 
 Tablica postoji zbog jednoga pitanja: što se promijeni kad se promijeni vrsta dokaza? Tri primjera.
 
-**Prvi: 10.000.000 tokena.** Kao **mjereno**, to znači: sučelje prihvaća ulaz te duljine i ne odbija ga. Kao **procjena**, to bi značilo: sustav tu količinu i upotrebljava, ravnomjerno i pouzdano. Prvo je istina, drugo nije — i to ne zbog stava, nego zbog mjerenja koje pokazuje pad uspješnosti s duljim ulazom (Chroma 2025) i slabiju uporabu materijala u sredini ulaza (Liu i suradnici 2024). Ista brojka, dva zaključka: *„prozor je ogroman"* i *„informacija mi je negdje u prozoru, pa je nalazim"*. Samo prvi slijedi iz dokaza.
+**Prvi: 10.000.000 tokena.** Kao **mjereno**, to znači: sučelje prihvaća ulaz te duljine i ne odbija ga. Kao **procjena**, naprotiv, to bi značilo: sustav tu količinu i upotrebljava, ravnomjerno i pouzdano. Prvo je istina, drugo nije — i to ne zbog stava, nego zbog mjerenja koje pokazuje pad uspješnosti s duljim ulazom (Chroma 2025) i slabiju uporabu materijala u sredini ulaza (Liu i suradnici 2024). Ista brojka, dva zaključka: *„prozor je ogroman"* i *„informacija mi je negdje u prozoru, pa je nalazim"*. Samo prvi slijedi iz dokaza.
 
 **Drugi: ~12 sati.** Kao **mjerenje**, ta bi brojka značila da je model izvršio posao kakav stručnjaku traje dvanaest sati. Kao **procjena** — što ona i jest — znači: na skupu softverskih zadataka s provjerljivim ishodom krivulja uspješnosti prelazi 50 % oko dvanaest sati, uz nesigurnost koja uključuje i sam popravak modeliranja (14,5 → 12), a iznad 16 sati mjerenje nije pouzdano. Prvo bi bila tvrdnja o sposobnosti, drugo je tvrdnja o instrumentu.
 
@@ -238,6 +238,8 @@ Treći: HLE strop, ~51,3 % ili 25,6 %. Kao **mjerenje**, jedna od tih brojki zna
 Iz toga slijedi pravilo koje vrijedi za cijelu knjigu, a ovdje je izvedeno na brojkama:
 
 > **Ista brojka dvaput izrečena — jednom kao mjerenje, jednom kao procjena — nije jedna tvrdnja s dva naglaska, nego dvije tvrdnje s različitim uvjetima opovrgavanja.**
+
+Time je pravilo o dvama čitanjima izvedeno na brojkama ovoga poglavlja, a sljedeći odjeljak pokazuje gdje geometrija prestaje i što iz toga slijedi za četvrti dio knjige.
 
 ## 10.7 Što geometrija ne pokazuje — i prijelaz na DIO IV
 

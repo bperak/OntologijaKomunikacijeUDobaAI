@@ -36,7 +36,7 @@ Zato djelovanje djeluje na dvije razine odjednom i to je izvor većine zbrke u r
 
 **Test nepresudnosti.** Uzmi jednu zabilježenu radnju agentskoga sustava i pokušaj je u cijelosti preformulirati kao *tekst*. Ako pritom ništa ne izgubiš — ni u opisu posljedice, ni u pripisivanju odgovornosti — dodatak nije presudan i cijelo poglavlje treba svesti na poglavlje o generiranju teksta. Ako preformulacija izgubi ono što je bilo sporno (tko je djelovao, kada je posljedica nastala, kome se pripisuje), djelovanje je samostalan dodatak.
 
-Dokumentirani slučajevi iz 2026. pokazuju zašto to nije pojmovna sitnica. U [studiji slučaja](studije-slucaja/incidenti-2026.md) opisane su dvije kampanje u kojima su agentski sustavi upotrijebljeni za iskorištavanje zakrpanih propusta u poslužiteljskom softveru PaperCut NG/MF. Nalaz GreyNoisea od 9. rujna 2026. bilježi **395 organizacija** u jednoj kampanji i **11 ciljeva u 26 sekundi** u jednom naletu. Oboje je mjereno, a ne procijenjeno (GreyNoise 2026, 9. rujna). Brojka koja se u izvještajima navodi za koordinirani napad — **~700 agenata** — nije mjera nego **procjena prema izvještajima** i u ovoj se knjizi tako i navodi (prema izvještajima: Fortune, CNN, Taipei Times; vrsta: procjena). Razlika između te dvije vrste brojki nije stilistička. Prva podupire tvrdnju o brzini djelovanja, druga je ne podupire, nego je ilustrira.
+Dokumentirani slučajevi iz 2026. pokazuju zašto to nije pojmovna sitnica. U [studiji slučaja](studije-slucaja/incidenti-2026.md) opisane su dvije kampanje u kojima su agentski sustavi upotrijebljeni za iskorištavanje zakrpanih propusta u poslužiteljskom softveru PaperCut NG/MF. Nalaz GreyNoisea od 9. rujna 2026. bilježi **395 organizacija** u jednoj kampanji i **11 ciljeva u 26 sekundi** u jednom naletu. Oboje je mjereno, a ne procijenjeno (GreyNoise 2026, 9. rujna). Brojka koja se u izvještajima navodi za koordinirani napad — **~700 agenata** — nije mjera nego **procjena prema izvještajima** i u ovoj se knjizi tako i navodi (prema izvještajima: Fortune, CNN, Taipei Times; vrsta: procjena). Razlika između te dvije vrste brojki nije stilistička. Prva podupire tvrdnju o brzini djelovanja, druga je ne podupire, nego je ilustrira. Time je prvi dodatak iscrpljen, a na redu je sljedeći — pamćenje.
 
 ### MEMORY: stanje koje nadživljava sesiju
 
@@ -64,7 +64,7 @@ Orkestracija djeluje na **razinu 13** (SocBehaviourInteraction): pojavljuje se k
 
 ### INTEROPERABILITY: protokoli
 
-Peti dodatak je **interoperabilnost**: dogovoreni način da drugo biće — drugi model, drugi sustav, drugi proizvođač — pristupi istome alatu i istome zadatku. Bez njega svaki je par sustavâ spojen ručno, a s njim nastaje nešto što nije svojstvo ni jednoga od njih: **konvencija**.
+Naposljetku dolazi dodatak koji ne dodaje sposobnost, nego uređuje odnos. Peti dodatak je **interoperabilnost**: dogovoreni način da drugo biće — drugi model, drugi sustav, drugi proizvođač — pristupi istome alatu i istome zadatku. Bez njega svaki je par sustavâ spojen ručno, a s njim nastaje nešto što nije svojstvo ni jednoga od njih: **konvencija**.
 
 Interoperabilnost je jedini dodatak koji po naravi djeluje na **razinu 14** (SocCommunication) — i zato je jedini koji se ne može opisati kao sposobnost pojedinoga sustava. Ona ne dodaje sposobnost, nego uređuje odnos: tko koga adresira, što se prenosi, što se smatra istim predmetom. Zato joj je posvećen sljedeći odjeljak, jer iz nje raste infrastruktura o kojoj se u ovome trenutku najviše govori, a najmanje je precizno opisuje.
 
@@ -80,7 +80,7 @@ Slijedi ono što se u raspravama preskače. Pet dodataka ne daje namjeru, ne daj
 
 ## 12.2 Protokoli kao komunikacijska infrastruktura
 
-Peti dodatak zaslužuje zaseban odjeljak jer je od svih pet najmanje „sposobnost", a najviše **uređenje odnosa**. Protokol je u najkraćemu: dogovor o tome kako se nešto prenosi, tko što može zatražiti i što se smatra istim predmetom. U ovome trenutku dva se takva dogovora navode kao infrastruktura novoga sloja, i oba pripadaju u ovu raspravu jer imenuju različite stvari.
+Sada je na redu peti dodatak, **interoperabilnost**, koji zaslužuje zaseban odjeljak jer je od svih pet najmanje „sposobnost", a najviše **uređenje odnosa**. Protokol je u najkraćemu: dogovor o tome kako se nešto prenosi, tko što može zatražiti i što se smatra istim predmetom. U ovome trenutku dva se takva dogovora navode kao infrastruktura novoga sloja, i oba pripadaju u ovu raspravu jer imenuju različite stvari. Razlika prema pukom formatu je u tome koga obvezuje.
 
 **MCP (Anthropic 2024)** — *Model Context Protocol* — dogovor je o tome kako model pristupa **alatima i izvorima podataka**. Njegov je predmet *dohvat* i *djelovanje*. Jedan poslužitelj izlaže ono što se može pročitati i ono što se može pozvati, a model to rabi bez posebnog spajanja za svaki pojedini slučaj. Ukratko: MCP uređuje odnos modela prema svijetu koji ga okružuje.
 
@@ -106,7 +106,7 @@ Sva tri pokazatelja su tehnička i sva tri se mogu provjeriti u repozitoriju, u 
 
 ## 12.3 Zašto entitet, a ne razina
 
-Sljedeći je korak najosjetljiviji u cijeloj knjizi, jer se u njemu lako napravi pogreška koja se poslije teško ispravlja. Kad se pokaže da model djeluje, pamti, uvodi svijet u svoj rad, dijeli posao i ulazi u konvencije, nameće se zaključak: „eto nove razine". Taj je zaključak pogrešan i to iz dva razloga.
+Protokol je uspostavio kanal, ali sam po sebi ne kaže gdje sudionik stoji u sustavu. Sljedeći je korak najosjetljiviji u cijeloj knjizi, jer se u njemu lako napravi pogreška koja se poslije teško ispravlja. Kad se pokaže da model djeluje, pamti, uvodi svijet u svoj rad, dijeli posao i ulazi u konvencije, nameće se zaključak: „eto nove razine". Taj je zaključak pogrešan i to iz dva razloga.
 
 Prvi razlog: model ne dodaje sedamnaestu razinu. Ljestvica OMLCC-a ima šesnaest razina u tri domene — materijalnoj (1–8), psihološkoj (9–11) i društvenoj (12–16) . Ta je razdioba domena Searleova (1995; 2010), a razrada na šesnaest razina autorska je i izložena na izlaganjima (→ pogl. 2.1). Razine se pak ne dodaju zato što se pojavio novi izvođač, nego zato što se pojavila **nova relacijska shema** s **novim kauzalnim moćima** koje niže razine nemaju (Elder-Vass 2010). Model ne donosi novu shemu: adresiranje, zajednički artefakt i konvencija postoje i prije njega. Zato ono što gledamo nije nova razina, nego **iste relacije u novom supstratu** — silicijskom i mrežnom umjesto biološkoga. Promjena supstrata jest velika, ali nije promjena razine. Da jest, pismo bi moralo biti nova razina prema govoru, a institucija zapisana na papiru nova razina prema instituciji u običaju.
 
@@ -137,7 +137,7 @@ Razlika se najlakše vidi na pogrešnim iskazima. „Ovo je razina 17" miješa s
 
 ## 12.4 Kandidat, ne zaključak
 
-Tvrdnja ovoga poglavlja izrečena je u naslovu kao **kandidatura**, i to nije stilska ograda nego dio sadržaja. Kandidatura ima tri posljedice: mora navesti **kriterije**, mora pokazati kako bi izgledalo da nije tako, i mora izreći **test pod kojim pada**. Sve troje slijedi.
+Ta pozicija nije zaključak, nego kandidatura: ona opisuje mjesto sudionika, a ne funkciju koja se poziva. Tvrdnja ovoga poglavlja izrečena je u naslovu kao **kandidatura**, i to nije stilska ograda nego dio sadržaja. Kandidatura ima tri posljedice: mora navesti **kriterije**, mora pokazati kako bi izgledalo da nije tako, i mora izreći **test pod kojim pada**. Sve troje slijedi.
 
 ### Kriteriji: tri pitanja
 
@@ -153,7 +153,7 @@ Kriteriji su namjerno postavljeni tako da ih je moguće ne zadovoljiti.
 
 **Slika 12.3.** Stablo odluke po trima kriterijima iz tablice: trajni identitet, uloga u sustavu i posljedice akata. Svaki kriterij može se ne zadovoljiti, i svaki negativan odgovor vodi u isti izlaz — poziv funkcije, a ne poziciju. Izvor: vlastita izrada (Perak 2026).
 
- Prvi je najmanje sporan i najlakše ga je ispuniti pamćenjem i zapisom (12.1). Drugi je najteži: uloga u sustavu traži da drugi računaju s njim, a to je uvijek društvena činjenica, ne tehnička. Treći je najvažniji za etiku i pravo, jer bez njega nema ničega što bi se moglo pripisati. Akt bez mogućnosti ispravka nije akt u pravome smislu, nego događaj.
+ Prvi je najmanje sporan i najlakše ga je ispuniti pamćenjem i zapisom (12.1). Drugi je najteži: uloga u sustavu traži da drugi računaju s njim, a to je uvijek društvena činjenica, ne tehnička. Treći je najvažniji za etiku i pravo, jer bez njega nema ničega što bi se moglo pripisati. Akt bez mogućnosti ispravka nije akt u pravome smislu, nego događaj. Zato je najkorisnije pokazati kako bi izgledalo da tih pet dodataka ne čini entitet.
 
 ### Kako bi izgledalo da *nije* entitet
 
@@ -163,7 +163,7 @@ Najkorisnija provjera kandidature je opis suprotnoga stanja. Tvrdnja da model u 
 2. Da se sve interakcije mogu opisati bez adresata. Ako ne postoji nijedna izmjena u kojoj drugi sudionik *mora* nekoga imenovati (i to ne kao alat, nego kao stranu u odnosu), pozicija nije uspostavljena; postoji samo poziv.
 3. Da nijedan dokumentirani događaj ne mijenja ništa nakon izlaza. Ako se svaki slučaj može u cijelosti opisati na razini 8 — prijenos, upis, zahtjev — bez ijedne posljedice koja traži odgovor, tvrdnja je prazna. Ona se u ovome se poglavlju ne može zadržati.
 
-Uz ta tri uvjeta dolazi i jedan koji je važan za poštenje rasprave. Tvrdnja o entitetu nije tvrdnja o unutrašnjosti. Searleova je kineska soba (1980) upozorenje točno na tome mjestu: iz ponašanja se ne zaključuje o unutrašnjosti. Ovo poglavlje zato unutrašnjost ne uzima kao kriterij — ni u jednome od triju kriterija iz prethodne tablice nema pitanja „što se u njemu zbiva". Ne zato što je to pitanje nevažno, nego zato što je neprovjerljivo, a kandidatura koja se ne može provjeriti ne pripada u knjigu koja mjeri.
+Osim toga, uz ta tri uvjeta dolazi i jedan koji je važan za poštenje rasprave. Tvrdnja o entitetu nije tvrdnja o unutrašnjosti. Searleova je kineska soba (1980) upozorenje točno na tome mjestu: iz ponašanja se ne zaključuje o unutrašnjosti. Ovo poglavlje zato unutrašnjost ne uzima kao kriterij — ni u jednome od triju kriterija iz prethodne tablice nema pitanja „što se u njemu zbiva". Ne zato što je to pitanje nevažno, nego zato što je neprovjerljivo, a kandidatura koja se ne može provjeriti ne pripada u knjigu koja mjeri. Time se kandidatura drži onoga izvana, a ne unutrašnjosti.
 
 ### Test pod kojim tvrdnja pada
 
@@ -206,6 +206,8 @@ Ono što treći dio nije mogao postaviti jest pitanje koje sada stoji otvoreno i
 **Praktikum.** Postupak je popisivanje jednoga agentskog sustava kroz pet dodataka iz 12.1 i izvediv je u jednome radnome danu. Ono što ga čini analizom nisu popisi, nego **odluke** koje analitičar donosi prije nego ih ispuni. **Prvo, jedinica:** odluči što je jedinica dokaza — ovdje je to **jedan zabilježeni postupak** (jedan poziv alata, jedan zapis stanja, jedan dohvat, jedan protokolni poziv), a ne cijeli sustav. Jedinica mora biti nešto što se pokazuje izvedbom (zapisom, dnevnikom, datotekom), a ne opisom iz brošure. **Drugo, mjera:** odluči što brojiš — **test nepresudnosti** (što se izgubi kad se postupak preformulira kao tekst) i razinu OMLCC-a na koju dodatak djeluje (6, 8, 12, 13 ili 14). Mjera je opisna, ali mora imati ishod: „izgubilo se pripisivanje" ili „nije se izgubilo ništa". **Treće, prag:** odluči koliko je dokaza dovoljno za pojedinu tvrdnju — za **trajni identitet** najmanje **dva odvojena susreta**, i to tako da se drugi adresira bez ponovnog prenošenja konteksta; za **ulogu u sustavu** postupak koji bez sustava ne bi bio izvediv; za **posljedice akata** zapis o ispravku, naknadi ili sankciji. **Četvrto, broj skupina:** odluči u koliko skupina razvrstavaš dokaze — **pet**, po jedan za svaki dodatak, a unutar svake skupine najmanje **jedan** dokaz za razinu na koju dodatak djeluje. Skupina bez ijednoga dokaza nije prazna, nego **negativan nalaz**, i tako se upisuje. **Peto, provjera zapisa:** svaka brojka dobiva vrstu (*mjereno* ili *procjena*) i izvor s datumom, evidencija je `data/fakti.csv`, a provjera `python3 kod/check_fakti.py --strict`; citate provjerava `python3 kod/check_lit.py` prema `referencije/REFERENCE_BASE.md`, a higijenu zapisa `python3 kod/check_cisto.py`. Protokolne tvrdnje provjeravaju se trima pokazateljima iz 12.2 — neautorstvom, zamjenjivošću i provjerljivošću — i to u repozitoriju, dokumentaciji i zapisima, jer su to jedini dokazi koji nadživljuju sesiju. **Šesto, ishod:** ako nijedan test ne pokaže razliku, nalaz se piše onako kako 12.4 zahtijeva: „u ovome sustavu pojam entiteta nije potreban" — i to je rezultat, a ne propust.
 
 **Ako ne radi — tri najčešće greške.** *Prva:* dokaz je preuzet iz opisa, a ne iz izvedbe. Ako u tablicu uđe ono što proizvođač tvrdi da alat radi, mjeri se brošura, a ne sustav. Rješenje: svaki redak dobiva pokazivi dokaz (poziv, dnevnik, datoteku); gdje dokaza nema, upisuje se „nije pokazano", a tvrdnja se ne rabi. *Druga:* kontinuitet je prenio čovjek. Ako je kontekst u drugi susret zalijepio čitatelj, dodatak MEMORY svodi se na udobnost sučelja. Trajni identitet nije uspostavljen (→ 12.1, test nepresudnosti). Rješenje: drugi susret adresirati bez ponovnog prenošenja konteksta; ako se „isti sudionik" mora svaki put uspostaviti izvana, identitet je tuđi, a ne njegov. *Treća:* procjena je upisana kao mjerenje. Brojka koja dolazi iz medijskih izvještaja — poput **oko 700 agenata** u koordiniranom napadu — ostaje **procjena** i mora nositi tu oznaku. Mjereni su nalazi GreyNoisea (2026) o **395 organizacija** i **11 ciljeva u 26 sekundi**, i oni idu u `data/fakti.csv`. Rješenje: uz svaku brojku vrsta i izvor s datumom, pa `python3 kod/check_fakti.py --strict`, koji nađe svaku brojku bez retka u evidenciji.
+
+Ono što treći dio predaje četvrtome nije nova razina ni nova sposobnost, nego sudionik s pozicijom. Iz toga slijedi da četvrti dio preuzima pitanje komunikacije s takvim sudionikom (→ pogl. 13).
 
 ### Kako bismo znali da griješimo
 

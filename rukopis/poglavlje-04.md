@@ -97,11 +97,11 @@ Tablica 4.1 — prag i njegove posljedice
 | previsok | ostaju izolirani otoci i nakupine | mnogo komponenti, mreža fragmentirana | „domena se raspada na nepovezane dijelove" — a opisuje se odluka o pragu |
 | srednji, **prijavljen** | zadržava se dio strukture i dio šuma; prag se navodi uz mrežu | usporedivo s drugim mrežama istoga praga | ništa se ne zaključuje samo iz praga; tvrdnja traži dodatni test |
 
-Prag se u našim analizama drži uz okno, jedinicu i mjeru: četiri brojke koje idu u svaki zapis. Ako ih čitatelj ne vidi, nalaz nije provjerljiv — pa nalaza nema. Četiri brojke idu u svaki zapis.
+Prag se u našim analizama drži uz okno, jedinicu i mjeru: četiri brojke koje idu u svaki zapis. Ako ih čitatelj ne vidi, nalaz nije provjerljiv — pa nalaza nema. Četiri brojke idu u svaki zapis. Ostaje pitanje što takva parna mreža uopće ne može vidjeti.
 
 ### Odnosi višeg reda: što parna mreža ne može
 
-Mreža izgrađena isključivo na parovima ima ugrađenu slijepu točku. Federico Battiston i suradnici (2021, *Nature Physics* 17) pokazali su da veze **višega reda** — trojke i skupine, a ne samo parovi — mijenjaju dinamiku sustava: sustav s identičnim parnim vezama može se ponašati bitno drukčije ovisno o tome postoje li skupne veze. Za jezik to nije tehnička finesa. Razgovor trojice sudionika nije zbroj triju dvostranih razgovora. Značenje koje se ustali u skupini nije zbroj značenja u parovima. Parna relacijska shema zapisuje ono što se može zapisati. Tu granicu treba prijaviti kao ograničenje, a ne prešutjeti je.
+Time je drugi stupanj dobio svoju mrežu, no mreža izgrađena isključivo na parovima ima ugrađenu slijepu točku. Federico Battiston i suradnici (2021, *Nature Physics* 17) pokazali su da veze **višega reda** — trojke i skupine, a ne samo parovi — mijenjaju dinamiku sustava: sustav s identičnim parnim vezama može se ponašati bitno drukčije ovisno o tome postoje li skupne veze. Za jezik to nije tehnička finesa. Razgovor trojice sudionika nije zbroj triju dvostranih razgovora. Značenje koje se ustali u skupini nije zbroj značenja u parovima. Parna relacijska shema zapisuje ono što se može zapisati. Tu granicu treba prijaviti kao ograničenje, a ne prešutjeti je.
 
 I jedna opća opreza o mjeri, koja u ovoj knjizi ima status metodološkog pravila. Rylan Schaeffer i suradnici (2023, *NeurIPS*) pokazali su da „iznenadne" sposobnosti jezičnih modela mogu biti **artefakt metrike** — nelinearnog praga u načinu bodovanja — a ne skok u sustavu. Isti se mehanizam u mrežnoj analizi pojavljuje dvaput: u pragu koji kontinuiranu mjeru pretvara u brid i u granici skupine koja gusto povezan dio mreže pretvara u „zajednicu". **Oba su pragovi; oba se prijavljuju.** Skok u grafu lako se zamijeni za skok u sustavu.
 
@@ -133,7 +133,7 @@ Ugrađivanje ne zamjenjuje mrežu; ono je drugi čitatelj istoga gradiva. Mreža
 
 ## 4.4 Od vektora do razine: kako se tvrdnja „ovo je razina 14" uopće testira
 
-Do sada smo dobili zapise: korpus, mrežu, vektor. Nijedan od njih nije razina. **Razina je tvrdnja o zapisu** — i ta se razlika u raspravama o umjetnoj inteligenciji najčešće prešuti, pa se svojstvo *zapisa* proglasi svojstvom *predmeta*. Lanac ima pet stupnjeva i na svakom se mijenja jedinica analize (tablica 4.3).
+Time smo dobili zapise prvih triju stupnjeva: korpus, mrežu, vektor. Nijedan od njih nije razina. **Razina je tvrdnja o zapisu** — i ta se razlika u raspravama o umjetnoj inteligenciji najčešće prešuti, pa se svojstvo *zapisa* proglasi svojstvom *predmeta*. Lanac ima pet stupnjeva i na svakom se mijenja jedinica analize (tablica 4.3).
 
 **Tablica 4.3 — cjevovod: tekst → mreža → vektor → razina → tvrdnja**
 
@@ -145,7 +145,7 @@ Do sada smo dobili zapise: korpus, mrežu, vektor. Nijedan od njih nije razina. 
 | **4. razina** | vektor ili brid → oznaka | **epizoda / potez / odnos** | slaganje anotatora (κ) | oznaka razine uz nesigurnost |
 | **5. tvrdnja** | oznake + mjere | tvrdnja o razini | omjer šansi uz kontrolu | nalaz ili **negativan nalaz** |
 
-Cjevovod u ovoj knjizi nije prikazan slikom, nego **tablicom i kodom**, jer se tako može provjeriti; slika se dodaje tek kad postoji skripta koja je reproducira (→ 4.7).
+Cjevovod u ovoj knjizi nije prikazan slikom, nego **tablicom i kodom**, jer se tako može provjeriti; slika se dodaje tek kad postoji skripta koja je reproducira (→ 4.7). Koji od tih zapisa smije nositi ime razine, razlučuje sljedeći odjeljak.
 
 ### Tri postupka — i samo jedan od njih smije nositi ime razine
 
@@ -157,11 +157,11 @@ Do oznake razine vode tri postupka koja se u literaturi stalno miješaju; razlik
 | **klasteriranje (nenadzirano)** | skupine izvedene iz podataka, bez zadanih oznaka | **ne** | skupina nema ime; ime joj dodaje istraživač, i tada mjeri svoju odluku, ne gradivo |
 | **ručna anotacija** | oznaku i **sporazum** među anotatorima | **da**, kao referentna vrijednost | to je mjera koja pokazuje je li oznaka uopće primjenjiva na gradivo |
 
-Ova je tablica obrana od najlakše pogreške u području: **klaster se preimenuje u razinu.** Pronaći nekoliko skupina ne govori ništa o broju razina; govori da metoda uz taj parametar pronalazi toliko skupina. Rečenica „algoritam je pronašao strukturu koja odgovara našim razinama" vrijedi samo ako je skup oznaka **zadan prije** i slaganje **izmjereno**. Inače je to kružni argument. Kružni argument nije mjera.
+Za razliku od klasifikacije i ručne anotacije, klasteriranje ne dobiva oznaku izvana — ono je izvodi iz podataka. Ova je tablica obrana od najlakše pogreške u području: **klaster se preimenuje u razinu.** Pronaći nekoliko skupina ne govori ništa o broju razina; govori da metoda uz taj parametar pronalazi toliko skupina. Rečenica „algoritam je pronašao strukturu koja odgovara našim razinama" vrijedi samo ako je skup oznaka **zadan prije** i slaganje **izmjereno**. Inače je to kružni argument. Kružni argument nije mjera.
 
 ### Kako se tvrdnja „ovo je razina 14" prevodi u mjernu tvrdnju
 
-Razina 14 je **SocCommunication**: komunikacija kao razina na kojoj su prisutni adresiranje, artefakt, obrasci konvencije i **prepoznata namjera** (→ pogl. 2.1). Recimo da želimo tvrditi: „ovaj je zapis slučaj komunikacije, dakle razine 14." Tvrdnja se, da bi bila empirijska, mora razložiti na pet koraka i svaki mora biti zapisan.
+Razina 14 je **SocCommunication**: komunikacija kao razina na kojoj su prisutni adresiranje, artefakt, obrasci konvencije i **prepoznata namjera** (→ pogl. 2.1). Umjesto da se oznaka čita sa zapisa, ona se zadaje prije gledanja u podatke. Recimo da želimo tvrditi: „ovaj je zapis slučaj komunikacije, dakle razine 14." Tvrdnja se, da bi bila empirijska, mora razložiti na pet koraka i svaki mora biti zapisan.
 
 **1. Jedinica analize.** Prvo se odlučuje *što* se označava. Za razinu 14 to nije riječ ni leksem, nego **epizoda**: niz poteza koji ima početak, sudionike i završetak (primjerice jedan zahtjev i odgovor na njega). Ako je jedinica pogrešna, svi ostali koraci mjere nešto drugo. Ovo je odluka, ne nalaz, i zato se navodi.
 
@@ -205,7 +205,7 @@ Mrežne mjere iz drugog stupnja nisu ukras: one su, naime, **ulazna svojstva** z
 
 ## 4.5 Statistika i etika mjerenja: zašto „isti broj iz iste metode" nije formalnost
 
-Ovo je najmanje uzbudljiv i najvažniji odjeljak poglavlja. Pravilo je jednostavno: **brojka bez izvora, datuma i vrste nije brojka.** Vrsta može biti *mjereno*, *procjena* ili *izvedeno*, i odlučuje što se smije tvrditi.
+Ovo je najmanje uzbudljiv i najvažniji odjeljak poglavlja. Pravilo je jednostavno: **brojka bez izvora, datuma i vrste nije brojka.** Vrsta može biti *mjereno*, *procjena* ili *izvedeno*, i odlučuje što se smije tvrditi. Razlika je u tome što *mjereno* dolazi iz uzorka, *procjena* se označava, a *izvedeno* se računa.
 
 ![Slika 4.2 — trijaža: od brojke u tekstu do vrste dokaza](../figure/dijagram-4-5-vrste-dokaza.png)
 
@@ -242,7 +242,7 @@ Zajednički imenitelj svih triju pogrešaka nije nemarnost u računu, nego **nem
 
 ## 4.6 Kako prijaviti rezultat: tablica + graf + kod + verzije + neuspjeli pokušaji
 
-Rezultat koji se ne može ponoviti nije rezultat, nego anegdota. Zato knjiga uvodi **zapis rezultata** — obrazac od devet stavki uz svaku mjeru koja ulazi u tekst. Obrazac je namjerno dosadan: njegova je svrha da se pogreška vidi prije nego što postane tvrdnja.
+Rezultat koji se ne može ponoviti nije rezultat, nego anegdota. Zato knjiga uvodi **zapis rezultata** — obrazac od devet stavki uz svaku mjeru koja ulazi u tekst. Obrazac je namjerno dosadan: njegova je svrha da se pogreška vidi prije nego što postane tvrdnja. Obrazac ne služi uljepšavanju: negativan rezultat se zapisuje, a ne briše.
 
 Tablica 4.4 — zapis rezultata (obvezne stavke)
 
@@ -296,7 +296,7 @@ def u_csv(zapis, put):
 
 **Pravilo o figuri.** Slika ne smije tvrditi više od teksta; ako se natpis na slici i rečenica razilaze, ispravlja se **tekst** ili se slika ponovno izrađuje (`figure/README.md`). Slika koja prikazuje više nego što je izmjereno povlači se iz knjige, koliko god bila lijepa.
 
-**Dvije vrste prijave.** *Nalaz* ima tvrdnju, mjeru, nesigurnost i kontrolu i smije ući u sažetak poglavlja; *pokušaj* ima samo postupak i ishod i ostaje u repozitoriju, a u tekst se navodi tek ako je za tvrdnju važan. Ta je razlika za ovu knjigu ključna jer je njezin predmet upravo granica između onoga što se tvrdi i onoga što se još ne može tvrditi. Model je u trećem dijelu knjige *kandidat* za novi entitet, nikad zaključak — i metodologija koja to ne bi mogla zapisati bila bi u suprotnosti s vlastitom tezom.
+**Dvije vrste prijave.** *Nalaz* ima tvrdnju, mjeru, nesigurnost i kontrolu i smije ući u sažetak poglavlja; *pokušaj* ima samo postupak i ishod i ostaje u repozitoriju, a u tekst se navodi tek ako je za tvrdnju važan. Ta je razlika za ovu knjigu ključna jer je njezin predmet upravo granica između onoga što se tvrdi i onoga što se još ne može tvrditi. Model je u trećem dijelu knjige *kandidat* za novi entitet, nikad zaključak — i metodologija koja to ne bi mogla zapisati bila bi u suprotnosti s vlastitom tezom. Sljedeći odjeljak pokazuje gdje se zapis čuva i čime se provjerava.
 
 ## 4.7 Repozitorij knjige: stvarna struktura i kako se svaka brojka provjerava
 

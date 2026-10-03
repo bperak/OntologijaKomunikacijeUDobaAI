@@ -100,7 +100,7 @@ Zaključak tablice može se izreći u jednoj rečenici. **Knjiga ima šesnaest p
 
 ## 16.5 Istraživački program: pet eksperimenata koji mogu oboriti ovu knjigu
 
-Tablica iz 16.4 nabraja uvjete padanja. Uvjet nije eksperiment. Sljedeći korak je pretvoriti uvjete u postupke koje druga osoba može provesti bez autorova pristanka. Predlaže se pet eksperimenata koji mogu **oboriti** tvrdnje ove knjige i tri koji ih mogu **potvrditi**. Eksperimenti su poredani po tome koliko bi štete nanijeli: prvi bi oborio najviše, posljednji najmanje. Za svaki se navode podaci ili sudionici, protokol, mjera i ono što bi se smatralo obaranjem.
+Tablica iz 16.4 nabraja uvjete padanja. Uvjet nije isto što i eksperiment. Sljedeći korak je pretvoriti uvjete u postupke koje druga osoba može provesti bez autorova pristanka. Predlaže se pet eksperimenata koji mogu **oboriti** tvrdnje ove knjige i tri koji ih mogu **potvrditi**. Eksperimenti su poredani po tome koliko bi štete nanijeli: prvi bi oborio najviše, posljednji najmanje. Za svaki se navode podaci ili sudionici, protokol, mjera i ono što bi se smatralo obaranjem.
 
 ### E1 — Ravni model protiv modela s razinama
 
@@ -114,6 +114,8 @@ Tablica iz 16.4 nabraja uvjete padanja. Uvjet nije eksperiment. Sljedeći korak 
 
 ### E2 — Neovisno anotiranje razina (test spajanja i razdvajanja)
 
+Umjesto da mjeri razliku u ishodu kao E1, ovaj test pita mogu li neovisni anotatori razlučiti razine. E1 je tražio mjerljiv gubitak ravnoga opisa, a ovaj traži pouzdanost odluke među ljudima.
+
 **Sudionici.** Pet do deset lingvista s iskustvom u anotaciji, bez uvida u hipoteze istraživanja.
 
 **Podaci.** Dvjestotinjak isječaka iz četiriju žanrova, uravnoteženo po duljini.
@@ -122,9 +124,11 @@ Tablica iz 16.4 nabraja uvjete padanja. Uvjet nije eksperiment. Sljedeći korak 
 
 **Mjera.** Međuanotatorska pouzdanost po razini i po paru razina; udio slučajeva bez odluke.
 
-**Obaranje.** Ako se pouzdanost za razlikovanje dviju razina ne razlikuje od slučajne, kriterij nije operativan, a broj šesnaest nije rezultat nego konvencija (→ pogl. 2.4). Ako se, uz to, razina 8 sustavno ne razlikuje od razina 3–7, ljestvica se skraćuje i knjiga to mora prijaviti (→ pogl. 2.2).
+**Obaranje.** Ako se pouzdanost za razlikovanje dviju razina ne razlikuje od slučajne, kriterij nije operativan, a broj šesnaest nije rezultat nego konvencija (→ pogl. 2.4). Ako se, uz to, razina 8 sustavno ne razlikuje od razina 3–7, ljestvica se skraćuje i knjiga to mora prijaviti (→ pogl. 2.2). Sljedeći test zato pita prati li stabilnost izloženost ili uporabu.
 
 ### E3 — Ustaljenost nasuprot izloženosti
+
+Nasuprot E2, ovaj test ne mjeri pouzdanost anotatora, nego ustaljenost. E2 je gledao razlikuju li se razine, a ovaj gleda prati li stabilnost izloženost ili uporaba.
 
 **Podaci.** Korpusna građa za dvije bliske konstrukcije (predloženi par: *strah me (je) da…* i *bojim se da…*), s brojem pojavnica, raspodjelom po izvorima i kolokacijskim profilom (Perak 2014; hrWac; → pogl. 5.5).
 
@@ -132,7 +136,7 @@ Tablica iz 16.4 nabraja uvjete padanja. Uvjet nije eksperiment. Sljedeći korak 
 
 **Mjera.** Razlika u produktivnosti i u raspodjeli pogrešaka nakon kontrole frekvencije.
 
-**Obaranje.** Ako nakon kontrole izloženosti razlike nema, stabilnost prati samo količinu izloženosti, mehanizam zamjenjuje jednostavniji, i to se mora zapisati (→ pogl. 5.5). Negativan ishod ovdje nije neuspjeh, nego rezultat (→ pogl. 5, vježbe).
+**Obaranje.** Ako nakon kontrole izloženosti razlike nema, stabilnost prati samo količinu izloženosti, mehanizam zamjenjuje jednostavniji, i to se mora zapisati (→ pogl. 5.5). Negativan ishod ovdje nije neuspjeh, nego rezultat (→ pogl. 5, vježbe). Otud sljedeće pitanje: vrijedi li nalaz izvan korpusa iz kojega je izgrađen.
 
 ### E4 — Prediktivna vrijednost izvan podataka iz kojih je mreža izgrađena
 
@@ -142,9 +146,11 @@ Tablica iz 16.4 nabraja uvjete padanja. Uvjet nije eksperiment. Sljedeći korak 
 
 **Mjera.** Prijenosna točnost na Y; Jaccardova podudarnost skupina između dviju verzija mjernoga postava; broj nalaza koji se pojavljuju i nestaju s pragom.
 
-**Obaranje.** Ako je prediktivna vrijednost izvan X-a nulta, mreža je lijepa slika, a teza pada na razinu ilustracije. Ako se skupine preslože pri svakoj promjeni verzije, nalaz je o jednome mjernome postavu, a ne o jeziku. A nalaz koji se pojavljuje i nestaje s pragom prijavljuje se kao **nerazlučiv** (→ pogl. 6.5, 10.1).
+**Obaranje.** Ako je prediktivna vrijednost izvan X-a nulta, mreža je lijepa slika, a teza pada na razinu ilustracije. Ako se skupine preslože pri svakoj promjeni verzije, nalaz je o jednome mjernome postavu, a ne o jeziku. A nalaz koji se pojavljuje i nestaje s pragom prijavljuje se kao **nerazlučiv** (→ pogl. 6.5, 10.1). Time se otvara pitanje razlučivanja, kojim se bavi posljednji test.
 
 ### E5 — Razlučivanje funkcionalnoga parnjaka od pravoga slučaja
+
+Za razliku od prethodnoga testa, ovaj ne mjeri prijenos nalaza, nego razliku u smještanju. Prethodni je test tražio vrijedi li nalaz izvan podataka, a ovaj pita mijenja li smještanje ijednu posljedicu.
 
 **Sudionici.** Tri konfiguracije sustava različite složenosti (jedan model s alatima; sustav s podagentima i petljom; postava s javno opisanim protokolom) i najmanje tri neovisna promatrača koji ne poznaju autorove hipoteze.
 
@@ -158,7 +164,7 @@ Tablica iz 16.4 nabraja uvjete padanja. Uvjet nije eksperiment. Sljedeći korak 
 
 ### Tri eksperimenta koji mogu potvrditi okvir
 
-Potvrda ovdje, naime, ne znači „nalaz u prilog", nego nalaz koji bi okvir mogao **izgubiti** da je obrnut. To je jedina vrsta potvrde koja nešto vrijedi.
+Nakon pet obarajućih testova slijede tri potvrđujuća. Potvrda ovdje, naime, ne znači „nalaz u prilog", nego nalaz koji bi okvir mogao **izgubiti** da je obrnut. To je jedina vrsta potvrde koja nešto vrijedi.
 
 **P1 — Zamjenjivost sastavnica.** Model se obučava iznova uz promjenu početnih vrijednosti i rasporeda podataka, uz istu, pa uz promijenjenu arhitekturu. Ako sposobnost preživljava zamjenu dijelova, potvrđeno je da nositelj svojstva nije materijal nego organizacija (→ pogl. 9.6); ako ne preživi, tvrdnja pada u tome slučaju. Uz taj nalaz ide i jedna **hipoteza, ne dokaz**: teza da se prikazi različitih modela približavaju zajedničkom prikazu (Huh et al. 2024) kandidat je za tvrdnju o organizaciji (→ pogl. 10.1).
 
@@ -168,7 +174,7 @@ Potvrda ovdje, naime, ne znači „nalaz u prilog", nego nalaz koji bi okvir mog
 
 ### Što u ovome programu nije provedivo
 
-Istraživački program mora izreći i svoju granicu, inače je popis želja. Tri su stvari u ovoj knjizi **izvan** programa, i to se navodi kao nalaz. Prvo, **razina 16 kao kulturni model** ne može se testirati na jednome sustavu. Tvrdnja traži zajednicu koja obrazac priznaje. Za takvu zajednicu u dosadašnjim zapisima nema ni pozitivnog ni negativnog dokaza — pa je nalaz o razini 16 uvijek nalaz o odsutnosti, a odsutnost nije mjerenje (Tomasello 2008; Archer 1995; → pogl. 8.5). Drugo, **tvrdnja o instituciji** (razina 15) u sustavima ostaje nepotvrđena u oba smjera; u četrnaestome poglavlju za to je izričito zabilježeno da nije pronađen dokumentirani slučaj zajedničke obveze između dvaju agentskih sustava (→ pogl. 14). Treće, **unutrašnjost** ostaje neispitana. Ne zato što bi to bilo nezanimljivo, nego zato što nijedan pokazatelj dostupan izvana ne razlikuje intrinzičnu prisutnost od njezina funkcionalnoga parnjaka (Searle 1980; → pogl. 14.6). Ako se pojavi kriterij koji to razlikuje, on neće potvrditi ovu knjigu, nego će je u tome dijelu učiniti nepotpunom.
+Istraživački program mora izreći i svoju granicu, inače je popis želja, a ne program. Tri su stvari u ovoj knjizi **izvan** programa, i to se navodi kao nalaz. Prvo, **razina 16 kao kulturni model** ne može se testirati na jednome sustavu. Tvrdnja traži zajednicu koja obrazac priznaje. Za takvu zajednicu u dosadašnjim zapisima nema ni pozitivnog ni negativnog dokaza — pa je nalaz o razini 16 uvijek nalaz o odsutnosti, a odsutnost nije mjerenje (Tomasello 2008; Archer 1995; → pogl. 8.5). Drugo, **tvrdnja o instituciji** (razina 15) u sustavima ostaje nepotvrđena u oba smjera; u četrnaestome poglavlju za to je izričito zabilježeno da nije pronađen dokumentirani slučaj zajedničke obveze između dvaju agentskih sustava (→ pogl. 14). Treće, **unutrašnjost** ostaje neispitana. Ne zato što bi to bilo nezanimljivo, nego zato što nijedan pokazatelj dostupan izvana ne razlikuje intrinzičnu prisutnost od njezina funkcionalnoga parnjaka (Searle 1980; → pogl. 14.6). Ako se pojavi kriterij koji to razlikuje, on neće potvrditi ovu knjigu, nego će je u tome dijelu učiniti nepotpunom.
 
 **Praktikum.** Izvodi se jedan eksperiment iz 16.5; najjeftiniji je početak E3 ili E2, a koraci su za sve isti — mijenjaju se podaci i mjera.
 
@@ -183,7 +189,7 @@ Istraživački program mora izreći i svoju granicu, inače je popis želja. Tri
 
 ### Kako bismo znali da griješimo
 
-Ovo poglavlje ne iznosi novu tvrdnju o svijetu — ono sažima tvrdnje ostalih petnaest i predlaže program kojim se one mogu oboriti. Zato se i njegov uvjet padanja odnosi na sam postupak.
+Ovo poglavlje ne iznosi novu tvrdnju o svijetu — ono sažima tvrdnje ostalih petnaest i predlaže program kojim se one mogu oboriti. Zato se i njegov uvjet padanja odnosi na sam postupak. Program je zamišljen tako da tvrdnje mogu pasti, a ne da ih potvrdi.
 
 - **Ako se za neko poglavlje u tablici (16.4) ne može navesti test** koji bi ga oborio, to poglavlje nije teorijska tvrdnja nego opis. Knjiga to mora prijaviti — i prijavljuje: tri su takva mjesta (→ 16.4, „Treći nalaz").
 - **Ako se pokaže da nijedan od pet eksperimenata (E1–E5) nije provediv** s podacima i instrumentima koji danas postoje, program je popis želja, a ne program; poglavlje tada mora reći da je nalaz knjige ograničen na pojmovni okvir, a ne na mjerenje (→ 16.5, „Što u ovome programu nije provedivo").
@@ -191,7 +197,7 @@ Ovo poglavlje ne iznosi novu tvrdnju o svijetu — ono sažima tvrdnje ostalih p
 - **Ako se pokaže da tablica stropova i horizontā (16.3) ne mijenja nijednu projektnu odluku**, poziv na razine kao projektni kriterij je retorički i mora se povući (→ 16.3).
 - **Ako se u knjizi nađe tvrdnja koja preživi sve testove iz 16.4, a nije označena kao neoboriva**, to je pogreška u samoj tablici; ispravlja se po pravilu iz `docs/ISPRAVKE.md` — zapisom, ne brisanjem.
 
-Posljednja je točka namjerno okrenuta na samu knjigu: tablica koja tvrdi da razlučuje oborive od neoborivih tvrdnji mora biti provjerljiva kao i svaka tvrdnja koju sadrži.
+Posljednja je točka namjerno okrenuta na samu knjigu: tablica koja tvrdi da razlučuje oborive od neoborivih tvrdnji mora biti provjerljiva kao i svaka tvrdnja koju sadrži. Time je razgradnja zaokružena, a slijedi teza cijele knjige.
 
 ## 16.6 Zatvaranje
 

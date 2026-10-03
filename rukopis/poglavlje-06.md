@@ -133,9 +133,11 @@ Mreža emocija nije nastala kao ilustracija; iza nje stoji korpusna obrada iz do
 
 **Zašto je to važno za ovu knjigu.** Ovi brojevi pokazuju dvije stvari koje se u raspravama o „mrežama značenja" često preskaču. Prvo, mreža je izvedena iz uporabe, a ne iz intuicije: svaki brid ima frekvenciju i mjesto u korpusu. Drugo, **frekvencija nije značenje**: to što se uz *strah* najčešće pojavljuju *drhtati* i *umrijeti* govori o stabilnosti konstrukcije, ne o „sadržaju" emocije. Zato u ovome poglavlju mjere čitamo kao **strukturu uporabe**, a ne kao kartu unutrašnjosti.
 
-Izvorni podaci izvučeni su u `data/izvori/doktorat-2014/` (četiri CSV-a, s pomakom stranica PDF = tiskana + 24 i s navedenim ograničenjima automatskog izvlačenja). Svaka brojka koja ulazi u knjigu provjerava se na navedenoj stranici izvornika.
+Izvorni podaci izvučeni su u `data/izvori/doktorat-2014/` (četiri CSV-a, s pomakom stranica PDF = tiskana + 24 i s navedenim ograničenjima automatskog izvlačenja). Svaka brojka koja ulazi u knjigu provjerava se na navedenoj stranici izvornika. Podaci su time zapisani i provjerljivi, pa ostaje pitanje što mreža iz njih može sadržavati, a što ne.
 
 ## 6.5 Granice: mreža ne sadrži značenje — prikazuje strukturu uporabe
+
+Time što je mreža izmjerena nije rečeno što ona sadrži. Granicu koju je studija slučaja najavila valja sada imenovati.
 
 **Pogreška spremnika.** Najlakše je zamisliti da mreža „sadrži" značenje i da se čitanjem bridova ono vadi na vidjelo. Ta slika ima utjecajnu povijest i jednako utjecajnu kritiku: Roy Harris (1981) uvjerenje da se značenje prenosi kao predmet naziva „telemencijom" i to uvjerenje smatra mitom, a komunikaciju opisuje kao **prepoznavanje namjere** — što je i Griceova (1957) formulacija: govornik želi da sugovornik prepozna njegovu namjeru time što je prepoznaje. Ako je značenje prepoznata namjera, onda ono nije u grafu: graf, naprotiv, ne prepoznaje ništa, graf je zapis okruženja. Ono što jest u grafu jesu **okolnosti uporabe** — a to je, strogo uzevši, manje nego značenje, ali i više od ničega.
 

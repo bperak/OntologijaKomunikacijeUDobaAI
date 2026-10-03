@@ -29,7 +29,7 @@ Poglavlje se nadovezuje na dvije prethodne cjeline i ne ponavlja ih. Iz poglavlj
 
 ## 14.1 Identitet (12): imena, uloge, ključevi, konfiguracije
 
-Prva razina na kojoj treba provesti razlikovanje jest **razina 12 (SocIdentity)** — razina na kojoj nešto dobiva ime, ulogu i mjesto u sustavu. U poglavlju 8.4 za nju su već popisane dvije strane: s lijeve je „oznake, imena, uloge, ključevi, konfiguracije", s desne „biografski identitet koji nositelj zastupa". Ovdje treba pokazati zašto lijevi stupac nije ustupak, nego nalaz — i zašto desni stupac nije retorička ograda, nego uvjet s provjerljivim sadržajem.
+Prva razina na kojoj treba provesti razlikovanje jest **razina 12 (SocIdentity)** — razina na kojoj nešto dobiva ime, ulogu i mjesto u sustavu. U poglavlju 8.4 za nju su već popisane dvije strane: s lijeve je „oznake, imena, uloge, ključevi, konfiguracije", s desne „biografski identitet koji nositelj zastupa". Ovdje treba pokazati zašto lijevi stupac nije ustupak, nego nalaz — a zašto desni, za razliku od njega, nije retorička ograda, nego uvjet s provjerljivim sadržajem.
 
 **Što se stvarno vidi.** Agentski sustavi danas imaju sve sastavnice funkcionalnoga identiteta: **ime** pod kojim ga drugi pozivaju (identifikator agenta, naziv konfiguracije, oznaka instance), **ulogu** zapisanu u konfiguraciji ili u sistemskoj uputi koja određuje što smije i što treba raditi, **ključ** (pristupni token, potpis, ovlasti) koji je ujedno oznaka i uvjet pristupa, i **konfiguraciju** koja se može verzionirati i vratiti na prijašnje stanje. U sustavima s pamćenjem ime je uz to vezano uz prostor stanja: zapisi se pohranjuju pod imenom nositelja i čitaju pod tim imenom u sljedećoj sesiji. Zato **ime agenta** nije puka oznaka u tekstu: ono je adresa na koju se upućuje poruka, ključ pod kojim se vodi stanje i uvjet pod kojim se provjerava dopuštenje. Kad se ime promijeni, mijenja se i ono što sustav smije — a to je mjerljiva posljedica, ne dojam.
 
@@ -81,7 +81,7 @@ U dokumentiranim je slučajevima ishod prvoga tipa: **26 sekundi** i **11 ciljev
 
 ## 14.3 Komunikacija (14): jezični činovi, artefakti, adresiranje
 
-Razina 14 (SocCommunication) je razina na kojoj se **prepoznaje namjera** i na kojoj nastaju **konvencije i obveze**. Za nju treba najviše opreza, jer na njoj agentski sustavi izgledaju najviše „ljudski": razmjenjuju poruke, potvrđuju primitak, formuliraju naloge.
+Razina 14 (SocCommunication) je razina na kojoj se **prepoznaje namjera** i na kojoj nastaju **konvencije i obveze**. Za nju treba najviše opreza, jer na njoj agentski sustavi izgledaju najviše „ljudski": razmjenjuju poruke, potvrđuju primitak, formuliraju naloge. Izgled nije isto što i razina.
 
 **Tri sastavnice koje se vide.** Prva je **adresiranje**. Poruka ima imenovanoga adresata, a protokol mjesto gdje je adresat zapisan. Druga je **artefakt**: uz komunikaciju se veže zapis koji obje strane mogu čitati — u A2A (Google 2025) izričito mjesto u strukturi zadatka, u postavama s pamćenjem zajednički dokument ili datoteka stanja. Hutchins (1995) tu je ključan: u distribuiranim kognitivnim sustavima **artefakt nije pribor, nego nositelj**. Treća je **jezični čin**. Izričaji koji strukturno odgovaraju nalogu, obećanju, potvrdi ili ispravku.
 
@@ -153,7 +153,7 @@ Razina 16 (CulturalModel) je razina **predaje**: obrasci se odvezuju od pojedino
 2. **Prijenos na nove sadržaje.** Isti se obrazac primjenjuje na sadržaj koji u izvorima nije postojao — provjera je broj novih slučajeva u kojima se obrazac pojavljuje s istim obilježjima.
 3. **Stabilnost kroz vrijeme.** Obrazac se ne mijenja pri svakome pozivu — provjera je ponavljanje istoga zadatka u različitim uvjetima i usporedba obilježja.
 
-Ta tri mjerila pokazuju nešto stvarno i vrijedno. Obrasci se reproduciraju, prenose na nove sadržaje i stabilni su. To je ono što je poglavlje 8.3 nazvalo „učenjem iz podataka" i što je opisano kao **reprodukcija obrasca**, koja može biti i bolja od one koju postiže pojedinac. No sve troje mjeri **naslijeđenost**, a nijedno ne mjeri **predaju**.
+Ta tri mjerila pokazuju nešto stvarno i vrijedno. Obrasci se reproduciraju, prenose na nove sadržaje i stabilni su. To je ono što je poglavlje 8.3 nazvalo „učenjem iz podataka" i što je opisano kao **reprodukcija obrasca**, koja može biti i bolja od one koju postiže pojedinac. No sve troje mjeri **naslijeđenost**, dok **predaju** ne mjeri nijedno.
 
 **Kriterij za „intrinzično prisutno".** Nositelj ima razinu 16 sam ako je on **stranka predaje**, a ne samo mjesto kroz koje obrasci prolaze. Predaja ima tri uvjeta, i sva tri su provjerljiva:
 
@@ -193,7 +193,7 @@ Prethodne četiri sekcije daju nalaze koje valja skupiti na jednome mjestu. Tabl
 
 **Kako se tablica čita.** Razine **12**, **13** i **14** funkcionalno su prisutne i to je nalaz koji se može braniti dokazima. Razine **15** i **16** prisutne su samo djelomično i to tako da **ne prelaze granicu**: kod razine 15 stoji pravilo bez sankcije, kod razine 16 naslijeđeni obrazac bez zajedništva. Nijedna od pet razina nije **intrinzično** prisutna — s time da je odgovor za razine 12–14 negativan s jakim dokazom, a za razine 15 i 16 negativan uz izričito navedene uvjete pod kojima se mijenja.
 
-**Razlika između „djelomično" i „da"** nije nijansa. Kod razine 15 nije riječ o slabijem obliku institucije, nego o **jednome od triju pokazatelja** — zapisu — dok ostala dva izostaju; kod razine 16 nije riječ o slaboj predaji, nego o **naslijeđivanju bez predaje**. Svaka se od tih razlika veže uz provjeru, a gdje provjera nema odgovora, u tablici stoji praznina — a ne tvrdnja.
+**Razlika između „djelomično" i „da"** nije nijansa. Kod razine 15 nije riječ o slabijem obliku institucije, nego o **jednome od triju pokazatelja** — zapisu — dok ostala dva izostaju; kod razine 16 nije riječ o slaboj predaji, nego o **naslijeđivanju bez predaje**. Svaka se od tih razlika veže uz provjeru, a gdje provjera nema odgovora, u tablici stoji praznina — a ne tvrdnja. Odatle slijedi pitanje što okvir time dobiva, a ono je predmet sljedeće sekcije.
 
 ## 14.7 Što to znači za OMLCC: model kao test okvira
 

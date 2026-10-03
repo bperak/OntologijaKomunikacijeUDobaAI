@@ -145,7 +145,7 @@ Za čitatelja koji traži tehnički i praktični opis samih sustava — kako se 
 
 ## 13.6 Neuspjesi komunikacije s novim sudionikom: taksonomija
 
-Najbolji test za razlučivanje uvjeta nije uspjeh, nego **način na koji stvar pođe po zlu**. U 7.5 je navedeno pet načina na koje može zakazati po jedan uvjet (→ pogl. 7.5); ovdje ih prenosimo na konfiguracije s agentskim sustavom i svrstavamo u četiri vrste. Svaka ima svoj pokazatelj, svoj primjer i svoje pripisivanje.
+Zato najbolji test za razlučivanje uvjeta nije uspjeh, nego **način na koji stvar pođe po zlu**. U 7.5 je navedeno pet načina na koje može zakazati po jedan uvjet (→ pogl. 7.5); ovdje ih prenosimo na konfiguracije s agentskim sustavom i svrstavamo u četiri vrste. Svaka ima svoj pokazatelj, svoj primjer i svoje pripisivanje.
 
 | vrsta neuspjeha | koji uvjet pada | mjerni pokazatelj u transkriptu | primjer | kome se pripisuje |
 |---|---|---|---|---|

@@ -10,7 +10,7 @@ Kako izgleda gotov odgovor ovoga poglavlja? Pet uvjeta iz 7.5 — adresiranje, p
 
 ## 7.1 Zašto komunikacija zaslužuje razinu
 
-U drugom poglavlju postavili smo kriterij: razlika između razina nije razlika u količini, nego u **tipu svojstava i tipu relacija** (→ pogl. 2.4). Primijenimo ga sada na nešto što svatko misli da poznaje: na razgovor.
+U drugom poglavlju postavili smo kriterij: razlika između razina nije razlika u količini, nego u **tipu svojstava i tipu relacija** (→ pogl. 2.4). Primijenimo ga sada na nešto što svatko misli da poznaje: na razgovor. Tomu nasuprot stoji opis koji razgovor svodi na prijenos informacije.
 
 Uzmimo najjednostavniji slučaj. Netko kaže: *„Vrata su otvorena."* Ako na to gledamo kao na prijenos informacije, posao je obavljen kad je niz znakova prenesen i dekodiran — a to je ono što radi tehnički opis na razini 8 (informacijski sustav: oznaka nosi razliku). Ali pogledajmo što se doista dogodilo:
 
@@ -76,7 +76,7 @@ Ako Grice objašnjava *kako* komunikacija funkcionira, John Searle (1995; 2010) 
 
 > **X broji kao Y u kontekstu C.**
 
-Komad papira broji kao novac u državi koja ga priznaje. Niz zvukova broji kao obećanje u zajednici koja ga tako prihvaća. Bitno je da taj mehanizam ne djeluje ni na razini materijala **ni na razini pojedinca**: njegova je nosivost u *kolektivnoj intencionalnosti* — u tome što skupina ljudi prihvaća da nešto broji kao nešto drugo.
+Komad papira broji kao novac u državi koja ga priznaje. Niz zvukova broji kao obećanje u zajednici koja ga tako prihvaća. Bitno je da taj mehanizam ne djeluje ni na razini materijala **ni na razini pojedinca**: njegova je nosivost u *kolektivnoj intencionalnosti* — u tome što skupina ljudi prihvaća da nešto broji kao nešto drugo. Ono što pritom nastaje nije više samo poruka: obveza visi o priznanju, a ne o samome izričaju.
 
 Time dobivamo ono što je razini 14 nedostajalo u griceovskom opisu: **deontologiju**. Statusna funkcija ne stvara samo značenje nego **prava, dužnosti i ovlasti**: ako je rečeno kao obećanje, postoji nešto što se duguje; ako je potpisano, postoji obveza koja nadživljuje raspoloženje potpisnika.
 
@@ -94,7 +94,7 @@ Za knjigu je važno i ono što iz toga slijedi za **trajanje**. Obveza koja nad�
 
 ## 7.5 Anatomija komunikacijskog čina u OMLCC-u
 
-Sve što je rečeno u prethodnim odjeljcima možemo sada zapisati kao **relacijsku shemu** razine 14 (→ pogl. 2.3). Uvjeti su kumulativni: ako jedan nedostaje, čin pada na nižu razinu ili na drugu vrstu pojave.
+Sve što je rečeno u prethodnim odjeljcima možemo sada zapisati kao **relacijsku shemu** razine 14 (→ pogl. 2.3), dok su uvjeti dosad promatrani napose. Uvjeti su kumulativni: ako jedan nedostaje, čin pada na nižu razinu ili na drugu vrstu pojave.
 
 ![Slika 7.1 — pet uvjeta komunikacijskoga čina](../figure/dijagram-7-5-pet-uvjeta.png)
 
@@ -140,7 +140,7 @@ Zato je pravilo o kojem će biti riječi i u poglavljima 12–14: sustav se mož
 
 ## 7.6 Mjerenje razine 14 u podacima
 
-Tvrdnja o razini mora biti provjerljiva (→ pogl. 1.7). Zato razinu 14 operacionaliziramo kao **skup mjerljivih pokazatelja** u jezičnim podacima. Ne mjerimo „je li to komunikacija" (to je interpretacija), nego *koliko je od pet uvjeta prisutno* — i to na način da drugi istraživač na istim podacima dobije isti broj.
+Iz toga slijedi mjerni zadatak. Tvrdnja o razini mora biti provjerljiva (→ pogl. 1.7). Zato razinu 14 operacionaliziramo kao **skup mjerljivih pokazatelja** u jezičnim podacima. Ne mjerimo „je li to komunikacija" (to je interpretacija), nego *koliko je od pet uvjeta prisutno* — i to na način da drugi istraživač na istim podacima dobije isti broj.
 
 | uvjet | pokazatelj u korpusu | primjer jedinice | oprez |
 |---|---|---|---|
@@ -156,7 +156,7 @@ Tvrdnja o razini mora biti provjerljiva (→ pogl. 1.7). Zato razinu 14 operacio
 - ako se isti rezultat dobije i na tekstovima koji *nisu* komunikacijski (popisi, šum, generirani sadržaj bez adresata);
 - ako se rezultat promijeni zamjenom mjere (pouka Schaeffer et al. 2023).
 
-Postupak pripreme korpusa i osnovnih mjera ne ponavljamo ovdje: ↗ *Data Science u kulturi*, pogl. 7 (NLP obrada teksta). Ono što je važno za ovu knjigu jest da je razina 14 time **pretvorena iz pojma u mjerni zadatak** — i to je jedina tvrdnja koju o komunikaciji u ovoj knjizi zastupamo. Mjera je dio tvrdnje.
+Postupak pripreme korpusa i osnovnih mjera ne ponavljamo ovdje: ↗ *Data Science u kulturi*, pogl. 7 (NLP obrada teksta). Ono što je važno za ovu knjigu jest da je razina 14 time **pretvorena iz pojma u mjerni zadatak** — i to je jedina tvrdnja koju o komunikaciji u ovoj knjizi zastupamo. Mjera je dio tvrdnje, a ne dodatak.
 
 **Pouzdanost anotacije** je dio nalaza, a ne dodatak. Svaki od pet pokazatelja dobiva se **odlukom** — pripisivanjem jezičnoga čina, prepoznavanjem obveze, razlikovanjem deikse od pukoga ponavljanja. Te se odluke ne mogu izbjeći, ali se mogu učiniti provjerljivima, i to na tri načina koje knjiga traži od svakoga tko mjeri razinu 14:
 
@@ -178,7 +178,7 @@ Ako se udjeli na kontrolama ne razlikuju od udjela na ispitivanome korpusu, mjer
 
 ## 7.7 Komunikacija kao metoda
 
-U dosadašnjem izlaganju komunikacija se pojavljivala kao *predmet*: kao razina 14. Sada treba izreći i drugu, manje očitu ulogu — onu koja ovoj knjizi daje naslov.
+Za razliku od uloge pukoga predmeta, komunikacija je i instrument mjerenja. U dosadašnjem izlaganju komunikacija se pojavljivala kao *predmet*: kao razina 14. Sada treba izreći i drugu, manje očitu ulogu — onu koja ovoj knjizi daje naslov.
 
 **Sve ostale razine** čitamo iz komunikacijskih podataka. Razine 1–8 ne promatramo izravno: o njima doznajemo iz tekstova u kojima ljudi opisuju što rade (materijalna struktura, instrumenti, redoslijedi aktivnosti). Razine 9–11 (percepcija, afekt, kognicija) također su nam dostupne uglavnom preko jezika: mreža emocionalnih leksema (→ pogl. 6.4) nije zapis emocija, nego zapis onoga što ljudi o emocijama *kažu*. Razine 12–16 čitamo iz komunikacije gotovo u cijelosti, jer su institucionalne činjenice one koje se *izriču* (Searle 1995).
 
@@ -186,7 +186,7 @@ Iz toga slijedi metodološki zaključak koji je ujedno i oprez:
 
 > **Komunikacija je instrument mjerenja ostalih razina, a istovremeno i jedno od onoga što se mjeri.** Zato svaki nalaz o nižim razinama dolazi s dvostrukim teretom: mora se pokazati i da je obrazac u podacima, i da nije artefakt komunikacijskog kanala.
 
-Taj dvostruki teret objašnjava zašto su rezultati u ovoj knjizi često skromniji od novinskih naslova: kad mjerite stvarnost kroz njezin opis, morate odbiti ono što je u nalazu doprinos opisa. To nije agresivna skepsa. To je cijena mjerenja.
+Taj dvostruki teret objašnjava zašto su rezultati u ovoj knjizi često skromniji od novinskih naslova: kad mjerite stvarnost kroz njezin opis, morate odbiti ono što je u nalazu doprinos opisa. To nije agresivna skepsa. To je cijena mjerenja. Ostaje pitanje gdje komunikacijski čin prestaje biti razina 14 i prelazi u instituciju.
 
 ## 7.8 Granica prema razini 15 — i što ostaje za sljedeće poglavlje
 
@@ -194,7 +194,7 @@ Gdje prestaje razina 14? Tamo gdje se komunikacijski čin stabilizira u **pravil
 
 Time je DIO II dovršen u svojoj tvrdnji: **komunikacija je razina**, ima svoju relacijsku shemu, svoje pokazatelje i svoje načine na koje pada. Sljedeći dio knjige radi ono što iz ove tvrdnje slijedi: ako je komunikacija razina s pravilima, što se dogodi kad u nju uđe sudionik koji nije ni čovjek ni institucija — nego **model**.
 
-**Što razina 15 dodaje** — i zašto to nije samo „više obveze". Na granici prema 15. razini vrijedi se zaustaviti, jer se razlika između razine 14 i razine 15 lako pročita kao razlika u količini („ozbiljnija obveza"), a ona je razlika u **vrsti**. Na razini 14 obveza postoji jer je priznata; na razini 15 ona je **branjena**: postoji ovlaštenje utvrditi kršenje, izreći posljedicu i vratiti stanje. Tri su posljedice praktične, i sve tri ostavljaju zapis:
+**Što razina 15 dodaje** — i zašto to nije samo „više obveze". Na granici prema 15. razini vrijedi se zaustaviti, jer se razlika između razine 14 i razine 15 lako pročita kao razlika u količini („ozbiljnija obveza"), a ona je razlika u **vrsti**, a ne u stupnju. Na razini 14 obveza postoji jer je priznata; na razini 15 ona je **branjena**: postoji ovlaštenje utvrditi kršenje, izreći posljedicu i vratiti stanje. Tri su posljedice praktične, i sve tri ostavljaju zapis:
 
 - **Ispravak.** Postoji netko ovlašten reći „ovo nije izvršeno" tako da ta rečenica ima učinak — a ne samo mišljenje.
 - **Naknada i kazna.** Postoji postupak po kojemu neispunjenje ima posljedicu izvan odnosa dvaju sudionika; time obveza prestaje biti stvar njihova raspoloženja.
@@ -204,7 +204,7 @@ Razlika je, dakle, u tome **čija je obveza**. Na razini 14 obveza pripada odnos
 
 ## 7.9 Radni primjer: pet uvjeta na vlastitome materijalu
 
-Radni primjer prenosi shemu iz 7.5 na materijal koji čitatelj ima pred sobom — i to tako da se njegov rezultat može pokazati drugome. Uvjeti se ne procjenjuju „u cjelini", po dojmu, nego jedan po jedan, na istome isječku. Rezultat se mora pokazati drugome.
+Sljedeće što treba pokazati jest kako se shema primjenjuje na stvarnome materijalu. Radni primjer prenosi shemu iz 7.5 na materijal koji čitatelj ima pred sobom — i to tako da se njegov rezultat može pokazati drugome. Uvjeti se ne procjenjuju „u cjelini", po dojmu, nego jedan po jedan, na istome isječku. Rezultat se mora pokazati drugome.
 
 1. **Odaberi isječak i zapiši ga.** Uzmi uzastopni niz replika iz razgovora koji postoji u transkriptu ili iz javno dostupnoga teksta u kojemu je vidljivo tko kome piše. Zapiši odakle je isječak, tko su sudionici i što je jedinica analize — replika, rečenica ili čin. Bez toga zapisa nalaz se ne može ponoviti.
 2. **Provjeri adresiranje (uvjet 1).** Za svaku jedinicu zabilježi postoji li nositelj uloge primatelja: obraćanje u drugome licu, vokativ, ime, uputa. Razlikuj obraćanje od pukoga postojanja primatelja signala — jedinica bez adresata nije komunikacijski čin, nego tekst.

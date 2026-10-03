@@ -150,7 +150,7 @@ Tvrdnja ovoga poglavlja jest da je model **organizacija uporabe**. Ona pada na �
 - Ako se pokaže da prikazi različitih modela nisu usporedivi, tj. da hipoteza Huh i suradnika (2024) ne drži, tada je organizacija uporabe **lokalna** činjenica pojedinoga modela, a ne svojstvo materijala uporabe — i svaka tvrdnja o prijenosu između sustava mora se povući.
 - Ako se pokaže da razlika prema razini 14 ne postoji — da se prepoznata namjera i priznata obveza mogu izvesti iz geometrije bez ijednoga dodatka, čemu se Bender i Koller (2020) približavaju s jedne, a Harnad (1990) s druge strane — tada tvrdnja ovoga poglavlja nije pogrešna, nego **prejaka za ono što mjeri**, i mora se svesti na opis razine 6.
 
-Ni jedan od tih testova nije izveden u ovoj knjizi. Nabrojani su zato da se zna **što bi ih izvelo** i da se tvrdnja ne čita kao zaključak.
+Iz toga i ovo, uz istu oprezu o mjeri: ni jedan od tih testova nije izveden u ovoj knjizi. Nabrojani su zato da se zna **što bi ih izvelo**, a ne da se tvrdnja čita kao zaključak.
 
 ### Vježbe
 
@@ -192,7 +192,7 @@ for (i, j), s in sorted(parovi, key=lambda x: -x[1])[:5]:
 - **Parametar nije značenje**, a učenje nije upisivanje: parametri su **uređenje** koje se mijenja tijekom obrade podataka. Skaliranje (Kaplan i suradnici 2020; Hoffmann i suradnici 2022) pokazuje da uređenje ima cijenu i da odnos kapaciteta i podataka nije proizvoljan — ali ne pokazuje da veće znači bolje.
 - **Pouka poglavlja:** model nije kopija svijeta, nego **organizacija uporabe**. To je isti postupak koji je u trećem poglavlju primijenjen na mrežu, a u šestom na emocije — samo na drugom materijalu. Zato model ne dodaje sedamnaestu razinu: on zauzima **postojeće pozicije** (→ pogl. 12.3).
 
-**Što to mijenja u praksi.** Tko radi s modelom, nakon ovoga poglavlja ne pita što model „zna", nego što je u kojemu korpusu i kojemu zadatku naučio, pa svaki nalaz veže uz model, korpus i vrstu dokaza. Time se sprječava najčešća pogreška ovoga područja: da se blizina u prostoru pročita kao sadržaj, a uređenje uporabe kao kopija svijeta. Cijena je što se ništa ne smije reći bez zapisa postavka — mjera srodnosti, dimenzija i verzija modela moraju stajati uz nalaz, inače se rezultat ne može ponoviti ni osporiti.
+Otud i posljedica za rad, a ne samo za opis. **Što to mijenja u praksi.** Tko radi s modelom, nakon ovoga poglavlja ne pita što model „zna", nego što je u kojemu korpusu i kojemu zadatku naučio, pa svaki nalaz veže uz model, korpus i vrstu dokaza. Time se sprječava najčešća pogreška ovoga područja: da se blizina u prostoru pročita kao sadržaj, a uređenje uporabe kao kopija svijeta. Cijena je što se ništa ne smije reći bez zapisa postavka — mjera srodnosti, dimenzija i verzija modela moraju stajati uz nalaz, inače se rezultat ne može ponoviti ni osporiti.
 
 ### Ključni pojmovi
 

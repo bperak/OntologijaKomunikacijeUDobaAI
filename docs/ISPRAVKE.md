@@ -736,3 +736,31 @@ prijavljuje sve tri greške, na sadašnjem ne prijavljuje nijednu.
 ne služi nijednom; sada stoji **„falsifikacijski okvir (u knjizi: „Kako bismo znali da griješimo")"**, a
 rječnik je ponovno generiran (`pojmovnik/RJECNIK.md`, 28 pojmova).
 
+## ZAPIS-018 — Povezanost: paradigmatske, referencijalne i sintagmatske veze (3. 10. 2026.)
+
+**Povod (autor):** „Pod povezivanjem mislim na paradigmatska, referencijalna ali i sintagmatske, ideje
+koje stoje prije i poslije moraju biti u nekom kauzalnom slijedu i logici koja ipak nije suhoparna."
+
+**Što je izmjereno.** Na razini **spoja sekcija** (232 sekcije u 19 datoteka) mjeri se: naslanja li prvi
+odlomak sekcije na prethodnu (konektor **ili** ponovljena sadržajna riječ), stoji li tvrdnja
+paradigmatski (protivni marker u prva tri odlomka) i predaje li zadnji odlomak nešto dalje (marker
+naprijed ili leksičko preuzimanje u sljedećoj sekciji). Mjera je **`kod/check_sekcije.py`**.
+
+**Stanje prije zahvata** (isto mjerilo, 185 sekcija nakon što se aparat izuzme): **37 sekcija** bez
+naslanjanja · **62** bez paradigmatskoga okvira · **31** bez predaje dalje. Najveća je praznina
+paradigmatska (trećina sekcija iznosi tvrdnju ne rekavši prema čemu stoji) — i to je ono što se čita kao
+„suho nabrajanje", a ne kao mišljenje koje teče. **Stanje poslije: 0 · 1 · 0** (jedina preostala
+paradigmatska praznina je odjeljak „Što ćete odatle ponijeti" u uvodu, koji ne stoji ni prema kojoj
+alternativi — popis je onoga što čitatelj nosi, i to je namjerno).
+
+*(Prva verzija mjerila brojila je i aparatne odlomke i davala 59/97/67 na 232 „sekcije"; brojke su
+ispravljene na usporedivu osnovu.)*
+
+**Metoda je zapisana kao skill `text-cohesion-pass`** (tri vrste veza s mjerom, tvrdim okvirima i zamkama),
+da se isti prolaz može izvesti i na druge dvije knjige.
+
+**Zamka mjerenja (zapisana u skillu):** prva verzija mjerila brojila je samo konektor na početku odlomka i
+prijavila **49 % izoliranih odlomaka** — uključujući dobre odlomke koji namjerno počinju svježim primjerom
+(„Uzmimo vodu i njezinu temperaturu…"). Kohezija se zato mjeri i **leksički**, a jedinica analize je spoj
+sekcija, ne odlomak. Mjera je **sito, ne presuda**.
+

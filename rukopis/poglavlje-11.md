@@ -34,7 +34,7 @@ Nazovimo to precizno. Neka $C_t$ označava **kontekst** u trenutku $t$ — ono �
 
 $$C_{t+1} = C_t \;\|\; f(C_t)$$
 
-gdje je $\|$ dopisivanje, a $f$ ista funkcija kao i prije. Ono što zovemo „razmišljanje" jest niz stanja $C_1, C_2, \dots, C_k$ u kojima je svako sljedeće stanje obogaćeno za ono što je sustav iz prethodnog izveo. Riječ „unaprjeđenje" ovdje, naime, nije vrijednosna: ne znači da je $C_{t+1}$ bolji, nego da je *veći* — sadrži više materijala na kojemu se može uvjetovati sljedeći korak.
+Ono što petlja vraća na ulaz jest **kontekst**, pa ga valja zapisati kao veličinu koja se mijenja korak po korak. Gdje je $\|$ dopisivanje, a $f$ ista funkcija kao i prije. Ono što zovemo „razmišljanje" jest niz stanja $C_1, C_2, \dots, C_k$ u kojima je svako sljedeće stanje obogaćeno za ono što je sustav iz prethodnog izveo. Riječ „unaprjeđenje" ovdje, naime, nije vrijednosna: ne znači da je $C_{t+1}$ bolji, nego da je *veći* — sadrži više materijala na kojemu se može uvjetovati sljedeći korak.
 
 Iz tog zapisa slijedi nekoliko posljedica koje se lako izgube u razgovoru o „sposobnostima".
 
@@ -64,7 +64,7 @@ Ovdašnja terminološka stega nije formalnost. Model nije razina. Model je **ent
 
 ## 11.2 Što mjerimo kad mjerimo „razmišljanje"
 
-Kad se u izvještajima i raspravama tvrdi da model „razmišlja dulje" ili „bolje", gotovo uvijek se tvrdi jedno od četiriju: **vrijeme**, **broj koraka**, **točnost** ili **trošak**. Ta četiri mjerenja nisu varijante istog; ona su različiti izbori iste nepoznanice.
+Kad se u izvještajima i raspravama tvrdi da model „razmišlja dulje" ili „bolje", gotovo uvijek se tvrdi jedno od četiriju: **vrijeme**, **broj koraka**, **točnost** ili **trošak**. Ta četiri mjerenja nisu varijante istog; ona su različiti izbori iste nepoznanice. Brojka o duljem izlazu, dakle, ne znači sama po sebi da je izlaz i mišljenje.
 
 ### Četiri metrike i što svaka mjeri
 
@@ -75,13 +75,15 @@ Kad se u izvještajima i raspravama tvrdi da model „razmišlja dulje" ili „b
 | **točnost** | udio točnih odgovora na skupu | uspjeh na **tom** skupu | prijenos na druge skupove |
 | **trošak** | tokeni × cijena po tokenu | cijenu izvođenja | isplativost u odnosu na alternativu |
 
-Metrika je **izbor, ne činjenica**. Ako odaberemo točnost, izbor skupa postaje dio tvrdnje. Ako odaberemo broj koraka, izbor načina brojanja postaje dio tvrdnje. To se najbolje vidi na metodološkom nalazu Schaeffera i suradnika (2023): „iznenadne" sposobnosti mogu biti **artefakt metrike** — nelinearni pragovi bodovanja proizvode skok u krivulji i ondje gdje u sposobnosti nema skoka (Schaeffer et al. 2023, *NeurIPS*). Ako skok može nastati u mjernom instrumentu, onda svaka tvrdnja o naglom napretku mora navesti **kako je mjereno** prije nego što navede **koliko**.
+Metrika je **izbor, ne činjenica**. Pokazuje što je izmjereno, a ne da je izmjereno mišljenje. Ako odaberemo točnost, izbor skupa postaje dio tvrdnje. Ako odaberemo broj koraka, izbor načina brojanja postaje dio tvrdnje. To se najbolje vidi na metodološkom nalazu Schaeffera i suradnika (2023): „iznenadne" sposobnosti mogu biti **artefakt metrike** — nelinearni pragovi bodovanja proizvode skok u krivulji i ondje gdje u sposobnosti nema skoka (Schaeffer et al. 2023, *NeurIPS*). Ako skok može nastati u mjernom instrumentu, onda svaka tvrdnja o naglom napretku mora navesti **kako je mjereno** prije nego što navede **koliko**.
 
-Wei i sur. (2022) postavili su tu tvrdnju s druge strane, kao nalaz o emergenciji sposobnosti s razmjerom (Wei et al. 2022, *TMLR*, arXiv:2206.07682). Za ovu knjigu nije presudno koja je strana u pravu, nego to da je **razlika između njih mjerljiva** — i da se ne može riješiti dojmom.
+Wei i sur. (2022) postavili su tu tvrdnju s druge strane, kao nalaz o emergenciji sposobnosti s razmjerom (Wei et al. 2022, *TMLR*, arXiv:2206.07682). Za ovu knjigu nije presudno koja je strana u pravu, nego to da je **razlika između njih mjerljiva** — i da se ne može riješiti dojmom. Zato se sljedeća sekcija bavi dvjema pogreškama koje iz toga slijede.
 
 ### Zašto je to za nas važno i metodološki i ontološki
 
 Postoje dvije pogreške koje se stalno čine, i one su zrcalne.
+
+No razlika između mjerenoga i mišljenoga ne znači da brojke treba odbaciti; znači da svaka od njih dobiva smisao tek uz odgovor na pitanje što je mjereno.
 
 **Prva pogreška:** brojka se čita kao svojstvo. „Model je postigao 90 %" ne govori ništa o tome *što* model jest. Govori o odnosu između modela, skupa i načina bodovanja. Kad se to zanemari, procjena se počne ponašati kao mjerenje — a u ovoj knjizi pravilo je izričito: nijedna se procjena ne piše kao mjerenje (→ pogl. 10.5). Za procjene veličine modela to je već navedeno kao obveza (Thompson 2026).
 
@@ -99,11 +101,11 @@ Bez ta tri odgovora brojka ostaje u kategoriji **dojma**, a ne nalaza.
 
 ## 11.3 Devijacije: kad se petlja zatvori u sebe
 
-Ako je lanac koraka unaprjeđenje konteksta, onda postoje barem dva načina na koja taj postupak može poći naopako: **kad se sustav hrani vlastitim izlazima** i kad nauči strategiju koja postiže cilj, ali ne onaj koji smo namjeravali. Prvi slučaj je degeneracija materijala, drugi je degeneracija cilja. Oba su mjerena, i oba su za ovu tezu ozbiljna.
+Ako je lanac koraka unaprjeđenje konteksta, onda postoje barem dva načina na koja taj postupak može poći naopako: **kad se sustav hrani vlastitim izlazima** i kad nauči strategiju koja postiže cilj, ali ne onaj koji smo namjeravali. Prvi slučaj je degeneracija materijala, drugi je degeneracija cilja. Oba su mjerena, i oba su za ovu tezu ozbiljna. Ipak, duljina sama ne jamči da se petlja kreće prema cilju. Prva od tih devijacija je kolaps modela, i njoj je posvećen sljedeći odjeljak.
 
 ### Kolaps modela pri učenju na vlastitim izlazima
 
-Shumailov i suradnici (2024) pokazuju da modeli koji se uče na podacima koje su sami generirali **gube dio razdiobe** izvornih podataka: repovi se stanjuju, rijetki slučajevi nestaju, a pogreške se akumuliraju kroz generacije modela (Shumailov et al. 2024, *AI models collapse when trained on recursively generated data*, *Nature*).
+Ova se devijacija očituje u razdiobi, a ne u pojedinačnome ishodu. Shumailov i suradnici (2024) pokazuju da modeli koji se uče na podacima koje su sami generirali **gube dio razdiobe** izvornih podataka: repovi se stanjuju, rijetki slučajevi nestaju, a pogreške se akumuliraju kroz generacije modela (Shumailov et al. 2024, *AI models collapse when trained on recursively generated data*, *Nature*).
 
 Za nas je važna struktura tog nalaza, ne njegova dramatičnost:
 
@@ -139,7 +141,7 @@ Ako je lanac koraka jedna operacija, otkuda onda razlika između „procesiranja
 
 ### Kriterij 1 — CILJ: postavlja li sustav cilj sam?
 
-Pod „ciljem" ne mislimo na svrhu u teleološkom smislu, nego na **izvor zadatka**: dolazi li zadatak izvan sustava ili ga sustav sam izvodi iz stanja u kojemu se nalazi.
+Pod „ciljem" ne mislimo na svrhu u teleološkom smislu, nego na **izvor zadatka**: dolazi li zadatak izvan sustava ili ga sustav sam izvodi iz stanja u kojemu se nalazi. Kriterij zato mjeri odakle cilj dolazi, a ne koliko je zadatak težak.
 
 | razina | opis | primjer |
 |---|---|---|
@@ -202,17 +204,17 @@ Tri kriterija iz ove sekcije nisu zaseban aparat: oni se, redom, preslikavaju na
 
 ## 11.5 Zašto ovo nije ni dualizam ni eliminativizam
 
-Dvije su krajnosti između kojih se ta rasprava obično vodi, i obje su za ovaj okvir nezadovoljavajuće — ali iz različitih razloga, i to je važno precizno razlikovati.
+To što tri kriterija imaju mjerni oblik ipak ne zatvara raspravu. Dvije su krajnosti između kojih se ta rasprava obično vodi, i obje su za ovaj okvir nezadovoljavajuće — ali iz različitih razloga, i to je važno precizno razlikovati. Iz toga slijedi da valja razmotriti obje krajnosti, i to dualizam najprije.
 
 ### Prva krajnost: dualizam
 
-Dualizam tvrdi da je mišljenje *druga vrsta stvari* od procesiranja — da postoji unutarnji prostor koji se ne može svesti na mehanizam. Ako se ta pozicija prihvati, teza ovoga poglavlja pada odmah, jer je teza upravo obrnuta: **ne postoji drugi stroj**.
+Ovdje je na djelu krajnost koja tvrdnji stoji nasuprot, pa je valja izložiti prije nego se odbaci. Dualizam tvrdi da je mišljenje *druga vrsta stvari* od procesiranja — da postoji unutarnji prostor koji se ne može svesti na mehanizam. Ako se ta pozicija prihvati, teza ovoga poglavlja pada odmah, jer je teza upravo obrnuta: **ne postoji drugi stroj**.
 
-Ovdje valja biti pošten prema onome što dualizam pogađa. Searle (1995; 2010) pokazuje da društvena stvarnost sadrži entitete koji nisu fizički predmeti — novac, obećanje, ovlast — i da se ti entiteti ne mogu pročitati s fizikalnog opisa. To **nije** dualizam: to je pokazivanje da postoje slojevi činjenica (brute / mental / institutional) i da se razlikuju po tome što se na njima zasniva (Searle 1995, *The Construction of Social Reality*). Kad to prenesemo na naše pitanje: lanac koraka je **brute fact** o izvođenju; njegova vrijednost u zajednici je **institucionalna činjenica**. Prvo se mjeri u sekundama i tokenima, drugo u pravilima i zapisima. Nijedno ne zahtijeva drugu vrstu tvari.
+Ovdje valja biti pošten prema onome što dualizam pogađa. Searle (1995; 2010) pokazuje da društvena stvarnost sadrži entitete koji nisu fizički predmeti — novac, obećanje, ovlast — i da se ti entiteti ne mogu pročitati s fizikalnog opisa. To **nije** dualizam: to je pokazivanje da postoje slojevi činjenica (brute / mental / institutional) i da se razlikuju po tome što se na njima zasniva (Searle 1995, *The Construction of Social Reality*). Kad to prenesemo na naše pitanje: lanac koraka je **brute fact** o izvođenju; njegova vrijednost u zajednici je **institucionalna činjenica**. Prvo se mjeri u sekundama i tokenima, drugo u pravilima i zapisima. Nijedno ne zahtijeva drugu vrstu tvari. Time se otvara druga krajnost, njezina zrcalna slika — eliminativizam.
 
 ### Druga krajnost: eliminativizam
 
-Eliminativizam tvrdi da je „mišljenje" prazan pojam — da postoji samo predviđanje tokena i da je svaki govor o mislima zbunjujuća terminologija. Ta je pozicija za nas privlačna jer je parsimonična, ali ima jedan problem: **ona preskače mjerenja.** Snell i suradnici (2024) i DeepSeek-AI (2025) ne mjere „predviđanje tokena" kao takvo; mjere kako *raspoređivanje računanja* mijenja ishod. Ako je to samo predviđanje, onda je predviđanje s unutarnjom strukturom — i tu strukturu treba imenovati.
+Eliminativizam tvrdi da je „mišljenje" prazan pojam — da postoji samo predviđanje tokena i da je svaki govor o mislima zbunjujuća terminologija. Ta je pozicija za nas privlačna jer je parsimonična, ali ima jedan problem: **ona preskače mjerenja.** Snell i suradnici (2024) i DeepSeek-AI (2025) ne mjere „predviđanje tokena" kao takvo; mjere kako *raspoređivanje računanja* mijenja ishod. Ako je to samo predviđanje, onda je predviđanje s unutarnjom strukturom — i tu strukturu treba imenovati. Eliminativizam time opisuje jedan izlaz, a ne razliku među trima stanjima.
 
 Uz to, eliminativizam ne može razlikovati tri stanja koja se očito razlikuju:
 
@@ -236,7 +238,7 @@ Tvrdnja ima tri dijela:
 
 To je točno ista pozicija koju smo zauzeli prema mreži emocija u šestom poglavlju: mreža nije dodatna stvar uz lekseme, ona je **uređenje** njihovih veza, i nositelj joj je korpus (→ pogl. 6.4; Ban Kirigin & Perak 2020). Razlika je u materijalu, ne u vrsti tvrdnje. Ako je ta pozicija prihvatljiva za pojmovnu mrežu u korpusu, prihvatljiva je i za lanac koraka — ili moramo objasniti zašto nije.
 
-**Zašto to nije dvostruki govor.** Ako tvrdimo da postoji „mišljenje" u modelu, moramo pokazati *što se mjeri* i *što bi oborilo tvrdnju*. Ako tvrdimo da ne postoji, moramo objasniti zašto mjerenja iz 11.2 i 11.3 nisu relevantna. Treća pozicija je jedina koja drži oboje: **opisuje strukturu bez tvrdnje o iskustvu** i **dopušta da tvrdnja padne** ako kriteriji iz 11.4 ne izdrže.
+**Zašto to nije dvostruki govor.** Ako tvrdimo da postoji „mišljenje" u modelu, moramo pokazati *što se mjeri* i *što bi oborilo tvrdnju*. Ako tvrdimo da ne postoji, moramo objasniti zašto mjerenja iz 11.2 i 11.3 nisu relevantna. Treća pozicija je jedina koja drži oboje: **opisuje strukturu bez tvrdnje o iskustvu** i **dopušta da tvrdnja padne** ako kriteriji iz 11.4 ne izdrže. Zato valja pokazati što od toga već stoji u autorovu okviru.
 
 ### Što je zajedničko s autorovim okvirom
 
@@ -248,7 +250,7 @@ Gdje se ovo naslanja na 4E tradiciju, a gdje se od nje razlikuje. Ako se kognici
 
 ## 11.6 Kako bi izgledalo da teza pada
 
-Teza ovoga poglavlja tvrdi tri stvari: (a) lanac koraka je jedna operacija, (b) ono što zovemo mišljenjem jest unaprjeđenje konteksta bez tvrdnje o iskustvu, (c) tri kriterija iz 11.4 razlikuju procesiranje od mišljenja. Da bi teza pala, dovoljno je oboriti jednu od njih.
+Teza ovoga poglavlja tvrdi tri stvari: (a) lanac koraka je jedna operacija, (b) ono što zovemo mišljenjem jest unaprjeđenje konteksta bez tvrdnje o iskustvu, (c) tri kriterija iz 11.4 razlikuju procesiranje od mišljenja. Da bi teza pala, dovoljno je oboriti jednu od njih. U svakom od tri slučaja od teze bi ostao duži izlaz, a ne mišljenje.
 
 **Pad (a) — nije jedna operacija.** Bilo bi dovoljno pokazati da lanac koraka uključuje operaciju koja **ne postoji** u pojedinačnom koraku: npr. da postoji mehanizam odabira koraka koji djeluje izvan uvjetovanja na kontekst i koji se ne može opisati kao ponovljeni poziv iste funkcije. Tada „jedna operacija" nije točan opis, i cijeli argument iz 11.1 pada. *Kako bi se pokazalo:* ablacijom — ako uklanjanje petlje ne mijenja ništa osim duljine izlaza, operacija je jedna; ako mijenja *vrstu* izlaza neovisno o duljini, nije.
 
@@ -273,7 +275,7 @@ Tri konkretna znaka upozorenja, pojedinačno dovoljna:
 2. **Provjera bez razlike.** „Unutarnja" provjera ne daje ništa što ne daje vanjska (usporedba dviju varijanti na istim zadacima).
 3. **Kriteriji se stapaju.** CILJ, PROVJERA i ODGOVORNOST ne mogu se razdvojiti mjerenjem.
 
-Ako se pokaže bilo koji od tri, poglavlje se mora prepisati: od „mišljenje kao procesiranje" ostaje „dulji izlaz", a pitanje o mišljenju vraća se u šesnaesto poglavlje kao **otvoreno**, ne kao stav (→ pogl. 16.1).
+Ako se pokaže bilo koji od tri, poglavlje se mora prepisati: od „mišljenje kao procesiranje" ostaje „dulji izlaz", a pitanje o mišljenju vraća se u šesnaesto poglavlje kao **otvoreno**, ne kao stav (→ pogl. 16.1). Time se ovo poglavlje vraća svojemu početku: duži izlaz nije mišljenje.
 
 ### Vježbe
 
