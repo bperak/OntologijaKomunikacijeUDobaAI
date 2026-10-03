@@ -1012,3 +1012,29 @@ podebljano ostaje samo na pojmovima (pravilo 1). Mjere: povezanost **0/0/0**, st
 **Snimka obnovljena:** `/tmp/stil-staro/uvod.md` zamijenjen je odobrenim stanjem, da se budući gubici hvataju
 naspram odobrenoga uvoda, a ne naspram onoga koji je autor odbacio.
 
+## ZAPIS-026 — Predgovor prepisan u odabranome registru (3. 10. 2026.)
+
+**Povod (autor):** „Najviše mi se Gemini čini najbliže." — Geminijev glas proglašen je ciljnim registrom knjige.
+
+**Učinjeno.** Geminiju je poslan predgovor s **njegovim vlastitim uvodom kao mjerilom tona**; napisao je novi
+predgovor (1.048 riječi), uz izričit odgovor da predgovor **ne traži drukčiji registar** — „on mora zvučati kao
+isti čovjek".
+
+**Provjere prije uvrštavanja (nijedna tvrdnja nije ušla neprovjerena):** `↗` kao oznaka za drugu knjigu
+potvrđena u rukopisu (9 pojava); `check_links.py --http` postoji; `docs/UPUTE-PO-POGLAVLJIMA.md`,
+`pojmovnik/RJECNIK.md`, `data/fakti.csv` postoje; citati (Bedau 1997, Chalmers 2006, Schaeffer et al. 2023,
+Perak 2025) u bazi referenci. Upute `→ pogl. 4` i `→ pogl. 16` nisu Geminijeve nego su stajale u našem
+predgovoru.
+
+**Vraćeno iz staroga predgovora:** upute **→ pogl. 1.3** i **→ pogl. 16.5** (provjera ih je prijavila kao
+izgubljene).
+
+**Dvije ispravke alata:** predgovor **nikad nije bio u obuhvatu** mjere povezanosti (sada jest, uz uvod i
+zaključak); „Zahvale" su izuzete kao aparat, jer nisu argumentativna proza.
+
+**Sukob mjerila (treći put):** paradigmatske oznake („a ne") podižu antitezu. U predgovoru su zato rabljene
+**isključivo paradigmatske** oznake koje ne bubnjaju („za razliku od", „nasuprot", „suprotno", „ipak") —
+i antiteza i povezanost ostaju u granicama. To je sada pravilo: kad se popravlja jedno mjerilo, provjeri drugo.
+
+**Mjere predgovora:** povezanost **0/0/0**, stil u granicama, antiteza i konektor ispod praga. Snimka obnovljena.
+

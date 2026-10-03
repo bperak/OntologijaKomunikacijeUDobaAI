@@ -43,7 +43,7 @@ def sekcije(t):
         nas = dijelovi[k].strip("# ").strip()
         pas = [re.sub(r"\s+", " ", p).strip() for p in re.split(r"\n\s*\n", dijelovi[k + 1])
                if len(p.split()) >= 25]
-        if nas.split()[0] in ("Ključni", "Literatura", "Sadržaj", "Vježbe"):
+        if nas.split()[0] in ("Ključni", "Literatura", "Sadržaj", "Vježbe", "Zahvale"):
             continue
         if pas:
             out.append((nas, pas))
@@ -57,7 +57,7 @@ def main():
     elif "--datoteka" in sys.argv:
         datoteke = [sys.argv[sys.argv.index("--datoteka") + 1]]
     else:
-        datoteke = (sorted(glob.glob(B + "poglavlje-*.md")) + [B + "uvod.md", B + "zakljucak.md"]
+        datoteke = (sorted(glob.glob(B + "poglavlje-*.md")) + [B + "uvod.md", B + "predgovor.md", B + "zakljucak.md"]
                     + [f for f in sorted(glob.glob(B + "dodaci/dodatak-*.md"))
                        if os.path.basename(f)[8] not in ("B", "E", "G")])
     ispis = "--isoli" in sys.argv
