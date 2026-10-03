@@ -26,7 +26,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RUK = os.path.join(ROOT, "rukopis")
 GENERIRANO = {"sadrzaj.md", "dodatak-E-izvori-i-brojke.md", "dodatak-G-kazalo.md"}
 
-PRAG = {"bold": 15.0, "bold_dugi": 10.0, "rec_min": 20.0, "rec_max": 30.0, "kratke": 18.0, "duge": 14.0,
+PRAG = {"bold": 15.0, "bold_dugi": 10.0, "rec_min": 20.0, "rec_max": 30.0, "kratke": 25.0, "duge": 12.0,
+        "vrlo_kratke": 15.0, "niz_dagih": 2,
         "upravo": 3.0, "cestice_razlicitih": 5, "kliseji": 5, "popis": 280}
 CESTICE = ["naime", "dakle", "pak", "usto", "pritom", "otud", "naprotiv", "štoviše",
            "dakako", "napose", "zacijelo", "tek"]
@@ -67,6 +68,12 @@ def mjere(put):
     dugi = [o for o in odlomci if len(o.split()) > 6]
     rec = [r for r in re.split(r"(?<=[.!?])\s+(?=[A-ZČĆĐŠŽ„(])", t) if len(r.split()) >= 3]
     duz = [len(r.split()) for r in rec] or [0]
+    vrlo_kratke = 100.0 * sum(1 for d in duz if d <= 8) / len(duz)
+    sd = statistics.pstdev(duz) if len(duz) > 2 else 0.0
+    niz, najduzi = 0, 0
+    for d in duz:
+        niz = niz + 1 if d > 30 else 0
+        najduzi = max(najduzi, niz)
     broj = lambda uzorak: len(re.findall(uzorak, t, re.I))
     c = {k: broj(r"\b" + k) for k in CESTICE}
     return {
@@ -74,6 +81,7 @@ def mjere(put):
         "bold_dugi": (100.0 * len(dugi) / len(odlomci)) if odlomci else 0.0,
         "bold_odlomaka": len(odlomci),
         "rec": statistics.mean(duz), "kratke": 100.0 * sum(1 for d in duz if d < 12) / len(duz),
+        "vrlo_kratke": vrlo_kratke, "sd": sd, "niz_dagih": najduzi,
         "duge": 100.0 * sum(1 for d in duz if d > 40) / len(duz),
         "upravo": 10000.0 * broj(r"\bupravo\b") / N,
         "cestice": c, "cestice_raz": sum(1 for v in c.values() if 10000.0 * v / N >= 0.5),
@@ -87,7 +95,7 @@ def mjere(put):
 def ispis(put, m):
     ime = os.path.relpath(put, ROOT)
     print(f"{ime}\n   riječi {m['rijeci']:>6} | podebljano {m['bold']:>5.1f}% | rečenica {m['rec']:>4.1f} "
-          f"| <12 {m['kratke']:>4.1f}% | >40 {m['duge']:>4.1f}% | „upravo“ {m['upravo']:>4.1f}/10k "
+          f"| <12 {m['kratke']:>4.1f}% | ≤8 {m['vrlo_kratke']:>4.1f}% | >40 {m['duge']:>4.1f}% | SD {m['sd']:>4.1f} | niz>30 {m['niz_dagih']:>2} | „upravo“ {m['upravo']:>4.1f}/10k "
           f"| čestice {m['cestice_raz']}/12 | klišeji {m['kliseji']:>2} | popis {m['popis']:>3} "
           f"| crte {m['crte']:>4.1f}/10k")
 
@@ -100,6 +108,10 @@ def provjera(zbroj):
         nal.append(f"podebljanih odlomaka >6 riječi {zbroj['bold_dugi']:.1f}% > {PRAG['bold_dugi']}% (podebljane tvrdnje)")
     if not (PRAG["rec_min"] <= zbroj["rec"] <= PRAG["rec_max"]):
         nal.append(f"srednja rečenica {zbroj['rec']:.1f} izvan {PRAG['rec_min']}–{PRAG['rec_max']}")
+    if zbroj["vrlo_kratke"] < PRAG["vrlo_kratke"]:
+        nal.append(f"kratkih rečenica (≤8 riječi) {zbroj['vrlo_kratke']:.1f}% < {PRAG['vrlo_kratke']}%")
+    if zbroj["niz_dagih"] > PRAG["niz_dagih"]:
+        nal.append(f"niz rečenica >30 riječi {zbroj['niz_dagih']} > {PRAG['niz_dagih']} (ritam se ne mijenja)")
     if zbroj["kratke"] < PRAG["kratke"]:
         nal.append(f"kratkih rečenica {zbroj['kratke']:.1f}% < {PRAG['kratke']}%")
     if zbroj["duge"] > PRAG["duge"]:
@@ -156,7 +168,8 @@ def main():
         if not os.path.isabs(samo):
             samo = os.path.join(ROOT, samo)
 
-    zbroj = {"rijeci": 0, "bold": 0.0, "bold_dugi": 0.0, "rec": [], "kratke": [], "duge": [], "upravo": 0.0,
+    zbroj = {"rijeci": 0, "bold": 0.0, "bold_dugi": 0.0, "vrlo_kratke": 0.0, "sd": 0.0, "niz_dagih": 0,
+             "rec": [], "kratke": [], "duge": [], "upravo": 0.0,
              "cestice": {k: 0 for k in CESTICE}, "kliseji": 0, "popis": 0, "tablice": 0, "crte": 0.0}
     svi = []
     for p in datoteke(samo):
@@ -180,6 +193,9 @@ def main():
         sve_duz.extend([m["rec"]] * 1)
     zbroj["rec"] = statistics.mean([m["rec"] for _, m in svi])
     zbroj["kratke"] = statistics.mean([m["kratke"] for _, m in svi])
+    zbroj["vrlo_kratke"] = statistics.mean([m["vrlo_kratke"] for _, m in svi])
+    zbroj["sd"] = statistics.mean([m["sd"] for _, m in svi])
+    zbroj["niz_dagih"] = max(m["niz_dagih"] for _, m in svi)
     zbroj["duge"] = statistics.mean([m["duge"] for _, m in svi])
     zbroj["upravo"] = statistics.mean([m["upravo"] for _, m in svi])
     zbroj["crte"] = statistics.mean([m["crte"] for _, m in svi])
@@ -190,7 +206,8 @@ def main():
             ispis(p, m)
     print("\n=== UKUPNO ===")
     print(f"riječi {zbroj['rijeci']} | podebljano {zbroj['bold']:.1f}% (dugi odlomci {zbroj['bold_dugi']:.1f}%) | rečenica (prosjek poglavlja) "
-          f"{zbroj['rec']:.1f} | <12 {zbroj['kratke']:.1f}% | >40 {zbroj['duge']:.1f}% | "
+          f"{zbroj['rec']:.1f} | <12 {zbroj['kratke']:.1f}% | ≤8 {zbroj['vrlo_kratke']:.1f}% | "
+          f">40 {zbroj['duge']:.1f}% | SD {zbroj['sd']:.1f} | niz>30 {zbroj['niz_dagih']} | "
           f"„upravo“ {zbroj['upravo']:.1f}/10k | čestice {zbroj['cestice_raz']}/12 | "
           f"klišeji {zbroj['kliseji']} | popis {zbroj['popis']} | tablice {zbroj['tablice']} | "
           f"crte {zbroj['crte']:.1f}/10k")

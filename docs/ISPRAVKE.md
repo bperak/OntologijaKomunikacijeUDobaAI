@@ -395,3 +395,32 @@ klišeje 0, umetci među crtama 7,3/10.000).
 **Napomena (provjereno u kodu):** kazalo **ne** ovisi o masnom slovu — `kod/kazalo_build.py` gradi ga iz
 registra pojmova (`pojmovnik/koncepti.csv`) i baze referenci, pa masno slovo nije uvjet za indeks; ono
 služi čitatelju u tekstu i listanju knjige.
+
+## ZAPIS-008 — Ritmički prolaz: kraće rečenice i promjenjiv ritam (30. 9. 2026.)
+
+Autor: „ostavi A… da ima tih kraćih rečenica… da se mijenja ritam i da se dobije na nekom stilskom
+osobujnom pristupu." Odluka: masno ostaje na pojmovima (gustoća A), a proza dobiva **ritmički sloj**.
+
+**Pravilo 2 dopunjeno** (docs/STIL.md): ≥ 25 % rečenica kraćih od 12 riječi, ≥ 15 % kraćih od 8 riječi,
+≤ 12 % dužih od 40, **nijedan niz dulji od dvije** rečenice s više od 30 riječi, SD dužina ≥ 14,
+raznolika otvaranja odlomaka. Praksa: nakon duge objašnjavajuće rečenice kratka koja izvodi.
+
+**Poglavlje 1 (12 ritmičkih zahvata, bez promjene sadržaja):**
+
+| mjera | prije ritma | poslije |
+|---|---|---|
+| srednja rečenica | 21,3 | **20,1** |
+| rečenice < 12 riječi | 27,7 % | **33,8 %** |
+| rečenice ≤ 8 riječi | 15,4 % | **20,1 %** |
+| rečenice > 40 riječi | 6,8 % | 6,4 % |
+| najdulji niz rečenica > 30 riječi | 3 | **2** |
+| čestice | 5/12 | **6/12** (+ naprotiv) |
+| podebljano | 3,0 % | 3,0 % (pojmovi) |
+
+Kratke rečenice koje su ušle u tekst (izvode, ne ukrašavaju): *To je pretpostavka, ne zakon.* ·
+*Ta je poruka nosiva.* · *Izbor je ovdje konstitutivan.* · *Integracija nije zbroj.* ·
+*Riječ je o namjerno oskudnoj definiciji.* · *Svojstvo je odabrano s razlogom.*
+
+**Provjera istovjetnosti sadržaja nakon zahvata:** citati 33 → 33, godine 33 → 33, upute 13 → 13;
+sve ostale provjere prolaze. Isti postupak primjenjuje se na poglavlja 2–16.
+

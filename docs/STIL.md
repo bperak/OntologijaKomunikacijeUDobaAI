@@ -23,9 +23,19 @@ Mjerni alat: `kod/check_stil.py`. Mjeri se **prije i poslije** svakoga zahvata.
    - **Pragovi:** ukupno podebljano **≤ 15 %** riječi (cilj 5–10 %, jer pojmovi su česti), a podebljanih
      odlomaka **dužih od šest riječi ≤ 10 % svih podebljanih odlomaka** (`check_stil.py` to mjeri
      odvojeno). Stanje prije zahvata: 44,5 % riječi, s brojnim podebljanim rečenicama.
-2. **Rečenica je jedinica argumenta.** Srednja dužina **20–30 riječi**, najmanje **18 %** rečenica kraćih
-   od 12 riječi i najviše **14 %** dužih od 40. Duga rečenica smije biti duga zbog **zavisnih surečenica**,
-   a ne zbog nizanja umetaka između dviju crta.
+2. **Rečenica je jedinica argumenta, a ritam je dio tvrdnje.** Srednja dužina **20–30 riječi**, uz:
+   - najmanje **25 %** rečenica kraćih od 12 riječi i najmanje **15 %** kraćih od 8 riječi — kratka
+     rečenica nosi tvrdnju, nije ukras;
+   - najviše **12 %** rečenica dužih od 40 riječi;
+   - **nijedan niz dulji od dvije** uzastopne rečenice s više od 30 riječi — ritam se mora mijenjati;
+   - raznolikost dužina (standardna devijacija ≥ 14) i **raznolika otvaranja odlomaka** (odlomak se ne
+     otvara tri puta istim veznikom).
+
+   **Praksa koja daje osobujnost.** Nakon duge objašnjavajuće rečenice dolazi kratka koja izvodi; tvrdnja
+   se izriče, pa se kratko zaključi. Primjeri iz poglavlja 1: *To je pretpostavka, ne zakon.* ·
+   *Integracija nije zbroj.* · *Ta je poruka nosiva.* · *Riječ je o namjerno oskudnoj definiciji.* ·
+   *Izbor je ovdje konstitutivan.* Duga rečenica smije biti duga zbog **zavisnih surečenica**, a ne zbog
+   nizanja umetaka među crtama.
 3. **Umetak se ne piše crtama, nego zavisnom surečenicom.** Par crta (— … —) u sredini rečenice je
    iznimka (do nekoliko puta u poglavlju), a ne ritam. Gdje umetak objašnjava, ide **naime**; gdje
    suprotstavlja, ide **pak**; gdje dopunjuje, **usto** ili **pritom**.
@@ -64,7 +74,10 @@ Mjerni alat: `kod/check_stil.py`. Mjeri se **prije i poslije** svakoga zahvata.
 | podebljano ukupno (udio riječi) | ≤ 15 % (cilj 5–10 %: pojmovi) |
 | podebljani odlomci duži od 6 riječi (udio svih podebljanih odlomaka) | ≤ 10 % (podebljane tvrdnje = 0) |
 | srednja dužina rečenice | 20–30 riječi |
-| rečenice kraće od 12 riječi | ≥ 18 % |
+| rečenice kraće od 12 riječi | ≥ 25 % |
+| rečenice kraće od 8 riječi | ≥ 15 % |
+| niz uzastopnih rečenica dužih od 30 riječi | ≤ 2 |
+| raznolikost dužina (SD) | ≥ 14 |
 | rečenice duže od 40 riječi | ≤ 14 % |
 | „upravo" | ≤ 3 / 10.000 |
 | čestični repertoar (različitih čestica ≥ 0,5 / 10.000) | ≥ 5 |
