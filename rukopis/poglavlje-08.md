@@ -34,7 +34,7 @@ Odatle slijedi posljedica koja je za ovu knjigu važna: institucija je razina na
 | **reprezentacijska** | dokument, zapis, potpis, arhiv | trajnost i provjerljivost |
 | **konstitutivna** | pravilo igre, ustav, protokol | kolektivna prihvaćenost |
 
-Ta je razdioba korisna jer omogućuje da se u konkretnom slučaju vidi koja je vrsta prisutna, a koja nije — i to je razlika između analize i dojma.
+Ta je razdioba korisna jer omogućuje da se u konkretnom slučaju vidi koja je vrsta prisutna, a koja nije — i to je razlika između analize i dojma. Kriterij izdvajanja je ono čime se pojedina funkcija održava: izgovorom u odgovarajućem kontekstu, priznanjem zajednice, obvezom sa sankcijom, trajnošću i provjerljivošću zapisa te kolektivnom prihvaćenošću pravila.
 
 **Sankcijski aparat: od čega je sastavljen.** Ako je razlika između razine 14 i razine 15 u tome da je obveza na potonjoj *branjena*, onda se ta razlika mora dati razložiti na dijelove koji se u zapisima mogu pojedinačno pronaći. Tri su takva dijela, i sva tri su nužna:
 
@@ -92,6 +92,8 @@ U literaturi su ti mehanizmi opisani s raznih strana i međusobno se nadopunjuju
 - **Archer (1995)** objašnjava zašto struktura i djelovanje nisu isti sloj: struktura se mijenja, ali rijetko u ritmu pojedinog akta;
 - **Sawyer (2005)** pokazuje da se društvena emergencija ne svodi na „skup pojedinaca", nego traži mehanizam na kojemu se viša razina održava.
 
+Tomasello (2008) daje uvjet predaje: bez zajedničke pažnje i zajedničkoga cilja nema prijenosa obrasca, a time ni razine 16. Elder-Vass (2010) daje razlog da je obrazac stvaran: društveni entiteti imaju kauzalne moći koje pojedinci nemaju sami. Archer (1995) daje razliku slojeva: struktura se mijenja izvan ritma pojedinog akta, pa se predaja ne svodi na pojedini čin. Sawyer (2005) daje mjesto mehanizma: viša se razina održava mehanizmom u samoj mreži, a ne popisom njezinih članova.
+
 **Razlika prema modelima podataka** mora biti izrečena bez patetike: sustav koji je naučio obrasce iz mnoštva tekstova **reproducira obrasce** i to često bolje od pojedinca. Ono što, pak, iz takvog učenja ne slijedi jest prihvaćanje obrasca kao vodilje u zajednici koja ga priznaje — jer za to je potrebna zajednica, a ne samo podaci. To nije tvrdnja o nemogućnosti, nego o **uvjetima**: ako se jednom uspostavi zajednica koja sustavu priznaje takvu ulogu, tvrdnja se može promijeniti; do tada ostaje otvoreno pitanje, a ne stav (→ pogl. 15).
 
 **Tri načina prijenosa — i zašto samo jedan nosi razinu 16.** Razlika između učenja i predaje zahtijeva razradu, jer se u svakodnevnom govoru sve troje naziva „učenjem". Razlikujmo tri mehanizma:
@@ -110,7 +112,7 @@ Odatle slijedi i sadržaj razine 16 koji se lako previdi. Kulturni model nije zb
 
 ## 8.4 Što se nalazi u modelu, a što ne nalazi
 
-Tablica je najpoštenija forma odgovora — jer omogućuje da se vidi gdje se tvrdnja drži, a gdje ne.
+Tablica je najpoštenija forma odgovora — jer omogućuje da se vidi gdje se tvrdnja drži, a gdje ne. Tablica ima po jedan redak za svaku razinu i dva stupca: što je u sustavima prisutno i što nije, pa se uz svaku tvrdnju bilježi i njezina granica.
 
 | razina | što je prisutno u sustavima modela | što **nije** prisutno |
 |---|---|---|

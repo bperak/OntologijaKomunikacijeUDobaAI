@@ -167,6 +167,8 @@ Postupak koji slijedi služi jednome: da se tvrdnja o razini *provjeri, a ne izr
 
 Ako ne radi — tri najčešće greške. *Prva:* razina se pročita kao mjerilo veličine, pa se broj dijelova zamijeni za tip svojstva („veće je na višoj razini"). Rješenje je korak 1: razina nije veličina ni vrijednosna ljestvica, a veće nije više. *Druga:* svojstvo se pripiše dijelu („čestica je topla", „token nosi značenje") i razina se izgubi prije nego je nađena. Rješenje je korak 3: ako svojstvo preživi na dijelu, pronašao si nižu razinu, a ne ovu. *Treća:* skok u mjeri proglasi se skokom u sustavu. Rješenje je korak 6: zamijeni pragovnu mjeru kontinuiranom i zapiši ishod kakav jest, jer pojava koja se ne razlučuje od artefakta mora se prijaviti kao nerazlučiva.
 
+**Što to mijenja u praksi.** Za svako svojstvo koje čitatelj naziva razinom mora stajati odgovor: koje svojstvo, koja niža razina i koji zakon sastavljanja. Time se sprječava da se veći broj dijelova pročita kao viša razina i da se skok u mjeri zamijeni za skok u sustavu. Ograda ostaje Kimova: ako razina ne dodaje ništa ni opisu ni predviđanju, odustaje se od nje u tome slučaju.
+
 ### Kako bismo znali da griješimo
 
 - Ako se za svako svojstvo koje u knjizi nazivamo „razinom" pokaže da je izvedivo iz niže razine bez simulacije, u zatvorenoj formi, okvir razina nema posla i prva tvrdnja knjige pada.

@@ -213,6 +213,8 @@ Radni primjer prenosi shemu iz 7.5 na materijal koji čitatelj ima pred sobom �
 
 **Ako ne radi** — tri najčešće greške. *Prva:* adresiranje se pročita iz činjenice da je poruka nekamo otišla, pa se svaki zapis proglasi komunikacijskim činom; nositelj uloge nije isto što i primatelj signala, a ta je razlika ono što razinu 14 dijeli od razine 13. *Druga:* namjera se čita iz ishoda — „sustav je pogodio, dakle prepoznao je namjeru" — čime se mehanizam zamjenjuje rezultatom; prepoznata namjera mora biti dio mehanizma, a ne objašnjenje koje dolijepimo nakon uspjeha. *Treća:* obveza se pripiše obrascu jezika (pronađen performativ u tekstu) bez ijednoga priznanja; performativ u tekstu koji nitko ne priznaje jest jezični obrazac, a ne preuzeta obveza. To je najčešći izvor tvrdnje da je razina 14 „već prijeđena".
 
+**Što to mijenja u praksi.** Komunikacijski čin provjerava se uvjet po uvjet na isječku, uz shemu objavljenu prije gledanja ishoda. Time se sprječava da se ishod pročita kao mehanizam, da se iz točnoga odgovora zaključi kako je namjera prepoznata, i da se performativ u tekstu uzme kao preuzeta obveza. Ograda je u tome da se mjeri prisutnost pokazatelja, a ne unutrašnjost: obvezu pokazuje tek niz poteza i zapis, pa najslabije pokriven uvjet traži najviše jedinica i najjasnije pravilo.
+
 ### Kako bismo znali da griješimo
 
 - Ako se komunikacijski čin može u cijelosti objasniti **bez** prepoznate namjere i bez obveze (čistom inferencijom iz distribucijskih podataka), razina 14 reducira se na 8 + 13 i **nosiva tvrdnja knjige pada**.

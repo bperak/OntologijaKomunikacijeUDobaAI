@@ -141,7 +141,7 @@ Razina je, dakle, **trostruka shema**: tip entiteta + tip relacije + tip svojstv
 | 6 Motion | putanja, brzina | 2.2.1, dodatak I.2 |
 | 7 SequenceActivity | slijed koraka, recept, obred | 6.3, 11.1 |
 | 8 InformationSystem | oznaka koja nosi razliku, znak, vektorski zapis | 4.2, 9.2 |
-| 9 Perception | opažanje predmeta | 10.2, 11.2 |
+| 9 Perception | opažanje predmeta | 2.2.2, 7.7 |
 | 10 Affect | strah, radost — kao mreža leksema | 6.4, 6.6 |
 | 11 Cognition | pojam, mentalna reprezentacija | 6.6, 11.4 |
 | 12 SocIdentity | ime, uloga, račun, ključ | 8.4, 14.1 |

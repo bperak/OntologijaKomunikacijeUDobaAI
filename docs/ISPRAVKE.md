@@ -553,3 +553,40 @@ proširena na prvi, treći, četvrti i peti uvjet, i kontrolna lista u §2.4 sad
 7. **Uvod:** pet stupnjeva vodi na *pogl. 4.3*, a tablica 4.3 stoji u **4.4** → uputa proširena na
    *„→ pogl. 4.3–4.4; tablica 4.3"*.
 
+## ZAPIS-013 — Sadržajni prolaz: djelovanje i povezanost (3. 10. 2026.)
+
+**Povod (autor):** „posvetio bih još razjašnjavanju sadržaja knjige — je li dovoljno jasna, je li sve
+povezano, jesu li tvrdnje dovoljno objašnjene pravom motivacijom, primjerima, primjenama; ovo ne bi
+trebalo biti tek teorijsko djelo, nego jasno i utemeljeno promišljanje koje upućuje na jasnije djelovanje."
+
+**Metoda:** pet neovisnih čitanja (poglavlja 1–16, uvod, zaključak, studija) + provjera svakog nalaza na
+izvoru; zatim pet radnika na točno određene zahvate. **Pravilo za svaki dodatak:** izveden je isključivo
+iz onoga što poglavlje već tvrdi — **nijedna nova tvrdnja, izvor ni brojka**; aparat (popisi, tablice,
+slike, citati, upute, podebljani pojmovi) netaknut.
+
+**Što je dodano:**
+- **Praktikum u pogl. 4** (10 koraka s ulazom/odlukom/izlazom + „Ako ne radi" + „Što je izlaz") i
+  **pogl. 9** (7 koraka, isti ustroj). Time **svako poglavlje ima praktični blok** (ranije: 4 i 9 nisu imala).
+- **„Što to mijenja u praksi"** u pogl. **1, 6, 7, 9 i 11** — 2–4 rečenice o tome što čitatelj radi
+  drukčije, što time sprječava i koja je ograda (5/16 poglavlja; u ostalima posljedicu nose praktikum,
+  aktivnosti i falsifikacijski blok). Uvod je usklađen: odlomak stoji „ondje gdje nalaz ima neposrednu
+  posljedicu za rad".
+- **Pogl. 6:** tri konkretna primjera iz mreže straha (leksemi, konstrukcija *od straha*, konstrukcije
+  miješanja) i **prediktivni test** u 6.5 s pragom i ishodom koji ga obara.
+- **Pogl. 11 (najslabije uklopljeno):** izrečeno nasljeđivanje **11.4 → 12.4**, uvršten dokumentirani
+  primjer (AISI, „provjera bez provjeravatelja") u 11.3, odlomak o praksi; i u **13.6** dodana uputa
+  **→ 11.4** (pad kriterija PROVJERA).
+- **Motivacija nabrajanja:** pogl. 5 (kriterij izbora šest definicija; neposredna posljedica za modele u
+  5.6), pogl. 8 (kriterij izdvajanja pet vrsta; po jedna rečenica uz Tomasella, Elder-Vassa, Archera i
+  Sawyera; obrazloženje tablice u 8.4), pogl. 12 (test spajanja i razdvajanja primijenjen na pet dodataka).
+- **Mjesta provjere uz otvorene stavke:** pogl. 9 (četiri stavke) i pogl. 15 (15-2 do 15-4: „gdje provjeriti",
+  a gdje stvarno mjesto ne postoji, izričito „provjera traži novi izvor").
+
+**Mjereni pomak:** proza 99.724 → **102.119** riječi; poglavlja s praktičnim blokom **14/16 → 16/16**;
+poglavlja s odlomkom o posljedici za rad 0 → **5**; ulazne upute na pogl. 11 **7 → 8**; karta razina:
+ispravljene i upute za razine 4–6 (→ 2.2.1, dodatak I.2) i razinu 9 (→ 2.2.2, 7.7).
+
+**Otvoreno (za odluku autora):** (a) proširiti „Što to mijenja u praksi" na sva poglavlja (sada 5/16 —
+proširenje je moguće, ali samo ondje gdje posljedica nije općenita, da se ne uvede prazna proza);
+(b) oznaka praktikuma: u pogl. 4 sada je natuknica **Praktikum.** (usklađeno s pogl. 6, 9, 10, 12).
+

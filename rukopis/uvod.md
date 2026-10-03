@@ -54,7 +54,7 @@ Bez te razlike okvir proizvodi dvije jednako pogrešne tvrdnje iz istoga propust
 
 Poglavlja imaju isti oblik, i taj oblik je dio metode:
 
-**teza** (jedan odlomak) → **teorijski okvir** → **metode i podaci** → **praktikum** (kod korak po korak, uz odjeljak „Ako ne radi"; u teorijskim poglavljima na njegovu mjestu stoji **radni primjer**) → **vježbe** (🟢 provjeri razumijevanje, 🟡 primijeni na vlastite podatke, 🏆 istraživački zadatak) → **sažetak i ključni pojmovi** → **„Kako bismo znali da griješimo"**. Znak **❓** označuje **nepotvrđenu stavku**: tvrdnja je izrečena, ali izvor ili mjerenje za nju još ne postoji, pa se takva stavka u knjizi ne rabi kao dokaz i ne citira se.
+**teza** (jedan odlomak) → **teorijski okvir** → **metode i podaci** → **praktikum** (kod korak po korak, uz odjeljak „Ako ne radi"; u teorijskim poglavljima na njegovu mjestu stoji **radni primjer**) → **vježbe** (🟢 provjeri razumijevanje, 🟡 primijeni na vlastite podatke, 🏆 istraživački zadatak) → **sažetak i ključni pojmovi** → **„Što to mijenja u praksi"** (dvije do četiri rečenice o tome što čitatelj radi drukčije, ondje gdje nalaz ima neposrednu posljedicu za rad) → **„Kako bismo znali da griješimo"**. Znak **❓** označuje **nepotvrđenu stavku**: tvrdnja je izrečena, ali izvor ili mjerenje za nju još ne postoji, pa se takva stavka u knjizi ne rabi kao dokaz i ne citira se.
 
 Posljednji odjeljak nije ukras. On je mjesto na kojem svako poglavlje kaže **koji bi ga rezultat oborio**; knjiga koja to ne može reći nije teorija, nego pripovijest (→ pogl. 16.5).
 

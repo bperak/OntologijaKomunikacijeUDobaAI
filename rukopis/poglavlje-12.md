@@ -24,6 +24,8 @@ Uvodna tablica služi kao nacrt; pojedinosti slijede.
 | **ORCHESTRATION** | **petlje, delegiranje, podagenti** — posao se dijeli i sastavlja | 13 | ako se koordinacija svodi na jedan poziv i jedan odgovor, nema interakcije nego ulančavanja |
 | **INTEROPERABILITY** | **protokoli**: dogovoreni način da drugo biće pristupi istom alatu i istom zadatku | 14 | ako sučelje postoji samo unutar jednog proizvođača, nema konvencije nego formata |
 
+Zašto baš pet dodataka, a ne manje? Isti test spajanja i razdvajanja po kojemu je u pogl. 2.4 izbrojeno šesnaest razina vrijedi i ovdje: dva bi dodatka bila jedan da imaju isti tip svojstva i relacije (→ pogl. 2.4). ACTION i ORCHESTRATION vuku na istu razinu, a razdvaja ih tip relacije: djelovanje je pojedinačna operacija, a orkestracija je relacija s unutrašnjom strukturom, u kojoj se koraci biraju prema ishodu prethodnih. Da je petlja samo dulji niz poziva, iste vrste a veće količine, ta bi dva dodatka bila jedan.
+
 ### ACTION: izlaz postaje operacija
 
 Prvi dodatak je najvidljiviji i zato ga treba opisati najpreciznije. **Djelovanje** (engl. *action*) znači da izlaz modela nije samo niz znakova koji čitatelj tumači, nego operacija koja u sustavu nešto mijenja. Ona poziva funkciju, piše u bazu, otvara zahtjev, šalje poruku, pokreće posao. Razlika nije u obliku zapisa — i tekst se može raščlaniti i izvršiti — nego u tome gdje se nalazi **granica odgovornosti**. Kod teksta je izvršitelj onaj koji tekst pročita i po njemu postupi. Kod djelovanja granica je u samome lancu. Posljedica nastaje prije nego što je itko pročita.

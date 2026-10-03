@@ -8,7 +8,7 @@
 
 Svaki lingvistički posao počinje odgovorom na pitanje *što je jezik*. Odgovor se obično daje u jednoj rečenici, kao uvodna formalnost. To je najteži potez u ovome poglavlju, jer definicija unaprijed odlučuje gdje će se značenje tražiti — i time odlučuje što će uopće vrijediti kao dokaz. Definicija nije neutralan opis predmeta. Ona je odluka o tome što u predmet ulazi, a što ostaje izvan njega.
 
-Šest definicija koje ova knjiga uzima kao referentne (usporedbu preuzimamo iz izlaganja na kojem se knjiga temelji: Perak 2026, §2) **međusobno se ne slažu**. Nesuglasje nije sramota ove literature, nego njezin rezultat — i zato ga valja pokazati, a ne prešutjeti. Prijevodi su naši; izvorni termin donosimo ondje gdje je ključan.
+Šest definicija koje ova knjiga uzima kao referentne (usporedbu preuzimamo iz izlaganja na kojem se knjiga temelji: Perak 2026, §2) **međusobno se ne slažu**. Nesuglasje nije sramota ove literature, nego njezin rezultat — i zato ga valja pokazati, a ne prešutjeti. Prijevodi su naši; izvorni termin donosimo ondje gdje je ključan. Kriterij izbora je razilaženje: svaka od šest definicija smješta značenje na drugo mjesto i traži drugu vrstu dokaza.
 
 Edward Sapir (1921: 7) definira jezik kao „čisto ljudsku i neinstinktivnu metodu prenošenja ideja, emocija i želja pomoću voljno proizvedenih simbola". Posljedica je dvostruka. Značenje stanuje u govorniku, a simboli su prijevozno sredstvo; uz to, riječ *purely human* zatvara vrata. Pitanje „je li model jezik?" nije time empirijsko pitanje nego definicijsko — odgovor je „ne" već u prvoj rečenici definicije, i zato ga ne možemo ni potvrditi ni oboriti podacima.
 
@@ -124,6 +124,8 @@ Valja izričito navesti i **što ovo poglavlje ne isključuje**, jer se u raspra
 - **Ne isključuje pitanje referencije.** Kako se simbol uopće dokopava svijeta otvoren je problem (Harnad 1990; → pogl. 10), a ovo poglavlje govori o strukturi, ne o dodiru sa svijetom.
 - Ne odlučuje o tome što je u jeziku urođeno. Tvrdi samo da stabilnost i struktura koju mjerimo nastaju u uporabi; time se ne tvrdi ništa o tome što organizam unaprijed donosi.
 - **I ne govori o modelima.** Ako značenje dolazi iz uporabe, tada sustav koji uči iz uporabe ima, načelno, pristup toj strukturi — ali to je tvrdnja o strukturi, a ne o razumijevanju, referenciji ili odgovornosti, i traži vlastiti dokaz (→ pogl. 9; → pogl. 12).
+
+Za modele iz toga slijedi neposredna posljedica: ako je značenje položaj u mreži uporabe, onda je i ono što model nosi relacijska struktura, a ne popis definicija. Ta se struktura dade usporediti s korpusom iz kojega je učio, pa se pitanje o modelu postavlja kao pitanje njegova položaja u mreži. Ono što time nije riješeno jest referencija i razumijevanje: položaj pokazuje mjesto jedinice, a ne njezin dodir sa svijetom.
 
 ## 5.7 Radni primjer: od okruženja do stabilnoga obrasca
 

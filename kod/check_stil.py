@@ -231,7 +231,7 @@ def skupovi(put):
     # uputa. Zato se traži poznata oznaka, a masni markeri se prije toga uklanjaju.
     t_clean = re.sub(r"[*_`]", "", t)
     upute = set(re.findall(
-        r"→\s*(?:pogl\.|dodatk\w*|Slika|Tablica|odjeljak|docs/\S+|data/\S+|kod/\S+)\s*[IVXLC0-9][\w.,–\-]*",
+        r"→\s*(?:pogl\.|dodatk\w*|Slika|Tablica|odjeljak|docs/\S+|data/\S+|kod/\S+)\s*[IVXLC0-9][\w.]*",
         t_clean))
     return citati, godine, brojke, naslovi, upute
 
