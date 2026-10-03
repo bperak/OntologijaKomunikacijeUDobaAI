@@ -3,7 +3,7 @@
 
 Tri vrste grešaka koje se u ovome projektu stalno vraćaju, a oku su nevidljive:
 
-  1. **ćirilični homoglifi** — „Gricеova" (е ćirilično), „kontekст" (с, т), „Rаčuna" (а).
+  1. **ćirilični homoglifi** — npr. „Griceova" s ćiriličnim \u0435, „kontekct" s \u0441 i \u0442, „Ra\u0441una".
      Izgledaju kao latinična slova, pretraživanje ih ne nalazi, a u tisku izlaze kao
      drugi znak. Provjeravaju se svi .md i .mmd izvori.
   2. **zaostali markeri skripti** — `<!-- KRAJ-DIJELA-2 -->`, `TODO`, `FIXME`.

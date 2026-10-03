@@ -6,7 +6,7 @@ Mjeri (po datoteci i ukupno):
   2. dužinu rečenice (srednja vrijednost, udio < 12 i > 40 riječi),
   3. „upravo" i čestični repertoar (naime, dakle, pak, usto, pritom, otud, naprotiv, štoviše,
      dakako, napose, zacijelo, tek) na 10.000 riječi,
-  4. klišejе i menadžerski registar (popis),
+  4. klišeje i menadžerski registar (popis),
   5. popisne retke i retke tablica,
   6. umetke među crtama (par „ — … — " u istoj rečenici) — informativno.
 
@@ -26,7 +26,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RUK = os.path.join(ROOT, "rukopis")
 GENERIRANO = {"sadrzaj.md", "dodatak-E-izvori-i-brojke.md", "dodatak-G-kazalo.md"}
 
-PRAG = {"bold": 10.0, "rec_min": 20.0, "rec_max": 30.0, "kratke": 18.0, "duge": 14.0,
+PRAG = {"bold": 15.0, "bold_dugi": 10.0, "rec_min": 20.0, "rec_max": 30.0, "kratke": 18.0, "duge": 14.0,
         "upravo": 3.0, "cestice_razlicitih": 5, "kliseji": 5, "popis": 280}
 CESTICE = ["naime", "dakle", "pak", "usto", "pritom", "otud", "naprotiv", "štoviše",
            "dakako", "napose", "zacijelo", "tek"]
@@ -61,14 +61,18 @@ def mjere(put):
     t = proza(tekst)
     rijeci = re.findall(r"[^\W\d_]+", t, re.UNICODE)
     N = len(rijeci) or 1
-    podebljano = " ".join(re.findall(r"\*\*(.+?)\*\*", tekst, re.S))
+    odlomci = re.findall(r"\*\*(.+?)\*\*", tekst, re.S)
+    podebljano = " ".join(odlomci)
     bold_n = len(re.findall(r"[^\W\d_]+", podebljano, re.UNICODE))
+    dugi = [o for o in odlomci if len(o.split()) > 6]
     rec = [r for r in re.split(r"(?<=[.!?])\s+(?=[A-ZČĆĐŠŽ„(])", t) if len(r.split()) >= 3]
     duz = [len(r.split()) for r in rec] or [0]
     broj = lambda uzorak: len(re.findall(uzorak, t, re.I))
     c = {k: broj(r"\b" + k) for k in CESTICE}
     return {
         "rijeci": N, "bold": 100.0 * bold_n / N,
+        "bold_dugi": (100.0 * len(dugi) / len(odlomci)) if odlomci else 0.0,
+        "bold_odlomaka": len(odlomci),
         "rec": statistics.mean(duz), "kratke": 100.0 * sum(1 for d in duz if d < 12) / len(duz),
         "duge": 100.0 * sum(1 for d in duz if d > 40) / len(duz),
         "upravo": 10000.0 * broj(r"\bupravo\b") / N,
@@ -92,6 +96,8 @@ def provjera(zbroj):
     nal = []
     if zbroj["bold"] > PRAG["bold"]:
         nal.append(f"podebljano {zbroj['bold']:.1f}% > {PRAG['bold']}%")
+    if zbroj["bold_dugi"] > PRAG["bold_dugi"]:
+        nal.append(f"podebljanih odlomaka >6 riječi {zbroj['bold_dugi']:.1f}% > {PRAG['bold_dugi']}% (podebljane tvrdnje)")
     if not (PRAG["rec_min"] <= zbroj["rec"] <= PRAG["rec_max"]):
         nal.append(f"srednja rečenica {zbroj['rec']:.1f} izvan {PRAG['rec_min']}–{PRAG['rec_max']}")
     if zbroj["kratke"] < PRAG["kratke"]:
@@ -150,7 +156,7 @@ def main():
         if not os.path.isabs(samo):
             samo = os.path.join(ROOT, samo)
 
-    zbroj = {"rijeci": 0, "bold": 0.0, "rec": [], "kratke": [], "duge": [], "upravo": 0.0,
+    zbroj = {"rijeci": 0, "bold": 0.0, "bold_dugi": 0.0, "rec": [], "kratke": [], "duge": [], "upravo": 0.0,
              "cestice": {k: 0 for k in CESTICE}, "kliseji": 0, "popis": 0, "tablice": 0, "crte": 0.0}
     svi = []
     for p in datoteke(samo):
@@ -161,12 +167,14 @@ def main():
         zbroj["kliseji"] += m["kliseji"]
         zbroj["popis"] += m["popis"]
         zbroj["tablice"] += m["tablice"]
+        zbroj["bold_dugi"] += m["bold_dugi"]
         for k in CESTICE:
             zbroj["cestice"][k] += m["cestice"][k]
         zbroj.setdefault("_rec", []).append(m)
 
     N = zbroj["rijeci"] or 1
     zbroj["bold"] = 100.0 * zbroj["bold"] / N
+    zbroj["bold_dugi"] = statistics.mean([m["bold_dugi"] for _, m in svi])
     sve_duz = []
     for _, m in svi:
         sve_duz.extend([m["rec"]] * 1)
@@ -181,7 +189,7 @@ def main():
         for p, m in svi:
             ispis(p, m)
     print("\n=== UKUPNO ===")
-    print(f"riječi {zbroj['rijeci']} | podebljano {zbroj['bold']:.1f}% | rečenica (prosjek poglavlja) "
+    print(f"riječi {zbroj['rijeci']} | podebljano {zbroj['bold']:.1f}% (dugi odlomci {zbroj['bold_dugi']:.1f}%) | rečenica (prosjek poglavlja) "
           f"{zbroj['rec']:.1f} | <12 {zbroj['kratke']:.1f}% | >40 {zbroj['duge']:.1f}% | "
           f"„upravo“ {zbroj['upravo']:.1f}/10k | čestice {zbroj['cestice_raz']}/12 | "
           f"klišeji {zbroj['kliseji']} | popis {zbroj['popis']} | tablice {zbroj['tablice']} | "

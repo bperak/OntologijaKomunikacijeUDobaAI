@@ -102,7 +102,7 @@
 
 **Poglavlje 10: Kontekstualni obrat — pažnja, slojevi, predikcija** — ✅ (predavanje 16 + Qwen3 eksperimenti)
 - 10.1 Transformer: reprezentacija se računa iz cijelog konteksta (Vaswani 2017)
-- 10.2 Slojevi i mjesta: gdje u modelu živе koje informacije
+- 10.2 Slojevi i mjesta: gdje u modelu žive koje informacije
 - 10.3 Praktikum: Qwen3-Embedding-8B (4096-dim, vlastita infrastruktura) — poziv, evaluacija, zamke
 
 **Poglavlje 11: Geometrija značenja na djelu — što se vidi, a što ne** — ✅ (predavanje 19–20)

@@ -40,7 +40,7 @@ Figure su **autorske** (Benedikt Perak), izrađene za predavanje *Elements of Co
 
 ⚠️ **Zamka koju alat rješava.** Mermaid CLI (mmdc) upisuje natpise u SVG kao HTML (`<foreignObject>`). Vektorski rendereri (resvg, InDesign, LaTeX) takve natpise **odbacuju** i okviri ostaju prazni — greška koja se otkrije tek u prijelomu. `kod/mermaid_render.py` zato svaki `foreignObject` prevodi u pravi `<text>` element i ispisuje kontrolu (mora biti 0 preostalih, uz popis vektorskih natpisa).
 
-Izvori dijagrama ne smiju sadržavati ćirilične homoglife (npr. „Rаčuna" s ćiriličnim *а*) — provjerava `kod/check_cisto.py`.
+Izvori dijagrama ne smiju sadržavati ćirilične homoglife (npr. „Računa" s ćiriličnim *a*) — provjerava `kod/check_cisto.py`.
 
 ## Koja je slika gdje u tekstu
 

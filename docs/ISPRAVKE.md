@@ -351,7 +351,7 @@ Radoslav Katičić stilom" → standard se ovaj put **zapisuje i mjeri**, a ne i
   rade posao; bez menadžerskoga registra; stega citata i brojki netaknuta; stil ne mijenja sadržaj),
   tablica „što se dira / što se ne dira", pragovi i pet stvarnih primjera prije → poslije.
 - **`kod/check_stil.py`** — mjerni alat: gustoća podebljanoga, dužina rečenice, udio kratkih i dugih
-  rečenica, „upravo", čestični repertoar, klišejе, popisni redci, umetci među crtama; te
+  rečenica, „upravo", čestični repertoar, klišeje, popisni redci, umetci među crtama; te
   `--usporedi stara nova` koji dokazuje da citati, godine, brojke, naslovi i upute **nisu izgubljeni**.
 - **Poglavlje 1 prepričano** kao uzorak. Mjere prije → poslije:
 
@@ -360,7 +360,7 @@ Radoslav Katičić stilom" → standard se ovaj put **zapisuje i mjeri**, a ne i
 | podebljano (udio riječi) | 11,0 % | **0,6 %** | ≤ 10 % (cilj 5) |
 | „upravo" | 14,6 / 10.000 | **2,4 / 10.000** | ≤ 3 |
 | čestični repertoar (različitih) | 3 | **5** (dakle, pritom, tek, naime, usto) | ≥ 5 |
-| klišejе | 1 („u okviru") | **0** | ≤ 5 u knjizi |
+| klišeje | 1 („u okviru") | **0** | ≤ 5 u knjizi |
 | umetci među crtama | 21,9 / 10.000 | **7,3 / 10.000** | iznimka |
 | srednja rečenica | 21,8 | 21,3 | 20–30 |
 | \<12 riječi / >40 riječi | 27,0 % / 7,8 % | 27,7 % / 6,8 % | ≥ 18 % / ≤ 14 % |
@@ -374,3 +374,24 @@ Radoslav Katičić stilom" → standard se ovaj put **zapisuje i mjeri**, a ne i
 
 **Redoslijed ostaje obvezujući:** stilski prolaz → recenzije → lektura (lektura poslije stila, inače se
 plaća dvaput i potvrda pada). Sljedeće: poglavlja 2–16, jedno po jedno, uz mjerenje prije i poslije.
+
+## ZAPIS-007 — Odluka autora: masno slovo ostaje na POJMOVIMA (30. 9. 2026.)
+
+Autor: „Ostavi ovo masno, čini mi se jasnije kad su pojmovi otisnuti masnim slovima, zar ne?" — odluka
+je prihvaćena i **ugrađena u standard kao razlika između dviju vrsta masnoga**:
+
+- **podebljan pojam (dopušteno, poželjno):** masno označuje nazivlje — pojam se podeblja kad se uvodi i
+  definira te ondje gdje je nositelj tvrdnje (*holon*, *gotovo-razloživost*, *slaba emergencija*,
+  *kausalna emergencija*, *kauzalno isključivanje*, *artefakt mjere*, *supervenijencija*);
+- **podebljana tvrdnja (zabranjeno):** masno se ne stavlja na cijelu rečenicu ni na zaključak;
+  naglasak tvrdnje nose sintaksa, red riječi i čestice.
+
+**Mjerni kriterij u `check_stil.py`** sada razlikuje oboje: ukupno podebljano ≤ 15 % riječi, a
+podebljanih odlomaka **dužih od šest riječi** ≤ 10 % svih podebljanih odlomaka (to su „podebljane
+tvrdnje"). Poglavlje 1 nakon vraćanja masnoga: **podebljano 3,0 %** (prije zahvata 11,0 %), dugih
+podebljanih odlomaka **1,7 %**, uz zadržane sve ostale dobitke („upravo" 2,4/10.000, čestice 5/12,
+klišeje 0, umetci među crtama 7,3/10.000).
+
+**Napomena (provjereno u kodu):** kazalo **ne** ovisi o masnom slovu — `kod/kazalo_build.py` gradi ga iz
+registra pojmova (`pojmovnik/koncepti.csv`) i baze referenci, pa masno slovo nije uvjet za indeks; ono
+služi čitatelju u tekstu i listanju knjige.

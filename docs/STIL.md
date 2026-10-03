@@ -12,9 +12,17 @@ Mjerni alat: `kod/check_stil.py`. Mjeri se **prije i poslije** svakoga zahvata.
 
 ## 1. Temeljna pravila
 
-1. **Naglasak nosi sintaksa.** Masno slovo je iznimka, ne navika. Podebljano se dopušta u: tezi
-   poglavlja (jedna rečenica), definicijskom citatu, zaglavljima tablica i naslovima aparata.
-   **Cilj: ispod 10 % riječi, poželjno oko 5 %.** (Stanje prije zahvata: **44,5 %**.)
+1. **Dvije su vrste masnoga, i samo je jedna dopuštena.**
+   - **Podebljan POJAM — dopušteno i poželjno.** Masno slovo označuje **nazivlje**: pojam se podeblja
+     kad se uvodi i definira te na mjestima gdje je nositelj tvrdnje (*holon*, *gotovo-razloživost*,
+     *slaba emergencija*, *kauzalno isključivanje*, *artefakt mjere*). Tako čitatelj vidí gdje se
+     uvodi termin, a tisak dobiva sidrišta za listanje.
+   - **Podebljana TVRDNJA — zabranjeno.** Masno se **ne** stavlja na cijelu rečenicu, na tvrdnju ni na
+     zaključak („**postoje cjeline čije se ponašanje ne može pročitati iz popisa dijelova**"). Naglasak
+     tvrdnje nosi sintaksa, red riječi i čestica; podebljana tvrdnja je žvakana misao.
+   - **Pragovi:** ukupno podebljano **≤ 15 %** riječi (cilj 5–10 %, jer pojmovi su česti), a podebljanih
+     odlomaka **dužih od šest riječi ≤ 10 % svih podebljanih odlomaka** (`check_stil.py` to mjeri
+     odvojeno). Stanje prije zahvata: 44,5 % riječi, s brojnim podebljanim rečenicama.
 2. **Rečenica je jedinica argumenta.** Srednja dužina **20–30 riječi**, najmanje **18 %** rečenica kraćih
    od 12 riječi i najviše **14 %** dužih od 40. Duga rečenica smije biti duga zbog **zavisnih surečenica**,
    a ne zbog nizanja umetaka između dviju crta.
@@ -53,7 +61,8 @@ Mjerni alat: `kod/check_stil.py`. Mjeri se **prije i poslije** svakoga zahvata.
 
 | mjera | prag |
 |---|---|
-| gustoća podebljanoga (udio riječi) | ≤ 10 % (cilj 5 %) |
+| podebljano ukupno (udio riječi) | ≤ 15 % (cilj 5–10 %: pojmovi) |
+| podebljani odlomci duži od 6 riječi (udio svih podebljanih odlomaka) | ≤ 10 % (podebljane tvrdnje = 0) |
 | srednja dužina rečenice | 20–30 riječi |
 | rečenice kraće od 12 riječi | ≥ 18 % |
 | rečenice duže od 40 riječi | ≤ 14 % |
@@ -66,7 +75,8 @@ Mjerni alat: `kod/check_stil.py`. Mjeri se **prije i poslije** svakoga zahvata.
 
 | prije | poslije |
 |---|---|
-| „…počinje jednim gotovo banalnim uvidom: **postoje cjeline čije se ponašanje ne može pročitati iz popisa njihovih dijelova.**" | „…počinje jednim gotovo banalnim uvidom: postoje cjeline čije se ponašanje ne može pročitati iz popisa njihovih dijelova." |
+| „…počinje jednim gotovo banalnim uvidom: **postoje cjeline čije se ponašanje ne može pročitati iz popisa njihovih dijelova.**" | „…počinje jednim gotovo banalnim uvidom: postoje cjeline čije se ponašanje ne može pročitati iz popisa njihovih dijelova." *(podebljana tvrdnja → obično)* |
+| „Koestler je za istu činjenicu predložio riječ *holon*." | „Koestler je za istu činjenicu predložio riječ **holon**." *(podebljan pojam → dopušteno)* |
 | „Ta arhitektura nije estetski ukras — ona je razlog zašto složeni sustavi uopće mogu nastati i opstati." | „Ta arhitektura nije estetski ukras, nego razlog zašto složeni sustavi uopće mogu nastati i opstati." |
 | „**Prvo**, razina nije klasa stvari, nego **klasa svojstava i relacija**." | „Najprije, razina nije klasa stvari, nego klasa svojstava i relacija." |
 | „Upravo zato Simonova „gotovo-razloživost" nije samo tehnički pojam…" | „Zato Simonova „gotovo-razloživost" nije samo tehnički pojam…" |
