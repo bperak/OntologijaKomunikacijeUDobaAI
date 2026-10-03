@@ -121,7 +121,7 @@ Drugi primjer isti postupak vodi u domenu značenja. Ovdje se najavljuje, a izvo
 
 > **Izvor.** Mreža je objavljena u: Ban Kirigin, T. & Perak, B. (2020). *Corpus-Based Syntactic-Semantic Graph Analysis: Semantic Domains of the Concept „Feeling“.* Rasprave: Časopis Instituta za hrvatski jezik i jezikoslovlje 46(2): 957–996.
 
-**Granica ovoga primjera.** Mreža **ne sadrži** značenje; ona pokazuje strukturu uporabe. To nije jezična finesa nego mjesto na kojem se ovaj okvir može oboriti: ako mrežna struktura ne predviđa ništa izvan podataka iz kojih je izgrađena, mreža je lijepa slika i ništa više. Isti se zahtjev, u drugom zapisu, prenosi u treći dio knjige: organizacija se može zapisati kao graf ili kao vektorski prostor (Mikolov et al. 2013; Pennington et al. 2014; Vaswani et al. 2017; Qwen Team 2025), a pitanje je uvijek isto. Nosi li taj zapis nešto izvan sebe?
+**Granica ovoga primjera.** Mreža **ne sadrži** značenje; ona pokazuje strukturu uporabe. To nije jezična finesa nego mjesto na kojem se ovaj okvir može oboriti: ako mrežna struktura ne predviđa ništa izvan podataka iz kojih je izgrađena, mreža je lijepa slika i ništa više. Isti se zahtjev, u drugom zapisu, prenosi u treći dio knjige: organizacija se može zapisati kao graf ili kao vektorski prostor (Mikolov et al. 2013; Pennington et al. 2014; Vaswani et al. 2017; Qwen Team 2025), a pitanje je uvijek isto. Nosi li taj zapis nešto izvan sebe? Vektorski prostor nije pritom nova teorija, nego drugi zapis istoga; uvodi se u devetom poglavlju (→ pogl. 9.2).
 
 ## 3.6 Dijagnostika: u kojem je koraku neki sustav — i gdje se postupak zaustavlja
 

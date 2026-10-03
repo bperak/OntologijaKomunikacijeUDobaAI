@@ -120,7 +120,7 @@ Knjiga na taj prigovor odgovara na tri načina. Sva tri su izbjegavanja, a ne rj
 
 Ne tvrdimo, naime, *downward causation* u jakom smislu. Donald Campbell (1974) i Karl Popper s Johnom Ecclesom (1977) dopuštali su da viša razina selektivno djeluje na nižu, ali u ovoj knjizi takve tvrdnje nisu potrebne. Dovoljno nam je da organizacija dijelova *mijenja učinke* koje dijelovi proizvode, a to je već tvrdnja o sastavljanju, ne o dodatnoj sili.
 
-Razine u ovoj knjizi, usto, nisu kategorije bića, nego *kategorije opisa i mjerenja*. To ih ne čini proizvoljnima, jer je relacijska organizacija stvarna, ali ih čini *provjerljivima*: u petom poglavlju razina 14 mora pokazati razliku u podacima, inače nije potrebna.
+Razine u ovoj knjizi, usto, nisu kategorije bića, nego *kategorije opisa i mjerenja*. To ih ne čini proizvoljnima, jer je relacijska organizacija stvarna, ali ih čini *provjerljivima*: u sedmom poglavlju razina 14 mora pokazati razliku u podacima, inače nije potrebna.
 
 Kimov prigovor, naposljetku, ostaje na snazi kao *trajno ograničenje*. Ako se u nekom slučaju pokaže da viša razina ne dodaje ništa ni opisu ni predviđanju, moramo odustati od nje u tom slučaju. Zato svako poglavlje ove knjige završava odjeljkom „Kako bismo znali da griješimo". U 14. poglavlju taj će prigovor dobiti svoj najoštriji oblik. Ako „funkcionalni parnjaci" društvenih razina u agentskim sustavima nisu razlučivi od „pravih" slučajeva nijednim mjerljivim kriterijem, onda je razlika verbalna, i knjiga to mora priznati.
 

@@ -202,9 +202,9 @@ koncepti:
     srodni: [razina, slaba-emergencija]
     pojavljuje: [razine/4, dsk/5]
   - id: falsifikacijski-okvir
-    hr: falsifikacijski okvir
+    hr: 'falsifikacijski okvir (u knjizi: „Kako bismo znali da griješimo")'
     en: falsification framework
-    definicija: "Odjeljak na kraju svakog poglavlja koji navodi koje bi tvrdnje i koji rezultat oborili; teorija koja ne može pasti nije teorija."
+    definicija: 'Odjeljak na kraju svakog poglavlja koji navodi koje bi tvrdnje i koji rezultat oborili; teorija koja ne može pasti nije teorija. U knjizi nosi naslov „Kako bismo znali da griješimo".'
     kanonski: razine/16
     srodni: [artefakt-mjere]
     pojavljuje: [razine/1, razine/4]

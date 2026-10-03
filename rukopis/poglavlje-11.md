@@ -273,7 +273,7 @@ Tri konkretna znaka upozorenja, pojedinačno dovoljna:
 2. **Provjera bez razlike.** „Unutarnja" provjera ne daje ništa što ne daje vanjska (usporedba dviju varijanti na istim zadacima).
 3. **Kriteriji se stapaju.** CILJ, PROVJERA i ODGOVORNOST ne mogu se razdvojiti mjerenjem.
 
-Ako se pokaže bilo koji od tri, poglavlje se mora prepisati: od „mišljenje kao procesiranje" ostaje „dulji izlaz", a pitanje o mišljenju vraća se u petnaesto poglavlje kao **otvoreno**, ne kao stav (→ pogl. 15).
+Ako se pokaže bilo koji od tri, poglavlje se mora prepisati: od „mišljenje kao procesiranje" ostaje „dulji izlaz", a pitanje o mišljenju vraća se u šesnaesto poglavlje kao **otvoreno**, ne kao stav (→ pogl. 16.1).
 
 ### Vježbe
 

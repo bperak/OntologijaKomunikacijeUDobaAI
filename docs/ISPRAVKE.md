@@ -697,3 +697,42 @@ Proza: dodano ~1.700 riječi uređaja. Provjere nakon svake izmjene: struktura (
 aparata), sadržaj (0 izgubljenih citata/godina/brojki/naslova/uputa), pragovi stila svih 17 datoteka,
 `check_lit`, `check_fakti --strict`, `check_cisto`, `check_refs`, `check_links` — sve prolazi.
 
+## ZAPIS-017 — Uvođenje pojmova i provjera uputa izrečenih riječima (3. 10. 2026.)
+
+**Povod (autor):** „Ajde to sa uvođenjem pojmova" — pojam koji se rabi prije nego je objašnjen.
+
+**Metoda i mjera.** Pojmovi se čitaju iz knjižinih vlastitih popisa „### Ključni pojmovi"
+(**233 pojma**), pa se za svaki traži prva uporaba u čitateljskom redu (uvod → predgovor → pogl. 1–16 →
+zaključak) i uspoređuje s poglavljem koje ga uvodi. Poklapanje je strogo (cijeli pojam, nastavak samo na
+posljednjoj riječi), a aparat (popis ključnih pojmova, literatura, blok-citati, tablice, slike, kod) ne
+broji se kao uporaba. Mjera je zapisana kao **`kod/check_pojmovi.py`**.
+
+**Rezultat: nema sustavne greške, ali su nađene četiri prave.** Grubi pregled prijavio je 71 slučaj;
+pregledom je utvrđeno da su gotovo svi **legitimna uvođenja u kontekstu** (npr. pogl. 2 definira razinu
+14 pa u njoj navodi „adresiranje", „prepoznatu namjeru" i „zajednički artefakt" — to je uvođenje, ne
+prijevremena uporaba; pojmovi poput „cjelina", „prag" i „uporaba" općenite su riječi). Ostaju četiri
+stvarne greške, i sve četiri su ispravljene:
+
+1. **Pogl. 1** upućivalo je za razinu 14 na **peto** poglavlje; razina 14 je u **sedmome** (pogl. 2 to i
+   kaže: „Sedmo poglavlje mora pokazati da se drugi uvjet u podacima razlikuje od ostalih").
+2. **Pogl. 3**: „vektorski prostor" rabi se u najavi trećega dijela bez ijedne upute; dodana je uputa
+   **→ pogl. 9.2**.
+3. **Pogl. 11**: „pitanje o mišljenju vraća se u petnaesto poglavlje kao otvoreno" — pogl. 15 ne spominje
+   mišljenje **nijednom riječju** (0 pojava); pitanje se vraća u **šesnaesto** (→ pogl. 16.1).
+4. **Pogl. 16 (§16.4 i Sažetak):** tvrdnje o vlastitu rukopisu bile su zastarjele — „knjiga ima **petnaest**
+   poglavlja" (ima **šesnaest**), „zbirna tablica pokriva **dvanaest** poglavlja" (pokriva **šesnaest**), a
+   sama tablica imala je **14 redaka** za 16 poglavlja. Uvršteni su redci za **15.** i **16.** poglavlje,
+   sastavljeni iz njihovih vlastitih falsifikacijskih odjeljaka; zastarjele natuknice („deveto poglavlje
+   nema izričit odjeljak…", „četvrto i petnaesto poglavlje ne postoje") preformulirane su kao riješene.
+
+**Uz to (novo mjerilo, jer ovu vrstu greške nijedna provjera nije hvatale):** upute izrečene **riječima**
+(„u petom poglavlju") nisu bile dio nijedne provjere — `check_refs.py` vidi samo „→ pogl. 7.5". Napisan je
+**`kod/check_poglavlja.py`**: ispisuje sve riječima izrečene upute (112 njih) za pregled i **automatski**
+provjerava tvrdnje o vlastitu rukopisu („ima N poglavlja", „tablica pokriva N poglavlja", broj redaka
+tablice 16.4) protiv stvarnoga stanja. Mjerilo je **regresijski provjereno**: na stanju prije ispravka
+prijavljuje sve tri greške, na sadašnjem ne prijavljuje nijednu.
+
+**Registar pojmova usklađen s knjigom:** pojam `falsifikacijski-okvir` nosio je naziv kojim se u knjizi
+ne služi nijednom; sada stoji **„falsifikacijski okvir (u knjizi: „Kako bismo znali da griješimo")"**, a
+rječnik je ponovno generiran (`pojmovnik/RJECNIK.md`, 28 pojmova).
+
