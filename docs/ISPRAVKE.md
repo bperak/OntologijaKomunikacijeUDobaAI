@@ -909,3 +909,61 @@ moglo provjeriti." → „Ovo poglavlje vrijedi samo ako se može provjeriti."; 
 **Zaključak za registar:** MU-26 ostaje **sito** s tim zabilježenim ishodom pregleda — mjera prijavljuje
 kandidate (76), a presuda je čitanje; nakon pregleda stanje je „nema visaka".
 
+## ZAPIS-024 — Lepršavost i učvršćivanje: mjera, vanjska recenzija i prolaz (3. 10. 2026.)
+
+**Povod (autor):** „Još uvijek mi nedostaje lepršavosti i učvršćivanja teme i posljedica, nekako je još
+uvijek rigidno." + „Možeš li pitati neke jače modele kao zadnje openai ili gemini." + „svakako još konzultiraj
+sol i gemini jače."
+
+**Novo mjerilo:** `kod/check_leprsavost.py` — antiteza („X, a ne Y", „nije X, nego Y", „umjesto", „dok"),
+konektor na početku rečenice, konektori **usred** rečenice („jer", „zato", „pa" — dodao Claude Opus 5.5),
+raznolikost otvaranja odlomaka, SD dužine odlomka. Pragovi: antiteza ≤ 6/1.000 riječi, konektor ≤ 6 %.
+
+**Vanjska recenzija (pet modela preko OpenRoutera):** GPT-5.6 Sol Pro i Gemini 3.1 Pro (prvi krug),
+GPT-6.1 Sol Pro, Gemini Pro i Claude Opus 5.5 (drugi krug). Poslan je paket s mjerama, vlastitim uzorkom i
+četirima isječcima (pogl. 1, 8, 13, 16).
+
+**Što su modeli utvrdili:**
+- uzrok krutosti nije dužina rečenice, nego **polemički stav**: tvrdnja se iznosi kao odgovor na prigovor
+  koji čitatelj još nije postavio;
+- dodatni uzroci: komentiranje vlastita izlaganja („Tablica je najpoštenija forma odgovora"), apstraktne
+  imenice koje nose radnju i zaklanjaju aktere, mnoštvo slikovnih izraza za različite logičke odnose,
+  nejasan doseg pojedinih tvrdnji, prerano zatvaranje pitanja;
+- moja prva četiri pravila **vode u novu jednoličnost** — ispravljena su (v2, `docs/STIL.md`, pravilo 4):
+  tvrdnja prije ograde · ne izgovaraj svaku vezu (ali ne uklanjaj sve) · jedna **tematska putanja** po
+  odlomku · završetak **obavlja posao**, sažetak nije obvezan · opis prije procjene · kratka rečenica ima
+  posao · terminološka stega i u prozi;
+- **učvršćivanje nije formula, nego raspored funkcija** (početak odjeljka · nit u odlomku · posljedica gdje
+  nalaz mijenja zaključak · kraj odjeljka · kraj poglavlja), uz interni test: „Nakon ovoga čitatelj može
+  zaključiti…" — ako se ne može napisati, problem je strukturni.
+
+**Greške koje je recenzija našla (sve ispravljene):**
+1. **pogl. 8:** „lijevi stupac nosi nalaz" — tablica ima **tri** stupca, nalaz je u **srednjem**; sada
+   „Stupac o prisutnome donosi nalaz… Stupac o odsutnome nosi uvjet koji još nije ispunjen."
+2. **moj uzorak:** „o njoj **odlučuje** četvrti dio knjige" daje tomu dijelu prejaku ovlast → „**Može li se
+   ispuniti, ispituje** četvrti dio knjige."
+3. **moj uzorak:** „Nužnost tog razlučivanja **najbolje se vidi**…" prokrijumčarilo je ocjenu → „…**pokazuje**
+   jedan dokumentirani slučaj."
+4. **pogl. 8:** „Tablica je **najpoštenija** forma odgovora" moralizira → opis funkcije.
+
+**Prolaz (9 radnika, svi s prije/poslije i dokazom da sadržaj nije izgubljen):**
+
+| | antiteza/1k | konektor % |
+|---|---|---|
+| uvod | 12,7 → **3,1** | 5,2 → **0,0** |
+| pogl. 1–16 (raspon) | 8,9–13,7 → **0,6–5,5** | 2,9–10,1 → **0,5–3,4** |
+| zaključak | 13,8 → **2,2** | 6,0 → **0,0** |
+
+**Nova formula uhvaćena i uklonjena:** radnici su posljedice uveli istim obrascem („Posljedica je jasna:",
+„Za temu ove knjige posljedica je izravna:"); sedam takvih rečenica raznolikovano je ručno, pa je od pet
+preostalih oblika „Posljedica je…" svaki drukčiji. To je ista zamka koja je 3. 10. zapisana za pravilo 4:
+obvezna završna rečenica daje jednoličnost.
+
+**Provjere nakon prolaza:** sadržaj — **nijedna datoteka s gubitkom** (0 izgubljenih naslova, uputa, citata,
+godina, brojki) · struktura — nema odstupanja · citati, brojke, higijena, upute, pojmovi, povezanost,
+izričaj — svi ✔.
+
+**Otvoreno za autora (nije uredničko pitanje):** (1) pogl. 13, „može ispraviti s obje strane" — doseg nije
+jasan; modeli izričito odbijaju izmisliti značenje; (2) terminologija: razlučiti *falsifikaciju*,
+*opovrgavanje pojedine tvrdnje* i *„obaranje knjige"*, te provjeriti što u 16.5 znači *„potvrditi"*.
+

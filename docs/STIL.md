@@ -79,6 +79,51 @@ Autor: **„To nije jasno na što se odnosi i banalizira izričaj"** (o tezi uvo
 3. **Teza uvoda mora reći dvije stvari imenom:** što nedostaje i što knjiga daje. Bez toga je teza
    najava, a ne tvrdnja.
 
+## 1b. Pravilo 4 — lepršavost i učvršćivanje (v2, nakon vanjske recenzije 3. 10. 2026.)
+
+Autor: **„Još uvijek mi nedostaje lepršavosti i učvršćivanja teme i posljedica, nekako je još uvijek rigidno."**
+Recenzenti: GPT-5.6 Sol Pro i Gemini 3.1 Pro (prvi krug) te GPT-6.1 Sol Pro, Gemini Pro i Claude Opus 5.5 (drugi krug).
+
+**Uzrok krutosti nije duljina rečenice, nego polemički stav:** tvrdnja se iznosi kao odgovor na prigovor koji
+čitatelj još nije postavio, pa tekst zvuči kao niz prigovora i odgovora. Dopunski uzroci (drugi krug):
+tekst komentira vlastito izlaganje („tablica je najpoštenija forma"); apstraktne imenice nose radnju i
+zaklanjaju aktere; previše je slikovnih izraza za različite logičke odnose; neke tvrdnje imaju nejasan
+doseg; autor katkad prerano zatvara pitanje.
+
+**Sedam pravila (v2 — prva četiri ispravljena prema recenziji):**
+
+1. **Nosiva tvrdnja prije ograde.** Najprije iznesi tvrdnju, pa je ogradi. Negaciju zadrži kad određuje
+   doseg ili razdvaja pojmove koje čitatelj lako zamjenjuje (razlika prijenos poruke / prijenos odgovornosti
+   takvo je mjesto). ⛔ Nije cilj ukloniti sve antiteze: cilj je spriječiti njihovo **nizanje**.
+2. **Ne izgovaraj svaku logičku vezu — ali ne uklanjaj sve.** Izostavi konektor kad je odnos jednoznačan iz
+   poretka; zadrži ga kad razlikuje uzrok, uvjet, suprotnost ili zaključak. ⛔ Uklanjanje svih „jer" i „zato"
+   daje odsječan niz — to je nova krutost, samo kraćih rečenica.
+3. **Jedna tematska putanja po odlomku** (ne „jedan subjekt"): odlomak smije prijeći sa sustava na čovjeka i
+   na ustanovu, ali prijelaz mora biti razumljiv iz odnosa koji se opisuje.
+4. **Završetak odlomka obavlja posao:** zaključi, pokaže posljedicu, odredi granicu ili otvori sljedeće
+   pitanje. ⛔ Sažetak nije obvezan — obvezna završna rečenica u svakom odlomku daje jednoličnost.
+5. **Opis prije procjene.** Najprije pokaži što sustav radi, zatim procijeni ontološki status toga.
+6. **Kratka rečenica mora imati posao:** razjasniti odnos, promijeniti tempo ili istaknuti posljedicu.
+7. **Terminološka stega i u prozi:** razlikuj *falsifikaciju*, *opovrgavanje pojedine tvrdnje* i *obaranje
+   knjige*; razluči što znači *potvrditi* (potpora u određenom testu ili potvrda teorije).
+
+**Učvršćivanje teme i posljedica nije formula — to je raspored funkcija:**
+
+| mjesto | posao |
+|---|---|
+| početak odjeljka | odrediti predmet: koje se pitanje sada rješava i što ostaje isto |
+| unutar odlomka | držati nit: radnja → uvjet njezina tumačenja → raspodjela posljedice |
+| gdje nalaz mijenja zaključak | imenovati posljedicu (klasifikacija · kriterij pripisivanja · raspodjela odgovornosti · način provjere) — smije otvoriti sljedeći odlomak |
+| kraj odjeljka | zatvoriti lokalno pitanje (rezultat usporedbe, a ne prepričavanje) |
+| kraj poglavlja | što je ustanovljeno · koliki je doseg · što sada treba provjeriti |
+
+**Praktičan postupak (interni, ne u tekstu):** uz svaki odjeljak napiši rečenicu „Nakon ovoga čitatelj može
+zaključiti…". Ako se ne može napisati, problem je strukturni; ako može, ne mora se doslovno pojaviti u rukopisu.
+
+**Mjere:** `kod/check_leprsavost.py` (antiteza ≤ 6/1.000, konektor na početku ≤ 6 %) — oba su čuvari, a ne
+ciljevi: ⛔ brojenje nalazi **mjesta za pregled**, ne daje presudu („dok" može značiti vrijeme, antiteza može
+nositi nužnu razliku).
+
 ## 2. Što se dira, a što ne
 
 | dira se | ne dira se |

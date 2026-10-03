@@ -212,3 +212,21 @@ upute:
     provjera: "python3 kod/check_izricaj.py"
     ocekivano: "pokaznih zamjenica u tvrdnjama"
     status: "ručni pregled — pregledano 3. 10. 2026. (ZAPIS-023): 76 kandidata, nijedan bez imenice"
+
+  # ── LEPRŠAVOST ───────────────────────────────────────────────────────────────
+  - id: MU-27
+    vrsta: stil
+    pravilo: "Lepršavost: antiteza ≤ 6/1.000 riječi i konektor na početku rečenice ≤ 6 %; antiteze koje nose razliku ostaju, nizanje se uklanja."
+    izvor: "autor: „nedostaje lepršavosti" (ZAPIS-024) + vanjska recenzija (GPT-5.6/GPT-6.1, Gemini 3.1/Pro, Claude Opus 5.5); docs/STIL.md, pravilo 4 v2"
+    obuhvat: "cijeli rukopis"
+    provjera: "python3 kod/check_leprsavost.py"
+    ocekivano: "=== KRUTO (konektor > 9 % ili antiteza > 8/1k) ==="
+    status: "ručni pregled — nakon prolaza 3. 10. 2026. glavni tekst je 0,6–5,5 antiteza/1k i 0–3,4 % konektora; dodatak-D (11,7/1k) je predložak, ne proza"
+  - id: MU-28
+    vrsta: sadržaj
+    pravilo: "Učvršćivanje teme i posljedica: na kraju poglavlja stoji što je ustanovljeno, koliki je doseg i što treba provjeriti — bez ponavljanja iste formule."
+    izvor: "autor: „učvršćivanja teme i posljedica" (ZAPIS-024); docs/STIL.md, pravilo 4 v2"
+    obuhvat: "16 poglavlja + uvod + zaključak"
+    provjera: "python3 kod/check_sekcije.py | tail -1"
+    ocekivano: "UKUPNO: bez naslanjanja 0 | bez paradigmatskog okvira 14 | bez predaje dalje 0"
+    status: "ručni pregled — završeci poglavlja provjeravaju se čitanjem"

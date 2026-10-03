@@ -6,13 +6,13 @@
 
 ## 4.1 Podaci: korpusi, leksikoni, anketni i eksperimentalni materijal — i jedna odluka koja se stalno skriva
 
-Zamislimo nalaz koji se lako citira: „razlika među razinama preživjela je kontrolu“. Rečenica je točna, i lako se prepričava. Ali ona ne kaže iz kojega je uzorka izvedena — ni koja je jedinica brojena, ni na koliko je jedinica brojka izračunata. Tko je prenosi dalje, prenosi zaključak bez onoga što ga drži na mjestu.
+Zamislimo nalaz koji se lako citira: „razlika među razinama preživjela je kontrolu“. Rečenica je točna, i lako se prepričava. Ona ne kaže iz kojega je uzorka izvedena — ni koja je jedinica brojena, ni na koliko je jedinica brojka izračunata. Tko je prenosi dalje, prenosi zaključak bez onoga što ga drži na mjestu.
 
 Ta se odluka ne skriva slučajno. U tekstovima o jeziku dvije riječi obično ostaju prešućene: **populacija** i **uzorak**. Jedno čitanje uzima korpus kao da je jezik sam; drugo uzima uzorak kao formalnost uz brojku. Oba dijele istu prazninu: nigdje ne piše gdje je odluka zapisana ni po kojem se kriteriju nalaz smije prenijeti dalje.
 
-Uzorak pritom nije „dio populacije“ u smislu u kojem je uzorak vode dio vode. Korpus je pristran prema pisanom, objavljenom i tehnički dostupnom, pa ono što vrijedi za njega ne vrijedi automatski za govorni jezik. Ni jedno ni drugo nije manje vrijedno; ono je **manje općenito**, i to se mora izreći. Zato se uzorak ne vidi iz dojma, nego iz zapisa — iz medija, žanra, razdoblja i jedinice analize.
+Uzorak pritom nije „dio populacije“ u smislu u kojem je uzorak vode dio vode. Korpus je pristran prema pisanom, objavljenom i tehnički dostupnom, pa ono što vrijedi za njega ne vrijedi automatski za govorni jezik. Ni jedno ni drugo nije manje vrijedno; ono je **manje općenito**, i to se mora izreći. Uzorak se zato ne vidi iz dojma. Vidi se iz zapisa — iz medija, žanra, razdoblja i jedinice analize.
 
-Gotov odgovor ima oblik koji se može provjeriti. Postupak ide u pet stupnjeva — **tekst → mreža → vektor → razina → tvrdnja** (→ Tablica 4.3) — i na svakom se stupnju mijenjaju jedinica analize, mjera i vrsta pogreške; nijedan se stupanj ne preskače. Nalaz se zato ne prijavljuje dojmom, nego obrascem od devet stavki (→ Tablica 4.4): tvrdnja, podaci, uzorak, postupak, verzije, tablica, graf, kod i neuspjeli pokušaji. A uvjet pod kojim nalaz pada zapisan je unaprijed: ako se razlika među razinama izgubi čim se kontrolira veličina uzorka i vrsta teksta, tvrdnja nije empirijska („Kako bismo znali da griješimo“).
+Gotov odgovor ima oblik koji se može provjeriti. Postupak ide u pet stupnjeva — **tekst → mreža → vektor → razina → tvrdnja** (→ Tablica 4.3) — i na svakom se stupnju mijenjaju jedinica analize, mjera i vrsta pogreške; nijedan se stupanj ne preskače. Nalaz se zato ne prijavljuje dojmom. Prijavljuje se obrascem od devet stavki (→ Tablica 4.4): tvrdnja, podaci, uzorak, postupak, verzije, tablica, graf, kod i neuspjeli pokušaji. A uvjet pod kojim nalaz pada zapisan je unaprijed: ako se razlika među razinama izgubi čim se kontrolira veličina uzorka i vrsta teksta, tvrdnja nije empirijska („Kako bismo znali da griješimo“).
 
 Time se dobiva četvero:
 
@@ -21,13 +21,13 @@ Time se dobiva četvero:
 - postupak od pet stupnjeva, ponovljiv na vlastitim podacima;
 - mjesto na kojem bi nalaz pao, zapisano prije analize.
 
-**Što vam ovo poglavlje daje.** Teza ovoga poglavlja, običnim jezikom, glasi: *razina koju o nečemu tvrdite nije metafizička izjava, nego hipoteza koju podaci mogu potvrditi ili oboriti.* Razina se zato ne dokazuje pozivom na ugled, nego mjernom tvrdnjom koja ima uzorak, jedinicu i izmjereno slaganje. Nakon ovoga poglavlja moći ćete svaku tvrdnju o razini pretvoriti u provjerljiv zapis — ili pokazati gdje to nije moguće. Kad vam netko ponudi nalaz, postavit ćete tri pitanja. Na koliko je jedinica izračunat? Koja je jedinica brojena? Je li razlika preživjela kontrolu duljine i vrste teksta? Tvrdnja bez tih odgovora nije dio metodologije, nego dio retorike (→ pogl. 4.6).
+**Što vam ovo poglavlje daje.** Teza ovoga poglavlja, običnim jezikom, glasi: *razina koju o nečemu tvrdite nije metafizička izjava. Ona je hipoteza koju podaci mogu potvrditi ili oboriti.* Razina se zato ne dokazuje pozivom na ugled. Dokazuje se mjernom tvrdnjom koja ima uzorak, jedinicu i izmjereno slaganje. Nakon ovoga poglavlja moći ćete svaku tvrdnju o razini pretvoriti u provjerljiv zapis — ili pokazati gdje to nije moguće. Kad vam netko ponudi nalaz, postavit ćete tri pitanja. Na koliko je jedinica izračunat? Koja je jedinica brojena? Je li razlika preživjela kontrolu duljine i vrste teksta? Tvrdnja bez tih odgovora pripada retorici (→ pogl. 4.6).
 
-**Prvi sloj: korpusi.** Knjiga radi na **uporabi zapisanoj u tekstu**, pa je prvo pitanje *koji tekst*. Primarni korpus je hrvatski web-korpus **hrWac**, izgrađen crawlom domene `.hr` 2011. i 2014. (Ljubešić i Klubička 2014; inačica hrWaC 2.1, CLARIN.SI). To je korpus *uporabe*, a ne korpus *primjera*. U njemu nema recenzenta koji odlučuje što je dobra rečenica, pa je i nalaz o njemu nalaz o tome kako se piše, a ne kako bi se *trebalo* pisati. To je razlika između opisa i propisa. To je bitno jer se razine ne čitaju iz propisa o jeziku, nego iz njegove uporabe.
+**Prvi sloj: korpusi.** Knjiga radi na **uporabi zapisanoj u tekstu**, pa je prvo pitanje *koji tekst*. Primarni korpus je hrvatski web-korpus **hrWac**, izgrađen crawlom domene `.hr` 2011. i 2014. (Ljubešić i Klubička 2014; inačica hrWaC 2.1, CLARIN.SI). To je korpus *uporabe*. Nije korpus *primjera*. U njemu nema recenzenta koji odlučuje što je dobra rečenica, pa je i nalaz o njemu nalaz o tome kako se piše. Ne o tome kako bi se *trebalo* pisati. To je razlika između opisa i propisa. To je bitno jer se razine ne čitaju iz propisa o jeziku. Čitaju se iz njegove uporabe.
 
-Drugi korpus koji nosi ovu knjigu nije web-korpus, nego Hrvatski nacionalni korpus u obimu od 131,8 milijuna pojavnica (Mw). Naveden je u doktorskoj disertaciji o opojmljivanju leksema *strah* (Perak 2014; sažetak izvornika, str. 6). Ta je brojka **mjereno**, datum izvora 2014. U ovom se poglavlju navodi zato da se vidi razlika između *korpusa kao podatka* i *korpusa kao dijela metodološkog zapisa*: 131,8 Mw nije kontekst, nego mjerni instrument. Ista disertacija daje i ostale brojke na koje se ovo i šesto poglavlje pozivaju; sve su one **mjereno**, uz navedenu stranicu izvornika. Tako je **14.875 pojavnica** leme *strah* u HNK-u (sažetak, str. 6), **825 pojavnica** prijedložnog izraza *od straha* — drugi po čestotnosti među izrazima s tom lemom (tiskana str. 304) — i **17 pojavnica** konstrukcije *miješati se sa strahom* (tiskana str. 369). Uz njih ide i leksikon od **125 hrvatskih emocionalnih leksema** s leksemom *strah* u središtu mreže (Ban Kirigin i Perak 2020; Perak 2014; EmoCNet 2019–21).
+Drugi korpus koji nosi ovu knjigu nije web-korpus. To je Hrvatski nacionalni korpus u obimu od 131,8 milijuna pojavnica (Mw). Naveden je u doktorskoj disertaciji o opojmljivanju leksema *strah* (Perak 2014; sažetak izvornika, str. 6). Ta je brojka **mjereno**, datum izvora 2014. U ovom se poglavlju navodi zato da se vidi razlika između *korpusa kao podatka* i *korpusa kao dijela metodološkog zapisa*: 131,8 Mw nije kontekst. To je mjerni instrument. Ista disertacija daje i ostale brojke na koje se ovo i šesto poglavlje pozivaju; sve su one **mjereno**, uz navedenu stranicu izvornika. Tako je **14.875 pojavnica** leme *strah* u HNK-u (sažetak, str. 6), **825 pojavnica** prijedložnog izraza *od straha* — drugi po čestotnosti među izrazima s tom lemom (tiskana str. 304) — i **17 pojavnica** konstrukcije *miješati se sa strahom* (tiskana str. 369). Uz njih ide i leksikon od **125 hrvatskih emocionalnih leksema** s leksemom *strah* u središtu mreže (Ban Kirigin i Perak 2020; Perak 2014; EmoCNet 2019–21).
 
-Treći sloj: anketni i eksperimentalni podaci. Korpus pokazuje što je *zapisano*, ali ne što govornici *prihvaćaju* ili *procjenjuju*. Zato uz njega idu podaci iz ispitivanja: procjene sličnosti parova riječi, prihvatljivost konstrukcija, vrijeme reakcije. Njihova je uloga drugačija: oni **nisu izvor mreže**, nego **test izvan mreže**. Razlika je u smjeru provjere. Mreža daje hipotezu („ovi su leksemi bliski"), a anketa ili eksperiment je provjerava na nositeljima koji nisu tekst. Tako se izbjegava kružno zaključivanje u kojem se podatak potvrđuje samim sobom.
+Treći sloj: anketni i eksperimentalni podaci. Korpus pokazuje što je *zapisano*, ali ne što govornici *prihvaćaju* ili *procjenjuju*. Uz njega idu i podaci iz ispitivanja: procjene sličnosti parova riječi, prihvatljivost konstrukcija, vrijeme reakcije. Njihova je uloga drugačija: oni **nisu izvor mreže**. Oni su **test izvan mreže**. Razlika je u smjeru provjere. Mreža daje hipotezu („ovi su leksemi bliski"), a anketa ili eksperiment je provjerava na nositeljima koji nisu tekst. Tako se izbjegava kružno zaključivanje u kojem se podatak potvrđuje samim sobom.
 
 ### Uzorak i populacija — odluka, a ne formalnost
 
@@ -42,14 +42,14 @@ Najveća metodološka razlika u ovom poglavlju nije tehnička, nego pojmovna, i 
 
 Najvažnija rečenica ovoga odjeljka je ova: uzorak nije „dio populacije" u smislu u kojem je uzorak vode dio vode. Web-korpus nije slučajni uzorak jezične uporabe — pristran je prema pisanom, objavljenom i tehnički dostupnom. A anketa od trideset studenata nije slučajni uzorak govornika hrvatskoga. Ni jedno ni drugo nije *manje vrijedno*; ono je **manje općenito**, i to se mora izreći: tvrdnja koja vrijedi za hrWac ne vrijedi automatski za govorni jezik.
 
-Zato je **uzorak odluka, a ne formalnost**: kad izaberemo korpus i jedinicu, time smo odlučili na koje se pitanje uopće može odgovoriti. Iz te odluke slijedi i vrsta dopuštenog zaključka:
+Zato je **uzorak odluka**. Nije formalnost: kad izaberemo korpus i jedinicu, time smo odlučili na koje se pitanje uopće može odgovoriti. Iz te odluke slijedi i vrsta dopuštenog zaključka:
 
 - iz **korpusa uporabe** smije se zaključivati o **obrascima zapisane uporabe** u zadanom mediju i razdoblju;
 - iz **ankete** smije se zaključivati o **procjenama ispitanika** u zadanom zadatku;
 - iz **eksperimenta** smije se zaključivati o **ponašanju u kontroliranim uvjetima**;
 - ni iz jednoga se **ne smije** zaključivati o unutrašnjosti nositelja — to je granica koju knjiga drži od prvoga poglavlja.
 
-I jedna posljedica za čitanje ostatka knjige: svaka brojka nosi svoj uzorak sa sobom. Kad se u šestom poglavlju navodi da mreža ima 125 leksema, to nije opis „hrvatskog emocionalnog leksika", nego jedne mreže izgrađene iz zadanoga skupa podataka (Ban Kirigin i Perak 2020). Ako se uz brojku ne navede uzorak, ona postaje tvrdnja koju podaci ne nose.
+I jedna posljedica za čitanje ostatka knjige: svaka brojka nosi svoj uzorak sa sobom. Kad se u šestom poglavlju navodi da mreža ima 125 leksema, to nije opis „hrvatskog emocionalnog leksika". To je opis jedne mreže izgrađene iz zadanoga skupa podataka (Ban Kirigin i Perak 2020). Ako se uz brojku ne navede uzorak, ona postaje tvrdnja koju podaci ne nose.
 
 ## 4.2 Od teksta do mreže: ko-okurencija, PMI, i prag koji *stvara* predmet
 
@@ -61,9 +61,9 @@ Drugi stupanj pretvara tekst u graf.
 
  Postupak je lanac odluka, a ne postupak s jednim ispravnim izlazom. Ovdje ga izlažem u pet koraka, s naglaskom na ono što se obično preskače: **što koja odluka isključuje.**
 
-**1. Jedinica analize.** Prva odluka je *što je čvor*: oblik riječi, lema ili lema s vrstom riječi daju tri različite mreže iz istog korpusa. Za hrvatski je to ozbiljno, jer je morfološki bogat. Četiri niza znakova — *strah*, *straha*, *strahu* i *strahom* — jedna su lema. Postupak koji ih drži odvojenima ne mjeri jezik, nego morfologiju — nalaz je tada artefakt odluke, a ne svojstvo gradiva.
+**1. Jedinica analize.** Prva odluka je *što je čvor*: oblik riječi, lema ili lema s vrstom riječi daju tri različite mreže iz istog korpusa. Za hrvatski je to ozbiljno, jer je morfološki bogat. Četiri niza znakova — *strah*, *straha*, *strahu* i *strahom* — jedna su lema. Postupak koji ih drži odvojenima ne mjeri jezik. Mjeri morfologiju. Nalaz je tada artefakt odluke — nije svojstvo gradiva.
 
-**2. Kontekstni prozor.** Ko-okurencija je pojava dviju jedinica unutar zadanoga okna, a **veličina okna nije neutralna**: usko okno (dvije do tri pozicije) hvata sintagmatske obrasce, široko (rečenica ili odlomak) tematsku bliskost. Isti korpus, dva okna, dvije mreže — i nijedna nije „točnija". Zato se veličina okna prijavljuje uz svaku mrežu.
+**2. Kontekstni prozor.** Ko-okurencija je pojava dviju jedinica unutar zadanoga okna, a **veličina okna nije neutralna**: usko okno (dvije do tri pozicije) hvata sintagmatske obrasce, široko (rečenica ili odlomak) tematsku bliskost. Isti korpus, dva okna, dvije mreže — i nijedna nije „točnija". Veličina okna zato se prijavljuje uz svaku mrežu.
 
 3. Mjera asocijacije — i zašto frekvencija nije mjera. Sirova zajednička čestota nije mjera asocijacije, jer se česte riječi pojavljuju uz sve. Čestoća nije asocijacija. Kenneth Church i Patrick Hanks pokazali su 1990. da se asocijacija mora mjeriti **uzajamnom informacijom** (pointwise mutual information, PMI). To je mjera koja uspoređuje zatečenu supojavnost s onom koju bismo očekivali iz pojedinačnih čestota (Church i Hanks 1990, *Computational Linguistics* 16(1): 22–29). Uzajamna informacija za par jedinica *x* i *y* jest logaritam omjera između vjerojatnosti da se pojave zajedno i umnoška njihovih pojedinačnih vjerojatnosti:
 
@@ -83,11 +83,11 @@ def pmi(par, zajedno, f_x, f_y, N):
     return math.log2((zajedno * N) / (f_x * f_y))
 ```
 
-Dvije ograde uz tu formulu. **Prva:** PMI je pristran prema rijetkim parovima — par koji se pojavi jednom dobiva visoku vrijednost uz malu pouzdanost — pa se rabi i normalizirana inačica (nPMI) ili se uz mjeru navodi zajednička čestota. **Druga:** mjera ovisi o tome što je *N* (prozor, rečenica ili pojavnica); ako *N* nije zapisan, mjera nije reproducibilna. PMI se računa iz tri broja koji ovise o tri odluke; otud je transparentnost tih odluka dio mjere, a ne dodatak.
+Dvije ograde uz tu formulu. **Prva:** PMI je pristran prema rijetkim parovima — par koji se pojavi jednom dobiva visoku vrijednost uz malu pouzdanost — pa se rabi i normalizirana inačica (nPMI) ili se uz mjeru navodi zajednička čestota. **Druga:** mjera ovisi o tome što je *N* (prozor, rečenica ili pojavnica); ako *N* nije zapisan, mjera nije reproducibilna. PMI se računa iz tri broja koji ovise o tri odluke; otud je transparentnost tih odluka dio mjere. Nije dodatak.
 
 **4. Graf: čvorovi i bridovi.** Kad mjera postoji, mreža je zapis. Čvor je zapis entiteta (leksem ili konstrukcija), brid je zapis relacije, a težina brida je mjera asocijacije. Shema je ista kao u ostatku knjige: *entitet {svojstvo} — [relacija {svojstvo}] → entitet {svojstvo}* (→ pogl. 2.1). Terminološka stega vrijedi i ovdje: čvor imenuje *gdje* jedinica jest u mreži, brid imenuje *što* se među njima zbiva — i nijedno od toga nije još ni značenje ni komunikacija.
 
-**5. Prag: odluka koja stvara mrežu.** PMI daje kontinuiranu vrijednost; prag je odluka „veza postoji ili ne postoji". Zato: prag ne filtrira postojeću mrežu, nego određuje koja organizacija uopće postoji. Dvije mreže uz različite pragove nisu dvije slike istoga predmeta — one su dva različita predmeta.
+**5. Prag: odluka koja stvara mrežu.** PMI daje kontinuiranu vrijednost; prag je odluka „veza postoji ili ne postoji". Prag zato ne filtrira postojeću mrežu. On određuje koja organizacija uopće postoji. Dvije mreže uz različite pragove nisu dvije slike istoga predmeta — one su dva različita predmeta.
 
 Tablica 4.1 — prag i njegove posljedice
 
@@ -101,7 +101,7 @@ Prag se u našim analizama drži uz okno, jedinicu i mjeru: četiri brojke koje 
 
 ### Odnosi višeg reda: što parna mreža ne može
 
-Time je drugi stupanj dobio svoju mrežu, no mreža izgrađena isključivo na parovima ima ugrađenu slijepu točku. Federico Battiston i suradnici (2021, *Nature Physics* 17) pokazali su da veze **višega reda** — trojke i skupine, a ne samo parovi — mijenjaju dinamiku sustava: sustav s identičnim parnim vezama može se ponašati bitno drukčije ovisno o tome postoje li skupne veze. Za jezik to nije tehnička finesa. Razgovor trojice sudionika nije zbroj triju dvostranih razgovora. Značenje koje se ustali u skupini nije zbroj značenja u parovima. Parna relacijska shema zapisuje ono što se može zapisati. Tu granicu treba prijaviti kao ograničenje, a ne prešutjeti je.
+Time je drugi stupanj dobio svoju mrežu, no mreža izgrađena isključivo na parovima ima ugrađenu slijepu točku. Federico Battiston i suradnici (2021, *Nature Physics* 17) pokazali su da veze **višega reda** — trojke i skupine, ne samo parovi — mijenjaju dinamiku sustava: sustav s identičnim parnim vezama može se ponašati bitno drukčije ovisno o tome postoje li skupne veze. Za jezik to nije tehnička finesa. Razgovor trojice sudionika nije zbroj triju dvostranih razgovora. Značenje koje se ustali u skupini nije zbroj značenja u parovima. Parna relacijska shema zapisuje ono što se može zapisati. Tu granicu treba prijaviti kao ograničenje.
 
 I jedna opća opreza o mjeri, koja u ovoj knjizi ima status metodološkog pravila. Rylan Schaeffer i suradnici (2023, *NeurIPS*) pokazali su da „iznenadne" sposobnosti jezičnih modela mogu biti **artefakt metrike** — nelinearnog praga u načinu bodovanja — a ne skok u sustavu. Isti se mehanizam u mrežnoj analizi pojavljuje dvaput: u pragu koji kontinuiranu mjeru pretvara u brid i u granici skupine koja gusto povezan dio mreže pretvara u „zajednicu". **Oba su pragovi; oba se prijavljuju.** Skok u grafu lako se zamijeni za skok u sustavu.
 
@@ -127,9 +127,9 @@ Dimenzija: što znači i što ne znači. 4096 dimenzija nije 4096 „svojstava z
 | „veći broj dimenzija = bolji rezultat" | **ne slijedi** | broj dimenzija je parametar postupka; njegov učinak treba izmjeriti |
 | „4096 dimenzija pokazuje da je značenje složeno" | **ne** | ista greška kao čitanje gustoće mreže kao uzroka |
 
-Ugrađivanje ne zamjenjuje mrežu; ono je drugi čitatelj istoga gradiva. Mreža daje *eksplicitan* zapis relacija iz zadanoga okna i praga, a vektor *implicitan* zapis bliskosti koja se ne mora poklapati s bridovima. Zato se u šestom poglavlju leksem *strah* prikazuje i mrežno i vektorski, pa se slike uspoređuju: ako govore isto, to je nalaz; ako se raziđu, i to je nalaz. Vektorski prostor ne smije se prikazati kao „dokaz" mrežne tvrdnje — to su dvije mjere koje mogu i proturječiti.
+Ugrađivanje ne zamjenjuje mrežu; ono je drugi čitatelj istoga gradiva. Mreža daje *eksplicitan* zapis relacija iz zadanoga okna i praga, a vektor *implicitan* zapis bliskosti koja se ne mora poklapati s bridovima. U šestom poglavlju zato se leksem *strah* prikazuje i mrežno i vektorski, pa se slike uspoređuju: ako govore isto, to je nalaz; ako se raziđu, i to je nalaz. Vektorski prostor ne smije se prikazati kao „dokaz" mrežne tvrdnje — to su dvije mjere koje mogu i proturječiti.
 
-**Vektorska bliskost kao mjera s pragom.** I na trećem stupnju postoji prag — **granica srodnosti**, koliko blizu moraju biti dva vektora da ih proglasimo srodnima — s istim posljedicama kao u tablici 4.1. Zato se prijavljuje uz rezultat, uz vrstu udaljenosti i broj dimenzija. Bez toga je slika lijepa slika. A slika bez provjerljive tvrdnje nije rezultat, nego ilustracija.
+**Vektorska bliskost kao mjera s pragom.** I na trećem stupnju postoji prag — **granica srodnosti**, koliko blizu moraju biti dva vektora da ih proglasimo srodnima — s istim posljedicama kao u tablici 4.1. Prijavljuje se zato uz rezultat, uz vrstu udaljenosti i broj dimenzija. Bez toga je slika lijepa slika. A slika bez provjerljive tvrdnje ostaje ilustracija.
 
 ## 4.4 Od vektora do razine: kako se tvrdnja „ovo je razina 14" uopće testira
 
@@ -145,7 +145,7 @@ Time smo dobili zapise prvih triju stupnjeva: korpus, mrežu, vektor. Nijedan od
 | **4. razina** | vektor ili brid → oznaka | **epizoda / potez / odnos** | slaganje anotatora (κ) | oznaka razine uz nesigurnost |
 | **5. tvrdnja** | oznake + mjere | tvrdnja o razini | omjer šansi uz kontrolu | nalaz ili **negativan nalaz** |
 
-Cjevovod u ovoj knjizi nije prikazan slikom, nego **tablicom i kodom**, jer se tako može provjeriti; slika se dodaje tek kad postoji skripta koja je reproducira (→ 4.7). Koji od tih zapisa smije nositi ime razine, razlučuje sljedeći odjeljak.
+Cjevovod u ovoj knjizi nije prikazan slikom. Prikazan je **tablicom i kodom**, jer se tako može provjeriti; slika se dodaje tek kad postoji skripta koja je reproducira (→ 4.7). Koji od tih zapisa smije nositi ime razine, razlučuje sljedeći odjeljak.
 
 ### Tri postupka — i samo jedan od njih smije nositi ime razine
 
@@ -163,7 +163,7 @@ Za razliku od klasifikacije i ručne anotacije, klasteriranje ne dobiva oznaku i
 
 Razina 14 je **SocCommunication**: komunikacija kao razina na kojoj su prisutni adresiranje, artefakt, obrasci konvencije i **prepoznata namjera** (→ pogl. 2.1). Umjesto da se oznaka čita sa zapisa, ona se zadaje prije gledanja u podatke. Recimo da želimo tvrditi: „ovaj je zapis slučaj komunikacije, dakle razine 14." Tvrdnja se, da bi bila empirijska, mora razložiti na pet koraka i svaki mora biti zapisan.
 
-**1. Jedinica analize.** Prvo se odlučuje *što* se označava. Za razinu 14 to nije riječ ni leksem, nego **epizoda**: niz poteza koji ima početak, sudionike i završetak (primjerice jedan zahtjev i odgovor na njega). Ako je jedinica pogrešna, svi ostali koraci mjere nešto drugo. Ovo je odluka, ne nalaz, i zato se navodi.
+**1. Jedinica analize.** Prvo se odlučuje *što* se označava. Za razinu 14 to nije riječ ni leksem. To je **epizoda**: niz poteza koji ima početak, sudionike i završetak (primjerice jedan zahtjev i odgovor na njega). Ako je jedinica pogrešna, svi ostali koraci mjere nešto drugo. Ovo je odluka, ne nalaz, i zato se navodi.
 
 **2. Oznaka (kodna lista).** Zatim se zapiše koja se svojstva traže — i to **prije** gledanja u podatke. Za razinu 14 operativno se traže četiri prisutnosti:
 
@@ -174,7 +174,7 @@ Razina 14 je **SocCommunication**: komunikacija kao razina na kojoj su prisutni 
 | **prepoznata namjera** | iz zapisa je vidljivo da je namjera prepoznata s druge strane | odgovor koji se na namjeru oslanja, a ne samo nastavlja niz |
 | **konvencija** | postoji obrazac koji obje strane slijede | pozdrav, protokol, ustaljeni obrazac razmjene |
 
-**3. Anotatori i neovisnost.** Ista se jedinica označava neovisno, s više anotatora (najmanje dvoje, u našim provjerama troje), bez dogovora o pojedinačnim slučajevima. Ako se anotatori dogovaraju tijekom označavanja, mjera slaganja mjeri dogovor, a ne primjenjivost oznake. Slaganje nije točnost.
+**3. Anotatori i neovisnost.** Ista se jedinica označava neovisno, s više anotatora (najmanje dvoje, u našim provjerama troje), bez dogovora o pojedinačnim slučajevima. Ako se anotatori dogovaraju tijekom označavanja, mjera slaganja mjeri dogovor. Ne primjenjivost oznake. Slaganje nije točnost.
 
 **4. Mjera slaganja.** Slaganje se iskazuje mjerom koja **odbija slaganje nastalo slučajno** — Cohenovom κ ili Krippendorffovom α, a nikad samo postotkom suglasnosti. Oznake koje se u velikom dijelu slučajeva javljaju slučajno daju visok postotak i nisku κ.
 
@@ -195,13 +195,15 @@ def kappa(a, b):
     return (uoceno - ocekivano) / (1 - ocekivano), uoceno, ocekivano
 ```
 
-**5. Kontrola.** Oznaka se mora pokazati **otpornom na ono što nije razina**: ako prati duljinu zapisa, vrstu teksta ili broj sudionika, tvrdnja ne mjeri razinu, nego te osobine. Postupak kontrole opisan je u „Kako bismo znali da griješimo" — to je jedini test koji tvrdnju pretvara u empirijsku.
+**5. Kontrola.** Oznaka se mora pokazati **otpornom na ono što nije razina**: ako prati duljinu zapisa, vrstu teksta ili broj sudionika, tvrdnja ne mjeri razinu. Mjeri te osobine. Postupak kontrole opisan je u „Kako bismo znali da griješimo" — to je jedini test koji tvrdnju pretvara u empirijsku.
 
 ### Od mreže do oznaka: gdje mrežne mjere ulaze u klasifikaciju
 
-Mrežne mjere iz drugog stupnja nisu ukras: one su, naime, **ulazna svojstva** za klasifikaciju. Za označavanje taksonomskih razreda iz grafova svojstva čvora (pripadnost zajednici, mjere važnosti) uzimaju se kao ulaz u nadzirano označavanje (Ban Kirigin, Bujačić Babić i Perak 2022, *Future Internet* 14(12): 383; ista skupina razvila je i mjeru važnosti čvora koja spaja lokalnu i polulokalnu informaciju — *Mathematics* 10(3): 405). Metodološki je važno *kako*: oznake razreda **dolaze izvan grafa**, a graf daje svojstva. Ako se oznake izvode iz grafa i na istom grafu provjeravaju, mjeri se dosljednost, a ne točnost.
+Mrežne mjere iz drugog stupnja nisu ukras: one su, naime, **ulazna svojstva** za klasifikaciju. Za označavanje taksonomskih razreda iz grafova svojstva čvora (pripadnost zajednici, mjere važnosti) uzimaju se kao ulaz u nadzirano označavanje (Ban Kirigin, Bujačić Babić i Perak 2022, *Future Internet* 14(12): 383; ista skupina razvila je i mjeru važnosti čvora koja spaja lokalnu i polulokalnu informaciju — *Mathematics* 10(3): 405). Metodološki je važno *kako*: oznake razreda **dolaze izvan grafa**, a graf daje svojstva. Ako se oznake izvode iz grafa i na istom grafu provjeravaju, mjeri se dosljednost. Ne točnost.
 
-**Terminološka stega.** Kad je riječ o velikim jezičnim modelima, „razina" u ovoj knjizi **ne** ulazi u uporabu: model nije razina i **nije sedamnaesta razina**, nego kandidat za novi entitet koji ulazi u postojeće razine. Zato se stupci u klasifikacijskim tablicama četvrtoga dijela zovu *prisutno / nije prisutno*, a ne *niža / viša razina*. Entitet i agent ostaju razdvojeni: **entitet je *gdje* nešto jest**, **agent je *što* radi** — pa mjera prisutnosti entiteta ne pokazuje ništa o djelovanju.
+**Terminološka stega.** Kad je riječ o velikim jezičnim modelima, „razina" u ovoj knjizi **ne** ulazi u uporabu: model nije razina i **nije sedamnaesta razina**. On je kandidat za novi entitet koji ulazi u postojeće razine. Zato se stupci u klasifikacijskim tablicama četvrtoga dijela zovu *prisutno / nije prisutno*, a ne *niža / viša razina*. Entitet i agent ostaju razdvojeni: **entitet je *gdje* nešto jest**, **agent je *što* radi** — pa mjera prisutnosti entiteta ne pokazuje ništa o djelovanju.
+
+Za temu knjige to znači jedno: tvrdnja o razini vrijedi onoliko koliko vrijedi njezina mjera. Uz nju zato uvijek stoje jedinica, oznaka i mjera slaganja, a kontrola pokazuje preživi li ona duljinu i vrstu teksta.
 
 ## 4.5 Statistika i etika mjerenja: zašto „isti broj iz iste metode" nije formalnost
 
@@ -211,7 +213,7 @@ Ovo je najmanje uzbudljiv i najvažniji odjeljak poglavlja. Pravilo je jednostav
 
 **Slika 4.2.** Trijaža svake brojke u rukopisu. Prvo pitanje je ima li **izvor i datum**; ako nema, to nije brojka i ne ulazi u tekst. Drugo je pitanje **kako je dobivena**: izmjerena na uzorku → *mjereno*, izračunata iz drugih brojki → *izvedeno*, nijedno od toga → *procjena*, koja mora biti izričito označena. Svaki ishod završava istim korakom — zapisom u `data/fakti.csv` i provjerom `check_fakti.py`. Izvor: vlastita izrada (Perak 2026).
 
-**Veličina uzorka.** Prvo pitanje svake mjerne tvrdnje jest *na koliko je jedinica izračunata*: mreža od 125 leksema i višestruko veća mreža daju različite gustoće i modularnosti, a **gustoća se ne smije usporediti između mreža različitoga broja čvorova bez korekcije**. Isto vrijedi za anotaciju: κ izračunata na malom broju jedinica ima tako širok interval pouzdanosti da razlika među vrijednostima u praksi nije razlika. Zato se uz svaku mjeru slaganja navode **broj jedinica i broj anotatora**, a kad je uzorak mali i interval, ne samo točka.
+**Veličina uzorka.** Prvo pitanje svake mjerne tvrdnje jest *na koliko je jedinica izračunata*: mreža od 125 leksema i višestruko veća mreža daju različite gustoće i modularnosti, a **gustoća se ne smije usporediti između mreža različitoga broja čvorova bez korekcije**. Isto vrijedi za anotaciju: κ izračunata na malom broju jedinica ima tako širok interval pouzdanosti da razlika među vrijednostima u praksi nije razlika. Uz svaku mjeru slaganja zato se navode **broj jedinica i broj anotatora**, a kad je uzorak mali i interval, ne samo točka.
 
 **Višestruka usporedba.** Druga je zamka aritmetička: ako se testira mnogo hipoteza, dio će ih biti „potvrđen" samo zato što su testirane. Na razini značajnosti 0,05 očekuje se da će se **jedna od dvadeset** provjera pokazati značajnom i kad učinka nema. Okvir ima šesnaest razina i više mjera po razini, pa se u knjizi primjenjuju tri pravila:
 
@@ -228,7 +230,7 @@ Reproducibilnost: četiri stavke koje idu u svaki zapis. Rezultat je reproducibi
 | **verzija modela** | Qwen3-Embedding (Qwen Team 2025) — ugrađivanja iz različitih inačica nisu ista mjera |
 | **kontrolni zapis (checksum) i licenca** | bez toga se ne može utvrditi je li reproduciran **isti** skup podataka |
 
-To je razlog zašto je rečenica „isti broj iz iste metode" metodološka, a ne pedantna: broj je isti samo ako su podaci, postupak i model isti. Ugrađivanje dobiveno iz druge inačice modela nije „isti vektor s manje decimale" — to je druga mjera.
+To je razlog zašto je rečenica „isti broj iz iste metode" metodološka. Nije pedantna: broj je isti samo ako su podaci, postupak i model isti. Ugrađivanje dobiveno iz druge inačice modela nije „isti vektor s manje decimale" — to je druga mjera.
 
 **Vlastita pogreška kao primjer.** Knjiga sama sebe podvrgava istom pravilu, i to je zapisano javno u `docs/ISPRAVKE.md`. Tri su ispravka iz rujna 2026. poučna ponajprije metodološki:
 
@@ -236,13 +238,13 @@ To je razlog zašto je rečenica „isti broj iz iste metode" metodološka, a ne
 - **ISPRAVAK-002 (strop GPQA).** Pisalo je ~90 %, a strop je **~80 %** *(procjena; Thompson 2026, ažurirano 4. 8. 2026.)*, uz zasićenje 11/2025 na 93,8 % *(mjereno; Gemini 3 Pro)*.
 - **ISPRAVAK-003 (strop HLE).** Naveden je jedan strop (25,6 %), a postoje **dva izvora s različitim vrijednostima** — ~51,3 % (FutureHouse, 7/2025) i 25,6 % (Alibaba, 2/2026, arXiv:2602.13964v2). Pravilo koje iz toga slijedi: nikad se ne navodi jedan strop kao jedini; navode se oba, s izvorom i datumom.
 
-Zajednički imenitelj svih triju pogrešaka nije nemarnost u računu, nego **nemarnost u vrsti brojke**: procjena je izgovorena kao mjerenje, jedna vrijednost kao strop, a ispravak je došao od drugoga, ne od nas. Zato je ova datoteka javna i zato u poglavlju 16 (posljedice i falsifikacija) stoji kao dio dokaza da okvir razina dopušta i vlastitu pogrešku.
+Zajednički imenitelj svih triju pogrešaka jest **nemarnost u vrsti brojke**: procjena je izgovorena kao mjerenje, jedna vrijednost kao strop, a ispravak je došao od drugoga, ne od nas. Zato je ova datoteka javna i zato u poglavlju 16 (posljedice i falsifikacija) stoji kao dio dokaza da okvir razina dopušta i vlastitu pogrešku.
 
-**Etika mjerenja: tri obveze.** **Nepripisivanje** — mjera iz teksta ne smije se prikazati kao mjera unutrašnjosti nositelja. **Granica** — uzorak se navodi s granicama (medij, žanr, razdoblje, broj ispitanika), jer tvrdnja koja prešuti granicu tvrdi više nego što podaci nose. **Ispravak** — kad se brojka pokaže netočnom, ispravak se objavljuje, a ne zamjenjuje tiho, jer bi čitatelj inače i dalje citirao vrijednost koja je već otisnuta.
+**Etika mjerenja: tri obveze.** **Nepripisivanje** — mjera iz teksta ne smije se prikazati kao mjera unutrašnjosti nositelja. **Granica** — uzorak se navodi s granicama (medij, žanr, razdoblje, broj ispitanika), jer tvrdnja koja prešuti granicu tvrdi više no što podaci nose. **Ispravak** — kad se brojka pokaže netočnom, ispravak se objavljuje, ne zamjenjuje tiho, jer bi čitatelj inače i dalje citirao vrijednost koja je već otisnuta.
 
 ## 4.6 Kako prijaviti rezultat: tablica + graf + kod + verzije + neuspjeli pokušaji
 
-Rezultat koji se ne može ponoviti nije rezultat, nego anegdota. Zato knjiga uvodi **zapis rezultata** — obrazac od devet stavki uz svaku mjeru koja ulazi u tekst. Obrazac je namjerno dosadan: njegova je svrha da se pogreška vidi prije nego što postane tvrdnja. Obrazac ne služi uljepšavanju: negativan rezultat se zapisuje, a ne briše.
+Rezultat koji se ne može ponoviti nije rezultat, nego anegdota. Zato knjiga uvodi **zapis rezultata** — obrazac od devet stavki uz svaku mjeru koja ulazi u tekst. Obrazac je namjerno dosadan: njegova je svrha da se pogreška vidi prije no što postane tvrdnja. Obrazac ne služi uljepšavanju: negativan rezultat se zapisuje, a ne briše.
 
 Tablica 4.4 — zapis rezultata (obvezne stavke)
 
@@ -294,13 +296,13 @@ def u_csv(zapis, put):
                         red["vrsta"], red["izvor"]])   # vrsta: mjereno|procjena|izvedeno
 ```
 
-**Pravilo o figuri.** Slika ne smije tvrditi više od teksta; ako se natpis na slici i rečenica razilaze, ispravlja se **tekst** ili se slika ponovno izrađuje (`figure/README.md`). Slika koja prikazuje više nego što je izmjereno povlači se iz knjige, koliko god bila lijepa.
+**Pravilo o figuri.** Slika ne smije tvrditi više od teksta; ako se natpis na slici i rečenica razilaze, ispravlja se **tekst** ili se slika ponovno izrađuje (`figure/README.md`). Slika koja prikazuje više no što je izmjereno povlači se iz knjige, koliko god bila lijepa.
 
 **Dvije vrste prijave.** *Nalaz* ima tvrdnju, mjeru, nesigurnost i kontrolu i smije ući u sažetak poglavlja; *pokušaj* ima samo postupak i ishod i ostaje u repozitoriju, a u tekst se navodi tek ako je za tvrdnju važan. Ta je razlika za ovu knjigu ključna jer je njezin predmet upravo granica između onoga što se tvrdi i onoga što se još ne može tvrditi. Model je u trećem dijelu knjige *kandidat* za novi entitet, nikad zaključak — i metodologija koja to ne bi mogla zapisati bila bi u suprotnosti s vlastitom tezom. Sljedeći odjeljak pokazuje gdje se zapis čuva i čime se provjerava.
 
 ## 4.7 Repozitorij knjige: stvarna struktura i kako se svaka brojka provjerava
 
-Ovo poglavlje vrijedi samo ako se može provjeriti. Zato ovdje stoji **stvarna** struktura repozitorija — onu koju dobivate, a ne onu koju je nacrt predviđao.
+Ovo poglavlje vrijedi samo ako se može provjeriti. Zato ovdje stoji **stvarna** struktura repozitorija — onu koju dobivate. Ne onu koju je nacrt predviđao.
 
 Tablica 4.5 — struktura repozitorija (stvarno stanje)
 
@@ -315,7 +317,7 @@ Tablica 4.5 — struktura repozitorija (stvarno stanje)
 | `figure/` | 31 PNG datoteka + `README.md` (npr. `fig_omlcc16.png`, `fig_emotion_network.png`, `fig_strah_vektori.png`) | slike s izvorom i poglavljem |
 | `data/` | `fakti.csv`, `README.md`, `izvori/doktorat-2014/` (4 CSV-a) | evidencija brojki i podaci iz doktorata |
 
-**Jedna razlika prema nacrtu.** Nacrt je predviđao mape `/data`, `/code`, `/figures` i `/notebooks`; stvarni repozitorij rabi `kod/`, `data/`, `figure/`, `referencije/` i `pojmovnik/`, i **mapa za bilježnice ne postoji**. To se navodi namjerno, kao primjer pravila iz 4.6: nacrt je *namjera*, a repozitorij *stanje*. Isto vrijedi za skripte: `kod/README.md` navodi `pipeline_tekst_mreza_vektor.py` (4. poglavlje), `mreza_emocija.py` i `mjere_mreze.py` (6.), `geometrija_vlastiti_podaci.py` i `provjera_brojki.py` (10.) te `tablica_razine_12_16.py` (14.) kao **planirane**. One još nisu u repozitoriju, pa se cjevovod ovoga poglavlja za sada prijavljuje kao **tablica i kod**, a ne kao slika — slika ulazi u knjigu tek kad je skripta koja je reproducira (`kod/README.md`).
+**Jedna razlika prema nacrtu.** Nacrt je predviđao mape `/data`, `/code`, `/figures` i `/notebooks`; stvarni repozitorij rabi `kod/`, `data/`, `figure/`, `referencije/` i `pojmovnik/`, i **mapa za bilježnice ne postoji**. To se navodi namjerno, kao primjer pravila iz 4.6: nacrt je *namjera*, a repozitorij *stanje*. Isto vrijedi za skripte: `kod/README.md` navodi `pipeline_tekst_mreza_vektor.py` (4. poglavlje), `mreza_emocija.py` i `mjere_mreze.py` (6.), `geometrija_vlastiti_podaci.py` i `provjera_brojki.py` (10.) te `tablica_razine_12_16.py` (14.) kao **planirane**. One još nisu u repozitoriju, pa se cjevovod ovoga poglavlja za sada prijavljuje kao **tablica i kod**. Ne kao slika — slika ulazi u knjigu tek kad je skripta koja je reproducira (`kod/README.md`).
 
 **Četiri provjere koje se mogu pokrenuti odmah.** Uz repozitorij idu skripte koje provjeravaju da tekst i podaci ostanu u skladu; tri rade lokalno, bez mreže.
 

@@ -4,7 +4,7 @@
 
 *Svaka uputa ima provjeru: `provjera` se pokreće, a `ocekivano` mora se pojaviti u izlazu. Ako uputa nema provjeru, nije meta-uputa nego želja.*
 
-**Stanje provjere:** 26/26 prolazi.
+**Stanje provjere:** 28/28 prolazi.
 
 | id | vrsta | pravilo | status |
 |---|---|---|---|
@@ -34,6 +34,8 @@
 | `MU-24` | proces | Stil dodataka (prozne dodatke A, C, D, F, H, I) drži iste pragove kao glavni tekst; aparatni dodaci (B rječnik, E izvori, G kazalo) izuzeti su. | provjereno automatski |
 | `MU-25` | stil | Nijedna rečenica nije fraza: izrazi koji zvuče odlučno, a ne tvrde ništa (uzeti ozbiljno, igra ključnu ulogu, na pragu, nije slučajno, u suštini) zamjenjuju se tvrdnjom. | ručni pregled — 2 preostale iznimke su namjerne: „na pragu nečega većega" stoji u tuđem stavu koji knjiga citira, a „Emergentno nije slučajno." je tvrdnja, ne fraza |
 | `MU-26` | stil | Pokazna zamjenica u tvrdnji („to", „ovo", „time") ima imenicu na koju se veže u istoj ili prethodnoj rečenici. | ručni pregled — pregledano 3. 10. 2026. (ZAPIS-023): 76 kandidata, nijedan bez imenice |
+| `MU-27` | stil | Lepršavost: antiteza ≤ 6/1.000 riječi i konektor na početku rečenice ≤ 6 %; antiteze koje nose razliku ostaju, nizanje se uklanja. | ručni pregled — nakon prolaza 3. 10. 2026. glavni tekst je 0,6–5,5 antiteza/1k i 0–3,4 % konektora; dodatak-D (11,7/1k) je predložak, ne proza |
+| `MU-28` | sadržaj | Učvršćivanje teme i posljedica: na kraju poglavlja stoji što je ustanovljeno, koliki je doseg i što treba provjeriti — bez ponavljanja iste formule. | ručni pregled — završeci poglavlja provjeravaju se čitanjem |
 
 ## Kako se pokreće
 
