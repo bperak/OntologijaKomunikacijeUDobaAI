@@ -126,9 +126,7 @@ Tablica daje ono što pojedinačna tvrdnja ne daje: uz svaku razinu vidi se i on
 | **15 SocCulturalInstitution** | pravila uporabe, pravila pristupa, dopuštenja | ovlaštenje za sankciju: sankcionira zajednica, ne sustav |
 | **16 CulturalModel** | stilovi, žanrovi, obrasci tumačenja (naučeni) | predaja obrasca unutar zajednice koja ga priznaje |
 
-**Kako čitati tu tablicu.** Stupac o prisutnome donosi nalaz: sustavi modela **doista djeluju** na tim razinama, pa o njima vrijedi govoriti ontološki, a ne samo tehnički. Stupac o odsutnome nosi uvjet koji još nije ispunjen. Može li se ispuniti, ispituje četvrti dio knjige.
-
-Nužnost tog razlučivanja pokazuje jedan dokumentirani slučaj.
+**Kako čitati tu tablicu.** Stupac o prisutnome donosi nalaz: sustavi modela **doista djeluju** na tim razinama, pa o njima vrijedi govoriti ontološki, a ne samo tehnički. Stupac o odsutnome nosi uvjet koji još nije ispunjen. Može li se ispuniti, ispituje četvrti dio knjige, a nužnost tog razlučivanja pokazuje sljedeći odjeljak: jedan dokumentirani slučaj.
 
 ## 8.5 Zašto je razlučivanje razina nužno — jedna studija slučaja
 

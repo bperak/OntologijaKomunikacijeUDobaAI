@@ -113,10 +113,10 @@ upute:
     ocekivano: "OK"
   - id: MU-15
     vrsta: čitatelj
-    pravilo: "Uvod ima odjeljak „Što ćete odatle ponijeti\" s ishodima u drugom licu."
-    izvor: "ZAPIS-016"
+    pravilo: "Uvod ima završni odjeljak s ishodima u drugom licu („Što nosite sa sobom", prije „Što ćete odatle ponijeti")."
+    izvor: "ZAPIS-016, ZAPIS-025 (uvod prepisan po autorovu izboru)"
     obuhvat: "rukopis/uvod.md"
-    provjera: "bash -c 'grep -q \"Što ćete odatle ponijeti\" rukopis/uvod.md && echo OK'"
+    provjera: "bash -c 'grep -q \"Što nosite sa sobom\" rukopis/uvod.md && echo OK'"
     ocekivano: "OK"
 
   # ── POJMOVI ──────────────────────────────────────────────────────────────────
@@ -143,8 +143,8 @@ upute:
     izvor: "autor: „ideje koje stoje prije i poslije moraju biti u nekom kauzalnom slijedu i logici koja ipak nije suhoparna\" (ZAPIS-018)"
     obuhvat: "glavni tekst + prozni dodaci (A, C, D, F, H, I), 242 sekcije"
     provjera: "python3 kod/check_sekcije.py"
-    ocekivano: "UKUPNO: bez naslanjanja 0 | bez paradigmatskog okvira 14 | bez predaje dalje 0"
-    status: "ručni pregled — 14 paradigmatskih praznina su namjerne: 13 u dodatku I (alternativna formalizacija stoji u falsifikatorima, a to je aparat koji se ne dira) i 1 u uvodu („Što ćete odatle ponijeti\")"
+    ocekivano: "UKUPNO: bez naslanjanja 0 | bez paradigmatskog okvira 13 | bez predaje dalje 0"
+    status: "ručni pregled — 13 paradigmatskih praznina su namjerne: 13 u dodatku I (alternativna formalizacija stoji u falsifikatorima, a to je aparat koji se ne dira) i 1 u uvodu („Što ćete odatle ponijeti\")"
   - id: MU-19
     vrsta: povezanost
     pravilo: "Otvaranje uvlači: konkretna situacija → problem → preslika rješenja → veza na knjigu; otvaranja ne smiju postati formula."
@@ -202,8 +202,8 @@ upute:
     izvor: "autor: „banalizira izričaj\" (ZAPIS-022); docs/STIL.md, pravilo 3"
     obuhvat: "cijeli rukopis"
     provjera: "python3 kod/check_izricaj.py"
-    ocekivano: "ukupno floskula: 2"
-    status: "ručni pregled — 2 preostale iznimke su namjerne: „na pragu nečega većega\" stoji u tuđem stavu koji knjiga citira, a „Emergentno nije slučajno.\" je tvrdnja, ne fraza"
+    ocekivano: "ukupno floskula: 1"
+    status: "ručni pregled — 1 preostala iznimka je namjerna: „Emergentno nije slučajno.\" je tvrdnja, ne fraza (uvod je prerađen 3. 10., pa je „na pragu nečega većega\" izašao iz teksta)"
   - id: MU-26
     vrsta: stil
     pravilo: "Pokazna zamjenica u tvrdnji („to\", „ovo\", „time\") ima imenicu na koju se veže u istoj ili prethodnoj rečenici."
@@ -228,5 +228,5 @@ upute:
     izvor: "autor: „učvršćivanja teme i posljedica" (ZAPIS-024); docs/STIL.md, pravilo 4 v2"
     obuhvat: "16 poglavlja + uvod + zaključak"
     provjera: "python3 kod/check_sekcije.py | tail -1"
-    ocekivano: "UKUPNO: bez naslanjanja 0 | bez paradigmatskog okvira 14 | bez predaje dalje 0"
+    ocekivano: "UKUPNO: bez naslanjanja 0 | bez paradigmatskog okvira 13 | bez predaje dalje 0"
     status: "ručni pregled — završeci poglavlja provjeravaju se čitanjem"

@@ -176,7 +176,7 @@ Test mora biti izvediv i mora imati unaprijed određen ishod:
 
 Kandidatura, dakle, ima oblik koji se u znanosti traži: tvrdnja + uvjeti + način provjere + opis stanja u kojemu je napuštamo. Ono što joj se u javnoj raspravi najčešće dodaje — a što ona ne sadrži — jest gradacija unutar same kandidature. Koliko slobode sustav ima u odluci? Ta gradacija postoji kao zaseban opis; Knight First Amendment Institute (2025) izlaže **razine autonomije** agentskih sustava i time omogućuje da se o „samostalnosti" govori tek po stupnjevima, ne kao o svojstvu koje se ima ili nema. Ta je gradacija potrebna za posljednje pitanje ovoga poglavlja.
 
-Za temu ove knjige odlučujuće je to što kandidatura nosi test koji može pasti: o entitetu se tada govori mjereno, po kriterijima koji se mogu ne zadovoljiti.
+Za temu ove knjige odlučujuće je to što kandidatura nosi test koji može pasti: o entitetu se tada govori mjereno, po kriterijima koji se mogu ne zadovoljiti; o tome kako se ti kriteriji provjeravaju govori sljedeći odjeljak.
 
 ## 12.5 Kolaborator i kompetitor
 

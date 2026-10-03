@@ -6,11 +6,11 @@
 
 ## Zašto zaključak nije zbroj sažetaka
 
-Svako poglavlje ima svoj sažetak i svoj falsifikacijski odjeljak; zbrajanje tih sažetaka dalo bi tekst koji ponavlja knjigu, ne zatvara je. Ovdje se pak radi nešto drugo: **vrednuje se stanje dokaza**. Za svaku od tri tvrdnje iz uvoda piše se na čemu stoji, koliko je ta podloga jaka i što je od nje ostalo neprovjereno. To je jedini oblik zaključka koji se ne može napisati bez knjige ni kao njezina zamjena, jer se svaka njegova tvrdnja veže uz mjesto u tekstu i uz rezultat koji bi je oborio. Zaključak nije sažetak.
+Svako poglavlje ima svoj sažetak i svoj falsifikacijski odjeljak; zbrajanje tih sažetaka dalo bi tekst koji ponavlja knjigu, ne zatvara je. Ovdje se, naprotiv, radi nešto drugo: **vrednuje se stanje dokaza**. Za svaku od tri tvrdnje iz uvoda piše se na čemu stoji, koliko je ta podloga jaka i što je od nje ostalo neprovjereno. To je jedini oblik zaključka koji se ne može napisati bez knjige ni kao njezina zamjena, jer se svaka njegova tvrdnja veže uz mjesto u tekstu i uz rezultat koji bi je oborio. Zaključak nije sažetak.
 
 ## Put knjige u četiri koraka
 
-**Prvi dio** postavio je okvir i obvezao se na dvije stvari: razina se definira **relacijskom shemom** (ne dojmom o složenosti), i emergencija se rabi **isključivo u slabome smislu** (Bedau 1997). Ono što nastaje izvedivo je iz nižega, ali samo simulacijom, nikad prečicom (→ pogl. 1.3, 3.2). Najveći rizik ovakve knjige time je uklonjen: da razine postanu mjesto na koje se smještaju nerazjašnjene pojave.
+**Prvi dio** postavio je okvir i obvezao se na dvije stvari: razina se definira **relacijskom shemom**, za razliku od dojma o složenosti, i emergencija se rabi **isključivo u slabome smislu** (Bedau 1997). Ono što nastaje izvedivo je iz nižega, ali samo simulacijom, nikad prečicom (→ pogl. 1.3, 3.2). Najveći rizik ovakve knjige time je uklonjen: da razine postanu mjesto na koje se smještaju nerazjašnjene pojave.
 
 **Drugi dio** pokazao je da komunikacija nije alat kojim se razine opisuju, nego **jedna od njih** — razina 14, SocCommunication — s pet uvjeta koji su kumulativni: adresiranje, prepoznata namjera, zajednički artefakt, konvencija, obveza (→ pogl. 7.5). Uz to je pokazano što razinu 15 (SocCulturalInstitution) dijeli od 14: **sankcija**, ne količina obveze — postoji ovlaštenje utvrditi kršenje i izreći posljedicu (→ pogl. 8.1).
 
@@ -46,11 +46,11 @@ Otvorena oznaka nije sramota. Sramota bi bila da je nema, jer bi to značilo da 
 
 ## Što bi ovu knjigu oborilo
 
-Na razini cijele knjige to su tri rezultata, navedena u uvodu i razrađena u 16.5. Prvi je **neraslučivost razina**: isti podaci daju iste nalaze neovisno o razini koja se traži. Drugi je **razina koja ne mijenja ništa**: komunikacija ne uvodi nijedan tip svojstva kojega niže razine ne posjeduju. Treći je **sedamnaesta razina**: za modele se pokaže razina koju nijedna od šesnaest ne pokriva, s kriterijem koji nije samo novi materijal. Nijedan od njih, usto, nije izveden. Knjiga daje postupke po kojima se izvode, ne tvrdnju da su izvedeni. U praksi se svaka tvrdnja o razinama izriče s oznakom koliko joj je podloga jaka i što bi je oborilo.
+Na razini cijele knjige to su tri rezultata, navedena u uvodu i razrađena u 16.5. Prvi je **neraslučivost razina**: isti podaci daju iste nalaze neovisno o razini koja se traži. Drugi je **razina koja ne mijenja ništa**: komunikacija ne uvodi nijedan tip svojstva kojega niže razine ne posjeduju. Treći je **sedamnaesta razina**: za modele se pokaže razina koju nijedna od šesnaest ne pokriva, s kriterijem koji traži razliku u tipu svojstva, a ne samo novi materijal. Nijedan od njih, usto, nije izveden. Knjiga daje postupke po kojima se izvode, ne tvrdnju da su izvedeni. U praksi se svaka tvrdnja o razinama izriče s oznakom koliko joj je podloga jaka i što bi je oborilo.
 
 ## Knjiga kao nastavno sredstvo
 
-Ovo je dio namjere, nikako dodatak. Anatomija od sedam blokova (teza, teorijski okvir, metode i podaci, praktikum ili radni primjer, vježbe, sažetak i ključni pojmovi, „kako bismo znali da griješimo") napravljena je tako da se poglavlje može zadati kao **tjedan nastave**. Teza i okvir služe kao tekst za čitanje, praktikum kao vježba u računalu, vježbe kao domaći rad, a falsifikacijski odjeljak kao tema seminara. Trojna podjela vježbi (🟢 provjeri razumijevanje, 🟡 primijeni na vlastite podatke, 🏆 istraživački zadatak) omogućuje da isti materijal radi i na preddiplomskoj i na diplomskoj razini. Rješenja vježbi dana su u dodatku C, a predlošci za praktikume (korpusni upit, evaluacija ugrađivanja, protokol kauzalnog testa) u repozitoriju knjige (`kod/`, `data/`).
+Ovo je dio namjere, a ne dodatak. Anatomija od sedam blokova (teza, teorijski okvir, metode i podaci, praktikum ili radni primjer, vježbe, sažetak i ključni pojmovi, „kako bismo znali da griješimo") napravljena je tako da se poglavlje može zadati kao **tjedan nastave**. Teza i okvir služe kao tekst za čitanje, praktikum kao vježba u računalu, vježbe kao domaći rad, a falsifikacijski odjeljak kao tema seminara. Trojna podjela vježbi (🟢 provjeri razumijevanje, 🟡 primijeni na vlastite podatke, 🏆 istraživački zadatak) omogućuje da isti materijal radi i na preddiplomskoj i na diplomskoj razini. Rješenja vježbi dana su u dodatku C, a predlošci za praktikume (korpusni upit, evaluacija ugrađivanja, protokol kauzalnog testa) u repozitoriju knjige (`kod/`, `data/`).
 
 ## Što možete učiniti danas
 

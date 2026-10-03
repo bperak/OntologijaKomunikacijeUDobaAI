@@ -79,6 +79,10 @@ def main():
             man[2] += not fwd
             if not back:
                 propusti.append(nas)
+            if not par:
+                propusti.append("PAR: " + nas)
+            if not fwd:
+                propusti.append("NAP: " + nas)
         u = len(S)
         izvještaj.append((os.path.basename(f), u, man, propusti))
         print(f"{os.path.basename(f):<20} sekcija {u:>3} | bez naslanjanja {man[0]:>2} ({100*man[0]//max(u,1):>3}%)"
@@ -90,7 +94,7 @@ def main():
     if ispis:
         for ime, u, man, propusti in izvještaj:
             if propusti:
-                print(f"\n--- {ime}: sekcije koje ne naslanjaju na prethodnu ({len(propusti)}) ---")
+                print(f"\n--- {ime}: praznine po sekcijama ({len(propusti)}) ---")
                 for p in propusti:
                     print("   •", p)
     return 0

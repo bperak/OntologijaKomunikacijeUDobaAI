@@ -975,3 +975,40 @@ protokola, predlošci, rješenja) ne gone se na prag lepršavosti — dodatak D 
 Napomena o recenziji: **Gemini Pro nije vidio grešku „lijevi stupac"** u pogl. 8 (njegov prijepis ju je
 zadržao); uočio ju je GPT-6.1 — dokaz zašto se šalje više modela, a ne jedan.
 
+## ZAPIS-025 — Uvod prepisan po autorovu izboru (verzija koju je napisao Gemini Pro) (3. 10. 2026.)
+
+**Povod (autor):** „Ne znam, meni je sve to isto. Možda da probaš pustiti da, recimo, [Gemini] napravi uvod pa
+da vidiš kako bi on to napravio." Nakon što su dvije samostalne verzije (Gemini Pro i GPT-6.1 Sol Pro) predane
+autor je odabrao **Geminijevu kao osnovu**.
+
+**Što je učinjeno.** Uvod je prepisan iznova, Geminijevom strukturom i glasom (9 sekcija umjesto 14), uz
+vraćanje onoga što knjiga mora imati: teza u bloku na početku · tri tvrdnje · tri terminološke stege
+(funkcionalno/intrinzično, entitet/agent, slaba emergencija) · peterostupni niz *tekst → mreža → vektor →
+razina → tvrdnja* · tri puta kroz knjigu (*1 → 2 → 7 → 12 → 14*; *4 → 6 → 10 → 14 → 16*;
+*16 → 14 → 7 → 2 → 1*) · pravilo o ❓ · mreža triju knjiga · uvjeti pada · higijena rukopisa (brojka s vrstom,
+citat s izvorom, automatske provjere, licenca CC BY-NC 4.0) · „Što nosite sa sobom" **na kraju** (u drugome licu).
+
+**Vraćeno iz staroga uvoda (provjera je pokazala gubitak):** citati **Chalmers 2006** (jaka emergencija),
+**Perak 2014**, **Ban Kirigin & Perak 2020**, **Perak & Ban Kirigin 2023** te podrijetlo rukopisa (izlaganje
+*Elements of Cognition in Complex Language*, IUC Dubrovnik, 11. rujna 2026.). Bez toga bi uvod ostao bez
+četiriju referenci koje knjiga mora nositi.
+
+**Namjerno izostavljeno** (prema obrazloženju obaju modela: *uvod obećava aparat, a ne izvršava ga*): popis
+šesnaest poglavlja pojedinačno, popis dodataka A–I, blok izvršnih naredbi za provjere. Ti sadržaji ostaju u
+sadržaju, predgovoru i uputama za rad s repozitorijem.
+
+**Nalaz koji je prolaz otkrio — dva mjerila se sukobljavaju:** prolaz lepršavosti (ZAPIS-024) uklonio je
+antiteze, a mjera povezanosti paradigmatski okvir prepoznaje **upravo po tim oznakama** („a ne", „dok",
+„naprotiv", „za razliku"). Stanje povezanosti zato se pogoršalo s **0/14/0** na **0/17/2**. Ispravljeno je
+ciljano: paradigmatski okvir vraćen je u šest sekcija **jednom oznakom po sekciji** (zaključak ×4, pogl. 8,
+pogl. 12), u obliku koji ne vraća bubnjanje. Sada: **0 / 13 / 0**, pri čemu je 13 paradigmatskih praznina
+dodatak I (alternativna formalizacija stoji u falsifikatorima — aparat koji se ne dira, dokumentirano u
+ZAPIS-020). Lekcija: mjerila se moraju provjeravati **zajedno**, jer popravak po jednome može pogoršati drugo.
+
+**Stil uvoda:** „upravo" izbačen; duga podebljanja (teza, peterostupni niz, putovi) prevedena u kurziv —
+podebljano ostaje samo na pojmovima (pravilo 1). Mjere: povezanost **0/0/0**, stil u granicama, antiteza
+**4,4/1.000**, konektor **2,5 %**.
+
+**Snimka obnovljena:** `/tmp/stil-staro/uvod.md` zamijenjen je odobrenim stanjem, da se budući gubici hvataju
+naspram odobrenoga uvoda, a ne naspram onoga koji je autor odbacio.
+
