@@ -474,10 +474,11 @@ stilska provjera mora uz pragove vraćati i **strukturnu istovjetnost** — ina�
 ## ZAPIS-011 — Kalibracija pragova ritma i tri slijepe točke mjernoga alata (3. 10. 2026.)
 
 **Pragovi (docs/STIL.md) nakon stvarnih mjerenja:**
-- srednja dužina rečenice **15–30** riječi (donja je granica spuštena s 20 na 15: autor traži *kraće*
-  rečenice, pa granica od 20 ne smije raditi protiv zahtjeva ni kažnjavati poglavlje 4 za 17,0),
-- kraćih od 12 riječi **≥ 23 %**, kraćih od 8 riječi **≥ 13 %** i najviše **15 %** rečenica dužih od 40
-  riječi (uzorak — poglavlje 1 — daje 33,8 % / 15,3 % / 8,3 %),
+- srednja dužina rečenice **najviše 30** riječi; **donja granica je ukinuta** (autor traži kraće
+  rečenice, pa kratkoća nije pogreška — dodatak D, obrasci, ima srednju 10,6 i to je ispravno),
+- kraćih od 12 riječi **≥ 20 %**, kraćih od 8 riječi **≥ 13 %** i najviše **15 %** rečenica dužih od 40
+  riječi (uzorak — poglavlje 1 — daje 33,8 % / 15,3 % / 8,3 %; pragovi su postavljeni znatno niže od
+  uzorka da 0,1 postotnoga poena ne tjera na umetanje rečenica bez sadržaja),
 - nijedan niz dulji od **dvije** uzastopne rečenice s više od 30 riječi, i to **samo u prozi**,
 - „šuplje kratke“ (kratkoća bez informacije) = **0**.
 

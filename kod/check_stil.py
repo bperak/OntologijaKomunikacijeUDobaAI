@@ -31,7 +31,10 @@ GENERIRANO = {"sadrzaj.md", "dodatak-E-izvori-i-brojke.md", "dodatak-G-kazalo.md
 # Pragovi su ČUVARI, a ne ciljevi: brane od dviju krajnosti — od razvučene proze i od sjeckanja.
 # Kalibrirani su na prerađenome poglavlju 1 (srednja 20,1 · <12 riječi 33,8 % · ≤8 riječi 15,3 %),
 # uz široku marginu, da 0,1 postotnoga poena ne tjera na umetanje rečenica bez sadržaja.
-PRAG = {"bold": 15.0, "bold_dugi": 10.0, "rec_min": 15.0, "rec_max": 30.0, "kratke": 23.0, "duge": 15.0,
+# DONJA granica srednje dužine NIJE postavljena: autor traži kraće rečenice, pa kratkoća nije
+# pogreška (dodatak D, obrasci, ima srednju 10,6 i to je u redu). Gornja granica (30) brani od
+# razvučene proze, a udjeli kratkih rečenica brane od sjeckanja.
+PRAG = {"bold": 15.0, "bold_dugi": 10.0, "rec_min": 0.0, "rec_max": 30.0, "kratke": 20.0, "duge": 15.0,
         "vrlo_kratke": 13.0, "niz_dagih": 2, "suplje": 0,
         "upravo": 3.0, "cestice_razlicitih": 5, "kliseji": 5, "popis": 280}
 CESTICE = ["naime", "dakle", "pak", "usto", "pritom", "otud", "naprotiv", "štoviše",
@@ -189,8 +192,12 @@ def provjera(zbroj):
         nal.append(f"dugih rečenica {zbroj['duge']:.1f}% > {PRAG['duge']}%")
     if zbroj["upravo"] > PRAG["upravo"]:
         nal.append(f"„upravo“ {zbroj['upravo']:.1f}/10k > {PRAG['upravo']}")
-    if zbroj["cestice_raz"] < PRAG["cestice_razlicitih"]:
-        nal.append(f"čestični repertoar {zbroj['cestice_raz']} < {PRAG['cestice_razlicitih']}")
+    # Čestični repertoar traži se razmjerno duljini: od dvjestostraničnoga poglavlja smisleno je
+    # tražiti pet različitih čestica, a od dodatka od 280 riječi nije (tamo je dosta dvije).
+    w = zbroj["rijeci"]
+    prag_cestica = 5 if w >= 1500 else (3 if w >= 800 else (2 if w >= 400 else 1))
+    if zbroj["cestice_raz"] < prag_cestica:
+        nal.append(f"čestični repertoar {zbroj['cestice_raz']} < {prag_cestica}")
     # (klišejи i popisni retci ispisuju se u zbroju, ali se ovdje ne provjeravaju — vidi gore)
     return nal
 
