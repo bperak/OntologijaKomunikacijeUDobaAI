@@ -46,6 +46,9 @@ def main():
         # parnost markera i u staroj verziji (da se zna je li greška nova)
         promj = os.path.getmtime(put) != os.path.getmtime(stari)
         for k in sa:
+            # bold_odlomci se NE prijavljuje: skidanje masnoga s tvrdnji je cilj prolaza.
+            if k == "bold_odlomci":
+                continue
             if sa[k] != sb[k] and k != "markeri":
                 nalazi.append(f"{rel}: struktura {k} {sa[k]} -> {sb[k]}")
         if sb["markeri"] and not sa["markeri"]:

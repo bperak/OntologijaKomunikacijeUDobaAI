@@ -471,3 +471,28 @@ sačuvan (nijedan citat, godina, brojka, naslov ni uputa nije izgubljena), ali j
 **Naučeno.** Mjera koja se može zadovoljiti **uklanjanjem aparata** nije mjera nego zamka. Zato svaka
 stilska provjera mora uz pragove vraćati i **strukturnu istovjetnost** — inače se uspjeh plaća sadržajem.
 
+## ZAPIS-011 — Kalibracija pragova ritma i tri slijepe točke mjernoga alata (3. 10. 2026.)
+
+**Pragovi (docs/STIL.md) nakon stvarnih mjerenja:**
+- srednja dužina rečenice **15–30** riječi (donja je granica spuštena s 20 na 15: autor traži *kraće*
+  rečenice, pa granica od 20 ne smije raditi protiv zahtjeva ni kažnjavati poglavlje 4 za 17,0),
+- kraćih od 12 riječi **≥ 23 %**, kraćih od 8 riječi **≥ 13 %** i najviše **15 %** rečenica dužih od 40
+  riječi (uzorak — poglavlje 1 — daje 33,8 % / 15,3 % / 8,3 %),
+- nijedan niz dulji od **dvije** uzastopne rečenice s više od 30 riječi, i to **samo u prozi**,
+- „šuplje kratke“ (kratkoća bez informacije) = **0**.
+
+**Tri slijepe točke alata `check_stil.py` (sve tri popravljene, sve tri su pogrešno usmjeravale rad):**
+1. popisni retci spajali su se u jednu „rečenicu“ (i kad završavaju zarezom ili točkom-zarezom), pa su
+   uzastopni dugi popisni retci davali **lažni niz dugih rečenica** — radnici su ga uklanjali brisanjem
+   oznaka popisa. Sada je svaki popisni redak zasebna jedinica, a niz se mjeri samo na prozi.
+2. **masni podnaslovi** i **retci popisa literature** („Autor 1997 · Autor 2006 · …“) brojali su se kao
+   rečenice: prvi kao „šuplje kratke“, drugi kao goleme rečenice (100+ riječi) koje su kvarile SD i udio
+   dugih rečenica.
+3. **blokovi koda** ulazili su u prozu (u dodacima B i D), pa su se retci predložaka brojali kao rečenice
+   od 40–50 riječi.
+
+**Posljedica koju treba zapamtiti:** mjera koja se može zadovoljiti uklanjanjem aparata nije mjera.
+Zato `kod/provjeri_stil.py` uz pragove provjerava i **strukturnu istovjetnost** (popis, naslovi, slike,
+tablice, parnost markera), a `kod/vrati_natuknice.py` vraća masno na uvodne natuknice koje su radnici
+skinuli (vraćeno 27, samo nedvojbene — dvotočka, upitnik, najava).
+

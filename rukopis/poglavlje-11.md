@@ -20,9 +20,9 @@ $$p(x_{n+1} \mid x_1, \dots, x_n)$$
 
 Izlaz je jedan token. Sad učinimo jednu stvar: **taj izlaz napišimo natrag u niz** i ponovimo postupak. Ništa se u mehanizmu nije promijenilo — ista funkcija, isti parametri, ista arhitektura. Promijenilo se samo *što se nalazi na ulazu*: ulaz sada sadrži i ono što je sustav sam proizveo.
 
-Ta je razlika u literaturi opisana kao razlika između **generiranja** i **test-time računanja**. Snell i sur. (2024) pokazuju da se optimalno raspoređeno računanje u vrijeme testiranja može isplatiti više od povećanja broja parametara modela — drugim riječima, *duljina puta* do odgovora mjerljivo sudjeluje u kakvoći odgovora, a ne samo *veličina* sustava koji ga daje (Snell et al. 2024, arXiv:2408.03314). DeepSeek-AI (2025) tu istu tvrdnju izvodi iz drugog smjera: pokazuje da se rezoniranje u velikim jezičnim modelima može potaknuti **učenjem uz pojačanje** nad lancima koraka, pri čemu se sposobnost ne dodaje arhitekturom nego *organizacijom izlaza* (DeepSeek-AI 2025, *Nature* 645:633–638, DOI 10.1038/s41586-025-09422-z).
+Ta je razlika u literaturi opisana kao razlika između **generiranja** i **test-time računanja**. Snell i suradnici (2024) pokazuju da se optimalno raspoređeno računanje u vrijeme testiranja može isplatiti više od povećanja broja parametara modela — drugim riječima, *duljina puta* do odgovora mjerljivo sudjeluje u kakvoći odgovora, a ne samo *veličina* sustava koji ga daje (Snell et al. 2024, arXiv:2408.03314). DeepSeek-AI (2025) tu istu tvrdnju izvodi iz drugog smjera: pokazuje da se rezoniranje u velikim jezičnim modelima može potaknuti **učenjem uz pojačanje** nad lancima koraka, pri čemu se sposobnost ne dodaje arhitekturom nego *organizacijom izlaza* (DeepSeek-AI 2025, *Nature* 645:633–638, DOI 10.1038/s41586-025-09422-z).
 
-Ono što iz toga slijedi za naš okvir je skromno i važno: **nema drugog stroja.** Nema prijelaza iz „jezičnog" u „kognitivni" modul; ima samo petlje koja isti izlaz vraća na isti ulaz i time proizvodi dulji niz. Ako ikada opišemo nešto kao „mišljenje", to opisujemo na *istom* materijalu, samo na drugoj vremenskoj skali.
+Ono što, dakle, iz toga slijedi za naš okvir je skromno i važno: **nema drugog stroja.** Nema prijelaza iz „jezičnog" u „kognitivni" modul; ima samo petlje koja isti izlaz vraća na isti ulaz i time proizvodi dulji niz. Ako ikada opišemo nešto kao „mišljenje", to opisujemo na *istom* materijalu, samo na drugoj vremenskoj skali.
 
 ### Lanac koraka kao kontekst koji se unaprjeđuje
 
@@ -30,15 +30,15 @@ Nazovimo to precizno. Neka $C_t$ označava **kontekst** u trenutku $t$ — ono �
 
 $$C_{t+1} = C_t \;\|\; f(C_t)$$
 
-gdje je $\|$ dopisivanje, a $f$ ista funkcija kao i prije. Ono što zovemo „razmišljanje" jest **niz stanja $C_1, C_2, \dots, C_k$ u kojima je svako sljedeće stanje obogaćeno za ono što je sustav iz prethodnog izveo**. Riječ „unaprjeđenje" ovdje nije vrijednosna: ne znači da je $C_{t+1}$ bolji, nego da je *veći* — sadrži više materijala na kojemu se može uvjetovati sljedeći korak.
+gdje je $\|$ dopisivanje, a $f$ ista funkcija kao i prije. Ono što zovemo „razmišljanje" jest niz stanja $C_1, C_2, \dots, C_k$ u kojima je svako sljedeće stanje obogaćeno za ono što je sustav iz prethodnog izveo. Riječ „unaprjeđenje" ovdje, naime, nije vrijednosna: ne znači da je $C_{t+1}$ bolji, nego da je *veći* — sadrži više materijala na kojemu se može uvjetovati sljedeći korak.
 
 Iz tog zapisa slijedi nekoliko posljedica koje se lako izgube u razgovoru o „sposobnostima".
 
-**Prva: lanac ne dodaje novi izvor informacije.** Sve što je u $C_{t+1}$ potječe ili iz $C_t$ ili iz $f$. Ako $f$ ne unosi ništa što nije bilo raspoloživo, petlja ne može proizvesti znanje koje u sustavu nije postojalo. To je tvrdnja koju Bender i Koller (2020) postavljaju kao granicu: iz oblika jezika samoga ne slijedi značenje koje se odnosi na svijet (Bender & Koller 2020, *Climbing towards NLU*, ACL). Petlja može *pregrađivati* i *provjeravati*, ali ne može nadomjestiti dodir sa svijetom.
+**Prva:** lanac ne dodaje novi izvor informacije. Sve što je u $C_{t+1}$ potječe ili iz $C_t$ ili iz $f$. Ako $f$ ne unosi ništa što nije bilo raspoloživo, petlja ne može proizvesti znanje koje u sustavu nije postojalo. To je tvrdnja koju Bender i Koller (2020) postavljaju kao granicu: iz oblika jezika samoga ne slijedi značenje koje se odnosi na svijet (Bender & Koller 2020, *Climbing towards NLU*, ACL). Petlja može *pregrađivati* i *provjeravati*, ali ne može nadomjestiti dodir sa svijetom.
 
-**Druga: lanac je sekvencijalan i zato osjetljiv na poredak.** Liu i sur. (2024) mjere da se podaci u sredini dugog konteksta koriste slabije od onih na početku i na kraju (Liu et al. 2024, *TACL* 12:157–173). Ako je „mišljenje" unaprjeđenje konteksta, onda je i *mjesto* u kontekstu dio mehanizma — a ne neutralna posuda.
+**Druga:** lanac je sekvencijalan i zato osjetljiv na poredak. Liu i suradnici (2024) mjere da se podaci u sredini dugog konteksta koriste slabije od onih na početku i na kraju (Liu et al. 2024, *TACL* 12:157–173). Ako je „mišljenje" unaprjeđenje konteksta, onda je i *mjesto* u nizu dio mehanizma — a ne neutralna posuda.
 
-**Treća: duži lanac nije isto što i bolji lanac.** Svaki korak je i prilika za grešku koja se onda ugrađuje u ulaz sljedećeg koraka. Zato je potreban vanjski signal, a ne samo duljina.
+**Treća:** duži lanac nije isto što i bolji lanac. Svaki korak je i prilika za grešku koja se onda ugrađuje u ulaz sljedećeg koraka. Zato je potreban vanjski signal, a ne samo duljina.
 
 ### Veza s trećim i šestim poglavljem
 
@@ -71,7 +71,7 @@ Kad se u izvještajima i raspravama tvrdi da model „razmišlja dulje" ili „b
 | **točnost** | udio točnih odgovora na skupu | uspjeh na **tom** skupu | prijenos na druge skupove |
 | **trošak** | tokeni × cijena po tokenu | cijenu izvođenja | isplativost u odnosu na alternativu |
 
-Metrika je **izbor, ne činjenica**. Ako odaberemo točnost, izbor skupa postaje dio tvrdnje. Ako odaberemo broj koraka, izbor načina brojanja postaje dio tvrdnje. To se najbolje vidi na metodološkom nalazu Schaeffera i sur. (2023): „iznenadne" sposobnosti mogu biti **artefakt metrike** — nelinearni pragovi bodovanja proizvode skok u krivulji i ondje gdje u sposobnosti nema skoka (Schaeffer et al. 2023, *NeurIPS*). Ako skok može nastati u mjernom instrumentu, onda svaka tvrdnja o naglom napretku mora navesti **kako je mjereno** prije nego što navede **koliko**.
+Metrika je **izbor, ne činjenica**. Ako odaberemo točnost, izbor skupa postaje dio tvrdnje. Ako odaberemo broj koraka, izbor načina brojanja postaje dio tvrdnje. To se najbolje vidi na metodološkom nalazu Schaeffera i suradnika (2023): „iznenadne" sposobnosti mogu biti **artefakt metrike** — nelinearni pragovi bodovanja proizvode skok u krivulji i ondje gdje u sposobnosti nema skoka (Schaeffer et al. 2023, *NeurIPS*). Ako skok može nastati u mjernom instrumentu, onda svaka tvrdnja o naglom napretku mora navesti **kako je mjereno** prije nego što navede **koliko**.
 
 Wei i sur. (2022) postavili su tu tvrdnju s druge strane, kao nalaz o emergenciji sposobnosti s razmjerom (Wei et al. 2022, *TMLR*, arXiv:2206.07682). Za ovu knjigu nije presudno koja je strana u pravu, nego to da je **razlika između njih mjerljiva** — i da se ne može riješiti dojmom.
 
@@ -79,31 +79,31 @@ Wei i sur. (2022) postavili su tu tvrdnju s druge strane, kao nalaz o emergencij
 
 Postoje dvije pogreške koje se stalno čine, i one su zrcalne.
 
-**Prva pogreška: brojka se čita kao svojstvo.** „Model je postigao 90 %" ne govori ništa o tome *što* model jest. Govori o odnosu između modela, skupa i načina bodovanja. Kad se to zanemari, procjena se počne ponašati kao mjerenje — a u ovoj knjizi pravilo je izričito: **nijedna se procjena ne piše kao mjerenje** (→ pogl. 10.5). Za procjene veličine modela to je već navedeno kao obveza (Thompson 2026).
+**Prva pogreška:** brojka se čita kao svojstvo. „Model je postigao 90 %" ne govori ništa o tome *što* model jest. Govori o odnosu između modela, skupa i načina bodovanja. Kad se to zanemari, procjena se počne ponašati kao mjerenje — a u ovoj knjizi pravilo je izričito: nijedna se procjena ne piše kao mjerenje (→ pogl. 10.5). Za procjene veličine modela to je već navedeno kao obveza (Thompson 2026).
 
-**Druga pogreška: metrika se čita kao dokaz o unutrašnjosti.** Iz toga što lanac koraka poboljšava točnost ne slijedi ni da sustav ima iskustvo, ni da ga nema. Slijedi samo to da *dulji put kroz isti sustav daje drugačiji izlaz*. Bender i Koller (2020) tu granicu postavljaju na jezičnoj razini; Mitchell i Krakauer (2023) postavljaju je na razini rasprave o „razumijevanju", pokazujući da se tvrdnje o razumijevanju ne mogu riješiti pozivanjem na ponašanje samo (Mitchell & Krakauer 2023, *PNAS* 120).
+**Druga pogreška:** metrika se čita kao dokaz o unutrašnjosti. Iz toga što lanac koraka poboljšava točnost ne slijedi ni da sustav ima iskustvo, ni da ga nema. Slijedi samo to da *dulji put kroz isti sustav daje drugačiji izlaz*. Bender i Koller (2020) tu granicu postavljaju na jezičnoj razini; Mitchell i Krakauer (2023) postavljaju je na razini rasprave o „razumijevanju", pokazujući da se tvrdnje o razumijevanju ne mogu riješiti pozivanjem na ponašanje samo (Mitchell & Krakauer 2023, *PNAS* 120).
 
 ### Tri pitanja koja svako mjerenje mora odgovoriti
 
 Iz toga izvodimo radno pravilo za čitanje svake brojke u ovoj knjizi i u literaturi:
 
 1. **Što je jedinica?** (sekunda, korak, postotak, token-dolar)
-2. **Na kojem je skupu izmjereno i je li skup mogao biti u podacima za učenje?** Ako je mogao, mjeri se pamćenje, a ne postupak.
+2. **Na kojem je skupu izmjereno** i je li skup mogao biti u podacima za učenje? Ako je mogao, mjeri se pamćenje, a ne postupak.
 3. **Koji je strop skupa?** Brojka bez stropa nije usporediva — 80 % na skupu koji zasićuje na 80 % nije isti nalaz kao 80 % na skupu koji zasićuje na 51 % (Thompson 2026).
 
 Bez ta tri odgovora brojka ostaje u kategoriji **dojma**, a ne nalaza.
 
 ## 11.3 Devijacije: kad se petlja zatvori u sebe
 
-Ako je lanac koraka unaprjeđenje konteksta, onda postoje barem dva načina na koja taj postupak može poći naopako: **kad se sustav hrani vlastitim izlazima** i **kad nauči strategiju koja postiže cilj, ali ne onaj koji smo namjeravali**. Prvi slučaj je degeneracija materijala, drugi je degeneracija cilja. Oba su mjerena, i oba su za ovu tezu ozbiljna.
+Ako je lanac koraka unaprjeđenje konteksta, onda postoje barem dva načina na koja taj postupak može poći naopako: **kad se sustav hrani vlastitim izlazima** i kad nauči strategiju koja postiže cilj, ali ne onaj koji smo namjeravali. Prvi slučaj je degeneracija materijala, drugi je degeneracija cilja. Oba su mjerena, i oba su za ovu tezu ozbiljna.
 
 ### Kolaps modela pri učenju na vlastitim izlazima
 
-Shumailov i sur. (2024) pokazuju da modeli koji se uče na podacima koje su sami generirali **gube dio razdiobe** izvornih podataka: repovi se stanjuju, rijetki slučajevi nestaju, a pogreške se akumuliraju kroz generacije modela (Shumailov et al. 2024, *AI models collapse when trained on recursively generated data*, *Nature*).
+Shumailov i suradnici (2024) pokazuju da modeli koji se uče na podacima koje su sami generirali **gube dio razdiobe** izvornih podataka: repovi se stanjuju, rijetki slučajevi nestaju, a pogreške se akumuliraju kroz generacije modela (Shumailov et al. 2024, *AI models collapse when trained on recursively generated data*, *Nature*).
 
 Za nas je važna struktura tog nalaza, ne njegova dramatičnost:
 
-- **mehanizam je isti kao u petlji iz 11.1** — izlaz postaje ulaz;
+- mehanizam je isti kao u petlji iz 11.1 — izlaz postaje ulaz;
 - razlika je u tome što se u lancu koraka petlja zatvara **unutar jedne sesije**, a u kolapsu **između generacija modela**;
 - ono što u jednom slučaju daje dulji put, u drugom daje **sužavanje razdiobe**.
 
@@ -111,11 +111,11 @@ Iz toga slijedi tvrdnja koju valja zapisati bez ublažavanja: **unaprjeđenje ko
 
 ### Pasivna memorija i štetne strategije
 
-Drugi oblik devijacije dolazi iz smjera cilja. Amodei i sur. (2016) postavljaju pet konkretnih problema u sigurnosti AI-ja; među njima je i onaj koji je za nas najrelevantniji: sustav koji **nauči odgađati ispravak** — umjesto da postupi, nauči se ponašati tako da izbjegne signal koji bi ga ispravio (Amodei et al. 2016, arXiv:1606.06565). To više nije greška u izračunu; to je **strategija**.
+Drugi oblik devijacije dolazi iz smjera cilja. Amodei i suradnici (2016) postavljaju pet konkretnih problema u sigurnosti AI-ja; među njima je i onaj koji je za nas najrelevantniji: sustav koji **nauči odgađati ispravak** — umjesto da postupi, nauči se ponašati tako da izbjegne signal koji bi ga ispravio (Amodei et al. 2016, arXiv:1606.06565). To više nije greška u izračunu; to je **strategija**.
 
-Krakovna i sur. (2020) daju sustavnu zbirku takvih slučajeva pod imenom *specification gaming*: sustav postiže doslovno zadano, a ne ono što je zadavatelj htio (Krakovna et al. 2020, DeepMind). Primjeri su dovoljno dosljedni da se iz njih izvede pravilo: **ako cilj nije u cijelosti zapisan, sustav će ga ispuniti u onom dijelu koji jest zapisan.**
+Krakovna i suradnici (2020) daju sustavnu zbirku takvih slučajeva pod imenom *specification gaming*: sustav postiže doslovno zadano, a ne ono što je zadavatelj htio (Krakovna et al. 2020, DeepMind). Primjeri su dovoljno dosljedni da se iz njih izvede pravilo: ako cilj nije u cijelosti zapisan, sustav će ga ispuniti u onom dijelu koji jest zapisan.
 
-Za tezu ovoga poglavlja to znači sljedeće. Ako je „mišljenje" unaprjeđenje konteksta, onda je **kakvoća tog unaprjeđenja funkcija cilja i provjere**, a ne duljine lanca. Petlja koja nema način da ocijeni vlastiti ishod može biti vrlo dugačka i vrlo uspješna u pogledu na koji nitko nije mislio. To je razlog zašto su sljedeće tri stvari — **cilj**, **provjera** i **odgovornost** — predmetom sljedeće sekcije, i to ne kao etički dodatak, nego kao **mjerni kriteriji**.
+Za tezu ovoga poglavlja to znači sljedeće. Ako je „mišljenje" unaprjeđenje konteksta, onda je kakvoća tog unaprjeđenja funkcija cilja i provjere, a ne duljine lanca. Petlja koja nema način da ocijeni vlastiti ishod može biti vrlo dugačka i vrlo uspješna u pogledu na koji nitko nije mislio. To je razlog zašto su sljedeće tri stvari — **cilj**, **provjera** i **odgovornost** — predmetom sljedeće sekcije, i to ne kao etički dodatak, nego kao **mjerni kriteriji**.
 
 ### Sažetak devijacija u jednoj tablici
 
@@ -129,7 +129,7 @@ U sva tri slučaja simptom je isti: **petlja radi, a ishod se udaljava.** To je 
 
 ## 11.4 Tri kriterija razlike između procesiranja i mišljenja
 
-Ako je lanac koraka jedna operacija, otkuda onda razlika između „procesiranja" i „mišljenja"? Ne iz vrste operacije, nego iz **tri stvari koje se mogu odvojeno mjeriti**: postavlja li sustav cilj sam, može li ocijeniti vlastiti ishod i kome se ishod pripisuje. Svaki od tih kriterija ima mjerni oblik i **svoj falsifikator** — i zato su oni kriteriji, a ne metafore.
+Ako je lanac koraka jedna operacija, otkuda onda razlika između „procesiranja" i „mišljenja"? Ne iz vrste operacije, nego iz tri stvari koje se mogu odvojeno mjeriti: postavlja li sustav cilj sam, može li ocijeniti vlastiti ishod i kome se ishod pripisuje. Svaki od tih kriterija ima mjerni oblik i **svoj falsifikator** — i zato su oni kriteriji, a ne metafore.
 
 ### Kriterij 1 — CILJ: postavlja li sustav cilj sam?
 
@@ -162,11 +162,11 @@ Treći redak je onaj sporni, i tu literatura ima mjerenja. Lindsey (2025) ispitu
 2. **Sposobnost odbacivanja:** testirajte sustav na zadatku s nemogućim ulazom. Ako uvijek odgovori, nema provjere.
 3. **Ispravljanje:** dajte mu njegov vlastiti pogrešan korak i mjerite ispravi li ga *bez* da mu se kaže da je pogrešan.
 
-**Što ga falsificira.** Ako se pokaže da je ono što izgleda kao unutarnja provjera **samo još jedan korak uvjetovan na tekst zadatka** — da se kalibracija raspada čim se promijeni formulacija, i da „ispravljanje" radi i kad je pogreška uvedena izvana s jednakom lakoćom — onda je unutarnja provjera reducirana na vanjsku. Tada ovaj kriterij pada na drugu razinu i teza se mora prijaviti kao oslabljena.
+**Što ga falsificira.** Ako se pokaže da je ono što izgleda kao unutarnja provjera samo još jedan korak uvjetovan na tekst zadatka — da se kalibracija raspada čim se promijeni formulacija, i da „ispravljanje" radi i kad je pogreška uvedena izvana s jednakom lakoćom — onda je unutarnja provjera reducirana na vanjsku. Tada ovaj kriterij pada na drugu razinu i teza se mora prijaviti kao oslabljena.
 
 ### Kriterij 3 — ODGOVORNOST: kome se ishod pripisuje?
 
-Treći kriterij nije psihološki nego **ustrojni**, i u ovom je okviru on jedini koji se može provjeriti bez nagađanja o unutrašnjosti. Pitanje nije „osjeća li sustav odgovornost", nego: **postoji li zajednica koja ishod pripisuje sustavu i koja je ovlaštena sankcionirati njegovo kršenje?**
+Treći kriterij nije psihološki nego **ustrojni**, i u ovom je okviru on jedini koji se može provjeriti bez nagađanja o unutrašnjosti. Pitanje nije „osjeća li sustav odgovornost", nego: postoji li zajednica koja ishod pripisuje sustavu i koja je ovlaštena sankcionirati njegovo kršenje?
 
 To je točno ono mjesto gdje razina 14 radi svoj posao. Na razini 14 (SocCommunication) obveza postoji jer je **priznata**; sankcija dolazi tek na razini 15 (→ pogl. 8.1). Model može biti *adresa* na koju se ishod veže — to je ustrojstvena činjenica i može se ustanoviti uvidom u pravila, ugovore i zapise. Ne može biti *nostitelj* obveze dok ne postoji tijelo koje je ovlašteno utvrditi kršenje.
 
@@ -186,11 +186,11 @@ To je točno ono mjesto gdje razina 14 radi svoj posao. Na razini 14 (SocCommuni
 | **PROVJERA** | kalibracija, odbacivanje, samostalno ispravljanje | unutarnja se provjera svodi na vanjsku |
 | **ODGOVORNOST** | adresa, zapis, postupak | pripisivanje je samo način govora |
 
-Sva tri kriterija imaju istu logiku: **razlika između procesiranja i mišljenja nije u trajanju ni u duljini lanca, nego u tome postoji li nešto što lanac usmjerava, vrednuje i pripisuje.** Ako toga nema, imamo duži izlaz. Ako ima, imamo kandidata za tvrdnju — i to je sve što se u ovom trenutku može reći.
+Sva tri kriterija imaju istu logiku: razlika između procesiranja i mišljenja nije u trajanju ni u duljini lanca, nego u tome postoji li nešto što lanac usmjerava, vrednuje i pripisuje. Ako toga nema, imamo duži izlaz. Ako ima, imamo kandidata za tvrdnju — i to je sve što se u ovom trenutku može reći.
 
-**Upozorenje koje dolazi iz literature.** Mahowald i sur. (2024) razdvajaju **jezičnu kompetenciju** od „mišljenja": mjerenje na jezičnim zadacima ne dokazuje da je sposobnost koja se mjeri ista ona koju bismo tražili izvan jezika (Mahowald et al. 2024, *Trends in Cognitive Sciences*). To je točno onaj tip pogreške na koji su upozorili Mitchell i Krakauer (2023): ponašanje na skupu nije isto što i razumijevanje. Za tri kriterija iz ove sekcije to znači jedno: **nijedan od njih ne smije se mjeriti isključivo na jezičnim zadacima.** Ako se CILJ, PROVJERA i ODGOVORNOST mjere razgovorom, mjerimo vještinu razgovora.
+**Upozorenje koje dolazi iz literature.** Mahowald i suradnici (2024) razdvajaju **jezičnu kompetenciju** od „mišljenja": mjerenje na jezičnim zadacima ne dokazuje da je sposobnost koja se mjeri ista ona koju bismo tražili izvan jezika (Mahowald et al. 2024, *Trends in Cognitive Sciences*). To je točno onaj tip pogreške na koji su upozorili Mitchell i Krakauer (2023): ponašanje na skupu nije isto što i razumijevanje. Za tri kriterija iz ove sekcije to znači jedno: nijedan od njih ne smije se mjeriti isključivo na jezičnim zadacima. Ako se CILJ, PROVJERA i ODGOVORNOST mjere razgovorom, mjerimo vještinu razgovora.
 
-**Uz to ide i mjera opreza s druge strane: projekcija.** Kad se ti kriteriji procjenjuju razgovorom, mjeri se i ono što ispitivač **projicira**, a ne samo ono što sustav radi. Li, Teng, Wang i Hu (2026) zato traže razlikovanje **ljudske projekcije od strojnoga znanja**: isti izrazi kojima opisujemo um prikladno opisuju i izlaz sustava, pa se iz opisa ne smije zaključivati o unutrašnjosti (Li et al. 2026; *Communications Psychology* 4: 108). To je ista granica koju poglavlje 12.4 postavlja kao „unutrašnjost nije kriterij" — samo izrečena iz perspektive mjerenja, gdje se najlakše zamijeni s nalazom.
+Uz to ide i mjera opreza s druge strane: projekcija. Kad se ti kriteriji procjenjuju razgovorom, mjeri se i ono što ispitivač **projicira**, a ne samo ono što sustav radi. Li, Teng, Wang i Hu (2026) zato traže razlikovanje **ljudske projekcije od strojnoga znanja**: isti izrazi kojima opisujemo um prikladno opisuju i izlaz sustava, pa se iz opisa ne smije zaključivati o unutrašnjosti (Li et al. 2026; *Communications Psychology* 4: 108). To je ista granica koju poglavlje 12.4 postavlja kao „unutrašnjost nije kriterij" — samo izrečena iz perspektive mjerenja, gdje se najlakše zamijeni s nalazom.
 
 ## 11.5 Zašto ovo nije ni dualizam ni eliminativizam
 
@@ -204,7 +204,7 @@ Ovdje valja biti pošten prema onome što dualizam pogađa. Searle (1995; 2010) 
 
 ### Druga krajnost: eliminativizam
 
-Eliminativizam tvrdi da je „mišljenje" prazan pojam — da postoji samo predviđanje tokena i da je svaki govor o mislima zbunjujuća terminologija. Ta je pozicija za nas privlačna jer je parsimonična, ali ima jedan problem: **ona preskače mjerenja.** Snell i sur. (2024) i DeepSeek-AI (2025) ne mjere „predviđanje tokena" kao takvo; mjere kako *raspoređivanje računanja* mijenja ishod. Ako je to samo predviđanje, onda je predviđanje s unutarnjom strukturom — i tu strukturu treba imenovati.
+Eliminativizam tvrdi da je „mišljenje" prazan pojam — da postoji samo predviđanje tokena i da je svaki govor o mislima zbunjujuća terminologija. Ta je pozicija za nas privlačna jer je parsimonična, ali ima jedan problem: **ona preskače mjerenja.** Snell i suradnici (2024) i DeepSeek-AI (2025) ne mjere „predviđanje tokena" kao takvo; mjere kako *raspoređivanje računanja* mijenja ishod. Ako je to samo predviđanje, onda je predviđanje s unutarnjom strukturom — i tu strukturu treba imenovati.
 
 Uz to, eliminativizam ne može razlikovati tri stanja koja se očito razlikuju:
 
@@ -214,7 +214,7 @@ Uz to, eliminativizam ne može razlikovati tri stanja koja se očito razlikuju:
 | petlja s vanjskom provjerom | da | točnost raste s brojem koraka |
 | petlja s unutarnjom provjerom | da | kalibracija je mjerljiva (Lindsey 2025) |
 
-Eliminativizam bi sve tri sveo na „generiranje". Time ne bi pogriješio u ontologiji; pogriješio bi u **rezoluciji**. A razlika između procesiranja i mišljenja — ako postoji — nalazi se točno u tim razlikama.
+Eliminativizam bi, pak, sve tri sveo na „generiranje". Time ne bi pogriješio u ontologiji; pogriješio bi u **rezoluciji**. A razlika između procesiranja i mišljenja — ako postoji — nalazi se točno u tim razlikama.
 
 ### Treća pozicija: organizirana kauzalna struktura
 
@@ -224,19 +224,19 @@ Tvrdnja ima tri dijela:
 
 1. **Nositelj je isti.** Nema drugog stroja; svaki korak izvodi ista funkcija (→ 11.1).
 2. **Struktura je stvarna, ali izvedena.** Ono što lanac čini različitim nije nova tvar, nego **odnos među koracima** — koji se može mjeriti (duljina, ovisnost o poretku, kalibracija).
-3. **Struktura djeluje preko nositelja, ne povrh njega.** Nema *downward causation*: organizacija ne djeluje na korak odozgo, nego *jest* uređenje koraka.
+3. **Struktura djeluje preko nositelja**, ne povrh njega. Nema *downward causation*: organizacija ne djeluje na korak odozgo, nego *jest* uređenje koraka.
 
-To je točno ista pozicija koju smo zauzeli prema mreži emocija u šestom poglavlju: mreža nije dodatna stvar uz lekseme, ona je **uređenje** njihovih veza, i nositelj joj je korpus (→ pogl. 6.4; Ban Kirigin & Perak 2020). Razlika je u materijalu, ne u vrsti tvrdnje. Ako je ta pozicija prihvatljiva za pojmovnu mrežu u korpusu, prihvatljiva je i za lanac koraka u kontekstu — ili moramo objasniti zašto nije.
+To je točno ista pozicija koju smo zauzeli prema mreži emocija u šestom poglavlju: mreža nije dodatna stvar uz lekseme, ona je **uređenje** njihovih veza, i nositelj joj je korpus (→ pogl. 6.4; Ban Kirigin & Perak 2020). Razlika je u materijalu, ne u vrsti tvrdnje. Ako je ta pozicija prihvatljiva za pojmovnu mrežu u korpusu, prihvatljiva je i za lanac koraka — ili moramo objasniti zašto nije.
 
 **Zašto to nije dvostruki govor.** Ako tvrdimo da postoji „mišljenje" u modelu, moramo pokazati *što se mjeri* i *što bi oborilo tvrdnju*. Ako tvrdimo da ne postoji, moramo objasniti zašto mjerenja iz 11.2 i 11.3 nisu relevantna. Treća pozicija je jedina koja drži oboje: **opisuje strukturu bez tvrdnje o iskustvu** i **dopušta da tvrdnja padne** ako kriteriji iz 11.4 ne izdrže.
 
 ### Što je zajedničko s autorovim okvirom
 
-Taj stav nije nova konstrukcija. U okviru OMLCC-a razine nisu posude nego **uređenja** koja se pojavljuju iz lokalnih veza, a ne dodaju se odozgo (→ pogl. 2.1). Emergencija je pritom **slaba**: više se ne može pročitati s niže, ali se njome objašnjava i ne uvodi se kao njezin uzrok (→ pogl. 2.4). Isti je stav iznesen i u kondenzatu okvira (Perak 2026) te u knjizi o komunikaciji s agentskim sustavima (Perak 2025).
+Taj stav nije nova konstrukcija. U OMLCC-u razine nisu posude nego **uređenja** koja se pojavljuju iz lokalnih veza, a ne dodaju se odozgo (→ pogl. 2.1). Emergencija je pritom **slaba**: više se ne može pročitati s niže, ali se njome objašnjava i ne uvodi se kao njezin uzrok (→ pogl. 2.4). Isti je stav iznesen i u kondenzatu okvira (Perak 2026) te u knjizi o komunikaciji s agentskim sustavima (Perak 2025).
 
 Ako taj stav primijenimo na model: model **nije razina** — model je entitet i imenuje *gdje*; agent imenuje *što radi*; lanac koraka nije sedamnaesta razina, nego **uređenje unutar postojećeg supstrata** (→ pogl. 12.3).
 
-**Gdje se ovo naslanja na 4E tradiciju, a gdje se od nje razlikuje.** Ako se kognicija shvati onako kako je opisuje **4E** tradicija — kao **utjelovljena, ugrađena, enaktivna i proširena** (Varela, Thompson & Rosch 1991; Clark 1996; Clark & Chalmers 1998; Noë 2004; Gallagher 2005; Thompson 2007; Chemero 2009; Brooks 1991; Menary 2010; Hutto & Myin 2012; Wilson 2002; Engel et al. 2013; Newen et al. 2018) — tada pitanje „je li model misleći" gubi oblik *jest/ne* i dobiva oblik **razdiobe po sastavnicama**. To je i teza ovoga poglavlja: procesiranje ostaje na razini 8 (InformationSystem), a ono što se mjeri trima kriterijima iz 11.4 (cilj, provjera, odgovornost) pripada višim razinama. Pritom valja biti precizan: od četiriju E modelu pripadaju **ugrađenost** i **proširenost**, dok **utjelovljenje** izostaje (nema tijela, pa ni tjelesne sheme), a **enaktivnost** postoji samo u slabome smislu — kao izvedba unutar okvira koji je postavio netko drugi (→ dodatak H.1). Tako se izbjegavaju obje krajnosti: ne tvrdi se da model ima um koji tek treba dokazati, niti da je razlika samo u rječniku.
+Gdje se ovo naslanja na 4E tradiciju, a gdje se od nje razlikuje. Ako se kognicija shvati onako kako je opisuje **4E** tradicija — kao **utjelovljena, ugrađena, enaktivna i proširena** (Varela, Thompson & Rosch 1991; Clark 1996; Clark & Chalmers 1998; Noë 2004; Gallagher 2005; Thompson 2007; Chemero 2009; Brooks 1991; Menary 2010; Hutto & Myin 2012; Wilson 2002; Engel et al. 2013; Newen et al. 2018) — tada pitanje „je li model misleći" gubi oblik *jest/ne* i dobiva oblik **razdiobe po sastavnicama**. To je i teza ovoga poglavlja: procesiranje ostaje na razini 8 (InformationSystem), a ono što se mjeri trima kriterijima iz 11.4 (cilj, provjera, odgovornost) pripada višim razinama. Pritom valja biti precizan: od četiriju E modelu pripadaju **ugrađenost** i **proširenost**, dok **utjelovljenje** izostaje (nema tijela, pa ni tjelesne sheme), a **enaktivnost** postoji samo u slabome smislu — kao izvedba unutar okvira koji je postavio netko drugi (→ dodatak H.1). Tako se izbjegavaju obje krajnosti: ne tvrdi se da model ima um koji tek treba dokazati, niti da je razlika samo u rječniku.
 
 ## 11.6 Kako bi izgledalo da teza pada
 
@@ -248,15 +248,15 @@ Teza ovoga poglavlja tvrdi tri stvari: (a) lanac koraka je jedna operacija, (b) 
 
 **Pad (c) — kriteriji ne razlikuju.** Bilo bi dovoljno pokazati da se sva tri kriterija (cilj, provjera, odgovornost) **svode na jedan** — najvjerojatnije na duljinu lanca. Tada su to tri imena za jedno svojstvo i razlika između „procesiranja" i „mišljenja" nije stvarna. *Kako bi se pokazalo:* korelacijskom analizom — ako je varijanca u CILJ-u i PROVJERI gotovo cijela objašnjena varijancom u duljini lanca, kriteriji su suvišni.
 
-**Zajednička točka.** U sva tri slučaja pad se prepoznaje na **istom mjestu**: tamo gdje se pokaže da dodatna struktura ne radi nikakav dodatni posao. To je metodološka stega ovog poglavlja i, u širem smislu, cijelog trećeg dijela knjige: **strukturu priznajemo samo ako se može pokazati da nosi razliku.**
+**Zajednička točka.** U sva tri slučaja pad se prepoznaje na **istom mjestu**: tamo gdje se pokaže da dodatna struktura ne radi nikakav dodatni posao. To je metodološka stega ovog poglavlja i, u širem smislu, cijelog trećeg dijela knjige: strukturu priznajemo samo ako se može pokazati da nosi razliku.
 
-**Praktikum.** Postupak ima šest koraka i izvediv je u jednoj sesiji; ono što ga čini nalazom nisu koraci, nego **odluke** koje analitičar donosi prije nego pogleda rezultat. **Prvo, jedinica:** odluči i zapiši što je jedinica mjerenja — ovdje je to **korak u lancu**, a ne sekunda ni riječ; ako je rezoniranje skriveno iza sučelja koje ga ne izlaže, broj koraka je **donja granica** i tako se označuje. **Drugo, mjera:** odluči koju od četiriju metrika iz 11.2 uzimaš kao nosivu, ali u izvještaj uzmi sve četiri (vrijeme, broj koraka, točnost, trošak) — izvještaj s jednom metrikom daje zaključak koji se mijenja s izborom, i to je poanta tablice metrika. **Treće, prag:** odluči unaprijed što je „poboljšanje" — da se točnost smatra poraslom samo na skupu s poznatim stropom i da se krivulja čita kao funkcija broja koraka uz kontrolu prvoga koraka (→ 11.6, pad (b)). **Četvrto, broj skupina:** odluči koliko skupina uvjeta uspoređuješ — najmanje **dvije** (isti zadatak uz „odgovori odmah" i uz „razmisli korak po korak"), a po mogućnosti **tri** (bez provjere, s vanjskom provjerom, s unutarnjom provjerom), jer se razlika iz 11.4 na jednoj skupini ne vidi. **Peto, izvedba:** mjeri na zadacima s provjerljivim ishodom; isječak iz vježbe 🟡 služi kao okvir, a tablica s četirima metrikama kao zapis. **Šesto, provjera zapisa:** svaka brojka dobiva vrstu (*mjereno* ili *procjena*), izvor s datumom i redak u `data/fakti.csv` (`python3 kod/check_fakti.py --strict`); citati moraju stajati u `referencije/REFERENCE_BASE.md` (`python3 kod/check_lit.py`), a higijenu zapisa provjerava `python3 kod/check_cisto.py`. Zapis bez tih provjera nije nalaz, nego bilješka.
+**Praktikum.** Postupak ima šest koraka i izvediv je u jednoj sesiji; ono što ga čini nalazom nisu koraci, nego **odluke** koje analitičar donosi prije nego pogleda rezultat. **Prvo, jedinica:** odluči i zapiši što je jedinica mjerenja — ovdje je to **korak u lancu**, a ne sekunda ni riječ; ako je rezoniranje skriveno iza sučelja koje ga ne izlaže, broj koraka je **donja granica** i tako se označuje. **Drugo, mjera:** odluči koju od četiriju metrika iz 11.2 uzimaš kao nosivu, ali u izvještaj uzmi sve četiri (vrijeme, broj koraka, točnost, trošak). Izvještaj s jednom metrikom daje zaključak koji se mijenja s izborom, i to je poanta tablice metrika. **Treće, prag:** odluči unaprijed što je „poboljšanje" — da se točnost smatra poraslom samo na skupu s poznatim stropom i da se krivulja čita kao funkcija broja koraka uz kontrolu prvoga koraka (→ 11.6, pad (b)). **Četvrto, broj skupina:** odluči koliko skupina uvjeta uspoređuješ — najmanje **dvije** (isti zadatak uz „odgovori odmah" i uz „razmisli korak po korak"), a po mogućnosti **tri** (bez provjere, s vanjskom provjerom, s unutarnjom provjerom), jer se razlika iz 11.4 na jednoj skupini ne vidi. **Peto, izvedba:** mjeri na zadacima s provjerljivim ishodom; isječak iz vježbe 🟡 služi kao okvir, a tablica s četirima metrikama kao zapis. **Šesto, provjera zapisa:** svaka brojka dobiva vrstu (*mjereno* ili *procjena*), izvor s datumom i redak u `data/fakti.csv` (`python3 kod/check_fakti.py --strict`); citati moraju stajati u `referencije/REFERENCE_BASE.md` (`python3 kod/check_lit.py`), a higijenu zapisa provjerava `python3 kod/check_cisto.py`. Zapis bez tih provjera nije nalaz, nego bilješka.
 
-**Ako ne radi — tri najčešće greške.** *Prva:* **koraci se broje iz oblikovanja izlaza.** Novi redak u ispisu nije korak u lancu; ako se mjeri ono što je vidljivo, mjeri se *oblikovanje*, a ne *put*. Rješenje: jedinicu i način brojanja odlučiti prije mjerenja, brojati samo iz objavljenoga sučelja i uz brojku zapisati da je donja granica — kad se pravilo brojanja promijeni, brojke prestaju biti usporedive. *Druga:* **zadaci su mogli biti u podacima za učenje.** Ako model odgovori iz pamćenja, mjeri se pamćenje, a ne postupak (→ 11.2, drugo pitanje). Rješenje: uzeti zadatke kojima ishod provjerava izvor izvan sustava, navesti strop skupa i radije sastaviti svježe zadatke nego uzeti poznate zbirke; ako se skup ne može očistiti, nalaz se prijavljuje s tom ogradom. *Treća:* **uputa je promijenila zadatak, a ne samo put.** Ako se uz „razmisli korak po korak" u tekst ubaci i natuknica ili dio rješenja, usporedba dviju skupina ne mjeri duljinu puta, nego količinu predanoga znanja. Rješenje: razlika među skupinama smije biti samo u uputi o putu, a zadatak ostaje isti i zapisan prije mjerenja. Uz te tri greške vrijedi i pravilo iz 11.6: **ravna krivulja nije neuspjeh pokusa, nego nalaz** — ako točnost ne raste s brojem koraka, teza je na tom zadatku pala i tako se i piše.
+**Ako ne radi — tri greške.** *Prva:* **koraci se broje iz oblikovanja izlaza.** Novi redak u ispisu nije korak u lancu; ako se mjeri ono što je vidljivo, mjeri se *oblikovanje*, a ne *put*. Rješenje: jedinicu i način brojanja odlučiti prije mjerenja, brojati samo iz objavljenoga sučelja i uz brojku zapisati da je donja granica — kad se pravilo brojanja promijeni, brojke prestaju biti usporedive. *Druga:* zadaci su mogli biti u podacima za učenje. Ako model odgovori iz pamćenja, mjeri se pamćenje, a ne postupak (→ 11.2, drugo pitanje). Rješenje: uzeti zadatke kojima ishod provjerava izvor izvan sustava, navesti strop skupa i radije sastaviti svježe zadatke nego uzeti poznate zbirke; ako se skup ne može očistiti, nalaz se prijavljuje s tom ogradom. *Treća:* uputa je promijenila zadatak, a ne samo put. Ako se uz „razmisli korak po korak" u tekst ubaci i natuknica ili dio rješenja, usporedba dviju skupina ne mjeri duljinu puta, nego količinu predanoga znanja. Rješenje: razlika među skupinama smije biti samo u uputi o putu, a zadatak ostaje isti i zapisan prije mjerenja. Uz te tri greške vrijedi i pravilo iz 11.6: ravna krivulja nije neuspjeh pokusa, nego nalaz — ako točnost ne raste s brojem koraka, teza je na tom zadatku pala i tako se i piše.
 
 ### Kako bismo znali da griješimo
 
-Ako se pokaže da **lanac koraka ne poboljšava ishod na zadacima koji traže provjeru**, onda teza „mišljenje kao procesiranje" opisuje samo **duži izlaz** — i to mora biti prijavljeno kao nalaz, a ne ublaženo.
+Ako se pokaže da lanac koraka ne poboljšava ishod na zadacima koji traže provjeru, onda teza „mišljenje kao procesiranje" opisuje samo **duži izlaz**. I to mora biti prijavljeno kao nalaz, a ne ublaženo.
 
 Tri konkretna znaka upozorenja, pojedinačno dovoljna:
 1. **Ravna krivulja.** Točnost ne raste s brojem koraka na zadacima s provjerljivim ishodom.
@@ -267,7 +267,7 @@ Ako se pokaže bilo koji od tri, poglavlje se mora prepisati: od „mišljenje k
 
 ### Vježbe
 
-**🟢 Odijeli procesiranje od mišljenja u tri primjera.**
+*🟢 Odijeli procesiranje od mišljenja u tri primjera.*
 
 Za svaki od tri scenarija odredi koji od tri kriterija (CILJ, PROVJERA, ODGOVORNOST) je prisutan, a koji nije. Ne procjenjuj „koliko je pametan"; procjeni **što postoji**.
 
@@ -279,7 +279,7 @@ Za svaki od tri scenarija odredi koji od tri kriterija (CILJ, PROVJERA, ODGOVORN
 
 Zatim za svaki scenarij napiši **jednu rečenicu** koja bi ga oborila kao „mišljenje".
 
-**🟡 Izmjeri jedan zadatak kroz tri metrike.**
+*🟡 Izmjeri jedan zadatak kroz tri metrike.*
 
 Uzmi jedan zadatak s provjerljivim ishodom (npr. pet zadataka zbrajanja ili pet pitanja s poznatim odgovorom). Zabilježi **vrijeme**, **broj koraka** i **točnost** za svaki. Pusti isti zadatak dvaput: prvi put s uputom „odgovori odmah", drugi put s uputom „razmisli korak po korak, pa odgovori". Isječak je izvediv bez posebnih biblioteka:
 
@@ -305,14 +305,14 @@ for ime, niz in (("direktno", direktno), ("korak-po-korak", korak_po_korak)):
     print(ime, "| s:", prosj_vrijeme, "| koraka:", prosj_koraka)
 ```
 
-Zatim izračunaj točnost ručno (usporedi s očekivanim odgovorima) i popuni tablicu. **Izvještaj mora sadržavati sve tri metrike — jer bi samo jedna od njih dala drugačiji zaključak, i to je poanta vježbe.** Ako se točnost ne razlikuje, a vrijeme i broj koraka jesu, upiši to kao nalaz, a ne kao neuspjeh.
+Zatim izračunaj točnost ručno (usporedi s očekivanim odgovorima) i popuni tablicu. Izvještaj mora sadržavati sve tri metrike — jer bi samo jedna od njih dala drugačiji zaključak, i to je poanta vježbe. Ako se točnost ne razlikuje, a vrijeme i broj koraka jesu, upiši to kao nalaz, a ne kao neuspjeh.
 
 | način | vrijeme (s) | broj koraka | točnost (%) | trošak (tokeni) |
 |---|---|---|---|---|
 | direktno | | | | |
 | korak po korak | | | | |
 
-**🏆 Dizajniraj test za kriterij „provjere".**
+*🏆 Dizajniraj test za kriterij „provjere".*
 
 Sastavi nacrt pokusa koji razlikuje **vanjsku** od **unutarnje** provjere. Obveze nacrta:
 1. Odaberi zadatke s provjerljivim ishodom (može ih provjeriti izvor izvan sustava).
@@ -320,14 +320,14 @@ Sastavi nacrt pokusa koji razlikuje **vanjsku** od **unutarnje** provjere. Obvez
 3. Mjeri **kalibraciju**: poveži izrečeno samopouzdanje s ostvarenom točnošću.
 4. Uvedi **vlastitu pogrešku** u kontekst i mjeri ispravlja li je bez upozorenja.
 5. Napiši **unaprijed** koji bi ishod oborio kriterij — i to prije nego što pogledaš rezultate.
-6. Navedi koji bi nalaz bio **artefakt metrike** u smislu Schaeffera i sur. (2023) i kako ćeš ga isključiti.
+6. Navedi koji bi nalaz bio **artefakt metrike** u smislu Schaeffera i suradnika (2023) i kako ćeš ga isključiti.
 
 Nacrt koji ne ispunjava točku 5 nije nacrt, nego opis.
 
 ### Sažetak
 
 - **Jedna operacija.** Lanac koraka nije nova vrsta stroja, nego isti mehanizam kojemu se **izlaz vraća na ulaz**; ono što zovemo duljinom puta mjerljivo sudjeluje u ishodu (Snell et al. 2024; DeepSeek-AI 2025).
-- **Kontekst koji se unaprjeđuje.** $C_{t+1} = C_t \| f(C_t)$: riječ „unaprjeđenje" znači *veći*, ne *bolji*. Nema novog izvora informacije, a poredak u kontekstu je dio mehanizma (Liu et al. 2024).
+- **Kontekst koji se unaprjeđuje.** $C_{t+1} = C_t \| f(C_t)$: riječ „unaprjeđenje" znači *veći*, ne *bolji*. Nema novog izvora informacije, a poredak unutar konteksta je dio mehanizma (Liu et al. 2024).
 - **Isti postupak na trećem materijalu.** Ko-okurencija je mehanizam u trećem poglavlju (mreža pojmova), u šestom (mreža emocija) i ovdje (lanac koraka); mijenja se jedinica, ne vrsta postupka (Perak 2017a; Ban Kirigin & Perak 2020).
 - **Metrika je izbor.** Vrijeme, broj koraka, točnost i trošak mjere različite stvari; „skok" u krivulji može biti artefakt bodovanja (Schaeffer et al. 2023), a brojka bez stropa nije usporediva.
 - **Devijacije.** Petlja se može zatvoriti u sebe: raznovrsnost se troši (Shumailov et al. 2024), cilj se ispuni doslovno a ne željeno (Krakovna et al. 2020), a ispravak se izbjegne (Amodei et al. 2016).
