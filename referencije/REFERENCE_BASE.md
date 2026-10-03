@@ -259,6 +259,28 @@ Status: ✅ provjereno (izvor/datoteka/DOI) · ☑ kanonsko djelo (bibliografski
 - **Karr, J. A., Khvatskii, G., Hua, T. & Chawla, N. V. (2026).** *Why AI Detection Fails for Academic Integrity.* arXiv:2608.11256 (6. 8. 2026.); prihvaćeno na ACM AI Leadership Summit. Pokazuje razliku između benchmark-ocjena i stvarne uporabe.
 - **Granica koja se ne smije prijeći.** Detektor mjeri **razliku u stilu**, a ne autorstvo: neovisne provjere bilježe i da dio AI-tekstova izmiče oznaci kad se modelu zada oponašanje ljudskoga autora (Jabarian & Imas 2025). Zato se u ovoj knjizi oznaka detektora vodi kao **procjena**, nikad kao mjerenje i nikad kao dokaz namjere.
 
+## P. Ankete o uporabi AI-ja u visokom obrazovanju (dodano 30. 9. 2026.)
+
+- **Digital Education Council (2026).** *AI in Higher Education Global Survey 2026.* Digital Education
+  Council (DEC), 2026. (izvještaj, 83 str.; citat prema izvoru: „Digital Education Council, AI in Higher
+  Education Global Survey, 2026."; provjereno 30. 9. 2026. na PDF-u izvještaja). Anketa obuhvaća
+  **45.398 odgovora** (27.284 studenta, 18.114 fakultetskih djelatnika) iz **35 zemalja**, u četirima
+  regijama (APAC, EMEA, SAD i Kanada, Latinska Amerika), i naslanja se na tri ranije ankete istoga
+  vijeća (*Global AI Student Survey 2024*, *Global AI Faculty Survey 2025*, *AI in Higher Education
+  LATAM Survey 2026*).
+
+  **⛔ Ograda koja se mora navesti uz svaku brojku iz ovoga izvora.** Riječ je o **anketi članske
+  organizacije**: ispitanici dolaze iz njezinih članica (**samoodabrani uzorak**), a izvještaj **ne
+  objavljuje metodologiju** — nema datuma terenskog rada, načina uzorkovanja, ponderiranja, pogreške
+  uzorka ni demografskoga presjeka. Zato se svaka brojka navodi kao **udio ispitanika**, nikada kao
+  stanje populacije („88 % studenata" znači: 88 % *onih koji su odgovorili*). Izdavač je članska
+  organizacija koja prodaje obuke i briefinge i ima strateška partnerstva s komercijalnim izdavačima
+  (Pearson, 2025.; Instructure, 2026.), pa se citira kao **izvor podataka o raspoloženju**, ne kao
+  neovisno mjerenje.
+
+  **Brojke i njihova vrsta:** sve u `data/fakti.csv` (vrsta *mjereno* za broj odgovora; udjeli uz
+  gornju ogradu), ključevi `dec_*`.
+
 ## K. NEPOTVRĐENO — ne citirati dok se ne provjeri
 - ✅ RIJEŠENO (17. 9. 2026.): mreža *strah* (125 leksema) objavljena je u **Ban Kirigin & Perak 2020** (*Rasprave* 46(2): 957–996) i **Perak 2014** (disertacija); vidi `data/README.md`.
 - ❓ Brojevi projekata: STUDIA · DEMOKRACIJA · FORMALS · Erasmus+ AI4LANG
