@@ -810,3 +810,27 @@ prije/poslije (MU-22) · nijedna nova tvrdnja u zahvatu (MU-23) · stil dodataka
 (A–I) stoje u `rukopis/dodaci/`. MU-24 sada provjerava prozne dodatke (A, C, D, F, H, I); aparatni dodaci
 (B rječnik, E izvori, G kazalo) izuzeti su jer nisu proza.
 
+## ZAPIS-020 — Primjena cijeloga sustava na dodatke (3. 10. 2026.)
+
+**Povod (autor):** „Primijeniti."
+
+**Što je primijenjeno.** Dodaci (A–I) stoje u zasebnim datotekama (`rukopis/dodaci/`) i **nijedan
+dosadašnji prolaz nije ih obuhvaćao**. Mjerila su proširena na cijelu knjigu: `check_sekcije.py` i
+`check_iskazi.py` sada uključuju **prozne dodatke** (A, C, D, F, H, I), dok su aparatni (B rječnik,
+E izvori, G kazalo) izuzeti jer nisu proza. Obuhvat: **242 sekcije**.
+
+**Stanje prije → poslije:**
+- povezanost u dodacima **6 / 26 / 7 → 0 / 13 / 0** — preostalih 13 paradigmatskih praznina je u
+  dodatku I, gdje alternativna formalizacija stoji **u falsifikatorima** („Oborilo bi je"), a falsifikatori
+  su po `docs/STIL.md §2` aparat koji se ne dira; **ne izmišlja se novi okvir u prozi**;
+- tvrdnje bez oslonca u dodatku C: **8 → 0**;
+- stil proznih dodataka: svi u granicama (MU-24).
+
+**Otvaranja dodataka namjerno nisu mijenjana:** pročitana su sva i već počinju onim što se traži od
+poglavlja („Zašto ovaj dodatak postoji…", „Ovi predlošci nisu ukras…"), pa bi dodatni uređaj bio
+ponavljanje. To je prosudba, ne propust — zapisana ovdje.
+
+**Registar meta-uputa nadopunjen:** MU-18 (povezanost) i MU-20 (tvrdnje) sada imaju obuhvat cijele
+knjige, a njihovo očekivano stanje uključuje **dokumentirane iznimke** (13 u dodatku I, 1 u uvodu).
+Provjere: **24/24 meta-upute prolaze.**
+

@@ -42,7 +42,7 @@ Treća je tradicija knjizi najbliža po predmetu, a najdalja po ustroju. Latour 
 | **teorija asemblaza** | cjelina s emergentnim svojstvima | nema stratifikacije | 2.6 |
 | **Luhmann** | društvo se sastoji od komunikacija | autopoeza društva; model nije dio njezine samoreprodukcije | 14.3 |
 
-**Zaključak dodatka.** Nijedan od triju okvira ne treba nadomjestiti OMLCC, ali svaki od njih zauzima jedno mjesto koje OMLCC mora pokriti: 4E daje **mehanizam** proširenja, sistemske teorije daju **kriterije organizacije**, a ANT daje **raspodjelu djelovanja**. Ono što nijedan ne daje jest **ljestvica s pripisivanjem** — a to je jedini dio na kojemu ova knjiga polaže pravo (→ pogl. 2.5). Ljestvica nije mehanizam.
+**Zaključak dodatka.** Nijedan od triju okvira ne treba nadomjestiti OMLCC, ali svaki od njih zauzima jedno mjesto koje OMLCC mora pokriti: 4E daje **mehanizam** proširenja, sistemske teorije daju **kriterije organizacije**, a ANT daje **raspodjelu djelovanja**. Ono što nijedan ne daje jest **ljestvica s pripisivanjem** — a to je jedini dio na kojemu ova knjiga polaže pravo (→ pogl. 2.5). Ljestvica nije isto što i mehanizam, kriterij ili raspodjela.
 
 ### Literatura dodatka
 

@@ -30,7 +30,7 @@ python3 kod/check_links.py            # upute i poveznice
 
 ## A.3 Reproducibilnost: četiri stavke uz svaki rezultat
 
-Rezultat je reproducibilan ako uz njega stoje četiri stavke. Prvo, **verzija podataka** (korpus i inačica). Drugo, **verzija postupka** (jedinica, mjera, prag, broj dimenzija, vrsta udaljenosti). Treće, **verzija modela** (ugrađivanja iz različitih inačica nisu ista mjera). Četvrto, **kontrolni zapis (checksum) uz licencu** (bez toga se ne može utvrditi je li reproduciran isti skup podataka). Te su četiri stavke u knjizi navedene u 4.5 i u praktikumima; pritom su ovdje izdvojene jer se u praksi najčešće preskaču.
+Rezultat je reproducibilan ako uz njega stoje četiri stavke. Prvo, **verzija podataka** (korpus i inačica). Drugo, **verzija postupka** (jedinica, mjera, prag, broj dimenzija, vrsta udaljenosti). Treće, **verzija modela** (ugrađivanja iz različitih inačica nisu ista mjera). Četvrto, **kontrolni zapis (checksum) uz licencu** (bez toga se ne može utvrditi je li reproduciran isti skup podataka). Te su četiri stavke u knjizi navedene u 4.5 i u praktikumima; pritom su ovdje izdvojene jer se u praksi najčešće preskaču. Za razliku od nalaza koji se navodi naprosto, reproducibilan nalaz nosi sve četiri.
 
 ## A.4 Što okruženje ne rješava
 
@@ -38,4 +38,4 @@ Okruženje pak ne rješava nijedno od pitanja koja knjiga postavlja. Ono omoguć
 
 ## A.5 Licenca i citiranje
 
-Materijali u repozitoriju knjige objavljeni su pod licencom **CC BY-NC 4.0** (uz obavezno navođenje autorstva). Komercijalna uporaba nije dopuštena, a prerade jesu uz navođenje izvora. Način citiranja knjige i njezinih dijelova opisan je u `docs/CITIRANJE.md`, a strojno čitljiv zapis u `CITATION.cff`.
+Uz to, materijali u repozitoriju knjige objavljeni su pod licencom **CC BY-NC 4.0** (uz obavezno navođenje autorstva). Nasuprot komercijalnoj uporabi, koja nije dopuštena, prerade jesu dopuštene uz navođenje izvora. Način citiranja knjige i njezinih dijelova opisan je u `docs/CITIRANJE.md`, a strojno čitljiv zapis u `CITATION.cff`.

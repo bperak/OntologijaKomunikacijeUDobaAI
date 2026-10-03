@@ -32,7 +32,7 @@ broj skupina (k), prag, sjeme:  <vrijednost>     ← zapisuje se PRIJE gledanja 
 stabilnost:                <promjena pripadnosti pri drugom sjemenu / poduzorku / verziji modela>
 ```
 
-**Što se ne smije preskočiti:** verzija modela i raspon srodnosti. Bez raspona se ne vidi je li mjera uopće razlučila jedinice; bez verzije se nalaz ne može ponoviti ni provjeriti je li o jeziku ili o jednome modelu (→ pogl. 10.6, 10.7).
+**Što se ne smije preskočiti:** verzija modela i raspon srodnosti. Bez raspona se ne vidi je li mjera uopće razlučila jedinice. Bez verzije se, nasuprot tome, nalaz ne može ponoviti ni provjeriti je li o jeziku ili o jednome modelu (→ pogl. 10.6, 10.7).
 
 ## D.3 Predložak: protokol kauzalnog testa
 
@@ -46,7 +46,7 @@ vrsta dokaza:              mjereno | procjena | izvedeno
 negativan nalaz:           <kako će se prijaviti ako učinka nema>
 ```
 
-**Što se ne smije preskočiti:** **prag padanja upisan prije podataka**. Ako se prag upiše nakon što su podaci viđeni, nalaz prestaje biti oboriv i postupak se pretvara u traženje potvrde (→ pogl. 16.5).
+**Što se ne smije preskočiti:** **prag padanja upisan prije podataka**. Ako se prag upiše nakon što su podaci viđeni, nalaz prestaje biti oboriv i postupak se pretvara u traženje potvrde, a ne u test (→ pogl. 16.5).
 
 ## D.4 Predložak: obrazac za mrežnu analizu
 
@@ -76,7 +76,7 @@ id, brojka, jedinica, izvor, datum_izvora, vrsta, pojavljuje_se_u, napomena
 - **datum_izvora:** datum na koji se vrijednost odnosi (ne datum kada je knjiga pisana);
 - **pojavljuje_se_u:** poglavlja u kojima se brojka rabi.
 
-**Što se ne smije preskočiti:** vrsta i datum. Brojka bez vrste je dojam. Brojka bez datuma ne može se ni provjeriti ni ispraviti — a predmet knjige mijenja se brže od knjige (→ dodatak E).
+**Što se ne smije preskočiti:** vrsta i datum. Brojka bez vrste je dojam, a ne mjerenje. Brojka bez datuma ne može se ni provjeriti ni ispraviti — a predmet knjige mijenja se brže od knjige (→ dodatak E).
 
 ## D.6 Predložak: zapisnik razlučivanja razina
 
@@ -95,8 +95,8 @@ izvedena provjera za svaki „ne":  <što je promijenjeno i što je promatrano>
 zapis koji nije bio dostupan:     <što>
 ```
 
-**Što se ne smije preskočiti:** uz svaki odgovor „ne" mora stajati **izvedena provjera** (što je promijenjeno — polje u konfiguraciji, orkestracija, sadržaj poruke). Uz nju mora stajati i zaseban ishod **„nije provjereno"**. Bez toga se dokaz odsutnosti zamjenjuje odsutnošću dokaza (→ pogl. 14.6).
+**Što se ne smije preskočiti:** uz svaki odgovor „ne" mora stajati **izvedena provjera** (što je promijenjeno — polje u konfiguraciji, orkestracija, sadržaj poruke). Uz nju mora stajati i zaseban ishod **„nije provjereno"**. Bez toga se dokaz odsutnosti zamjenjuje odsutnošću dokaza, a to dvoje nije isto (→ pogl. 14.6). Time je zapisnik zaokružen, a otvara se pitanje njegove uporabe u nastavi.
 
 ## D.7 Kako se predlošci koriste u nastavi
 
-Predlošci su namijenjeni tome da student prvo ispuni predložak, a tek onda piše tekst. Iskustvo s ovakvim obrascem je jednoznačno. Najveći dio pogrešaka nastaje na mjestima koja predložak izričito traži, a izostavlja ih svaki slobodni tekst: inačica podataka, mjera, prag upisan prije podataka, i način na koji je negativan nalaz prijavljen. Zato se u ocjenjivanju vježbi 🟡 i 🏆 predložak smatra dijelom rješenja, a ne obrascem koji se ispunjava uz njega.
+Iz svega toga slijedi i način na koji se predlošci rabe u nastavi. Predlošci su namijenjeni tome da student prvo ispuni predložak, a tek onda piše tekst. Iskustvo s ovakvim obrascem je jednoznačno. Najveći dio pogrešaka nastaje na mjestima koja predložak izričito traži, a izostavlja ih svaki slobodni tekst: inačica podataka, mjera, prag upisan prije podataka, i način na koji je negativan nalaz prijavljen. Zato se u ocjenjivanju vježbi 🟡 i 🏆 predložak smatra dijelom rješenja, a ne obrascem koji se ispunjava uz njega.

@@ -66,6 +66,8 @@ def main():
         dat = [os.path.join(RUKOPIS, f) for f in ["uvod.md"] +
                [f"poglavlje-{i:02d}.md" for i in range(1, 17)] + ["zakljucak.md"]
                if os.path.exists(os.path.join(RUKOPIS, f))]
+        dat += [f for f in sorted(__import__("glob").glob(os.path.join(RUKOPIS, "dodaci/dodatak-*.md")))
+                if os.path.basename(f)[8] not in ("B", "E", "G")]
     print(f"{'datoteka':<24}{'rečenica':>10}{'tvrdnji':>9}{'bez oslonca':>13}{'%':>7}")
     nalazi, ukupno = [], 0
     for p in dat:

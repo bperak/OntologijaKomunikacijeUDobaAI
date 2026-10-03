@@ -57,7 +57,9 @@ def main():
     elif "--datoteka" in sys.argv:
         datoteke = [sys.argv[sys.argv.index("--datoteka") + 1]]
     else:
-        datoteke = sorted(glob.glob(B + "poglavlje-*.md")) + [B + "uvod.md", B + "zakljucak.md"]
+        datoteke = (sorted(glob.glob(B + "poglavlje-*.md")) + [B + "uvod.md", B + "zakljucak.md"]
+                    + [f for f in sorted(glob.glob(B + "dodaci/dodatak-*.md"))
+                       if os.path.basename(f)[8] not in ("B", "E", "G")])
     ispis = "--isoli" in sys.argv
     ukupno = 0
     izvještaj = []

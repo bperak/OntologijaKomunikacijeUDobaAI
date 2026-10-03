@@ -108,7 +108,7 @@ upute:
     vrsta: čitatelj
     pravilo: "Nema više trećega lica za čitatelja („što čitatelj odatle dobiva\") u otvaranjima."
     izvor: "ZAPIS-016"
-    obuhvat: "uvod + poglavlja"
+    obuhvat: "uvod + poglavlja + dodaci"
     provjera: "bash -c 'test -z \"$(grep -l \"Što čitatelj odatle dobiva\" rukopis/*.md)\" && echo OK'"
     ocekivano: "OK"
   - id: MU-15
@@ -141,10 +141,10 @@ upute:
     vrsta: povezanost
     pravilo: "Na spoju sekcija: referencijalna veza (što se preuzima), paradigmatska (prema čemu tvrdnja stoji) i sintagmatska (što slijedi) — bez ijedne praznine osim zaštićenih odjeljaka."
     izvor: "autor: „ideje koje stoje prije i poslije moraju biti u nekom kauzalnom slijedu i logici koja ipak nije suhoparna\" (ZAPIS-018)"
-    obuhvat: "19 datoteka glavnoga teksta, 185 sekcija"
+    obuhvat: "glavni tekst + prozni dodaci (A, C, D, F, H, I), 242 sekcije"
     provjera: "python3 kod/check_sekcije.py"
-    ocekivano: "UKUPNO: bez naslanjanja 0 | bez paradigmatskog okvira 1 | bez predaje dalje 0"
-    status: "ručni pregled — 1 paradigmatska praznina je odjeljak „Što ćete odatle ponijeti\" (namjerno)"
+    ocekivano: "UKUPNO: bez naslanjanja 0 | bez paradigmatskog okvira 14 | bez predaje dalje 0"
+    status: "ručni pregled — 14 paradigmatskih praznina su namjerne: 13 u dodatku I (alternativna formalizacija stoji u falsifikatorima, a to je aparat koji se ne dira) i 1 u uvodu („Što ćete odatle ponijeti\")"
   - id: MU-19
     vrsta: povezanost
     pravilo: "Otvaranje uvlači: konkretna situacija → problem → preslika rješenja → veza na knjigu; otvaranja ne smiju postati formula."
@@ -159,7 +159,7 @@ upute:
     vrsta: tvrdnje
     pravilo: "Tvrdnja ne visi: ako odlučno tvrdi ili izvodi zaključak, u odlomku stoji na čemu stoji (razlog, uvjet, mjera, dokaz, izvor, uputa)."
     izvor: "autor: „razjasni teze, bolje objasni sve\" + „jasnoća iskaza\" (ZAPIS-019)"
-    obuhvat: "19 datoteka glavnoga teksta"
+    obuhvat: "glavni tekst + prozni dodaci"
     provjera: "python3 kod/check_iskazi.py"
     ocekivano: "ukupno tvrdnji bez oslonca:"
     status: "ručni pregled — mjera je sito; preostale tvrdnje pregledane i ocijenjene oslonjenima u kontekstu"

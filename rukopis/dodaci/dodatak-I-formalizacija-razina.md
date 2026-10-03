@@ -128,7 +128,7 @@ koji čitamo: mreža razine n daje **entitet** razine n+1 sa svojstvom koje na r
 
 ## I.4 Psihološka domena (9–11)
 
-**Psihološka domena:** slika I.3 prikazuje tri razine psihološke domene s istim podacima koje donose potpoglavlja niže.
+**Psihološka domena:** ulaz iz materijalne domene je κ₈ — kad razlike dobiju nositelja, nastaje **opažaj** (razina 9). Slika I.3 prikazuje tri razine psihološke domene s istim podacima koje donose potpoglavlja niže.
 
 ![Slika I.3 — psihološka domena](../../figure/dijagram-I-3-psiholoska-domena.png)
 
@@ -156,7 +156,7 @@ koji čitamo: mreža razine n daje **entitet** razine n+1 sa svojstvom koje na r
 
 ## I.5 Društvena domena (12–16)
 
-**Društvena domena:** slika I.4 prikazuje pet razina društvene domene s istim podacima koje donose potpoglavlja niže.
+**Društvena domena:** za razliku od nižih razina, gdje je uvjet dopuštenosti fizikalni ili funkcionalni, ovdje je uvjet **priznanje**. Iz psihološke domene ulaz je κ₁₁: stabilizirana **reprezentacija** (L11) daje **identitet** (L12). Slika I.4 prikazuje pet razina društvene domene s istim podacima koje donose potpoglavlja niže.
 
 ![Slika I.4 — društvena domena](../../figure/dijagram-I-4-drustvena-domena.png)
 

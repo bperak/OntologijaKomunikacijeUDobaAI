@@ -28,7 +28,7 @@ Ovaj dodatak skuplja prigovore koji se na ovakvu knjigu upućuju najčešće, i 
 
 **Što knjiga ne tvrdi.** Ne tvrdi da utemeljenje nije potrebno, ne tvrdi da je riješeno i ne tvrdi da je tekstualni ulaz dovoljan za sadržaj. Ne tvrdi ni da je problem nerješiv — samo da se ne rješava unutar ove knjige.
 
-**Koja bi ga provjera riješila.** Trebao bi test koji razlikuje sustav koji simbole veže uz nešto izvan zapisa od sustava koji ih veže samo uz druge zapise, i to tako da razlika bude vidljiva u mjerljivom ponašanju, a ne u opisu arhitekture. Opis arhitekture ne odlučuje. Takav test u ovoj knjizi nije izveden; u planu je naznačen kao dio programa (→ pogl. 16.5).
+**Koja bi ga provjera riješila.** Trebao bi test koji razlikuje sustav koji simbole veže uz nešto izvan zapisa od sustava koji ih veže samo uz druge zapise, i to tako da razlika bude vidljiva u mjerljivom ponašanju, a ne u opisu arhitekture. Opis arhitekture ne odlučuje. Takav test u ovoj knjizi nije izveden; u planu je naznačen kao dio programa (→ pogl. 16.5). Time se otvara prigovor o razdiobi.
 
 ---
 
@@ -42,7 +42,7 @@ Ovaj dodatak skuplja prigovore koji se na ovakvu knjigu upućuju najčešće, i 
 
 **Što knjiga ne tvrdi.** Ne tvrdi da je „stohastička papiga" pogrda ili da je kritika pretjerana. Ne tvrdi da je novi entitet isto što i novi um; ne tvrdi ni da je entitet *djelotvoran* u smislu u kojem je djelotvoran ljudski sudionik. Tvrdi samo ono što se mora moći pokazati: da je riječ o poziciji u sustavu, s kriterijima (→ pogl. 12.4).
 
-**Koja bi ga provjera riješila.** E3 iz 16.5 (ustaljenost nasuprot izloženosti) i E4 (prediktivna vrijednost izvan podataka iz kojih je mreža izgrađena). Ako se pokaže da sve što model radi ostaje unutar razdiobe iz korpusa i da nikakva pozicija u sustavu nije novonastala, okvir je pogrešno primijenjen i tvrdnja 3 pada.
+**Koja bi ga provjera riješila.** E3 iz 16.5 (ustaljenost nasuprot izloženosti) i E4 (prediktivna vrijednost izvan podataka iz kojih je mreža izgrađena). Ako se pokaže da sve što model radi ostaje unutar razdiobe iz korpusa i da nikakva pozicija u sustavu nije novonastala, okvir je pogrešno primijenjen i tvrdnja 3 pada. Time se otvara prigovor o riječima, a ne o stvarima.
 
 ---
 
@@ -54,7 +54,7 @@ Ovaj dodatak skuplja prigovore koji se na ovakvu knjigu upućuju najčešće, i 
 
 **Gdje ga okvir prima, gdje odbija.** Prima ga kao zahtjev za preciznošću. Odbija ga kad se iz njega izvodi da o novom izvođaču **uopće** ne treba govoriti: postoje tvrdnje koje nisu antropomorfne i koje je ipak vrijedno provjeriti — na primjer da se u zapisima može prebrojati adresiranje, da postoji zajednički artefakt ili da se uporaba stabilizira u obrazac (→ pogl. 7.5, 13.2, 13.3). Ako se te tvrdnje ne mogu izreći bez pripisivanja unutrašnjosti, to je nalaz o okviru; ali to se pokazuje provjerom, a ne unaprijed, jer provjera je mjesto gdje se odlučuje, a ne mjesto gdje se nagađa.
 
-**Što knjiga ne tvrdi.** Ne tvrdi da model ima interese, namjere, osjećaje, moralni status ni odgovornost. Agent je uloga, ne osoba. Ne tvrdi da je „agent" osoba; u knjizi je ta riječ skraćenica za sistemsku ulogu, i svaki put kad bi zvučala kao osoba, treba je čitati kao „izvođač uloge".
+**Što knjiga ne tvrdi.** Ne tvrdi da model ima interese, namjere, osjećaje, moralni status ni odgovornost. Agent je uloga, ne osoba. Ne tvrdi da je „agent" osoba; u knjizi je ta riječ skraćenica za sistemsku ulogu, i svaki put kad bi zvučala kao osoba, treba je čitati kao „izvođač uloge" (→ pogl. 12.3).
 
 **Koja bi ga provjera riješila.** E2 iz 16.5 (neovisno anotiranje razina): ako se razine 12–16 kod izvođača ne mogu anotirati **neovisno** o tome što anotator misli o njegovoj unutrašnjosti, onda anotacija nosi antropomorfni teret i okvir nije neutralan instrument, jer neutralnost je zahtjev, a ne pretpostavka.
 
@@ -76,7 +76,7 @@ Ovaj dodatak skuplja prigovore koji se na ovakvu knjigu upućuju najčešće, i 
 
 ## F.6 „Okvir je koristan, ali to nije dokaz"
 
-**Prigovor.** Neka je okvir upotrebljiv — daje popis razina, omogućuje razgovor, pomaže u opisima. Iz upotrebljivosti ne slijedi da odgovara nečemu izvan opisa. Instrumentalistički prigovor ne traži protuprimjer; traži da se prizna da je sve što je pokazano — upotrebljivost. Upotrebljivost sama po sebi nije dokaz.
+**Prigovor.** Neka je okvir upotrebljiv — daje popis razina, omogućuje razgovor, pomaže u opisima. Iz upotrebljivosti ne slijedi da odgovara nečemu izvan opisa. Za razliku od prethodnih, instrumentalistički prigovor ne traži protuprimjer; traži da se prizna da je sve što je pokazano — upotrebljivost. Upotrebljivost sama po sebi nije dokaz.
 
 **Što je u tome točno.** To je najozbiljniji prigovor u ovome dodatku i knjiga ga prihvaća kao **pravilo**: korisnost nije dokaz (→ pogl. 16.6). Zato se u knjizi nigdje ne navodi da je okvir „dokazan", nego se navodi što je na njemu izmjereno i što nije.
 
