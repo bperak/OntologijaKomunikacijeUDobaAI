@@ -54,11 +54,11 @@ Bez te razlike okvir proizvodi dvije jednako pogrešne tvrdnje iz istoga propust
 
 Poglavlja imaju isti oblik, i taj oblik je dio metode:
 
-**teza** (jedan odlomak) → **teorijski okvir** → **metode i podaci** → **praktikum** (kod korak po korak, uz odjeljak „Ako ne radi"; u teorijskim poglavljima na njegovu mjestu stoji **radni primjer**) → **vježbe** (🟢 provjeri razumijevanje, 🟡 primijeni na vlastite podatke, 🏆 istraživački zadatak) → **sažetak i ključni pojmovi** → **„Kako bismo znali da griješimo"**.
+**teza** (jedan odlomak) → **teorijski okvir** → **metode i podaci** → **praktikum** (kod korak po korak, uz odjeljak „Ako ne radi"; u teorijskim poglavljima na njegovu mjestu stoji **radni primjer**) → **vježbe** (🟢 provjeri razumijevanje, 🟡 primijeni na vlastite podatke, 🏆 istraživački zadatak) → **sažetak i ključni pojmovi** → **„Kako bismo znali da griješimo"**. Znak **❓** označuje **nepotvrđenu stavku**: tvrdnja je izrečena, ali izvor ili mjerenje za nju još ne postoji, pa se takva stavka u knjizi ne rabi kao dokaz i ne citira se.
 
 Posljednji odjeljak nije ukras. On je mjesto na kojem svako poglavlje kaže **koji bi ga rezultat oborio**; knjiga koja to ne može reći nije teorija, nego pripovijest (→ pogl. 16.5).
 
-Metodološki slijed knjige je pet stupnjeva i nijedan se ne preskače: **tekst → mreža → vektor → razina → tvrdnja** (→ pogl. 4.3). Svaki stupanj je prijelaz s jednoga tipa zapisa na drugi, i svaki zahtijeva odluku koja se u tekstu prijavljuje: što je jedinica, koja je mjera asocijacije, koliko je dimenzija, koliko je skupina, s kojim se pragom radi.
+Metodološki slijed knjige je pet stupnjeva i nijedan se ne preskače: **tekst → mreža → vektor → razina → tvrdnja** (→ pogl. 4.3–4.4; tablica 4.3). Svaki stupanj je prijelaz s jednoga tipa zapisa na drugi, i svaki zahtijeva odluku koja se u tekstu prijavljuje: što je jedinica, koja je mjera asocijacije, koliko je dimenzija, koliko je skupina, s kojim se pragom radi.
 
 ## Kako se knjiga čita: poglavlje po poglavlju
 

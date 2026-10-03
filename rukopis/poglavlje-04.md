@@ -281,7 +281,7 @@ def u_csv(zapis, put):
                         red["vrsta"], red["izvor"]])   # vrsta: mjereno|procjena|izvedeno
 ```
 
-**Pravilo o figuri.** Slika ne smije tvrditi više od teksta; ako se natpis na slici i rečenica razilaze, ispravlja se **tekst** ili se slika ponovno izrađuje (`slike/README.md`). Slika koja prikazuje više nego što je izmjereno povlači se iz knjige, koliko god bila lijepa.
+**Pravilo o figuri.** Slika ne smije tvrditi više od teksta; ako se natpis na slici i rečenica razilaze, ispravlja se **tekst** ili se slika ponovno izrađuje (`figure/README.md`). Slika koja prikazuje više nego što je izmjereno povlači se iz knjige, koliko god bila lijepa.
 
 **Dvije vrste prijave.** *Nalaz* ima tvrdnju, mjeru, nesigurnost i kontrolu i smije ući u sažetak poglavlja; *pokušaj* ima samo postupak i ishod i ostaje u repozitoriju, a u tekst se navodi tek ako je za tvrdnju važan. Ta je razlika za ovu knjigu ključna jer je njezin predmet upravo granica između onoga što se tvrdi i onoga što se još ne može tvrditi. Model je u trećem dijelu knjige *kandidat* za novi entitet, nikad zaključak — i metodologija koja to ne bi mogla zapisati bila bi u suprotnosti s vlastitom tezom.
 
@@ -299,10 +299,10 @@ Tablica 4.5 — struktura repozitorija (stvarno stanje)
 | `pojmovnik/` | `koncepti.yaml`, `koncepti.csv`, `RJECNIK.md` | registar pojmova + generirani rječnik |
 | `docs/` | `CITIRANJE.md`, `MREZA-KNJIGA.md`, `UPUTE-PO-POGLAVLJIMA.md`, `ISPRAVKE.md`, `ci-mreza.yml.example` | citiranje, mreža triju knjiga, evidencija ispravaka |
 | `kod/` | `check_fakti.py`, `check_links.py`, `pojmovnik_build.py`, `izvuci_doktorat.py`, `README.md` | analize, slike i **provjere** |
-| `slike/` | 20 PNG datoteka + `README.md` (npr. `fig_omlcc16.png`, `fig_emotion_network.png`, `fig_strah_vektori.png`) | slike s izvorom i poglavljem |
+| `figure/` | 31 PNG datoteka + `README.md` (npr. `fig_omlcc16.png`, `fig_emotion_network.png`, `fig_strah_vektori.png`) | slike s izvorom i poglavljem |
 | `data/` | `fakti.csv`, `README.md`, `izvori/doktorat-2014/` (4 CSV-a) | evidencija brojki i podaci iz doktorata |
 
-**Jedna razlika prema nacrtu.** Nacrt je predviđao mape `/data`, `/code`, `/figures` i `/notebooks`; stvarni repozitorij rabi hrvatske nazive (`kod/`, `slike/`, `data/`) i **mapa za bilježnice ne postoji**. To se navodi namjerno, kao primjer pravila iz 4.6: nacrt je *namjera*, a repozitorij *stanje*. Isto vrijedi za skripte: `kod/README.md` navodi `pipeline_tekst_mreza_vektor.py` (4. poglavlje), `mreza_emocija.py` i `mjere_mreze.py` (6.), `geometrija_vlastiti_podaci.py` i `provjera_brojki.py` (10.) te `tablica_razine_12_16.py` (14.) kao **planirane**. One još nisu u repozitoriju, pa se cjevovod ovoga poglavlja za sada prijavljuje kao **tablica i kod**, a ne kao slika — slika ulazi u knjigu tek kad je skripta koja je reproducira (`kod/README.md`).
+**Jedna razlika prema nacrtu.** Nacrt je predviđao mape `/data`, `/code`, `/figures` i `/notebooks`; stvarni repozitorij rabi `kod/`, `data/`, `figure/`, `referencije/` i `pojmovnik/`, i **mapa za bilježnice ne postoji**. To se navodi namjerno, kao primjer pravila iz 4.6: nacrt je *namjera*, a repozitorij *stanje*. Isto vrijedi za skripte: `kod/README.md` navodi `pipeline_tekst_mreza_vektor.py` (4. poglavlje), `mreza_emocija.py` i `mjere_mreze.py` (6.), `geometrija_vlastiti_podaci.py` i `provjera_brojki.py` (10.) te `tablica_razine_12_16.py` (14.) kao **planirane**. One još nisu u repozitoriju, pa se cjevovod ovoga poglavlja za sada prijavljuje kao **tablica i kod**, a ne kao slika — slika ulazi u knjigu tek kad je skripta koja je reproducira (`kod/README.md`).
 
 **Četiri provjere koje se mogu pokrenuti odmah.** Uz repozitorij idu skripte koje provjeravaju da tekst i podaci ostanu u skladu; tri rade lokalno, bez mreže.
 

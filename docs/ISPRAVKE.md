@@ -522,3 +522,34 @@ ista tablica s obrnutim predznakom.“) ostalo je bez masnoga jer ih pravilo o p
 zabranjuje. Ako autor želi i njih masne kao natuknice, vraćaju se jednom naredbom
 (`kod/vrati_natuknice.py`, uz proširenje filtra).
 
+## ISPRAVAK-016 — Razina 14: četiri ili pet uvjeta (3. 10. 2026.)
+
+**Nalaz (neovisno čitanje):** pogl. **2** izriče *„moraju biti zadovoljena četiri uvjeta"* (adresiranje,
+namjera, zajednički artefakt, konvencija), a pogl. **7** i **13** govore o **pet uvjeta** i na petom
+(obveza) grade zaključke 13.5–13.6. Karta u §2.3 u retku razine 14 već nosi *obvezu*. Recenzent bi to
+našao prvo.
+
+**Ispravak:** pogl. 2 usklađeno na **pet uvjeta** — dodan uvjet **(e) obveza** (izvor se obvezao da će
+izraz vrijediti i da snosi posljedicu ako ne vrijedi, → pogl. 7.5), rečenica o distribucijskom opisu
+proširena na prvi, treći, četvrti i peti uvjet, i kontrolna lista u §2.4 sada traži **pet** uvjeta.
+
+## ISPRAVAK-017 — Knjiga o vlastitome repozitoriju mora biti točna (3. 10. 2026.)
+
+1. **Putanja slika.** Pogl. 4 i 12 upućivali su na `slike/README.md`, a stvarna je mapa **`figure/`**
+   (31 PNG). Ispravljeno na `figure/README.md`; u tablici §4.7 `slike/` (20 PNG) → **`figure/` (31 PNG)**,
+   a rečenica o „hrvatskim nazivima" (`kod/`, `slike/`, `data/`) → `kod/`, `data/`, `figure/`,
+   `referencije/`, `pojmovnik/`.
+2. **Negativni rezultati.** Tekst i `README` datoteke upućuju na `kod/negativni/` i `data/negativni/`,
+   a mape nisu postojale. **Stvorene su** (s README-om), pa se tvrdnja o njima može provjeriti.
+3. **Pogl. 9 — „Napomena o izvorima".** Na nju se tekst upućuje **dvaput**, a nije postojala. Dodana je
+   (word2vec/NIPS, GloVe/EMNLP, Chinchilla/NeurIPS — sve već u `REFERENCE_BASE.md`, bez novih izvora).
+4. **Pogl. 10 — urednička bilješka u čitateljskom tekstu** („treba ih onamo unijeti prije nego uđu u koje
+   drugo poglavlje") pretvorena je u čitateljsku: *„❓ Nepotvrđeno: … dok se ne upišu, ostaju označene
+   kao procjena."*
+5. **Legenda za ❓** dodana u uvod (nepotvrđena stavka: tvrdnja bez izvora ili mjerenja; ne rabi se kao
+   dokaz i ne citira se).
+6. **„Prokletstvo dimenzionalnosti"** bio je u ključnim pojmovima bez ijedne pojave u tekstu; pojam je
+   sada imenovan ondje gdje se o njemu govori (§10.5).
+7. **Uvod:** pet stupnjeva vodi na *pogl. 4.3*, a tablica 4.3 stoji u **4.4** → uputa proširena na
+   *„→ pogl. 4.3–4.4; tablica 4.3"*.
+

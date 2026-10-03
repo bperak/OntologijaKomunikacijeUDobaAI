@@ -72,7 +72,7 @@ Slijedi ono što se u raspravama preskače. Pet dodataka ne daje namjeru, ne daj
 
 ![Slika 12.2 — pet slojeva koji pretvaraju model u agenta](../figure/fig_agent_hijerarhija.png)
 
-**Slika 12.2.** Pet slojeva koji pretvaraju model u agenta. U sredini je model (obrada i izlaz); oko njega pet dodataka iz ovoga odjeljka: djelovanje, pamćenje, dohvat, orkestracija i interoperabilnost. Slika ne tvrdi da iz slojeva nastaje um, nego da iz njih nastaje **pozicija**: ono po čemu se o sustavu može govoriti kao o sudioniku, a ne kao o funkciji. Autorova slika; izrađena za izlaganje *Elements of Cognition in Complex Language* (IUC Dubrovnik, 11. 9. 2026.) i preuzeta u knjigu (Perak 2026); izvorni popis slika u `slike/README.md`.
+**Slika 12.2.** Pet slojeva koji pretvaraju model u agenta. U sredini je model (obrada i izlaz); oko njega pet dodataka iz ovoga odjeljka: djelovanje, pamćenje, dohvat, orkestracija i interoperabilnost. Slika ne tvrdi da iz slojeva nastaje um, nego da iz njih nastaje **pozicija**: ono po čemu se o sustavu može govoriti kao o sudioniku, a ne kao o funkciji. Autorova slika; izrađena za izlaganje *Elements of Cognition in Complex Language* (IUC Dubrovnik, 11. 9. 2026.) i preuzeta u knjigu (Perak 2026); izvorni popis slika u `figure/README.md`.
 
 ## 12.2 Protokoli kao komunikacijska infrastruktura
 

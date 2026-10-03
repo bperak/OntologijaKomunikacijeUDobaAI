@@ -136,9 +136,9 @@ Razina je, dakle, **trostruka shema**: tip entiteta + tip relacije + tip svojstv
 | 1 Existence | kamen, broj, praznina | 1.1, 2.7 |
 | 2 Emergence | nastanak cjeline iz dijelova | 1.2, 3.1–3.3 |
 | 3 MaterialStructure | sastav tvari, dio i cjelina | 3.1, 4.2 |
-| 4 Spatial | „uz", „iznad", obuhvaćanje | 5.2 |
-| 5 Force | guranje, pritisak | 5.2 |
-| 6 Motion | putanja, brzina | 5.2 |
+| 4 Spatial | „uz", „iznad", obuhvaćanje | 2.2.1, dodatak I.2 |
+| 5 Force | guranje, pritisak | 2.2.1, dodatak I.2 |
+| 6 Motion | putanja, brzina | 2.2.1, dodatak I.2 |
 | 7 SequenceActivity | slijed koraka, recept, obred | 6.3, 11.1 |
 | 8 InformationSystem | oznaka koja nosi razliku, znak, vektorski zapis | 4.2, 9.2 |
 | 9 Perception | opažanje predmeta | 10.2, 11.2 |
@@ -152,7 +152,7 @@ Razina je, dakle, **trostruka shema**: tip entiteta + tip relacije + tip svojstv
 
 **Kako se karta rabi.** Ona nije sadržaj nego **putokaz**: kad u nekom poglavlju naiđeš na tvrdnju o razini, ovdje je mjesto na kojemu se ta razina mjeri, opovrgava ili u koje se upire. Praznina u ovoj karti značila bi da razina nije obrađena — a to bi bio nalaz o knjizi, ne o svijetu.
 
-Operacionalizacija je u tome da se shema pretvara u **kontrolnu listu**. Uzmimo razinu 14, koja u ovoj knjizi nosi najviše tereta. Da bi nešto bio komunikacijski čin, moraju biti zadovoljena četiri uvjeta: (a) **adresiranje** — postoji izvor i primatelj, a izraz je njima usmjeren (deiksa, dijaloške oznake, obrasci izmjene); (b) **namjera** — izvor želi da primatelj prepozna njegovu namjeru upravo time što ju je prepoznao (Grice 1957; Harris 1981); (c) **zajednički artefakt** — postoji nešto treće na što se oba sudionika odnose (tekst, dokument, kontekst; Clark 1996; usp. Clark & Chalmers 1998; Hutchins 1995); (d) **konvencija** — postoji obrazac koji sudionici dijele i koji omogućuje da se izraz potvrdi ili ispravi. Prvi, treći i četvrti uvjet mogu se, u načelu, zadovoljiti i čisto distribucijskim opisom; drugi se ne može. Zato je tvrdnja o razini 14 nosiva tvrdnja knjige. Sedmo poglavlje mora pokazati da se drugi uvjet u podacima razlikuje od ostalih — ili priznati da se ne razlikuje.
+Operacionalizacija je u tome da se shema pretvara u **kontrolnu listu**. Uzmimo razinu 14, koja u ovoj knjizi nosi najviše tereta. Da bi nešto bio komunikacijski čin, moraju biti zadovoljena pet uvjeta: (a) **adresiranje** — postoji izvor i primatelj, a izraz je njima usmjeren (deiksa, dijaloške oznake, obrasci izmjene); (b) **namjera** — izvor želi da primatelj prepozna njegovu namjeru upravo time što ju je prepoznao (Grice 1957; Harris 1981); (c) **zajednički artefakt** — postoji nešto treće na što se oba sudionika odnose (tekst, dokument, kontekst; Clark 1996; usp. Clark & Chalmers 1998; Hutchins 1995); (d) **konvencija** — postoji obrazac koji sudionici dijele i koji omogućuje da se izraz potvrdi ili ispravi; (e) **obveza** — izvor se obvezao da će izraz vrijediti i da snosi posljedicu ako ne vrijedi (→ pogl. 7.5). Prvi, treći, četvrti i peti uvjet mogu se, u načelu, zadovoljiti i čisto distribucijskim opisom; drugi se ne može. Zato je tvrdnja o razini 14 nosiva tvrdnja knjige. Sedmo poglavlje mora pokazati da se drugi uvjet u podacima razlikuje od ostalih — ili priznati da se ne razlikuje.
 
 Primjer pokazuje kako shema radi. Ispis vremenske prognoze: kao niz oznaka koje nose razliku o stanju okoline to je razina 8, a kao poruka upućena čitatelju s namjerom da nešto poduzme to je razina 14. Razlika nije u količini teksta. Ona je u prisutnosti adresata i namjere.
 
@@ -237,7 +237,7 @@ Razina se u ovome okviru ne pogađa po temi iskaza, nego se čita iz njegove mor
 4. **Usporedi zapis s tablicom relacijskih shema.** Nađi razinu kojoj odgovaraju sva tri tipa — tip entiteta, tip relacije i tip svojstva. Ako odgovaraju samo dva od triju članova, fenomen pripada nižoj razini.
 5. **Primijeni test spajanja.** Usporedi dobivenu razinu sa susjednom. Ako imaju isti trojac, to je jedna razina, a ne dvije — provjeri nisi li zapisao dvije razine ondje gdje je jedna.
 6. **Primijeni test razdvajanja.** Ako u istome materijalu vidiš dva tipa svojstva s različitim zakonima sastavljanja, to su dvije razine — ili je materijal za reviziju ljestvice, koju tada moraš obraniti podacima, a ne ukusom.
-7. **Ako je iskaz adresiran, provjeri četiri uvjeta razine 14.** Adresiranje, namjera, zajednički artefakt i konvencija. Zabilježi koji su zadovoljeni, a koji nisu: uvjet koji se ne može zadovoljiti čisto distribucijskim opisom jest namjera, i zato on odlučuje o smještaju.
+7. **Ako je iskaz adresiran, provjeri pet uvjeta razine 14.** Adresiranje, namjera, zajednički artefakt, konvencija i obveza. Zabilježi koji su zadovoljeni, a koji nisu: uvjet koji se ne može zadovoljiti čisto distribucijskim opisom jest namjera, i zato on odlučuje o smještaju.
 8. **Zapiši nalaz i ono što nije odlučeno.** Uz razinu upiši je li nositelj *entitet* (pozicija: gdje je) ili *agent* (uloga: što radi) — to su dva pitanja i dva dokaza. Slučaj koji nisi mogao odlučiti označi kao nepotvrđen i ne popravljaj ga kasnije.
 
 **Ako ne radi — tri najčešće greške.** *Prva:* domena se pročita kao razina, pa se iz vrste ovisnosti izvede mjesto na ljestvici („ovo je društveno, dakle visoka razina"). Rješenje je podsjetnik iz odjeljka 2.1: domena ima tri, razina šesnaest, a razlikuju se po različitim kriterijima. *Druga:* razina se čita iz teme, a ne iz sheme — odluka se donosi prema tomu o čemu iskaz govori, pa nalaz ispadne smislen, ali neponovljiv. Rješenje je korak 2: uloge se prepisuju iz morfosintakse prije nego se išta protumači, a zapis mora sadržavati sva tri člana. *Treća:* sve novo proglasi se novom razinom — najčešće model. Rješenje je imenovati novi tip svojstva i novu relacijsku shemu; ako ih nema, ne postoji sedamnaesta razina, nego novi entitet u postojećem sustavu.
