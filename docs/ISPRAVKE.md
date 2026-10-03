@@ -967,3 +967,11 @@ izričaj — svi ✔.
 jasan; modeli izričito odbijaju izmisliti značenje; (2) terminologija: razlučiti *falsifikaciju*,
 *opovrgavanje pojedine tvrdnje* i *„obaranje knjige"*, te provjeriti što u 16.5 znači *„potvrditi"*.
 
+**Dopuna (drugi krug, Gemini Pro):** „skaliranje posljedica" na tri razine — odlomak završava *poantom*,
+odjeljak dobiva **jedan kratki sintetski odlomak**, kraj poglavlja **gleda naprijed** (formulira problem
+sljedećega poglavlja). Ugrađeno u `docs/STIL.md` (pravilo 4 v2). Provjera završetaka pokazuje da poglavlja
+uglavnom već gledaju naprijed; manjkala je srednja razina. **Žanrovska iznimka:** formalni registri (opis
+protokola, predlošci, rješenja) ne gone se na prag lepršavosti — dodatak D ostaje formalan namjerno.
+Napomena o recenziji: **Gemini Pro nije vidio grešku „lijevi stupac"** u pogl. 8 (njegov prijepis ju je
+zadržao); uočio ju je GPT-6.1 — dokaz zašto se šalje više modela, a ne jedan.
+

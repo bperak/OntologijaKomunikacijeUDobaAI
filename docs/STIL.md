@@ -120,6 +120,23 @@ doseg; autor katkad prerano zatvara pitanje.
 **Praktičan postupak (interni, ne u tekstu):** uz svaki odjeljak napiši rečenicu „Nakon ovoga čitatelj može
 zaključiti…". Ako se ne može napisati, problem je strukturni; ako može, ne mora se doslovno pojaviti u rukopisu.
 
+
+**Skaliranje posljedica (dopuna iz drugoga kruga, Gemini Pro) — tri razine, da se ne pretvori u formulu:**
+
+| razina | oblik | zašto |
+|---|---|---|
+| odlomak | završava **poantom** — mikrozaključkom koji je odskočna daska („Smjer poruke, dakle, ne određuje odgovornost.") | sažetak u svakom odlomku zvuči kao udžbenik |
+| odjeljak | **jedan kratki sintetski odlomak** nakon niza analitičkih („Iz ovoga proizlazi…") — tu je mjesto za eksplicitno učvršćivanje | čitatelj dobiva predah i vidi zašto je prethodno bilo važno |
+| poglavlje | završetak **gleda naprijed**: formulira problem koji rješava sljedeće poglavlje | pogled unatrag ne nosi čitatelja dalje |
+
+**Provjereno 3. 10. 2026.:** završeci poglavlja uglavnom već gledaju naprijed (npr. pogl. 10: „Geometrija je dala
+tlo. Ostaje pitanje tko na njemu stoji."; pogl. 12: „…četvrti dio preuzima pitanje komunikacije s takvim
+sudionikom (→ pogl. 13)."). Ono što je manjkalo je **srednja razina** — sintetski odlomak u odjeljku.
+
+⛔ **Žanrovska iznimka:** formalni registri (opis protokola, predlošci, rješenja vježbi) **ne** traže lepršavost —
+Gemini Pro: *„Ovdje krutost nije toliki problem jer žanr zahtijeva viši stupanj formalnosti."* Dodatak D
+(predlošci) i D dio dodatka C zato se ne gone na prag ≤ 6/1.000.
+
 **Mjere:** `kod/check_leprsavost.py` (antiteza ≤ 6/1.000, konektor na početku ≤ 6 %) — oba su čuvari, a ne
 ciljevi: ⛔ brojenje nalazi **mjesta za pregled**, ne daje presudu („dok" može značiti vrijeme, antiteza može
 nositi nužnu razliku).
