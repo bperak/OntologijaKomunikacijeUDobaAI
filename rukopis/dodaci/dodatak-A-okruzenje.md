@@ -1,6 +1,6 @@
 # Dodatak A — Postavljanje okruženja
 
-Knjiga ne traži posebnu opremu, ali traži da se **zna što je bilo na ulazu**. Ovaj dodatak opisuje najmanje okruženje u kojemu se svi postupci iz praktikuma mogu ponoviti, i to tako da rezultat bude provjerljiv. Ništa od navedenoga nije uvjet za razumijevanje tvrdnji knjige — kod se u svakom poglavlju može preskočiti bez gubitka tvrdnje.
+Knjiga ne traži posebnu opremu, ali traži da se zna što je bilo na ulazu; bez toga nalaz nije provjerljiv. Ovaj dodatak opisuje najmanje okruženje u kojemu se svi postupci iz praktikuma mogu ponoviti, i to tako da rezultat bude provjerljiv. Ništa od navedenoga nije uvjet za razumijevanje tvrdnji knjige. Kod se može preskočiti u svakom poglavlju, bez gubitka tvrdnje.
 
 ---
 
@@ -15,10 +15,10 @@ Knjiga ne traži posebnu opremu, ali traži da se **zna što je bilo na ulazu**.
 
 ## A.2 Najmanji radni postav
 
-1. **Zapis o okruženju.** Prije prvoga mjerenja u datoteku se upiše: inačica Pythona, naziv i verzija modela ugrađivanja, inačica korpusa i datum pristupa. Bez toga se rezultat ne može ponoviti, a ni usporediti s kasnijim.
+1. **Zapis o okruženju.** Prije prvoga mjerenja u datoteku se upiše: inačica Pythona, naziv i verzija modela ugrađivanja, inačica korpusa i datum pristupa. Bez toga se rezultat, naime, ne može ponoviti, a ni usporediti s kasnijim.
 2. **Provjera veze s poslužiteljem ugrađivanja.** Uputa mora završavati na `/v1`; ako model traži istu dimenziju za sve ulaze, miješanje dviju inačica daje grešku oblika, a ne pogrešan broj — i to je dobro, jer se pogreška vidi odmah.
 3. **Normalizacija prije mjere.** Kosinusna srodnost računa se na normaliziranim vektorima; ako su sve vrijednosti blizu jedinice, mjera nije kosinus nego norma (→ pogl. 10.7).
-4. **Fiksiranje jedinica.** Popis jedinica sprema se u jednu datoteku i uz njega se upisuje kontrolni zbroj. Popis se između dvaju mjerenja ne mijenja (→ dodatak D.1).
+4. **Fiksiranje jedinica.** Popis jedinica sprema se u jednu datoteku i uz njega se upisuje kontrolni zbroj. Popis se, usto, između dvaju mjerenja ne mijenja (→ dodatak D.1).
 5. **Provjere prije zaključka.** Prije nego se nalaz napiše, pokreću se provjere iz repozitorija:
 
 ```bash
@@ -30,12 +30,12 @@ python3 kod/check_links.py            # upute i poveznice
 
 ## A.3 Reproducibilnost: četiri stavke uz svaki rezultat
 
-Rezultat je reproducibilan ako uz njega stoje: **verzija podataka** (korpus i inačica), **verzija postupka** (jedinica, mjera, prag, broj dimenzija, vrsta udaljenosti), **verzija modela** (ugrađivanja iz različitih inačica nisu ista mjera) i **kontrolni zapis (checksum) uz licencu** (bez toga se ne može utvrditi je li reproduciran isti skup podataka). Te su četiri stavke u knjizi navedene u 4.5 i u praktikumima; ovdje su izdvojene jer se u praksi najčešće preskaču.
+Rezultat je reproducibilan ako uz njega stoje četiri stavke. Prvo, **verzija podataka** (korpus i inačica). Drugo, **verzija postupka** (jedinica, mjera, prag, broj dimenzija, vrsta udaljenosti). Treće, **verzija modela** (ugrađivanja iz različitih inačica nisu ista mjera). Četvrto, **kontrolni zapis (checksum) uz licencu** (bez toga se ne može utvrditi je li reproduciran isti skup podataka). Te su četiri stavke u knjizi navedene u 4.5 i u praktikumima; pritom su ovdje izdvojene jer se u praksi najčešće preskaču.
 
 ## A.4 Što okruženje ne rješava
 
-Okruženje ne rješava nijedno od pitanja koja knjiga postavlja. Ono omogućuje samo jedno: da se tvrdnja o razini **pretvori u mjerni zadatak** i da se taj zadatak može ponoviti — uključujući i ponavljanje koje nalaz **obara**. Ako se postupak ne može ponoviti, nalaz ne pripada knjizi, nego bilježnici.
+Okruženje pak ne rješava nijedno od pitanja koja knjiga postavlja. Ono omogućuje samo jedno. Tvrdnja o razini mora se **pretvoriti u mjerni zadatak**, a taj zadatak mora se moći ponoviti — uključujući i ponavljanje koje nalaz **obara**, a ne samo ono koje ga potvrđuje. Ako se postupak, dakle, ne može ponoviti, nalaz ne pripada knjizi, nego bilježnici.
 
 ## A.5 Licenca i citiranje
 
-Materijali u repozitoriju knjige objavljeni su pod licencom **CC BY-NC 4.0** (uz obavezno navođenje autorstva); komercijalna uporaba nije dopuštena, a prerade jesu uz navođenje izvora. Način citiranja knjige i njezinih dijelova opisan je u `docs/CITIRANJE.md`, a strojno čitljiv zapis u `CITATION.cff`.
+Materijali u repozitoriju knjige objavljeni su pod licencom **CC BY-NC 4.0** (uz obavezno navođenje autorstva). Komercijalna uporaba nije dopuštena, a prerade jesu uz navođenje izvora. Način citiranja knjige i njezinih dijelova opisan je u `docs/CITIRANJE.md`, a strojno čitljiv zapis u `CITATION.cff`.

@@ -56,17 +56,61 @@ def datoteke(samo=None):
     return out
 
 
+def _ocisti(s):
+    s = re.sub(r"!\S*\S", " ", s)
+    s = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", s)
+    return re.sub(r"[*_`#]", " ", s)
+
+
+def recenice(tekst):
+    """Vraća (sve rečenice, duljine, oznaka je li rečenica iz popisa).
+
+    Zašto po retcima, a ne na cijelome tekstu: naslovi, tablice, blokovi koda i oznake popisa
+    („- ", „1. ") nemaju rečeničnu strukturu. Kad se tekst najprije spljošti, naslov spoji dvije
+    rečenice u jednu, a oznaka popisa spriječi diobu (rečenica nakon nje počinje malim slovom), pa
+    mjere dužine i ritma postanu besmislene — i tjeraju na brisanje aparata. Zato se svaki redak
+    obrađuje zasebno: naslovi/tablice/kod se preskaču, popisni redak je jedna rečenica, a odlomak se
+    dijeli po rečeničnim granicama.
+    """
+    rec, je_popis = [], []
+    for red in tekst.split("\n"):
+        r = red.strip()
+        if not r or r.startswith(("```", "|", ">", "#", "![", "---", "===")):
+            continue
+        # Retci popisa literature („Autor 1997 · Autor 2006 · …") i masni podnaslovi na vlastitome
+        # retku nisu rečenice: reference nemaju rečeničnu strukturu, a podnaslov je aparat. Kad bi
+        # ušli u mjeru, izgledali bi kao goleme „rečenice" i kao „šuplje kratke".
+        if r.count("·") >= 3 or re.fullmatch(r"\*\*[^*]+\*\*:?", r):
+            continue
+        # Uvodna natuknica na početku retka („**Zašto je to važno…** Ovi brojevi…") jest aparat:
+        # broji se samo tekst iza natuknice, a sam se natuknica ne broji kao rečenica.
+        r = re.sub(r"^\*\*[^*]{2,80}?\*\*[:.]?\s*", "", r)
+        popis = bool(re.match(r"^(?:[-*+]|\d+\.)\s+", r))
+        if popis:
+            r = re.sub(r"^(?:[-*+]|\d+\.)\s+", "", r)
+        r = _ocisti(r).strip()
+        if popis:
+            # cijeli popisni redak jedinica je za sebe (nema spoja sa susjednima)
+            if len(r.split()) >= 2:
+                rec.append(r)
+                je_popis.append(True)
+            continue
+        for dio in re.split(r"(?<=[.!?])\s+(?=[A-ZČĆĐŠŽ„(\u201e])", r):
+            if len(dio.split()) >= 3:
+                rec.append(dio)
+                je_popis.append(False)
+    duz = [len(x.split()) for x in rec] or [0]
+    return rec, duz, je_popis
+
+
 def proza(tekst, bez_popisa=False):
     t = re.sub(r"!\[[^\]]*\]\([^)]*\)", " ", tekst)
+    t = re.sub(r"```.*?```", " ", t, flags=re.S)
     t = re.sub(r"^\|.*$", " ", t, flags=re.M)
     t = re.sub(r"^#{1,6} .*$", " ", t, flags=re.M)
     t = re.sub(r"^> .*$", " ", t, flags=re.M)
     if bez_popisa:
         t = re.sub(r"^\s*(?:[-*+]|\d+\.)\s+.*$", " ", t, flags=re.M)
-    # POPISNI RETCI: svaki redak popisa mora završiti rečeničnom granicom. Bez toga se uzastopni
-    # popisni retci (koji ne završavaju točkom) spoje u jednu „rečenicu" i umjetno stvore niz
-    # dugih rečenica — mjera ritma tada traži da se popis briše, a to je aparat i ne dira se.
-    t = re.sub(r"^(\s*(?:[-*+]|\d+\.)\s+.*?)(?<![.!?:;])\s*$", r"\1.", t, flags=re.M)
     t = re.sub(r"[*_`#|]", " ", t)
     return re.sub(r"\s+", " ", t)
 
@@ -80,16 +124,16 @@ def mjere(put):
     podebljano = " ".join(odlomci)
     bold_n = len(re.findall(r"[^\W\d_]+", podebljano, re.UNICODE))
     dugi = [o for o in odlomci if len(o.split()) > 6]
-    rec = [r for r in re.split(r"(?<=[.!?])\s+(?=[A-ZČĆĐŠŽ„(])", t) if len(r.split()) >= 3]
-    duz = [len(r.split()) for r in rec] or [0]
+    rec, duz, je_popis = recenice(tekst)
     vrlo_kratke = 100.0 * sum(1 for d in duz if d <= 8) / len(duz)
-    suplje = sum(1 for r in rec if len(r.split()) <= 8 and SUPLJE.search(r))
+    # „Šuplja kratka" ne broji uvodne retke („Ključne izmjerene vrijednosti, s izvornim stranicama:")
+    # jer oni najavljuju tablicu, a nisu tvrdnja.
+    suplje = sum(1 for r, d in zip(rec, duz)
+                 if d <= 8 and not r.rstrip().endswith(":") and SUPLJE.search(r))
     sd = statistics.pstdev(duz) if len(duz) > 2 else 0.0
     # Niz dugih rečenica mjeri se SAMO na prozi (bez popisnih redaka): niz dugih popisnih
     # čestica (falsifikatori, koraci postupka) jest aparat, a ne ritam, i ne smije se „popravljati".
-    t_run = proza(tekst, bez_popisa=True)
-    rec_run = [r for r in re.split(r"(?<=[.!?])\s+(?=[A-ZČĆĐŠŽ„(])", t_run) if len(r.split()) >= 3]
-    duz_run = [len(r.split()) for r in rec_run] or [0]
+    duz_run = [d for d, p in zip(duz, je_popis) if not p] or [0]
     niz, najduzi = 0, 0
     for d in duz_run:
         niz = niz + 1 if d > 30 else 0

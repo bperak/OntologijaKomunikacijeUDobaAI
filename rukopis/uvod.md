@@ -8,23 +8,23 @@
 
 Kad se kaže da model „razumije", „komunicira" ili „stvara značenje", u toj tvrdnji stoji nešto što nije izrečeno: pretpostavka da postoji **ljestvica** na kojoj se takve pojave mogu smjestiti i da se zna na kojoj se od njezinih razina što zbiva. Ako ljestvica ne postoji, svaka je takva tvrdnja samo dojam; ako postoji, ali nije mjerljiva, tvrdnja je i dalje dojam — samo skuplji.
 
-Ova knjiga polazi od najjednostavnijeg mogućeg stroja za takvo smještanje: **razina**. Razine su ovdje uzete ozbiljno, kao operativan okvir — skup definiranih pozicija s pripadnim **relacijskim shemama**, koje se na konkretnome slučaju moraju moći primijeniti tako da daju odgovor koji se može provjeriti. Pojmovi „sustav", „organizacija", „emergencija" i „razina" ovdje nisu metafore za „složeno" i „napredno" (→ pogl. 1), nego pojmovi s pravilom uporabe: svaki se veže uz vrstu relacije i uz vrstu mjere.
+Ova knjiga polazi od najjednostavnijeg mogućeg stroja za takvo smještanje: **razina**. Razine su ovdje uzete ozbiljno, kao operativan okvir — skup definiranih pozicija s pripadnim **relacijskim shemama**, koje se na konkretnome slučaju moraju moći primijeniti tako da daju odgovor koji se može provjeriti. Pojmovi „sustav", „organizacija", „emergencija" i „razina" ovdje nisu metafore za „složeno" i „napredno" (→ pogl. 1), nego pojmovi s pravilom uporabe: svaki se, naime, veže uz vrstu relacije i uz vrstu mjere.
 
 Iz toga slijedi i ton knjige. Ona ne tvrdi da modeli razumiju, ni da ne razumiju. Tvrdi da se ta razlika **može** izraziti kao razlika u ispunjenosti uvjeta po razinama, i onda pokazuje kako to izgleda na jednome slučaju.
 
 ## Tri tvrdnje koje knjiga brani
 
-1. **Razine su operativan okvir, ne metafora.** Ontološke razine — tri domene i šesnaest razina (OMLCC) — definirane su **relacijskim shemama** i mogu se čitati iz podataka (→ pogl. 2, 4). Podjela na tri domene — materijalnu (grube činjenice), psihološku (mentalne činjenice) i društvenu (institucionalne činjenice) — je Searleova (1995; 2010); razrada domene na razine i njihove relacijske sheme autorov je doprinos (→ pogl. 2.1).
+1. Razine su **operativan okvir**, ne metafora. Ontološke razine — tri domene i šesnaest razina (OMLCC) — definirane su **relacijskim shemama** i mogu se čitati iz podataka (→ pogl. 2, 4). Podjela na tri domene — materijalnu (grube činjenice), psihološku (mentalne činjenice) i društvenu (institucionalne činjenice) — je Searleova (1995; 2010); razrada domene na razine i njihove relacijske sheme autorov je doprinos (→ pogl. 2.1).
 
-2. **Komunikacija je jedna od tih razina (14, SocCommunication) — i ujedno metoda.** Ona je istodobno **objekt** (društveni čin s adresiranjem, prepoznatom namjerom, zajedničkim artefaktom, konvencijom i obvezom; → pogl. 7.5) i **instrument**: sve ostale razine čitaju se iz komunikacijskih podataka, jer su zapisi o uporabi jedina građa koju imamo (→ pogl. 4, 5).
+2. Komunikacija je jedna od tih razina (14, SocCommunication) — i ujedno metoda. Ona je istodobno **objekt** (društveni čin s adresiranjem, prepoznatom namjerom, zajedničkim artefaktom, konvencijom i obvezom; → pogl. 7.5) i **instrument**: sve ostale razine čitaju se iz komunikacijskih podataka, jer su zapisi o uporabi jedina građa koju imamo (→ pogl. 4, 5).
 
-3. **Umjetna inteligencija nije sedamnaesta razina, nego novi entitet koji ulazi u postojeće razine** — i time mijenja uvjete komunikacije: pojavljuje se novi tip sudionika, novi artefakti, nove konvencije i novi protokoli (→ pogl. 12, 13).
+3. Umjetna inteligencija nije sedamnaesta razina, nego **novi entitet** koji ulazi u postojeće razine — i time mijenja uvjete komunikacije: pojavljuje se novi tip sudionika, novi artefakti, nove konvencije i novi protokoli (→ pogl. 12, 13).
 
-Tvrdnja 3 ne niječe promjenu; ona je smješta. Novo je **gdje** se pojavljuje, a ne **koliko razina** ima.
+Tvrdnja 3, naprotiv, ne niječe promjenu; ona je smješta. Novo je **gdje** se pojavljuje, a ne **koliko razina** ima.
 
 ## Zašto ljestvica, a ne popis
 
-Razine bi se mogle uzeti i kao puki popis imena. Ova knjiga to odbija iz jednoga razloga: popis imena ne može ništa oboriti. Ljestvica s kriterijima može. Kad se na konkretnome slučaju pokaže da je neka razina **funkcionalno prisutna**, a istodobno da nije **intrinzično prisutna**, to je nalaz — i to nalaz koji se može ponoviti ili opovrgnuti (→ pogl. 14.6, 16).
+Razine bi se mogle uzeti i kao puki popis imena. Ova knjiga to odbija iz jednoga razloga: popis imena ne može ništa oboriti. Ljestvica s kriterijima pak može. Kad se na konkretnome slučaju pokaže da je neka razina **funkcionalno prisutna**, a istodobno da nije **intrinzično prisutna**, to je nalaz — i to nalaz koji se može ponoviti ili opovrgnuti (→ pogl. 14.6, 16).
 
 Zato se u cijeloj knjizi drži razlika koja je ujedno njezin glavni alat:
 
@@ -39,7 +39,7 @@ Bez te razlike okvir proizvodi dvije jednako pogrešne tvrdnje iz istoga propust
 
 **Entitet imenuje *gdje*, agent imenuje *što*.** *Entitet* je pozicija u sustavu — mjesto na koje nešto dolazi; *agent* je sistemska uloga onoga što na tom mjestu djeluje (djeluje, pamti, dohvaća, orkestrira). Riječ „razina" u ovoj knjizi nikad ne označava model; model nije razina, nego **entitet** koji zauzima postojeće pozicije (→ pogl. 12.4, 16.3).
 
-**Slaba emergencija, nigdje jaka.** Knjiga radi isključivo sa slabom emergencijom (Bedau 1997): ono što nastaje **izvedivo je** iz nižega, ali samo simulacijom — nije iz njega izračunljivo u koraku. Jakom emergencijom (Chalmers 2006) ne služi se nigdje, i to je razlog zašto u knjizi nema *downward causation*: viša razina ne djeluje natrag na nižu po svojim pravilima, ona je **opis** organizacije nižega.
+**Slaba emergencija, nigdje jaka.** Knjiga radi isključivo sa slabom emergencijom (Bedau 1997): ono što nastaje **izvedivo je** iz nižega, ali samo simulacijom — nije iz njega izračunljivo u koraku. Jakom emergencijom (Chalmers 2006) ne služi se nigdje, i to je razlog zašto u knjizi nema *downward causation*: viša razina ne djeluje natrag na nižu po svojim pravilima, ona je **opis** organizacije nižega. Opis nije uzrok.
 
 ## Kako je knjiga izgrađena
 
@@ -78,9 +78,9 @@ Knjiga se ne mora čitati redom, ali nijedan redoslijed nije bez cijene, pa evo 
 
 ## Dvije vrste pogreške koje knjiga nastoji izbjeći
 
-**Brojka bez vrste.** Svaka brojka u ovoj knjizi ima izvor, datum i vrstu: *mjereno*, *procjena* ili *izvedeno*. Procjena se nikad ne prikazuje kao mjerenje; kad je izvor nepotpun, brojka se označava i ne prenosi dalje. Evidencija je u `data/fakti.csv`, a provjera je automatska (→ pogl. 4.5).
+**Brojka bez vrste.** Svaka brojka u ovoj knjizi ima izvor, datum i vrstu: *mjereno*, *procjena* ili *izvedeno*. Procjena se nikad ne prikazuje kao mjerenje; kad je izvor nepotpun, brojka se označava i ne prenosi dalje. Vrsta je dio brojke. Evidencija je u `data/fakti.csv`, a provjera je automatska (→ pogl. 4.5).
 
-**Citat bez izvora u istoj rečenici.** Reference u knjizi ne idu u opći popis na kraju kao potvrda da je nešto pročitano: **tvrdnja i njezin izvor stoje u istoj rečenici**, a cijeli popis referenci održava se u zajedničkoj bazi (`referencije/REFERENCE_BASE.md`). Nijedan citat ne ulazi u rukopis ako nije u toj bazi, i to se provjerava u oba smjera (→ pogl. 4.6).
+**Citat bez izvora u istoj rečenici.** Reference u knjizi ne idu u opći popis na kraju kao potvrda da je nešto pročitano: tvrdnja i njezin izvor stoje u istoj rečenici, a cijeli popis referenci održava se u zajedničkoj bazi (`referencije/REFERENCE_BASE.md`). Nijedan citat ne ulazi u rukopis ako nije u toj bazi, i to se provjerava u oba smjera (→ pogl. 4.6).
 
 ## Kako je čitati uz dvije srodne knjige
 

@@ -304,7 +304,7 @@ Tablica 4.5 — struktura repozitorija (stvarno stanje)
 
 **Jedna razlika prema nacrtu.** Nacrt je predviđao mape `/data`, `/code`, `/figures` i `/notebooks`; stvarni repozitorij rabi hrvatske nazive (`kod/`, `slike/`, `data/`) i **mapa za bilježnice ne postoji**. To se navodi namjerno, kao primjer pravila iz 4.6: nacrt je *namjera*, a repozitorij *stanje*. Isto vrijedi za skripte: `kod/README.md` navodi `pipeline_tekst_mreza_vektor.py` (4. poglavlje), `mreza_emocija.py` i `mjere_mreze.py` (6.), `geometrija_vlastiti_podaci.py` i `provjera_brojki.py` (10.) te `tablica_razine_12_16.py` (14.) kao **planirane**. One još nisu u repozitoriju, pa se cjevovod ovoga poglavlja za sada prijavljuje kao **tablica i kod**, a ne kao slika — slika ulazi u knjigu tek kad je skripta koja je reproducira (`kod/README.md`).
 
-Četiri provjere koje se mogu pokrenuti odmah. Uz repozitorij idu skripte koje provjeravaju da tekst i podaci ostanu u skladu; tri rade lokalno, bez mreže.
+**Četiri provjere koje se mogu pokrenuti odmah.** Uz repozitorij idu skripte koje provjeravaju da tekst i podaci ostanu u skladu; tri rade lokalno, bez mreže.
 
 **1. `python3 kod/check_fakti.py`** — provjerava evidenciju brojki `data/fakti.csv` protiv rukopisa: strukturu (polja, dopuštene vrste), brojke s jedinicom u tekstu, dvostruke identifikatore i nepotvrđene brojke (❓). Uz `--strict` daje izlaz 1 ako ima neevidentiranih brojki. To je skripta koja stoji iza tvrdnje iz 4.5 da brojka bez izvora, datuma i vrste nije brojka.
 

@@ -121,7 +121,7 @@ Mreža emocija nije nastala kao ilustracija; iza nje stoji korpusna obrada iz do
 | glagoli u konstrukciji *od straha* | drhtati (62), umrijeti (61), tresti (39), trnuti (18), plakati (12), kriknuti (11), izbezumiti (10), bježati (9), razboljeti se (8), osloboditi (8), ukočiti (8) | str. 304 |
 | konstrukcije miješanja | *miješati* (n=17), *prožeti* (n=6), *prodrijeti* (n=4) | str. 369 |
 
-Zašto je to važno za ovu knjigu. Ovi brojevi pokazuju dvije stvari koje se u raspravama o „mrežama značenja" često preskaču. Prvo, mreža je izvedena iz uporabe, a ne iz intuicije: svaki brid ima frekvenciju i mjesto u korpusu. Drugo, **frekvencija nije značenje**: to što se uz *strah* najčešće pojavljuju *drhtati* i *umrijeti* govori o stabilnosti konstrukcije, ne o „sadržaju" emocije. Zato u ovome poglavlju mjere čitamo kao **strukturu uporabe**, a ne kao kartu unutrašnjosti.
+**Zašto je to važno za ovu knjigu.** Ovi brojevi pokazuju dvije stvari koje se u raspravama o „mrežama značenja" često preskaču. Prvo, mreža je izvedena iz uporabe, a ne iz intuicije: svaki brid ima frekvenciju i mjesto u korpusu. Drugo, **frekvencija nije značenje**: to što se uz *strah* najčešće pojavljuju *drhtati* i *umrijeti* govori o stabilnosti konstrukcije, ne o „sadržaju" emocije. Zato u ovome poglavlju mjere čitamo kao **strukturu uporabe**, a ne kao kartu unutrašnjosti.
 
 Izvorni podaci izvučeni su u `data/izvori/doktorat-2014/` (četiri CSV-a, s pomakom stranica PDF = tiskana + 24 i s navedenim ograničenjima automatskog izvlačenja). Svaka brojka koja ulazi u knjigu provjerava se na navedenoj stranici izvornika.
 

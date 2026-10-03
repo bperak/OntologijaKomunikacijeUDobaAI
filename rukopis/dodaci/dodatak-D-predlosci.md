@@ -1,8 +1,8 @@
 # Dodatak D — Predlošci
 
-Ovi predlošci nisu ukras ni administracija: oni su **oblik u kojemu se nalaz drži provjerljivim**. Knjiga ih navodi u praktikumima i u vježbama 🟡; ovdje su na jednome mjestu, u obliku koji se može kopirati i ispuniti. Svaki predložak ima dva dijela: **što se upisuje** i **što se ne smije preskočiti** — jer se gotovo svaka pogreška u mjerenju na kraju svodi na jedno preskočeno polje.
+Ovi predlošci nisu ukras ni administracija. Oni su oblik u kojemu se nalaz drži provjerljivim. Knjiga ih navodi u praktikumima i u vježbama 🟡; ovdje su na jednome mjestu, u obliku koji se može kopirati i ispuniti. Svaki predložak ima dva dijela: **što se upisuje** i **što se ne smije preskočiti**. Gotovo svaka pogreška u mjerenju, naime, na kraju se svodi na jedno preskočeno polje.
 
-Redoslijed je isti kao slijed knjige: prvo podaci (D.1), potom mjere (D.2, D.4), pa test (D.3), pa zapisi o brojkama (D.5) i o razlučivanju razina (D.6).
+Redoslijed je isti kao slijed knjige. Prvo podaci (D.1), potom mjere (D.2, D.4), pa test (D.3), pa zapisi o brojkama (D.5) i o razlučivanju razina (D.6).
 
 ---
 
@@ -61,7 +61,7 @@ robusnost:                 <kako se mijenja nalaz pri promjeni praga i mjere>
 raspored na slici:         <siloviti | kružni>   ← položaj na slici NIJE udaljenost u značenju
 ```
 
-**Što se ne smije preskočiti:** usporedba gustoće među mrežama različitoga broja čvorova (traži korekciju) i **oznaka da raspored na slici proizlazi iz algoritma crtanja**; slika je kazalo, a ne mjera (→ pogl. 6.5, 10.6).
+**Što se ne smije preskočiti:** usporedba gustoće među mrežama različitoga broja čvorova (traži korekciju) i oznaka da raspored na slici proizlazi iz algoritma crtanja; slika je kazalo, a ne mjera (→ pogl. 6.5, 10.6).
 
 ## D.5 Predložak: zapis o brojci
 
@@ -76,7 +76,7 @@ id, brojka, jedinica, izvor, datum_izvora, vrsta, pojavljuje_se_u, napomena
 - **datum_izvora:** datum na koji se vrijednost odnosi (ne datum kada je knjiga pisana);
 - **pojavljuje_se_u:** poglavlja u kojima se brojka rabi.
 
-**Što se ne smije preskočiti:** vrsta i datum. Brojka bez vrste je dojam, a brojka bez datuma se ne može ni provjeriti ni ispraviti — a predmet knjige mijenja se brže od knjige (→ dodatak E).
+**Što se ne smije preskočiti:** vrsta i datum. Brojka bez vrste je dojam. Brojka bez datuma ne može se ni provjeriti ni ispraviti — a predmet knjige mijenja se brže od knjige (→ dodatak E).
 
 ## D.6 Predložak: zapisnik razlučivanja razina
 
@@ -95,8 +95,8 @@ izvedena provjera za svaki „ne":  <što je promijenjeno i što je promatrano>
 zapis koji nije bio dostupan:     <što>
 ```
 
-**Što se ne smije preskočiti:** uz svaki odgovor „ne" mora stajati **izvedena provjera** (što je promijenjeno — polje u konfiguraciji, orkestracija, sadržaj poruke) i zaseban ishod **„nije provjereno"**. Bez toga se dokaz odsutnosti zamjenjuje odsutnošću dokaza (→ pogl. 14.6).
+**Što se ne smije preskočiti:** uz svaki odgovor „ne" mora stajati **izvedena provjera** (što je promijenjeno — polje u konfiguraciji, orkestracija, sadržaj poruke). Uz nju mora stajati i zaseban ishod **„nije provjereno"**. Bez toga se dokaz odsutnosti zamjenjuje odsutnošću dokaza (→ pogl. 14.6).
 
 ## D.7 Kako se predlošci koriste u nastavi
 
-Predlošci su namijenjeni tome da student prvo ispuni predložak, a tek onda piše tekst. Iskustvo s ovakvim obrascem je jednoznačno: najveći dio pogrešaka nastaje na mjestima koja predložak izričito traži, a izostavlja ih svaki slobodni tekst — inačica podataka, mjera, prag, upisan prije podataka, i način na koji je negativan nalaz prijavljen. Zato se u ocjenjivanju vježbi 🟡 i 🏆 predložak smatra dijelom rješenja, a ne obrascem koji se ispunjava uz njega.
+Predlošci su namijenjeni tome da student prvo ispuni predložak, a tek onda piše tekst. Iskustvo s ovakvim obrascem je jednoznačno. Najveći dio pogrešaka nastaje na mjestima koja predložak izričito traži, a izostavlja ih svaki slobodni tekst: inačica podataka, mjera, prag upisan prije podataka, i način na koji je negativan nalaz prijavljen. Zato se u ocjenjivanju vježbi 🟡 i 🏆 predložak smatra dijelom rješenja, a ne obrascem koji se ispunjava uz njega.
