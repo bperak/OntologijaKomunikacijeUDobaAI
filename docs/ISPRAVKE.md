@@ -889,3 +889,23 @@ razliku uvodi netko tko je istovremeno fiziolog i filozof") i pogl. 5 („prigov
 ozbiljno**" → „prigovor koji **pogađa sam pojam**"). Dvije su ostale namjerno: „na pragu nečega većega"
 stoji u **tuđem stavu** koji knjiga citira, a „Emergentno nije slučajno." je tvrdnja o pojmu, ne fraza.
 
+## ZAPIS-023 — Pregled pokaznih zamjenica: 76 kandidata (3. 10. 2026.)
+
+**Povod (autor):** „To" (na prethodni izvještaj o mjeri `check_izricaj.py` i njezinih 76 kandidata).
+
+**Postupak.** Pročitani su **svi kandidati** (mjera ispisuje u dvama krugovima) zajedno s prethodnom
+rečenicom, koja nosi antecedent.
+
+**Nalaz.** Nijedna pokazna zamjenica nije bez imenice: sve se vežu na izrečeni pojam u istoj ili
+prethodnoj rečenici („Iz toga slijedi podjela koju ovaj okvir preuzima…", „Time je DIO II zaokružen:
+komunikacija je razina (14)…", „To je jedini eksperiment u popisu koji bi oborio samu ljestvicu…").
+**Gruba mjera je prijavila 76, stvarnih visaka nije bilo** — jedini pravi slučaj bio je onaj u tezi uvoda
+(ZAPIS-022), gdje zamjenica nije imala imenicu nigdje u blizini.
+
+**Ipak popravljeno dvoje u pogl. 4** (§4.7): (1) mek uvod „Ovo poglavlje ne bi imalo smisla kad se ne bi
+moglo provjeriti." → „Ovo poglavlje vrijedi samo ako se može provjeriti."; (2) treće lice za čitatelja
+„ona koju **čitatelj** dobiva" → „onu koju **dobivate**".
+
+**Zaključak za registar:** MU-26 ostaje **sito** s tim zabilježenim ishodom pregleda — mjera prijavljuje
+kandidate (76), a presuda je čitanje; nakon pregleda stanje je „nema visaka".
+

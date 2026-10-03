@@ -300,7 +300,7 @@ def u_csv(zapis, put):
 
 ## 4.7 Repozitorij knjige: stvarna struktura i kako se svaka brojka provjerava
 
-Ovo poglavlje ne bi imalo smisla kad se ne bi moglo provjeriti. Zato ovdje stoji **stvarna** struktura repozitorija — ona koju čitatelj dobiva, a ne ona koju je nacrt predviđao.
+Ovo poglavlje vrijedi samo ako se može provjeriti. Zato ovdje stoji **stvarna** struktura repozitorija — onu koju dobivate, a ne onu koju je nacrt predviđao.
 
 Tablica 4.5 — struktura repozitorija (stvarno stanje)
 

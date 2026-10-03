@@ -211,4 +211,4 @@ upute:
     obuhvat: "cijeli rukopis"
     provjera: "python3 kod/check_izricaj.py"
     ocekivano: "pokaznih zamjenica u tvrdnjama"
-    status: "ručni pregled — mjera je gruba (76 kandidata); presudu daje čitanje"
+    status: "ručni pregled — pregledano 3. 10. 2026. (ZAPIS-023): 76 kandidata, nijedan bez imenice"
