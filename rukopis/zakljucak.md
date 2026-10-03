@@ -6,7 +6,7 @@
 
 ## Zašto zaključak nije zbroj sažetaka
 
-Svako poglavlje ima svoj sažetak i svoj falsifikacijski odjeljak; zbrajanje tih sažetaka dalo bi tekst koji ponavlja knjigu, a ne zatvara je. Ovdje se pak radi nešto drugo: **vrednuje se stanje dokaza**. Za svaku od tri tvrdnje iz uvoda piše se na čemu stoji, koliko je ta podloga jaka i što je od nje ostalo neprovjereno. To je jedini oblik zaključka koji se ne može napisati bez knjige i koji se ne može napisati umjesto nje. Zaključak nije sažetak.
+Svako poglavlje ima svoj sažetak i svoj falsifikacijski odjeljak; zbrajanje tih sažetaka dalo bi tekst koji ponavlja knjigu, a ne zatvara je. Ovdje se pak radi nešto drugo: **vrednuje se stanje dokaza**. Za svaku od tri tvrdnje iz uvoda piše se na čemu stoji, koliko je ta podloga jaka i što je od nje ostalo neprovjereno. To je jedini oblik zaključka koji se ne može napisati bez knjige i koji se ne može napisati umjesto nje, jer se svaka njegova tvrdnja veže uz mjesto u tekstu i uz rezultat koji bi je oborio. Zaključak nije sažetak.
 
 ## Put knjige u četiri koraka
 

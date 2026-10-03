@@ -176,7 +176,7 @@ Treći redak je onaj sporni, i tu literatura ima mjerenja. Lindsey (2025) ispitu
 
 Treći kriterij nije psihološki nego **ustrojni**, i u ovom je okviru on jedini koji se može provjeriti bez nagađanja o unutrašnjosti. Pitanje nije „osjeća li sustav odgovornost", nego: postoji li zajednica koja ishod pripisuje sustavu i koja je ovlaštena sankcionirati njegovo kršenje?
 
-To je točno ono mjesto gdje razina 14 radi svoj posao. Na razini 14 (SocCommunication) obveza postoji jer je **priznata**; sankcija dolazi tek na razini 15 (→ pogl. 8.1). Model može biti *adresa* na koju se ishod veže — to je ustrojstvena činjenica i može se ustanoviti uvidom u pravila, ugovore i zapise. Ne može biti *nostitelj* obveze dok ne postoji tijelo koje je ovlašteno utvrditi kršenje.
+To je točno ono mjesto gdje razina 14 radi svoj posao. Na razini 14 (SocCommunication) obveza postoji jer je **priznata**; sankcija dolazi tek na razini 15 (→ pogl. 8.1). Model može biti *adresa* na koju se ishod veže — to je ustrojstvena činjenica i može se ustanoviti uvidom u pravila, ugovore i zapise. Ne može biti *nositelj* obveze dok ne postoji tijelo koje je ovlašteno utvrditi kršenje.
 
 | pitanje | gdje se rješava | oblik provjere |
 |---|---|---|

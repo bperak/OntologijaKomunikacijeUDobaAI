@@ -46,7 +46,7 @@ Sve ostalo — stil, žanr, register, ukus, „način na koji model piše" — p
 
 Sad se može precizno odgovoriti na pitanje iz naslova ovoga odjeljka: **što sustav modela danas ima**, a što nema?
 
-**Ima obrazac.** Nema prijenos. Model uči iz zapisa kulture — tekstova, transkripata, prijepisa razgovora — i iz njih preuzima obrasce tumačenja, primjenjuje ih, kombinira i prilagođava žanru. Ono što iz toga ne slijedi jest **sudjelovanje** u zajednici koja je te obrasce proizvela. Model nikada nije bio stranka u razgovoru iz kojega je učio niti je mogao biti pozvan na odgovornost za ono što je rekao.
+**Ima obrazac.** Nema prijenos. Model uči iz zapisa kulture — tekstova, transkripata, prijepisa razgovora — i iz njih preuzima obrasce tumačenja, primjenjuje ih, kombinira i prilagođava žanru. Ono što iz toga ne slijedi jest **sudjelovanje** u zajednici koja je te obrasce proizvela. Model nikada nije bio stranka u razgovoru iz kojega je učio niti je mogao biti pozvan na odgovornost za ono što je rekao, jer u zapisima nema stranke kojoj bi se obveza pripisala (→ pogl. 13.6).
 
 U poglavlju 14.5 taj je odnos nazvan **nasljeđivanjem bez predaje**. U ovome poglavlju treba mu dodati točniju formulaciju, jer „nasljeđivanje" je u običnome govoru dvosmisleno:
 

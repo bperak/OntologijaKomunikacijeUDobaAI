@@ -6,7 +6,7 @@
 
 Krovni je naziv **4E** skup četiriju tvrdnji. Kognicija je **utjelovljena** (*embodied*) i **ugrađena** u okolinu (*embedded*). **Enaktivna** je (*enacted*): nastaje djelovanjem, a ne zrcaljenjem. I **proširena** je (*extended*): njezini dijelovi mogu biti izvan organizma. Smjer otvara Varela, Thompson i Rosch (1991) tezom da um nije u glavi. Clark (1996) pridružuje tijelo i svijet kao partnere u rješavanju zadatka. Clark i Chalmers (1998) izvode najpoznatiju posljedicu: artefakt koji se rabi u kognitivnom poslu može biti **dio kognitivnog sustava**, a ne pribor. Artefakt nije pribor. Linija se potom grana: Noë (2004) i Engel i sur. (2013) traže kogniciju u senzomotoričkim vještinama i u pragmatičkom obratu, Thompson (2007) u kontinuitetu života i uma, a Hutto i Myin (2012) u enaktivizmu **bez sadržaja**. Gallagher (2005) traži je u tjelesnoj shemi, Chemero (2009) u radikalno utjelovljenoj znanosti, Clark (2008) u „povećanju" uma preko vanjskih nositelja, a Menary (2010) sabire ključne radove toga smjera u jedan zbornik. Pregled stanja polja daju Wilson (2002) i priručnik Newen, de Bruin i Gallagher (2018). Empirijski je krak najjasnije označio Brooks (1991) tezom „inteligencija bez reprezentacije", a Gibson (1979) pojmom **afordansâ** — svojstava okoline koja se čitaju djelovanjem.
 
-**Što knjiga odatle uzima.** Uzima **mehanizam**: proširenje uma na artefakt objašnjava zašto dodaci MEMORY i RETRIEVAL nisu kozmetika (→ pogl. 12.1). Objašnjava i zašto zajednički artefakt može biti **nostitelj**, a ne samo zapis (→ pogl. 13.3). Knjiga dakle nije izumila tezu o proširenju — primijenila ju je na novi **nosač**: na model. Nosač je sada model.
+**Što knjiga odatle uzima.** Uzima **mehanizam**: proširenje uma na artefakt objašnjava zašto dodaci MEMORY i RETRIEVAL nisu kozmetika (→ pogl. 12.1). Objašnjava i zašto zajednički artefakt može biti **nositelj**, a ne samo zapis (→ pogl. 13.3). Knjiga dakle nije izumila tezu o proširenju — primijenila ju je na novi **nosač**: na model. Nosač je sada model.
 
 **Gdje se razilazi.** Tri su razlike:
 
@@ -34,7 +34,7 @@ Treća je tradicija knjizi najbliža po predmetu, a najdalja po ustroju. Latour 
 
 | okvir | što se preuzima | gdje se razilazi | gdje se rabi |
 |---|---|---|---|
-| **4E kognicija** | proširenje uma na artefakt; artefakt kao nostitelj | nema razina; od četiriju E modelu pripadaju **ugrađenost** i **proširenost**, ne utjelovljenje i enaktivnost | 7.5, 11.5, 12.1, 13.3 |
+| **4E kognicija** | proširenje uma na artefakt; artefakt kao nositelj | nema razina; od četiriju E modelu pripadaju **ugrađenost** i **proširenost**, ne utjelovljenje i enaktivnost | 7.5, 11.5, 12.1, 13.3 |
 | **autopoeza i zatvorenost** | dva kriterija koja model **ne** zadovoljava | nema komunikacijske razine | 12.3 |
 | **kibernetika (nužna raznolikost)** | upravljanje i komunikacija kao par; raznolikost kao mjera | ne poznaje priznanje ni obvezu | 7.5, 14.2 |
 | **sistemsko gledanje života** | razine organizacije; svojstvo kao posljedica uređenja | kognicija vezana uz život; mjestimično jaka emergencija | 1.5, 15.1 |

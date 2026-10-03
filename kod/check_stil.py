@@ -299,7 +299,7 @@ def main():
     print("\n=== UKUPNO ===")
     print(f"riječi {zbroj['rijeci']} | podebljano {zbroj['bold']:.1f}% (dugi odlomci {zbroj['bold_dugi']:.1f}%) | rečenica (prosjek poglavlja) "
           f"{zbroj['rec']:.1f} | <12 {zbroj['kratke']:.1f}% | ≤8 {zbroj['vrlo_kratke']:.1f}% | "
-          f">40 {zbroj['duge']:.1f}% | SD {zbroj['sd']:.1f} | niz>30 {zbroj['niz_dagih']} | "
+          f">40 {zbroj['duge']:.1f}% | SD {zbroj['sd']:.1f} | niz>30 {zbroj['niz_dagih']} | šuplje {zbroj['suplje']} | "
           f"„upravo“ {zbroj['upravo']:.1f}/10k | čestice {zbroj['cestice_raz']}/12 | "
           f"klišeji {zbroj['kliseji']} | popis {zbroj['popis']} | tablice {zbroj['tablice']} | "
           f"crte {zbroj['crte']:.1f}/10k")

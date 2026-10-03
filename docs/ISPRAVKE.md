@@ -764,3 +764,49 @@ prijavila **49 % izoliranih odlomaka** — uključujući dobre odlomke koji namj
 („Uzmimo vodu i njezinu temperaturu…"). Kohezija se zato mjeri i **leksički**, a jedinica analize je spoj
 sekcija, ne odlomak. Mjera je **sito, ne presuda**.
 
+## ISPRAVAK-018 — Tipfeler „nostitelj" (3. 10. 2026.)
+
+**Nalaz:** u sedam datoteka riječ **nositelj** bila je ispisana kao **nostitelj** — **28 pojava**
+(rukopis/poglavlje-13.md 19, dodatak-C 2, dodatak-H 2, poglavlje-08 2, poglavlje-07 1,
+poglavlje-10 1, poglavlje-11 1). Riječ je u tisku stajala i u tablici taksonomije neuspjeha i u
+ključnim pojmovima, pa bi se vidjela i u kazalu.
+
+**Uzrok:** nijedna postojeća provjera ne hvata tipfelere — `check_cisto.py` vidi homoglife i markere,
+ali ne i pogrešno ispisanu riječ. **Ispravljeno u svih 28 pojava.** Zapisano i u registar meta-uputa
+(MU-09 se nadopunjuje ručnim pregledom ključnih pojmova pri svakom završnom čitanju).
+
+## ZAPIS-019 — Jasnoća iskaza i registar META-UPUTA (3. 10. 2026.)
+
+**Povod (autor):** „Kreni i zapisuj sve upute kao meta upute koje možemo onda provjeriti."
+
+**1) Jasnoća iskaza — mjera `kod/check_iskazi.py`.** Rečenica koja odlučno tvrdi (mora, treba, nikad,
+uvijek, jedino, nijedan) ili izvodi zaključak (dakle, stoga, otud, time) mora u **istome odlomku** imati
+oslonac: razlog (jer, zato što, zbog, utoliko), uvjet (ako, u slučaju), mjeru/dokaz (mjereno, procjena,
+mjera, test, podatak, korpus, izvor, dokaz) ili uputu/citat. Najave (rečenice koje završavaju dvotočkom)
+i sažeci kraći od devet riječi izuzeti su — njihov oslonac slijedi. Prva verzija mjerila davala je 129
+nalaza; nakon ispravka mjere (oslonac se traži u cijelome odlomku, a najave se izuzimaju) ostalo je **55**,
+pregledao sam sve i **popravio četiri rečenice koje su stvarno visjele** (u zaključku, pogl. 1, 7 i 15
+dodan je oslonac); ostale su sažeci i prijelazi čiji je oslonac u odjeljku ili u poglavlju, pa su
+ocijenjene oslonjenima. Trenutno stanje mjere: **40**. **Mjera je sito, ne presuda** — i to je zapisano
+u samoj uputi.
+
+**2) Registar META-UPUTA — `docs/meta-upute.yaml` + `kod/check_meta.py` + generirani `docs/META-UPUTE.md`.**
+Svaka uputa koja je ikad izrečena (autorova i izvedena) zapisana je kao **meta-uputa** s pet polja:
+pravilo · izvor (autorova riječ ili ZAPIS) · obuhvat · **provjera** (naredba) · očekivani ishod. Provjera
+pokreće svaku naredbu i traži očekivani ishod u izlazu. **Stanje: 24 meta-upute, 24 prolaze** (22
+automatski, 2 posredno, 3 su „sito" s ručnim pregledom i ne broje se kao pad).
+
+Popis uputa u registru: masno samo na pojmovima i ≤15 % (MU-01) · ritam (MU-02) · šuplje kratke = 0
+(MU-03) · čestice ≥5 i „upravo" ≤3/10k (MU-04) · aparat se ne gubi (MU-05) · ništa se ne gubi iz sadržaja
+(MU-06) · citat + izvor u istoj rečenici i baza referenci u oba smjera (MU-07) · brojka s vrstom (MU-08) ·
+higijena teksta (MU-09) · svaka uputa ima cilj (MU-10) · nema slomljenih uputa (MU-11) · figura ne tvrdi
+više od teksta (MU-12) · teza običnim jezikom i „Što vam ovo poglavlje daje" u drugom licu (MU-13) · nema
+trećeg lica za čitatelja (MU-14) · „Što ćete odatle ponijeti" (MU-15) · pojam se ne rabi prije objašnjenja
+(MU-16, sito) · registar pojmova rabi knjižine nazive (MU-17) · spojevi sekcija (MU-18) · otvaranja
+uvlače (MU-19, sito) · tvrdnja ne visi (MU-20, sito) · pogreška se bilježi, ne briše (MU-21) · mjera
+prije/poslije (MU-22) · nijedna nova tvrdnja u zahvatu (MU-23) · stil dodataka (MU-24).
+
+**Obuhvat je proširen na dodatke:** dosadašnje mjere pokrivale su 19 datoteka glavnoga teksta, a dodaci
+(A–I) stoje u `rukopis/dodaci/`. MU-24 sada provjerava prozne dodatke (A, C, D, F, H, I); aparatni dodaci
+(B rječnik, E izvori, G kazalo) izuzeti su jer nisu proza.
+

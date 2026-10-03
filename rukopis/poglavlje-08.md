@@ -58,7 +58,7 @@ Ta je razdioba korisna jer omogućuje da se u konkretnom slučaju vidi koja je v
 
 Ta se razlika najjasnije vidi na jeziku, jer je i on sam institucionalni materijal. Tradicionalna lingvistika promatra jezik kao opis svijeta. Institucije pokazuju drugu stranu: postoje izričaji koji **same sebe čine istinitima** u odgovarajućem kontekstu. Izgovoreno „obećavam" nije izvještaj o obećanju nego samo obećanje; potpis nije opis potpisa.
 
-Iz toga proizlazi i najkorisnija teza ovoga poglavlja za lingvistiku: jezik nije samo materijal na kojem se prepoznaju namjere; on je i materijal iz kojega se grade institucije. U terminima trećeg poglavlja: jezični obrasci nisu samo mreže iz kojih se izvlače pojmovi (→ pogl. 3.5), nego i mreže koje, kad ih zajednica prizna, postaju **nostitelji obveza**.
+Iz toga proizlazi i najkorisnija teza ovoga poglavlja za lingvistiku: jezik nije samo materijal na kojem se prepoznaju namjere; on je i materijal iz kojega se grade institucije. U terminima trećeg poglavlja: jezični obrasci nisu samo mreže iz kojih se izvlače pojmovi (→ pogl. 3.5), nego i mreže koje, kad ih zajednica prizna, postaju **nositelji obveza**.
 
 Uporabna gramatika (Hopper 1987; Goldberg 2006; Croft 2001) tu daje važan korektiv: i institucionalne formule su **naučene konstrukcije**, a ne izuzetak od pravila. Pravni jezik, formule izjava, obrasci ugovora — sve su to konstrukcije koje su se stabilizirale dugom uporabom i koje sada nose težinu koja iz njihove forme nije vidljiva. Kad se ta stabilnost prekine (npr. kad formula izgubi priznanje), **nestaje institucija, a jezik ostaje** — i to je jedan od najboljih pokazatelja da je razlika između razine 14 i 15 stvarna, a ne verbalna.
 
@@ -190,7 +190,7 @@ Ono što je dosad vrijedilo na razini pojma mora se sada pokazati na jednome dok
 - **Statusna funkcija** (Searle 1995; 2010): X broji kao Y unutar konteksta C. Razina 15 razlikuje se od 14 po tome što obvezu **brani** — postoji ovlaštenje, zapis i postupak osporavanja.
 - **Jezik je i institucijski materijal:** postoje izričaji koji djeluju, a ne opisuju; i oni su naučene konstrukcije (Hopper 1987; Goldberg 2006), pa nestankom priznanja nestaje institucija, a jezik ostaje.
 - **Kulturni model (16)** je razina **predaje** obrazaca, a ne učenja; ne postoji u pojedincu, nego u mreži koja ga predaje (Tomasello 2008; Elder-Vass 2010; Archer 1995; Sawyer 2005).
-- **Što se nalazi, a što ne:** sustavi modela djeluju na razinama 12–16 funkcionalno (identitet, interakcija, komunikacija, pravila, stilovi), ali **nisu** nostitelji priznate obveze ni predaje unutar zajednice.
+- **Što se nalazi, a što ne:** sustavi modela djeluju na razinama 12–16 funkcionalno (identitet, interakcija, komunikacija, pravila, stilovi), ali **nisu** nositelji priznate obveze ni predaje unutar zajednice.
 - **Razlučivanje razina je operativno:** ono odlučuje kome se što pripisuje. Miješanje razina proizvodi dvije jednako pogrešne tvrdnje — „AI je stekao namjeru" i „to je samo softver".
 
 ### Ključni pojmovi
