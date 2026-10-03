@@ -340,3 +340,37 @@ tako da ostanu unutar razmaka među kućicama.
 
 **Vrsta tvrdnje.** Slike **ne dodaju** nove tvrdnje: svaka kućica ponavlja ono što stoji u dodatku I,
 i to bez ijedne brojke i bez ijedne referencije (citiranje okvira ostaje na jednome mjestu — pogl. 2.1).
+
+## ZAPIS-006 — Stilski standard (Katičićev glas) i prvo poglavlje kao uzorak (30. 9. 2026.)
+
+Autor: „u prethodnoj knjizi vrlo veliki skok je bio kad sam tražio da se stil pisanja poveže sa
+Radoslav Katičić stilom" → standard se ovaj put **zapisuje i mjeri**, a ne izvodi jednokratno.
+
+- **`docs/STIL.md`** — standard proze: osam pravila (naglasak nosi sintaksa, ne masno slovo; rečenica
+  kao jedinica argumenta; umetak u zavisnoj surečenici, ne među crtama; popis samo kao aparat; čestice
+  rade posao; bez menadžerskoga registra; stega citata i brojki netaknuta; stil ne mijenja sadržaj),
+  tablica „što se dira / što se ne dira", pragovi i pet stvarnih primjera prije → poslije.
+- **`kod/check_stil.py`** — mjerni alat: gustoća podebljanoga, dužina rečenice, udio kratkih i dugih
+  rečenica, „upravo", čestični repertoar, klišejе, popisni redci, umetci među crtama; te
+  `--usporedi stara nova` koji dokazuje da citati, godine, brojke, naslovi i upute **nisu izgubljeni**.
+- **Poglavlje 1 prepričano** kao uzorak. Mjere prije → poslije:
+
+| mjera | prije | poslije | prag |
+|---|---|---|---|
+| podebljano (udio riječi) | 11,0 % | **0,6 %** | ≤ 10 % (cilj 5) |
+| „upravo" | 14,6 / 10.000 | **2,4 / 10.000** | ≤ 3 |
+| čestični repertoar (različitih) | 3 | **5** (dakle, pritom, tek, naime, usto) | ≥ 5 |
+| klišejе | 1 („u okviru") | **0** | ≤ 5 u knjizi |
+| umetci među crtama | 21,9 / 10.000 | **7,3 / 10.000** | iznimka |
+| srednja rečenica | 21,8 | 21,3 | 20–30 |
+| \<12 riječi / >40 riječi | 27,0 % / 7,8 % | 27,7 % / 6,8 % | ≥ 18 % / ≤ 14 % |
+
+- **Provjera istovjetnosti sadržaja** (`--usporedi`): citati (autor+godina) **33 → 33**, godine
+  **33 → 33**, brojke s jedinicom 1 → 1, upute (→) **13 → 13**; jedina razlika je **preimenovan
+  naslov 1.7** („Što razina NIJE" → „Što razina nije", u skladu sa standardom). Nijedan citat,
+  brojka ni uputa nije izgubljena.
+- **Ostale provjere nakon zahvata:** `check_lit` (544 jedinice / 1.072 citata), `check_fakti --strict`,
+  `check_cisto`, `check_links`, `check_refs` — svi prolaze.
+
+**Redoslijed ostaje obvezujući:** stilski prolaz → recenzije → lektura (lektura poslije stila, inače se
+plaća dvaput i potvrda pada). Sljedeće: poglavlja 2–16, jedno po jedno, uz mjerenje prije i poslije.

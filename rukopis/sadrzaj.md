@@ -14,7 +14,7 @@
   - 1.4 Vrijednost svojstva je uvijek relativna prema razini
   - 1.5 Hijerarhija razina: od biologije do ontologije
   - 1.6 Najozbiljniji prigovor: zar nije sve ipak samo fizika?
-  - 1.7 Što razina NIJE — i jedna vrlo recentna pouka iz AI-a
+  - 1.7 Što razina nije — i jedna recentna pouka iz područja umjetne inteligencije
   - 1.8 Kako ćemo postupati u ovoj knjizi
   - 1.9 Radni primjer: od svojstva do razine
 - **2. OMLCC: šesnaest razina ontološke složenosti**

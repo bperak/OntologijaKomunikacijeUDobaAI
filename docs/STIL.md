@@ -1,0 +1,93 @@
+# STIL — standard proze za knjigu „Razine i entiteti"
+
+**Zašto ovaj dokument postoji.** U prethodnoj je knjizi velik skok u kvaliteti došao kada je autor
+zatražio da se stil pisanja veže uz prozu **Radoslava Katičića** — hrvatsku znanstvenu prozu u kojoj
+**jasnoća nosi težinu**, a naglasak se postiže **sintaksom i redom riječi**, ne tipografijom. Taj je
+zahvat tada izveden jednokratno i nigdje nije zapisan, pa se ovdje **zapisuje kao standard** s mjerama,
+da bude ponovljiv — u ovoj knjizi, u sljedećima i kod vanjskoga lektora.
+
+Mjerni alat: `kod/check_stil.py`. Mjeri se **prije i poslije** svakoga zahvata.
+
+---
+
+## 1. Temeljna pravila
+
+1. **Naglasak nosi sintaksa.** Masno slovo je iznimka, ne navika. Podebljano se dopušta u: tezi
+   poglavlja (jedna rečenica), definicijskom citatu, zaglavljima tablica i naslovima aparata.
+   **Cilj: ispod 10 % riječi, poželjno oko 5 %.** (Stanje prije zahvata: **44,5 %**.)
+2. **Rečenica je jedinica argumenta.** Srednja dužina **20–30 riječi**, najmanje **18 %** rečenica kraćih
+   od 12 riječi i najviše **14 %** dužih od 40. Duga rečenica smije biti duga zbog **zavisnih surečenica**,
+   a ne zbog nizanja umetaka između dviju crta.
+3. **Umetak se ne piše crtama, nego zavisnom surečenicom.** Par crta (— … —) u sredini rečenice je
+   iznimka (do nekoliko puta u poglavlju), a ne ritam. Gdje umetak objašnjava, ide **naime**; gdje
+   suprotstavlja, ide **pak**; gdje dopunjuje, **usto** ili **pritom**.
+4. **Popis je aparat, ne proza.** Popisi i tablice dopušteni su za: kriterije i mjerila, postupke
+   (koraci), falsifikatore („Kako bismo znali da griješimo"), vježbe i rješenja, sažetak i ključne
+   pojmove. **Argument se piše tekućom rečenicom**; popis ne smije zamijeniti izlaganje.
+5. **Čestice rade posao.** Repertoar: *naime, dakle, pak, usto, pritom, otud, naprotiv, štoviše,
+   dakako, napose, zacijelo, tek*. Svaka se rabi **s mjerom** (orijentir: 1–3 pojavnice na 10.000
+   riječi). „**Upravo**" nije pojačalo — cilj **ispod 3 na 10.000** (stanje prije zahvata: 9,9).
+6. **Bez menadžerskoga i novinarskoga registra.** Zabranjeno: *implementirati, fokusirati se, adresirati*
+   (u engleskome smislu „rješavati pitanje"), *procesuirati, validirati, optimizirati, bazirano na,
+   feedback, trend, platforma* (kad nije naziv), *u okviru, u kontekstu, s ciljem, kroz prizmu, na kraju
+   krajeva, igra ključnu ulogu, neizostavan*. (Mjeri `check_stil.py`; iznimka: **adresiranje** kao
+   naziv razine 14 — to je termin, ne kliše.)
+7. **Stega citata i brojki ostaje netaknuta.** Tvrdnja + citat + izvor **u istoj rečenici**; brojka s
+   vrstom (mjereno · procjena · izvedeno). Stilski zahvat **ne dira** ni jedan citat, brojku, uputu
+   („→ pogl. X.Y"), naslov, potpis slike ni tablicu.
+8. **Stilski zahvat ne mijenja sadržaj.** Ne dodaje i ne oduzima tvrdnje. Ako se pri prepisivanju
+   izgubi ijedna tvrdnja, to je pogreška zahvata — i provjerava se **usporedbom citata i brojki**
+   prije i poslije (vidi §5).
+
+## 2. Što se dira, a što ne
+
+| dira se | ne dira se |
+|---|---|
+| sloj rečenice i odlomka | terminologija (*razina, entitet, adresiranje, holon*) |
+| gustoća podebljanoga | aparat (kriteriji, falsifikatori, vježbe, sažetak) |
+| umetci među crtama | citati, brojke, upute, naslovi, potpisi slika |
+| klišej i nominalne fraze | struktura poglavlja i redoslijed odjeljaka |
+| izbor čestica i veznika | popisi koji su doista aparat (koraci, mjerila) |
+
+## 3. Mjere (`kod/check_stil.py`)
+
+| mjera | prag |
+|---|---|
+| gustoća podebljanoga (udio riječi) | ≤ 10 % (cilj 5 %) |
+| srednja dužina rečenice | 20–30 riječi |
+| rečenice kraće od 12 riječi | ≥ 18 % |
+| rečenice duže od 40 riječi | ≤ 14 % |
+| „upravo" | ≤ 3 / 10.000 |
+| čestični repertoar (različitih čestica ≥ 0,5 / 10.000) | ≥ 5 |
+| klišeji i menadžerski registar (ukupno u knjizi) | ≤ 5 |
+| popisni redci (ukupno u knjizi) | ≤ 280 (stanje prije: 491) |
+
+## 4. Primjeri (iz poglavlja 1)
+
+| prije | poslije |
+|---|---|
+| „…počinje jednim gotovo banalnim uvidom: **postoje cjeline čije se ponašanje ne može pročitati iz popisa njihovih dijelova.**" | „…počinje jednim gotovo banalnim uvidom: postoje cjeline čije se ponašanje ne može pročitati iz popisa njihovih dijelova." |
+| „Ta arhitektura nije estetski ukras — ona je razlog zašto složeni sustavi uopće mogu nastati i opstati." | „Ta arhitektura nije estetski ukras, nego razlog zašto složeni sustavi uopće mogu nastati i opstati." |
+| „**Prvo**, razina nije klasa stvari, nego **klasa svojstava i relacija**." | „Najprije, razina nije klasa stvari, nego klasa svojstava i relacija." |
+| „Upravo zato Simonova „gotovo-razloživost" nije samo tehnički pojam…" | „Zato Simonova „gotovo-razloživost" nije samo tehnički pojam…" |
+| „…pa ostaje u okviru slabe emergencije…" | „…pa ostaje u domeni slabe emergencije…" |
+
+## 5. Kako se zahvat izvodi (i kako se provjerava)
+
+1. **Mjerenje prije:** `python3 kod/check_stil.py` — zapiši brojke za poglavlje.
+2. **Prepisivanje poglavlja** po pravilima §1; aparat (§4) ostaje, argument se piše u tekućoj prozi.
+3. **Provjera istovjetnosti sadržaja:** usporedba **skupova citata, brojki, naslova i uputa** prije i
+   poslije (skripta `kod/check_stil.py --usporedi stara.md nova.md`); ijedan izgubljen citat = zahvat se
+   vraća.
+4. **Mjerenje poslije:** `check_stil.py` + `check_lit.py` + `check_fakti.py --strict` + `check_cisto.py`
+   + `check_refs.py`.
+5. **Zapis:** brojke prije/poslije u `docs/ISPRAVKE.md` (ZAPIS).
+6. **Lektura dolazi poslije stilskoga zahvata** — inače se posao plaća dvaput, a potvrda o lekturi pada
+   na tekstu koji se poslije mijenja.
+
+## 6. Uzori za glas (radi provjere, ne za citiranje)
+
+Katičićev glas u ovome standardu znači: **tvrdnja se izriče pa dokazuje**; pojmovi se uvode prije
+uporabe; suprotstavljanje je izrečeno (*pak, naprotiv, štoviše*); objašnjenje je uvedeno (*naime*);
+posljedica je izvedena (*otud, dakle*); pojmovna razlika se ne izriče pridjevom, nego surečenicom.
+Ne oponaša se Katičićev predmet ni njegov rječnik — **preuzima se disciplina rečenice.**

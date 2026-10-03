@@ -125,6 +125,8 @@ python kod/izvuci_doktorat.py        # ponovno izvlačenje podataka iz doktorata
 | `rukopis/poglavlje-14.md` | ✅ prva radna verzija (6.470 riječi, razine 12–16 kod agenata: funkcionalno vs. intrinzično) |
 | `rukopis/poglavlje-15.md` | ✅ prva radna verzija (6.498 riječi, hoće li imati kulturu — prijenos, ne veličina) |
 | `rukopis/poglavlje-16.md` | ✅ prva radna verzija, završno (6.500 riječi, posljedice za lingvistiku + zbirna tablica „kako bismo znali da griješimo") |
+| `docs/STIL.md` | ✅ standard proze (Katičićev glas): 8 pravila, pragovi, primjeri prije → poslije |
+| `kod/check_stil.py` | ✅ mjerni alat za stil + `--usporedi` (dokaz da citati/brojke nisu izgubljeni) |
 | `rukopis/studije-slucaja/incidenti-2026.md` | ✅ studija slučaja (slučajevi A–F): zašto razlučivati razine — agentski incidenti 2026 i AI-tekst u političkim govorima |
 | `docs/ISPRAVKE.md` | ✅ evidencija ispravljenih javnih tvrdnji (ISPRAVAK-001/002/003) |
 | `doktorat-strah` (zaseban repo) | ✅ doktorski rad 2014. objavljen u otvorenom pristupu: https://github.com/bperak/doktorat-strah |
