@@ -25,10 +25,11 @@ RUKOPIS = os.path.join(KOR, "rukopis")
 TVRDNJA = re.compile(r"\b(mora|moraju|treba|trebaju|nikad|nikada|uvijek|jedino|jedini|jedina|nijedan|"
                      r"nijedno|nijedna|dakle|stoga|otud|time se|time je|zaključak je|pokazuje se|"
                      r"dokazuje)\b", re.I)
-OSLONAC = re.compile(r"\b(jer|zato što|zato|zbog|utoliko|ako|ukoliko|u slučaju|pod uvjetom|mjereno|"
+OSLONAC = re.compile(r"\b(jer|zato što|zato|zbog|utoliko|ako|ukoliko|u slučaju|pod uvjetom|inače|mjereno|"
                      r"procjena|procijenjeno|izvedeno|mjera|mjeril|test|podatak|podacima|korpus|brojka|"
-                     r"brojke|izvor|dokaz|rezultat|nalaz|pokus|eksperiment|anketa|prema|na temelju)\b", re.I)
-UPUTA = re.compile(r"→\s*(?:pogl\.|dodatk|Slika|Tablica)|\b[A-ZČĆŠĐŽ][a-zčćšđž]+\s+(?:i\s+sur\.\s+)?\d{4}|\(\d{4}\)")
+                     r"brojke|izvor|dokaz|rezultat|nalaz|pokus|eksperiment|anketa|prema|na temelju|slijedi|izlazi|proizlazi|otud|dakle)\b", re.I)
+UPUTA = re.compile(r"→\s*(?:pogl\.|dodatk|Slika|Tablica)|\b[A-ZČĆŠĐŽ][a-zčćšđž]+\s+(?:i\s+sur\.\s+)?\d{4}|"
+                   r"\(\d{4}[,)]|\b(?:19|20)\d{2}\.")
 
 
 def proza(t):
@@ -53,6 +54,8 @@ def recenice(t):
         rr = [r.strip() for r in re.split(r"(?<=[.!?])\s+", p) if r.strip()]
         for r in rr:
             if r.endswith(":") or len(r.split()) < 9:
+                continue
+            if ":" in r:          # dvotočka-objava: oslonac je u istoj rečenici, iza dvotočke
                 continue
             out.append((r, p))
     return out

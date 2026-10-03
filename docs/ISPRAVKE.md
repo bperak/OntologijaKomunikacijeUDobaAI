@@ -834,3 +834,29 @@ ponavljanje. To je prosudba, ne propust — zapisana ovdje.
 knjige, a njihovo očekivano stanje uključuje **dokumentirane iznimke** (13 u dodatku I, 1 u uvodu).
 Provjere: **24/24 meta-upute prolaze.**
 
+## ZAPIS-021 — Pregled tvrdnji: svih 40, jedna po jedna (3. 10. 2026.)
+
+**Povod (autor):** „Ajmo tvrdnje."
+
+**Postupak.** Uzeta je mjera `kod/check_iskazi.py` (tvrdnja bez oslonca) i **pregledano je svih 40
+nalaza pojedinačno**, s odlomkom kao kontekstom — ne rečenica izolirano. Zapisnik je predan autoru
+(`Tvrdnje-pregled.docx`).
+
+**Presude:**
+- **2 stvarne greške, popravljene u tekstu:**
+  1. pogl. 13 — eliptični fragment u nizu („Obveza bez nositelja **priznanjem i ovlaštenjem**") →
+     vraćen glagol: „Obveza bez nositelja **liječi se priznanjem i ovlaštenjem**";
+  2. pogl. 16 — treće lice za čitatelja („informacija koju **čitatelj** treba imati") → neosobno
+     („koju **valja imati**").
+- **38 oslonjenih**, razvrstano po vrsti oslonca: u istoj ili susjednoj rečenici **15** · u dvotočki
+  (objava) **13** · u citatu **2** · pokazivač/sažetak/opis scenarija **6** · metodička uputa **2**.
+
+**Mjera je pritom dopunjena** da prizna tri stvarne vrste oslonca koje prije nije vidjela: **dvotočka-objava**
+(oslonac iza dvotočke u istoj rečenici), **citat u prozi** („Anderson je 1972. godine…") i **izvođenje**
+(„slijedi", „izlazi", „proizlazi") te **uvjet** („inače"). Nijedna izmjena mjere nije napravljena zato da
+nešto prođe — svaka je popraćena primjerom iz teksta; to je i zapisano u skillu i u registru (MU-20 nosi
+status *ručni pregled*).
+
+**Stanje mjere nakon pregleda: 13** — sve su pokazivači, sažeci i opisi scenarija, pojedinačno obrazloženi
+u zapisniku.
+
