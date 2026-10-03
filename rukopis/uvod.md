@@ -1,16 +1,47 @@
 # Uvod
 
-> *Teza uvoda:* knjiga postavlja jedno pitanje koje se u raspravama o jeziku i umjetnoj inteligenciji obično preskače — **gdje to ontološki stoji?** — i nudi mjerljiv okvir za odgovor: ljestvicu od šesnaest razina i relacijske sheme kojima se svaka razina čita iz podataka.
+> *Teza uvoda:* u raspravama o jeziku i umjetnoj inteligenciji preskače se ono što bi ih učinilo odlučivima — **gdje to ontološki stoji?** Ova knjiga uzima to pitanje ozbiljno: nudi ljestvicu od šesnaest razina, relacijske sheme kojima se razina čita iz podataka, i pokazuje na kojem bi mjestu odgovor pao.
 
 ---
 
-## Zašto pitanje „gdje" nije akademsko
+## Pitanje koje se postavlja svakoga dana, a rijetko dobiva odgovor
 
-Kad se kaže da model „razumije", „komunicira" ili „stvara značenje", u toj tvrdnji stoji nešto što nije izrečeno: pretpostavka da postoji **ljestvica** na kojoj se takve pojave mogu smjestiti i da se zna na kojoj se od njezinih razina što zbiva. Ako ljestvica ne postoji, svaka je takva tvrdnja samo dojam; ako postoji, ali nije mjerljiva, tvrdnja je i dalje dojam — samo skuplji.
+Razgovor s modelom traje pet minuta i ostavlja dva dojma. Prvi je da je posao obavljen: tekst je napisan, sažetak je točan, kod se pokreće. Drugi je da je nešto ipak izostalo — da je odgovor došao prije pitanja, da je potvrda stigla bez provjere, da je suglasnost izrečena bez obveze. Oba dojma mogu biti točna, i u tome je nevolja: o njima se raspravlja kao o ukusu, a ne kao o nalazu.
 
-Ova knjiga polazi od najjednostavnijeg mogućeg stroja za takvo smještanje: **razina**. Razine su ovdje uzete ozbiljno, kao operativan okvir — skup definiranih pozicija s pripadnim **relacijskim shemama**, koje se na konkretnome slučaju moraju moći primijeniti tako da daju odgovor koji se može provjeriti. Pojmovi „sustav", „organizacija", „emergencija" i „razina" ovdje nisu metafore za „složeno" i „napredno" (→ pogl. 1), nego pojmovi s pravilom uporabe: svaki se, naime, veže uz vrstu relacije i uz vrstu mjere.
+U raspravi se zatim brzo pojave dvije tvrdnje. Prva kaže da je sve to **predviđanje sljedećeg tokena** i da tu nema ničega što bi zaslužilo ozbiljno ime. Druga kaže da sustav **razumije**, da **namjerava**, katkad i da je na pragu nečega većega. Tvrdnje izgledaju suprotno, a dijele istu prazninu: nijedna ne kaže **gdje** bi to svojstvo stajalo ni po čemu bi se vidjelo da ga ima. Zato se o njima ne može odlučiti, nego samo pregovarati. I zato rasprava ne završava nalazom, nego novim dojmom.
 
-Iz toga slijedi i ton knjige. Ona ne tvrdi da modeli razumiju, ni da ne razumiju. Tvrdi da se ta razlika **može** izraziti kao razlika u ispunjenosti uvjeta po razinama, i onda pokazuje kako to izgleda na jednome slučaju.
+Praktične odluke, dakako, ne čekaju taj ishod. O njima ovise pitanja koja se već postavljaju: što se smije pripisati kome kad stvar pođe po zlu, gdje prestaje pomoć, a počinje prepisivanje, što se traži od studenta koji se alatom služi, i što se uopće može zahtijevati od sustava koji odgovara umjesto čovjeka. Na sva ta pitanja odgovara se i bez okvira — samo se odgovor tada zove procjena, a ne nalaz.
+
+Ova knjiga ne pokušava presuditi razumije li model. Uzima dio tvrdnje koji se obično prešuti: da postoji **ljestvica** na kojoj se takve pojave mogu smjestiti i da se zna na kojoj se od njezinih razina što zbiva. Ako ljestvica ne postoji, svaka je takva tvrdnja samo dojam; ako postoji, ali nije mjerljiva, tvrdnja je i dalje dojam — samo skuplji. Zato se ovdje ne nudi novo mišljenje o modelima, nego **mjerilo** (→ pogl. 1).
+
+## Dva odgovora koja se ne mogu provjeriti
+
+Odbacivanje i napuhavanje imaju različite riječi, a isti nedostatak: nijedno ne imenuje **mjesto** na kojemu bi se tvrdnja provjerila. Iz toga slijede dvije jednako pogrešne rečenice, i to iz jednoga propusta: „sustav radi X, dakle sustav ima X" i „sustav nema X, dakle ne radi X" (→ pogl. 14.7). Prva pripisuje svojstvo na temelju ishoda, druga ga niječe na temelju podrijetla. Oba puta nedostaje isti korak: razlika između onoga što se vidi u zapisu i onoga što se nositelju pripisuje.
+
+Popravak zato nije treće mišljenje, nego dvije stvari: **mjesto** i **kriterij**. Mjesto je razina s pripadnom relacijskom shemom; kriterij je uvjet koji se na konkretnome slučaju može ispuniti ili ne ispuniti. Kad se to dvoje ima, ista se rasprava može voditi kao mjerenje — i može se izgubiti.
+
+## Kako izgleda odgovor koji se može provjeriti
+
+Pitanje se mijenja u četiri koraka. Umjesto „razumije li?", pita se: na **kojoj razini**, po **kojem uvjetu**, na **kojem zapisu** — i **što bi taj odgovor oborilo**. Evo kako to ispadne na materijalu koji postoji u svakoj arhivi razgovora, na transkriptu dijaloga sa sustavom (→ pogl. 13.5).
+
+| pitanje | gdje se gleda | što se broji | uvjet iz 7.5 |
+|---|---|---|---|
+| je li izričaj nekome upućen? | adresiranje | 2. lice, vokativ, ime zadatka („molim te, provjeri…") | 1 adresiranje |
+| je li namjera prepoznata? | izmjena i ispravak | referencija na prethodni doprinos i ispravak koji mijenja postupak | 2 prepoznata namjera |
+| postoji li nešto zajedničko? | artefakt | poruka, datoteka, stanje konteksta | 3 zajednički artefakt |
+| je li uporaba ustaljena? | ponavljanje u nizu | ustaljeni obrasci, niska varijabilnost | 4 konvencija |
+| je li što preuzeto? | formule preuzimanja | „ja sam rekao", „stojim za tim" | 5 obveza |
+
+Prva se četiri uvjeta daju izbrojiti; peti je u podacima najslabije pokriven (→ pogl. 7.9), i zato o njemu odlučuje teza knjige (→ pogl. 13.4). Kad se niz iz tablice provede na stvarnome transkriptu, odgovor ima oblik nalaza: razina 14 je **funkcionalno prisutna**, a **intrinzično nije**. Prvi dio znači da se sve što razina traži može pokazati u zapisu. Drugi znači da razinu ne nosi onaj koji je u njoj, nego da mu je pripisana izvana (→ pogl. 14.6). Nalaz je u cijelosti izveden u 13. i 14. poglavlju; ovdje stoji zato da se vidi njegov oblik prije nego što se u nj uloži čitanje.
+
+Takav odgovor može biti pogrešan, i u tome je njegova vrijednost. Ako se pokaže da se isti transkript jednako dobro čita na dvije razine, ili da se uvjet 5 nigdje ne može izbrojiti, nalaz pada (→ pogl. 16.5). Dojam se ne može oboriti; nalaz može.
+
+## Što čitatelj odatle dobiva
+
+- **Ime za mjesto.** Umjesto „napredno" ili „samo statistika", može se reći na kojoj razini teče koji nalaz i zašto (→ pogl. 2).
+- **Razliku koja čuva od dviju pogrešaka.** Ono što sustav radi i ono što mu se pripisuje nisu isto; ta se razlika zove **funkcionalno** nasuprot **intrinzično prisutnom** (→ pogl. 14).
+- **Postupak koji se izvodi na vlastitome materijalu.** Od rečenice do relacijske sheme, od pet uvjeta do brojanja, od testa spajanja do ocjene kriterija (→ pogl. 2.7, 7.9, 12.1).
+- **Mjesto na kojem bi tvrdnja pala.** Uz svaku tvrdnju stoji i rezultat koji bi je oborio (→ pogl. 16.5).
 
 ## Tri tvrdnje koje knjiga brani
 
@@ -20,7 +51,7 @@ Iz toga slijedi i ton knjige. Ona ne tvrdi da modeli razumiju, ni da ne razumiju
 
 3. Umjetna inteligencija nije sedamnaesta razina, nego **novi entitet** koji ulazi u postojeće razine — i time mijenja uvjete komunikacije: pojavljuje se novi tip sudionika, novi artefakti, nove konvencije i novi protokoli (→ pogl. 12, 13).
 
-Tvrdnja 3, naprotiv, ne niječe promjenu; ona je smješta. Novo je **gdje** se pojavljuje, a ne **koliko razina** ima.
+Tvrdnja 3, naprotiv, promjenu ne odbacuje; ona je smješta. Novo je **gdje** se pojavljuje, a ne **koliko razina** ima.
 
 ## Zašto ljestvica, a ne popis
 
@@ -45,12 +76,12 @@ Bez te razlike okvir proizvodi dvije jednako pogrešne tvrdnje iz istoga propust
 
 Četiri dijela, šesnaest poglavlja, jedan posao po dijelu:
 
-| dio | poglavlja | posao dijela |
-|---|---|---|
-| **I. Razine: okvir** | 1–4 | postaviti pojmove: sustav, emergencija, razina, OMLCC, metodologija |
-| **II. Komunikacija kao razina** | 5–8 | pokazati da je komunikacija razina, a ne alat; razina 14 kao nosivo mjesto |
-| **III. AI u sustavu** | 9–12 | od vektorskog prostora do modela i do novog entiteta; što model jest, a što nije |
-| **IV. Komunikacija s novim entitetom** | 13–16 | što se mijenja na razini 14; kultura; posljedice i falsifikacija |
+| dio | poglavlja | posao dijela | pitanje na koje dio odgovara |
+|---|---|---|---|
+| **I. Razine: okvir** | 1–4 | postaviti pojmove: sustav, emergencija, razina, OMLCC, metodologija | postoji li ljestvica i može li se uopće mjeriti? |
+| **II. Komunikacija kao razina** | 5–8 | pokazati da je komunikacija razina, a ne alat; razina 14 kao nosivo mjesto | je li komunikacija razina ili samo alat kojim se služimo? |
+| **III. AI u sustavu** | 9–12 | od vektorskog prostora do modela i do novog entiteta; što model jest, a što nije | što model jest kad ga se smjesti na ljestvicu? |
+| **IV. Komunikacija s novim entitetom** | 13–16 | što se mijenja na razini 14; kultura; posljedice i falsifikacija | što se mijenja kad u sustav uđe novi sudionik? |
 
 Poglavlja imaju isti oblik, i taj oblik je dio metode:
 

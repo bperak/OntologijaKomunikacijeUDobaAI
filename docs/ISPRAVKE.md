@@ -590,3 +590,34 @@ ispravljene i upute za razine 4–6 (→ 2.2.1, dodatak I.2) i razinu 9 (→ 2.2
 proširenje je moguće, ali samo ondje gdje posljedica nije općenita, da se ne uvede prazna proza);
 (b) oznaka praktikuma: u pogl. 4 sada je natuknica **Praktikum.** (usklađeno s pogl. 6, 9, 10, 12).
 
+## ZAPIS-014 — Uvod izgrađen od problema (3. 10. 2026.)
+
+**Povod (autor):** „Uzmimo uvod recimo... On nije nadahnjujući, ne uvlači u temu, prekriptično je,
+podrazumijeva da čitatelj želi nešto saznati o tome, ili kao da već zna ili razumije. Želim više
+problematizacije, presliku rješenja, motivacije i povezivanja na problem."
+
+**Dijagnoza staroga uvoda.** Otvarao je apstrakcijom o tvrdnji („u toj tvrdnji stoji nešto što nije
+izrečeno: pretpostavka da postoji ljestvica"), a ne situacijom u kojoj se čitatelj prepoznaje. Nije bilo
+problematizacije (zašto je rasprava nerješiva), ni preslike rješenja: čitatelj je do 7. poglavlja morao
+vjerovati da odgovor postoji, jer nije vidio kako uopće izgleda.
+
+**Što je učinjeno.** Prvi odjeljak zamijenjen je s četiri nova:
+1. **„Pitanje koje se postavlja svakoga dana, a rijetko dobiva odgovor"** — polazi od dva dojma iz
+   razgovora s modelom (posao obavljen / nešto izostalo), pa izvodi problem: dvije tvrdnje u optjecaju
+   („samo predviđanje" i „razumije") dijele istu prazninu — nijedna ne imenuje mjesto ni kriterij; i
+   povezuje ga s odlukama koje se već donose (pripisivanje, pomoć i prepisivanje, što se traži od
+   studenta).
+2. **„Dva odgovora koja se ne mogu provjeriti"** — odbacivanje i napuhavanje kao dvije pogrešne
+   rečenice iz jednoga propusta (→ 14.7); popravak nije treće mišljenje, nego mjesto i kriterij.
+3. **„Kako izgleda odgovor koji se može provjeriti"** — **preslika rješenja**: tablica s pet uvjeta iz
+   7.5 primijenjena na mjesta mjerenja u transkriptu (13.5) i nalaz u obliku u kojem ga knjiga izvodi
+   (14.6: *funkcionalno prisutno* za 12–14, *intrinzično ne*), uz izričito naveden uvjet pod kojim nalaz pada (16.5).
+4. **„Što čitatelj odatle dobiva"** — motivacija kao četiri stvari koje se mogu ponijeti.
+Uz to: **teza uvoda** preusmjerena s „okvira" na pitanje; naslov staroga prvog odjeljka („Zašto pitanje
+„gdje" nije akademsko") zamijenjen; u tablici dijelova dodan stupac **„pitanje na koje dio odgovara"**;
+ispravljeno dvostruko nijekanje („ne niječe" → „ne odbacuje").
+
+**Pravilo je nepromijenjeno:** svaka tvrdnja u novim odjeljcima stoji na građi koja je već u knjizi
+(7.5, 7.9, 13.4, 13.5, 14.6, 14.7, 16.5); **nijedna nova tvrdnja, izvor ni brojka**. Proza uvoda
+2.129 → 2.093 riječi po mjeri (podebljano 10,6 % · ≤8 14,8 % · čestice 5/12 · „upravo" 0 · šuplje 0).
+
