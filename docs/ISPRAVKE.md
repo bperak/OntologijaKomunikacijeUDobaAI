@@ -1080,3 +1080,19 @@ povezanošću** (0/0/0 → 5/8/7). Uz to je tvrdio da su upute „prenesene dosl
 je mjerljiv pomak koji vrijedi isprobati na našem tekstu; i bilješka o najvećem otporu (12.5: izvorni tekst
 miješa opis područja s ocjenom namjere sustava).
 
+## ZAPIS-029 — Priznata ovisnost o jednome izvoru (pogl. 13), 3. 10. 2026.
+
+Autor je odobrio jedinu stavku koja je iz vanjske recenzije prošla provjeru („Može", N1).
+
+**Zahvat:** u poglavlju 13, u odlomku koji navodi kampanju, dodane su dvije rečenice koje izričito kažu da
+**usklađenost u vremenu mjerena je u jednoj kampanji i objavljena iz jednoga izvora**, te da pregled od
+7 incidenata i 3 aktera **sliku širi, ali usklađenost ne mjeri**. Zaključak o razini 13 time stoji na
+onome što pokazuje ta jedna mjera.
+
+**Zašto tako, a ne drukčije.** Rečenice su sastavljene **iz dokaza u samome tekstu** (GreyNoise 2026 =
+mjera; Tenable 2026 = pregled; „~700 agenata" = procjena), a **ne iz formulacije modela**. Nalaz je prošao
+provjeru; formulacija nije preuzeta.
+
+**Mjere:** povezanost 0/13/0 · stil u granicama · floskule 0 · antiteza i konektor pod pragom ·
+`check_lit` · `check_fakti --strict` · `check_cisto` · `check_refs` ✔. Snimka obnovljena.
+
