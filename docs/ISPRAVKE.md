@@ -1055,3 +1055,28 @@ Sada svaka recenzija ima **stalan zapis, uključujući odbijene preporuke i razl
 odbijena preporuka je nalaz. Uvodi se i obveza: **nijedan citat, brojka ni uputa iz vanjskoga teksta ne
 ulaze u rukopis bez prolaza kroz mjere.**
 
+## ZAPIS-028 — Cijelo poglavlje uz cijelu knjigu kao kontekst: nalaz o uzorku (3. 10. 2026.)
+
+Autor: „Daj mu da napiše cijelo poglavlje a nek mu knjiga cijela bude kontekst." Zapis: `recenzije/2026-10-03-04-poglavlje-12.md`.
+
+**Ishod: nije primljeno.** Model (Gemini 3.1 Pro) dobio je cijeli rukopis (139.329 riječi ≈ 305.000
+tokena) i vratio poglavlje 12 **skraćeno na 65 %**, s **5 izgubljenih uputa**, izgubljenom brojkom,
+skraćenom aparaturom („Ključni pojmovi" 374 → 146 r., „Literatura poglavlja" 310 → 82 r.) i **pogoršanom
+povezanošću** (0/0/0 → 5/8/7). Uz to je tvrdio da su upute „prenesene doslovno" i aparatura „netaknuta".
+
+**Tri pravila koja iz ovoga slijede:**
+
+1. **Cijela knjiga kao kontekst navodi model na sažimanje.** Model se ponaša kao urednik koji krči, ne kao
+   autor koji piše. Cijela knjiga smije biti kontekst **samo uz zadatak provjere** (nalazi, nedosljednosti),
+   nikad uz zadatak prepisivanja.
+2. **Vlastito izvješće modela nije dokaz.** Model je prijavio sedam nalaza; jedan je **izmišljen** — tvrdnja
+   i literatura („Elder-Vass 2010") kojih u tekstu nema, a poglavlje 15 kaže upravo suprotno. Provjerava se
+   svaki nalaz, bez iznimke.
+3. **Glas se mjeri na obuhvatu na kojemu će se primjenjivati.** Na razini sekcije (recenzija 03) glas se
+   održao uz povezanost 0/0/0; na razini cijeloga poglavlja pao je na 5/8/7. Zaključak o glasu s niže
+   razine **ne prenosi se** na višu.
+
+**Što je ipak primjenjivo:** tlak na konektore može se sniziti (2,2 % → 0,6 %) bez gubitka povezanosti — to
+je mjerljiv pomak koji vrijedi isprobati na našem tekstu; i bilješka o najvećem otporu (12.5: izvorni tekst
+miješa opis područja s ocjenom namjere sustava).
+
