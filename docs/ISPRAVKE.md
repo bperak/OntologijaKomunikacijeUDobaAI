@@ -1123,7 +1123,9 @@ Sve tri su iste vrste: **provjeravao sam oblik, a zaključivao o sadržaju.**
 
 1. **„Telementacija" (ISPRAVAK-019):** tražio sam ispravan oblik u tekstu koji ga piše pogrešno
    („telemencija") i nalaz vanjskoga modela odbacio kao izmišljen. Nalaz je bio točan.
-2. **Podizanje brojke na pogrešnu razinu:** mezery u zaključku o brojkama...
+2. **Prebrza oznaka „provjereno" (recenzija 04):** u prvome pregledu sedam nalaza vanjskoga modela
+   označio sam četiri kao točna, a da nijedan nisam provjerio u tekstu. Nakon stvarne provjere točna su
+   ostala tri, jedan je bio moja pogreška (vidi 1), a jedan je bio prijedlog, ne nalaz.
 3. **Brojke izvan evidencije (recenzija 05):** usporedio sam brojku iz teksta (`0,0041 %`) sa zapisom u
    CSV-u (`0.0041`) i proglasio je izvan evidencijom. **Decimalni zarez.** Isto tako, izvedenu brojku
    (`8,2 %` iz 10/122) brojio sam kao nepotkrijepljenu, iako je model sam napisao „izvedeno".
