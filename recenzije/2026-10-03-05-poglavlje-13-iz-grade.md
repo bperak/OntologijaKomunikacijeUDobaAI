@@ -45,10 +45,11 @@ zadana struktura (13.1–13.6 + praktikum + vježbe + falsifikatori + sažetak +
 | povezanost (naslanjanje/paradigmatski/predaja) | 0 | **3/5/3** |
 | tvrdnje bez oslonca | 0 | 1 |
 
-**Dvije brojke izvan evidencije:** `0,0041 %` (Pangram Labs 2026) i `8,2 %` (izvedeno iz 10 od 122 pokretanja,
-Nature Machine Intelligence 2026). Izvori su **u bazi referenci**, ali **brojke nisu u `data/fakti.csv`** —
-dakle upotrebljive su samo kao tvrdnje tuđih izvora, ne kao naši podaci. To je točno ono što naše pravilo
-zabranjuje.
+**Brojke — moja provjera je bila pogrešna, ovo je ispravljeno.** Prvo sam prijavio da dvije brojke nisu u
+evidenciji. **Jesu.** `0,0041 %` (Pangram Labs 2026) u CSV-u stoji kao `0.0041` — razlika je samo decimalni
+zapis; `8,2 %` je izvedeno iz dviju zapisanih mjera (10 od 122 pokretanja, Nature Machine Intelligence 2026)
+i model ga je **sam označio kao „izvedeno iz tih mjerenja"**. Dakle poštovano je i pravilo o brojkama, ne
+samo pravilo o citatima. **Lekcija: brojke se uspoređuju po vrijednosti, ne po zapisu.**
 
 ## 4. Kimi K3 — dva pokušaja, oba pala tehnički
 

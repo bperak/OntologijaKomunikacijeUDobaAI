@@ -1117,3 +1117,24 @@ preuzetu riječ. Zato tipfeler i stoji neprimijećen kroz sve dosadašnje prolaz
 
 **Status:** čeka autorovu odluku (prijedlog N1); nije primijenjeno.
 
+## ZAPIS-031 — Tri moje pogreške u provjeri u jednome danu (3. 10. 2026.)
+
+Sve tri su iste vrste: **provjeravao sam oblik, a zaključivao o sadržaju.**
+
+1. **„Telementacija" (ISPRAVAK-019):** tražio sam ispravan oblik u tekstu koji ga piše pogrešno
+   („telemencija") i nalaz vanjskoga modela odbacio kao izmišljen. Nalaz je bio točan.
+2. **Podizanje brojke na pogrešnu razinu:** mezery u zaključku o brojkama...
+3. **Brojke izvan evidencije (recenzija 05):** usporedio sam brojku iz teksta (`0,0041 %`) sa zapisom u
+   CSV-u (`0.0041`) i proglasio je izvan evidencijom. **Decimalni zarez.** Isto tako, izvedenu brojku
+   (`8,2 %` iz 10/122) brojio sam kao nepotkrijepljenu, iako je model sam napisao „izvedeno".
+
+**Pravila koja sada vrijede (upisana u skill `external-model-review`):**
+
+- **Provjera ide po korijenu riječi i pojmu, ne po jednome obliku.** Drugi oblik pojma u tekstu koji ga piše
+  pogrešno nije dokaz da pojma nema, nego kandidat za naš tipfeler.
+- **Brojke se uspoređuju po vrijednosti, ne po zapisu** (decimalni zarez, tisućice, jedinice uz broj).
+  Prije nego se nešto proglasi izvan evidencije, normaliziraj zapis i provjeri je li **izvedeno** iz
+  zapisanih mjera.
+- **Prije nego se nalaz proglasi lažnim, provjeri vlastitu mjeru** — u tri slučaja pogriješila je mjera, a
+  ne nalaz.
+
