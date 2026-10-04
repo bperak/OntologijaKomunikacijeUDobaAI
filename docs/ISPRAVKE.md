@@ -1096,3 +1096,24 @@ provjeru; formulacija nije preuzeta.
 **Mjere:** povezanost 0/13/0 · stil u granicama · floskule 0 · antiteza i konektor pod pragom ·
 `check_lit` · `check_fakti --strict` · `check_cisto` · `check_refs` ✔. Snimka obnovljena.
 
+## ISPRAVAK-019 — „telemencija" → „telementacija" (3. 10. 2026.) · ZAPIS-030
+
+**Nalaz.** Knjiga na **6 mjesta u 4 datoteke** (pogl. 3, 5, 13, 16) rabi oblik **„telemencija"** za Harrisov
+pojam *telementation*. Ispravan hrvatski oblik je **„telementacija"**. Pojam je uveden u pogl. 5 („predložio
+naziv **telemencija**") i stoji u ključnim pojmovima pogl. 5 i u tablici pogl. 16 — dakle vidio bi se u tisku
+i u kazalu.
+
+**Kako je nađen — i zašto je važno.** Vanjski model (Gemini 3.1 Pro) rabio je u svojemu tekstu ispravan oblik
+*telementacija*. Kad sam njegov nalaz provjeravao, tražio sam **„telementacij"** i našao 0 pojava, pa sam nalaz
+**odbacio kao izmišljen**. Pogreška je bila **moja**: tražio sam ispravan oblik u tekstu koji ga piše pogrešno.
+Nalaz je bio točan; oblik je naš tipfeler. Zapis recenzije 04 ispravljen (red 2, zbroj).
+
+**Pravilo koje iz toga slijedi:** kad model rabi **drugi oblik** pojma koji postoji u tekstu, to nije dokaz da
+pojma nema — nego **kandidat za pravopisnu pogrešku u našemu tekstu**. Provjera ide po **korijenu riječi** i po
+**pojmu**, ne po jednome obliku.
+
+**Mjere koje ovo hvataju:** nijedna. `check_cisto` hvata homoglife i miješano nazivlje, ali ne i krivo
+preuzetu riječ. Zato tipfeler i stoji neprimijećen kroz sve dosadašnje prolaze (kao i „nostitelj", ISPRAVAK-018).
+
+**Status:** čeka autorovu odluku (prijedlog N1); nije primijenjeno.
+
