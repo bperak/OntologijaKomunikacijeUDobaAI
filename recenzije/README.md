@@ -16,6 +16,15 @@ Svaki zapis ima šest dijelova, istim redom:
 5. **Odluka** — je li primljeno, djelomično primljeno ili odbijeno, i **zašto**.
 6. **Nalazi koje je model prijavio** — i što je od toga provjereno.
 
+## Tvrdi prag provjere (autor, 3. 10. 2026.: „Nemoj uzimati neprovjereno")
+
+- Nalaz vanjskoga modela dobiva oznaku **provjereno** samo uz **navod iz samoga teksta** (rečenica i
+  poglavlje) ili zapis iz `data/fakti.csv`. **Bez navoda nema oznake.**
+- Nalaz se provjerava **u cijelome rukopisu**, ne samo u poglavlju na koje model upućuje — model poglavlja
+  pripisuje pogrešno (dva puta u jednome zapisu).
+- Vlastito izvješće modela **nije dokaz**; ni tvrdnja „preneseno doslovno", ni „aparatura netaknuta".
+- Prijedlog („ovo bi trebalo razlučiti") nije nalaz. Prijedlozi se vode odvojeno i traže autorovu odluku.
+
 ## Zašto tako
 
 Model može napisati bolju rečenicu, ali ne smije nositi nijednu neprovjerenu tvrdnju. Zato se **nijedan
