@@ -1038,3 +1038,20 @@ i antiteza i povezanost ostaju u granicama. To je sada pravilo: kad se popravlja
 
 **Mjere predgovora:** povezanost **0/0/0**, stil u granicama, antiteza i konektor ispod praga. Snimka obnovljena.
 
+## ZAPIS-027 — Vanjske recenzije dobivaju vlastite zapise (3. 10. 2026.)
+
+**Povod (autor):** „Nek se zabilježi kao poseban md."
+
+**Učinjeno.** Otvoren je `recenzije/` s pravilom zapisa (`recenzije/README.md`): **svaka vanjska recenzija
+u svojoj datoteci**, sa šest dijelova — zadatak · kontekst · način provjere · rezultat · odluka · nalazi
+koje je model prijavio. Vraćeni tekstovi i doslovni upiti idu u `recenzije/prilozi/`, da zapis ne visi o
+`/tmp`.
+
+**Zapisano dosad:** 01 uvod · 02 predgovor · 03 tri nosive sekcije (12.3, 13.1, 16.2) · 04 cijelo
+poglavlje 12 uz cijelu knjigu kao kontekst (**u tijeku** — prazna polja se ne popunjavaju unaprijed).
+
+**Zašto je to važno.** Dosad su nalazi vanjskih modela živjeli u `/tmp` i u ovoj sesiji; time bi nestali.
+Sada svaka recenzija ima **stalan zapis, uključujući odbijene preporuke i razlog odbijanja** — jer i
+odbijena preporuka je nalaz. Uvodi se i obveza: **nijedan citat, brojka ni uputa iz vanjskoga teksta ne
+ulaze u rukopis bez prolaza kroz mjere.**
+
