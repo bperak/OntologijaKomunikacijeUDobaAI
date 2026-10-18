@@ -1140,3 +1140,22 @@ Sve tri su iste vrste: **provjeravao sam oblik, a zaključivao o sadržaju.**
 - **Prije nego se nalaz proglasi lažnim, provjeri vlastitu mjeru** — u tri slučaja pogriješila je mjera, a
   ne nalaz.
 
+## ZAPIS-032 — Cammarata 2026 uvršten u bazu referenci (18. 10. 2026.)
+
+Autor: „Stavi u reference."
+
+**Učinjeno.** `referencije/REFERENCE_BASE.md`, odjeljak **G (2024–2026 — mjerenja, interpretabilnost, agenti)**
+dobio je unos **Cammarata, N. (2026). Neural Networks Are Already Clean** (Goodfire, 15. 10. 2026.,
+`https://already-clean.goodfire.com/`), sa sažetkom tvrdnji, brojkama (99–100 % zadnjega sloja na 300×
+rasponu; Qwen3-32B ~90/7/2–4 %), **autorovim ogradama** („working hypothesis", „maybe 85% sure", „no proof")
+i **Nandinom kritikom** (superpozicija još stoji; prijenos sa slikovnih na jezične modele nije dokazan;
+„monosemantičnost" preširoko definirana; spor je dijelom pojmovan). Status ✅ (naslov, autor, datum i URL
+provjereni), oznaka: *nije još citirano*.
+
+**Provjere:** `check_lit` ✔ (svi citati imaju izvor, svi popisi odgovaraju tekstu) · `check_fakti --strict` ✔ ·
+`check_cisto` ✔.
+
+**Napomena o datumu (ispravljeno prije zapisa).** Sesijski sat pokazivao je 3. 10. 2026., a **vanjski HTTP
+`Date` na 18. 10. 2026. 21:46 UTC**. Zapisni datumi u ovome danu nose sesijski žig; novi unosi idu po
+**provjerenom** datumu. Pravilo ostaje: datum se provjerava izvana, nikad iz spremnika.
+

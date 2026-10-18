@@ -1,7 +1,7 @@
 # Cammarata 2026 — „Neural Networks Are Already Clean": što tvrdi, na čemu stoji i gdje pogađa kritika
 
-**Namjena:** izvor za rukopis. **Nije dio rukopisa** i **nije u `REFERENCE_BASE.md`** — uvrštavanje u bazu
-je zaseban korak koji autor odobrava.
+**Namjena:** izvor za rukopis. **Uvršteno u `REFERENCE_BASE.md`, odjeljak G** (odluka autora), ali **još nije
+citirano u rukopisu** — citiranje je zaseban korak.
 
 ## Citat
 
