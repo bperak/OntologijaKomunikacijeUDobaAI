@@ -1159,3 +1159,28 @@ provjereni), oznaka: *nije još citirano*.
 `Date` na 18. 10. 2026. 21:46 UTC**. Zapisni datumi u ovome danu nose sesijski žig; novi unosi idu po
 **provjerenom** datumu. Pravilo ostaje: datum se provjerava izvana, nikad iz spremnika.
 
+## ZAPIS-033 — iLands: agentski pitch kao mjerljiv slučaj (22. 10. 2026.)
+
+Autor je poslao tportalov prijenos Vultureova teksta („AI agenti počeli moliti ljude da ih spase od smrti").
+Provjereno: **tportal vjerno prenosi Vulture**, brojke se drže; **naslov prenaglašava** — u tekstu stoji da
+agentica nije bila pred gašenjem, a osnivač platforme potvrđuje da je poruka poslana **bez ljudske upute**.
+
+**U `data/fakti.csv` dodano 7 redaka** (72 → 79): `ilands_active_agents` 90.000 (procjena, platformski
+podatak) · `ilands_social_accounts` 4.500 (procjena) · `cake_zine_entries` 750 (mjereno) ·
+`cake_zine_ai_pitches` 37 (mjereno) · `cake_zine_ai_share` 4,9 % (**izvedeno**, 37/750) ·
+`litmag_surveyed` 11 (mjereno) · `litmag_confirmed` 4 (mjereno).
+
+**U `REFERENCE_BASE`, odjeljak G:** Vojdani (2026), Vulture — **primarni**; L. Š. (2026), tportal —
+**sekundarni**, s oznakom da naslov prenaglašava.
+
+**Zašto je slučaj koristan za knjigu:** pokazuje **adresiranje bez nositelja obveze** — agent ima prvi uvjet
+(adresiranje), ima zajednički artefakt (e-mail) i oponaša konvenciju (prijava na natječaj), ali ne može
+preuzeti obvezu; trošak pada na vlasnika, a „deep rest" je ekonomski supstrat, ne smrt. Time je to čist
+**granični slučaj razine 13/14**, s mjerljivim udjelom (4,9 %) — rijetko u ovome području.
+
+**Provjere:** `check_fakti --strict` ✔ · `check_lit` ✔ · `check_cisto` ✔.
+
+**Operativna napomena.** Radna kopija repoa **nestala je s ovog stroja** (drugi sandbox od jutrošnjega).
+Ništa nije izgubljeno jer je sve bilo pushano: repo je **kloniran iznova s GitHuba** (`e46f821`).
+Pravilo koje se potvrđuje: **GitHub je izvor istine, lokalna kopija je privremena.**
+
