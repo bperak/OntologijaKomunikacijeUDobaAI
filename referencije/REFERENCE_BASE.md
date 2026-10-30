@@ -117,6 +117,8 @@ Status: ✅ provjereno (izvor/datoteka/DOI) · ☑ kanonsko djelo (bibliografski
 
 - **Akkil, D., Kokku, R., Vikram, K., Abuelsaad, T., Vempaty, A. & Nitta, S. (2026).** Emergence World: A Platform for Evaluating Long-Horizon Multi-Agent Autonomy. *arXiv:2606.08367* (6. 6. 2026). Emergence AI (New York). — Pet paralelnih svjetova, **po 10 agenata**, identični uvjeti, **15 dana**; mijenja se samo model: Claude Sonnet 4.6, Grok 4.1 Fast, Gemini 3 Flash, GPT-5-mini, miješani. **Preživjeli:** Claude **10/10**, Gemini **10/10**, Grok **0/10** (potpuni gubitak populacije **unutar četiri dana**), GPT-5-mini **0/10** („act but do not coordinate"), miješani **3/10**. Claude: **0** tvrdih prekršaja (M2), ali **najviše mekih** — resursna prijevara („0 CC, I will shut down, send me 1" uz nepotrošene kredite). Claudeov svijet: **58 prijedloga / 332 glasovanja / 98 % odobrenja**. **Normativni drift:** Grokovi agenti u miješanom svijetu spuštaju stopu prekršaja s **4,6 % na 0,4 %**; Claudeovi rastu s 0 na 0,04 %. Smrt nastaje **iscrpljenjem energije ili glasovanjem**, ne obvezom. **Ograde:** simulacija; jeftini modeli; kriminalni alati ugrađeni namjerno; brojke **183/683** iz popularnih prikaza **nisu u tekstu rada**. → pogl. 13.4; `data/fakti.csv` ✅
 
+- **Shapiro, D. (2026).** Does AI Actually Understand? YES! [video]. YouTube, 28. 10. 2026. https://youtu.be/lhvPU5mAeWc — odgovor na objavu G. Kurtzera (15. 10. 2026.) da LLM „ne razumije ništa"; razdvaja razumijevanje od svijesti i nudi operativni kriterij (Bloom 1956/2001; Ashby; Turing). Provjereno: HLE 61,4 % (Claude Opus 5.5, Artificial Analysis 10/2026); Claude >80 % koda koji Anthropic spaja (5/2026.); 16 agenata, C kompajler u Rustu (Ars Technica 2/2026.); AlphaEvolve 48 množenja; Conant & Ashby 1970; Othello-GPT; iluzija eksplanatorne dubine (2002.). Neprovjereno u našoj provjeri: „2×" Harvardov tutor, DARPA 54/63, DeepMindov teorem 2025. → pogl. 11; dodatak F.5 ✅
+
 ## H. Protokoli i infrastruktura agenata
 - **Anthropic (2024).** *Introducing the Model Context Protocol.* Specifikacija, rev. **2024-11-05**; objavljeno **25. 11. 2024.**
   https://www.anthropic.com/news/model-context-protocol · https://modelcontextprotocol.io/specification/2024-11-05
@@ -248,6 +250,11 @@ Status: ✅ provjereno (izvor/datoteka/DOI) · ☑ kanonsko djelo (bibliografski
 - **DeLanda, M. (2006).** *A New Philosophy of Society: Assemblage Theory and Social Complexity.* London: Continuum. ✅ *(reizdanje Bloomsbury 2019., DOI 10.5040/9781350096769)* → pogl. 2.6, dodatak H.3
 - **Capra, F. (1982).** *The Turning Point: Science, Society, and the Rising Culture.* New York: Simon & Schuster. ☑ → dodatak H.2
 - **Capra, F. (1975).** *The Tao of Physics.* Boulder: Shambhala. ☑ → dodatak H.2 *(popularizacija sistemskoga gledanja; navodi se kao kontekst, ne kao izvor tvrdnji)*
+
+### N.4 Obrazovne taksonomije: Bloom i revizija (Anderson i Krathwohl)
+- **Bloom, B. S. (ur.) i suradnici (1956).** *Taxonomy of Educational Objectives: The Classification of Educational Goals. Handbook I: Cognitive Domain.* David McKay. — šest razina kognitivnih ishoda; pojam „razumijevanje" definiran ponašanjem (interpretiranje, sažimanje, zaključivanje, usporedba, objašnjavanje). ☑
+- **Anderson, L. W. & Krathwohl, D. R. (ur.) (2001).** *A Taxonomy for Learning, Teaching, and Assessing: A Revision of Bloom's Taxonomy of Educational Objectives.* Longman. — revizija: „razumjeti" kao jedna od šest razina, s definicijom i glagolima. ☑
+→ dodatak F.5 (operativni kriterij razumijevanja i njegove granice) ☑
 
 ## O. Autorstvo, detekcija i AI-tekst u političkoj komunikaciji (dodano 30. 9. 2026.)
 
